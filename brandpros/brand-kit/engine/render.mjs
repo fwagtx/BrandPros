@@ -30,10 +30,13 @@ await page.evaluate(() => window.ready);
 if (ONLY !== "video") {
   const founders = await page.evaluate(() => BP.FOUNDER_ORDER.map((id) => "founder-" + id));
   fs.mkdirSync(path.join(exportsDir, "founders"), { recursive: true });
-  for (const name of ["avatar", "seal", "wordmark", "wordmark-light", "mascot", "banner", "thumbA", "thumbB", "cast", ...founders]) {
+  const logoNames = await page.evaluate(() => ["logo-compare", ...BP.LOGO_ORDER.map((id) => "logo-board-" + id)]);
+  fs.mkdirSync(path.join(exportsDir, "logo-options"), { recursive: true });
+  for (const name of [...logoNames, "avatar", "seal", "wordmark", "wordmark-light", "mascot", "banner", "thumbA", "thumbB", "cast", ...founders]) {
     const [w, h] = await page.evaluate((n) => window.renderAsset(n), name);
     await page.setViewportSize({ width: w, height: h });
-    const base = name.startsWith("founder-") ? path.join(exportsDir, "founders", name.slice(8)) : path.join(exportsDir, name);
+    const base = name.startsWith("founder-") ? path.join(exportsDir, "founders", name.slice(8))
+      : name.startsWith("logo-") ? path.join(exportsDir, "logo-options", name.slice(5)) : path.join(exportsDir, name);
     await page.screenshot({ path: `${base}.png`, clip: { x: 0, y: 0, width: w, height: h } });
     const svg = await page.evaluate(() => document.querySelector("#stage").innerHTML);
     fs.writeFileSync(`${base}.svg`, svg);

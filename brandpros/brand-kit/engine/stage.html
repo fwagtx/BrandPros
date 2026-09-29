@@ -10,6 +10,11 @@
   @font-face { font-family: "Inter"; font-weight: 800; src: url(../fonts/Inter-ExtraBold.ttf) format("truetype"); font-display: block; }
   @font-face { font-family: "DM Serif Display"; src: url(../fonts/DMSerifDisplay-Regular.ttf) format("truetype"); font-display: block; }
   @font-face { font-family: "DM Serif Display"; font-style: italic; src: url(../fonts/DMSerifDisplay-Italic.ttf) format("truetype"); font-display: block; }
+  @font-face { font-family: "Archivo Black"; src: url(../fonts/Archivo-Black.ttf) format("truetype"); font-display: block; }
+  @font-face { font-family: "Instrument Serif"; src: url(../fonts/InstrumentSerif-Regular.ttf) format("truetype"); font-display: block; }
+  @font-face { font-family: "Instrument Serif"; font-style: italic; src: url(../fonts/InstrumentSerif-Italic.ttf) format("truetype"); font-display: block; }
+  @font-face { font-family: "Abril Fatface"; src: url(../fonts/AbrilFatface-Regular.ttf) format("truetype"); font-display: block; }
+  @font-face { font-family: "Libre Baskerville"; font-weight: 700; src: url(../fonts/LibreBaskerville-Bold.ttf) format("truetype"); font-display: block; }
   @font-face { font-family: "Permanent Marker"; src: url(../fonts/PermanentMarker-Regular.ttf) format("truetype"); font-display: block; }
   html, body { margin: 0; background: #0E1A2B; }
   #stage { width: 1080px; height: 1920px; overflow: hidden; }
@@ -20,6 +25,7 @@
 <div id="stage"></div>
 <script src="bp-engine.js"></script>
 <script src="founders.js"></script>
+<script src="logos.js"></script>
 <script>
   // Render modes: ?asset=avatar|wordmark|wordmark-light|mascot|banner|thumbA|thumbB  or frames of S01 via window.renderAt(t)
   const stage = document.getElementById("stage");
@@ -36,6 +42,8 @@
     cast: [2100, 1350, () => BP.castSheet()],
   };
   window.renderAt = (t) => { stage.innerHTML = BP.frameS01(t); };
+  assets["logo-compare"] = [2000, 1370, () => BP.logoCompare()];
+  BP.LOGO_ORDER.forEach((id) => { assets["logo-board-" + id] = [1600, 900, () => BP.logoBoard(id)]; });
   BP.FOUNDER_ORDER.forEach((id) => { assets["founder-" + id] = [800, 1000, () => BP.founderCard(id)]; });
   window.renderAsset = (name) => {
     const [w, h, fn] = assets[name];
@@ -46,7 +54,7 @@
   window.duration = BP.S01.duration;
   window.ready = Promise.all([
     document.fonts.load("100px Anton"), document.fonts.load("800 60px Inter"),
-    document.fonts.load("600 60px Inter"), document.fonts.load("60px 'DM Serif Display'"), document.fonts.load("italic 60px 'DM Serif Display'"), document.fonts.load("40px 'Permanent Marker'"),
+    document.fonts.load("600 60px Inter"), document.fonts.load("60px 'DM Serif Display'"), document.fonts.load("italic 60px 'DM Serif Display'"), document.fonts.load("40px 'Permanent Marker'"), document.fonts.load("60px 'Archivo Black'"), document.fonts.load("60px 'Instrument Serif'"), document.fonts.load("italic 60px 'Instrument Serif'"), document.fonts.load("60px 'Abril Fatface'"), document.fonts.load("700 60px 'Libre Baskerville'"),
   ]).then(() => document.fonts.ready);
   if (q.get("asset")) window.renderAsset(q.get("asset")); else window.renderAt(Number(q.get("t") || 1));
 </script>
