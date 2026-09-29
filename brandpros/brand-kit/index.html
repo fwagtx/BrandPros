@@ -1,0 +1,376 @@
+<title>BrandPros Brand Kit</title>
+<style>
+  @font-face { font-family: "Anton"; src: url(fonts/Anton-Regular.ttf) format("truetype"); font-display: swap; }
+  @font-face { font-family: "Inter"; font-weight: 400; src: url(fonts/Inter-Regular.ttf) format("truetype"); font-display: swap; }
+  @font-face { font-family: "Inter"; font-weight: 600; src: url(fonts/Inter-SemiBold.ttf) format("truetype"); font-display: swap; }
+  @font-face { font-family: "Inter"; font-weight: 800; src: url(fonts/Inter-ExtraBold.ttf) format("truetype"); font-display: swap; }
+  @font-face { font-family: "DM Serif Display"; src: url(fonts/DMSerifDisplay-Regular.ttf) format("truetype"); font-display: swap; }
+  /* Layout: a single navy "boardroom" page; each section is a ledger entry with a label column and a work area. */
+  :root {
+    --bg: #0E1A2B; --bg-2: #14233A; --panel: #1B2C45; --line: #2A3F5E;
+    --fg: #F5EFE0; --muted: #A9B3C4; --gold: #F4B942; --red: #E63946; --green: #2BB673;
+    --cream: #F5EFE0; --navy: #0E1A2B;
+    --f-display: "Anton", "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+    --f-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+    --f-serif: "DM Serif Display", Georgia, serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--fg); font-family: var(--f-body); font-size: 16px; line-height: 1.55; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 32px 80px; }
+  h1, h2, h3 { text-wrap: balance; margin: 0; }
+  a { color: var(--gold); }
+  :focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+  /* masthead */
+  .mast { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center; padding-block: 12px 36px; border-bottom: 2px solid var(--line); }
+  .mast svg { width: 150px; height: auto; display: block; }
+  .mast h1 { font-family: var(--f-display); font-weight: 400; font-size: clamp(48px, 8vw, 96px); line-height: 0.95; letter-spacing: 0.5px; }
+  .mast h1 span { color: var(--gold); }
+  .mast p { margin: 10px 0 0; color: var(--muted); max-width: 60ch; }
+  .kicker { font-size: 12px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold); }
+
+  section { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 32px; padding-block: 44px; border-bottom: 1px solid var(--line); }
+  section > header h2 { font-family: var(--f-display); font-weight: 400; font-size: 34px; line-height: 1.05; letter-spacing: 0.3px; }
+  section > header p { color: var(--muted); font-size: 14px; margin: 8px 0 0; }
+  @media (max-width: 820px) { section { grid-template-columns: 1fr; gap: 18px; } .mast { grid-template-columns: 1fr; } }
+
+  /* player */
+  .player { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 32px; align-items: start; }
+  @media (max-width: 900px) { .player { grid-template-columns: 1fr; } }
+  .phone { position: relative; width: 100%; max-width: 360px; aspect-ratio: 9 / 16; border-radius: 34px; border: 10px solid #05090F; background: #000; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
+  .phone svg { width: 100%; height: 100%; display: block; }
+  .phone .ui { position: absolute; right: 10px; bottom: 90px; display: grid; gap: 14px; pointer-events: none; }
+  .phone .ui i { width: 30px; height: 30px; border-radius: 50%; background: rgba(255,255,255,.22); display: block; }
+  .phone .handle { position: absolute; left: 12px; bottom: 16px; right: 60px; font-size: 12px; color: #fff; text-shadow: 0 1px 3px #000; pointer-events: none; }
+  .controls { display: grid; grid-template-columns: auto auto 1fr auto; gap: 10px; align-items: center; margin-top: 14px; max-width: 360px; }
+  button { font: 800 13px var(--f-body); letter-spacing: 1px; text-transform: uppercase; color: var(--navy); background: var(--gold); border: 0; border-radius: 10px; padding: 10px 14px; cursor: pointer; }
+  button.ghost { background: transparent; color: var(--fg); border: 2px solid var(--line); }
+  input[type=range] { width: 100%; accent-color: var(--gold); }
+  .time { font-variant-numeric: tabular-nums; font-size: 13px; color: var(--muted); min-width: 84px; text-align: right; }
+  .beats { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .beats li button { width: 100%; text-align: left; display: grid; grid-template-columns: 58px 1fr; gap: 12px; background: var(--panel); color: var(--fg); text-transform: none; letter-spacing: 0; font-weight: 400; font-size: 14px; border: 2px solid transparent; }
+  .beats li button b { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 600; }
+  .beats li button.on { border-color: var(--gold); }
+  .beats li button.on b { color: var(--gold); }
+  .note { font-size: 13px; color: var(--muted); margin-top: 14px; }
+
+  /* pipeline */
+  .steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; counter-reset: s; }
+  .steps li { background: var(--panel); border-radius: 14px; padding: 16px; counter-increment: s; min-width: 0; }
+  .steps li::before { content: counter(s); font-family: var(--f-display); font-size: 30px; color: var(--gold); display: block; line-height: 1; margin-bottom: 8px; }
+  .steps h3 { font-size: 15px; font-weight: 800; }
+  .steps p { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+  .steps .who { display: inline-block; margin-top: 10px; font-size: 11px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; padding: 3px 8px; border-radius: 6px; }
+  .who.auto { background: rgba(43,182,115,.16); color: #7BE0AE; }
+  .who.human { background: rgba(244,185,66,.16); color: var(--gold); }
+
+  /* storyboard */
+  .board { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+  .board figure { margin: 0; min-width: 0; }
+  .board .frame { aspect-ratio: 9/16; border-radius: 12px; overflow: hidden; background: #000; }
+  .board .frame svg { width: 100%; height: 100%; display: block; }
+  .board figcaption { font-size: 12.5px; color: var(--muted); margin-top: 8px; line-height: 1.4; }
+  .board figcaption b { color: var(--fg); display: block; font-size: 13px; }
+
+  /* logo, mascot, art */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .tile { border-radius: 16px; overflow: hidden; background: var(--panel); min-width: 0; }
+  .tile .art { display: grid; place-items: center; padding: 18px; }
+  .tile .art svg { width: 100%; height: auto; max-height: 240px; display: block; }
+  .tile .art.light { background: var(--cream); }
+  .tile .art.navy { background: var(--navy); }
+  .tile .cap { padding: 12px 16px 14px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); }
+  .tile .cap b { color: var(--fg); }
+  .wide .art { padding: 0; }
+  .wide .art svg { max-height: none; }
+  .rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px 24px; margin-top: 18px; padding: 0; list-style: none; font-size: 14px; }
+  .rules li { padding-left: 22px; position: relative; }
+  .rules li::before { content: ""; position: absolute; left: 0; top: 8px; width: 10px; height: 10px; border-radius: 3px; background: var(--green); }
+  .rules li.no::before { background: var(--red); }
+
+  /* color */
+  .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+  .sw { border-radius: 14px; overflow: hidden; background: var(--panel); }
+  .sw .chip { height: 96px; border-bottom: 1px solid var(--line); }
+  .sw div.t { padding: 10px 12px 12px; font-size: 13px; }
+  .sw div.t b { display: block; font-size: 14px; }
+  .sw code { font-size: 12.5px; color: var(--gold); }
+  .sw .use { color: var(--muted); font-size: 12px; display: block; margin-top: 2px; }
+  .series { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+  .pill { font: 800 13px var(--f-body); letter-spacing: 1.6px; text-transform: uppercase; color: #fff; padding: 8px 14px; border-radius: 10px; border: 3px solid var(--navy); box-shadow: 0 0 0 1px var(--line); }
+
+  /* type */
+  .type { display: grid; gap: 14px; }
+  .spec { background: var(--panel); border-radius: 16px; padding: 22px; display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 20px; align-items: center; }
+  @media (max-width: 640px) { .spec { grid-template-columns: 1fr; } }
+  .spec .meta { font-size: 13px; color: var(--muted); }
+  .spec .meta b { color: var(--fg); display: block; font-size: 15px; }
+  .spec .sample { min-width: 0; overflow-wrap: anywhere; }
+  .s-display { font-family: var(--f-display); font-size: clamp(44px, 7vw, 80px); line-height: 1; letter-spacing: 0.5px; }
+  .s-display span { color: var(--gold); }
+  .s-caption { font: 800 clamp(26px, 4vw, 40px) var(--f-body); text-transform: uppercase; color: #fff; -webkit-text-stroke: 7px var(--navy); paint-order: stroke fill; background: #3d6a8f; border-radius: 12px; padding: 18px; text-align: center; letter-spacing: 0.5px; }
+  .s-caption em { font-style: normal; color: var(--gold); }
+  .s-serif { font-family: var(--f-serif); font-size: clamp(30px, 4.5vw, 46px); line-height: 1.1; }
+  .s-body { font-size: 17px; max-width: 60ch; }
+
+  .files { font-size: 14px; columns: 2 260px; column-gap: 28px; padding-left: 18px; margin: 0; }
+  .files li { break-inside: avoid; margin-bottom: 6px; color: var(--muted); }
+  .files code { color: var(--fg); font-size: 13px; }
+  footer { padding-top: 28px; color: var(--muted); font-size: 13px; }
+  @media (prefers-reduced-motion: reduce) { .phone { box-shadow: none; } }
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div id="mastLogo" aria-hidden="true"></div>
+    <div>
+      <div class="kicker">Brand kit · v1 · September 2026</div>
+      <h1>BRAND<span>PROS</span></h1>
+      <p>Every brand has a backstory. This kit shows the look, the mascot, the colors and type, and a rendered preview of our first Short, drawn by the same engine that produces the real videos.</p>
+    </div>
+  </header>
+
+  <section id="preview">
+    <header>
+      <h2>See a video</h2>
+      <p>Short S01, "Blockbuster Could've Bought Netflix", rendered live in the house style. Silent preview; the final cut adds voiceover and music.</p>
+    </header>
+    <div class="player">
+      <div>
+        <div class="phone" id="phone">
+          <div id="screen" aria-label="Animated preview of Short S01" role="img"></div>
+          <div class="ui" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div class="handle" aria-hidden="true">@brandpros · Blockbuster Could've Bought Netflix for $50M</div>
+        </div>
+        <div class="controls">
+          <button id="play" type="button">Pause</button>
+          <button id="restart" class="ghost" type="button">Restart</button>
+          <input id="scrub" type="range" min="0" max="1000" value="0" aria-label="Scrub through the video">
+          <span class="time" id="time">0:00 / 0:55</span>
+        </div>
+      </div>
+      <div>
+        <div class="kicker" style="margin-bottom:10px">Beats · tap to jump</div>
+        <ul class="beats" id="beats"></ul>
+        <p class="note">Captions highlight each word as it's spoken. In production the timing comes from the voiceover's word timestamps; here it's estimated from the script at a natural pace (about 55 seconds).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <header>
+      <h2>How it's made</h2>
+      <p>The pipeline from <code>08-production-workflow.md</code>. Green steps run automatically; gold steps are the three human checks.</p>
+    </header>
+    <ol class="steps">
+      <li><h3>Research pack</h3><p>Timeline, sourced numbers and quotes pulled from filings, books and major outlets.</p><span class="who auto">Automated</span></li>
+      <li><h3>Script draft</h3><p>Hook, beats, on-screen text and a cartoon scene description per beat.</p><span class="who auto">Automated</span></li>
+      <li><h3>Point of view</h3><p>You sharpen the thesis, the hook and the "Pros know" line.</p><span class="who human">You · 20 min</span></li>
+      <li><h3>Fact sign-off</h3><p>Every [VERIFY] cleared with a source, or the line is cut.</p><span class="who human">You · 15 min</span></li>
+      <li><h3>Voiceover</h3><p>One licensed brand voice, returned with word timestamps.</p><span class="who auto">Automated</span></li>
+      <li><h3>Scenes and motion</h3><p>Cartoon scenes in house style, camera pushes, pop cuts, stamps.</p><span class="who auto">Automated</span></li>
+      <li><h3>Captions and render</h3><p>Word-by-word captions and a 1080×1920 MP4, like the preview above.</p><span class="who auto">Automated</span></li>
+      <li><h3>Final watch</h3><p>One full watch on a phone, then approve.</p><span class="who human">You · 5 min</span></li>
+      <li><h3>Schedule</h3><p>Posted to TikTok, Reels, Shorts and Facebook through Metricool with native captions.</p><span class="who auto">Automated</span></li>
+    </ol>
+  </section>
+
+  <section id="storyboard">
+    <header>
+      <h2>Storyboard</h2>
+      <p>Key frames from S01. Each frame's visual comes straight from the "cartoon scene" column of the script.</p>
+    </header>
+    <div class="board" id="board"></div>
+  </section>
+
+  <section id="logo">
+    <header>
+      <h2>Logo</h2>
+      <p>A gold price tag with the BP monogram and a rise-and-fall line: every story is a rise, a fall, or a comeback.</p>
+    </header>
+    <div>
+      <div class="tiles">
+        <div class="tile"><div class="art navy" id="logoAvatar"></div><div class="cap"><b>Profile picture</b> · all four platforms · reads at 40 px</div></div>
+        <div class="tile"><div class="art navy" id="logoWordDark"></div><div class="cap"><b>Wordmark, dark</b> · default lockup</div></div>
+        <div class="tile"><div class="art light" id="logoWordLight"></div><div class="cap"><b>Wordmark, light</b> · for cream or white backgrounds</div></div>
+      </div>
+      <ul class="rules">
+        <li>Clear space equals the height of the tag's hole on every side.</li>
+        <li>One-color versions: all navy, or all cream.</li>
+        <li class="no">Don't recolor, stretch, rotate past 10°, or add effects.</li>
+        <li class="no">Don't place it on busy imagery without a navy panel.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="mascot">
+    <header>
+      <h2>The Pro</h2>
+      <p>Our narrator. A navy blazer and a price-tag head. Shows up in hooks, lessons and calls to action; never plays a real person.</p>
+    </header>
+    <div class="tiles">
+      <div class="tile wide" style="grid-column: 1 / -1"><div class="art light" id="mascotSheet"></div><div class="cap"><b>Four core poses</b> · smile and wave (intro) · shock and hold (the twist) · think and shrug (the question) · wink and point (the lesson)</div></div>
+    </div>
+  </section>
+
+  <section id="color">
+    <header>
+      <h2>Color</h2>
+      <p>Navy and gold carry the brand. Red and green are signals, used only for losses and gains.</p>
+    </header>
+    <div>
+      <div class="swatches" id="swatches"></div>
+      <div class="series" aria-label="Series tags">
+        <span class="pill" style="background:#E63946">The $1B Mistake</span>
+        <span class="pill" style="background:#C9B27A;color:#0E1A2B">Dead Brands</span>
+        <span class="pill" style="background:#F4B942;color:#0E1A2B">How They Make Money</span>
+        <span class="pill" style="background:#2BB673">The Comeback</span>
+        <span class="pill" style="background:#0E1A2B;border-color:#F4B942">Founder Files</span>
+        <span class="pill" style="background:linear-gradient(90deg,#E63946 50%,#27405F 50%)">Brand Wars</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="type">
+    <header>
+      <h2>Type</h2>
+      <p>Three free Google Fonts. Anton shouts, Inter explains, DM Serif remembers.</p>
+    </header>
+    <div class="type">
+      <div class="spec"><div class="meta"><b>Anton</b>Headlines, thumbnails, big numbers. All caps, two lines max.</div><div class="sample s-display">$50,000,000 <span>PASSED</span></div></div>
+      <div class="spec"><div class="meta"><b>Inter ExtraBold</b>Captions: 3 words max, navy stroke, the spoken word in gold.</div><div class="sample s-caption">WOULD YOU HAVE <em>BOUGHT</em> IT?</div></div>
+      <div class="spec"><div class="meta"><b>DM Serif Display</b>Dead Brands and Founder Files titles, attributed quotes.</div><div class="sample s-serif">“We're not that dumb, and we're not that smart.”</div></div>
+      <div class="spec"><div class="meta"><b>Inter Regular / SemiBold</b>Descriptions, media kit, website.</div><div class="sample s-body">BrandPros tells the true stories behind the companies you know: the billion-dollar mistakes, the brands that vanished, and how famous companies actually make money.</div></div>
+    </div>
+  </section>
+
+  <section id="thumbs">
+    <header>
+      <h2>Thumbnails</h2>
+      <p>One caricature, one object, three words. Two versions per long-form for YouTube's Test &amp; Compare.</p>
+    </header>
+    <div class="tiles">
+      <div class="tile wide"><div class="art" id="thumbA"></div><div class="cap"><b>LF01 · Version A</b> · the cracked store with the envelope wedged in</div></div>
+      <div class="tile wide"><div class="art" id="thumbB"></div><div class="cap"><b>LF01 · Version B</b> · the laughing boardroom (a generic character, not a likeness)</div></div>
+    </div>
+  </section>
+
+  <section id="art">
+    <header>
+      <h2>Channel art</h2>
+      <p>YouTube banner at 2560×1440. The logo and tagline sit inside the 1546×423 safe area so they show on phones.</p>
+    </header>
+    <div class="tiles">
+      <div class="tile wide" style="grid-column: 1 / -1"><div class="art" id="banner"></div><div class="cap"><b>YouTube banner</b> · The Pro sits outside the safe area and only shows on TV and desktop</div></div>
+    </div>
+  </section>
+
+  <section id="files">
+    <header>
+      <h2>Files</h2>
+      <p>In the repo under <code>brandpros/brand-kit/</code>.</p>
+    </header>
+    <ul class="files">
+      <li><code>exports/avatar.png</code> profile picture, 800×800</li>
+      <li><code>exports/wordmark.png</code>, <code>wordmark-light.png</code></li>
+      <li><code>exports/mascot.png</code> The Pro, 4 poses</li>
+      <li><code>exports/banner.png</code> YouTube banner</li>
+      <li><code>exports/thumbA.png</code>, <code>thumbB.png</code></li>
+      <li><code>exports/s01-blockbuster-preview.mp4</code> 55 s, 1080×1920</li>
+      <li><code>exports/s01-frame-*.png</code> 8 storyboard frames</li>
+      <li><code>tokens.css</code> colors, fonts, sizes</li>
+      <li><code>fonts/</code> Anton, Inter, DM Serif Display (OFL)</li>
+      <li><code>engine/</code> the drawing engine and renderer</li>
+    </ul>
+  </section>
+
+  <footer>BrandPros · part of the Pros network with historypros and financeprostv · Illustrations drawn in the BrandPros house style; no real logos or mascots are reproduced.</footer>
+</div>
+
+<script src="engine/bp-engine.js"></script>
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const fit = (svg) => svg.replace("<svg ", '<svg preserveAspectRatio="xMidYMid meet" ');
+  const wrapSvg = (vb, inner) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb}">${inner}</svg>`;
+
+  // Static pieces
+  $("mastLogo").innerHTML = wrapSvg("-250 -150 500 300", BP.g(BP.logoMark(), "rotate(-6)"));
+  $("logoAvatar").innerHTML = fit(BP.avatar());
+  $("logoWordDark").innerHTML = fit(BP.wordmark(true));
+  $("logoWordLight").innerHTML = fit(BP.wordmark(false));
+  $("mascotSheet").innerHTML = fit(BP.mascotSheet());
+  $("thumbA").innerHTML = fit(BP.thumbLF01("A"));
+  $("thumbB").innerHTML = fit(BP.thumbLF01("B"));
+  $("banner").innerHTML = fit(BP.ytBanner());
+
+  const sw = [
+    ["Boardroom Navy", "#0E1A2B", "Backgrounds, outlines, text on light"],
+    ["Navy 2", "#1B2C45", "Scenes, the mascot's blazer"],
+    ["Ledger Gold", "#F4B942", "Logo, key numbers, spoken caption word"],
+    ["Markdown Red", "#E63946", "Losses, stamps, $1B Mistake"],
+    ["Comeback Green", "#2BB673", "Gains, The Comeback"],
+    ["Receipt Cream", "#F5EFE0", "Cards, light backgrounds"],
+    ["Filing Gray", "#8A94A6", "Secondary text"],
+  ];
+  $("swatches").innerHTML = sw.map(([n, h, u]) => `<div class="sw"><div class="chip" style="background:${h}"></div><div class="t"><b>${n}</b><code>${h}</code><span class="use">${u}</span></div></div>`).join("");
+
+  // Player
+  const TL = BP.S01.timeline, DUR = BP.S01.duration;
+  const labels = { hook: "Hook: the $50M offer", b1: "Dallas, 2000: the meeting", b2: "Why no made sense", b3: "The real twist: Total Access", b4: "Bankrupt, one store left", b5: "Pros know the lesson", cta: "Would you have bought it?" };
+  const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+  $("beats").innerHTML = TL.beats.map((b) => `<li><button type="button" data-t="${b.s}" data-id="${b.id}"><b>${fmt(b.s)}</b><span>${labels[b.id]}</span></button></li>`).join("");
+
+  let t = 0, playing = true, last = null;
+  const screen = $("screen");
+  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function draw() {
+    screen.innerHTML = fit(BP.frameS01(t));
+    $("scrub").value = Math.round((t / DUR) * 1000);
+    $("time").textContent = `${fmt(t)} / ${fmt(DUR)}`;
+    const cur = TL.beats.filter((b) => b.s <= t + 0.01).pop();
+    document.querySelectorAll("#beats button").forEach((el) => el.classList.toggle("on", cur && el.dataset.id === cur.id && t < TL.end));
+  }
+  function loop(ts) {
+    if (playing) {
+      if (last !== null) t += Math.min(0.1, (ts - last) / 1000);
+      if (t >= DUR) t = 0;
+      draw();
+    }
+    last = ts;
+    requestAnimationFrame(loop);
+  }
+  $("play").addEventListener("click", () => { playing = !playing; $("play").textContent = playing ? "Pause" : "Play"; last = null; });
+  $("restart").addEventListener("click", () => { t = 0; draw(); });
+  $("scrub").addEventListener("input", (e) => { t = (e.target.value / 1000) * DUR; draw(); });
+  $("beats").addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) { t = Number(b.dataset.t) + 0.05; draw(); } });
+
+  // Storyboard frames
+  const beat = (id) => TL.beats.find((b) => b.id === id);
+  const frames = [
+    ["Hook", "The Pro presents the $50M tag; PASSED slams on \"biggest mistake\".", beat("hook").e - 0.6],
+    ["Dallas, 2000", "Generic founders pitch; the exec stifles a laugh (attributed quote).", beat("b1").e - 0.8],
+    ["Late fees", "Tapes with LATE tags rain coins into the money bag.", beat("b2").e - 0.5],
+    ["Total Access", "The blue envelope overtakes the red one.", beat("b3").s + (beat("b3").e - beat("b3").s) * 0.35],
+    ["The board", "The boardroom door slams; blue stops, red runs on.", beat("b3").e - 0.7],
+    ["One store left", "Stores go dark one by one; zoom to the last one.", beat("b4").e - 0.2],
+    ["Pros know", "The lesson card, with The Pro pointing.", beat("b5").e - 0.6],
+    ["End card", "Logo, tagline, cha-ching.", DUR - 0.3],
+  ];
+  function drawBoard() {
+    $("board").innerHTML = frames.map(([h, d, ft]) => `<figure><div class="frame">${fit(BP.frameS01(ft))}</div><figcaption><b>${fmt(ft)} · ${h}</b>${d}</figcaption></figure>`).join("");
+  }
+
+  const start = () => {
+    drawBoard();
+    if (reduce) { playing = false; $("play").textContent = "Play"; t = beat("hook").e - 0.6; }
+    draw();
+    requestAnimationFrame(loop);
+  };
+  // Draw once immediately, redraw after fonts arrive so caption widths are measured with Inter.
+  drawBoard(); draw();
+  const fl = document.fonts ? Promise.all(["100px Anton", "800 72px Inter", "600 20px Inter", "40px 'DM Serif Display'"].map((f) => document.fonts.load(f).catch(() => null))) : Promise.resolve();
+  fl.then(start, start);
+})();
+</script>

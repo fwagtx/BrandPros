@@ -1,0 +1,32 @@
+/* BrandPros design tokens v1 (Sep 2026) */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Inter:wght@400;600;800&display=swap");
+
+:root {
+  /* Core palette */
+  --bp-navy: #0E1A2B;        /* Boardroom Navy: backgrounds, outlines, text on light */
+  --bp-navy-2: #1B2C45;      /* raised navy: mascot blazer, scene backgrounds */
+  --bp-navy-3: #27405F;      /* burst rays, skylines */
+  --bp-gold: #F4B942;        /* Ledger Gold: logo, key numbers, highlighted caption word */
+  --bp-red: #E63946;         /* Markdown Red: losses, $1B Mistake, stamps */
+  --bp-green: #2BB673;       /* Comeback Green: gains, The Comeback */
+  --bp-cream: #F5EFE0;       /* Receipt Cream: light backgrounds, cards */
+  --bp-gray: #8A94A6;        /* Filing Gray: secondary text, timelines */
+
+  /* Series colors */
+  --series-mistake: var(--bp-red);
+  --series-dead: #C9B27A;    /* sepia */
+  --series-money: var(--bp-gold);
+  --series-comeback: var(--bp-green);
+  --series-founder: var(--bp-navy);
+  --series-wars: linear-gradient(90deg, var(--bp-red) 50%, var(--bp-navy) 50%);
+
+  /* Type */
+  --font-display: "Anton", "Bebas Neue", Impact, "Arial Narrow", sans-serif;       /* thumbnails, headlines, big numbers */
+  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;                        /* captions (800), UI, body */
+  --font-vintage: "DM Serif Display", Georgia, serif;                               /* Dead Brands and Founder Files titles, quotes */
+
+  /* Illustration */
+  --outline: 8px;            /* at 1080 px wide; scale with the frame */
+  --caption-size: 72px;      /* at 1080x1920 */
+  --caption-stroke: 16px;
+}
