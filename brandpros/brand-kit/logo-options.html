@@ -2,137 +2,110 @@
 <style>
   @font-face { font-family: "Inter"; font-weight: 400; src: url(fonts/Inter-Regular.ttf) format("truetype"); font-display: swap; }
   @font-face { font-family: "Inter"; font-weight: 800; src: url(fonts/Inter-ExtraBold.ttf) format("truetype"); font-display: swap; }
-  @font-face { font-family: "DM Serif Display"; src: url(fonts/DMSerifDisplay-Regular.ttf) format("truetype"); font-display: swap; }
-  @font-face { font-family: "DM Serif Display"; font-style: italic; src: url(fonts/DMSerifDisplay-Italic.ttf) format("truetype"); font-display: swap; }
-  @font-face { font-family: "Permanent Marker"; src: url(fonts/PermanentMarker-Regular.ttf) format("truetype"); font-display: swap; }
-  @font-face { font-family: "Archivo Black"; src: url(fonts/Archivo-Black.ttf) format("truetype"); font-display: swap; }
-  @font-face { font-family: "Instrument Serif"; src: url(fonts/InstrumentSerif-Regular.ttf) format("truetype"); font-display: swap; }
-  @font-face { font-family: "Instrument Serif"; font-style: italic; src: url(fonts/InstrumentSerif-Italic.ttf) format("truetype"); font-display: swap; }
-  @font-face { font-family: "Abril Fatface"; src: url(fonts/AbrilFatface-Regular.ttf) format("truetype"); font-display: swap; }
-  @font-face { font-family: "Libre Baskerville"; font-weight: 700; src: url(fonts/LibreBaskerville-Bold.ttf) format("truetype"); font-display: swap; }
+  @font-face { font-family: "Schibsted Grotesk"; font-weight: 900; src: url(fonts/SchibstedGrotesk-Black.ttf) format("truetype"); font-display: swap; }
 
-  /* Layout: a pin-board of five proposals; each proposal is one sheet with the mark, lockups, sizes and the reasoning. */
+  /* Layout: a clean presentation board, like a studio's round-3 review: summary strip, then one full board per direction. */
   :root {
-    --desk: #133A2C; --sheet: #F2EAD7; --ink: #17150F; --muted-ink: #55554C;
-    --on-desk: #F2EAD7; --on-desk-muted: #B7C7BD; --red: #C8372D; --hl: #F4E36B; --line: #2B5E4B;
-    --f-serif: "DM Serif Display", Georgia, serif; --f-body: "Inter", "Helvetica Neue", Arial, sans-serif; --f-marker: "Permanent Marker", cursive;
-    color-scheme: dark;
+    --bg: #EFEDE8; --card: #FFFFFF; --ink: #111111; --muted: #6B6B6B; --line: #DAD6CE; --red: #E0312B; --green: #12A36B;
+    --f-head: "Schibsted Grotesk", "Arial Black", sans-serif; --f-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+    color-scheme: light;
   }
   * { box-sizing: border-box; }
-  body { background: var(--desk); color: var(--on-desk); font-family: var(--f-body); font-size: 16px; line-height: 1.55; }
-  .wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 80px; }
-  h1, h2, h3 { margin: 0; font-weight: 400; text-wrap: balance; }
-  h1 { font-family: var(--f-serif); font-size: clamp(40px, 6vw, 68px); line-height: 1; }
-  .lede { color: var(--on-desk-muted); max-width: 62ch; margin: 14px 0 0; }
-  .note { font-family: var(--f-marker); color: var(--hl); font-size: 20px; display: inline-block; transform: rotate(-1.5deg); }
+  body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.55; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 80px; }
+  h1, h2 { margin: 0; text-wrap: balance; }
+  .eyebrow { font-weight: 800; font-size: 12px; letter-spacing: 2.4px; text-transform: uppercase; color: var(--muted); }
+  h1 { font-family: var(--f-head); font-weight: 900; font-size: clamp(38px, 6vw, 64px); line-height: 1; letter-spacing: -0.5px; margin-top: 8px; }
+  .lede { color: #3D3D3D; max-width: 64ch; margin: 14px 0 0; font-size: 17px; }
+  img { display: block; width: 100%; height: auto; max-width: 100%; }
+  .overview { margin-top: 30px; background: var(--card); border: 1px solid var(--line); }
+  .jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .jump a { font-weight: 800; font-size: 13px; color: var(--ink); text-decoration: none; background: var(--card); border: 1px solid var(--line); padding: 7px 12px; }
+  .jump a:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
 
-  .strip { margin-top: 34px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
-  @media (max-width: 760px) { .strip { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-  .strip a { display: grid; justify-items: center; gap: 8px; padding: 14px 8px 12px; background: var(--sheet); color: var(--ink); text-decoration: none; box-shadow: 5px 6px 0 rgba(0,0,0,.28); }
-  .strip a:focus-visible, button:focus-visible { outline: 3px solid var(--hl); outline-offset: 3px; }
-  .strip .letter { font-family: var(--f-marker); color: var(--red); font-size: 22px; line-height: 1; }
-  .strip .av { width: 72px; } .strip .av svg { width: 100%; height: auto; display: block; }
-  .strip .nm { font-size: 13px; font-weight: 800; text-align: center; }
-
-  .sheet { margin-top: 44px; background: var(--sheet); color: var(--ink); padding: clamp(18px, 3vw, 34px); position: relative; box-shadow: 8px 10px 0 rgba(0,0,0,.28); }
-  .sheet::before, .sheet::after { content: ""; position: absolute; top: -11px; width: 92px; height: 24px; background: rgba(244,234,203,.9); }
-  .sheet::before { left: 26px; transform: rotate(-6deg); } .sheet::after { right: 26px; transform: rotate(5deg); }
-  .sheet header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px 18px; }
-  .sheet header .letter { font-family: var(--f-marker); color: var(--red); font-size: 38px; line-height: 1; }
-  .sheet header h2 { font-family: var(--f-serif); font-size: clamp(30px, 4vw, 42px); }
-  .sheet header .tag { font: 800 12px var(--f-body); letter-spacing: 1.8px; text-transform: uppercase; background: var(--hl); padding: 3px 8px; }
-  .idea { font-size: 18px; margin: 10px 0 0; max-width: 66ch; }
-
-  .grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 18px; margin-top: 22px; }
-  @media (max-width: 820px) { .grid { grid-template-columns: 1fr; } }
-  .panel svg { width: 100%; height: auto; display: block; }
-  .bigmark { border: 2px solid var(--ink); background: #F2EAD7; }
-  .lockups { display: grid; gap: 12px; align-content: start; }
-  .lockups > div { border: 2px solid var(--ink); }
-  .row2 { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 18px; margin-top: 18px; align-items: center; }
-  @media (max-width: 820px) { .row2 { grid-template-columns: 1fr; } }
-  .avs { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; }
-  .avs figure { margin: 0; display: grid; justify-items: center; gap: 4px; }
-  .avs figure > div svg, .channel .av svg, .strip .av svg { border-radius: 50%; box-shadow: 0 0 0 1.5px rgba(23,21,15,.28); }
-  .avs figcaption { font-size: 11px; color: var(--muted-ink); font-variant-numeric: tabular-nums; }
-  .avs .dark { background: #133A2C; padding: 10px; display: flex; gap: 12px; align-items: center; }
-  .channel { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px; align-items: center; background: #FFFFFF; border: 2px solid var(--ink); padding: 14px 16px; }
-  .channel .av { width: 64px; } .channel .av svg { width: 100%; height: auto; display: block; }
-  .channel b { display: block; font-size: 18px; } .channel span { color: #606060; font-size: 13px; }
-  .channel i { font-style: normal; background: #0F0F0F; color: #fff; font-weight: 800; font-size: 13px; padding: 8px 14px; border-radius: 18px; }
-  .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 20px; font-size: 14.5px; }
-  @media (max-width: 640px) { .pros-cons { grid-template-columns: 1fr; } }
-  .pros-cons h3 { font: 800 12px var(--f-body); letter-spacing: 1.8px; text-transform: uppercase; color: var(--muted-ink); margin-bottom: 6px; }
-  .pros-cons ul { margin: 0; padding-left: 18px; } .pros-cons li { margin-bottom: 4px; }
-  .fonts { font-size: 13px; color: var(--muted-ink); margin-top: 14px; }
-
-  .next { margin-top: 50px; border-top: 2px solid var(--line); padding-top: 30px; display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 28px; }
-  @media (max-width: 820px) { .next { grid-template-columns: 1fr; } }
-  .next h2 { font-family: var(--f-serif); font-size: 34px; }
-  .next ol { margin: 0; padding-left: 20px; color: var(--on-desk-muted); } .next li { margin-bottom: 8px; } .next b { color: var(--on-desk); }
+  .opt { margin-top: 56px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .opt header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; }
+  .opt .letter { font-family: var(--f-head); font-weight: 900; font-size: 44px; line-height: 1; color: var(--muted); }
+  .opt h2 { font-family: var(--f-head); font-weight: 900; font-size: clamp(28px, 4vw, 40px); line-height: 1.05; }
+  .opt .pick { font-weight: 800; font-size: 12px; letter-spacing: 1.8px; text-transform: uppercase; color: #FFFFFF; background: var(--ink); padding: 4px 9px; }
+  .opt .idea { font-size: 18px; max-width: 70ch; margin: 0; }
+  .board { background: var(--card); border: 1px solid var(--line); }
+  .notes { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; font-size: 15px; }
+  @media (max-width: 700px) { .notes { grid-template-columns: 1fr; } }
+  .notes h3 { font-weight: 800; font-size: 12px; letter-spacing: 1.8px; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+  .notes ul { margin: 0; padding-left: 18px; } .notes li { margin-bottom: 4px; }
+  .next { margin-top: 64px; border-top: 1px solid var(--line); padding-top: 28px; display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 24px; }
+  @media (max-width: 760px) { .next { grid-template-columns: 1fr; } }
+  .next h2 { font-family: var(--f-head); font-weight: 900; font-size: 28px; }
+  .next ol { margin: 0; padding-left: 20px; } .next li { margin-bottom: 8px; }
 </style>
 
 <div class="wrap">
-  <span class="note">five directions · pick one, or mix two</span>
+  <div class="eyebrow">Round 3 · the name is the logo</div>
   <h1>BrandPros Logo Options</h1>
-  <p class="lede">Each option has its own idea and its own typeface. Every one is shown at the sizes that matter, down to a 32-pixel profile picture, on light and on dark. None of them borrows a shape or color from the brands we cover.</p>
-  <nav class="strip" id="strip" aria-label="Jump to an option"></nav>
-  <div id="sheets"></div>
+  <p class="lede">Five wordmark-led directions. In each one the name BrandPros is the logo, with one idea built into the letters. Every direction is shown on light and dark, as a profile picture down to 32 px, on a channel page, in a thumbnail corner and on merch.</p>
+  <div class="overview"><img src="logos/compare.png" alt="All five logo directions side by side, each on light and dark with profile pictures"></div>
+  <nav class="jump" aria-label="Jump to a direction">
+    <a href="#risefall">A · Rise &amp; Fall</a><a href="#slice">B · The Slice</a><a href="#label">C · The Label</a><a href="#storyp">D · Story P</a><a href="#crest">E · The Crest</a>
+  </nav>
+
+  <section class="opt" id="risefall">
+    <header><span class="letter">A</span><h2>Rise &amp; Fall</h2><span class="pick">My pick</span></header>
+    <p class="idea">The A is a rising green ▲ and the O holds a falling red ▼. Every story we tell is a rise, a fall, or both, written into the name like a stock ticker.</p>
+    <div class="board"><img src="logos/board-risefall.png" alt="Rise and Fall logo: BRANDPROS with a green triangle A and a red triangle in the O, shown on light, dark, profile pictures, channel page, thumbnail and T-shirts"></div>
+    <div class="notes">
+      <div><h3>Why it works</h3><ul><li>Reads instantly as BRANDPROS; the detail rewards a second look</li><li>Business and money without charts or dollar signs</li><li>The ▲▼ pair becomes a signature: series tags, transitions, merch</li></ul></div>
+      <div><h3>Watch out for</h3><ul><li>Keep the green and red exact; they carry the meaning</li><li>In one color, the triangles still read by shape</li></ul></div>
+    </div>
+  </section>
+
+  <section class="opt" id="slice">
+    <header><span class="letter">B</span><h2>The Slice</h2></header>
+    <p class="idea">The o is a pie chart with one slice pulled out: we take companies apart and show you how the money really works.</p>
+    <div class="board"><img src="logos/board-slice.png" alt="The Slice logo: lowercase brandpros with a pie-chart o, shown in every application"></div>
+    <div class="notes">
+      <div><h3>Why it works</h3><ul><li>Friendly and modern lowercase</li><li>The pie-o is also the profile picture, simple at 32 px</li><li>Tangerine is rare among the brands we cover</li></ul></div>
+      <div><h3>Watch out for</h3><ul><li>Pie charts are common in finance, so the pulled slice keeps it ours</li></ul></div>
+    </div>
+  </section>
+
+  <section class="opt" id="label">
+    <header><span class="letter">C</span><h2>The Label</h2></header>
+    <p class="idea">BRAND over PROS, stacked like a bold printed label with the tagline set in. Confident and newsy, like a magazine masthead.</p>
+    <div class="board"><img src="logos/board-label.png" alt="The Label logo: BRAND on black over PROS on red with a tagline, shown in every application"></div>
+    <div class="notes">
+      <div><h3>Why it works</h3><ul><li>The whole name is the logo, with no symbol to explain</li><li>Square shape fits a profile picture perfectly</li><li>Strongest on thumbnails and merch</li></ul></div>
+      <div><h3>Watch out for</h3><ul><li>Plain on purpose; its power comes from using it everywhere, consistently</li></ul></div>
+    </div>
+  </section>
+
+  <section class="opt" id="storyp">
+    <header><span class="letter">D</span><h2>Story P</h2></header>
+    <p class="idea">The P in Pros is a speech bubble: the stories people tell about brands, and the ones we tell back.</p>
+    <div class="board"><img src="logos/board-storyp.png" alt="Story P logo: BrandPros in cobalt with a speech-bubble P, shown in every application"></div>
+    <div class="notes">
+      <div><h3>Why it works</h3><ul><li>Storytelling built into the letter</li><li>The bubble-P works alone as the icon</li><li>Easy to animate: the bubble pops in</li></ul></div>
+      <div><h3>Watch out for</h3><ul><li>Speech bubbles appear in chat apps, so keep the full name visible in most places</li></ul></div>
+    </div>
+  </section>
+
+  <section class="opt" id="crest">
+    <header><span class="letter">E</span><h2>The Crest</h2></header>
+    <p class="idea">A vintage badge with BRANDPROS arched across the top and "Stories behind the brands" underneath, like an old company seal or a varsity patch.</p>
+    <div class="board"><img src="logos/board-crest.png" alt="The Crest logo: a circular badge with BRANDPROS arched over a large B, shown in every application"></div>
+    <div class="notes">
+      <div><h3>Why it works</h3><ul><li>Nostalgic, which suits the Dead Brands audience on Facebook</li><li>Built for hats, patches and stickers</li></ul></div>
+      <div><h3>Watch out for</h3><ul><li>Too detailed for tiny sizes, so the profile picture uses the center B</li></ul></div>
+    </div>
+  </section>
 
   <section class="next">
-    <h2>How to choose</h2>
+    <h2>Pick one</h2>
     <ol>
-      <li><b>Look at the 32 px versions first.</b> That's how most people will meet the brand, in a feed or a comment.</li>
-      <li><b>Picture it on a thumbnail corner and an end card.</b> The mark that still feels like BrandPros there is the one.</li>
-      <li><b>Tell me the letter</b> (or "A's mark with B's type"). I'll roll it through the avatar, banner, end card, mascot pin, video intro and brand kit.</li>
-      <li><b>Before printing anything,</b> run a trademark search (USPTO) on the name and the chosen mark, and claim the handles.</li>
+      <li>Judge the 32 px profile pictures first. That's how most people will meet the brand.</li>
+      <li>Tell me the letter, or a mix ("A, but in C's box").</li>
+      <li>I'll then apply it across the profile picture, banner, end card, video intro, thumbnails and brand kit.</li>
+      <li>Before printing merch, run a USPTO trademark search on the name and the chosen logo.</li>
     </ol>
   </section>
 </div>
-
-<script src="engine/bp-engine.js"></script>
-<script src="engine/logos.js"></script>
-<script>
-(function () {
-  const L = BP.LOGOS, ORDER = BP.LOGO_ORDER;
-  const letter = (i) => String.fromCharCode(65 + i);
-  const svgWrap = (vbW, vbH, draw) => { const defs = BP.makeDefs(2, { amp: 0 }); return `<svg viewBox="0 0 ${vbW} ${vbH}" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">${defs}${draw()}</svg>`; };
-  const avatar = (id, dark) => { const c = dark ? BP.LOGO_DARK : BP.LOGO_LIGHT, clip = BP.ID.key("p" + id + (dark ? 1 : 0) + Math.random().toString(36).slice(2, 6));
-    return `<clipPath id="${clip}"><circle cx="200" cy="200" r="200"/></clipPath>` + BP.g(`<rect width="400" height="400" fill="${c.bg}"/>` + BP.g(L[id].mark(c), "translate(200 200) scale(0.74)"), "", `clip-path="url(#${clip})"`); };
-  const avSvg = (id, dark) => svgWrap(400, 400, () => avatar(id, dark));
-  const lockSvg = (id, dark) => {
-    const lk = BP.logoLockup(id, dark, 120), pad = 50, w = Math.ceil(lk.width + pad * 2), h = 250, c = dark ? BP.LOGO_DARK : BP.LOGO_LIGHT;
-    return svgWrap(w, h, () => `<rect width="${w}" height="${h}" fill="${c.bg}"/>` + BP.g(lk.svg, `translate(${pad} ${h / 2})`));
-  };
-  const markSvg = (id) => svgWrap(440, 440, () => `<rect width="440" height="440" fill="#F2EAD7"/>` + BP.g(L[id].mark(BP.LOGO_LIGHT), "translate(220 220)"));
-
-  function render() {
-    document.getElementById("strip").innerHTML = ORDER.map((id, i) => `<a href="#opt-${id}"><span class="letter">${letter(i)}</span><span class="av">${avSvg(id, false)}</span><span class="nm">${L[id].name}</span></a>`).join("");
-    document.getElementById("sheets").innerHTML = ORDER.map((id, i) => {
-      const o = L[id], sizes = [96, 48, 32];
-      const avRow = (dark) => sizes.map((s) => `<figure><div style="width:${s}px">${avSvg(id, dark)}</div>${dark ? "" : `<figcaption>${s}px</figcaption>`}</figure>`).join("");
-      const fontName = o.font.split(",")[0].replace(/'/g, "");
-      return `<article class="sheet" id="opt-${id}">
-        <header><span class="letter">${letter(i)}</span><h2>${o.name}</h2>${id === "seal" ? '<span class="tag">current</span>' : ""}</header>
-        <p class="idea">${o.idea}</p>
-        <div class="grid">
-          <div class="panel bigmark">${markSvg(id)}</div>
-          <div class="panel lockups"><div>${lockSvg(id, false)}</div><div>${lockSvg(id, true)}</div></div>
-        </div>
-        <div class="row2">
-          <div class="avs">${avRow(false)}<div class="dark">${avRow(true)}</div></div>
-          <div class="channel"><div class="av">${avSvg(id, false)}</div><div><b>BrandPros</b><span>@brandpros · 12.4K subscribers · 86 videos</span></div><i>Subscribe</i></div>
-        </div>
-        <div class="pros-cons">
-          <div><h3>Why it works</h3><ul>${o.strengths.map((x) => `<li>${x}</li>`).join("")}</ul></div>
-          <div><h3>Watch out for</h3><ul>${o.watch.map((x) => `<li>${x}</li>`).join("")}</ul></div>
-        </div>
-        <p class="fonts">Wordmark typeface: ${fontName}</p>
-      </article>`;
-    }).join("");
-  }
-  render();
-  const fonts = ["60px 'Archivo Black'", "60px 'Instrument Serif'", "italic 60px 'Instrument Serif'", "60px 'Abril Fatface'", "700 60px 'Libre Baskerville'", "60px 'DM Serif Display'", "italic 60px 'DM Serif Display'", "20px 'Permanent Marker'"];
-  if (document.fonts) Promise.all(fonts.map((f) => document.fonts.load(f).catch(() => null))).then(render, render);
-})();
-</script>
