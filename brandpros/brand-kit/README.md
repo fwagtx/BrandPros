@@ -1,35 +1,29 @@
-# BrandPros Brand Kit (v2)
+# BrandPros Brand Kit (v3: The Slice)
 
-v2 replaces the v1 gold-tag-on-navy logo, which was too close to Blockbuster's torn-ticket logo, and drops every borrowed brand color from the illustrations.
-
-Everything that makes BrandPros look like BrandPros: the **Keyhole Seal** logo, the wordmark, the mascot, the **Founder Files cast**, colors, type, thumbnails, channel art, and a working **render engine** that draws the hand-inked scenes and outputs finished video.
+The logo is **The Slice**: lowercase **brandpros** whose "o" is a pie chart with one tangerine slice pulled out. We take companies apart and show you how the money really works. It was chosen from three rounds of options (`exports/logos-round3/`, `logo-options.html`).
 
 ## What's here
 
 | Path | What it is |
 |---|---|
-| `exports/seal.png` | The full Keyhole Seal with the motto rim (900×900) |
-| `exports/avatar.png` | Profile picture for all four platforms (800×800) |
-| `exports/wordmark-light.png`, `wordmark.png` | Wordmark on cream (default) and on ledger green |
-| `exports/founders/*.png` | **10 founder cast cards** (800×1000): Sanders, Disney, Woolworth, Adi and Rudolf Dassler, Kroc, Hershey, Ford, Sears, Madam C.J. Walker |
-| `exports/cast.png` | The whole cast on one sheet (2100×1350) |
+| `exports/wordmark-light.png` / `wordmark.png` | The wordmark on white (default) and on ink |
+| `exports/avatar.png` | Profile picture: the pie on a tangerine square (800×800; platforms crop to a circle) |
+| `exports/seal.png` | Large icon: the pie on white (900×900) |
 | `exports/mascot.png` | The Pro in 4 poses |
-| `exports/banner.png` | YouTube banner (2560×1440; logo inside the 1546×423 safe area) |
-| `exports/thumbA.png`, `thumbB.png` | LF01 thumbnail A/B pair (1920×1080) |
-| `exports/s01-frame-*.png` | 8 storyboard frames from Short S01 |
-| `exports/s01-blockbuster-preview.mp4` | **55-second rendered preview of Short S01** (1080×1920, 30 fps, silent with captions) |
-| `tokens.css` | Colors, fonts and sizes as CSS variables |
-| `fonts/` | DM Serif Display (roman and italic), Anton, Inter, Permanent Marker (all SIL Open Font License) |
-| `engine/bp-engine.js` | Drawing engine: seal, mascot, generic characters, stores, props, labels, captions, S01 scenes |
-| `engine/founders.js` | The Founder Files cast: feature-based caricature busts plus portrait cards |
-| `engine/stage.html` + `engine/render.mjs` | Renders every PNG/SVG export and the MP4 |
-| `index.html` | The visual brand kit page with a live player (published as an artifact) |
+| `exports/banner.png` | YouTube banner (2560×1440; wordmark inside the 1546×423 safe area) |
+| `exports/thumbA.png`, `thumbB.png` | LF01 thumbnail A/B pair |
+| `exports/founders/*.png`, `cast.png` | Founder Files cast cards and sheet |
+| `exports/s01-frame-*.png`, `s01-blockbuster-preview.mp4` | S01 storyboard and 55-second preview |
+| `exports/logos-round3/` | All five round-3 logo directions (for the record) |
+| `tokens.css`, `fonts/` | Colors, type and bundled fonts (all SIL Open Font License) |
+| `engine/` | The drawing engine (`bp-engine.js`), founder cast, logo explorations and renderer |
+| `index.html` | The visual brand kit page (published as an artifact) |
 
-## Logo: the Keyhole Seal
-- **Idea:** we unlock the story behind the brand. An engraved stock-certificate seal in ledger green with a keyhole at the center; the full version carries "EVERY BRAND HAS A BACKSTORY ✦ ESTD 2026" on its rim.
-- **Wordmark:** seal plus "Brand" (DM Serif Display) plus "*Pros*" (DM Serif Display Italic, Seal Red `#C8372D`; `#E8735F` on green).
-- **Clear space:** the keyhole's height on every side. **Minimum size:** 40 px for the simple seal.
-- **Never:** a "BP" monogram (another company's name), price tags or tickets, recoloring outside the palette, or effects.
+## Logo rules
+- **Wordmark:** lowercase, Bricolage Grotesque ExtraBold, ink `#141414`; the pie-o's slice is always tangerine `#F26B1D` (on dark: white letters, `#FF8A3D` slice).
+- **Icon:** the pie alone (ink pie, white slice) on tangerine.
+- **Clear space:** the height of the pie on every side. **Minimum size:** 90 px wide (wordmark), 24 px (icon).
+- **Never:** caps, recoloring the slice, rotating the pie, closing the gap, outlines, effects, or stretching.
 
 ## Non-negotiable rules for anything we draw
 1. **No real logos, mascots or trade dress.** Stores and products are generic (e.g. a slate strip-mall store with a cream "VIDEO" board), identified by **handwritten labels**.
@@ -40,21 +34,21 @@ Everything that makes BrandPros look like BrandPros: the **Keyhole Seal** logo, 
 ## Colors
 | Name | Hex | Use |
 |---|---|---|
-| Ledger Green | `#133A2C` | The seal, backgrounds, the mascot's blazer |
-| Certificate Cream | `#F2EAD7` | Paper, cards, caption strips |
-| Seal Red | `#C8372D` | "*Pros*", losses, stamps, $1B Mistake |
+| Ink | `#141414` | Wordmark, dark backgrounds, all line work, the mascot's blazer |
+| White / Paper | `#FFFFFF` / `#F2EAD7` | Logo backgrounds / paper, cards, caption strips |
+| Tangerine | `#F26B1D` (`#FF8A3D` on dark) | The slice, headline labels, "PROS KNOW" |
+| Light tangerine | `#FFA463` | The spoken caption word; marker notes on dark |
+| Red | `#C8372D` | Losses, stamps, $1B Mistake |
 | Mint | `#8FD1AE` | Gains, The Comeback |
-| Brass | `#C49A3A` | Money, the keyhole pin |
-| Ink | `#17150F` | All line work |
-| Highlighter | `#F4E36B` | The spoken caption word; notes on green |
+| Brass | `#C49A3A` | Coins and cash props only |
 
-Series chips: $1B Mistake = red · Dead Brands = sepia `#B9A27A` · How They Make Money = brass · The Comeback = mint · Founder Files = ledger green · Brand Wars = red/slate split.
+Series chips: $1B Mistake = red · Dead Brands = sepia `#B9A27A` · How They Make Money = tangerine · The Comeback = mint · Founder Files = ink · Brand Wars = red/slate split.
 
 ## Type
 | Role | Font | Rules |
 |---|---|---|
-| Wordmark, titles, quotes | **DM Serif Display** (+ Italic) | "Pros" always italic |
-| Headlines, thumbnails | **Anton** | On cut-paper labels with tape, 2 lines max |
+| Wordmark, headlines, thumbnails, numbers | **Bricolage Grotesque ExtraBold** | Wordmark lowercase; headlines on cut-paper labels with tape, 2 lines max |
+| Quotes, founder name plates | **DM Serif Display** | Always attributed |
 | Captions | **Inter Bold** | Sentence case on a cream paper strip, max 4 words, spoken word highlighted, at ~69% of frame height |
 | Hand notes | **Permanent Marker** | Sources, arrows, who's who |
 
@@ -63,6 +57,9 @@ Series chips: $1B Mistake = red · Dead Brands = sepia `#B9A27A` · How They Mak
 - **Motion on twos:** all movement steps at 12 fps; camera pushes are slow (3–5%).
 - **Paper:** static grain and fiber blotches, a soft vignette and halftone dots for shading. No gradients, no sunbursts.
 - **Cuts:** hard cuts; labels slap on with a one-frame overshoot; stamps land in two frames.
+
+## The Pro (mascot)
+Round cream face, a tangerine pie slice for a cowlick, charcoal blazer, tangerine tie, pie-chart lapel pin. Hooks, lessons and CTAs only.
 
 ## The Founder Files cast
 Each founder is built from their documented signature look (face shape, hairline, facial hair, glasses, era clothing, a signature prop), then approved and reused. The cast sheet lists each one's likeness notes in `engine/founders.js` (`look:`).

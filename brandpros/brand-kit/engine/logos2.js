@@ -96,7 +96,7 @@
     return { svg: s, w: x, h: m("b", f).asc, cap: m("b", f).asc };
   }
   function pie(r, ink, acc) {
-    const a0 = -58 * Math.PI / 180, a1 = 0;
+    const a0 = -100 * Math.PI / 180, a1 = -40 * Math.PI / 180; // slice pulled toward 1 o'clock (never a "mouth" at 3 o'clock)
     const p = (a, rr = r) => `${(Math.cos(a) * rr).toFixed(2)} ${(Math.sin(a) * rr).toFixed(2)}`;
     const body = `<path d="M 0 0 L ${p(a1)} A ${r} ${r} 0 1 1 ${p(a0)} Z" fill="${ink}"/>`;
     const mid = (a0 + a1) / 2, off = r * 0.2;
@@ -270,5 +270,5 @@
     });
   }
 
-  BP.L3 = { ORDER, SPECS, wordmark, icon, boardSvg, compareSvg, iconSvg: (id) => wrap(400, 400, () => icon(id)), wordmarkSvg: (id, v) => wrap(1400, 520, () => `<rect width="1400" height="520" fill="${SPECS[id].pal[v].bg}"/>` + placeWordmark(id, v, id === "label" ? 130 : id === "crest" ? 150 : 150, 700, 260, 1200)) };
+  BP.L3 = { ORDER, SPECS, wordmark, icon, pie, placeWordmark, boardSvg, compareSvg, iconSvg: (id) => wrap(400, 400, () => icon(id)), wordmarkSvg: (id, v) => wrap(1400, 520, () => `<rect width="1400" height="520" fill="${SPECS[id].pal[v].bg}"/>` + placeWordmark(id, v, id === "label" ? 130 : id === "crest" ? 150 : 150, 700, 260, 1200)) };
 })(typeof window !== "undefined" ? window : globalThis);

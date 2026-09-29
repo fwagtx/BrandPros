@@ -1,4 +1,5 @@
-/* BrandPros design tokens v2 (Sep 2026): the Keyhole Seal identity */
+/* BrandPros design tokens v3 (Sep 2026): The Slice */
+@font-face { font-family: "Bricolage Grotesque"; font-weight: 800; src: url(fonts/BricolageGrotesque-ExtraBold.ttf) format("truetype"); }
 @font-face { font-family: "Anton"; src: url(fonts/Anton-Regular.ttf) format("truetype"); }
 @font-face { font-family: "Inter"; font-weight: 400; src: url(fonts/Inter-Regular.ttf) format("truetype"); }
 @font-face { font-family: "Inter"; font-weight: 600; src: url(fonts/Inter-SemiBold.ttf) format("truetype"); }
@@ -8,18 +9,18 @@
 @font-face { font-family: "Permanent Marker"; src: url(fonts/PermanentMarker-Regular.ttf) format("truetype"); }
 
 :root {
-  /* Core palette: ledgers, cheques, stock certificates */
-  --bp-ledger: #133A2C;       /* Ledger Green: the seal, backgrounds, blazer */
-  --bp-ledger-2: #1D4A3A;
-  --bp-ledger-3: #2B5E4B;
-  --bp-cream: #F2EAD7;        /* Certificate Cream: paper, cards, caption strips */
-  --bp-red: #C8372D;          /* Seal Red: "Pros", losses, stamps */
-  --bp-red-on-dark: #E8735F;  /* "Pros" on green */
-  --bp-mint: #8FD1AE;         /* gains, The Comeback */
-  --bp-brass: #C49A3A;        /* money, keyhole pin */
-  --bp-ink: #17150F;          /* all line work */
-  --bp-slate: #5E6B73;        /* secondary, generic stores */
-  --bp-highlighter: #F4E36B;  /* spoken caption word, notes on green */
+  /* The Slice identity */
+  --bp-ink: #141414;          /* wordmark, dark backgrounds, line work */
+  --bp-ink-2: #262626;
+  --bp-white: #FFFFFF;        /* logo backgrounds */
+  --bp-paper: #F2EAD7;        /* paper, cards, caption strips */
+  --bp-tangerine: #F26B1D;    /* the slice, labels, "PROS KNOW" */
+  --bp-tangerine-on-dark: #FF8A3D;
+  --bp-highlight: #FFA463;    /* spoken caption word */
+  --bp-red: #C8372D;          /* losses, stamps */
+  --bp-mint: #8FD1AE;         /* gains */
+  --bp-brass: #C49A3A;        /* coins and cash only */
+  --bp-slate: #5E6B73;
 
   /* Paper stocks for scene backgrounds */
   --paper-cream: #EDE3CC; --paper-mint: #CFE3D6; --paper-sand: #E4D2AE;
@@ -28,20 +29,20 @@
   /* Series */
   --series-mistake: var(--bp-red);
   --series-dead: #B9A27A;
-  --series-money: var(--bp-brass);
+  --series-money: var(--bp-tangerine);
   --series-comeback: var(--bp-mint);
-  --series-founder: var(--bp-ledger-2);
+  --series-founder: var(--bp-ink);
   --series-wars: linear-gradient(90deg, var(--bp-red) 50%, var(--bp-slate) 50%);
 
   /* Type */
-  --font-serif: "DM Serif Display", Georgia, serif;                                /* wordmark, titles, quotes */
-  --font-display: "Anton", "Bebas Neue", Impact, "Arial Narrow", sans-serif;       /* cut-paper headlines, thumbnail numbers */
-  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;                        /* captions (700), UI */
-  --font-marker: "Permanent Marker", "Comic Sans MS", cursive;                      /* hand notes, sources, arrows */
+  --font-display: "Bricolage Grotesque", "Arial Black", sans-serif; /* wordmark (lowercase), headlines, numbers */
+  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;         /* captions (700), UI */
+  --font-marker: "Permanent Marker", "Comic Sans MS", cursive;       /* hand notes */
+  --font-serif: "DM Serif Display", Georgia, serif;                  /* quotes, founder name plates */
 
   /* Illustration (at 1080 px wide) */
   --outline: 8px;
   --caption-size: 60px;
-  --line-boil-rate: 8;   /* redraws per second */
-  --anim-fps: 12;        /* motion on twos */
+  --line-boil-rate: 8;
+  --anim-fps: 12;
 }

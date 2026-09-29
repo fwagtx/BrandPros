@@ -34,8 +34,8 @@ We stay stylized rather than photorealistic because:
 ### A3. House style prompt (prefix every image prompt with this)
 ```
 BrandPros house style: hand-inked 2D editorial cartoon, slightly wobbly ink outlines (#17150F),
-flat fills with halftone-dot shading, visible paper grain, limited palette of ledger green #133A2C,
-certificate cream #F2EAD7, seal red #C8372D, mint #8FD1AE, brass #C49A3A, slate #5E6B73,
+flat fills with halftone-dot shading, visible paper grain, limited palette of ink #141414,
+paper cream #F2EAD7, tangerine #F26B1D, red #C8372D, mint #8FD1AE, brass #C49A3A, slate #5E6B73,
 muted paper backgrounds (no gradients, no sunbursts), vertical 9:16 composition with the subject in the upper
 two-thirds (keep the bottom 25% calm for captions). No text, no letters, no logos, no brand colors of real companies,
 no watermarks, not photorealistic, not glossy vector.
@@ -58,7 +58,7 @@ front and three-quarter views plus 4 expressions (warm, shocked, thinking, deter
 
 | Character | Signature look | Used in |
 |---|---|---|
-| **The Pro** (mascot) | Face is the BrandPros seal (engraved ledger-green ring, cream face), ledger-green blazer, red tie, brass keyhole lapel pin, white gloves | Every video |
+| **The Pro** (mascot) | Round cream face, a tangerine pie slice as a cowlick, charcoal blazer, tangerine tie, pie-chart lapel pin, white gloves | Every video |
 | Colonel Harland Sanders | White suit, black string tie, thick black frames, swept-back white hair, white mustache and goatee, cane | S05 |
 | Walt Disney | Long face, side-parted dark hair with a wave, pencil mustache, arched brows, easy grin, pencil | I-73 |
 | Frank W. Woolworth | Heavy walrus mustache, balding crown, round face, three-piece suit, watch chain, a nickel | S10 |
@@ -81,7 +81,7 @@ Scene: [the "Visual / cartoon scene" text from the script beat].
 Characters: [cast name] matching the attached character sheet, [expression]; [generic characters].
 Setting: [place], [year/era details].
 Camera: [close-up | medium | wide], [angle].
-Mood: [tense seal-red accents for $1B Mistake / faded sepia for Dead Brands / warm brass for How They Make Money / fresh mint for The Comeback / ledger green for Founder Files / red-vs-slate for Brand Wars].
+Mood: [tense red accents for $1B Mistake / faded sepia for Dead Brands / tangerine for How They Make Money / fresh mint for The Comeback / ink for Founder Files / red-vs-slate for Brand Wars].
 ```
 
 ### A6. Motion: hand-made, not template-y

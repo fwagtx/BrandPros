@@ -6,13 +6,14 @@
   @font-face { font-family: "Inter"; font-weight: 800; src: url(fonts/Inter-ExtraBold.ttf) format("truetype"); font-display: swap; }
   @font-face { font-family: "DM Serif Display"; src: url(fonts/DMSerifDisplay-Regular.ttf) format("truetype"); font-display: swap; }
   @font-face { font-family: "DM Serif Display"; font-style: italic; src: url(fonts/DMSerifDisplay-Italic.ttf) format("truetype"); font-display: swap; }
+  @font-face { font-family: "Bricolage Grotesque"; font-weight: 800; src: url(fonts/BricolageGrotesque-ExtraBold.ttf) format("truetype"); font-display: swap; }
   @font-face { font-family: "Permanent Marker"; src: url(fonts/PermanentMarker-Regular.ttf) format("truetype"); font-display: swap; }
 
-  /* Layout: a ledger-green desk; each section is a filed entry with a label column and pinned work on the right. */
+  /* Layout: an ink desk; each section is a filed entry with a label column and pinned work on the right. */
   :root {
-    --bg: #133A2C; --bg-2: #1D4A3A; --panel: #F2EAD7; --panel-ink: #17150F; --line: #2B5E4B;
-    --fg: #F2EAD7; --muted: #B7C7BD; --red: #C8372D; --red-l: #E8735F; --mint: #8FD1AE; --brass: #C49A3A; --hl: #F4E36B;
-    --f-display: "Anton", "Bebas Neue", Impact, "Arial Narrow", sans-serif;
+    --bg: #141414; --bg-2: #222222; --panel: #F2EAD7; --panel-ink: #141414; --line: #333333;
+    --fg: #F4F1EC; --muted: #B3ADA6; --red: #C8372D; --red-l: #E8735F; --mint: #8FD1AE; --brass: #C49A3A; --hl: #FF8A3D;
+    --f-display: "Bricolage Grotesque", "Arial Black", sans-serif;
     --f-body: "Inter", "Helvetica Neue", Arial, sans-serif;
     --f-serif: "DM Serif Display", Georgia, serif;
     --f-marker: "Permanent Marker", "Comic Sans MS", cursive;
@@ -20,7 +21,7 @@
   }
   * { box-sizing: border-box; }
   body { background: var(--bg); color: var(--fg); font-family: var(--f-body); font-size: 16px; line-height: 1.55; }
-  body::before { content: ""; position: fixed; inset: 0; pointer-events: none; opacity: .5; background-image: radial-gradient(rgba(242,234,215,.07) 1.2px, transparent 1.3px); background-size: 14px 14px; }
+  body::before { content: ""; position: fixed; inset: 0; pointer-events: none; opacity: .5; background-image: radial-gradient(rgba(242,234,215,.06) 1.2px, transparent 1.3px); background-size: 14px 14px; }
   .wrap { position: relative; max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 36px 80px; }
   h1, h2, h3 { text-wrap: balance; margin: 0; font-weight: 400; }
   code { font-size: .92em; }
@@ -33,7 +34,7 @@
   .kicker { font-family: var(--f-marker); font-size: 20px; color: var(--hl); transform: rotate(-1.5deg); display: inline-block; }
 
   section { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 32px; padding-block: 46px; border-bottom: 1px solid var(--line); }
-  section > header h2 { font-family: var(--f-serif); font-size: 38px; line-height: 1.05; }
+  section > header h2 { font-family: var(--f-display); font-weight: 800; font-size: 36px; line-height: 1.05; letter-spacing: -0.5px; }
   section > header p { color: var(--muted); font-size: 14px; margin: 10px 0 0; }
   @media (max-width: 820px) { section { grid-template-columns: 1fr; gap: 18px; } }
 
@@ -114,12 +115,12 @@
   .spec .meta { font-size: 13px; color: #55554C; }
   .spec .meta b { color: #17150F; display: block; font-size: 15px; }
   .spec .sample { min-width: 0; overflow-wrap: anywhere; color: #17150F; }
-  .s-serif { font-family: var(--f-serif); font-size: clamp(38px, 6vw, 64px); line-height: 1; color: #133A2C; }
+  .s-serif { font-family: var(--f-serif); font-size: clamp(28px, 4vw, 44px); line-height: 1.1; color: #141414; }
   .s-serif i { color: var(--red); }
-  .s-display { font-family: var(--f-display); font-size: clamp(40px, 6vw, 70px); line-height: 1; }
+  .s-display { font-family: var(--f-display); font-weight: 800; font-size: clamp(34px, 5.4vw, 62px); line-height: 1.05; letter-spacing: -1px; }
   .s-display span { background: var(--red); color: #F2EAD7; padding: 0 10px; }
   .s-caption { font: 700 clamp(22px, 3.2vw, 32px) var(--f-body); background: #F2EAD7; border: 2px solid #17150F; display: inline-block; padding: 12px 20px; transform: rotate(-1deg); box-shadow: 5px 6px 0 rgba(0,0,0,.2); }
-  .s-caption mark { background: var(--hl); padding: 0 4px; }
+  .s-caption mark { background: #FFA463; padding: 0 4px; }
   .s-marker { font-family: var(--f-marker); font-size: clamp(26px, 4vw, 40px); color: #17150F; transform: rotate(-2deg); display: inline-block; }
 
   .files { font-size: 14px; columns: 2 260px; column-gap: 28px; padding-left: 18px; margin: 0; }
@@ -130,9 +131,9 @@
 
 <div class="wrap">
   <header class="mast">
-    <span class="kicker">brand kit · v2 · September 2026</span>
+    <span class="kicker">brand kit · v3 · the slice</span>
     <div class="wm" id="mastLogo" role="img" aria-label="BrandPros wordmark"></div>
-    <p>Every brand has a backstory. The keyhole seal says what we do: unlock the story behind the brand. Everything is hand-inked in ledger green, certificate cream and seal red, and nothing borrows another company's logo or colors.</p>
+    <p>Every brand has a backstory. The logo is the name, with one idea built in: the o is a pie chart with a slice pulled out, because we take companies apart and show you how the money really works. Ink, white and tangerine on top; hand-inked paper cartoons underneath. Nothing borrows another company's logo or colors.</p>
   </header>
 
   <section id="preview">
@@ -202,21 +203,21 @@
   <section id="logo">
     <header>
       <h2>Logo</h2>
-      <p>The Keyhole Seal: an engraved stock-certificate seal with a keyhole at its heart. We unlock the story behind the brand.</p>
+      <p>The Slice: lowercase brandpros, with a pie-chart o and one tangerine slice pulled out.</p>
     </header>
     <div>
       <div class="tiles">
-        <div class="tile"><div class="art" id="logoSeal"></div><div class="cap"><b>Full seal</b> · end cards, banner, merch</div></div>
+        <div class="tile"><div class="art" id="logoSeal"></div><div class="cap"><b>Icon</b> · the pie on its own, for stickers, watermarks and favicons</div></div>
         <div class="tile"><div class="art" id="logoAvatar"></div><div class="cap"><b>Profile picture</b> · all four platforms · reads at 40 px</div></div>
       </div>
       <div class="tiles" style="margin-top:22px">
-        <div class="tile"><div class="art" id="logoWordLight"></div><div class="cap"><b>Wordmark on cream</b> · default</div></div>
-        <div class="tile"><div class="art" id="logoWordDark"></div><div class="cap"><b>Wordmark on green</b> · "Pros" shifts to a lighter red</div></div>
+        <div class="tile"><div class="art" id="logoWordLight"></div><div class="cap"><b>Wordmark on white</b> · default</div></div>
+        <div class="tile"><div class="art" id="logoWordDark"></div><div class="cap"><b>Wordmark on ink</b> · white letters, lighter tangerine slice</div></div>
       </div>
       <ul class="rules">
-        <li>"Brand" in the roman serif, "<i>Pros</i>" in the italic serif, always red.</li>
-        <li>Clear space equals the keyhole's height on every side.</li>
-        <li class="no">No "BP" monogram. It's another company's name.</li>
+        <li>Always lowercase, always Bricolage Grotesque ExtraBold.</li>
+        <li>Clear space equals the pie's height on every side.</li>
+        <li class="no">Never recolor the slice, rotate the pie or close the gap.</li>
         <li class="no">Never set another company's name in its own brand colors.</li>
       </ul>
     </div>
@@ -225,7 +226,7 @@
   <section id="mascot">
     <header>
       <h2>The Pro</h2>
-      <p>Our narrator. A seal for a face, a ledger-green blazer, and a brass keyhole pin. Appears in hooks, lessons and calls to action.</p>
+      <p>Our narrator. A round face with a tangerine pie slice for a cowlick, a charcoal blazer, a tangerine tie and a pie-chart pin. Appears in hooks, lessons and calls to action.</p>
     </header>
     <div class="tiles"><div class="tile" style="grid-column:1/-1"><div class="art" id="mascotSheet"></div></div></div>
   </section>
@@ -233,16 +234,16 @@
   <section id="color">
     <header>
       <h2>Color</h2>
-      <p>The world of ledgers, cheques and stock certificates. Red means a loss or a mistake; mint means a gain.</p>
+      <p>Ink, white and tangerine carry the brand. In the videos, red means a loss and mint means a gain.</p>
     </header>
     <div>
       <div class="swatches" id="swatches"></div>
       <div class="series" aria-label="Series tags">
         <span class="pill" style="background:#C8372D">The $1B Mistake</span>
         <span class="pill" style="background:#B9A27A;color:#17150F">Dead Brands</span>
-        <span class="pill" style="background:#C49A3A;color:#17150F">How They Make Money</span>
+        <span class="pill" style="background:#F26B1D;color:#141414">How They Make Money</span>
         <span class="pill" style="background:#8FD1AE;color:#17150F">The Comeback</span>
-        <span class="pill" style="background:#1D4A3A">Founder Files</span>
+        <span class="pill" style="background:#141414;border-color:#F4F1EC">Founder Files</span>
         <span class="pill" style="background:linear-gradient(90deg,#C8372D 50%,#5E6B73 50%)">Brand Wars</span>
       </div>
     </div>
@@ -254,8 +255,8 @@
       <p>Four free fonts, each with one job.</p>
     </header>
     <div class="type">
-      <div class="spec pin tilt-l"><div class="meta"><b>DM Serif Display</b>The wordmark, titles, quotes, "Pros know" cards.</div><div class="sample s-serif">Brand<i>Pros</i></div></div>
-      <div class="spec pin tilt-r"><div class="meta"><b>Anton</b>Cut-paper headlines and thumbnail numbers. Two lines max.</div><div class="sample s-display">$50,000,000 <span>PASSED</span></div></div>
+      <div class="spec pin tilt-l"><div class="meta"><b>Bricolage Grotesque ExtraBold</b>The wordmark (lowercase), headlines, thumbnails, numbers.</div><div class="sample s-display">$50,000,000 <span>PASSED</span></div></div>
+      <div class="spec pin tilt-r"><div class="meta"><b>DM Serif Display</b>On-screen quotes and founder name plates.</div><div class="sample s-serif">“We're not that dumb, and we're not that smart.”</div></div>
       <div class="spec pin tilt-l"><div class="meta"><b>Inter Bold</b>Captions: sentence case on a paper strip, the spoken word highlighted.</div><div class="sample"><span class="s-caption">Would you have <mark>bought</mark> it?</span></div></div>
       <div class="spec pin tilt-r"><div class="meta"><b>Permanent Marker</b>Hand notes: sources, arrows, who's who.</div><div class="sample s-marker">per Marc Randolph's memoir →</div></div>
     </div>
@@ -286,8 +287,8 @@
       <p>In the repo under <code>brandpros/brand-kit/</code>.</p>
     </header>
     <ul class="files">
-      <li><code>exports/seal.png</code>, <code>avatar.png</code></li>
-      <li><code>exports/wordmark-light.png</code>, <code>wordmark.png</code></li>
+      <li><code>exports/avatar.png</code> profile picture, <code>seal.png</code> large icon</li>
+      <li><code>exports/wordmark-light.png</code>, <code>wordmark.png</code> (on ink)</li>
       <li><code>exports/founders/*.png</code> 10 cast cards</li>
       <li><code>exports/cast.png</code> the full cast sheet</li>
       <li><code>exports/mascot.png</code>, <code>banner.png</code></li>
@@ -323,13 +324,13 @@
     $("castGrid").innerHTML = BP.FOUNDER_ORDER.map((id) => { const f = BP.FOUNDERS[id]; return `<figure>${fit(BP.founderCard(id))}<figcaption>${f.look}</figcaption></figure>`; }).join("");
   }
   const sw = [
-    ["Ledger Green", "#133A2C", "Backgrounds, the seal, outlines of the brand"],
-    ["Certificate Cream", "#F2EAD7", "Paper, cards, captions"],
-    ["Seal Red", "#C8372D", "“Pros”, losses, stamps"],
+    ["Ink", "#141414", "Wordmark, dark backgrounds, line work"],
+    ["White", "#FFFFFF", "Logo backgrounds"],
+    ["Tangerine", "#F26B1D", "The slice, labels, PROS KNOW"],
+    ["Paper", "#F2EAD7", "Scenes, cards, caption strips"],
+    ["Light tangerine", "#FFA463", "The spoken caption word"],
+    ["Red", "#C8372D", "Losses, stamps"],
     ["Mint", "#8FD1AE", "Gains, The Comeback"],
-    ["Brass", "#C49A3A", "Money, the keyhole pin"],
-    ["Ink", "#17150F", "All line work"],
-    ["Highlighter", "#F4E36B", "The spoken caption word, hand notes on green"],
   ];
   $("swatches").innerHTML = sw.map(([n, h, u]) => `<div class="sw"><div class="chip" style="background:${h}"></div><div class="t"><b>${n}</b><code>${h}</code><span class="use">${u}</span></div></div>`).join("");
 
@@ -368,7 +369,7 @@
     ["The board", "The boardroom door slams; Blockbuster's envelope stops.", beat("b3").e - 0.7],
     ["One store left", "Stores go dark; the last one, in Bend, Oregon.", beat("b4").e - 0.2],
     ["Pros know", "The lesson card, taped up, underlined in red.", beat("b5").e - 0.6],
-    ["End card", "The seal and the wordmark.", DUR - 0.3],
+    ["End card", "The pie icon and the wordmark.", DUR - 0.3],
   ];
   const drawBoard = () => { $("board").innerHTML = frames.map(([h, d, ft]) => `<figure><div class="frame">${fit(BP.frameS01(ft))}</div><figcaption><b>${fmt(ft)} · ${h}</b>${d}</figcaption></figure>`).join(""); };
 

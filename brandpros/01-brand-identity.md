@@ -130,49 +130,52 @@ Character counts were checked with a script. Emoji count as 1–2 characters dep
 The full, rendered brand kit (logo files, mascot, founder cast, colors, type, thumbnails, banner and an animated sample Short) lives in `brand-kit/`. Open `brand-kit/index.html` or the published brand kit page.
 
 ### Core look: "Hand-inked ledger"
-An editorial, hand-made cartoon style from the world of ledgers, cheques and stock certificates:
+An editorial, hand-made cartoon style with a bold, modern logo on top:
 - **Hand-inked lines** that "boil" (each frame redrawn with a slight wobble, 8 times a second), **paper grain and halftone dots** instead of gradients or sunbursts, and **motion on twos** (12 frames per second), like hand-made animation.
 - **Cut-paper labels with tape** for headlines, **handwritten marker notes and arrows** for sources and "who's who", and **captions on a paper strip** in sentence case with the spoken word highlighted.
 - **People** are recognizable **caricatures of historical founders** (the Founder Files cast in `brand-kit/exports/founders/`). **Living executives appear as generic characters**, named in the voiceover (see `12-visual-automation.md`).
 - **Brands are never drawn with their own logos, mascots or trade-dress colors.** Stores and products are generic and identified by handwritten labels. **A company's name is never set in its own brand colors** (for example "NETFLIX" is never white on red).
-- **Host mascot: "The Pro."** A narrator whose face is the BrandPros seal, in a ledger-green blazer with a red tie and a brass keyhole lapel pin. Appears in hooks, "Pros know" lessons and CTAs; never plays a real person.
+- **Host mascot: "The Pro."** See *Mascot* below.
 
 ### Color palette
 
 | Role | Name | Hex | Use |
 |---|---|---|---|
-| Primary dark | Ledger Green | `#133A2C` | The seal, backgrounds, the mascot's blazer |
-| Primary light | Certificate Cream | `#F2EAD7` | Paper, cards, caption strips |
-| Accent | Seal Red | `#C8372D` | "*Pros*" in the wordmark, losses, stamps, $1B Mistake |
+| Primary dark | Ink | `#141414` | Wordmark, backgrounds, outlines, the mascot's blazer |
+| Primary light | White / Paper | `#FFFFFF` / `#F2EAD7` | Logo backgrounds; paper, cards and caption strips in videos |
+| Brand accent | Tangerine | `#F26B1D` (`#FF8A3D` on dark) | The pulled-out slice, highlights, headline labels, "PROS KNOW" |
+| Signal: loss | Red | `#C8372D` | Losses, stamps, $1B Mistake |
 | Signal: gain | Mint | `#8FD1AE` | Gains, The Comeback |
-| Money | Brass | `#C49A3A` | Coins, the keyhole pin, How They Make Money |
-| Line | Ink | `#17150F` | All line work |
-| Highlight | Highlighter | `#F4E36B` | The spoken caption word; marker notes on green |
+| Money | Brass | `#C49A3A` | Coins and cash props only |
+| Highlight | Light tangerine | `#FFA463` | The spoken caption word; marker notes on dark |
 
-On dark green, "*Pros*" uses a lighter red `#E8735F` for contrast. **No navy-and-yellow or blue-and-yellow combinations anywhere**, so there's no resemblance to any company we cover.
+Tangerine is the brand's ownable color. **No company we cover is drawn in its own colors**, and no company's name is set in its own brand colors.
 
-**Series color coding** (series chip plus thumbnail tag): The $1B Mistake = Seal Red · Dead Brands = sepia `#B9A27A` · How They Make Money = Brass · The Comeback = Mint · Founder Files = Ledger Green · Brand Wars = split Red/Slate.
+**Series color coding** (series chip plus thumbnail tag): The $1B Mistake = Red · Dead Brands = sepia `#B9A27A` · How They Make Money = Tangerine · The Comeback = Mint · Founder Files = Ink · Brand Wars = split Red/Slate.
 
 ### Fonts (all free, SIL Open Font License, bundled in `brand-kit/fonts/`)
-- **DM Serif Display** (roman and *italic*): the wordmark, titles, quotes, "Pros know" cards.
-- **Anton**: cut-paper headlines and big thumbnail numbers. Two lines max.
-- **Inter Bold**: captions, sentence case, on a cream paper strip; the spoken word gets a highlighter swipe. Max 4 words per strip.
+- **Bricolage Grotesque ExtraBold**: the wordmark, cut-paper headlines, thumbnail text, big numbers.
+- **Inter Bold**: captions (sentence case on a paper strip; the spoken word gets a tangerine highlight) and UI.
 - **Permanent Marker**: handwritten notes, sources, arrows and labels.
+- **DM Serif Display**: on-screen quotes and founder name plates only.
 
 ### Thumbnail style (YouTube long-form)
 Formula: **one character or object + three words + one handwritten note**.
-- Left 55%: the founder caricature (from the cast) or a generic cartoon of the store/product, on a paper background with halftone.
-- Right 45%: two cut-paper labels in Anton ("IT WASN'T" / "NETFLIX"), with a marker note pointing at the art ("the real reason").
-- Series chip in the top-left corner.
-- Test two versions per video with YouTube's *Test & Compare*.
-- Never put words in a real person's mouth in a speech bubble unless it's a documented quote.
+- Left 55%: the founder caricature (from the cast) or a generic cartoon of the store/product, on paper with halftone.
+- Right 45%: two cut-paper labels in Bricolage ("IT WASN'T" / "NETFLIX"), with a marker note pointing at the art.
+- Series chip top-left. Two versions per video in YouTube's *Test & Compare*.
+- Never put words in a real person's mouth unless it's a documented quote.
 
-### Logo concept: the Keyhole Seal
-- **Mark:** an engraved stock-certificate-style **seal** in ledger green with a **keyhole** at its center: *we unlock the story behind the brand*. The full version carries the motto on its rim: "EVERY BRAND HAS A BACKSTORY ✦ ESTD 2026".
-- **Wordmark:** the seal plus "Brand" in DM Serif Display and "*Pros*" in DM Serif Display Italic, Seal Red.
-- **Profile picture:** the simple seal (engraved ticks, no rim text) on cream. It reads at 40 px.
-- **No "BP" monogram** (it's another company's name) and no price tags or tickets (too close to existing retail logos).
-- Files: `brand-kit/exports/seal.png`, `avatar.png`, `wordmark-light.png`, `wordmark.png`.
+### Logo: The Slice
+- **Wordmark:** lowercase **brandpros** in Bricolage Grotesque ExtraBold. **The "o" is a pie chart with one tangerine slice pulled out**: we take companies apart and show how the money really works.
+- **Icon / profile picture:** the pie alone (ink pie, white slice) on a tangerine square. Platforms crop it to a circle; it reads at 32 px.
+- **On dark:** white letters, light-tangerine slice.
+- **Clear space:** the height of the pie on every side. **Minimum size:** wordmark 90 px wide; icon 24 px.
+- **Don't:** recolor the slice, rotate the pie, close the gap, stretch or outline the letters, or set the wordmark in caps.
+- Files: `brand-kit/exports/wordmark-light.png`, `wordmark.png` (dark), `avatar.png`, `seal.png` (large icon).
+
+### Mascot: The Pro
+A narrator with a round cream face, a **tangerine pie slice for a cowlick**, a charcoal blazer, a tangerine tie and a pie-chart lapel pin. Appears in hooks, "Pros know" lessons and CTAs; never plays a real person.
 
 ### Sound identity
 - A 1.5-second sonic logo (a cash-register "cha-ching" played on a muted piano) at the end of every video.
