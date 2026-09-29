@@ -15,6 +15,8 @@ catch { playwright = require(path.join(execSync("npm root -g").toString().trim()
 
 const args = Object.fromEntries(process.argv.slice(2).reduce((a, v, i, arr) => (v.startsWith("--") ? [...a, [v.slice(2), arr[i + 1]]] : a), []));
 const FPS = Number(args.fps || 30);
+const OUT_FPS = Number(args.outfps || FPS); // e.g. --fps 12 --outfps 30: animation is on twos, so 12 unique frames/s is lossless
+const VIDEO_OUT = args.out || null;
 const SCALE = Number(args.scale || 1);
 const ONLY = args.only || "all";
 const FFMPEG = process.env.FFMPEG || "ffmpeg";
@@ -68,7 +70,7 @@ if (ONLY !== "assets") {
   const outW = Math.round(1080 * SCALE / 2) * 2, outH = Math.round(1920 * SCALE / 2) * 2;
   const ff = spawn(FFMPEG, ["-y", "-f", "image2pipe", "-framerate", String(FPS), "-i", "-",
     "-vf", `scale=${outW}:${outH}:flags=lanczos,format=yuv420p`, "-c:v", "libx264", "-preset", "medium", "-crf", "20",
-    "-movflags", "+faststart", path.join(exportsDir, "s01-blockbuster-preview.mp4")], { stdio: ["pipe", "ignore", "inherit"] });
+    "-r", String(OUT_FPS), "-movflags", "+faststart", VIDEO_OUT || path.join(exportsDir, "s01-blockbuster-preview.mp4")], { stdio: ["pipe", "ignore", "inherit"] });
   for (let i = 0; i < total; i++) {
     await page.evaluate((tt) => window.renderAt(tt), i / FPS);
     const buf = await page.screenshot({ type: "jpeg", quality: 92, clip: { x: 0, y: 0, width: 1080, height: 1920 } });
