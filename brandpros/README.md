@@ -13,7 +13,7 @@
 3. **Posting times** are based on **real Metricool best-time data pulled from your historypros brand** (Sep 21–27, 2026) as the closest proxy audience. BrandPros isn't in Metricool yet, so re-pull after 4 weeks.
 4. **Cadence:** 1 Short per day (posted natively to all 4 platforms), 1 YouTube long-form per week (Thursdays), Facebook native long-form 2 days later, 3 Facebook engagement posts per week, 1 Instagram carousel per week. This assumes the semi-automated pipeline in files 08 and 12. Without automation, expect ~25 h/week.
 5. **Voice:** one consistent licensed AI voice (never a clone of a real person) to start; a human voice actor for long-form is recommended from month 2.
-6. **Visuals:** a recognizable **cartoon caricature** house style (per your request), not photorealistic "exact" likenesses. The reasons (platform rules, legal safety, consistency) are in `12-visual-automation.md`.
+6. **Visuals:** a hand-inked, paper-textured cartoon style with the **Keyhole Seal** identity (ledger green, certificate cream, seal red). Historical founders are drawn as recognizable caricatures from an approved cast; living people are generic characters; no company's logo, mascot or brand colors are ever drawn. Details are in `brand-kit/` and `12-visual-automation.md`.
 7. **Automation level:** "as automated as possible" is interpreted as a full pipeline with **three short human checkpoints** (script POV, fact sign-off, final watch). That's about 45–55 min per Short. Fully hands-off production would put YouTube monetization at risk under its inauthentic-content policy.
 8. **Audience** is mostly U.S.-based (this affects RPM estimates and posting times).
 9. **Platform rules and thresholds** (YPP, TikTok Creator Rewards, Facebook Content Monetization) are stated as last published and marked **[VERIFY]**. Check them before relying on them.
@@ -40,6 +40,7 @@
 | `10-cross-promotion.md` | Specific historypros and financeprostv collabs plus a 30-day schedule | Weekly planning |
 | `11-kpis.md` | Weekly scorecard, month 1/3/6 targets, **underperformance playbook** | Every Monday |
 | `12-visual-automation.md` | Cartoon house-style prompts, character sheets, likeness rules, **automation architecture**, tool bake-off, costs, build roadmap | Setting up the pipeline |
+| `brand-kit/` | **Logo (Keyhole Seal), wordmark, mascot, Founder Files cast, colors, fonts, thumbnails, banner, and the render engine** that produced the S01 preview video | Designing anything; making videos |
 | `automation/build_calendar.py` | Regenerates the calendar CSV after you change dates or captions | Editing the calendar |
 
 ---

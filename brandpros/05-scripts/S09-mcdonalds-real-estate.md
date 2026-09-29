@@ -35,4 +35,4 @@
 - [ ] Franchised revenue breakdown: rent vs. royalties vs. initial fees [VERIFY; 10-K "Revenues" note]. Only say "biggest slice" if the filing supports it.
 - [ ] Sonneborn quote: source is John F. Love, *McDonald's: Behind the Arches*. Mark as a paraphrase unless you have the exact line.
 - [ ] Sonneborn's title (the first president/CEO after serving as finance chief) [VERIFY].
-- [ ] Don't draw the Golden Arches or Ronald McDonald. Use a generic red-and-yellow burger joint.
+- [ ] Don't draw the Golden Arches or Ronald McDonald. Use a generic diner in the BrandPros palette, labeled in marker; no red-and-yellow trade dress.

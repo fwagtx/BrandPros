@@ -1,78 +1,84 @@
-# BrandPros Brand Kit (v1)
+# BrandPros Brand Kit (v2)
 
-Everything needed to make BrandPros content look like BrandPros: the logo, mascot, colors, type, caption and thumbnail rules, channel art, and a working **render engine** that draws the cartoon scenes and outputs finished video.
+v2 replaces the v1 gold-tag-on-navy logo, which was too close to Blockbuster's torn-ticket logo, and drops every borrowed brand color from the illustrations.
+
+Everything that makes BrandPros look like BrandPros: the **Keyhole Seal** logo, the wordmark, the mascot, the **Founder Files cast**, colors, type, thumbnails, channel art, and a working **render engine** that draws the hand-inked scenes and outputs finished video.
 
 ## What's here
 
 | Path | What it is |
 |---|---|
-| `exports/avatar.png` / `.svg` | Profile picture (800×800), for all four platforms |
-| `exports/wordmark.png`, `wordmark-light.png` | Horizontal logo lockups (dark and light backgrounds) |
-| `exports/mascot.png` | "The Pro" mascot in 4 poses (smile/wave, shock/hold, think/shrug, wink/point) |
-| `exports/banner.png` | YouTube channel banner (2560×1440; key content inside the 1546×423 safe area) |
-| `exports/thumbA.png`, `thumbB.png` | LF01 Blockbuster thumbnail A/B test pair (1920×1080) |
+| `exports/seal.png` | The full Keyhole Seal with the motto rim (900×900) |
+| `exports/avatar.png` | Profile picture for all four platforms (800×800) |
+| `exports/wordmark-light.png`, `wordmark.png` | Wordmark on cream (default) and on ledger green |
+| `exports/founders/*.png` | **10 founder cast cards** (800×1000): Sanders, Disney, Woolworth, Adi and Rudolf Dassler, Kroc, Hershey, Ford, Sears, Madam C.J. Walker |
+| `exports/cast.png` | The whole cast on one sheet (2100×1350) |
+| `exports/mascot.png` | The Pro in 4 poses |
+| `exports/banner.png` | YouTube banner (2560×1440; logo inside the 1546×423 safe area) |
+| `exports/thumbA.png`, `thumbB.png` | LF01 thumbnail A/B pair (1920×1080) |
 | `exports/s01-frame-*.png` | 8 storyboard frames from Short S01 |
-| `exports/s01-blockbuster-preview.mp4` | **55-second rendered preview of Short S01** (1080×1920, 30 fps, silent with timed captions) |
+| `exports/s01-blockbuster-preview.mp4` | **55-second rendered preview of Short S01** (1080×1920, 30 fps, silent with captions) |
 | `tokens.css` | Colors, fonts and sizes as CSS variables |
-| `fonts/` | Anton, Inter (400/600/800), DM Serif Display (all SIL Open Font License, from Google Fonts) |
-| `engine/bp-engine.js` | The drawing engine: mascot, characters, storefronts, props, captions, scenes |
-| `engine/stage.html` + `engine/render.mjs` | Renders the PNG assets and the MP4 |
-| `index.html` | The visual brand kit page with a live player (also published as an artifact) |
+| `fonts/` | DM Serif Display (roman and italic), Anton, Inter, Permanent Marker (all SIL Open Font License) |
+| `engine/bp-engine.js` | Drawing engine: seal, mascot, generic characters, stores, props, labels, captions, S01 scenes |
+| `engine/founders.js` | The Founder Files cast: feature-based caricature busts plus portrait cards |
+| `engine/stage.html` + `engine/render.mjs` | Renders every PNG/SVG export and the MP4 |
+| `index.html` | The visual brand kit page with a live player (published as an artifact) |
 
-> The `.svg` exports reference the brand fonts by name. Install the fonts in `fonts/` before opening them in a design tool, or use the PNGs.
+## Logo: the Keyhole Seal
+- **Idea:** we unlock the story behind the brand. An engraved stock-certificate seal in ledger green with a keyhole at the center; the full version carries "EVERY BRAND HAS A BACKSTORY ✦ ESTD 2026" on its rim.
+- **Wordmark:** seal plus "Brand" (DM Serif Display) plus "*Pros*" (DM Serif Display Italic, Seal Red `#C8372D`; `#E8735F` on green).
+- **Clear space:** the keyhole's height on every side. **Minimum size:** 40 px for the simple seal.
+- **Never:** a "BP" monogram (another company's name), price tags or tickets, recoloring outside the palette, or effects.
 
-## Logo
-- **Mark:** a gold price tag with a navy hole, the **BP** monogram in Anton, and a rise-and-fall line underneath.
-- **Wordmark:** "BRAND" in cream (or navy on light) plus "PROS" in gold, both Anton.
-- **Clear space:** the height of the tag's hole on every side (about 1/10 of the tag's height).
-- **Minimum size:** 40 px tall for the mark (avatar), 24 px tall for the wordmark.
-- **Don't:** recolor the tag (except all-navy or all-cream one-color versions), stretch it, add effects or gradients, or put it on a busy image without a navy panel.
-
-## The Pro (mascot)
-A narrator in a navy blazer whose head is a gold price tag. The Pro appears in hooks, "Pros know" lessons and CTAs, never as a story character.
-- **Expressions:** smile, wink (lesson/CTA), shock (twists), think (questions).
-- **Arm poses:** wave, hold (presenting a number), point (the lesson), down (point at comments), shrug.
-- The Pro never speaks for real people and never appears in sponsor reads as a stand-in for the sponsor.
+## Non-negotiable rules for anything we draw
+1. **No real logos, mascots or trade dress.** Stores and products are generic (e.g. a slate strip-mall store with a cream "VIDEO" board), identified by **handwritten labels**.
+2. **A company's name is never set in its own brand colors** ("NETFLIX" is never white on red; "BLOCKBUSTER" is never blue and yellow).
+3. **Historical founders** come from the approved cast. **Living people** are generic characters, named in the voiceover.
+4. Quotes on screen are always attributed, with a marker note naming the source.
 
 ## Colors
-| Token | Hex | Use |
+| Name | Hex | Use |
 |---|---|---|
-| Boardroom Navy | `#0E1A2B` | Backgrounds, all outlines, text on light |
-| Navy 2 / Navy 3 | `#1B2C45` / `#27405F` | Scene backgrounds, burst rays |
-| Ledger Gold | `#F4B942` | Logo, key numbers, the highlighted caption word |
-| Markdown Red | `#E63946` | Losses, stamps, $1B Mistake |
-| Comeback Green | `#2BB673` | Gains, The Comeback |
-| Receipt Cream | `#F5EFE0` | Cards, light backgrounds |
-| Filing Gray | `#8A94A6` | Secondary text |
+| Ledger Green | `#133A2C` | The seal, backgrounds, the mascot's blazer |
+| Certificate Cream | `#F2EAD7` | Paper, cards, caption strips |
+| Seal Red | `#C8372D` | "*Pros*", losses, stamps, $1B Mistake |
+| Mint | `#8FD1AE` | Gains, The Comeback |
+| Brass | `#C49A3A` | Money, the keyhole pin |
+| Ink | `#17150F` | All line work |
+| Highlighter | `#F4E36B` | The spoken caption word; notes on green |
 
-Series chips: $1B Mistake = red, Dead Brands = sepia `#C9B27A`, How They Make Money = gold, The Comeback = green, Founder Files = navy with a gold frame, Brand Wars = split red/navy.
+Series chips: $1B Mistake = red · Dead Brands = sepia `#B9A27A` · How They Make Money = brass · The Comeback = mint · Founder Files = ledger green · Brand Wars = red/slate split.
 
 ## Type
 | Role | Font | Rules |
 |---|---|---|
-| Headlines, thumbnails, numbers | **Anton** | All caps, 2 lines max, white or gold with a navy stroke of about 14% of the size |
-| Captions | **Inter ExtraBold (800)** | All caps, 72 px at 1080 wide, white with a 16 px navy stroke, **spoken word in gold**, max 3 words per chunk, centered at about 68% of the frame height |
-| Vintage titles and quotes | **DM Serif Display** | Dead Brands and Founder Files titles, on-screen quotes (always attributed) |
-| UI and body | Inter 400/600 | Descriptions, media kit, website |
+| Wordmark, titles, quotes | **DM Serif Display** (+ Italic) | "Pros" always italic |
+| Headlines, thumbnails | **Anton** | On cut-paper labels with tape, 2 lines max |
+| Captions | **Inter Bold** | Sentence case on a cream paper strip, max 4 words, spoken word highlighted, at ~69% of frame height |
+| Hand notes | **Permanent Marker** | Sources, arrows, who's who |
 
-## Illustration rules (summary; full rules in `../12-visual-automation.md`)
-- 8 px navy outline at 1080 wide, flat fills, one soft shadow at most, oversized heads.
-- Real people: recognizable, friendly caricature for documented events only. Living executives default to generic characters.
-- Brands: color *hints* only (e.g. a blue-and-yellow "VIDEO" store). **Never draw a real logo or mascot.** Official logos, if needed, are overlaid unaltered in the edit.
-- Safe zones for vertical video: nothing important in the top 120 px or the bottom 360 px (platform UI); captions at about 1300 px.
+## The hand-made look (how the engine does it)
+- **Line boil:** every frame is redrawn with 3 slightly different ink wobbles, swapped 8×/second (an SVG turbulence displacement with a changing seed).
+- **Motion on twos:** all movement steps at 12 fps; camera pushes are slow (3–5%).
+- **Paper:** static grain and fiber blotches, a soft vignette and halftone dots for shading. No gradients, no sunbursts.
+- **Cuts:** hard cuts; labels slap on with a one-frame overshoot; stamps land in two frames.
 
-## Motion rules (as used in the S01 preview)
-- A new visual idea every 2–4 s. Every scene has a slow Ken Burns push (3–6%).
-- **Cuts:** a 0.25 s "pop" (106% → 100%) plus a short white flash on each beat.
-- **Headlines:** spring in (overshoot) and stay until the next idea.
-- **Stamps** (PASSED, LATE FEES = $$$) slam from 240% to 100%.
-- **The end card** is the logo, the wordmark, "Every brand has a backstory." and the cha-ching sonic logo.
+## The Founder Files cast
+Each founder is built from their documented signature look (face shape, hairline, facial hair, glasses, era clothing, a signature prop), then approved and reused. The cast sheet lists each one's likeness notes in `engine/founders.js` (`look:`).
+
+**To push likeness further** (recommended before a founder's first video):
+1. Gather 3–5 public-domain or licensed reference portraits from the era of the story.
+2. Compare them against the card and adjust the parameters in `founders.js` (face `w/h/jaw/chin`, hair `style`, `nose`, `ears`, facial hair, `age`), or have an illustrator redraw the sheet in this style.
+3. Approve once, then reuse the card in every scene.
+
+This session couldn't fetch reference photos because Wikipedia is blocked by the environment's network settings, so the cast was drawn from well-documented signature features.
 
 ## Re-rendering
 ```bash
 cd brandpros/brand-kit/engine
-pip install imageio-ffmpeg                        # provides an ffmpeg binary
+pip install imageio-ffmpeg
 FFMPEG=$(python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())") node render.mjs
 # --only assets | --only video   --fps 30   --scale 0.5 (faster drafts)
 ```
-Word timings in the preview are estimated from the script. In production, replace `buildTimeline()` input with the word-level timestamps returned by the voiceover API (see `../08-production-workflow.md` step 5), and mux the voiceover and music into the MP4.
+Word timings in the preview are estimated from the script. In production, feed `buildTimeline()` the voiceover API's word timestamps and mux in the voiceover and music. Because of the paper grain, re-encode the final MP4 with `-crf 27 -tune grain` to keep files around 20 MB.

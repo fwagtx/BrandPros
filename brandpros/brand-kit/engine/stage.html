@@ -9,6 +9,8 @@
   @font-face { font-family: "Inter"; font-weight: 600; src: url(../fonts/Inter-SemiBold.ttf) format("truetype"); font-display: block; }
   @font-face { font-family: "Inter"; font-weight: 800; src: url(../fonts/Inter-ExtraBold.ttf) format("truetype"); font-display: block; }
   @font-face { font-family: "DM Serif Display"; src: url(../fonts/DMSerifDisplay-Regular.ttf) format("truetype"); font-display: block; }
+  @font-face { font-family: "DM Serif Display"; font-style: italic; src: url(../fonts/DMSerifDisplay-Italic.ttf) format("truetype"); font-display: block; }
+  @font-face { font-family: "Permanent Marker"; src: url(../fonts/PermanentMarker-Regular.ttf) format("truetype"); font-display: block; }
   html, body { margin: 0; background: #0E1A2B; }
   #stage { width: 1080px; height: 1920px; overflow: hidden; }
   #stage svg { display: block; }
@@ -17,20 +19,24 @@
 <body>
 <div id="stage"></div>
 <script src="bp-engine.js"></script>
+<script src="founders.js"></script>
 <script>
   // Render modes: ?asset=avatar|wordmark|wordmark-light|mascot|banner|thumbA|thumbB  or frames of S01 via window.renderAt(t)
   const stage = document.getElementById("stage");
   const q = new URLSearchParams(location.search);
   const assets = {
     avatar: [800, 800, () => BP.avatar()],
-    wordmark: [1400, 400, () => BP.wordmark(true)],
-    "wordmark-light": [1400, 400, () => BP.wordmark(false)],
+    seal: [900, 900, () => BP.sealAsset()],
+    wordmark: [1500, 440, () => BP.wordmark(true)],
+    "wordmark-light": [1500, 440, () => BP.wordmark(false)],
     mascot: [2000, 1000, () => BP.mascotSheet()],
     banner: [2560, 1440, () => BP.ytBanner()],
     thumbA: [1920, 1080, () => BP.thumbLF01("A")],
     thumbB: [1920, 1080, () => BP.thumbLF01("B")],
+    cast: [2100, 1350, () => BP.castSheet()],
   };
   window.renderAt = (t) => { stage.innerHTML = BP.frameS01(t); };
+  BP.FOUNDER_ORDER.forEach((id) => { assets["founder-" + id] = [800, 1000, () => BP.founderCard(id)]; });
   window.renderAsset = (name) => {
     const [w, h, fn] = assets[name];
     stage.style.width = w + "px"; stage.style.height = h + "px";
@@ -40,7 +46,7 @@
   window.duration = BP.S01.duration;
   window.ready = Promise.all([
     document.fonts.load("100px Anton"), document.fonts.load("800 60px Inter"),
-    document.fonts.load("600 60px Inter"), document.fonts.load("60px 'DM Serif Display'"),
+    document.fonts.load("600 60px Inter"), document.fonts.load("60px 'DM Serif Display'"), document.fonts.load("italic 60px 'DM Serif Display'"), document.fonts.load("40px 'Permanent Marker'"),
   ]).then(() => document.fonts.ready);
   if (q.get("asset")) window.renderAsset(q.get("asset")); else window.renderAt(Number(q.get("t") || 1));
 </script>

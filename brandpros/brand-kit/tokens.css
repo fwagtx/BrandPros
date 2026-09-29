@@ -1,32 +1,47 @@
-/* BrandPros design tokens v1 (Sep 2026) */
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Inter:wght@400;600;800&display=swap");
+/* BrandPros design tokens v2 (Sep 2026): the Keyhole Seal identity */
+@font-face { font-family: "Anton"; src: url(fonts/Anton-Regular.ttf) format("truetype"); }
+@font-face { font-family: "Inter"; font-weight: 400; src: url(fonts/Inter-Regular.ttf) format("truetype"); }
+@font-face { font-family: "Inter"; font-weight: 600; src: url(fonts/Inter-SemiBold.ttf) format("truetype"); }
+@font-face { font-family: "Inter"; font-weight: 800; src: url(fonts/Inter-ExtraBold.ttf) format("truetype"); }
+@font-face { font-family: "DM Serif Display"; src: url(fonts/DMSerifDisplay-Regular.ttf) format("truetype"); }
+@font-face { font-family: "DM Serif Display"; font-style: italic; src: url(fonts/DMSerifDisplay-Italic.ttf) format("truetype"); }
+@font-face { font-family: "Permanent Marker"; src: url(fonts/PermanentMarker-Regular.ttf) format("truetype"); }
 
 :root {
-  /* Core palette */
-  --bp-navy: #0E1A2B;        /* Boardroom Navy: backgrounds, outlines, text on light */
-  --bp-navy-2: #1B2C45;      /* raised navy: mascot blazer, scene backgrounds */
-  --bp-navy-3: #27405F;      /* burst rays, skylines */
-  --bp-gold: #F4B942;        /* Ledger Gold: logo, key numbers, highlighted caption word */
-  --bp-red: #E63946;         /* Markdown Red: losses, $1B Mistake, stamps */
-  --bp-green: #2BB673;       /* Comeback Green: gains, The Comeback */
-  --bp-cream: #F5EFE0;       /* Receipt Cream: light backgrounds, cards */
-  --bp-gray: #8A94A6;        /* Filing Gray: secondary text, timelines */
+  /* Core palette: ledgers, cheques, stock certificates */
+  --bp-ledger: #133A2C;       /* Ledger Green: the seal, backgrounds, blazer */
+  --bp-ledger-2: #1D4A3A;
+  --bp-ledger-3: #2B5E4B;
+  --bp-cream: #F2EAD7;        /* Certificate Cream: paper, cards, caption strips */
+  --bp-red: #C8372D;          /* Seal Red: "Pros", losses, stamps */
+  --bp-red-on-dark: #E8735F;  /* "Pros" on green */
+  --bp-mint: #8FD1AE;         /* gains, The Comeback */
+  --bp-brass: #C49A3A;        /* money, keyhole pin */
+  --bp-ink: #17150F;          /* all line work */
+  --bp-slate: #5E6B73;        /* secondary, generic stores */
+  --bp-highlighter: #F4E36B;  /* spoken caption word, notes on green */
 
-  /* Series colors */
+  /* Paper stocks for scene backgrounds */
+  --paper-cream: #EDE3CC; --paper-mint: #CFE3D6; --paper-sand: #E4D2AE;
+  --paper-sepia: #D6C49F; --paper-brass: #E3C47E; --paper-green: #8FB39A;
+
+  /* Series */
   --series-mistake: var(--bp-red);
-  --series-dead: #C9B27A;    /* sepia */
-  --series-money: var(--bp-gold);
-  --series-comeback: var(--bp-green);
-  --series-founder: var(--bp-navy);
-  --series-wars: linear-gradient(90deg, var(--bp-red) 50%, var(--bp-navy) 50%);
+  --series-dead: #B9A27A;
+  --series-money: var(--bp-brass);
+  --series-comeback: var(--bp-mint);
+  --series-founder: var(--bp-ledger-2);
+  --series-wars: linear-gradient(90deg, var(--bp-red) 50%, var(--bp-slate) 50%);
 
   /* Type */
-  --font-display: "Anton", "Bebas Neue", Impact, "Arial Narrow", sans-serif;       /* thumbnails, headlines, big numbers */
-  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;                        /* captions (800), UI, body */
-  --font-vintage: "DM Serif Display", Georgia, serif;                               /* Dead Brands and Founder Files titles, quotes */
+  --font-serif: "DM Serif Display", Georgia, serif;                                /* wordmark, titles, quotes */
+  --font-display: "Anton", "Bebas Neue", Impact, "Arial Narrow", sans-serif;       /* cut-paper headlines, thumbnail numbers */
+  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;                        /* captions (700), UI */
+  --font-marker: "Permanent Marker", "Comic Sans MS", cursive;                      /* hand notes, sources, arrows */
 
-  /* Illustration */
-  --outline: 8px;            /* at 1080 px wide; scale with the frame */
-  --caption-size: 72px;      /* at 1080x1920 */
-  --caption-stroke: 16px;
+  /* Illustration (at 1080 px wide) */
+  --outline: 8px;
+  --caption-size: 60px;
+  --line-boil-rate: 8;   /* redraws per second */
+  --anim-fps: 12;        /* motion on twos */
 }

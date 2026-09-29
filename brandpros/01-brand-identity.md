@@ -10,7 +10,7 @@ For 18–45-year-olds who are curious about business, money, and nostalgia, Bran
 **What makes it different (and not "mass-produced"):**
 1. **A thesis in every video.** We don't just recap. Each script argues something, e.g. "Netflix didn't kill Blockbuster; Blockbuster's board did."
 2. **Myth-busting.** We call out the popular version of a story when it's wrong (e.g. the "1,009 rejections" Colonel Sanders legend has no solid source).
-3. **A signature illustrated look.** Recognizable cartoon caricatures and cartoon storefronts in one house style, so every frame is clearly BrandPros (see *Visual Style*).
+3. **A signature hand-made look.** Hand-inked, paper-textured cartoons with recognizable founder caricatures and handwritten notes, so every frame is clearly BrandPros (see *Visual style direction*).
 4. **Recurring series with rules** (see `02-content-pillars.md`), so the channel feels like a show rather than a feed.
 
 **Where it sits in your network:**
@@ -127,48 +127,52 @@ Character counts were checked with a script. Emoji count as 1–2 characters dep
 
 ## Visual style direction
 
-### Core look: "Illustrated Business Noir-Lite"
-A **clean, bold cartoon style**: thick dark outlines, flat colors with one soft shadow, slightly oversized heads on people, and exaggerated props (giant price tags, huge stacks of cash, crumbling storefronts). It's light and fun, but grounded in a tight color palette so it reads as premium rather than childish.
+The full, rendered brand kit (logo files, mascot, founder cast, colors, type, thumbnails, banner and an animated sample Short) lives in `brand-kit/`. Open `brand-kit/index.html` or the published brand kit page.
 
-- **People** are rendered as **recognizable caricatures**: correct era, hairstyle, glasses, clothing and signature traits (Colonel Sanders' white suit and string tie; Walt Disney's pencil mustache). They are **never photorealistic**. That's deliberate: it keeps the brand consistent and avoids YouTube's realistic-synthetic-media disclosure rules and likeness claims. Full rules are in `12-visual-automation.md`.
-- **Brands** appear as **cartoon storefronts, products and packaging** in the house style. Real logos appear only as-is from official press kits, in an editorial context (never redrawn, altered or used to imply sponsorship).
-- **Host mascot (recommended): "The Pro."** A faceless-channel-friendly narrator character: a cartoon figure in a navy blazer whose head is a gold price tag with the BP monogram. The Pro appears in hooks and CTAs, reacts to twists, and gives the series something ownable that no other channel has. It also gives you a mascot for merch later.
+### Core look: "Hand-inked ledger"
+An editorial, hand-made cartoon style from the world of ledgers, cheques and stock certificates:
+- **Hand-inked lines** that "boil" (each frame redrawn with a slight wobble, 8 times a second), **paper grain and halftone dots** instead of gradients or sunbursts, and **motion on twos** (12 frames per second), like hand-made animation.
+- **Cut-paper labels with tape** for headlines, **handwritten marker notes and arrows** for sources and "who's who", and **captions on a paper strip** in sentence case with the spoken word highlighted.
+- **People** are recognizable **caricatures of historical founders** (the Founder Files cast in `brand-kit/exports/founders/`). **Living executives appear as generic characters**, named in the voiceover (see `12-visual-automation.md`).
+- **Brands are never drawn with their own logos, mascots or trade-dress colors.** Stores and products are generic and identified by handwritten labels. **A company's name is never set in its own brand colors** (for example "NETFLIX" is never white on red).
+- **Host mascot: "The Pro."** A narrator whose face is the BrandPros seal, in a ledger-green blazer with a red tie and a brass keyhole lapel pin. Appears in hooks, "Pros know" lessons and CTAs; never plays a real person.
 
 ### Color palette
 
 | Role | Name | Hex | Use |
 |---|---|---|---|
-| Primary dark | Boardroom Navy | `#0E1A2B` | Backgrounds, outlines, text on light |
-| Primary accent | Ledger Gold | `#F4B942` | Logo, highlights, "money" moments, key numbers |
-| Signal: loss | Markdown Red | `#E63946` | $1B Mistake, Dead Brands, falling arrows |
-| Signal: gain | Comeback Green | `#2BB673` | The Comeback, How They Make Money profits |
-| Neutral light | Receipt Cream | `#F5EFE0` | Light backgrounds, cards, nostalgic paper texture |
-| Neutral mid | Filing Gray | `#8A94A6` | Secondary text, timelines |
+| Primary dark | Ledger Green | `#133A2C` | The seal, backgrounds, the mascot's blazer |
+| Primary light | Certificate Cream | `#F2EAD7` | Paper, cards, caption strips |
+| Accent | Seal Red | `#C8372D` | "*Pros*" in the wordmark, losses, stamps, $1B Mistake |
+| Signal: gain | Mint | `#8FD1AE` | Gains, The Comeback |
+| Money | Brass | `#C49A3A` | Coins, the keyhole pin, How They Make Money |
+| Line | Ink | `#17150F` | All line work |
+| Highlight | Highlighter | `#F4E36B` | The spoken caption word; marker notes on green |
 
-**Series color coding** (thumbnail corner tag plus lower-thirds):
-The $1B Mistake = Red · Dead Brands = Cream with a sepia filter · How They Make Money = Gold · The Comeback = Green · Founder Files = Navy with a gold frame · Brand Wars = split Red/Navy.
+On dark green, "*Pros*" uses a lighter red `#E8735F` for contrast. **No navy-and-yellow or blue-and-yellow combinations anywhere**, so there's no resemblance to any company we cover.
 
-### Fonts (all free on Google Fonts)
-- **Anton**: thumbnails and big on-screen numbers ("$50,000,000"). Condensed, high-impact, readable on phones.
-- **Inter** (Bold/SemiBold): captions, subtitles and body text. Very legible.
-- **DM Serif Display**: Dead Brands and Founder Files titles, for a vintage and nostalgic feel.
-- Captions: Inter Bold, white with a navy stroke, keyword highlighted in gold. Keep captions in the middle-lower third, clear of the platform UI.
+**Series color coding** (series chip plus thumbnail tag): The $1B Mistake = Seal Red · Dead Brands = sepia `#B9A27A` · How They Make Money = Brass · The Comeback = Mint · Founder Files = Ledger Green · Brand Wars = split Red/Slate.
+
+### Fonts (all free, SIL Open Font License, bundled in `brand-kit/fonts/`)
+- **DM Serif Display** (roman and *italic*): the wordmark, titles, quotes, "Pros know" cards.
+- **Anton**: cut-paper headlines and big thumbnail numbers. Two lines max.
+- **Inter Bold**: captions, sentence case, on a cream paper strip; the spoken word gets a highlighter swipe. Max 4 words per strip.
+- **Permanent Marker**: handwritten notes, sources, arrows and labels.
 
 ### Thumbnail style (YouTube long-form)
-Formula: **one caricature + one object + three words max**.
-- Left 55%: a caricature of the founder or a cartoon version of the product/storefront showing a strong emotion (shock, smug, crying).
-- Right 45%: a giant number or three-word hook in Anton ("$50M MISTAKE", "IT'S A BANK?").
-- Series color tag in the top-left corner (small, consistent).
-- Always add a contrast element: a red arrow, a crack through the logo, a "CLOSED" sign.
-- Test two versions per video with YouTube's built-in *Test & Compare*.
-- Never put words in a living person's mouth in a speech bubble unless it's a documented quote.
+Formula: **one character or object + three words + one handwritten note**.
+- Left 55%: the founder caricature (from the cast) or a generic cartoon of the store/product, on a paper background with halftone.
+- Right 45%: two cut-paper labels in Anton ("IT WASN'T" / "NETFLIX"), with a marker note pointing at the art ("the real reason").
+- Series chip in the top-left corner.
+- Test two versions per video with YouTube's *Test & Compare*.
+- Never put words in a real person's mouth in a speech bubble unless it's a documented quote.
 
-### Logo concept
-- **Mark:** a gold **price tag** (the universal symbol of brands and commerce) with the tag's hole forming the counter of a stylized **"BP"** monogram. A small upward-then-downward zig-zag line cut into the tag hints at rise and fall.
-- **Wordmark:** "BRAND" in Anton navy plus "PROS" in Anton gold, tight tracking.
-- **Profile picture:** the gold tag on a navy circle. It must read at 40px, so no wordmark in the avatar.
-- **Mascot variant:** The Pro (the price-tag-headed narrator) for banners, end screens and merch.
-- Brief for a designer or image tool: *"Flat vector logo, gold (#F4B942) price tag icon, tag hole integrated into a bold 'BP' monogram, subtle rising-then-falling line cut into the tag, navy (#0E1A2B) background, no gradients, works at 40px."*
+### Logo concept: the Keyhole Seal
+- **Mark:** an engraved stock-certificate-style **seal** in ledger green with a **keyhole** at its center: *we unlock the story behind the brand*. The full version carries the motto on its rim: "EVERY BRAND HAS A BACKSTORY ✦ ESTD 2026".
+- **Wordmark:** the seal plus "Brand" in DM Serif Display and "*Pros*" in DM Serif Display Italic, Seal Red.
+- **Profile picture:** the simple seal (engraved ticks, no rim text) on cream. It reads at 40 px.
+- **No "BP" monogram** (it's another company's name) and no price tags or tickets (too close to existing retail logos).
+- Files: `brand-kit/exports/seal.png`, `avatar.png`, `wordmark-light.png`, `wordmark.png`.
 
 ### Sound identity
 - A 1.5-second sonic logo (a cash-register "cha-ching" played on a muted piano) at the end of every video.

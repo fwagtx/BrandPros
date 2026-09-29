@@ -13,8 +13,8 @@
 
 ## Hook (0–3 s)
 > **VO:** "In 2000, Blockbuster could've bought Netflix for fifty million dollars. That wasn't even its biggest mistake."
-> **On-screen:** `$50,000,000` (Anton, gold) → red stamp `PASSED`
-> **Visual:** The Pro (mascot) holding a giant gold price tag reading "$50M"; a cartoon Blockbuster storefront behind him, blue and yellow, glowing.
+> **On-screen:** cut-paper labels `BLOCKBUSTER` / `VS. NETFLIX` → red stamp `PASSED` lands on the cheque
+> **Visual:** The Pro (mascot) holding up a giant bank cheque: "Pay to the order of *Netflix* — $50,000,000", memo "buy the startup?". Behind him, a generic slate strip-mall video store with a cream "VIDEO" board and a striped awning (no Blockbuster colors or logo).
 
 ## Beats
 
@@ -22,8 +22,8 @@
 |---|---|---|---|---|
 | 1 | 0:03–0:12 | "Here's the famous part. Netflix's co-founders flew to Dallas and offered to sell. According to co-founder Marc Randolph, Blockbuster's CEO was trying not to laugh." | `DALLAS, 2000` | Cartoon boardroom: two young founders (caricatures, early-2000s business casual) across a giant desk from a suited executive stifling a laugh. |
 | 2 | 0:12–0:22 | "And honestly? Saying no made sense. Netflix was losing money. Blockbuster had thousands of stores and made a fortune on late fees." | `Late fees: ~$800M/yr?` [VERIFY] | Cartoon VHS tapes with little red "LATE" tags raining coins into a vault. |
-| 3 | 0:22–0:38 | "The real twist came later. In 2006, Blockbuster launched Total Access: rent online, return in store. It was winning subscribers. Then, after a boardroom fight with an activist investor, the CEO left, and the new leadership shifted focus back to stores." | `TOTAL ACCESS (2006)` → `CEO OUT (2007)` | A red envelope and a blue envelope racing; the blue one pulls ahead, then a boardroom door slams and the blue envelope stops. |
-| 4 | 0:38–0:46 | "In 2010, Blockbuster filed for bankruptcy. Today there's one store left." | `BANKRUPT: 2010` | The storefront fades to sepia; a single tiny store remains, lit, in the distance. |
+| 3 | 0:22–0:38 | "The real twist came later. In 2006, Blockbuster launched Total Access: rent online, return in store. It was winning subscribers. Then, after a boardroom fight with an activist investor, the CEO left, and the new leadership shifted focus back to stores." | `TOTAL ACCESS (2006)` → `CEO OUT (2007)` | Two envelopes racing on a track, labeled in marker "Netflix" (mint) and "Blockbuster" (slate); Blockbuster pulls ahead, then a boardroom door slams and its envelope stops. |
+| 4 | 0:38–0:46 | "In 2010, Blockbuster filed for bankruptcy. Today there's one store left." | `BANKRUPT: 2010` | A row of small generic video stores goes dark one by one (sepia); zoom to the last one, marker note "Bend, Oregon". |
 | 5 | 0:46–0:53 | "Pros know the lesson: the deadliest mistake usually isn't the deal you pass on. It's quitting your fix halfway." | `PROS KNOW:` `Don't quit the fix halfway` | The Pro taps a gold "PROS KNOW" card. |
 
 ## CTA (0:53–0:57)

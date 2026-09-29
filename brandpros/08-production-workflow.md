@@ -77,7 +77,7 @@ A checklist to run on every script:
 - A **template-driven video engine** (Remotion, Creatomate or Shotstack; see file 12) places the scenes on the VO timeline and adds:
   - Ken Burns pan/zoom and parallax on every still (no static frames longer than about 3 s),
   - on-screen text from the script's "On-screen text" column,
-  - burned-in captions from the word timestamps (Inter Bold, gold keyword highlight),
+  - burned-in captions from the word timestamps (Inter Bold on a cream paper strip, spoken word highlighted),
   - series lower-thirds and color coding, music bed (licensed library) and the sonic logo,
   - optional 3–5 s AI image-to-video shots for 1–2 hero moments per video.
 - Output: a 1080×1920 vertical master (Shorts/Reels/TikTok) and 1920×1080 (long-form).

@@ -28,12 +28,15 @@ await page.goto("file://" + path.join(here, "stage.html"));
 await page.evaluate(() => window.ready);
 
 if (ONLY !== "video") {
-  for (const name of ["avatar", "wordmark", "wordmark-light", "mascot", "banner", "thumbA", "thumbB"]) {
+  const founders = await page.evaluate(() => BP.FOUNDER_ORDER.map((id) => "founder-" + id));
+  fs.mkdirSync(path.join(exportsDir, "founders"), { recursive: true });
+  for (const name of ["avatar", "seal", "wordmark", "wordmark-light", "mascot", "banner", "thumbA", "thumbB", "cast", ...founders]) {
     const [w, h] = await page.evaluate((n) => window.renderAsset(n), name);
     await page.setViewportSize({ width: w, height: h });
-    await page.screenshot({ path: path.join(exportsDir, `${name}.png`), clip: { x: 0, y: 0, width: w, height: h } });
+    const base = name.startsWith("founder-") ? path.join(exportsDir, "founders", name.slice(8)) : path.join(exportsDir, name);
+    await page.screenshot({ path: `${base}.png`, clip: { x: 0, y: 0, width: w, height: h } });
     const svg = await page.evaluate(() => document.querySelector("#stage").innerHTML);
-    fs.writeFileSync(path.join(exportsDir, `${name}.svg`), svg);
+    fs.writeFileSync(`${base}.svg`, svg);
     console.log("asset", name);
   }
   // storyboard stills at key moments
