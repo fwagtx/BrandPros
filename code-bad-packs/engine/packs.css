@@ -1,0 +1,2 @@
+/* Shared resets for the render stage; each brand's styling lives inline in packs.js. */
+#stage img { display: block; pointer-events: none; }
