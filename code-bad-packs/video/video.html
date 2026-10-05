@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>NOT BAD. video stage</title>
+<style>
+  @font-face { font-family: "Bodoni Moda"; font-weight: 900; src: url(../fonts/BodoniModa-1.ttf); font-display: block; }
+  @font-face { font-family: "Bodoni Moda"; font-style: italic; font-weight: 700; src: url(../fonts/BodoniModa-2.ttf); font-display: block; }
+  @font-face { font-family: "Inter"; font-weight: 800; src: url(../fonts/Inter-ExtraBold.ttf); font-display: block; }
+  @font-face { font-family: "Permanent Marker"; src: url(../fonts/PermanentMarker-Regular.ttf); font-display: block; }
+  html, body { margin: 0; background: #222; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  #stage * { box-sizing: border-box; }
+  #stage img { display: block; pointer-events: none; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="videos.js"></script>
+<script>
+  // ?v=skin|roast|payout ; window.renderAt(t) draws frame t (seconds)
+  const name = new URLSearchParams(location.search).get("v") || "skin";
+  const vid = VIDEOS[name](document.getElementById("stage"));
+  window.duration = vid.duration;
+  window.cues = vid.cues;
+  window.renderAt = (t) => vid.renderAt(t);
+  window.ready = Promise.all(["900 80px 'Bodoni Moda'", "italic 700 80px 'Bodoni Moda'", "800 40px Inter", "40px 'Permanent Marker'"]
+    .map((f) => document.fonts.load(f))).then(() => document.fonts.ready)
+    .then(() => Promise.all([...document.images].map((i) => i.decode().catch(() => {}))));
+  window.renderAt(0);
+</script>
+</body>
+</html>
