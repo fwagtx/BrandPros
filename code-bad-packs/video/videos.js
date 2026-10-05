@@ -236,7 +236,7 @@
       const n = Math.round(LINE.length * k(t, 0.45, 1.05));
       btxt.textContent = LINE.slice(0, n) + (t < 1.3 && Math.floor(t * 4) % 2 === 0 ? "|" : "");
       const park = E.inOut(k(t, 1.55, 1.95));
-      T(bubble, { y: lerp(0, -600, park), s: pop(t, 0.12, 0.4) * lerp(1, 0.66, park), a: 1 - k(t, 8.35, 8.5) });
+      T(bubble, { x: lerp(0, 90, park), y: lerp(0, -600, park), s: pop(t, 0.12, 0.4) * lerp(1, 0.66, park), a: 1 - k(t, 8.35, 8.5) });
 
       T(paper, { y: lerp(1600, 0, E.out(k(t, 1.55, 1.95))) });
       const [wx, wy] = shake(t, 8.62, 0.6, 30);

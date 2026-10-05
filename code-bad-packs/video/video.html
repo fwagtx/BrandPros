@@ -21,6 +21,11 @@
   // ?v=skin|roast|payout ; window.renderAt(t) draws frame t (seconds)
   const name = new URLSearchParams(location.search).get("v") || "skin";
   const vid = VIDEOS[name](document.getElementById("stage"));
+  // Epic requires the disclosure at the start of every video; it stays on screen the whole time
+  const chip = document.createElement("div");
+  chip.style.cssText = "position:absolute;left:40px;top:160px;padding:10px 24px;border-radius:30px;background:#141212;color:#F4F0E8;border:3px solid #F4F0E8;font:800 30px Inter;letter-spacing:1px;z-index:10";
+  chip.textContent = "#EpicPartner";
+  document.getElementById("stage").appendChild(chip);
   window.duration = vid.duration;
   window.cues = vid.cues;
   window.renderAt = (t) => vid.renderAt(t);
