@@ -1,5 +1,5 @@
 // Renders a NOT BAD. video: frames → silent mp4, then mix.py adds synthesized sound → ../exports/video-<name>.mp4
-// Usage: node render.mjs <skin|roast|payout> [--fps 30] [--stills 1.0,2.5,...] [--out dir]
+// Usage: node render.mjs <skin|roast> [--fps 30] [--stills 1.0,2.5,...] [--out dir]
 import { createRequire } from "module";
 import { execSync, spawn, spawnSync } from "child_process";
 import fs from "fs";

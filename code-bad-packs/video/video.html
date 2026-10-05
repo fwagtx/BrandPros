@@ -18,7 +18,7 @@
 <div id="stage"></div>
 <script src="videos.js"></script>
 <script>
-  // ?v=skin|roast|payout ; window.renderAt(t) draws frame t (seconds)
+  // ?v=skin|roast ; window.renderAt(t) draws frame t (seconds)
   const name = new URLSearchParams(location.search).get("v") || "skin";
   const vid = VIDEOS[name](document.getElementById("stage"));
   // Epic requires the disclosure at the start of every video; it stays on screen the whole time
