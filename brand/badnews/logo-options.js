@@ -120,7 +120,39 @@
     return [W, H, s];
   }
 
+  // ---------- name options, all in direction D (BAD over a blue plate) ----------
+  const NAMES = [
+    ["INTEL", "Gamer word for info. \"Got intel?\" Fits news and secrets, sounds like a squad callout."],
+    ["DROP", "News drops, and so do players. The most Fortnite word there is."],
+    ["PING", "A map ping marks what's new. Also a joke: bad ping means lag, so it sticks."],
+    ["LOBBY", "Fortnite news lives in the lobby. Feels like the screen you see before every match."],
+    ["PATCH", "Built around update days and patch notes. \"Bad patch\" is a joke players already make."],
+    ["SCOOP", "Plain news word, friendly. Clear to anyone, less Fortnite-specific."],
+  ];
+  const named = (word, S) => box(`inset:0;background:${sheen},${BLUE}`) + box(`left:0;right:0;top:${S * 0.17}px;text-align:center`, t3d("BAD", S * 0.44, { fill: "#FFD21E", side: "#B06A00", top: "#FFF3A6", depth: Math.round(S * 0.03) })) +
+    box(`left:${S * 0.16}px;right:${S * 0.16}px;top:${S * 0.6}px;height:${S * 0.22}px;background:#0E2F9E;border:${S * 0.016}px solid ${OUT};border-radius:${S * 0.04}px;transform:skewX(-7deg);box-shadow:0 ${S * 0.02}px 0 ${OUT};display:flex;align-items:center;justify-content:center`,
+      t3d(word, S * (word.length > 4 ? 0.15 : 0.16), { side: "#071A5E", depth: Math.round(S * 0.01), skew: 0, track: S * 0.01 }));
+  const ncirc = (w, d) => `<div style="position:relative;width:${d}px;height:${d}px;border-radius:50%;overflow:hidden;flex:none">${box(`left:0;top:0;width:1080px;height:1080px;transform:scale(${d / 1080});transform-origin:0 0`, named(w, 1080))}</div>`;
+  const nwide = (w, h) => `<div style="display:flex;align-items:center;gap:${h * 0.12}px">${t3d("BAD", h * 0.9, { fill: "#FFD21E", side: "#B06A00", top: "#FFF3A6" })}<div style="background:#0E2F9E;border:${h * 0.03}px solid ${OUT};border-radius:${h * 0.06}px;transform:skewX(-7deg);padding:${h * 0.06}px ${h * 0.14}px;box-shadow:0 ${h * 0.04}px 0 ${OUT}">${t3d(w, h * 0.5, { side: "#071A5E", skew: 0 })}</div></div>`;
+  function nameSheet() {
+    const W = 2160, H = 1560;
+    let s = box(`inset:0;background:#ECEEF2`);
+    s += box(`left:60px;top:40px;font:700 42px Barlow;color:#14161C`, `New name options, in the title-lettering style`);
+    s += box(`left:60px;top:98px;font:600 26px Barlow;color:#5A6070`, `Every name keeps BAD up front, so the channel name is the code. Profile picture, 110 px / 40 px, and the wide logo.`);
+    NAMES.forEach(([w, note], i) => {
+      const x = 60 + (i % 3) * 690, y = 160 + Math.floor(i / 3) * 690;
+      s += box(`left:${x}px;top:${y}px;width:660px;height:660px;background:#fff;border-radius:22px`);
+      s += box(`left:${x + 30}px;top:${y + 30}px`, ncirc(w, 300));
+      s += box(`left:${x + 360}px;top:${y + 40}px;display:flex;flex-direction:column;gap:22px;align-items:center;width:270px;background:#0C111F;border-radius:16px;padding:22px 0`, ncirc(w, 110) + ncirc(w, 40) + `<span style="font:600 22px Barlow;color:#fff">@bad${w.toLowerCase()}fn</span>`);
+      s += box(`left:${x + 30}px;top:${y + 360}px;width:600px;height:150px;border-radius:14px;overflow:hidden;background:${BLUE};display:flex;align-items:center;justify-content:center`, `<div style="transform:scale(.42);transform-origin:center">${nwide(w, 220)}</div>`);
+      s += box(`left:${x + 34}px;top:${y + 530}px;font:700 34px Barlow;color:#14161C`, `BAD ${w}`);
+      s += box(`left:${x + 34}px;top:${y + 576}px;width:600px;font:600 23px/1.4 Barlow;color:#3A4152`, note);
+    });
+    return [W, H, s];
+  }
+
   window.ASSETS.add({
+    "_direction/name-options": nameSheet,
     "_direction/badnews-logo-round3": sheet,
     ...Object.fromEntries(Object.keys(OPTS).map((k) => [`_direction/badnews-logo-round3-${k}-pfp`, () => [1080, 1080, OPTS[k].pfp(1080)]])),
     ...Object.fromEntries(Object.keys(OPTS).map((k) => [`_direction/badnews-logo-round3-${k}-wide`, () => [1600, 520, box(`inset:0;background:${OPTS[k].bg}`) + box(`left:0;top:0;width:1600px;height:520px;display:flex;align-items:center;justify-content:center`, OPTS[k].word(300))]])),
