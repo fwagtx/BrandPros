@@ -1,0 +1,32 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2,
+ "phrases": [
+  {
+   "text": "One of the animatronic bosses is always at Freddy Fazbear's.",
+   "pause": 0.14
+  },
+  {
+   "text": "So here's exactly where that is.",
+   "pause": 0.2
+  },
+  {
+   "text": "Right here, between Pac-Man's lake and Freaky Fields.",
+   "pause": 0.24
+  },
+  {
+   "text": "Beat any rogue robot you find,",
+   "pause": 0.08
+  },
+  {
+   "text": "and you can possess the suit.",
+   "pause": 0.3
+  },
+  {
+   "text": "Code BAD in the Item Shop supports the channel.",
+   "pause": 0.3
+  }
+ ]
+}

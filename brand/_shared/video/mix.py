@@ -1,6 +1,7 @@
 """Original sound design for BAD channel videos, synthesized from scratch (no samples, nothing extracted from any game).
 Lays effects and an original music bed under a silent render, then normalizes to -14 LUFS with a -2 dBTP ceiling (leaves room for AAC overshoot; the post limit is -1 dBTP).
-Usage: python3 mix.py silent.mp4 out.mp4 <duration> '<cues json [[t, name], ...]>'
+Usage: python3 mix.py silent.mp4 out.mp4 <duration> '<cues json [[t, name], ...]>' [voice.wav]
+With a voice track: the voice sits on top, music ducks under it (sidechain), effects sit between.
 """
 import json, os, re, subprocess, sys, tempfile
 
@@ -26,6 +27,16 @@ SFX = {
     "sting":   ("0.25*sin(2*PI*(220*t+900*t*t))*min(1,t*8)*lt(t,0.35)+(0.5*sin(2*PI*(110-40*(t-0.35))*(t-0.35))*exp(-6*(t-0.35))+0.2*(2*random(0)-1)*exp(-30*(t-0.35)))*gte(t,0.35)", 0.9),
     # ticker: tiny data blips
     "blips":   ("0.18*sin(2*PI*2400*t)*exp(-60*mod(t,0.07))*lt(t,0.42)", 0.45),
+    # camera shutter for "screenshot this"
+    "shutter": ("0.5*(2*random(0)-1)*exp(-60*t)+0.35*(2*random(0)-1)*exp(-70*(t-0.07))*gte(t,0.07)", 0.25),
+    # marker scribble on paper
+    "marker":  ("0.16*(2*random(0)-1)*(0.6+0.4*sin(2*PI*31*t))*pow(sin(PI*t/0.3),2)", 0.3),
+    # soft pop for numbers
+    "pop":     ("0.5*sin(2*PI*(420*t+2400*t*t))*exp(-26*t)", 0.15),
+    # record scratch-ish stop for a twist beat
+    "scratch": ("0.35*(2*random(0)-1)*sin(2*PI*(900-2500*t)*t)*exp(-6*t)", 0.35),
+    # in-game notification chime
+    "notify":  ("0.3*sin(2*PI*1046.5*t)*exp(-9*t)+0.25*sin(2*PI*1568*t)*exp(-7*(t-0.06))*gte(t,0.06)", 0.6),
 }
 BPM = 118
 B = 60 / BPM
@@ -41,6 +52,7 @@ def run(args):
 
 def main():
     silent, out, dur, cues = sys.argv[1], sys.argv[2], float(sys.argv[3]), json.loads(sys.argv[4])
+    voice = sys.argv[5] if len(sys.argv) > 5 else None
     tmp = tempfile.mkdtemp()
     used = sorted({c[1] for c in cues})
     for n in used:
@@ -61,6 +73,19 @@ def main():
             ms = int(t * 1000)
             parts.append(f"[{n}{j}]adelay={ms}|{ms},apad[{n}d{j}]")
             labels.append(f"[{n}d{j}]")
+    if voice:
+        inputs += ["-i", voice]
+        vi = len(used) + 2
+        # voice: gentle cleanup and presence; music: ducked by the voice; effects: a bit lower than without voice
+        parts.append(f"[{vi}]aresample={SR},highpass=f=80,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,equalizer=f=3000:t=q:w=1.2:g=2.5,volume=1.0,asplit=2[vo][vokey]")
+        parts[0] = "[1]volume=0.55[bed0]"
+        parts.append("[bed0][vokey]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=250[b]")
+        sfx = labels[1:]
+        if sfx:
+            parts.append(f"{''.join(sfx)}amix=inputs={len(sfx)}:normalize=0:duration=longest,volume=0.6[fx]")
+            labels = ["[b]", "[fx]", "[vo]"]
+        else:
+            labels = ["[b]", "[vo]"]
     parts.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0:duration=first,atrim=0:{dur}[pre]")
     mixed = os.path.join(tmp, "mixed.wav")
     run([*inputs, "-filter_complex", ";".join(parts), "-map", "[pre]", "-ac", "2", mixed])

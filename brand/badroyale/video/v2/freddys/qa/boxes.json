@@ -1,0 +1,1970 @@
+{
+ "duration": 15.3,
+ "samples": [
+  {
+   "t": 0,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 0.25,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ONE OF THE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 0.5,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ONE OF THE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 0.75,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ANIMATRONIC BOSSES IS",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 1,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ANIMATRONIC BOSSES IS",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 1.25,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ANIMATRONIC BOSSES IS",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 1.5,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ANIMATRONIC BOSSES IS",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 1.75,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ANIMATRONIC BOSSES IS",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 2,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ANIMATRONIC BOSSES IS",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 2.25,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ALWAYS AT FREDDY",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 2.5,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ALWAYS AT FREDDY",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 2.75,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "ALWAYS AT FREDDY",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 3,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "FAZBEAR'S.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 3.25,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "FAZBEAR'S.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 3.5,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "FAZBEAR'S.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 3.75,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "SO HERE'S EXACTLY",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 4,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "SO HERE'S EXACTLY",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 4.25,
+   "boxes": [
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "SO HERE'S EXACTLY",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 4.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 546.2589721679688,
+     "y": 919.232666015625,
+     "w": 309.21368408203125,
+     "h": 116.7431640625
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "SO HERE'S EXACTLY",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 4.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 546.6767578125,
+     "y": 925.068603515625,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "WHERE THAT IS.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 547.3212280273438,
+     "y": 923.8848266601562,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "WHERE THAT IS.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 5.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 548.9852294921875,
+     "y": 922.48046875,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "WHERE THAT IS.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 5.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 551.2000122070312,
+     "y": 921.5760498046875,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "WHERE THAT IS.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 5.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 552.9329833984375,
+     "y": 921.5236206054688,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "RIGHT HERE,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 6,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 553.5435791015625,
+     "y": 922.064208984375,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "RIGHT HERE,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 6.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 553.3295288085938,
+     "y": 922.6175537109375,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "BETWEEN PAC-MAN'S LAKE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 6.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 553.06787109375,
+     "y": 922.8152465820312,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "BETWEEN PAC-MAN'S LAKE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 6.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 553.1593017578125,
+     "y": 922.66748046875,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "BETWEEN PAC-MAN'S LAKE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 7,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 553.234619140625,
+     "y": 922.5575561523438,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "BETWEEN PAC-MAN'S LAKE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 7.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 552.8050537109375,
+     "y": 922.6964111328125,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "BETWEEN PAC-MAN'S LAKE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 7.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 552.0394897460938,
+     "y": 922.8087768554688,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "AND FREAKY FIELDS.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 7.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 551.7035522460938,
+     "y": 922.3685302734375,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "AND FREAKY FIELDS.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 8,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 552.3096313476562,
+     "y": 921.12744140625,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "AND FREAKY FIELDS.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 8.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 553.4627075195312,
+     "y": 919.4335327148438,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "AND FREAKY FIELDS.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 8.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 554.1842041015625,
+     "y": 918.02392578125,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 118.3125
+    },
+    {
+     "text": "AND FREAKY FIELDS.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 8.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 553.8709106445312,
+     "y": 917.4683227539062,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 127.69680786132812,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "BEAT ANY ROGUE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 9,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 552.8137817382812,
+     "y": 917.7634887695312,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "BEAT ANY ROGUE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 9.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 551.7189331054688,
+     "y": 918.4453735351562,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "BEAT ANY ROGUE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 9.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 550.8387451171875,
+     "y": 919.087646484375,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "ROBOT YOU FIND,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 9.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 549.7548217773438,
+     "y": 919.6992797851562,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "ROBOT YOU FIND,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 10,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 548.0557250976562,
+     "y": 920.6465454101562,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "ROBOT YOU FIND,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 10.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 546.0712280273438,
+     "y": 922.1861572265625,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "ROBOT YOU FIND,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 10.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 544.7420654296875,
+     "y": 924.077392578125,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "STEP 2 / POSSESS THE SUIT",
+     "x": 131.25897216796875,
+     "y": 740,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "AND YOU CAN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 10.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 544.7188110351562,
+     "y": 925.669189453125,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "STEP 2 / POSSESS THE SUIT",
+     "x": 140,
+     "y": 740,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "AND YOU CAN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 11,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 545.7050170898438,
+     "y": 926.4060668945312,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "STEP 2 / POSSESS THE SUIT",
+     "x": 140,
+     "y": 740,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "POSSESS THE SUIT.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 11.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 546.7952880859375,
+     "y": 926.2901000976562,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "STEP 2 / POSSESS THE SUIT",
+     "x": 140,
+     "y": 740,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "POSSESS THE SUIT.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 11.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 547.4163818359375,
+     "y": 925.8696899414062,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "STEP 2 / POSSESS THE SUIT",
+     "x": 140,
+     "y": 740,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "POSSESS THE SUIT.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 11.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 547.7970581054688,
+     "y": 925.7630615234375,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "STEP 1 / BEAT A ROGUE ROBOT",
+     "x": 140,
+     "y": 560,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "STEP 2 / POSSESS THE SUIT",
+     "x": 140,
+     "y": 740,
+     "w": 800,
+     "h": 123.1875
+    },
+    {
+     "text": "POSSESS THE SUIT.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 12,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 548.4674072265625,
+     "y": 926.1553344726562,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 187.28302001953125,
+     "y": 518.4959716796875,
+     "w": 705.4339599609375,
+     "h": 390.508056640625
+    },
+    {
+     "text": "CODE BAD IN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 12.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 549.45654296875,
+     "y": 926.6812744140625,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "CODE BAD IN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 12.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 550.1273803710938,
+     "y": 926.9114990234375,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "CODE BAD IN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 12.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 549.9271850585938,
+     "y": 926.8068237304688,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "THE ITEM SHOP",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 13,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 549.132080078125,
+     "y": 926.765625,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "THE ITEM SHOP",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 13.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 548.6751098632812,
+     "y": 927.2223510742188,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "THE ITEM SHOP",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 13.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 549.2200927734375,
+     "y": 928.16357421875,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 13.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 550.51611328125,
+     "y": 929.039306640625,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 14,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 551.7489013671875,
+     "y": 929.1766357421875,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 14.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 552.4507446289062,
+     "y": 928.3277587890625,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 14.5,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 552.9016723632812,
+     "y": 926.852783203125,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 14.75,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 553.582763671875,
+     "y": 925.3783569335938,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 15,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 554.3776245117188,
+     "y": 924.261962890625,
+     "w": 283.95361328125,
+     "h": 107.2061767578125
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 15.25,
+   "boxes": [
+    {
+     "text": "FREDDY'S",
+     "x": 554.5214233398438,
+     "y": 923.3639526367188,
+     "w": 283.95361328125,
+     "h": 107.20623779296875
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  }
+ ],
+ "text": [
+  "FREDDY'S",
+  "STEP 1 / BEAT A ROGUE ROBOT",
+  "STEP 2 / POSSESS THE SUIT",
+  "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "ONE OF THE",
+  "ANIMATRONIC BOSSES IS",
+  "ALWAYS AT FREDDY",
+  "FAZBEAR'S.",
+  "SO HERE'S EXACTLY",
+  "WHERE THAT IS.",
+  "RIGHT HERE,",
+  "BETWEEN PAC-MAN'S LAKE",
+  "AND FREAKY FIELDS.",
+  "BEAT ANY ROGUE",
+  "ROBOT YOU FIND,",
+  "AND YOU CAN",
+  "POSSESS THE SUIT.",
+  "CODE BAD IN",
+  "THE ITEM SHOP",
+  "SUPPORTS THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

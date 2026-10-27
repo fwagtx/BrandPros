@@ -8,6 +8,8 @@
   @font-face { font-family: "Barlow Condensed"; font-weight: 900; src: url(../fonts/BarlowCondensed-Black.ttf); font-display: block; }
   @font-face { font-family: "Barlow"; font-weight: 700; src: url(../fonts/Barlow-Bold.ttf); font-display: block; }
   @font-face { font-family: "Barlow"; font-weight: 600; src: url(../fonts/Barlow-SemiBold.ttf); font-display: block; }
+  @font-face { font-family: "Montserrat"; font-weight: 100 900; src: url("../fonts/Montserrat[wght].ttf"); font-display: block; }
+  @font-face { font-family: "Permanent Marker"; src: url(../fonts/PermanentMarker-Regular.ttf); font-display: block; }
   html, body { margin: 0; background: #000; }
   #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
   #stage * { box-sizing: border-box; }
@@ -17,11 +19,14 @@
 <body>
 <div id="stage"></div>
 <script src="lib.js"></script>
+<script src="style2.js"></script>
 <script>
   // ?s=<path to scene script, relative to this file>; the scene sets window.SCENE
   const src = new URLSearchParams(location.search).get("s");
+  const dataSrc = new URLSearchParams(location.search).get("d");
   const tag = document.createElement("script");
   tag.src = src;
+  const loadData = () => new Promise((r) => { if (!dataSrc) return r(); const d = document.createElement("script"); d.src = dataSrc; d.onload = r; document.body.appendChild(d); });
   window.ready = new Promise((resolve) => {
     tag.onload = () => {
       const stage = document.getElementById("stage");
@@ -46,12 +51,12 @@
         return { text: e.dataset.text, x: x1, y: y1, w: x2 - x1, h: y2 - y1 };
       }).filter((b) => b.w > 1 && b.h > 1);
       window.allText = () => [...new Set([...stage.querySelectorAll("[data-text]")].map((e) => e.dataset.text))];
-      Promise.all(["800 40px 'Barlow Condensed'", "900 40px 'Barlow Condensed'", "700 40px Barlow", "600 40px Barlow"].map((f) => document.fonts.load(f)))
+      Promise.all(["800 40px 'Barlow Condensed'", "900 40px 'Barlow Condensed'", "700 40px Barlow", "600 40px Barlow", "900 40px Montserrat", "800 40px Montserrat", "700 40px Montserrat", "40px 'Permanent Marker'"].map((f) => document.fonts.load(f)))
         .then(() => document.fonts.ready)
         .then(() => Promise.all([...document.images].map((i) => i.decode().catch(() => {}))))
         .then(() => { draw(0); resolve(); });
     };
-    document.body.appendChild(tag);
+    loadData().then(() => document.body.appendChild(tag));
   });
 </script>
 </body>

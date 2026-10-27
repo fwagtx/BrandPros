@@ -1,0 +1,52 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2,
+ "phrases": [
+  {
+   "text": "There are seven Override Consoles on the map right now.",
+   "pause": 0.14
+  },
+  {
+   "text": "Here's every single one.",
+   "pause": 0.2
+  },
+  {
+   "text": "One.",
+   "pause": 0.12
+  },
+  {
+   "text": "Two.",
+   "pause": 0.12
+  },
+  {
+   "text": "Three.",
+   "pause": 0.12
+  },
+  {
+   "text": "Four.",
+   "pause": 0.12
+  },
+  {
+   "text": "Five.",
+   "pause": 0.12
+  },
+  {
+   "text": "Six.",
+   "pause": 0.12
+  },
+  {
+   "text": "Seven.",
+   "pause": 0.3
+  },
+  {
+   "text": "Screenshot this before your next drop.",
+   "pause": 0.25
+  },
+  {
+   "text": "And if it helped, code BAD in the Item Shop supports the channel.",
+   "pause": 0.3
+  }
+ ]
+}

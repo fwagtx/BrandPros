@@ -1,0 +1,1555 @@
+{
+ "duration": 13.3,
+ "samples": [
+  {
+   "t": 0,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 0.25,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "THERE'S A PAC-MAN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 0.5,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "THERE'S A PAC-MAN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 0.75,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "THERE'S A PAC-MAN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 1,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "HIDDEN ON THE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 1.25,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "HIDDEN ON THE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 1.5,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "FORTNITE MAP.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 1.75,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "FORTNITE MAP.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 2,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "FORTNITE MAP.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 2.25,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "FORTNITE MAP.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 2.5,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "RIGHT HERE,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 2.75,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 316.4905090332031,
+     "y": 559.4600830078125,
+     "w": 547.1976318359375,
+     "h": 133.8021240234375
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "RIGHT HERE,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 3,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 316.71044921875,
+     "y": 570.4681396484375,
+     "w": 497.87371826171875,
+     "h": 121.7413330078125
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "IN THIS LAKE.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 3.25,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 315.47613525390625,
+     "y": 572.0997314453125,
+     "w": 497.87371826171875,
+     "h": 121.7413330078125
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "IN THIS LAKE.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 3.5,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 313.6408996582031,
+     "y": 573.0648803710938,
+     "w": 497.8736877441406,
+     "h": 121.7413330078125
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "IN THIS LAKE.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 3.75,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 312.1734313964844,
+     "y": 573.5963745117188,
+     "w": 497.8736877441406,
+     "h": 121.7413330078125
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "IN THIS LAKE.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 4,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 311.2634582519531,
+     "y": 572.0853881835938,
+     "w": 497.8736877441406,
+     "h": 121.7413330078125
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "AND TWO OF",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 4.25,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 297.5398864746094,
+     "y": 486.2080993652344,
+     "w": 497.8736877441406,
+     "h": 121.74130249023438
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "HIS GHOSTS ARE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 4.5,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 257.0104064941406,
+     "y": 230.73095703125,
+     "w": 497.8736877441406,
+     "h": 121.74130249023438
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "HIS GHOSTS ARE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 4.75,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "HIS GHOSTS ARE",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 5,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "HERE TOO.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 5.25,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "HERE TOO.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 5.5,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "HERE TOO.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 5.75,
+   "boxes": [
+    {
+     "text": "BLINKY",
+     "x": 458.0943603515625,
+     "y": 597.66162109375,
+     "w": 226.55657958984375,
+     "h": 92.794921875
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "BLINKY,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 6,
+   "boxes": [
+    {
+     "text": "BLINKY",
+     "x": 458.81329345703125,
+     "y": 598.0895385742188,
+     "w": 226.11181640625,
+     "h": 92.61279296875
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "BLINKY,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 6.25,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "BLINKY,",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 6.5,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "AND PINKY.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 6.75,
+   "boxes": [
+    {
+     "text": "PINKY",
+     "x": 458.61627197265625,
+     "y": 597.8746337890625,
+     "w": 200.1378173828125,
+     "h": 94.98431396484375
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "AND PINKY.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 7,
+   "boxes": [
+    {
+     "text": "PINKY",
+     "x": 459.0780029296875,
+     "y": 601.47998046875,
+     "w": 186.3309326171875,
+     "h": 88.43170166015625
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "AND PINKY.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 7.25,
+   "boxes": [
+    {
+     "text": "INKY / CLYDE",
+     "x": 159.64291381835938,
+     "y": 606.482177734375,
+     "w": 760.714111328125,
+     "h": 251.03570556640625
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "BUT INKY AND",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 7.5,
+   "boxes": [
+    {
+     "text": "INKY / CLYDE",
+     "x": 139.91384887695312,
+     "y": 599.9715576171875,
+     "w": 800.17236328125,
+     "h": 264.056884765625
+    },
+    {
+     "text": "BUT INKY AND",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 7.75,
+   "boxes": [
+    {
+     "text": "INKY / CLYDE",
+     "x": 140,
+     "y": 600,
+     "w": 800,
+     "h": 264
+    },
+    {
+     "text": "BUT INKY AND",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 8,
+   "boxes": [
+    {
+     "text": "INKY / CLYDE",
+     "x": 140,
+     "y": 600,
+     "w": 800,
+     "h": 264
+    },
+    {
+     "text": "CLYDE?",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 8.25,
+   "boxes": [
+    {
+     "text": "INKY / CLYDE",
+     "x": 140,
+     "y": 600,
+     "w": 800,
+     "h": 264
+    },
+    {
+     "text": "CLYDE?",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 8.5,
+   "boxes": [
+    {
+     "text": "INKY / CLYDE",
+     "x": 140,
+     "y": 600,
+     "w": 800,
+     "h": 264
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "THEY'RE NOWHERE ON",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 8.75,
+   "boxes": [
+    {
+     "text": "NOT ON THE MAP",
+     "x": 200.6747589111328,
+     "y": 581.6142578125,
+     "w": 678.6505126953125,
+     "h": 276.771484375
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "THEY'RE NOWHERE ON",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 9,
+   "boxes": [
+    {
+     "text": "NOT ON THE MAP",
+     "x": 231.17874145507812,
+     "y": 594.0545654296875,
+     "w": 617.642578125,
+     "h": 251.890869140625
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "THEY'RE NOWHERE ON",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 9.25,
+   "boxes": [
+    {
+     "text": "NOT ON THE MAP",
+     "x": 231.17874145507812,
+     "y": 594.0545654296875,
+     "w": 617.642578125,
+     "h": 251.890869140625
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "THE MAP.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 9.5,
+   "boxes": [
+    {
+     "text": "NOT ON THE MAP",
+     "x": 231.17874145507812,
+     "y": 594.0545654296875,
+     "w": 617.642578125,
+     "h": 251.890869140625
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "THE MAP.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 9.75,
+   "boxes": [
+    {
+     "text": "NOT ON THE MAP",
+     "x": 231.17874145507812,
+     "y": 594.0545654296875,
+     "w": 617.642578125,
+     "h": 251.890869140625
+    },
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "THE MAP.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 10,
+   "boxes": [
+    {
+     "text": "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+     "x": 60,
+     "y": 236,
+     "w": 880,
+     "h": 122.375
+    },
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 206.555419921875,
+     "y": 529.1646118164062,
+     "w": 666.88916015625,
+     "h": 369.17083740234375
+    },
+    {
+     "text": "CODE BAD IN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 10.25,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 189.261962890625,
+     "y": 519.5914306640625,
+     "w": 701.47607421875,
+     "h": 388.317138671875
+    },
+    {
+     "text": "CODE BAD IN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 10.5,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "CODE BAD IN",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 10.75,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "THE ITEM SHOP",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 11,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "THE ITEM SHOP",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 11.25,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "THE ITEM SHOP",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 79.90625
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 11.5,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 11.75,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 12,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 12.25,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 12.5,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 12.75,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "SUPPORTS THE CHANNEL.",
+     "x": 60,
+     "y": 1150,
+     "w": 880,
+     "h": 159.8125
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 13,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  },
+  {
+   "t": 13.25,
+   "boxes": [
+    {
+     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+     "x": 190,
+     "y": 520,
+     "w": 700,
+     "h": 387.5
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 44,
+     "y": 166,
+     "w": 207,
+     "h": 45
+    }
+   ]
+  }
+ ],
+ "text": [
+  "PAC-MAN ISLAND",
+  "BLINKY",
+  "PINKY",
+  "INKY / CLYDE",
+  "NOT ON THE MAP",
+  "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THERE'S A PAC-MAN",
+  "HIDDEN ON THE",
+  "FORTNITE MAP.",
+  "RIGHT HERE,",
+  "IN THIS LAKE.",
+  "AND TWO OF",
+  "HIS GHOSTS ARE",
+  "HERE TOO.",
+  "BLINKY,",
+  "AND PINKY.",
+  "BUT INKY AND",
+  "CLYDE?",
+  "THEY'RE NOWHERE ON",
+  "THE MAP.",
+  "CODE BAD IN",
+  "THE ITEM SHOP",
+  "SUPPORTS THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

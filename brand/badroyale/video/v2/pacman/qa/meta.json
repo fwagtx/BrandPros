@@ -1,0 +1,74 @@
+{
+ "duration": 13.3,
+ "caption": "#EpicPartner There's a Pac-Man hidden on the Fortnite map, and two of his ghosts are here too. Inky and Clyde aren't on the v42.40 map.\nFrom the official map data. Code BAD in the Item Shop supports the channel.\n#Fortnite #FortniteOverride #PacMan",
+ "claims": [
+  {
+   "text": "Pac-Man Island is a named location on the current map",
+   "source": "sources/map.json",
+   "match": [
+    "Pac-Man Island"
+   ]
+  },
+  {
+   "text": "Blinky Island and Pinky Island are named locations",
+   "source": "sources/map.json",
+   "match": [
+    "Blinky Island",
+    "Pinky Island"
+   ]
+  },
+  {
+   "text": "No Inky or Clyde location on the map",
+   "source": "sources/map.json",
+   "absent": [
+    "Inky",
+    "Clyde"
+   ],
+   "visual": "Full-res map checked: no cyan or orange ghost island"
+  },
+  {
+   "text": "Pac-Man's four ghosts are Blinky, Pinky, Inky and Clyde",
+   "source": "external",
+   "note": "Pac-Man (Namco, 1980). General knowledge; not checkable from this session"
+  },
+  {
+   "text": "Pac-Man Island sits in a lake",
+   "source": "sources/map-blank.png",
+   "visual": "Checked on the full-res map (north lake)"
+  },
+  {
+   "text": "Current version is v42.40",
+   "source": "sources/build.json",
+   "match": [
+    "Release-42.40"
+   ]
+  }
+ ],
+ "text": [
+  "PAC-MAN ISLAND",
+  "BLINKY",
+  "PINKY",
+  "INKY / CLYDE",
+  "NOT ON THE MAP",
+  "THE HIDDEN PAC-MAN / ON THE V42.40 MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THERE'S A PAC-MAN",
+  "HIDDEN ON THE",
+  "FORTNITE MAP.",
+  "RIGHT HERE,",
+  "IN THIS LAKE.",
+  "AND TWO OF",
+  "HIS GHOSTS ARE",
+  "HERE TOO.",
+  "BLINKY,",
+  "AND PINKY.",
+  "BUT INKY AND",
+  "CLYDE?",
+  "THEY'RE NOWHERE ON",
+  "THE MAP.",
+  "CODE BAD IN",
+  "THE ITEM SHOP",
+  "SUPPORTS THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

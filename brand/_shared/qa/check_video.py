@@ -1,7 +1,7 @@
 """Pre-post checklist for BAD channel videos. Runs every automatic check, writes a log, and never approves anything by itself.
 
 Usage:
-  python3 check_video.py <scene.js> <video.mp4> <sources dir> <out dir> [--review review.json]
+  python3 check_video.py <scene.js> <video.mp4> <sources dir> <out dir> [--review review.json] [--data timings.js]
 
 Writes <out dir>/qa-log.json, qa-log.md, contact-sheet.png, safe-zones.png.
 A video may be scheduled only when every check is PASS, every FLAG is resolved by the owner,
@@ -27,8 +27,11 @@ def ff(args):
     return subprocess.run([FF, "-hide_banner", *args], capture_output=True, text=True)
 
 
+DATA = []  # ["--data", "timings.js"] for voiced scenes
+
+
 def node_dump(scene, flag, out):
-    r = subprocess.run(["node", os.path.join(VIDEO_DIR, "render.mjs"), scene, "x.mp4", flag, out], capture_output=True, text=True)
+    r = subprocess.run(["node", os.path.join(VIDEO_DIR, "render.mjs"), scene, "x.mp4", *DATA, flag, out], capture_output=True, text=True)
     if r.returncode != 0:
         raise SystemExit(f"render.mjs {flag} failed:\n{r.stderr}")
     return json.load(open(out))
@@ -61,6 +64,11 @@ def facts(meta, src):
             raw = json.dumps(json.load(open(path, encoding="utf-8")), ensure_ascii=False).replace("’", "'")
             missing = [m for m in c.get("match", []) if m.replace("’", "'") not in raw]
             present = [a for a in c.get("absent", []) if re.search(rf"\b{re.escape(a)}\b", raw, flags=re.I)]
+            # exact counts of named entries, e.g. {"Override Console": 7}
+            for name, n in c.get("count", {}).items():
+                got = raw.count(f'"name": "{name}"')
+                if got != n:
+                    missing.append(f"{name}: expected {n}, source has {got}")
             if missing or present:
                 items.append({"claim": c["text"], "result": "FAIL", "why": f"not in source: {missing}" if missing else f"unexpectedly in source: {present}"}); worst = "FAIL"
             else:
@@ -182,6 +190,8 @@ def human(review):
 def main():
     scene, video, src, out = sys.argv[1:5]
     review = None
+    if "--data" in sys.argv:
+        DATA.extend(["--data", sys.argv[sys.argv.index("--data") + 1]])
     if "--review" in sys.argv:
         review = json.load(open(sys.argv[sys.argv.index("--review") + 1]))
     os.makedirs(out, exist_ok=True)

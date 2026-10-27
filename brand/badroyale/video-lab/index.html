@@ -1,0 +1,234 @@
+<title>BAD ROYALE Video Lab</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,800;0,900;1,900&family=Barlow:wght@500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+  /* Layout: a lobby-at-night lab notebook. One dark ground, BAD yellow used only for what matters,
+     phone-shaped video frames, and data set in mono like a production log. Single deliberate dark look. */
+  :root {
+    --ground: #0A1430; --panel: #111E45; --line: #24356E; --ink: #F3F6FF; --dim: #A9B6DA;
+    --bad: #FFD21E; --royale: #2F7BFF; --pass: #5FE08A; --flag: #FFB547; --fail: #FF6B6B;
+    --display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+    --body: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font: 500 17px/1.6 var(--body);
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 80px; }
+  main { max-width: 1120px; margin: 0 auto; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 900; text-transform: uppercase; line-height: .95; margin: 0; text-wrap: balance; letter-spacing: .2px; }
+  h1 { font-size: clamp(46px, 8vw, 92px); font-style: italic; }
+  h2 { font-size: clamp(34px, 5vw, 52px); font-style: italic; }
+  h3 { font-size: 26px; }
+  p { margin: 0; max-width: 64ch; }
+  a { color: var(--bad); }
+  .eyebrow { font: 700 13px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--bad); }
+  .muted { color: var(--dim); }
+  section { padding-block: 56px 8px; display: grid; gap: 26px; }
+  .yellow { color: var(--bad); }
+
+  /* hero */
+  header { padding-block: 48px 8px; display: grid; gap: 22px; }
+  .hero { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 36px; align-items: center; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .phone { display: grid; gap: 10px; min-width: 0; }
+  .phone video { width: 100%; aspect-ratio: 9 / 16; max-width: 100%; border-radius: 22px; border: 3px solid var(--line); background: #000; display: block; }
+  .phone.new video { border-color: var(--bad); }
+  .tag { font: 700 12px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--dim); }
+  .phone.new .tag { color: var(--bad); }
+
+  /* tells */
+  .tells { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; border-top: 1px solid var(--line); }
+  .tell { display: grid; grid-template-columns: 2.4em minmax(0, 1fr); gap: 4px 14px; padding-block: 20px; border-bottom: 1px solid var(--line); }
+  .tell .n { font: 900 34px/1 var(--display); color: var(--line); grid-row: span 2; }
+  .tell b { font-weight: 700; }
+  .tell .fix { color: var(--dim); }
+  .tell .fix::before { content: "Now: "; color: var(--bad); font-weight: 700; }
+
+  /* renders */
+  .renders { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+  .render { display: grid; gap: 12px; align-content: start; min-width: 0; }
+  .render video { width: 100%; aspect-ratio: 9 / 16; border-radius: 20px; border: 3px solid var(--line); background: #000; display: block; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font: 700 11px var(--mono); letter-spacing: .06em; text-transform: uppercase; padding: 4px 9px; border-radius: 99px; border: 1.5px solid currentColor; }
+  .chip.pass { color: var(--pass); } .chip.flag { color: var(--flag); } .chip.info { color: var(--dim); }
+  .render p { font-size: 15.5px; color: var(--dim); }
+  .render p b { color: var(--ink); }
+
+  /* voice lab */
+  .lab { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+  .voices { display: grid; gap: 10px; }
+  .voice { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 14px; align-items: center; padding: 12px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
+  .voice.pick { border-color: var(--bad); }
+  .voice .name { font: 700 15px var(--mono); }
+  .voice .grade { font: 700 13px var(--mono); color: var(--bad); }
+  .voice .note { grid-column: 1 / -1; font-size: 14.5px; color: var(--dim); }
+  .voice audio { grid-column: 1 / -1; width: 100%; height: 36px; }
+  .line { font: 600 15px var(--mono); color: var(--ink); background: var(--panel); border-left: 4px solid var(--bad); padding: 12px 14px; border-radius: 4px; }
+  .rules { display: grid; gap: 14px; }
+  .rule { display: grid; gap: 4px; }
+  .rule h3 { font-size: 22px; font-style: italic; }
+  .rule p { font-size: 15.5px; color: var(--dim); }
+
+  /* ideas */
+  .ideas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .idea { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+  .idea.done { border-color: var(--bad); }
+  .idea .series { font: 700 11px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--royale); }
+  .idea .hook { font: 900 italic 27px/1 var(--display); text-transform: uppercase; }
+  .idea .why { font-size: 15px; color: var(--dim); }
+  .idea .why b { color: var(--ink); font-weight: 700; }
+  .idea .src { font: 500 12.5px/1.5 var(--mono); color: var(--dim); border-top: 1px dashed var(--line); padding-top: 9px; }
+
+  /* pipeline */
+  .pipe { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .step { padding: 16px; border-right: 1px solid var(--line); display: grid; gap: 6px; align-content: start; min-width: 0; }
+  .step:last-child { border-right: 0; }
+  .step .k { font: 700 12px var(--mono); color: var(--bad); }
+  .step b { font: 900 italic 22px/1 var(--display); text-transform: uppercase; }
+  .step span { font-size: 14px; color: var(--dim); }
+  .limits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .limit { border-top: 3px solid var(--line); padding-top: 12px; display: grid; gap: 6px; }
+  .limit p { font-size: 15.5px; color: var(--dim); }
+
+  @media (max-width: 900px) {
+    .hero, .lab { grid-template-columns: 1fr; }
+    .renders, .ideas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .pipe { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .step:nth-child(2n) { border-right: 0; } .step { border-bottom: 1px solid var(--line); }
+    .limits, .tells { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px) {
+    .renders, .ideas { grid-template-columns: 1fr; }
+    .render video { max-width: 340px; }
+  }
+  :focus-visible { outline: 3px solid var(--bad); outline-offset: 3px; }
+</style>
+
+<main>
+  <header>
+    <span class="eyebrow">BAD ROYALE · code BAD · production notes, Oct 27</span>
+    <div class="hero">
+      <div style="display:grid;gap:20px">
+        <h1>Edited by a person, <span class="yellow">not assembled.</span></h1>
+        <p>The first sample was accurate but it looked generated: a news template with a map behind it. The new cut keeps every fact and changes how it's made. A voice leads from the first frame, captions pop on each word as it's said, the camera moves when the voice points at something, and every circle is drawn by hand. Play them side by side.</p>
+        <p class="muted">Every fact on this page comes from Epic's own data for v42.40 (in-game news, map and location data), saved with the date it was pulled.</p>
+      </div>
+      <div class="pair">
+        <div class="phone"><video src="video/old-pacman.mp4" poster="img/old-pacman.jpg" controls playsinline preload="metadata"></video><span class="tag">Before · template</span></div>
+        <div class="phone new"><video src="video/new-pacman.mp4" poster="img/new-pacman.jpg" controls playsinline preload="metadata"></video><span class="tag">After · edited, voiced</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <span class="eyebrow">What gave it away</span>
+    <h2>Eight tells, and what replaced them</h2>
+    <div class="tells">
+      <div class="tell"><span class="n">1</span><b>Furniture that never moves.</b><span class="fix">A lower third, a ticker and a logo sat on screen for the whole video. Now nothing stays on screen unless it's doing something. The only fixed item is the #EpicPartner tag, because Epic requires it.</span></div>
+      <div class="tell"><span class="n">2</span><b>Silence.</b><span class="fix">A voice from frame one, with captions timed to it word by word, the way CapCut auto-captions look.</span></div>
+      <div class="tell"><span class="n">3</span><b>Headlines nobody says out loud.</b><span class="fix">The script is what you'd say to a friend in a lobby. The captions are the voice, not a separate headline.</span></div>
+      <div class="tell"><span class="n">4</span><b>Everything eases in the same way.</b><span class="fix">Motion follows the voice: a quick zoom on "right here", a whip pan on "and Pinky", a camera flash on "screenshot this".</span></div>
+      <div class="tell"><span class="n">5</span><b>Perfect vectors under flat light.</b><span class="fix">Film grain, a little handheld drift, motion blur when the camera moves fast.</span></div>
+      <div class="tell"><span class="n">6</span><b>Graphics appear fully formed.</b><span class="fix">Circles, arrows and labels get drawn on, lopsided like a real marker.</span></div>
+      <div class="tell"><span class="n">7</span><b>A sponsor card that shouts.</b><span class="fix">The code is one spoken line at the end plus a two-second card. It reads like a creator asking, not an ad.</span></div>
+      <div class="tell"><span class="n">8</span><b>Every video built the same way.</b><span class="fix">Each series gets its own move: a count-up for lists, a reveal for secrets, steps for how-tos.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">New renders · 60 fps · voiced · checked</span>
+    <h2>Three videos in the new style</h2>
+    <div class="renders">
+      <div class="render">
+        <video src="video/new-consoles.mp4" poster="img/new-consoles.jpg" controls playsinline preload="metadata"></video>
+        <div class="chips"><span class="chip pass">Checklist passed</span><span class="chip info">15.5 s</span></div>
+        <h3>Every Override Console</h3>
+        <p><b>Move: the count-up.</b> Seven whip-pans, one per console, a marker circle and a scrawled number each, then a screenshot flash. People save lists like this, and saves push reach. The count of seven comes straight from the location data.</p>
+      </div>
+      <div class="render">
+        <video src="video/new-pacman.mp4" poster="img/new-pacman.jpg" controls playsinline preload="metadata"></video>
+        <div class="chips"><span class="chip flag">1 fact for you to confirm</span><span class="chip info">13.3 s</span></div>
+        <h3>The hidden Pac-Man</h3>
+        <p><b>Move: the reveal.</b> It opens on the payoff, then twists: two ghosts are on the map, two aren't. The open question pulls comments. The flagged fact is the ghosts' names (Blinky, Pinky, Inky, Clyde), which comes from outside Epic's data.</p>
+      </div>
+      <div class="render">
+        <video src="video/new-freddys.mp4" poster="img/new-freddys.jpg" controls playsinline preload="metadata"></video>
+        <div class="chips"><span class="chip pass">Checklist passed</span><span class="chip info">15.3 s</span></div>
+        <h3>Where the Freddy's boss is</h3>
+        <p><b>Move: the steps.</b> Where to go, then what to do there, shown as in-game style popups. It's useful during an event, so it gets shared to squads. Every line traces to Epic's news text.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Voice lab · all free, all offline</span>
+    <h2>Pick the voice by ear</h2>
+    <div class="lab">
+      <div style="display:grid;gap:14px">
+        <p>Each clip reads the same line. These are <b>Kokoro</b> voices: an open model (Apache 2.0, free for commercial use) that runs on our own machine, so there's no account, no cost per video and no usage limit. The grades are the Kokoro project's own quality ratings. I can't hear audio, so your ear decides.</p>
+        <div class="line">"There are seven Override Consoles on the map right now. Here's every single one."</div>
+        <div class="voices">
+          <div class="voice pick"><span class="name">af_heart · used in the renders</span><span class="grade">A</span><audio controls preload="none" src="audio/af_heart.mp3"></audio><span class="note">The highest-rated voice. Warm and quick, closest to a real creator.</span></div>
+          <div class="voice"><span class="name">af_bella</span><span class="grade">A-</span><audio controls preload="none" src="audio/af_bella.mp3"></audio><span class="note">Brighter and more energetic. Good for Breaking.</span></div>
+          <div class="voice"><span class="name">blend: michael 55% + fenrir 45%</span><span class="grade">mix</span><audio controls preload="none" src="audio/blend_michael_fenrir.mp3"></audio><span class="note">Two male voices mixed into one. A blend often sounds less synthetic than either voice on its own.</span></div>
+          <div class="voice"><span class="name">am_fenrir</span><span class="grade">C+</span><audio controls preload="none" src="audio/am_fenrir.mp3"></audio><span class="note">One of the best-rated male voices. Deeper.</span></div>
+          <div class="voice"><span class="name">am_michael</span><span class="grade">C+</span><audio controls preload="none" src="audio/am_michael.mp3"></audio><span class="note">Calm, anchor-like.</span></div>
+          <div class="voice"><span class="name">am_puck</span><span class="grade">C+</span><audio controls preload="none" src="audio/am_puck.mp3"></audio><span class="note">Lighter, younger.</span></div>
+          <div class="voice"><span class="name">bm_george</span><span class="grade">C</span><audio controls preload="none" src="audio/bm_george.mp3"></audio><span class="note">British male. Stands out in a US-heavy feed.</span></div>
+          <div class="voice"><span class="name">af_nicole</span><span class="grade">B-</span><audio controls preload="none" src="audio/af_nicole.mp3"></audio><span class="note">Breathy and close to the mic. Could suit late-night lore videos.</span></div>
+        </div>
+      </div>
+      <div class="rules">
+        <div class="rule"><h3>The best free voice is yours</h3><p>A real voice beats every model, and it costs nothing: record the script on your phone and drop it in. The captions and edit retime to any recording. Use the model voice for volume, and your own voice for the posts you expect to be biggest.</p></div>
+        <div class="rule"><h3>Other free options</h3><p><b>TikTok and CapCut built-in voices:</b> free, natural, and familiar to viewers, but they only work inside those apps. <b>Piper</b> (open source) is free but sounds flatter than Kokoro. <b>ElevenLabs' free tier</b> isn't an option here: it's non-commercial and needs attribution.</p></div>
+        <div class="rule"><h3>Decide on AI labels before posting</h3><p>TikTok and YouTube both ask creators to label realistic AI-generated content, and a synthetic narrator may count. Your current rule is no AI labels. So either narrate yourself (no label question), or use the model voice and follow each platform's labeling rule. That's your call; nothing posts until you decide.</p></div>
+        <div class="rule"><h3>How the voice is made</h3><p>The model reads the script one natural phrase at a time. Each phrase is measured, trimmed and placed on the timeline, and words are timed by their sounds. That's what drives the word-by-word captions and the camera moves. One command turns a script into a voiced, captioned, checked video.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Twelve ideas, each tied to a fact we can prove</span>
+    <h2>What to make next</h2>
+    <div class="ideas">
+      <div class="idea done"><span class="series">Easter Egg Files · rendered</span><span class="hook">"There are seven Override Consoles. Here's every one."</span><p class="why"><b>Save bait.</b> A complete list people want for their next match.</p><span class="src">map.json · exactly 7 entries named "Override Console"</span></div>
+      <div class="idea done"><span class="series">Easter Egg Files · rendered</span><span class="hook">"There's a Pac-Man hidden on the map."</span><p class="why"><b>Comment bait.</b> Two ghosts are missing, so people reply with theories.</p><span class="src">map.json · Pac-Man, Blinky and Pinky Island, no Inky or Clyde</span></div>
+      <div class="idea done"><span class="series">Breaking · rendered</span><span class="hook">"One boss is always at Freddy's. Here's where."</span><p class="why"><b>Share bait.</b> Useful during the event, so it gets sent to squads.</p><span class="src">news.json · FNAF item; map.json · Freddy Fazbear's Pizzeria</span></div>
+      <div class="idea"><span class="series">Easter Egg Files</span><span class="hook">"This map has two car washes. Here's both."</span><p class="why"><b>Rewatch bait.</b> An oddly specific fact makes people go back and look. Cheap to make, and the punchline is the map itself.</p><span class="src">map.json · 2 entries named "Carwash"</span></div>
+      <div class="idea"><span class="series">Challenge</span><span class="hook">"13 named spots on this map. How many have you landed at?"</span><p class="why"><b>Comment bait.</b> Everyone answers with a number. The map fills in spot by spot to a count.</p><span class="src">map.json · 13 named locations, the same 13 labels on the official map</span></div>
+      <div class="idea"><span class="series">Breaking</span><span class="hook">"Sprites are in Ranked now, but their powers are off."</span><p class="why"><b>Settles arguments.</b> People send it to the friend who's wrong about it.</p><span class="src">news.json · "Sprites will now appear in Ranked too, with abilities disabled"</span></div>
+      <div class="idea"><span class="series">Easter Egg Files</span><span class="hook">"The cursed cartridge from the trailer is on the map."</span><p class="why"><b>Mystery.</b> It links the event story to a real spot you can drop at.</p><span class="src">news.json · "A cursed cartridge is spreading"; map.json · "Dark Cartridge"</span></div>
+      <div class="idea"><span class="series">Breaking</span><span class="hook">"There's a quest you can only unlock with friends."</span><p class="why"><b>Tag a friend.</b> The video is literally about needing a squad.</p><span class="src">news.json · "Face the fear with friends to unlock the Safety in Numbers Quest"</span></div>
+      <div class="idea"><span class="series">Easter Egg Files</span><span class="hook">"Sonic's first-ever level is a real place on the island."</span><p class="why"><b>Nostalgia.</b> Hits players who grew up on Sonic. One fact (that it was his first level) gets confirmed by you before posting.</p><span class="src">map.json · "Green Hill Zone"; news.json · Override, Sonic</span></div>
+      <div class="idea"><span class="series">Collab Watch</span><span class="hook">"Every collab Epic has confirmed this season."</span><p class="why"><b>Save bait.</b> A clean board people come back to. Only confirmed collabs; rumors stay empty until a named source exists.</p><span class="src">news.json · Five Nights at Freddy's, Sonic, Tetris, Pac-Man</span></div>
+      <div class="idea"><span class="series">Patch in 30</span><span class="hook">"v42.50 is live. Here's what you'll actually notice."</span><p class="why"><b>Speed.</b> The pipeline checks the build number. When it changes, the update post gets drafted the same hour.</p><span class="src">build.json · version check on every fetch</span></div>
+      <div class="idea"><span class="series">Spot the Change</span><span class="hook">"Something got added to the map this week. Did you notice?"</span><p class="why"><b>Built on a real edge.</b> We save the map and location list every week, so a script can find what moved. A person would never catch it as fast.</p><span class="src">weekly map.json diff · new or removed named locations</span></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">How a video gets made now</span>
+    <h2>Six steps, one approval</h2>
+    <div class="pipe">
+      <div class="step"><span class="k">1</span><b>Pull</b><span>Epic's news, map, locations and build, saved with the time.</span></div>
+      <div class="step"><span class="k">2</span><b>Script</b><span>Short phrases a person would say. Every claim linked to the saved data.</span></div>
+      <div class="step"><span class="k">3</span><b>Voice</b><span>Kokoro reads it; word timings come out with it.</span></div>
+      <div class="step"><span class="k">4</span><b>Edit</b><span>Camera moves, circles and captions land on the words.</span></div>
+      <div class="step"><span class="k">5</span><b>Check</b><span>Facts, spelling, frames, audio (-14 LUFS), safe zones, disclosure.</span></div>
+      <div class="step"><span class="k">6</span><b>You</b><span>First 5 of each series come to you. Nothing posts without a yes.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Still missing</span>
+    <h2>What would make it better</h2>
+    <div class="limits">
+      <div class="limit"><h3>Real gameplay</h3><p>The map carries these videos, but even 3 seconds of a real clip (your Replay Mode, or licensed footage) would add a lot. Every template has a slot for it.</p></div>
+      <div class="limit"><h3>Your voice</h3><p>Record two or three scripts yourself and compare them with af_heart on the same video. That test will tell you more than any setting.</p></div>
+      <div class="limit"><h3>Epic's own art</h3><p>Epic's image CDN is blocked from this session, so the official news images aren't used yet. Allowing that host in the environment's network settings fixes it.</p></div>
+    </div>
+  </section>
+</main>

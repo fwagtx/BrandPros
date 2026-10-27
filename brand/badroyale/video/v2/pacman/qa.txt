@@ -1,0 +1,9 @@
+FLAG     1. Facts
+PASS     2. Spelling and grammar
+PASS     3. Frames
+PASS     4. Audio
+PASS     5. Specs and safe zones
+PASS     6. Disclosure and wording
+PASS     7. Would a fan stop scrolling? Made by a person?
+WAITING  8. Owner approval
+VERDICT: HOLD: owner must resolve flags and approve

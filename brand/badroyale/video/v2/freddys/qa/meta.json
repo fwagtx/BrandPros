@@ -1,0 +1,56 @@
+{
+ "duration": 15.3,
+ "caption": "#EpicPartner One of the animatronic bosses is always at Freddy Fazbear's. Here's where it is on the map, and what happens when you beat a rogue robot.\nFrom Epic's in-game news and the official map. Code BAD in the Item Shop supports the channel.\n#Fortnite #FNAF #Fortnitemares",
+ "claims": [
+  {
+   "text": "One animatronic boss is always at Freddy Fazbear's",
+   "source": "sources/news.json",
+   "match": [
+    "animatronic bosses in Battle Royale, with one always lurking at Freddy Fazbear's Pizza Parlor"
+   ]
+  },
+  {
+   "text": "Freddy Fazbear's is a named spot on the map",
+   "source": "sources/map.json",
+   "match": [
+    "Freddy Fazbear's Pizzeria"
+   ]
+  },
+  {
+   "text": "It sits between Pac-Man's lake and Freaky Fields",
+   "source": "sources/map-labels.png",
+   "visual": "Plotted from POI coordinates: south-east of the Pac-Man lake, south-west of the Freaky Fields label"
+  },
+  {
+   "text": "Beat a rogue robot to possess the suit",
+   "source": "sources/news.json",
+   "match": [
+    "Defeat any rogue robot you find to possess the suit"
+   ]
+  }
+ ],
+ "text": [
+  "FREDDY'S",
+  "STEP 1 / BEAT A ROGUE ROBOT",
+  "STEP 2 / POSSESS THE SUIT",
+  "ONE BOSS IS ALWAYS HERE / FREDDY FAZBEAR'S",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "ONE OF THE",
+  "ANIMATRONIC BOSSES IS",
+  "ALWAYS AT FREDDY",
+  "FAZBEAR'S.",
+  "SO HERE'S EXACTLY",
+  "WHERE THAT IS.",
+  "RIGHT HERE,",
+  "BETWEEN PAC-MAN'S LAKE",
+  "AND FREAKY FIELDS.",
+  "BEAT ANY ROGUE",
+  "ROBOT YOU FIND,",
+  "AND YOU CAN",
+  "POSSESS THE SUIT.",
+  "CODE BAD IN",
+  "THE ITEM SHOP",
+  "SUPPORTS THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

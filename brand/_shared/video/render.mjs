@@ -1,5 +1,5 @@
 // Renders a scene to MP4 (60 fps by default), with sound from mix.py.
-// Usage: node render.mjs <scene.js> <out.mp4> [--fps 60] [--stills t1,t2,... --stillsDir dir] [--boxes out.json] [--meta out.json]
+// Usage: node render.mjs <scene.js> <out.mp4> [--fps 60] [--data timings.js] [--voice vo.wav] [--stills t1,t2,... --stillsDir dir] [--boxes out.json] [--meta out.json]
 //   --boxes samples the on-screen text boxes 4 times a second for the safe-zone check.
 import { createRequire } from "module";
 import { execSync, spawn, spawnSync } from "child_process";
@@ -23,7 +23,8 @@ const browser = await playwright.chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
 const errors = [];
 page.on("pageerror", (e) => { errors.push(e.message); console.error("page error:", e.message); });
-await page.goto("file://" + path.join(here, "video.html") + "?s=" + encodeURIComponent(scene));
+const dataQ = args.data ? "&d=" + encodeURIComponent(path.relative(here, path.resolve(args.data))) : "";
+await page.goto("file://" + path.join(here, "video.html") + "?s=" + encodeURIComponent(scene) + dataQ);
 await page.evaluate(() => window.ready);
 const clip = { x: 0, y: 0, width: 1080, height: 1920 };
 const dur = await page.evaluate(() => window.duration);
@@ -71,7 +72,7 @@ ff.stdin.end();
 await new Promise((r) => ff.on("close", r));
 const cues = await page.evaluate(() => window.cues);
 await browser.close();
-const mix = spawnSync("python3", [path.join(here, "mix.py"), silent, out, String(dur), JSON.stringify(cues)], { stdio: "inherit", env: { ...process.env, FFMPEG } });
+const mix = spawnSync("python3", [path.join(here, "mix.py"), silent, out, String(dur), JSON.stringify(cues), ...(args.voice ? [path.resolve(args.voice)] : [])], { stdio: "inherit", env: { ...process.env, FFMPEG } });
 if (mix.status !== 0) process.exit(mix.status);
 fs.unlinkSync(silent);
 console.log("done", out, errors.length ? `(${errors.length} page errors)` : "");

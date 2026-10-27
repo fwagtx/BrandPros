@@ -1,0 +1,60 @@
+{
+ "duration": 15.5,
+ "caption": "#EpicPartner Every Override Console on the Fortnite map right now (v42.40). Save it for your next drop.\nPositions from the official map data. Code BAD in the Item Shop supports the channel.\n#Fortnite #FortniteOverride #FortniteMap",
+ "claims": [
+  {
+   "text": "There are seven Override Consoles on the map",
+   "source": "sources/map.json",
+   "match": [
+    "Override Console"
+   ],
+   "count": {
+    "Override Console": 7
+   }
+  },
+  {
+   "text": "Console positions match the official POI coordinates",
+   "source": "sources/map-labels.png",
+   "visual": "All 7 plotted on the official map; each lands on a console structure"
+  },
+  {
+   "text": "Current version is v42.40",
+   "source": "sources/build.json",
+   "match": [
+    "Release-42.40"
+   ]
+  }
+ ],
+ "text": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "EVERY OVERRIDE CONSOLE / ON THE V42.40 MAP",
+  "COUNTER",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THERE ARE SEVEN",
+  "OVERRIDE CONSOLES ON",
+  "THE MAP RIGHT",
+  "NOW.",
+  "HERE'S EVERY SINGLE",
+  "ONE.",
+  "TWO.",
+  "THREE.",
+  "FOUR.",
+  "FIVE.",
+  "SIX.",
+  "SEVEN.",
+  "SCREENSHOT THIS BEFORE",
+  "YOUR NEXT DROP.",
+  "AND IF IT",
+  "HELPED,",
+  "CODE BAD IN",
+  "THE ITEM SHOP",
+  "SUPPORTS THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}
