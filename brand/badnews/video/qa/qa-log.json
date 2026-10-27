@@ -1,0 +1,122 @@
+{
+  "video": "badnews-sample-pacman-easter-egg.mp4",
+  "checked_utc": "2026-10-27T16:36:35Z",
+  "verdict": "HOLD: owner must resolve flags and approve",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "FLAG",
+      "detail": "10/11 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "Pac-Man Island is a named location on the current map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Blinky Island is a named location",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Pinky Island is a named location",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "No Inky or Clyde location on the map",
+          "result": "PASS",
+          "why": "matched in map.json; Full-res map checked: no cyan or orange ghost island"
+        },
+        {
+          "claim": "Pac-Man's four ghosts are Blinky, Pinky, Inky and Clyde",
+          "result": "FLAG",
+          "why": "Pac-Man (Namco, 1980). General knowledge; not checkable from this session"
+        },
+        {
+          "claim": "Override has areas inspired by Sonic, Tetris and Pac-Man",
+          "result": "PASS",
+          "why": "matched in news.json"
+        },
+        {
+          "claim": "Current version is v42.40",
+          "result": "PASS",
+          "why": "matched in build.json"
+        },
+        {
+          "claim": "Locations: Pac-Man north lake, Blinky south-west coast, Pinky south-east coast",
+          "result": "PASS",
+          "why": "visual check against map-blank.png: Checked on the full-res map"
+        },
+        {
+          "claim": "Ticker: animatronic bosses in BR, one always at Freddy Fazbear's Pizza Parlor",
+          "result": "PASS",
+          "why": "matched in news.json"
+        },
+        {
+          "claim": "Ticker: Sprites now appear in Ranked, abilities disabled",
+          "result": "PASS",
+          "why": "matched in news.json"
+        },
+        {
+          "claim": "Ticker: Fortnitemares Collection, team up to unlock the Safety in Numbers Quest",
+          "result": "PASS",
+          "why": "matched in news.json"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "71 distinct words checked; code written as BAD in all 2 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -14.2 LUFS, true peak -1.1 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 16.3s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Reviewer: Claude (owner still decides at check 8). Frame 1 already shows the payoff: the Pac-Man-shaped island and the headline, no logo intro. Something changes every 1-2 s (pin drop, pull-out, pan, cards, overview), the card beat holds about 3 s so it can be read. Every visual is either the official map or drawn for this video; nothing is a stock template. Readable on mute. The last frame matches the first, so it loops.",
+      "items": [
+        {
+          "note": "Weakest moment: 3.4-4.3 s, the headline changes while the camera is still travelling. Acceptable, but a voiceover line here would carry it."
+        },
+        {
+          "note": "No voice yet. A real voice reading the two headlines would lift retention; record it or hire a voice actor. Text-to-speech is not allowed by the brief."
+        },
+        {
+          "note": "Music is an original synthesized bed. On TikTok/Reels, swap it for a licensed library sound in the app if you want trend reach."
+        }
+      ]
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "WAITING",
+      "detail": "Not scheduled. First 5 videos of every series go to the owner before anything is queued in Metricool.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner There's a Pac-Man hidden on the Fortnite map. Two of his ghosts are here too, but Inky and Clyde aren't.\nPac-Man Island, Blinky Island and Pinky Island are named locations on the official v42.40 map, part of Fortnite: Override. Spot anything else? Reply and the desk will check it.\nSupport the desk: code BAD in the Item Shop.\n#Fortnite #FortniteOverride #PacMan"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "notes": "Reviewer: Claude (owner still decides at check 8). Frame 1 already shows the payoff: the Pac-Man-shaped island and the headline, no logo intro. Something changes every 1-2 s (pin drop, pull-out, pan, cards, overview), the card beat holds about 3 s so it can be read. Every visual is either the official map or drawn for this video; nothing is a stock template. Readable on mute. The last frame matches the first, so it loops.",
+  "items": [
+    {"note": "Weakest moment: 3.4-4.3 s, the headline changes while the camera is still travelling. Acceptable, but a voiceover line here would carry it."},
+    {"note": "No voice yet. A real voice reading the two headlines would lift retention; record it or hire a voice actor. Text-to-speech is not allowed by the brief."},
+    {"note": "Music is an original synthesized bed. On TikTok/Reels, swap it for a licensed library sound in the app if you want trend reach."}
+  ]
+}

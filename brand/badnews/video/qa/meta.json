@@ -1,0 +1,108 @@
+{
+ "duration": 16.3,
+ "caption": "#EpicPartner There's a Pac-Man hidden on the Fortnite map. Two of his ghosts are here too, but Inky and Clyde aren't.\nPac-Man Island, Blinky Island and Pinky Island are named locations on the official v42.40 map, part of Fortnite: Override. Spot anything else? Reply and the desk will check it.\nSupport the desk: code BAD in the Item Shop.\n#Fortnite #FortniteOverride #PacMan",
+ "claims": [
+  {
+   "text": "Pac-Man Island is a named location on the current map",
+   "source": "sources/map.json",
+   "match": [
+    "Pac-Man Island"
+   ]
+  },
+  {
+   "text": "Blinky Island is a named location",
+   "source": "sources/map.json",
+   "match": [
+    "Blinky Island"
+   ]
+  },
+  {
+   "text": "Pinky Island is a named location",
+   "source": "sources/map.json",
+   "match": [
+    "Pinky Island"
+   ]
+  },
+  {
+   "text": "No Inky or Clyde location on the map",
+   "source": "sources/map.json",
+   "absent": [
+    "Inky",
+    "Clyde"
+   ],
+   "visual": "Full-res map checked: no cyan or orange ghost island"
+  },
+  {
+   "text": "Pac-Man's four ghosts are Blinky, Pinky, Inky and Clyde",
+   "source": "external",
+   "note": "Pac-Man (Namco, 1980). General knowledge; not checkable from this session"
+  },
+  {
+   "text": "Override has areas inspired by Sonic, Tetris and Pac-Man",
+   "source": "sources/news.json",
+   "match": [
+    "inspired by gaming legends like Sonic, Tetris, and Pac-Man"
+   ]
+  },
+  {
+   "text": "Current version is v42.40",
+   "source": "sources/build.json",
+   "match": [
+    "Release-42.40"
+   ]
+  },
+  {
+   "text": "Locations: Pac-Man north lake, Blinky south-west coast, Pinky south-east coast",
+   "source": "sources/map-blank.png",
+   "visual": "Checked on the full-res map"
+  },
+  {
+   "text": "Ticker: animatronic bosses in BR, one always at Freddy Fazbear's Pizza Parlor",
+   "source": "sources/news.json",
+   "match": [
+    "animatronic bosses in Battle Royale",
+    "Freddy Fazbear's Pizza Parlor"
+   ]
+  },
+  {
+   "text": "Ticker: Sprites now appear in Ranked, abilities disabled",
+   "source": "sources/news.json",
+   "match": [
+    "Sprites will now appear in Ranked too, with abilities disabled"
+   ]
+  },
+  {
+   "text": "Ticker: Fortnitemares Collection, team up to unlock the Safety in Numbers Quest",
+   "source": "sources/news.json",
+   "match": [
+    "Collection of spine-chilling Islands",
+    "Face the fear with friends to unlock the Safety in Numbers Quest"
+   ]
+  }
+ ],
+ "text": [
+  "PAC-MAN ISLAND",
+  "BLINKY ISLAND",
+  "PINKY ISLAND",
+  "EASTER EGG",
+  "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+  "TWO OF HIS GHOSTS / ARE HERE TOO",
+  "BUT INKY & CLYDE / AREN'T ON THE MAP",
+  "IT'S PART OF / FORTNITE: OVERRIDE",
+  "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+  "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+  "PINKY ISLAND / SOUTH-EAST COAST · OFFICIAL MAP, V42.40",
+  "INKY & CLYDE / NOT ON THE V42.40 MAP",
+  "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+  "BAD NEWS",
+  "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS BROADCAST SUPPORTED BY CODE BAD · #EPICPARTNER",
+  "THIS BROADCAST SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+  "BLINKY",
+  "ON THE MAP",
+  "PINKY",
+  "INKY",
+  "NOT ON MAP",
+  "CLYDE",
+  "#EPICPARTNER"
+ ]
+}
