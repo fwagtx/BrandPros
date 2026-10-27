@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BAD brand stage</title>
+<style>
+  @font-face { font-family: "Luckiest Guy"; src: url(../fonts/LuckiestGuy-Regular.ttf); font-display: block; }
+  @font-face { font-family: "Anton"; src: url(../fonts/Anton-Regular.ttf); font-display: block; }
+  @font-face { font-family: "Bebas Neue"; src: url(../fonts/BebasNeue-Regular.ttf); font-display: block; }
+  @font-face { font-family: "League Gothic"; src: url("../fonts/LeagueGothic[wdth].ttf"); font-display: block; }
+  @font-face { font-family: "Barlow Condensed"; font-weight: 800; src: url(../fonts/BarlowCondensed-ExtraBold.ttf); font-display: block; }
+  @font-face { font-family: "Barlow Condensed"; font-weight: 900; src: url(../fonts/BarlowCondensed-Black.ttf); font-display: block; }
+  @font-face { font-family: "Barlow"; font-weight: 700; src: url(../fonts/Barlow-Bold.ttf); font-display: block; }
+  @font-face { font-family: "Barlow"; font-weight: 600; src: url(../fonts/Barlow-SemiBold.ttf); font-display: block; }
+  html, body { margin: 0; background: #222; }
+  #stage { position: relative; overflow: hidden; }
+  #stage * { box-sizing: border-box; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script src="assets.js"></script>
+<script>
+  const stage = document.getElementById("stage");
+  window.renderAsset = (name) => { const [w, h, html] = ASSETS.asset(name); stage.style.width = w + "px"; stage.style.height = h + "px"; stage.innerHTML = html; return [w, h]; };
+  window.assetNames = () => ASSETS.names();
+  window.ready = Promise.all(["40px 'Luckiest Guy'", "40px Anton", "40px 'Bebas Neue'", "40px 'League Gothic'", "800 40px 'Barlow Condensed'", "900 40px 'Barlow Condensed'", "700 40px Barlow", "600 40px Barlow"]
+    .map((f) => document.fonts.load(f))).then(() => document.fonts.ready);
+</script>
+</body>
+</html>
