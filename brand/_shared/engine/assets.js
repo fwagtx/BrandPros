@@ -161,5 +161,8 @@
     names: () => Object.keys(ASSETS_MAP),
     asset: (name) => ASSETS_MAP[name](),
     setHeadline: (key) => { HEAD = FONTS[key]; },
+    // brand files add their own assets and reuse these helpers
+    add: (map) => Object.assign(ASSETS_MAP, map),
+    lib: { box, svg, fn, RARITY, NEWS, IDEAS, UNREAL, PFP, circle },
   };
 })(window);

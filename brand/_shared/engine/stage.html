@@ -20,6 +20,7 @@
 <body>
 <div id="stage"></div>
 <script src="assets.js"></script>
+<script src="../../badnews/brand-assets.js"></script>
 <script>
   const stage = document.getElementById("stage");
   window.renderAsset = (name) => { const [w, h, html] = ASSETS.asset(name); stage.style.width = w + "px"; stage.style.height = h + "px"; stage.innerHTML = html; return [w, h]; };
