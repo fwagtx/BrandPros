@@ -151,7 +151,46 @@
     return [W, H, s];
   }
 
+  // ---------- round 2 names: tie the code and Fortnite together ----------
+  // [top tag or "", bottom plate, note]
+  const NAMES2 = [
+    ["CODE", "NEWS", "CODE BAD NEWS", "The code is the name: every post says CODE BAD before anything else. News from the creator code itself."],
+    ["", "ROYALE", "BAD ROYALE", "Battle Royale with BAD in place of Battle. Says Fortnite and the code in two words."],
+    ["BATTLE", "", "BATTLE BAD", "Like Battle Bus, Battle Pass, Battle Royale, but it's BAD. Sounds like a game mode."],
+    ["THE", "BUS", "THE BAD BUS", "Everyone rides the bus to the island. The bus is where the news comes from."],
+    ["", "ISLAND", "BAD ISLAND", "Fortnite players just call it the Island. News from BAD's island."],
+    ["", "PASS", "BAD PASS", "A play on the Battle Pass: your pass to what's new this season."],
+  ];
+  function named2(tag, plate, S) {
+    let s = box(`inset:0;background:${sheen},${BLUE}`);
+    const badTop = tag ? (plate ? 0.25 : 0.33) : plate ? 0.17 : 0.27;
+    if (tag) s += box(`left:0;right:0;top:${S * (plate ? 0.1 : 0.16)}px;display:flex;justify-content:center`,
+      `<div style="background:#FFD21E;border:${S * 0.014}px solid ${OUT};border-radius:${S * 0.03}px;transform:skewX(-7deg);padding:${S * 0.006}px ${S * 0.05}px;box-shadow:0 ${S * 0.014}px 0 ${OUT}">${t3d(tag, S * 0.1, { fill: "#0E2F9E", side: "#FFD21E", out: "#FFD21E", sw: 0.1, depth: 0, skew: 0, track: S * 0.008 })}</div>`);
+    s += box(`left:0;right:0;top:${S * badTop}px;text-align:center`, t3d("BAD", S * (plate ? 0.42 : 0.46), { fill: "#FFD21E", side: "#B06A00", top: "#FFF3A6", depth: Math.round(S * 0.03) }));
+    if (plate) s += box(`left:${S * 0.14}px;right:${S * 0.14}px;top:${S * (tag ? 0.66 : 0.6)}px;height:${S * 0.2}px;background:#0E2F9E;border:${S * 0.016}px solid ${OUT};border-radius:${S * 0.04}px;transform:skewX(-7deg);box-shadow:0 ${S * 0.02}px 0 ${OUT};display:flex;align-items:center;justify-content:center`,
+      t3d(plate, S * (plate.length > 4 ? 0.135 : 0.15), { side: "#071A5E", depth: Math.round(S * 0.01), skew: 0, track: S * 0.008 }));
+    return s;
+  }
+  const ncirc2 = (n, d) => `<div style="position:relative;width:${d}px;height:${d}px;border-radius:50%;overflow:hidden;flex:none">${box(`left:0;top:0;width:1080px;height:1080px;transform:scale(${d / 1080});transform-origin:0 0`, named2(n[0], n[1], 1080))}</div>`;
+  function nameSheet2() {
+    const W = 2160, H = 1500;
+    let s = box(`inset:0;background:#ECEEF2`);
+    s += box(`left:60px;top:40px;font:700 42px Barlow;color:#14161C`, `Names that tie code BAD to Fortnite`);
+    s += box(`left:60px;top:98px;font:600 26px Barlow;color:#5A6070`, `Same title-lettering style. Profile picture, 110 px and 40 px, and the handle it suggests.`);
+    NAMES2.forEach((n, i) => {
+      const x = 60 + (i % 3) * 690, y = 160 + Math.floor(i / 3) * 660;
+      const handle = "@" + n[2].toLowerCase().replace(/[^a-z]/g, "");
+      s += box(`left:${x}px;top:${y}px;width:660px;height:630px;background:#fff;border-radius:22px`);
+      s += box(`left:${x + 30}px;top:${y + 30}px`, ncirc2(n, 330));
+      s += box(`left:${x + 390}px;top:${y + 40}px;display:flex;flex-direction:column;gap:22px;align-items:center;width:240px;background:#0C111F;border-radius:16px;padding:24px 0`, ncirc2(n, 110) + ncirc2(n, 40) + `<span style="font:600 22px Barlow;color:#fff">${handle}</span>`);
+      s += box(`left:${x + 34}px;top:${y + 392}px;font:700 38px Barlow;color:#14161C`, n[2]);
+      s += box(`left:${x + 34}px;top:${y + 446}px;width:600px;font:600 24px/1.42 Barlow;color:#3A4152`, n[3]);
+    });
+    return [W, H, s];
+  }
+
   window.ASSETS.add({
+    "_direction/name-options-2": nameSheet2,
     "_direction/name-options": nameSheet,
     "_direction/badnews-logo-round3": sheet,
     ...Object.fromEntries(Object.keys(OPTS).map((k) => [`_direction/badnews-logo-round3-${k}-pfp`, () => [1080, 1080, OPTS[k].pfp(1080)]])),
