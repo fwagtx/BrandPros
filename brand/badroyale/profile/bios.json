@@ -1,0 +1,24 @@
+{
+  "display_name": "BAD ROYALE · Fortnite News",
+  "handles": [
+    "badroyale",
+    "badroyalefn",
+    "codebadroyale"
+  ],
+  "limits": {
+    "tiktok": 80,
+    "instagram": 150,
+    "threads": 150,
+    "x": 160,
+    "facebook": 101,
+    "youtube": 1000
+  },
+  "bios": {
+    "tiktok": "Fortnite news & map secrets, checked before we post. Code BAD #EpicPartner",
+    "instagram": "Fortnite news, patch notes & map Easter eggs, checked against official sources. Fan-run, not affiliated with Epic. Code BAD #EpicPartner",
+    "threads": "Fortnite news: updates, collab watch & map secrets. Every claim sourced, rumors labeled. Fan-run, not Epic. Code BAD #EpicPartner",
+    "x": "Fortnite news. Updates, patch notes, collab watch & map Easter eggs, checked before we post. Rumors labeled. Fan-run, not Epic. Code BAD #EpicPartner",
+    "facebook": "Fortnite news and map secrets, checked before we post. Code BAD in the Item Shop. #EpicPartner",
+    "youtube": "BAD ROYALE is a fan-run Fortnite news channel. Every short covers what is happening in Fortnite right now: new updates and patch notes in 30 seconds, collabs (confirmed vs. rumored, with sources), server status, the weekly Good News / Bad News recap of buffs and nerfs, and Easter eggs hiding on the Battle Royale map. Every claim is checked against Epic's official in-game news and map data before it goes up, and rumors are always labeled as rumors.\n\nSupport the channel: use code BAD in the Fortnite Item Shop. #EpicPartner\n\nFan-run, not affiliated with or endorsed by Epic Games."
+  }
+}

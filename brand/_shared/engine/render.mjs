@@ -1,5 +1,5 @@
 // Renders brand assets from assets.js to PNG.
-// Names may contain folders: "badnews/pfp" → brand/badnews/pfp.png (paths are relative to brand/).
+// Names may contain folders: "badroyale/pfp" → brand/badroyale/pfp.png (paths are relative to brand/).
 // Usage: node render.mjs [name ...]   (no names = everything)
 import { createRequire } from "module";
 import { execSync } from "child_process";

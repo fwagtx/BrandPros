@@ -1,0 +1,4176 @@
+{
+ "duration": 16.3,
+ "samples": [
+  {
+   "t": 0,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 249,
+     "y": 1388,
+     "w": 691,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 0.25,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 211.5,
+     "y": 1388,
+     "w": 728.5,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 0.5,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 698.7340087890625,
+     "w": 319.61309814453125,
+     "h": 59.2659912109375
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 174,
+     "y": 1388,
+     "w": 766,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 0.75,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 136.5,
+     "y": 1388,
+     "w": 803.5,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 1,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 99,
+     "y": 1388,
+     "w": 841,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 1.25,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 61.5,
+     "y": 1388,
+     "w": 878.5,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 1.5,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 1.75,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 2,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 2.25,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 697.3062744140625,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 2.5,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 669.7786254882812,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 2.75,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 633.1994018554688,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 3,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 624.7814331054688,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 3.25,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 540,
+     "y": 623.8041381835938,
+     "w": 302,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 3.5,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 56.48834228515625,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 3.75,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 4,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 4.25,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 4.5,
+   "boxes": [
+    {
+     "text": "BLINKY ISLAND",
+     "x": 540,
+     "y": 698.9307250976562,
+     "w": 290.59979248046875,
+     "h": 59.06927490234375
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 4.75,
+   "boxes": [
+    {
+     "text": "BLINKY ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 275.5,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 5,
+   "boxes": [
+    {
+     "text": "BLINKY ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 275.5,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 5.25,
+   "boxes": [
+    {
+     "text": "BLINKY ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 275.5,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 5.5,
+   "boxes": [
+    {
+     "text": "BLINKY ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 275.5,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 5.75,
+   "boxes": [
+    {
+     "text": "BLINKY ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 275.5,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 6,
+   "boxes": [
+    {
+     "text": "BLINKY ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 275.5,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 6.25,
+   "boxes": [
+    {
+     "text": "BLINKY ISLAND",
+     "x": 539.2733154296875,
+     "y": 702.0389404296875,
+     "w": 275.5,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 6.5,
+   "boxes": [
+    {
+     "text": "BLINKY ISLAND",
+     "x": 384.3103332519531,
+     "y": 710.3444213867188,
+     "w": 275.4999694824219,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 6.75,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 7,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 7.25,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PINKY ISLAND / SOUTH-EAST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1276.763916015625,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 7.5,
+   "boxes": [
+    {
+     "text": "PINKY ISLAND",
+     "x": 540,
+     "y": 698.7340087890625,
+     "w": 271.9886474609375,
+     "h": 59.2659912109375
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PINKY ISLAND / SOUTH-EAST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 7.75,
+   "boxes": [
+    {
+     "text": "PINKY ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 257,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PINKY ISLAND / SOUTH-EAST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 8,
+   "boxes": [
+    {
+     "text": "PINKY ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 257,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PINKY ISLAND / SOUTH-EAST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 8.25,
+   "boxes": [
+    {
+     "text": "PINKY ISLAND",
+     "x": 540,
+     "y": 702,
+     "w": 257,
+     "h": 56
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "TWO OF HIS GHOSTS / ARE HERE TOO",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PINKY ISLAND / SOUTH-EAST COAST · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 8.5,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 56.48834228515625,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 8.75,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 41.9907341003418,
+     "y": 625.98974609375,
+     "w": 216.22874450683594,
+     "h": 323.46722412109375
+    },
+    {
+     "text": "PINKY",
+     "x": 267.7581481933594,
+     "y": 636.3917846679688,
+     "w": 210.56668090820312,
+     "h": 307.1708984375
+    },
+    {
+     "text": "INKY",
+     "x": 579.21044921875,
+     "y": 795.2913818359375,
+     "w": 30.568359375,
+     "h": 41.73065185546875
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 9,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "INKY",
+     "x": 487.0386657714844,
+     "y": 627.7633056640625,
+     "w": 214.07461547851562,
+     "h": 320.4788818359375
+    },
+    {
+     "text": "CLYDE",
+     "x": 709.4204711914062,
+     "y": 631.7562866210938,
+     "w": 215.0208740234375,
+     "h": 314.77386474609375
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 9.25,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 9.5,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 272,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 9.75,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 272,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 494,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 716,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 10,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 272,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 494,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 716,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 10.25,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 272,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 494,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 716,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 10.5,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 272,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 494,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 716,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 10.75,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 272,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 494,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 716,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 11,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 272,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 494,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 716,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 11.25,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 272,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 494,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 716,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 11.5,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BUT INKY & CLYDE / AREN'T ON THE MAP",
+     "x": 58.518524169921875,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "INKY & CLYDE / NOT ON THE V42.40 MAP",
+     "x": 82,
+     "y": 1272.888916015625,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "BLINKY",
+     "x": 50,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 50,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "PINKY",
+     "x": 272,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "ON THE MAP",
+     "x": 272,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "INKY",
+     "x": 494,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 494,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "CLYDE",
+     "x": 716,
+     "y": 640,
+     "w": 200,
+     "h": 300
+    },
+    {
+     "text": "NOT ON MAP",
+     "x": 716,
+     "y": 956,
+     "w": 200,
+     "h": 29
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 11.75,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "IT'S PART OF / FORTNITE: OVERRIDE",
+     "x": 59.8148193359375,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+     "x": 82,
+     "y": 1279.111083984375,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 12,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "IT'S PART OF / FORTNITE: OVERRIDE",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 12.25,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "IT'S PART OF / FORTNITE: OVERRIDE",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 12.5,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "IT'S PART OF / FORTNITE: OVERRIDE",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 12.75,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 463.1903991699219,
+     "y": 645.2847900390625,
+     "w": 159.08822631835938,
+     "h": 29.49981689453125
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "IT'S PART OF / FORTNITE: OVERRIDE",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 13,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 463.1231384277344,
+     "y": 639.9566650390625,
+     "w": 187.24002075195312,
+     "h": 34.72003173828125
+    },
+    {
+     "text": "BLINKY ISLAND",
+     "x": 351.4114685058594,
+     "y": 1100.170654296875,
+     "w": 187.78030395507812,
+     "h": 38.1695556640625
+    },
+    {
+     "text": "PINKY ISLAND",
+     "x": 635.2952880859375,
+     "y": 1108.9305419921875,
+     "w": 65.14263916015625,
+     "h": 14.1944580078125
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "IT'S PART OF / FORTNITE: OVERRIDE",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 13.25,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 462.9403076171875,
+     "y": 639.6634521484375,
+     "w": 187.239990234375,
+     "h": 34.719970703125
+    },
+    {
+     "text": "BLINKY ISLAND",
+     "x": 350.9629211425781,
+     "y": 1104.4298095703125,
+     "w": 170.81002807617188,
+     "h": 34.719970703125
+    },
+    {
+     "text": "PINKY ISLAND",
+     "x": 635.5219116210938,
+     "y": 1088.9434814453125,
+     "w": 160.41748046875,
+     "h": 34.954833984375
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "IT'S PART OF / FORTNITE: OVERRIDE",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 13.5,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 462.5829772949219,
+     "y": 639.0902099609375,
+     "w": 187.24002075195312,
+     "h": 34.719970703125
+    },
+    {
+     "text": "BLINKY ISLAND",
+     "x": 350.08636474609375,
+     "y": 1106.0115966796875,
+     "w": 170.80999755859375,
+     "h": 34.719970703125
+    },
+    {
+     "text": "PINKY ISLAND",
+     "x": 635.96484375,
+     "y": 1090.689453125,
+     "w": 159.3399658203125,
+     "h": 34.719970703125
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "IT'S PART OF / FORTNITE: OVERRIDE",
+     "x": 58.518524169921875,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+     "x": 82,
+     "y": 1272.888916015625,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 13.75,
+   "boxes": [
+    {
+     "text": "THIS REPORT SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+     "x": 73.58251953125,
+     "y": 564.7766723632812,
+     "w": 832.8349609375,
+     "h": 555.2233276367188
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 14,
+   "boxes": [
+    {
+     "text": "THIS REPORT SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+     "x": 70,
+     "y": 560,
+     "w": 840,
+     "h": 560
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 14.25,
+   "boxes": [
+    {
+     "text": "THIS REPORT SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+     "x": 70,
+     "y": 560,
+     "w": 840,
+     "h": 560
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 14.5,
+   "boxes": [
+    {
+     "text": "THIS REPORT SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+     "x": 70,
+     "y": 560,
+     "w": 840,
+     "h": 560
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 14.75,
+   "boxes": [
+    {
+     "text": "THIS REPORT SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+     "x": 70,
+     "y": 560,
+     "w": 840,
+     "h": 560
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 15,
+   "boxes": [
+    {
+     "text": "THIS REPORT SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+     "x": 70,
+     "y": 560,
+     "w": 840,
+     "h": 560
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 15.25,
+   "boxes": [
+    {
+     "text": "THIS REPORT SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+     "x": 70,
+     "y": 560,
+     "w": 840,
+     "h": 560
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 15.5,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "THIS REPORT SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+     "x": 70,
+     "y": 560,
+     "w": 840,
+     "h": 560
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 15.75,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 55,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1275,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 16,
+   "boxes": [
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  },
+  {
+   "t": 16.25,
+   "boxes": [
+    {
+     "text": "PAC-MAN ISLAND",
+     "x": 539.6974487304688,
+     "y": 698.4454345703125,
+     "w": 318.55224609375,
+     "h": 59.06927490234375
+    },
+    {
+     "text": "EASTER EGG",
+     "x": 60,
+     "y": 262,
+     "w": 257,
+     "h": 49
+    },
+    {
+     "text": "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+     "x": 60,
+     "y": 338,
+     "w": 900,
+     "h": 190
+    },
+    {
+     "text": "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+     "x": 82,
+     "y": 1272,
+     "w": 850,
+     "h": 80
+    },
+    {
+     "text": "BAD ROYALE",
+     "x": 43,
+     "y": 1379,
+     "w": 186,
+     "h": 52
+    },
+    {
+     "text": "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+     "x": 40,
+     "y": 1388,
+     "w": 900,
+     "h": 37
+    },
+    {
+     "text": "#EPICPARTNER",
+     "x": 40,
+     "y": 160,
+     "w": 220,
+     "h": 54
+    },
+    {
+     "text": "CODE BAD ROYALE",
+     "x": 802.5,
+     "y": 160,
+     "w": 233.5,
+     "h": 78.875
+    }
+   ]
+  }
+ ],
+ "text": [
+  "PAC-MAN ISLAND",
+  "BLINKY ISLAND",
+  "PINKY ISLAND",
+  "EASTER EGG",
+  "THERE'S A PAC-MAN / HIDDEN ON THE MAP",
+  "TWO OF HIS GHOSTS / ARE HERE TOO",
+  "BUT INKY & CLYDE / AREN'T ON THE MAP",
+  "IT'S PART OF / FORTNITE: OVERRIDE",
+  "PAC-MAN ISLAND / NORTH LAKE · OFFICIAL MAP, V42.40",
+  "BLINKY ISLAND / SOUTH-WEST COAST · OFFICIAL MAP, V42.40",
+  "PINKY ISLAND / SOUTH-EAST COAST · OFFICIAL MAP, V42.40",
+  "INKY & CLYDE / NOT ON THE V42.40 MAP",
+  "FORTNITE: OVERRIDE / AREAS INSPIRED BY SONIC, TETRIS & PAC-MAN",
+  "BAD ROYALE",
+  "ANIMATRONIC BOSSES ARE IN BATTLE ROYALE, ONE ALWAYS AT FREDDY FAZBEAR'S PIZZA PARLOR | SPRITES NOW APPEAR IN RANKED, WITH ABILITIES DISABLED | FORTNITEMARES COLLECTION: TEAM UP TO UNLOCK THE SAFETY IN NUMBERS QUEST | THIS REPORT SUPPORTED BY CODE BAD · #EPICPARTNER",
+  "THIS REPORT SUPPORTED BY / SUPPORT-A-CREATOR CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR → BAD / #EPICPARTNER",
+  "BLINKY",
+  "ON THE MAP",
+  "PINKY",
+  "INKY",
+  "NOT ON MAP",
+  "CLYDE",
+  "#EPICPARTNER",
+  "CODE BAD ROYALE"
+ ]
+}
