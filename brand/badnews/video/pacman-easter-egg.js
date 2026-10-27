@@ -120,8 +120,9 @@
 
     // persistent brand bug + disclosure (disclosure on screen from the first frame)
     mk(stage, `left:40px;top:160px;padding:8px 20px 6px;border-radius:30px;background:${C.ink};border:3px solid ${C.white}`, `<span style="font:700 28px Barlow;color:${C.white};letter-spacing:.5px">#EpicPartner</span>`, "#EPICPARTNER");
-    mk(stage, `right:40px;top:156px;height:66px;display:flex;align-items:stretch;box-shadow:0 6px 0 rgba(0,0,0,.35)`,
-      `<div style="background:${C.navy};padding:6px 14px 0;border:3px solid ${C.white};border-right:0">${fn("BAD", 46, { skew: 0, sw: 3 })}</div><div style="background:${C.red};padding:9px 14px 0;border:3px solid ${C.white}">${fn("NEWS", 38, { skew: 0, sw: 0, shadow: false })}</div>`, "BAD NEWS");
+    // brand mark: same flat slanted blocks as the logo
+    const blk = (t, bg, fg, px) => `<div style="height:62px;background:${bg};transform:skewX(-10deg);display:flex;align-items:center;padding:0 ${px}px"><span style="font-family:'Barlow Condensed';font-weight:900;font-size:54px;line-height:1;color:${fg}">${t}</span></div>`;
+    mk(stage, `right:46px;top:158px;display:flex;gap:5px`, blk("BAD", C.white, C.navy, 14) + blk("NEWS", C.red, C.white, 13), "BAD NEWS");
 
     return function renderAt(t) {
       const c = cam(t);

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BAD Channel Brands</title>
+<title>BAD NEWS Brand Package</title>
 <style>
   @font-face { font-family: "Barlow Condensed"; font-weight: 900; src: url(_shared/fonts/BarlowCondensed-Black.ttf); }
   @font-face { font-family: "Barlow"; font-weight: 700; src: url(_shared/fonts/Barlow-Bold.ttf); }
@@ -14,86 +14,99 @@
   main { max-width: 1120px; margin: 0 auto; }
   h1, h2 { font-family: "Barlow Condensed", Impact, sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: .5px; margin: 0; line-height: 1; }
   h1 { font-size: 52px; padding: 40px 0 8px; }
-  h2 { font-size: 34px; }
+  h2 { font-size: 32px; }
   .lede { color: var(--muted); max-width: 70ch; margin: 0 0 28px; }
-  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 24px; margin-bottom: 24px; display: grid; gap: 18px; }
-  .head { display: flex; gap: 16px; align-items: baseline; flex-wrap: wrap; }
-  .tag { font: 700 12px Barlow; letter-spacing: 2px; text-transform: uppercase; padding: 4px 10px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); }
-  .tag.pick { background: var(--red); color: #fff; border-color: var(--red); }
-  .row { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 24px; align-items: start; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 24px; margin-bottom: 20px; display: grid; gap: 16px; }
+  .plat { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 22px; align-items: start; }
   .pfp { display: grid; gap: 10px; justify-items: center; }
-  .pfp img { width: 180px; height: 180px; border-radius: 50%; display: block; }
-  .pfp .small { display: flex; gap: 10px; align-items: center; }
-  .pfp .small img { width: 110px; height: 110px; } .pfp .tiny { width: 40px !important; height: 40px !important; }
-  table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
-  th { font: 700 12px Barlow; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
-  td.n { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .pfp img { width: 140px; height: 140px; border-radius: 50%; display: block; }
+  .pfp .tiny { display: flex; gap: 8px; align-items: center; }
+  .pfp .tiny img { width: 56px; height: 56px; } .pfp .tiny img + img { width: 32px; height: 32px; }
+  .meta { display: grid; gap: 8px; min-width: 0; }
+  .name { font: 700 14px Barlow; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+  .bio { white-space: pre-wrap; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .count { font-variant-numeric: tabular-nums; font-weight: 700; }
   .ok { color: var(--ok); } .over { color: var(--bad); }
-  .bio { white-space: pre-wrap; }
-  .tablewrap { overflow-x: auto; }
-  .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+  .banner { width: 100%; border-radius: 10px; border: 1px solid var(--line); display: block; }
+  .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .hl { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
+  .hl figure img { aspect-ratio: 1; object-fit: cover; object-position: center; border-radius: 50%; }
   figure { margin: 0; display: grid; gap: 6px; min-width: 0; }
-  figure img, figure video { width: 100%; border-radius: 10px; border: 1px solid var(--line); display: block; background: #000; }
+  figure img, figure video { width: 100%; border-radius: 10px; display: block; }
   figcaption { color: var(--muted); font-size: 14px; }
-  .wide { grid-column: 1 / -1; }
+  .dark { background: var(--navy); padding: 18px; border-radius: 10px; } .light { background: #fff; padding: 18px; border-radius: 10px; border: 1px solid var(--line); }
   a { color: inherit; }
-  @media (max-width: 640px) { .row { grid-template-columns: 1fr; } }
+  @media (max-width: 640px) { .plat { grid-template-columns: 1fr; } .hl { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 </style>
 </head>
 <body>
 <main>
-  <h1>Code BAD: new channel</h1>
-  <p class="lede">Three concepts, each with a profile picture shown in a circle next to its bios. Character counts are live and checked against each platform's limit. BAD NEWS is the chosen direction and has the full package below.</p>
-  <div id="concepts"></div>
+  <h1>BAD NEWS: brand package</h1>
+  <p class="lede">Every platform's profile picture (shown in a circle, as the app shows it), banner and bio, with live character counts against each limit. Handles to check: @badnewsfn, @badnewsdesk, @fnbadnews. Setup steps are in <a href="badnews/platforms/README.md">platforms/README.md</a>.</p>
+  <div id="platforms"></div>
 
   <section>
-    <div class="head"><h2>BAD NEWS package</h2><span class="tag pick">Chosen</span></div>
+    <h2>Logo</h2>
     <div class="gallery">
-      <figure><video src="badnews/video/badnews-sample-pacman-easter-egg.mp4" controls playsinline preload="metadata"></video><figcaption>Sample video, 16.3 s, 60 fps. <a href="badnews/video/qa/qa-log.md">Checklist log</a></figcaption></figure>
-      <figure><img src="badnews/brand-guide.png" alt="One-page brand guide"><figcaption>Brand guide (1 page)</figcaption></figure>
-      <figure><img src="badnews/video/qa/contact-sheet.png" alt="One frame per second of the sample"><figcaption>Sample, 1 frame per second</figcaption></figure>
-      <figure class="wide"><img src="badnews/banners/youtube-banner-2560x1440.png" alt="YouTube banner"><figcaption>YouTube banner 2560×1440 (text inside the 1546×423 safe area)</figcaption></figure>
-      <figure><img src="badnews/banners/x-header-1500x500.png" alt="X header"><figcaption>X header 1500×500</figcaption></figure>
-      <figure><img src="badnews/banners/facebook-cover-1640x624.png" alt="Facebook cover"><figcaption>Facebook cover 1640×624</figcaption></figure>
-      <figure><img src="badnews/logo/badnews-horizontal-dark.png" alt="Horizontal logo" style="background:#0B1530"><figcaption>Horizontal logo, dark</figcaption></figure>
-      <figure><img src="badnews/logo/badnews-horizontal-light.png" alt="Horizontal logo, light" style="background:#fff"><figcaption>Horizontal logo, light</figcaption></figure>
-      <figure><img src="badnews/logo/badnews-icon-1024.png" alt="Icon" style="background:#0B1530"><figcaption>Icon only</figcaption></figure>
+      <figure><div class="dark"><img src="badnews/logo/badnews-logo-horizontal-on-dark.png" alt="Horizontal logo on dark"></div><figcaption>Horizontal, on dark</figcaption></figure>
+      <figure><div class="light"><img src="badnews/logo/badnews-logo-horizontal-on-light.png" alt="Horizontal logo on light"></div><figcaption>Horizontal, on light</figcaption></figure>
+      <figure><div class="dark"><img src="badnews/logo/badnews-logo-stacked-on-dark.png" alt="Stacked logo on dark" style="max-width:220px;margin:auto"></div><figcaption>Stacked, on dark</figcaption></figure>
+      <figure><div class="light"><img src="badnews/logo/badnews-logo-stacked-on-light.png" alt="Stacked logo on light" style="max-width:220px;margin:auto"></div><figcaption>Stacked, on light</figcaption></figure>
     </div>
-    <p><a href="badnews/content-plan.md">Content plan</a> · <a href="badnews/profile/bios.json">Bios and handles (JSON)</a> · <a href="_direction/font-compare.png">Font comparison</a></p>
+  </section>
+
+  <section>
+    <h2>Instagram highlight covers</h2>
+    <div class="hl">
+      <figure><img src="badnews/platforms/instagram/highlights/badnews-highlight-easter-eggs-1080x1920.png" alt=""><figcaption>Easter eggs</figcaption></figure>
+      <figure><img src="badnews/platforms/instagram/highlights/badnews-highlight-breaking-1080x1920.png" alt=""><figcaption>Breaking</figcaption></figure>
+      <figure><img src="badnews/platforms/instagram/highlights/badnews-highlight-patch-notes-1080x1920.png" alt=""><figcaption>Patch notes</figcaption></figure>
+      <figure><img src="badnews/platforms/instagram/highlights/badnews-highlight-collab-watch-1080x1920.png" alt=""><figcaption>Collab watch</figcaption></figure>
+      <figure><img src="badnews/platforms/instagram/highlights/badnews-highlight-recap-1080x1920.png" alt=""><figcaption>Good / bad recap</figcaption></figure>
+      <figure><img src="badnews/platforms/instagram/highlights/badnews-highlight-code-bad-1080x1920.png" alt=""><figcaption>Code BAD</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Guide and sample</h2>
+    <div class="gallery">
+      <figure><img src="badnews/brand-guide.png" alt="Brand guide"><figcaption>Brand guide (1 page)</figcaption></figure>
+      <figure><video src="badnews/video/badnews-sample-pacman-easter-egg.mp4" controls playsinline preload="metadata"></video><figcaption>Sample video · <a href="badnews/video/qa/qa-log.md">checklist log</a></figcaption></figure>
+    </div>
+    <p><a href="badnews/content-plan.md">Content plan</a></p>
   </section>
 </main>
 <script>
-  const LIMITS = { TikTok: 80, Instagram: 150, Threads: 150, X: 160, Facebook: 101, YouTube: 1000 };
-  const CONCEPTS = [
-    { key: "badnews", name: "BAD NEWS", pick: true, handles: ["@badnewsfn", "@badnewsdesk", "@fnbadnews"], bios: {
-      TikTok: "Fortnite news & map secrets, checked before we post. Code BAD #EpicPartner",
-      Instagram: "Fortnite news, patch notes & map Easter eggs, checked against official sources. Fan-run, not affiliated with Epic. Code BAD #EpicPartner",
-      Threads: "Fortnite news desk: updates, collab watch & map secrets. Every claim sourced, rumors labeled. Fan-run, not Epic. Code BAD #EpicPartner",
-      X: "Fortnite news desk. Updates, patch notes, collab watch & map Easter eggs, checked before we post. Rumors labeled. Fan-run, not Epic. Code BAD #EpicPartner",
-      Facebook: "Fortnite news and map secrets, checked before we post. Code BAD in the Item Shop. #EpicPartner",
-      YouTube: "BAD NEWS is a fan-run Fortnite news desk. Every short covers what is happening in Fortnite right now: new updates and patch notes in 30 seconds, collabs (confirmed vs. rumored, with sources), server status, the weekly Good News / Bad News recap of buffs and nerfs, and Easter eggs hiding on the Battle Royale map. Every claim is checked against Epic's official in-game news and map data before it goes up, and rumors are always labeled as rumors.\n\nSupport the desk: use code BAD in the Fortnite Item Shop. #EpicPartner\n\nFan-run, not affiliated with or endorsed by Epic Games." } },
-    { key: "badideas", name: "BAD IDEAS", handles: ["@badideasfn", "@badideaslab", "@fnbadideas"], bios: {
-      TikTok: "Terrible Fortnite ideas, tested for science. Comment one. Code BAD #EpicPartner",
-      Instagram: "We test the worst Fortnite ideas so you don't have to. Comment yours and it might be next. Fan-run, not affiliated with Epic. Code BAD #EpicPartner",
-      X: "Fortnite's worst ideas, tested for science. Myths, challenges, viewer experiments. Fan-run, not Epic. Creator code: BAD #EpicPartner",
-      Facebook: "Terrible Fortnite ideas, tested for science. Send yours. Item Shop code: BAD #EpicPartner" } },
-    { key: "badtounreal", name: "BAD TO UNREAL", handles: ["@badtounreal", "@bad2unreal", "@badtounrealfn"], bios: {
-      TikTok: "Day by day from Bronze to Unreal. Climb with me. Code BAD #EpicPartner",
-      Instagram: "One player. Bronze to Unreal, posted every day: wins, throws, lessons. Fan-run, not affiliated with Epic. Back the climb: code BAD #EpicPartner",
-      X: "Bronze to Unreal, one ranked game at a time. Daily rank updates, the mistake of the day, VOD reviews. Fan-run, not Epic. Back the climb: code BAD #EpicPartner",
-      Facebook: "Bronze to Unreal in Fortnite ranked, posted daily. Back the climb with code BAD. #EpicPartner" } },
+  const P = "badnews/platforms/";
+  const NAME = "BAD NEWS · Fortnite News";
+  const PLATFORMS = [
+    { name: "TikTok", pfp: "tiktok/badnews-tiktok-profile-1080x1080.png", lim: 80, nameLim: 30,
+      bio: "Fortnite news & map secrets, checked before we post. Code BAD #EpicPartner" },
+    { name: "Instagram", pfp: "instagram/badnews-instagram-profile-1080x1080.png", lim: 150, nameLim: 30,
+      bio: "Fortnite news, patch notes & map Easter eggs, checked against official sources. Fan-run, not affiliated with Epic. Code BAD #EpicPartner" },
+    { name: "Threads", pfp: "threads/badnews-threads-profile-1080x1080.png", lim: 150, nameLim: 30,
+      bio: "Fortnite news desk: updates, collab watch & map secrets. Every claim sourced, rumors labeled. Fan-run, not Epic. Code BAD #EpicPartner" },
+    { name: "X", pfp: "x/badnews-x-profile-400x400.png", banner: "x/badnews-x-header-1500x500.png", lim: 160, nameLim: 50,
+      bio: "Fortnite news desk. Updates, patch notes, collab watch & map Easter eggs, checked before we post. Rumors labeled. Fan-run, not Epic. Code BAD #EpicPartner" },
+    { name: "Facebook", pfp: "facebook/badnews-facebook-profile-720x720.png", banner: "facebook/badnews-facebook-cover-1640x624.png", lim: 101, nameLim: 75,
+      bio: "Fortnite news and map secrets, checked before we post. Code BAD in the Item Shop. #EpicPartner" },
+    { name: "YouTube", pfp: "youtube/badnews-youtube-profile-800x800.png", banner: "youtube/badnews-youtube-banner-2560x1440.png", lim: 1000, nameLim: 100,
+      bio: "BAD NEWS is a fan-run Fortnite news desk. Every short covers what is happening in Fortnite right now: new updates and patch notes in 30 seconds, collabs (confirmed vs. rumored, with sources), server status, the weekly Good News / Bad News recap of buffs and nerfs, and Easter eggs hiding on the Battle Royale map. Every claim is checked against Epic's official in-game news and map data before it goes up, and rumors are always labeled as rumors.\n\nSupport the desk: use code BAD in the Fortnite Item Shop. #EpicPartner\n\nFan-run, not affiliated with or endorsed by Epic Games." },
   ];
   const esc = (s) => s.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[c]);
-  document.getElementById("concepts").innerHTML = CONCEPTS.map((c) => {
-    const rows = Object.entries(c.bios).map(([p, b]) => {
-      const n = [...b].length, lim = LIMITS[p], ok = n <= lim;
-      return `<tr><td><b>${p}</b></td><td class="bio">${esc(b)}</td><td class="n ${ok ? "ok" : "over"}">${n} / ${lim} ${ok ? "✓" : "over"}</td></tr>`;
-    }).join("");
-    return `<section><div class="head"><h2>${c.name}</h2>${c.pick ? '<span class="tag pick">Chosen</span>' : '<span class="tag">Starter bios</span>'}<span class="tag">${c.handles.join(" · ")}</span></div>
-      <div class="row"><div class="pfp"><img src="${c.key}/pfp-${c.key}-1080.png" alt="${c.name} profile picture"><div class="small"><img src="${c.key}/pfp-${c.key}-1080.png" alt=""><img class="tiny" src="${c.key}/pfp-${c.key}-1080.png" alt=""></div></div>
-      <div class="tablewrap"><table><thead><tr><th>Platform</th><th>Bio</th><th>Chars</th></tr></thead><tbody>${rows}</tbody></table></div></div></section>`;
-  }).join("");
+  const count = (s, lim) => { const n = [...s].length; return `<span class="count ${n <= lim ? "ok" : "over"}">${n} / ${lim} ${n <= lim ? "✓" : "over limit"}</span>`; };
+  document.getElementById("platforms").innerHTML = PLATFORMS.map((p) => `
+    <section><h2>${p.name}</h2>
+      <div class="plat">
+        <div class="pfp"><img src="${P + p.pfp}" alt="${p.name} profile picture"><div class="tiny"><img src="${P + p.pfp}" alt=""><img src="${P + p.pfp}" alt=""></div></div>
+        <div class="meta">
+          <div class="name">Name · ${esc(NAME)} · ${count(NAME, p.nameLim)}</div>
+          <div class="bio">${esc(p.bio)}</div>
+          <div class="name">Bio · ${count(p.bio, p.lim)}</div>
+          ${p.banner ? `<img class="banner" src="${P + p.banner}" alt="${p.name} banner">` : `<div class="name">No banner on ${p.name}</div>`}
+        </div>
+      </div>
+    </section>`).join("");
 </script>
 </body>
 </html>

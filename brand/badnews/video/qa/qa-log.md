@@ -1,6 +1,6 @@
 # Pre-post check: badnews-sample-pacman-easter-egg.mp4
 
-Checked 2026-10-27T16:36:35Z · **HOLD: owner must resolve flags and approve**
+Checked 2026-10-27T17:43:14Z · **HOLD: owner must resolve flags and approve**
 
 ## 1. Facts: FLAG
 10/11 claims verified against saved official data
