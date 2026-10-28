@@ -1,0 +1,9 @@
+{
+  "_note": "BAD ROYALE channel voice, chosen by the owner on 2026-10-28 (the voice in the re-rendered Pac-Man video). Every new script uses these settings unless a video overrides them.",
+  "voice": "af_heart",
+  "speed": 1.1,
+  "lang": "en-us",
+  "lead": 0.2,
+  "mic": false,
+  "engine": "Kokoro-82M (Apache-2.0), via brand/_shared/voice/vo.py; pronunciation fixes in vo.py PRONOUNCE (e.g. BAD is said as the word 'bad')"
+}
