@@ -1323,6 +1323,187 @@
    }
   },
   {
+   "slug": "2026-11-01-guess-3",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-11-01T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-01-guess-3/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-01T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-01-guess-3/cover.jpg",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteog #guesstheseason",
+    "tiktokData": {
+     "title": "Guess the season 👀",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "Guess the season 👀",
+   "r2": {
+    "video": "2026-11-01-guess-3/video.mp4",
+    "cover": "2026-11-01-guess-3/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-01-guess-3",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-11-01T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-01-guess-3/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-01T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-01-guess-3/cover.jpg",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteog #guesstheseason",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner Guess the season 👀 Only true OGs get all 3 righ",
+   "r2": {
+    "video": "2026-11-01-guess-3/video.mp4",
+    "cover": "2026-11-01-guess-3/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-01-guess-3",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-11-01T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-01-guess-3/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-01T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-01-guess-3/cover.jpg",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "Guess the season"
+    }
+   },
+   "match": "#EpicPartner Guess the season 👀 Only true OGs get all 3 righ",
+   "r2": {
+    "video": "2026-11-01-guess-3/video.mp4",
+    "cover": "2026-11-01-guess-3/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-01-guess-3",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-11-01T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-01-guess-3/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-01T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteOG #Shorts",
+    "youtubeData": {
+     "title": "Guess the Season These Fortnite Skins Came Out 👀 #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnite og",
+      "fortnite quiz",
+      "guess the season",
+      "fortnite skins"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Guess the Season These Fortnite Skins Came Out 👀 #Shorts",
+   "r2": {
+    "video": "2026-11-01-guess-3/video.mp4"
+   }
+  },
+  {
    "slug": "2026-11-02-two-carwashes",
    "network": "tiktok",
    "blogId": "7408112",
@@ -1501,6 +1682,549 @@
    "match": "There Are TWO Carwashes on the Fortnite Map 🚗 #Shorts",
    "r2": {
     "video": "2026-11-02-two-carwashes/video.mp4"
+   }
+  },
+  {
+   "slug": "2026-11-02-sprites-ranked",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-11-02T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-02-sprites-ranked/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-02T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-02-sprites-ranked/cover.jpg",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner Sprites are in Ranked now… but there's a catch 👀 Their abilities are OFF in Ranked to keep it fair\nGood change or bad change? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteranked #fortnitesprites",
+    "tiktokData": {
+     "title": "Sprites in Ranked 👀",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "Sprites in Ranked 👀",
+   "r2": {
+    "video": "2026-11-02-sprites-ranked/video.mp4",
+    "cover": "2026-11-02-sprites-ranked/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-02-sprites-ranked",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-11-02T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-02-sprites-ranked/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-02T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-02-sprites-ranked/cover.jpg",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner Sprites are in Ranked now… but there's a catch 👀 Their abilities are OFF in Ranked to keep it fair\nGood change or bad change? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteranked #fortnitesprites",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner Sprites are in Ranked now… but there's a catch ",
+   "r2": {
+    "video": "2026-11-02-sprites-ranked/video.mp4",
+    "cover": "2026-11-02-sprites-ranked/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-02-sprites-ranked",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-11-02T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-02-sprites-ranked/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-02T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-02-sprites-ranked/cover.jpg",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner Sprites are in Ranked now… but there's a catch 👀 Their abilities are OFF in Ranked to keep it fair\nGood change or bad change? 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "Sprites are in Ranked now, with a catch"
+    }
+   },
+   "match": "#EpicPartner Sprites are in Ranked now… but there's a catch ",
+   "r2": {
+    "video": "2026-11-02-sprites-ranked/video.mp4",
+    "cover": "2026-11-02-sprites-ranked/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-02-sprites-ranked",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-11-02T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-02-sprites-ranked/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-02T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner Sprites are in Ranked now… but there's a catch 👀 Their abilities are OFF in Ranked to keep it fair\nGood change or bad change? 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteRanked #Shorts",
+    "youtubeData": {
+     "title": "Sprites Are in Fortnite Ranked Now… But There's a Catch 👀 #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnite ranked",
+      "fortnite sprites",
+      "fortnite news",
+      "fortnite update"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Sprites Are in Fortnite Ranked Now… But There's a Catch 👀 #Shorts",
+   "r2": {
+    "video": "2026-11-02-sprites-ranked/video.mp4"
+   }
+  },
+  {
+   "slug": "2026-11-03-override-explained",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-11-03T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-03-override-explained/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-03T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-03-override-explained/cover.jpg",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner Fortnite Override, explained in 15 seconds ⚡ Sonic, Tetris and Pac-Man areas + 7 Override Consoles on the map 🗺️\nHave you tried one yet? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteoverride #fortnitenews",
+    "tiktokData": {
+     "title": "Override in 15 seconds ⚡",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "Override in 15 seconds ⚡",
+   "r2": {
+    "video": "2026-11-03-override-explained/video.mp4",
+    "cover": "2026-11-03-override-explained/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-03-override-explained",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-11-03T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-03-override-explained/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-03T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-03-override-explained/cover.jpg",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner Fortnite Override, explained in 15 seconds ⚡ Sonic, Tetris and Pac-Man areas + 7 Override Consoles on the map 🗺️\nHave you tried one yet? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteoverride #fortnitenews",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner Fortnite Override, explained in 15 seconds ⚡ So",
+   "r2": {
+    "video": "2026-11-03-override-explained/video.mp4",
+    "cover": "2026-11-03-override-explained/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-03-override-explained",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-11-03T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-03-override-explained/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-03T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-03-override-explained/cover.jpg",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner Fortnite Override, explained in 15 seconds ⚡ Sonic, Tetris and Pac-Man areas + 7 Override Consoles on the map 🗺️\nHave you tried one yet? 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "Fortnite Override, explained"
+    }
+   },
+   "match": "#EpicPartner Fortnite Override, explained in 15 seconds ⚡ So",
+   "r2": {
+    "video": "2026-11-03-override-explained/video.mp4",
+    "cover": "2026-11-03-override-explained/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-03-override-explained",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-11-03T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-03-override-explained/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-03T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner Fortnite Override, explained in 15 seconds ⚡ Sonic, Tetris and Pac-Man areas + 7 Override Consoles on the map 🗺️\nHave you tried one yet? 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteOverride #Shorts",
+    "youtubeData": {
+     "title": "Fortnite Override Explained in 15 Seconds ⚡ #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnite override",
+      "override console",
+      "fortnite news",
+      "fortnite update"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Fortnite Override Explained in 15 Seconds ⚡ #Shorts",
+   "r2": {
+    "video": "2026-11-03-override-explained/video.mp4"
+   }
+  },
+  {
+   "slug": "2026-11-03-guess-4",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-11-03T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-03-guess-4/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-03T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-03-guess-4/cover.jpg",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteog #guesstheseason",
+    "tiktokData": {
+     "title": "Guess the season 👀",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "Guess the season 👀",
+   "r2": {
+    "video": "2026-11-03-guess-4/video.mp4",
+    "cover": "2026-11-03-guess-4/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-03-guess-4",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-11-03T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-03-guess-4/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-03T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-03-guess-4/cover.jpg",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteog #guesstheseason",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner Guess the season 👀 Only true OGs get all 3 righ",
+   "r2": {
+    "video": "2026-11-03-guess-4/video.mp4",
+    "cover": "2026-11-03-guess-4/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-03-guess-4",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-11-03T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-03-guess-4/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-03T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-03-guess-4/cover.jpg",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "Guess the season"
+    }
+   },
+   "match": "#EpicPartner Guess the season 👀 Only true OGs get all 3 righ",
+   "r2": {
+    "video": "2026-11-03-guess-4/video.mp4",
+    "cover": "2026-11-03-guess-4/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-03-guess-4",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-11-03T16:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-03-guess-4/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-03T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteOG #Shorts",
+    "youtubeData": {
+     "title": "Guess the Season These Fortnite Skins Came Out 👀 #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnite og",
+      "fortnite quiz",
+      "guess the season",
+      "fortnite skins"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Guess the Season These Fortnite Skins Came Out 👀 #Shorts",
+   "r2": {
+    "video": "2026-11-03-guess-4/video.mp4"
    }
   },
   {

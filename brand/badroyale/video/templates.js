@@ -156,7 +156,7 @@
            <div class="q" style="margin-top:22px;min-height:120px"></div></div>`, `${cfg.kicker || "IN-GAME NEWS"} / ${cfg.tile}`.toUpperCase());
       const q = panel.querySelector(".q");
       const lines = cfg.quote.map((l) => { const d = document.createElement("div"); d.style.cssText = `font:700 40px/1.25 Montserrat;color:#C9D6FF;margin-top:10px;opacity:0`; d.textContent = `“${l.text}”`; d.dataset.text = l.text.toUpperCase(); q.appendChild(d); return { ...l, d }; });
-      const hook = cfg.hook ? S.title(stage, cfg.hook, { y: 900, size: 78 }) : null;
+      const hook = cfg.hook ? S.title(stage, cfg.hook, { y: 950, size: 78 }) : null;
       const hookEnd = P[cfg.quote[0].p].t0 - 0.1;
       const dim = mk(stage, `inset:0;background:rgba(5,8,25,.75)`);
       const points = (cfg.points || []).map((o, i) => ({ ...o, el: S.toast(stage, o.label, o.text, 480 + i * 190, o.color || YEL) }));

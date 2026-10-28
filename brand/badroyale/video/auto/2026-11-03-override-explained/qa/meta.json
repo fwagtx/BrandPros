@@ -1,0 +1,70 @@
+{
+ "duration": 19.8,
+ "caption": "#EpicPartner Fortnite Override, explained in 15 seconds ⚡\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteoverride #fortnitenews",
+ "claims": [
+  {
+   "text": "Break the rules. Change the game!",
+   "source": "news.json",
+   "match": [
+    "Break the rules. Change the game!"
+   ]
+  },
+  {
+   "text": "Activate Overrides to switch up the game",
+   "source": "news.json",
+   "match": [
+    "Activate Overrides to switch up the game"
+   ]
+  },
+  {
+   "text": "Areas inspired by Sonic, Tetris and Pac-Man",
+   "source": "news.json",
+   "match": [
+    "areas inspired by gaming legends like Sonic, Tetris, and Pac-Man"
+   ]
+  },
+  {
+   "text": "7 Override Consoles on the map",
+   "source": "map.json",
+   "match": [
+    "Override Console"
+   ],
+   "count": {
+    "Override Console": 7
+   }
+  }
+ ],
+ "text": [
+  "IN-GAME NEWS / FORTNITE: OVERRIDE IS HERE!",
+  "BREAK THE RULES. CHANGE THE GAME!",
+  "ACTIVATE OVERRIDES TO SWITCH UP THE GAME",
+  "EXPLORE AREAS INSPIRED BY GAMING LEGENDS LIKE SONIC, TETRIS, AND PAC-MAN",
+  "OVERRIDE / IN 15 SECONDS",
+  "ON THE MAP / 7 OVERRIDE CONSOLES",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "FORTNITE OVERRIDE,",
+  "EXPLAINED IN FIFTEEN",
+  "SECONDS.",
+  "EPIC SAYS: BREAK",
+  "THE RULES,",
+  "CHANGE THE GAME.",
+  "ACTIVATE OVERRIDES TO",
+  "SWITCH UP THE",
+  "GAME,",
+  "AND EXPLORE AREAS",
+  "INSPIRED BY SONIC,",
+  "TETRIS AND PAC-MAN.",
+  "AND THERE ARE",
+  "SEVEN OVERRIDE CONSOLES",
+  "ON THE MAP",
+  "RIGHT NOW.",
+  "HAVE YOU TRIED",
+  "ONE YET?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

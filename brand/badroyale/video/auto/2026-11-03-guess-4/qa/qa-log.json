@@ -1,7 +1,7 @@
 {
   "video": "badroyale-2026-11-03-guess-4.mp4",
-  "checked_utc": "2026-10-28T18:59:34Z",
-  "verdict": "DO NOT POST: fix failures",
+  "checked_utc": "2026-10-28T19:41:48Z",
+  "verdict": "READY TO POST",
   "results": [
     {
       "check": "1. Facts",
@@ -45,14 +45,9 @@
     },
     {
       "check": "5. Specs and safe zones",
-      "status": "FAIL",
+      "status": "PASS",
       "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 22.3s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
-      "items": [
-        {
-          "issue": "3 / 3 at 16.25s: left edge",
-          "result": "FAIL"
-        }
-      ]
+      "items": []
     },
     {
       "check": "6. Disclosure and wording",
