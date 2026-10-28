@@ -94,13 +94,21 @@
     return [W, H, s];
   }
   function facebook() {
-    // mobile crops the sides: keep content in the middle ~1100 px
+    // desktop shows the whole cover; phones crop the sides, so the logo stays in the middle ~1000 px.
+    // The profile picture can overlap the bottom-left on desktop: that corner stays clear.
     const W = 1640, H = 624;
-    let s = box(`inset:0;background:${BG_WIDE}`);
-    s += center(W, H - 40, lockup(165, true));
-    s += box(`left:0;right:0;bottom:30px;text-align:center`, disclosure(22));
+    let s = box(`inset:0;background:linear-gradient(180deg,#63C8FF 0%,#3DA6FF 40%,${C.blue} 78%,${C.deep} 100%)`);
+    s += cloud(-40, 20, 340, 0.95) + cloud(470, -10, 260, 0.85) + cloud(1050, 10, 300, 0.9) + cloud(1380, 60, 300, 0.9);
+    s += box(`left:0;top:0`, svg(W, H, `
+      <path d="M0 520 C 200 480 420 500 640 530 C 860 560 1060 490 1280 505 C 1440 515 1560 540 1640 525 L1640 624 L0 624 Z" fill="#3E9A3A"/>
+      <path d="M0 565 C 300 540 600 580 900 590 C 1200 600 1450 560 1640 575 L1640 624 L0 624 Z" fill="#2F7F31"/>`));
+    s += seriesCard(40, 70, -6, "legendary", "easter-eggs", "Easter eggs") + seriesCard(268, 100, 5, "epic", "breaking", "Breaking");
+    s += seriesCard(1142, 100, -5, "rare", "patch-notes", "Patch notes") + seriesCard(1370, 70, 6, "uncommon", "collab-watch", "Collab watch");
+    s += box(`left:${W / 2 - 500}px;top:40px;width:1000px;height:480px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px`,
+      lockup(170, true) + `<div style="padding:5px 16px;border-radius:22px;background:rgba(7,26,94,.55)">${disclosure(20)}</div>`);
     return [W, H, s];
   }
+
   const watermark = () => [150, 150, stacked(150)];
 
   // ---------- Instagram highlight covers (only the center circle shows) ----------
