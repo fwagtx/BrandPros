@@ -65,49 +65,41 @@
       box(`left:25px;top:18px;width:160px;height:160px`, `<div style="transform:scale(.4);transform-origin:0 0">${svg(400, 400, `<g transform="translate(200 200)">${ICONS[icon]}</g>`)}</div>`) +
       box(`left:0;right:0;bottom:0;height:78px;background:linear-gradient(transparent,rgba(5,10,30,.85) 35%);display:flex;align-items:flex-end;justify-content:center;padding-bottom:12px`, fn(label, 30, { skew: 0, sw: 3 })));
   }
+  // ---------- banners: the Storm look (purple storm swirl, dashed storm edge, yellow lightning) ----------
+  const bolt = (x, y, sc, rot = 0) => `<g transform="translate(${x} ${y}) rotate(${rot}) scale(${sc})"><path d="M22 -120 L-60 20 L-4 20 L-26 130 L66 -30 L8 -30 Z" fill="${C.yellow}" stroke="${C.ink}" stroke-width="9" stroke-linejoin="round"/></g>`;
+  function storm(W, H, bolts) {
+    let swirl = "";
+    for (let i = 0; i < 9; i++) swirl += `<ellipse cx="${W / 2}" cy="${H / 2}" rx="${W * (0.18 + i * 0.07)}" ry="${H * (0.2 + i * 0.09)}" fill="none" stroke="rgba(190,140,255,${0.16 - i * 0.012})" stroke-width="${W * 0.02}" transform="rotate(${i * 7 - 20} ${W / 2} ${H / 2})"/>`;
+    const u = H / 1000;
+    return box(`inset:0;background:radial-gradient(ellipse 60% 85% at 50% 50%,#7B3BEA,#4A1BA8 45%,#1E0A55 85%)`) +
+      box(`left:0;top:0`, svg(W, H, `${swirl}<ellipse cx="${W / 2}" cy="${H / 2}" rx="${W * 0.42}" ry="${H * 0.62}" fill="none" stroke="#FF6BD6" stroke-width="${8 * u + 4}" stroke-dasharray="${60 * u} ${26 * u}" opacity=".85"/>
+        ${bolts.map(([fx, fy, sc, r]) => bolt(W * fx, H * fy, sc, r)).join("")}`)) +
+      box(`inset:0;background:radial-gradient(ellipse 30% 40% at 50% 50%,rgba(30,10,85,.55),transparent 70%)`);
+  }
+  // logo + "USE CODE BAD IN THE ITEM SHOP" + the required #EpicPartner tag
+  function stormCenter(x, y, w, h, logo, tagSize, chipSize) {
+    return box(`left:${x}px;top:${y}px;width:${w}px;height:${h}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:${Math.round(logo * 0.07)}px`,
+      lockup(logo) +
+      `<div style="font:800 ${tagSize}px Barlow;letter-spacing:${tagSize * 0.08}px;text-transform:uppercase;color:#fff;text-shadow:0 ${tagSize * 0.08}px 0 ${C.ink};white-space:nowrap">Use code <span style="color:${C.yellow}">BAD</span> in the Item Shop</div>` +
+      `<div style="padding:${chipSize * 0.18}px ${chipSize * 0.65}px;border-radius:${chipSize}px;background:rgba(7,15,50,.6);font:700 ${chipSize}px Barlow;color:#fff;letter-spacing:1px">#EpicPartner</div>`);
+  }
   function youtube() {
-    // TV shows all 2560x1440; desktop shows the full-width band y 508-931; phones only the 1546x423 center.
-    const W = 2560, H = 1440, X0 = W / 2 - 773, Y0 = H / 2 - 212;
-    let s = box(`inset:0;background:linear-gradient(180deg,#63C8FF 0%,#3DA6FF 32%,${C.blue} 62%,${C.deep} 100%)`);
-    // sky (TV area and behind the band)
-    s += cloud(-60, 90, 520, 0.95) + cloud(620, 40, 380, 0.9) + cloud(1500, 70, 460, 0.95) + cloud(2150, 150, 420, 0.9) + cloud(1050, 230, 300, 0.6);
-    s += cloud(80, 520, 360, 0.45) + cloud(2180, 600, 330, 0.45);
-    // rolling island hills along the bottom (TV area)
-    s += box(`left:0;top:0`, svg(W, H, `
-      <path d="M0 1180 C 260 1080 520 1120 760 1170 C 1000 1220 1200 1100 1460 1120 C 1760 1140 1980 1230 2240 1160 C 2400 1120 2500 1140 2560 1150 L2560 1440 L0 1440 Z" fill="#3E9A3A"/>
-      <path d="M0 1240 C 300 1170 600 1230 900 1260 C 1200 1290 1500 1200 1800 1230 C 2100 1260 2350 1300 2560 1240 L2560 1440 L0 1440 Z" fill="#2F7F31"/>
-      <path d="M0 1320 C 400 1290 800 1350 1280 1340 C 1760 1330 2200 1290 2560 1330 L2560 1440 L0 1440 Z" fill="#256A28"/>`));
-    // desktop band: series as item cards, left and right of the phone-safe center
-    s += seriesCard(40, 575, -6, "legendary", "easter-eggs", "Easter eggs") + seriesCard(268, 600, 5, "epic", "breaking", "Breaking");
-    s += seriesCard(2082, 600, -5, "rare", "patch-notes", "Patch notes") + seriesCard(2310, 575, 6, "uncommon", "collab-watch", "Collab watch");
-    // phone-safe center: logo, tagline, disclosure (all inside 1546 x 423)
-    s += box(`left:${X0}px;top:${Y0}px;width:1546px;height:423px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px`,
-      lockup(200, true) + `<div style="margin-top:2px;padding:6px 18px;border-radius:24px;background:rgba(7,26,94,.55)">${disclosure(24)}</div>`);
-    return [W, H, s];
+    // TV shows all 2560x1440; desktop the full-width band y 508-931; phones only the 1546x423 center
+    const W = 2560, H = 1440;
+    const bolts = [[0.1, 0.48, 1.3 * 1.44 + 0.4 - 1.3, -12], [0.9, 0.5, 1.9, 14], [0.22, 0.2, 1.25, 8], [0.8, 0.82, 1.4, -10]];
+    return [W, H, storm(W, H, bolts) + stormCenter(507, 508, 1546, 423, 200, 50, 24)];
   }
   function xHeader() {
-    // the profile picture covers the bottom-left on X; keep that corner empty
+    // X puts the profile picture over the bottom-left; content sits right of it
     const W = 1500, H = 500;
-    let s = box(`inset:0;background:${BG_WIDE}`);
-    s += box(`left:420px;top:0;width:1000px;height:${H - 50}px;display:flex;align-items:center;justify-content:center`, lockup(150, true));
-    s += box(`left:420px;width:1000px;bottom:26px;text-align:center`, disclosure(20));
-    return [W, H, s];
+    return [W, H, storm(W, H, [[0.07, 0.5, 0.75, -12], [0.93, 0.5, 0.85, 14], [0.2, 0.18, 0.4, 8]]) + stormCenter(400, 10, 1000, 480, 135, 34, 18)];
   }
   function facebook() {
-    // desktop shows the whole cover; phones crop the sides, so the logo stays in the middle ~1000 px.
-    // The profile picture can overlap the bottom-left on desktop: that corner stays clear.
+    // desktop shows the whole cover; phones crop the sides, so content stays in the middle ~1000 px
     const W = 1640, H = 624;
-    let s = box(`inset:0;background:linear-gradient(180deg,#63C8FF 0%,#3DA6FF 40%,${C.blue} 78%,${C.deep} 100%)`);
-    s += cloud(-40, 20, 340, 0.95) + cloud(470, -10, 260, 0.85) + cloud(1050, 10, 300, 0.9) + cloud(1380, 60, 300, 0.9);
-    s += box(`left:0;top:0`, svg(W, H, `
-      <path d="M0 520 C 200 480 420 500 640 530 C 860 560 1060 490 1280 505 C 1440 515 1560 540 1640 525 L1640 624 L0 624 Z" fill="#3E9A3A"/>
-      <path d="M0 565 C 300 540 600 580 900 590 C 1200 600 1450 560 1640 575 L1640 624 L0 624 Z" fill="#2F7F31"/>`));
-    s += seriesCard(40, 70, -6, "legendary", "easter-eggs", "Easter eggs") + seriesCard(268, 100, 5, "epic", "breaking", "Breaking");
-    s += seriesCard(1142, 100, -5, "rare", "patch-notes", "Patch notes") + seriesCard(1370, 70, 6, "uncommon", "collab-watch", "Collab watch");
-    s += box(`left:${W / 2 - 500}px;top:40px;width:1000px;height:480px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px`,
-      lockup(170, true) + `<div style="padding:5px 16px;border-radius:22px;background:rgba(7,26,94,.55)">${disclosure(20)}</div>`);
-    return [W, H, s];
+    return [W, H, storm(W, H, [[0.09, 0.48, 0.95, -12], [0.91, 0.5, 1.05, 14], [0.2, 0.18, 0.5, 8], [0.8, 0.84, 0.55, -10]]) + stormCenter(320, 30, 1000, 564, 165, 40, 20)];
   }
+
 
   const watermark = () => [150, 150, stacked(150)];
 
