@@ -1,0 +1,94 @@
+{
+  "video": "badroyale-2026-10-31-safety-in-numbers.mp4",
+  "checked_utc": "2026-10-28T19:03:43Z",
+  "verdict": "DO NOT POST: fix failures",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "3/3 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "Fortnitemares news tile: Horrors Worth Facing Together",
+          "result": "PASS",
+          "why": "matched in news.json"
+        },
+        {
+          "claim": "A Collection of spine-chilling Islands, each with its own twist",
+          "result": "PASS",
+          "why": "matched in news.json"
+        },
+        {
+          "claim": "Face the fear with friends to unlock the Safety in Numbers Quest",
+          "result": "PASS",
+          "why": "matched in news.json"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "FAIL",
+      "detail": "Unknown words or a misspelled code",
+      "items": [
+        {
+          "word": "squadding",
+          "result": "FAIL"
+        }
+      ]
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -14.0 LUFS, true peak -2.6 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "FAIL",
+      "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 18.4s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
+      "items": [
+        {
+          "issue": "IN-GAME NEWS · FORTNITEMARES / HORRORS WORTH FACING TOGETHER at 0s: button column",
+          "result": "FAIL"
+        },
+        {
+          "issue": "ONLY UNLOCK IT / WITH FRIENDS at 0.25s: button column",
+          "result": "FAIL"
+        },
+        {
+          "issue": "EXPLORE A COLLECTION OF SPINE-CHILLING ISLANDS, EACH WITH IT at 5.25s: button column",
+          "result": "FAIL"
+        },
+        {
+          "issue": "FACE THE FEAR WITH FRIENDS TO UNLOCK THE SAFETY IN NUMBERS Q at 10s: button column",
+          "result": "FAIL"
+        }
+      ]
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Frame 1: big hook ONLY UNLOCK IT WITH FRIENDS under the Fortnitemares news panel. Epic quote lines light up as they are read, quest toast, code card at the end. Text readable, nothing overlaps. Words quoted from the news tile.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner There's a Fortnitemares quest you can only unlock with friends 👻\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemares #fortnitequests"
+}

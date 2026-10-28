@@ -132,7 +132,7 @@
         T(dim, { a: Math.max(tOn, codeOn) });
         toasts.forEach((o) => { const x = (1 - E.out(k(t, P[o.p].t0 - 0.05, P[o.p].t0 + 0.22))) * -700; T(o.el, { a: t >= P[o.p].t0 - 0.05 ? tOn * Math.max(0, 1 - Math.abs(x) / 60) : 0, x }); });
         T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) });
-        T(title, { a: 1 - Math.max(tOn, codeOn), s: 1 + 0.04 * E.back(k(t, 0, 0.3)) - 0.04 });
+        T(title, { a: 1 - Math.max(tOn, codeOn), s: 0.96 + 0.04 * E.out(k(t, 0, 0.3)) });
         e.caps(t); e.fin(t);
       };
     }
@@ -148,7 +148,7 @@
     const codeP = P[P.length - 1];
     function build(stage) {
       const bands = wall(stage);
-      const panel = mk(stage, `left:60px;top:330px;width:960px;border-radius:18px;overflow:hidden;border:6px solid ${INK};box-shadow:0 14px 0 rgba(0,0,0,.4);background:linear-gradient(180deg,#0E1B5C,#0A1240)`,
+      const panel = mk(stage, `left:50px;top:330px;width:860px;border-radius:18px;overflow:hidden;border:6px solid ${INK};box-shadow:0 14px 0 rgba(0,0,0,.4);background:linear-gradient(180deg,#0E1B5C,#0A1240)`,
         `<div style="display:flex;align-items:center;gap:14px;padding:16px 26px;background:${YEL};border-bottom:6px solid ${INK}">
            <span style="font-family:'Barlow Condensed';font-weight:900;font-size:44px;color:${INK}">${cfg.kicker || "IN-GAME NEWS"}</span></div>
          <div style="padding:26px 34px 34px">
@@ -163,8 +163,8 @@
       const e = end(stage, VO);
       return function renderAt(t) {
         bands.style.transform = `translateX(${(t * 40) % 260}px)`;
-        T(panel, { y: 0, s: 0.9 + 0.1 * E.back(k(t, 0, 0.3)), r: -1 + Math.sin(t * 0.8) * 0.4 });
-        if (hook) T(hook, { a: 1 - k(t, hookEnd, hookEnd + 0.2), s: 0.85 + 0.15 * E.back(k(t, 0, 0.3)) });
+        T(panel, { y: 0, s: 0.94 + 0.06 * E.out(k(t, 0, 0.3)), r: -0.6 + Math.sin(t * 0.8) * 0.3 });
+        if (hook) T(hook, { a: 1 - k(t, hookEnd, hookEnd + 0.2), s: 0.88 + 0.12 * E.out(k(t, 0, 0.3)) });
         lines.forEach((l) => { const on = t >= P[l.p].t0 - 0.05; l.d.style.opacity = on ? 1 : 0; l.d.style.color = on && t < P[l.p].t1 + 0.1 ? "#fff" : "#C9D6FF"; });
         const pOn = points.length ? win(t, P[points[0].p].t0 - 0.05, codeP.t0, 0.08, 0.12) : 0;
         const codeOn = win(t, codeP.t0 - 0.05, DUR + 1, 0.12, 0.1);

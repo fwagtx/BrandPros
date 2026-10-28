@@ -1,0 +1,59 @@
+{
+ "duration": 18.8,
+ "caption": "#EpicPartner There's a Fortnitemares quest you can only unlock with friends 👻\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemares #fortnitequests",
+ "claims": [
+  {
+   "text": "Fortnitemares news tile: Horrors Worth Facing Together",
+   "source": "news.json",
+   "match": [
+    "Horrors Worth Facing Together",
+    "Fortnitemares"
+   ]
+  },
+  {
+   "text": "A Collection of spine-chilling Islands, each with its own twist",
+   "source": "news.json",
+   "match": [
+    "Explore a Collection of spine-chilling Islands, each with its own twist."
+   ]
+  },
+  {
+   "text": "Face the fear with friends to unlock the Safety in Numbers Quest",
+   "source": "news.json",
+   "match": [
+    "Face the fear with friends to unlock the Safety in Numbers Quest."
+   ]
+  }
+ ],
+ "text": [
+  "IN-GAME NEWS · FORTNITEMARES / HORRORS WORTH FACING TOGETHER",
+  "EXPLORE A COLLECTION OF SPINE-CHILLING ISLANDS, EACH WITH ITS OWN TWIST.",
+  "FACE THE FEAR WITH FRIENDS TO UNLOCK THE SAFETY IN NUMBERS QUEST.",
+  "ONLY UNLOCK IT / WITH FRIENDS",
+  "QUEST / SQUAD UP TO UNLOCK IT",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THERE'S A FORTNITEMARES",
+  "QUEST YOU CAN",
+  "ONLY UNLOCK WITH",
+  "FRIENDS.",
+  "IT'S CALLED SAFETY",
+  "IN NUMBERS.",
+  "EPIC SAYS: EXPLORE",
+  "A COLLECTION OF",
+  "SPINE-CHILLING ISLANDS,",
+  "EACH WITH ITS",
+  "OWN TWIST.",
+  "FACE THE FEAR",
+  "WITH FRIENDS TO",
+  "UNLOCK THE SAFETY",
+  "IN NUMBERS QUEST.",
+  "WHO ARE YOU",
+  "SQUADDING UP WITH?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

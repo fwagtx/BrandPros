@@ -1,0 +1,57 @@
+{
+ "duration": 17.5,
+ "caption": "#EpicPartner That cursed cartridge has a real spot on the Fortnite map 👀\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemares #fortnitemap",
+ "claims": [
+  {
+   "text": "The Dark Cartridge is a named spot on the map",
+   "source": "map.json",
+   "match": [
+    "Dark Cartridge"
+   ]
+  },
+  {
+   "text": "A cursed cartridge is spreading through the island, corrupting everything it touches",
+   "source": "news.json",
+   "match": [
+    "A cursed cartridge is spreading through the Island, corrupting everything it touches"
+   ]
+  },
+  {
+   "text": "It's close to the middle of the island",
+   "source": "map-labels.png",
+   "visual": "POI at map pixel (885, 1106); island centre about (1010, 1010)"
+  }
+ ],
+ "text": [
+  "DARK CARTRIDGE",
+  "IN-GAME NEWS / CORRUPTING EVERYTHING IT TOUCHES",
+  "THE CURSED CARTRIDGE / IS ON THE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THAT CURSED CARTRIDGE",
+  "EPIC KEEPS TALKING",
+  "ABOUT?",
+  "IT HAS A",
+  "REAL SPOT ON",
+  "THE MAP.",
+  "IT'S CALLED THE",
+  "DARK CARTRIDGE,",
+  "AND IT'S RIGHT",
+  "HERE,",
+  "CLOSE TO THE",
+  "MIDDLE OF THE",
+  "ISLAND.",
+  "EPIC SAYS IT'S",
+  "SPREADING THROUGH THE",
+  "ISLAND,",
+  "CORRUPTING EVERYTHING IT",
+  "TOUCHES.",
+  "WOULD YOU DROP",
+  "HERE?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}
