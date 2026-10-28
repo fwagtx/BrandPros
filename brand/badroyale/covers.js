@@ -52,7 +52,27 @@
       box(`left:0;right:0;top:${G0 + 150}px;text-align:center`, big(["Freddy's", "boss spot"], 150)) +
       chip("Always here", 1460, "#FF5A4A"),
   };
+  // any day's Item Shop, from that day's plan.js (render with: node render.mjs --pre <day>/plan.js badroyale/shop/cover)
+  function shopCover(D) {
+    const d = `../../badroyale/shop/${D.date}/img/`, o = D.deal.outfits;
+    const day = D.dateLabel.charAt(0) + D.dateLabel.slice(1).toLowerCase();
+    const off = D.deal.regular > D.deal.final;
+    let s = shopBg;
+    s += box(`left:-40px;top:520px;width:1160px;height:900px`, art(d + o[0].id + ".png", "left:-120px;top:0;width:820px") +
+      (o.length > 1 ? art(d + o[o.length - 1].id + ".png", "left:430px;top:40px;width:760px") : ""));
+    s += grain + mark();
+    s += box(`left:0;right:0;top:${G0 + 150}px;text-align:center`, big(["Today's shop"], 96));
+    s += chip(day, G0 + 270);
+    s += box(`left:0;right:0;top:1290px;text-align:center`, `<div style="display:inline-flex;align-items:center;gap:30px">
+        <img src="${d}vbuck.png" style="width:120px;height:120px">
+        <span style="font-family:'Barlow Condensed';font-weight:900;font-size:190px;line-height:1;color:${C.yellow};-webkit-text-stroke:15px ${INK};paint-order:stroke fill">${D.deal.final.toLocaleString("en-US")}</span>
+        ${off ? `<span style="position:relative;font-family:'Barlow Condensed';font-weight:900;font-size:110px;line-height:1;color:#fff;-webkit-text-stroke:10px ${INK};paint-order:stroke fill">${D.deal.regular.toLocaleString("en-US")}<span style="position:absolute;left:-10px;right:-10px;top:46%;height:18px;background:#FF2D2D;border:4px solid ${INK};border-radius:9px;transform:rotate(-8deg)"></span></span>` : ""}</div>`);
+    const name = D.deal.name.replace(/\s+Bundle$/i, " bundle");
+    s += box(`left:60px;right:60px;top:1495px;text-align:center`, big([name], Math.max(46, Math.min(70, 1500 / name.length)), ["#fff"]));
+    return s;
+  }
   const add = {};
   Object.entries(COVERS).forEach(([k, f]) => { add[`badroyale/posts/${k}/cover-1080x1920`] = () => [W, H, f()]; });
+  add["badroyale/shop/cover"] = () => [W, H, shopCover(window.SHOP)];
   window.ASSETS.add(add);
 })();

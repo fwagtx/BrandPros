@@ -1,6 +1,7 @@
 // Renders brand assets from assets.js to PNG.
 // Names may contain folders: "badroyale/pfp" → brand/badroyale/pfp.png (paths are relative to brand/).
-// Usage: node render.mjs [name ...]   (no names = everything)
+// Usage: node render.mjs [--pre data.js ...] [name ...]   (no names = everything)
+//   --pre loads a data script into the page first (e.g. a day's plan.js for the Item Shop cover).
 import { createRequire } from "module";
 import { execSync } from "child_process";
 import fs from "fs";
@@ -19,7 +20,10 @@ const page = await browser.newPage({ viewport: { width: 1080, height: 1080 } });
 page.on("pageerror", (e) => console.error("page error:", e.message));
 await page.goto("file://" + path.join(here, "stage.html"));
 await page.evaluate(() => window.ready);
-const names = process.argv.slice(2).length ? process.argv.slice(2) : await page.evaluate(() => window.assetNames());
+const argv = process.argv.slice(2), pre = [];
+for (let i = argv.indexOf("--pre"); i >= 0; i = argv.indexOf("--pre")) pre.push(...argv.splice(i, 2).slice(1));
+for (const f of pre) await page.addScriptTag({ path: path.resolve(f) });
+const names = argv.length ? argv : await page.evaluate(() => window.assetNames());
 for (const name of names) {
   const [w, h] = await page.evaluate((n) => window.renderAsset(n), name);
   await page.setViewportSize({ width: w, height: h });

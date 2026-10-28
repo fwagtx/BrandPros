@@ -1,0 +1,503 @@
+{
+ "_note": "Posts made before the autopilot existed. The autopilot schedules each entry whose time is still 15+ minutes away and that isn't already scheduled (match), then removes it from this list.",
+ "calls": [
+  {
+   "slug": "freddys",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-10-28T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/freddys/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-28T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/freddys/cover.jpg",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner One animatronic boss is ALWAYS at Freddy Fazbear's 🐻 Here's exactly where to find it 📍\nBeat any rogue robot and you can possess the suit 🤖\nWho are you running into first? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fnaf #fortnitemares",
+    "tiktokData": {
+     "title": "Freddy's boss spot 🐻",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "Freddy's boss spot 🐻"
+  },
+  {
+   "slug": "freddys",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-10-28T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/freddys/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-28T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/freddys/cover.jpg",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner One animatronic boss is ALWAYS at Freddy Fazbear's 🐻 Here's exactly where to find it 📍\nBeat any rogue robot and you can possess the suit 🤖\nWho are you running into first? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fnaf #fortnitemares",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner One animatronic boss is ALWAYS at Freddy Fazbea"
+  },
+  {
+   "slug": "freddys",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-10-28T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/freddys/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-28T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/freddys/cover.jpg",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner One animatronic boss is ALWAYS at Freddy Fazbear's 🐻 Here's exactly where to find it 📍\nBeat any rogue robot and you can possess the suit 🤖\nWho are you running into first? 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "Where the Freddy's boss always is"
+    }
+   },
+   "match": "#EpicPartner One animatronic boss is ALWAYS at Freddy Fazbea"
+  },
+  {
+   "slug": "freddys",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-10-28T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/freddys/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-28T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner One animatronic boss is ALWAYS at Freddy Fazbear's 🐻 Here's exactly where to find it 📍\nBeat any rogue robot and you can possess the suit 🤖\nWho are you running into first? 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #FNAF #Shorts",
+    "youtubeData": {
+     "title": "Where the FNAF Boss Always Is in Fortnite 🐻 #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fnaf fortnite",
+      "freddy fazbear fortnite",
+      "fortnitemares",
+      "fortnite boss"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Where the FNAF Boss Always Is in Fortnite 🐻 #Shorts"
+  },
+  {
+   "slug": "consoles",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-10-29T12:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/consoles/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-29T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/consoles/cover.jpg",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner Every Override Console on the map right now 🗺️ All 7, pinned 📍\nSave this for your next drop 📌\nWhich one are you landing at first? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteoverride #fortnitemap",
+    "tiktokData": {
+     "title": "All 7 Override Consoles 🗺️",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "All 7 Override Consoles 🗺️"
+  },
+  {
+   "slug": "consoles",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-10-29T12:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/consoles/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-29T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/consoles/cover.jpg",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner Every Override Console on the map right now 🗺️ All 7, pinned 📍\nSave this for your next drop 📌\nWhich one are you landing at first? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteoverride #fortnitemap",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner Every Override Console on the map right now 🗺️ "
+  },
+  {
+   "slug": "consoles",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-10-29T12:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/consoles/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-29T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/consoles/cover.jpg",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner Every Override Console on the map right now 🗺️ All 7, pinned 📍\nSave this for your next drop 📌\nWhich one are you landing at first? 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "All 7 Override Consoles"
+    }
+   },
+   "match": "#EpicPartner Every Override Console on the map right now 🗺️ "
+  },
+  {
+   "slug": "consoles",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-10-29T12:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/consoles/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-29T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner Every Override Console on the map right now 🗺️ All 7, pinned 📍\nSave this for your next drop 📌\nWhich one are you landing at first? 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteOverride #Shorts",
+    "youtubeData": {
+     "title": "Every Override Console Location in Fortnite 🗺️ #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "override console",
+      "fortnite override",
+      "fortnite map",
+      "fortnite locations"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Every Override Console Location in Fortnite 🗺️ #Shorts"
+  },
+  {
+   "slug": "pacman",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-10-29T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/pacman/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-29T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/pacman/cover.jpg",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner There's a Pac-Man hidden on the Fortnite map 👀 and two of his ghosts are missing 👻\nDid you know this was here? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pacman #fortniteoverride",
+    "tiktokData": {
+     "title": "Fortnite's hidden Pac-Man 👀",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "Fortnite's hidden Pac-Man 👀"
+  },
+  {
+   "slug": "pacman",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-10-29T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/pacman/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-29T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/pacman/cover.jpg",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner There's a Pac-Man hidden on the Fortnite map 👀 and two of his ghosts are missing 👻\nDid you know this was here? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pacman #fortniteoverride",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner There's a Pac-Man hidden on the Fortnite map 👀 "
+  },
+  {
+   "slug": "pacman",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-10-29T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/pacman/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-29T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/pacman/cover.jpg",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner There's a Pac-Man hidden on the Fortnite map 👀 and two of his ghosts are missing 👻\nDid you know this was here? 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "Fortnite's hidden Pac-Man"
+    }
+   },
+   "match": "#EpicPartner There's a Pac-Man hidden on the Fortnite map 👀 "
+  },
+  {
+   "slug": "pacman",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-10-29T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/6b8ad5e0bfa977f0731a317093de91875faf6b86/brand/badroyale/posts/pacman/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-29T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner There's a Pac-Man hidden on the Fortnite map 👀 and two of his ghosts are missing 👻\nDid you know this was here? 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #PacMan #Shorts",
+    "youtubeData": {
+     "title": "Fortnite's Hidden Pac-Man (and 2 Missing Ghosts) 👻 #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnite pac man",
+      "fortnite easter egg",
+      "fortnite override",
+      "fortnite secrets"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Fortnite's Hidden Pac-Man (and 2 Missing Ghosts) 👻 #Shorts"
+  }
+ ]
+}

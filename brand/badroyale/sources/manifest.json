@@ -1,35 +1,35 @@
 {
-  "via": "fortnite-api.com (mirror of Epic in-game data). Epic CDN and fortnite.com were blocked from this session.",
+  "via": "fortnite-api.com (mirror of Epic in-game data). Epic CDN and fortnite.com are blocked from cloud sessions.",
   "files": [
     {
       "file": "news.json",
       "source": "Epic in-game news feed (Battle Royale MOTDs)",
       "url": "https://fortnite-api.com/v2/news",
-      "fetched_utc": "2026-10-27T16:21:40Z"
+      "fetched_utc": "2026-10-28T14:02:26Z"
     },
     {
       "file": "map.json",
       "source": "Battle Royale map POI data",
       "url": "https://fortnite-api.com/v1/map",
-      "fetched_utc": "2026-10-27T16:21:40Z"
+      "fetched_utc": "2026-10-28T14:02:26Z"
     },
     {
       "file": "build.json",
       "source": "Current game build (version)",
       "url": "https://fortnite-api.com/v2/aes",
-      "fetched_utc": "2026-10-27T16:21:40Z"
+      "fetched_utc": "2026-10-28T14:02:26Z"
     },
     {
       "file": "map-blank.png",
       "source": "Official Battle Royale map image, no labels",
       "url": "https://fortnite-api.com/images/map.png",
-      "fetched_utc": "2026-10-27T16:21:50Z"
+      "fetched_utc": "2026-10-28T14:02:26Z"
     },
     {
       "file": "map-labels.png",
       "source": "Official Battle Royale map image, POI labels",
       "url": "https://fortnite-api.com/images/map_en.png",
-      "fetched_utc": "2026-10-27T16:21:49Z"
+      "fetched_utc": "2026-10-28T14:02:26Z"
     }
   ]
 }

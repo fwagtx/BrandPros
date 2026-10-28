@@ -6,6 +6,10 @@ Usage:
 Writes <out dir>/qa-log.json, qa-log.md, contact-sheet.png, safe-zones.png.
 A video may be scheduled only when every check is PASS, every FLAG is resolved by the owner,
 and the owner has approved it (check 8). FAIL means: do not post, fix and re-run.
+
+--autopilot: the owner's standing approval (2026-10-28: "fully autonomous, I shouldn't need to
+accept anything") replaces check 8, so the verdict is READY TO POST only when checks 1-7 are all
+PASS. A FLAG is not resolved by anyone in that mode, so it blocks the video like a FAIL.
 """
 import datetime, json, os, re, subprocess, sys
 
@@ -81,10 +85,18 @@ def facts(meta, src):
     return check("1. Facts", worst, f"{sum(i['result'] == 'PASS' for i in items)}/{len(items)} claims verified against saved official data", items)
 
 
-def spelling(meta):
+def spelling(meta, src=None):
     from spellchecker import SpellChecker
     sp = SpellChecker()
     allow = {w.strip().lower() for w in open(os.path.join(HERE, "allowlist.txt")) if w.strip() and not w.startswith("#")}
+    # names spelled exactly as in Epic's own data (skins, places, bundles) are correct by definition
+    for f in (os.listdir(src) if src and os.path.isdir(src) else []):
+        if f.endswith(".json"):
+            try:
+                raw = json.dumps(json.load(open(os.path.join(src, f), encoding="utf-8")), ensure_ascii=False).replace("’", "'")
+            except Exception:
+                continue
+            allow |= {w.strip(".'-").lower() for w in re.findall(r"[A-Za-z][A-Za-z'.\-0-9]*", raw)}
     text = " ".join(meta["text"]) + " " + meta["caption"]
     words = set()
     for w in re.findall(r"[#@]?[A-Za-z][A-Za-z'’.\-0-9]*", text):
@@ -197,11 +209,16 @@ def main():
     os.makedirs(out, exist_ok=True)
     meta = node_dump(scene, "--meta", os.path.join(out, "meta.json"))
     boxes = node_dump(scene, "--boxes", os.path.join(out, "boxes.json"))
-    results = [facts(meta, src), spelling(meta), frames(video, out), audio(video), specs_and_safe(video, boxes, out), disclosure(meta, boxes), human(review),
-               check("8. Owner approval", "WAITING", "Not scheduled. First 5 videos of every series go to the owner before anything is queued in Metricool.")]
+    auto = "--autopilot" in sys.argv
+    results = [facts(meta, src), spelling(meta, src), frames(video, out), audio(video), specs_and_safe(video, boxes, out), disclosure(meta, boxes), human(review)]
+    results.append(check("8. Owner approval", "PASS", "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.") if auto else
+                   check("8. Owner approval", "WAITING", "Not scheduled. First 5 videos of every series go to the owner before anything is queued in Metricool."))
     blocked = [r["check"] for r in results if r["status"] in ("FAIL",)]
     flags = [r["check"] for r in results if r["status"] == "FLAG"]
-    verdict = "DO NOT POST: fix failures" if blocked else ("HOLD: owner must resolve flags and approve" if flags else "READY FOR OWNER APPROVAL")
+    if auto:
+        verdict = "DO NOT POST: fix failures" if blocked else ("DO NOT POST: unresolved flags" if flags else "READY TO POST")
+    else:
+        verdict = "DO NOT POST: fix failures" if blocked else ("HOLD: owner must resolve flags and approve" if flags else "READY FOR OWNER APPROVAL")
     log = {"video": os.path.basename(video), "checked_utc": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "verdict": verdict, "results": results, "caption": meta["caption"]}
     json.dump(log, open(os.path.join(out, "qa-log.json"), "w"), indent=2, ensure_ascii=False)
     md = [f"# Pre-post check: {log['video']}", "", f"Checked {log['checked_utc']} · **{verdict}**", ""]

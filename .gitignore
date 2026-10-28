@@ -1,0 +1,23 @@
+# BAD ROYALE autopilot: heavy per-day files stay out of git (Metricool keeps the posted copies)
+brand/badroyale/shop/20*-*/img/
+brand/badroyale/shop/20*-*/out/
+brand/badroyale/shop/20*-*/*.mp4
+brand/badroyale/shop/20*-*/*.wav
+brand/badroyale/shop/20*-*/shop.json
+brand/badroyale/shop/20*-*/data.js
+brand/badroyale/shop/20*-*/timings.js
+brand/badroyale/shop/20*-*/qa/stills/
+brand/badroyale/shop/20*-*/qa/boxes.json
+brand/badroyale/shop/20*-*/qa/*.png
+brand/badroyale/shop/cover.png
+brand/badroyale/auto/work/
+brand/_shared/video/x.mp4
+brand/_shared/voice/models/
+brand/badroyale/video/auto/*/*.mp4
+brand/badroyale/video/auto/*/*.wav
+brand/badroyale/video/auto/*/timings.js
+brand/badroyale/video/auto/*/out/
+brand/badroyale/video/auto/*/img/
+brand/badroyale/video/auto/*/qa/stills/
+brand/badroyale/video/auto/*/qa/boxes.json
+brand/badroyale/video/auto/*/qa/*.png

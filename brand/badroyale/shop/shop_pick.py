@@ -6,7 +6,7 @@ Writes shop/<date>/: shop.json, history.json, manifest.json, img/*.png, plan.jso
 Picks (all straight from Epic's shop data, mirrored by fortnite-api.com):
   deal  - the bundle with the biggest gap between Epic's listed regular price and its price today
   og    - the oldest outfit(s) in the shop, by the season Epic says they were introduced
-  last  - outfits whose shop listing ends at tonight's reset
+  last  - outfits on their last day: their shop listing ends at the next reset
 Nothing here is opinion: no "worth it" verdicts, only prices, dates and seasons.
 """
 import datetime, json, os, re, sys, time, urllib.request
@@ -87,7 +87,8 @@ def main():
     n_words = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"]
 
     # short on purpose: dates and prices also sit on screen, the voice only says what matters
-    phrases = [("Today's Item Shop.", 0.1), ("Three things before you buy.", 0.24),
+    # the opening line is fixed by the owner: "This is today's Item Shop for <date>", straight into the hook
+    phrases = [(f"This is today's Item Shop for {words_date(d0)}.", 0.08), ("Three things before you spend a single V-Buck.", 0.22),
                (f"The {deal['name']}:", 0.06), (f"{deal['final']:,} V-Bucks, instead of {deal['regular']:,}.", 0.26)]
     if len(og_recs) == 2:
         phrases += [(f"{og_recs[0]['name']} and {og_recs[1]['name']} are in the shop.", 0.06), (f"Both from Chapter {ch}, Season {se}.", 0.26)]
@@ -98,14 +99,15 @@ def main():
         # name the biggest same-rarity group so the line says something concrete
         from collections import Counter
         top, k = Counter(r["rarity"] for r in last_recs).most_common(1)[0]
+        # "last day" rather than "tonight": the video posts right after the reset, a day before they go
         if k == len(last_recs):
-            line = f"And {num(k)} {top} skin{'s' if k > 1 else ''} leave tonight."
+            line = f"And {num(k)} {top} skin{'s are' if k > 1 else ' is'} on {'their' if k > 1 else 'its'} last day."
         else:
-            line = f"And {num(len(last_recs))} skins leave tonight, {num(k)} of them {top}."
+            line = f"And {num(len(last_recs))} skins are on their last day, {num(k)} of them {top}."
         phrases += [(line, 0.3)]
         last.sort(key=lambda o: (outfits[o]["rarity"] != top, -outfits[o]["price"], outfits[o]["name"]))
         last_recs = [outfits[o] for o in last]
-    phrases += [("Buying today?", 0.06), ("Use code BAD in the Item Shop.", 0.3)]
+    phrases += [("Buying anything today?", 0.06), ("Use code BAD in the Item Shop. It really helps the channel.", 0.3)]
 
     need = set(deal["outfits"][:4]) | set(og) | set(last[:6])
     for oid in need:

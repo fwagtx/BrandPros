@@ -1,5 +1,5 @@
 /* BAD ROYALE · daily Item Shop short. Data: window.SHOP (shop_pick.py), voice timings: window.VO.
- * Beats follow the voice: hook, best deal, OG check, leaving tonight, code.
+ * Beats follow the voice: hook, best deal, OG check, last day, code.
  */
 (function () {
   "use strict";
@@ -61,9 +61,9 @@
     const stamp = mk(g2, `left:150px;top:900px;width:680px;text-align:center;padding:10px 0 4px;background:${YEL};border:8px solid ${INK};transform:rotate(-6deg);box-shadow:0 10px 0 ${INK}`,
       `<span style="font-family:'Barlow Condensed';font-weight:900;font-size:78px;line-height:1;color:${INK}">CHAPTER ${D.og.chapter} · SEASON ${D.og.season}</span>`, `CHAPTER ${D.og.chapter} · SEASON ${D.og.season}`);
 
-    // beat 3: leaving tonight
+    // beat 3: last day in the shop
     const g3 = mk(stage, `inset:0`);
-    const c3 = chip(g3, "3 · Leaving tonight", "#FF5A4A");
+    const c3 = chip(g3, "3 · Last day", "#FF5A4A");
     const lastTiles = D.last.outfits.slice(0, 6).map((o, i) => add(g3, tile(o, 260, 330), `left:${80 + (i % 3) * 280}px;top:${350 + Math.floor(i / 3) * 350}px`));
     const more = D.last.count > 6 ? mk(g3, `left:700px;top:1045px;padding:6px 20px 2px;background:#fff;border:5px solid ${INK};border-radius:30px;font-family:'Barlow Condensed';font-weight:900;font-size:54px;color:${INK}`, `+${D.last.count - 6} more`, `+${D.last.count - 6} MORE`) : null;
     const resetNote = S.scrawl(g3, `gone at ${D.resetLabel}`, 58, YEL, -5);
@@ -106,7 +106,7 @@
       ogTiles.forEach((el, i) => T(el, { r: i ? 4 : -4, s: E.back(k(t, b2 + i * 0.12, b2 + 0.35 + i * 0.12)) }));
       const ts = P[5].t0;
       T(stamp, { a: t >= ts ? 1 : 0, s: t < ts ? 0 : 1 + 0.22 * (1 - E.out(k(t, ts, ts + 0.22))), r: -6 });
-      // leaving tonight
+      // last day
       swap(g3, t, b3, b4);
       lastTiles.forEach((el, i) => T(el, { s: E.back(k(t, b3 + i * 0.06, b3 + 0.3 + i * 0.06)) }));
       if (more) T(more, { s: E.back(k(t, b3 + 0.5, b3 + 0.75)), a: t >= b3 + 0.5 ? 1 : 0 });
@@ -130,7 +130,7 @@
       { text: `${D.deal.name}: ${D.deal.final} V-Bucks, regular ${D.deal.regular}`, source: "shop.json", match: [D.deal.name, `"finalPrice": ${D.deal.final}`, `"regularPrice": ${D.deal.regular}`] },
       { text: `${D.deal.name} leaves ${D.deal.out}`, source: "shop.json", match: [`"outDate": "${D.deal.out}`] },
       ...D.og.outfits.map((o) => ({ text: `${o.name} is in the shop, introduced Chapter ${D.og.chapter}, Season ${D.og.season}`, source: "history.json", match: [o.name, `Introduced in Chapter ${D.og.chapter}, Season ${D.og.season}.`] })),
-      { text: `${D.last.count} outfits leave at tonight's reset`, source: "plan.json", match: [`"count": ${D.last.count}`], visual: "Counted from shop.json outDate == shop date (shop_pick.py)" },
+      { text: `${D.last.count} outfits leave at the next reset (last day)`, source: "plan.json", match: [`"count": ${D.last.count}`], visual: "Counted from shop.json outDate == shop date (shop_pick.py)" },
       { text: `Reset at ${D.resetLabel}`, source: "plan.json", match: [D.resetLabel], visual: "00:00 UTC converted to America/Chicago" },
     ],
   };
