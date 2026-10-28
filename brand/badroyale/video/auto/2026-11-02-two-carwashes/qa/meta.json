@@ -1,0 +1,45 @@
+{
+ "duration": 12.9,
+ "caption": "#EpicPartner There are TWO carwashes on the Fortnite map 🚗\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitesecrets",
+ "claims": [
+  {
+   "text": "Two places on the map are named Carwash",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "count": {
+    "Carwash": 2
+   }
+  },
+  {
+   "text": "One in the west, one in the east",
+   "source": "map-labels.png",
+   "visual": "Carwash POIs at map pixels (330, 926) and (1403, 1199)"
+  }
+ ],
+ "text": [
+  "#1",
+  "#2",
+  "THERE ARE 2 CARWASHES / ON THE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THERE ISN'T ONE",
+  "CARWASH ON THE",
+  "FORTNITE MAP.",
+  "THERE ARE TWO.",
+  "ONE'S WAY OUT",
+  "WEST,",
+  "RIGHT HERE.",
+  "AND THE OTHER",
+  "ONE'S ALL THE",
+  "WAY EAST,",
+  "WHICH ONE ARE",
+  "YOU LANDING AT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

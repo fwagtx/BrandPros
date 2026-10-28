@@ -1,0 +1,72 @@
+{
+  "video": "badroyale-2026-11-01-green-hill-zone.mp4",
+  "checked_utc": "2026-10-28T19:14:57Z",
+  "verdict": "READY TO POST",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "3/3 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "Green Hill Zone is a named place on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Override brings areas inspired by Sonic, Tetris and Pac-Man",
+          "result": "PASS",
+          "why": "matched in news.json"
+        },
+        {
+          "claim": "It's on the west side of the island",
+          "result": "PASS",
+          "why": "visual check against map-labels.png: POI at map pixel (600, 1017): west of the island centre (1010, 1010)"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "16 distinct words checked; code written as BAD in all 2 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -14.1 LUFS, true peak -2.3 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 16.5s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Frame 1 sharp (camera holds; moves only in quick whips). Subject marked by ~1 s with a red ring and label; wide shot shows where it is on the island; news toast or second pin; code card. Nothing overlaps; captions clear.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner Sonic's Green Hill Zone is on the Fortnite map right now 💨\nUse code BAD in the Item Shop 💛\n#fortnite #sonic #fortniteoverride"
+}

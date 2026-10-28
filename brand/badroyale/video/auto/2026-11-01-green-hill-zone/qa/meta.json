@@ -1,0 +1,52 @@
+{
+ "duration": 17,
+ "caption": "#EpicPartner Sonic's Green Hill Zone is on the Fortnite map right now 💨\nUse code BAD in the Item Shop 💛\n#fortnite #sonic #fortniteoverride",
+ "claims": [
+  {
+   "text": "Green Hill Zone is a named place on the map",
+   "source": "map.json",
+   "match": [
+    "Green Hill Zone"
+   ]
+  },
+  {
+   "text": "Override brings areas inspired by Sonic, Tetris and Pac-Man",
+   "source": "news.json",
+   "match": [
+    "areas inspired by gaming legends like Sonic, Tetris, and Pac-Man"
+   ]
+  },
+  {
+   "text": "It's on the west side of the island",
+   "source": "map-labels.png",
+   "visual": "POI at map pixel (600, 1017): west of the island centre (1010, 1010)"
+  }
+ ],
+ "text": [
+  "GREEN HILL ZONE",
+  "IN-GAME NEWS / AREAS INSPIRED BY SONIC",
+  "SONIC'S GREEN HILL ZONE / IS IN FORTNITE",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "SONIC'S GREEN HILL",
+  "ZONE IS ON",
+  "THE FORTNITE MAP",
+  "RIGHT NOW.",
+  "IT'S ON THE",
+  "WEST SIDE OF",
+  "THE ISLAND,",
+  "RIGHT HERE.",
+  "EPIC SAYS OVERRIDE",
+  "BRINGS AREAS INSPIRED",
+  "BY GAMING LEGENDS",
+  "LIKE SONIC,",
+  "TETRIS AND PAC-MAN.",
+  "HAVE YOU DROPPED",
+  "HERE YET?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

@@ -780,6 +780,368 @@
    }
   },
   {
+   "slug": "2026-11-01-green-hill-zone",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-11-01T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-01-green-hill-zone/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-01T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-01-green-hill-zone/cover.jpg",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner Sonic's Green Hill Zone is on the Fortnite map RIGHT NOW 💨 West side of the island 📍\nHave you dropped here yet? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #sonic #fortniteoverride",
+    "tiktokData": {
+     "title": "Green Hill Zone in Fortnite 💨",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "Green Hill Zone in Fortnite 💨",
+   "r2": {
+    "video": "2026-11-01-green-hill-zone/video.mp4",
+    "cover": "2026-11-01-green-hill-zone/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-01-green-hill-zone",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-11-01T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-01-green-hill-zone/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-01T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-01-green-hill-zone/cover.jpg",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner Sonic's Green Hill Zone is on the Fortnite map RIGHT NOW 💨 West side of the island 📍\nHave you dropped here yet? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #sonic #fortniteoverride",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner Sonic's Green Hill Zone is on the Fortnite map ",
+   "r2": {
+    "video": "2026-11-01-green-hill-zone/video.mp4",
+    "cover": "2026-11-01-green-hill-zone/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-01-green-hill-zone",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-11-01T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-01-green-hill-zone/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-01T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-01-green-hill-zone/cover.jpg",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner Sonic's Green Hill Zone is on the Fortnite map RIGHT NOW 💨 West side of the island 📍\nHave you dropped here yet? 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "Sonic's Green Hill Zone is in Fortnite"
+    }
+   },
+   "match": "#EpicPartner Sonic's Green Hill Zone is on the Fortnite map ",
+   "r2": {
+    "video": "2026-11-01-green-hill-zone/video.mp4",
+    "cover": "2026-11-01-green-hill-zone/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-01-green-hill-zone",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-11-01T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-01-green-hill-zone/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-01T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner Sonic's Green Hill Zone is on the Fortnite map RIGHT NOW 💨 West side of the island 📍\nHave you dropped here yet? 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #Sonic #Shorts",
+    "youtubeData": {
+     "title": "Sonic's Green Hill Zone Is on the Fortnite Map 💨 #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "green hill zone fortnite",
+      "sonic fortnite",
+      "fortnite override",
+      "fortnite map"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Sonic's Green Hill Zone Is on the Fortnite Map 💨 #Shorts",
+   "r2": {
+    "video": "2026-11-01-green-hill-zone/video.mp4"
+   }
+  },
+  {
+   "slug": "2026-11-02-two-carwashes",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-11-02T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-02-two-carwashes/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-02T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-02-two-carwashes/cover.jpg",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner There isn't one carwash on the Fortnite map… there are TWO 🚗 One way out west, one all the way east 📍\nWhich one are you landing at? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitesecrets",
+    "tiktokData": {
+     "title": "There are 2 carwashes 🚗",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "There are 2 carwashes 🚗",
+   "r2": {
+    "video": "2026-11-02-two-carwashes/video.mp4",
+    "cover": "2026-11-02-two-carwashes/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-02-two-carwashes",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-11-02T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-02-two-carwashes/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-02T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-02-two-carwashes/cover.jpg",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner There isn't one carwash on the Fortnite map… there are TWO 🚗 One way out west, one all the way east 📍\nWhich one are you landing at? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitesecrets",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner There isn't one carwash on the Fortnite map… th",
+   "r2": {
+    "video": "2026-11-02-two-carwashes/video.mp4",
+    "cover": "2026-11-02-two-carwashes/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-02-two-carwashes",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-11-02T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-02-two-carwashes/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-02T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "r2:2026-11-02-two-carwashes/cover.jpg",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner There isn't one carwash on the Fortnite map… there are TWO 🚗 One way out west, one all the way east 📍\nWhich one are you landing at? 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "There are two carwashes on the map"
+    }
+   },
+   "match": "#EpicPartner There isn't one carwash on the Fortnite map… th",
+   "r2": {
+    "video": "2026-11-02-two-carwashes/video.mp4",
+    "cover": "2026-11-02-two-carwashes/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-11-02-two-carwashes",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-11-02T12:30:00-06:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-11-02-two-carwashes/video.mp4"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-02T12:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner There isn't one carwash on the Fortnite map… there are TWO 🚗 One way out west, one all the way east 📍\nWhich one are you landing at? 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteMap #Shorts",
+    "youtubeData": {
+     "title": "There Are TWO Carwashes on the Fortnite Map 🚗 #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnite carwash",
+      "fortnite map",
+      "fortnite secrets",
+      "fortnite locations"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "There Are TWO Carwashes on the Fortnite Map 🚗 #Shorts",
+   "r2": {
+    "video": "2026-11-02-two-carwashes/video.mp4"
+   }
+  },
+  {
    "slug": "2026-11-04-guess-5",
    "network": "tiktok",
    "blogId": "7408112",

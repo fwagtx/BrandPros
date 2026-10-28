@@ -23,3 +23,10 @@ brand/badroyale/video/auto/*/qa/boxes.json
 brand/badroyale/video/auto/*/qa/*.png
 brand/badroyale/**/posts.json
 brand/badroyale/auto/backlog.live.json
+brand/badroyale/video/long/*/*.mp4
+brand/badroyale/video/long/*/*.wav
+brand/badroyale/video/long/*/data.js
+brand/badroyale/video/long/*/out/
+brand/badroyale/video/long/*/qa/stills/
+brand/badroyale/video/long/*/qa/boxes.json
+brand/badroyale/video/long/*/qa/*.png
