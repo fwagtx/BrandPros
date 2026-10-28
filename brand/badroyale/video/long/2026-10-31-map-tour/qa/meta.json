@@ -1,0 +1,792 @@
+{
+ "duration": 290.7,
+ "caption": "#EpicPartner A full tour of every place on the Fortnite map right now. Use code BAD in the Item Shop.\n#Fortnite #FortniteMap",
+ "claims": [
+  {
+   "text": "40 places: 13 named locations, 20 landmarks, 7 Override Consoles",
+   "source": "map.json",
+   "match": [
+    "Override Console"
+   ],
+   "count": {
+    "Override Console": 7
+   }
+  },
+  {
+   "text": "Freaky Fields is a named location",
+   "source": "map.json",
+   "match": [
+    "Freaky Fields"
+   ],
+   "visual": "map pixel (1158, 508): in the north of the island"
+  },
+  {
+   "text": "WonkeeLand is a named location",
+   "source": "map.json",
+   "match": [
+    "WonkeeLand"
+   ],
+   "visual": "map pixel (1420, 668): in the north-east of the island"
+  },
+  {
+   "text": "Reality's Reign is a named location",
+   "source": "map.json",
+   "match": [
+    "Reality's Reign"
+   ],
+   "visual": "map pixel (1131, 1015): near the center of the island"
+  },
+  {
+   "text": "Golden Grove is a named location",
+   "source": "map.json",
+   "match": [
+    "Golden Grove"
+   ],
+   "visual": "map pixel (1489, 1117): in the east of the island"
+  },
+  {
+   "text": "Shaken Sanctuary is a named location",
+   "source": "map.json",
+   "match": [
+    "Shaken Sanctuary"
+   ],
+   "visual": "map pixel (1260, 1380): in the south-east of the island"
+  },
+  {
+   "text": "Cluster Coast is a named location",
+   "source": "map.json",
+   "match": [
+    "Cluster Coast"
+   ],
+   "visual": "map pixel (1384, 1640): on the far south-east edge of the island"
+  },
+  {
+   "text": "Sunken Shores is a named location",
+   "source": "map.json",
+   "match": [
+    "Sunken Shores"
+   ],
+   "visual": "map pixel (825, 1605): on the far south edge of the island"
+  },
+  {
+   "text": "Stone Sanctum is a named location",
+   "source": "map.json",
+   "match": [
+    "Stone Sanctum"
+   ],
+   "visual": "map pixel (867, 1296): in the south-west of the island"
+  },
+  {
+   "text": "Heatwave Harbor is a named location",
+   "source": "map.json",
+   "match": [
+    "Heatwave Harbor"
+   ],
+   "visual": "map pixel (416, 1397): on the far south-west edge of the island"
+  },
+  {
+   "text": "Green Hill Zone is a named location",
+   "source": "map.json",
+   "match": [
+    "Green Hill Zone"
+   ],
+   "visual": "map pixel (600, 1017): in the west of the island"
+  },
+  {
+   "text": "Epic's Override news says the island now has areas inspired by gaming legends like Sonic, Tetris, and Pac-Man.",
+   "source": "news.json",
+   "match": [
+    "areas inspired by gaming legends like Sonic, Tetris, and Pac-Man"
+   ]
+  },
+  {
+   "text": "Chopped Shop is a named location",
+   "source": "map.json",
+   "match": [
+    "Chopped Shop"
+   ],
+   "visual": "map pixel (328, 719): on the far north-west edge of the island"
+  },
+  {
+   "text": "Nightmare Neighborhood is a named location",
+   "source": "map.json",
+   "match": [
+    "Nightmare Neighborhood"
+   ],
+   "visual": "map pixel (772, 756): in the north-west of the island"
+  },
+  {
+   "text": "Lifty Lodge is a named location",
+   "source": "map.json",
+   "match": [
+    "Lifty Lodge"
+   ],
+   "visual": "map pixel (586, 431): on the far north-west edge of the island"
+  },
+  {
+   "text": "Stack o' Stones is a landmark",
+   "source": "map.json",
+   "match": [
+    "Stack o' Stones"
+   ],
+   "visual": "map pixel (1048, 506): in the north of the island"
+  },
+  {
+   "text": "Carwash is a landmark",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "visual": "map pixel (1403, 1199): in the south-east of the island"
+  },
+  {
+   "text": "Pinky Island is a landmark",
+   "source": "map.json",
+   "match": [
+    "Pinky Island"
+   ],
+   "visual": "map pixel (1260, 1598): on the far south-east edge of the island"
+  },
+  {
+   "text": "Pixel Polys is a landmark",
+   "source": "map.json",
+   "match": [
+    "Pixel Polys"
+   ],
+   "visual": "map pixel (1091, 1274): in the south of the island"
+  },
+  {
+   "text": "Crashout Estates is a landmark",
+   "source": "map.json",
+   "match": [
+    "Crashout Estates"
+   ],
+   "visual": "map pixel (1206, 1724): on the far south edge of the island"
+  },
+  {
+   "text": "Wettest-Bones Research Facility is a landmark",
+   "source": "map.json",
+   "match": [
+    "Wettest-Bones Research Facility"
+   ],
+   "visual": "map pixel (1108, 1580): in the south of the island"
+  },
+  {
+   "text": "Mega Maze is a landmark",
+   "source": "map.json",
+   "match": [
+    "Mega Maze"
+   ],
+   "visual": "map pixel (1011, 1478): in the south of the island"
+  },
+  {
+   "text": "Blinky Island is a landmark",
+   "source": "map.json",
+   "match": [
+    "Blinky Island"
+   ],
+   "visual": "map pixel (560, 1659): on the far south-west edge of the island"
+  },
+  {
+   "text": "The Quackaway is a landmark",
+   "source": "map.json",
+   "match": [
+    "The Quackaway"
+   ],
+   "visual": "map pixel (422, 1653): on the far south-west edge of the island"
+  },
+  {
+   "text": "Birder's Beach is a landmark",
+   "source": "map.json",
+   "match": [
+    "Birder's Beach"
+   ],
+   "visual": "map pixel (215, 1768): on the far south-west edge of the island"
+  },
+  {
+   "text": "Dark Cartridge is a landmark",
+   "source": "map.json",
+   "match": [
+    "Dark Cartridge"
+   ],
+   "visual": "map pixel (885, 1106): near the center of the island"
+  },
+  {
+   "text": "Epic says a cursed cartridge is spreading through the Island, corrupting everything it touches.",
+   "source": "news.json",
+   "match": [
+    "A cursed cartridge is spreading through the Island, corrupting everything it touches"
+   ]
+  },
+  {
+   "text": "Barncade is a landmark",
+   "source": "map.json",
+   "match": [
+    "Barncade"
+   ],
+   "visual": "map pixel (651, 1246): in the south-west of the island"
+  },
+  {
+   "text": "Dine 'n Docks is a landmark",
+   "source": "map.json",
+   "match": [
+    "Dine 'n Docks"
+   ],
+   "visual": "map pixel (340, 1198): on the far west edge of the island"
+  },
+  {
+   "text": "Geno's Machine is a landmark",
+   "source": "map.json",
+   "match": [
+    "Geno's Machine"
+   ],
+   "visual": "map pixel (906, 1013): near the center of the island"
+  },
+  {
+   "text": "Carwash is a landmark",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "visual": "map pixel (330, 926): on the far west edge of the island"
+  },
+  {
+   "text": "Artsy RVs is a landmark",
+   "source": "map.json",
+   "match": [
+    "Artsy RVs"
+   ],
+   "visual": "map pixel (236, 818): on the far west edge of the island"
+  },
+  {
+   "text": "Ol' Stumpy is a landmark",
+   "source": "map.json",
+   "match": [
+    "Ol' Stumpy"
+   ],
+   "visual": "map pixel (644, 747): in the north-west of the island"
+  },
+  {
+   "text": "Pac-Man Island is a landmark",
+   "source": "map.json",
+   "match": [
+    "Pac-Man Island"
+   ],
+   "visual": "map pixel (843, 531): in the north of the island"
+  },
+  {
+   "text": "Freddy Fazbear's Pizzeria is a landmark",
+   "source": "map.json",
+   "match": [
+    "Freddy Fazbear's Pizzeria"
+   ],
+   "visual": "map pixel (929, 607): in the north of the island"
+  },
+  {
+   "text": "Epic says one animatronic boss is always lurking at Freddy Fazbear's Pizza Parlor.",
+   "source": "news.json",
+   "match": [
+    "with one always lurking at Freddy Fazbear's Pizza Parlor"
+   ]
+  },
+  {
+   "text": "The Sleazy Snooze is a landmark",
+   "source": "map.json",
+   "match": [
+    "The Sleazy Snooze"
+   ],
+   "visual": "map pixel (939, 371): on the far north edge of the island"
+  },
+  {
+   "text": "Two landmarks are named Carwash",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "count": {
+    "Carwash": 2
+   }
+  },
+  {
+   "text": "Freaky Fields: Its nearest neighbors are Stack o' Stones and Freddy Fazbear's Pizzeria.",
+   "source": "map.json",
+   "match": [
+    "Freaky Fields"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "WonkeeLand: Its nearest neighbors are Freaky Fields and Stack o' Stones.",
+   "source": "map.json",
+   "match": [
+    "WonkeeLand"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Reality's Reign: Its nearest neighbors are Geno's Machine and Dark Cartridge.",
+   "source": "map.json",
+   "match": [
+    "Reality's Reign"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Golden Grove: Its nearest neighbors are Carwash and Shaken Sanctuary.",
+   "source": "map.json",
+   "match": [
+    "Golden Grove"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Shaken Sanctuary: Its nearest neighbors are Pixel Polys and Pinky Island.",
+   "source": "map.json",
+   "match": [
+    "Shaken Sanctuary"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Cluster Coast: Its nearest neighbors are Pinky Island and Crashout Estates.",
+   "source": "map.json",
+   "match": [
+    "Cluster Coast"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Sunken Shores: Its nearest neighbors are Mega Maze and Blinky Island.",
+   "source": "map.json",
+   "match": [
+    "Sunken Shores"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Stone Sanctum: Its nearest neighbors are Dark Cartridge and Barncade.",
+   "source": "map.json",
+   "match": [
+    "Stone Sanctum"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Heatwave Harbor: Its nearest neighbors are Dine 'n Docks and The Quackaway.",
+   "source": "map.json",
+   "match": [
+    "Heatwave Harbor"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Green Hill Zone: Its nearest neighbors are Barncade and Ol' Stumpy.",
+   "source": "map.json",
+   "match": [
+    "Green Hill Zone"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Chopped Shop: Its nearest neighbors are Artsy RVs and Carwash.",
+   "source": "map.json",
+   "match": [
+    "Chopped Shop"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Nightmare Neighborhood: Its nearest neighbors are Ol' Stumpy and Freddy Fazbear's Pizzeria.",
+   "source": "map.json",
+   "match": [
+    "Nightmare Neighborhood"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Lifty Lodge: Its nearest neighbors are Pac-Man Island and Ol' Stumpy.",
+   "source": "map.json",
+   "match": [
+    "Lifty Lodge"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Stack o' Stones: The closest named location is Freaky Fields.",
+   "source": "map.json",
+   "match": [
+    "Stack o' Stones"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Carwash: The closest named location is Chopped Shop.",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Pinky Island: The closest named location is Cluster Coast.",
+   "source": "map.json",
+   "match": [
+    "Pinky Island"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Pixel Polys: The closest named location is Shaken Sanctuary.",
+   "source": "map.json",
+   "match": [
+    "Pixel Polys"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Crashout Estates: The closest named location is Cluster Coast.",
+   "source": "map.json",
+   "match": [
+    "Crashout Estates"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Wettest-Bones Research Facility: The closest named location is Shaken Sanctuary.",
+   "source": "map.json",
+   "match": [
+    "Wettest-Bones Research Facility"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Mega Maze: The closest named location is Sunken Shores.",
+   "source": "map.json",
+   "match": [
+    "Mega Maze"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Blinky Island: The closest named location is Sunken Shores.",
+   "source": "map.json",
+   "match": [
+    "Blinky Island"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "The Quackaway: The closest named location is Heatwave Harbor.",
+   "source": "map.json",
+   "match": [
+    "The Quackaway"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Birder's Beach: The closest named location is Heatwave Harbor.",
+   "source": "map.json",
+   "match": [
+    "Birder's Beach"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Dark Cartridge: The closest named location is Stone Sanctum.",
+   "source": "map.json",
+   "match": [
+    "Dark Cartridge"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Barncade: The closest named location is Stone Sanctum.",
+   "source": "map.json",
+   "match": [
+    "Barncade"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Dine 'n Docks: The closest named location is Heatwave Harbor.",
+   "source": "map.json",
+   "match": [
+    "Dine 'n Docks"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Geno's Machine: The closest named location is Reality's Reign.",
+   "source": "map.json",
+   "match": [
+    "Geno's Machine"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Carwash: The closest named location is Chopped Shop.",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Artsy RVs: The closest named location is Chopped Shop.",
+   "source": "map.json",
+   "match": [
+    "Artsy RVs"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Ol' Stumpy: The closest named location is Nightmare Neighborhood.",
+   "source": "map.json",
+   "match": [
+    "Ol' Stumpy"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Pac-Man Island: The closest named location is Nightmare Neighborhood.",
+   "source": "map.json",
+   "match": [
+    "Pac-Man Island"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Freddy Fazbear's Pizzeria: The closest named location is Nightmare Neighborhood.",
+   "source": "map.json",
+   "match": [
+    "Freddy Fazbear's Pizzeria"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "The Sleazy Snooze: The closest named location is Freaky Fields.",
+   "source": "map.json",
+   "match": [
+    "The Sleazy Snooze"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  }
+ ],
+ "text": [
+  "FULL MAP TOUR / EVERY PLACE ON THE / FORTNITE MAP RIGHT NOW",
+  "40 / PLACES ON THE OFFICIAL MAP",
+  "PART 1 / THE 13 NAMED / LOCATIONS",
+  "13 NAMED LOCATIONS",
+  "FREAKY FIELDS / NAMED LOCATION · IN THE NORTH OF THE MAP",
+  "WONKEELAND / NAMED LOCATION · IN THE NORTH-EAST OF THE MAP",
+  "REALITY'S REIGN / NAMED LOCATION · NEAR THE CENTER OF THE MAP",
+  "GOLDEN GROVE / NAMED LOCATION · IN THE EAST OF THE MAP",
+  "SHAKEN SANCTUARY / NAMED LOCATION · IN THE SOUTH-EAST OF THE MAP",
+  "CLUSTER COAST / NAMED LOCATION · ON THE FAR SOUTH-EAST EDGE OF THE MAP",
+  "SUNKEN SHORES / NAMED LOCATION · ON THE FAR SOUTH EDGE OF THE MAP",
+  "STONE SANCTUM / NAMED LOCATION · IN THE SOUTH-WEST OF THE MAP",
+  "HEATWAVE HARBOR / NAMED LOCATION · ON THE FAR SOUTH-WEST EDGE OF THE MAP",
+  "GREEN HILL ZONE / NAMED LOCATION · IN THE WEST OF THE MAP",
+  "CHOPPED SHOP / NAMED LOCATION · ON THE FAR NORTH-WEST EDGE OF THE MAP",
+  "NIGHTMARE NEIGHBORHOOD / NAMED LOCATION · IN THE NORTH-WEST OF THE MAP",
+  "LIFTY LODGE / NAMED LOCATION · ON THE FAR NORTH-WEST EDGE OF THE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "PART 2 / THE LANDMARKS",
+  "20 LANDMARKS",
+  "STACK O' STONES / LANDMARK · IN THE NORTH OF THE MAP",
+  "CARWASH / LANDMARK · IN THE SOUTH-EAST OF THE MAP",
+  "PINKY ISLAND / LANDMARK · ON THE FAR SOUTH-EAST EDGE OF THE MAP",
+  "PIXEL POLYS / LANDMARK · IN THE SOUTH OF THE MAP",
+  "CRASHOUT ESTATES / LANDMARK · ON THE FAR SOUTH EDGE OF THE MAP",
+  "WETTEST-BONES RESEARCH FACILITY / LANDMARK · IN THE SOUTH OF THE MAP",
+  "MEGA MAZE / LANDMARK · IN THE SOUTH OF THE MAP",
+  "BLINKY ISLAND / LANDMARK · ON THE FAR SOUTH-WEST EDGE OF THE MAP",
+  "THE QUACKAWAY / LANDMARK · ON THE FAR SOUTH-WEST EDGE OF THE MAP",
+  "BIRDER'S BEACH / LANDMARK · ON THE FAR SOUTH-WEST EDGE OF THE MAP",
+  "DARK CARTRIDGE / LANDMARK · NEAR THE CENTER OF THE MAP",
+  "BARNCADE / LANDMARK · IN THE SOUTH-WEST OF THE MAP",
+  "DINE 'N DOCKS / LANDMARK · ON THE FAR WEST EDGE OF THE MAP",
+  "GENO'S MACHINE / LANDMARK · NEAR THE CENTER OF THE MAP",
+  "CARWASH / LANDMARK · ON THE FAR WEST EDGE OF THE MAP",
+  "ARTSY RVS / LANDMARK · ON THE FAR WEST EDGE OF THE MAP",
+  "OL' STUMPY / LANDMARK · IN THE NORTH-WEST OF THE MAP",
+  "PAC-MAN ISLAND / LANDMARK · IN THE NORTH OF THE MAP",
+  "FREDDY FAZBEAR'S PIZZERIA / LANDMARK · IN THE NORTH OF THE MAP",
+  "THE SLEAZY SNOOZE / LANDMARK · ON THE FAR NORTH EDGE OF THE MAP",
+  "7 / OVERRIDE CONSOLES",
+  "7 OVERRIDE CONSOLES",
+  "1",
+  "OVERRIDE CONSOLE 1 / IN THE NORTH OF THE MAP",
+  "2",
+  "OVERRIDE CONSOLE 2 / IN THE NORTH-EAST OF THE MAP",
+  "3",
+  "OVERRIDE CONSOLE 3 / IN THE SOUTH-EAST OF THE MAP",
+  "4",
+  "OVERRIDE CONSOLE 4 / IN THE SOUTH OF THE MAP",
+  "5",
+  "OVERRIDE CONSOLE 5 / IN THE SOUTH-WEST OF THE MAP",
+  "6",
+  "OVERRIDE CONSOLE 6 / IN THE WEST OF THE MAP",
+  "7",
+  "OVERRIDE CONSOLE 7 / IN THE NORTH-WEST OF THE MAP",
+  "THAT'S THE MAP / WHERE ARE YOU / DROPPING FIRST?",
+  "WRAP-UP",
+  "THIS IS A FULL TOUR OF",
+  "EVERY NAMED PLACE ON THE FORTNITE",
+  "MAP RIGHT NOW,",
+  "STRAIGHT FROM EPIC'S OFFICIAL MAP DATA.",
+  "FORTY POINTS ON THE MAP:",
+  "THIRTEEN BIG NAMED LOCATIONS,",
+  "TWENTY LANDMARKS,",
+  "AND SEVEN OVERRIDE CONSOLES.",
+  "WE'LL GO CLOCKWISE FROM THE NORTH.",
+  "SAVE THIS ONE FOR YOUR NEXT",
+  "DROP.",
+  "PART ONE:",
+  "THE THIRTEEN NAMED LOCATIONS.",
+  "FIRST UP,",
+  "FREAKY FIELDS,",
+  "IN THE NORTH OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE STACK O'",
+  "STONES AND FREDDY FAZBEAR'S PIZZERIA.",
+  "NEXT,",
+  "WONKEELAND,",
+  "IN THE NORTH-EAST OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE FREAKY FIELDS",
+  "AND STACK O' STONES.",
+  "REALITY'S REIGN SITS NEAR THE CENTER",
+  "OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE GENO'S MACHINE",
+  "AND DARK CARTRIDGE.",
+  "AFTER THAT,",
+  "GOLDEN GROVE,",
+  "IN THE EAST OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE CARWASH AND",
+  "SHAKEN SANCTUARY.",
+  "THEN SHAKEN SANCTUARY,",
+  "IN THE SOUTH-EAST OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE PIXEL POLYS",
+  "AND PINKY ISLAND.",
+  "KEEP GOING AND YOU HIT CLUSTER",
+  "COAST,",
+  "ON THE FAR SOUTH-EAST EDGE OF",
+  "THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE PINKY ISLAND",
+  "AND CRASHOUT ESTATES.",
+  "SUNKEN SHORES SITS ON THE FAR",
+  "SOUTH EDGE OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE MEGA MAZE",
+  "AND BLINKY ISLAND.",
+  "STONE SANCTUM,",
+  "IN THE SOUTH-WEST OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE DARK CARTRIDGE",
+  "AND BARNCADE.",
+  "THEN HEATWAVE HARBOR,",
+  "ON THE FAR SOUTH-WEST EDGE OF",
+  "ITS NEAREST NEIGHBORS ARE DINE 'N",
+  "DOCKS AND THE QUACKAWAY.",
+  "KEEP GOING AND YOU HIT GREEN",
+  "HILL ZONE,",
+  "IN THE WEST OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE BARNCADE AND",
+  "OL' STUMPY.",
+  "EPIC'S OVERRIDE NEWS SAYS THE ISLAND",
+  "NOW HAS AREAS INSPIRED BY GAMING",
+  "LEGENDS LIKE SONIC,",
+  "TETRIS,",
+  "AND PAC-MAN.",
+  "CHOPPED SHOP SITS ON THE FAR",
+  "NORTH-WEST EDGE OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE ARTSY RVS",
+  "AND CARWASH.",
+  "NIGHTMARE NEIGHBORHOOD,",
+  "IN THE NORTH-WEST OF THE ISLAND.",
+  "ITS NEAREST NEIGHBORS ARE OL' STUMPY",
+  "AND FREDDY FAZBEAR'S PIZZERIA.",
+  "THEN LIFTY LODGE,",
+  "ON THE FAR NORTH-WEST EDGE OF",
+  "ITS NEAREST NEIGHBORS ARE PAC-MAN ISLAND",
+  "AND OL' STUMPY.",
+  "QUICK BREAK:",
+  "IF YOU'RE BUYING ANYTHING TODAY,",
+  "USE CODE BAD IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS THE CHANNEL AND",
+  "KEEPS THESE VIDEOS COMING.",
+  "PART TWO:",
+  "THE LANDMARKS.",
+  "THESE ARE THE SMALLER SPOTS,",
+  "AND SOME OF THEM ARE WORTH",
+  "KNOWING.",
+  "STACK O' STONES IS IN THE",
+  "NORTH OF THE ISLAND.",
+  "THE CLOSEST NAMED LOCATION IS FREAKY",
+  "FIELDS.",
+  "THERE'S A CARWASH IN THE SOUTH-EAST",
+  "OF THE ISLAND,",
+  "THE CLOSEST NAMED LOCATION IS CHOPPED",
+  "PINKY ISLAND,",
+  "THE CLOSEST NAMED LOCATION IS CLUSTER",
+  "COAST.",
+  "PIXEL POLYS,",
+  "IN THE SOUTH OF THE ISLAND.",
+  "THE CLOSEST NAMED LOCATION IS SHAKEN",
+  "SANCTUARY.",
+  "CRASHOUT ESTATES IS ON THE FAR",
+  "THEN THERE'S WETTEST-BONES RESEARCH FACILITY,",
+  "MEGA MAZE,",
+  "THE CLOSEST NAMED LOCATION IS SUNKEN",
+  "SHORES.",
+  "BLINKY ISLAND,",
+  "THE QUACKAWAY IS ON THE FAR",
+  "SOUTH-WEST EDGE OF THE ISLAND.",
+  "THE CLOSEST NAMED LOCATION IS HEATWAVE",
+  "HARBOR.",
+  "THEN THERE'S BIRDER'S BEACH,",
+  "DARK CARTRIDGE,",
+  "NEAR THE CENTER OF THE ISLAND.",
+  "THE CLOSEST NAMED LOCATION IS STONE",
+  "SANCTUM.",
+  "EPIC SAYS A CURSED CARTRIDGE IS",
+  "SPREADING THROUGH THE ISLAND,",
+  "CORRUPTING EVERYTHING IT TOUCHES.",
+  "BARNCADE,",
+  "DINE 'N DOCKS IS ON THE",
+  "FAR WEST EDGE OF THE ISLAND.",
+  "THEN THERE'S GENO'S MACHINE,",
+  "THE CLOSEST NAMED LOCATION IS REALITY'S",
+  "REIGN.",
+  "AND YES,",
+  "A SECOND CARWASH,",
+  "ON THE FAR WEST EDGE OF",
+  "ARTSY RVS,",
+  "OL' STUMPY IS IN THE NORTH-WEST",
+  "THE CLOSEST NAMED LOCATION IS NIGHTMARE",
+  "NEIGHBORHOOD.",
+  "THEN THERE'S PAC-MAN ISLAND,",
+  "FREDDY FAZBEAR'S PIZZERIA,",
+  "EPIC SAYS ONE ANIMATRONIC BOSS IS",
+  "ALWAYS LURKING AT FREDDY FAZBEAR'S PIZZA",
+  "PARLOR.",
+  "THE SLEAZY SNOOZE,",
+  "ON THE FAR NORTH EDGE OF",
+  "AND FINALLY,",
+  "PART THREE:",
+  "THE SEVEN OVERRIDE CONSOLES.",
+  "CONSOLE ONE,",
+  "CONSOLE TWO,",
+  "CONSOLE THREE,",
+  "CONSOLE FOUR,",
+  "CONSOLE FIVE,",
+  "CONSOLE SIX,",
+  "CONSOLE SEVEN,",
+  "THAT'S EVERY NAMED PLACE ON THE",
+  "MAP RIGHT NOW.",
+  "WHERE ARE YOU DROPPING FIRST?",
+  "TELL ME IN THE COMMENTS.",
+  "AND IF THIS HELPED,",
+  "SEE YOU IN THE NEXT ONE.",
+  "CODE BAD · ROYALE",
+  "#EPICPARTNER"
+ ]
+}
