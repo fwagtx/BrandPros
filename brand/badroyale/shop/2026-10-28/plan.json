@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-28",
+ "dateLabel": "OCT 28",
+ "deal": {
+  "name": "Five Nights at Freddy's Bundle",
+  "final": 4500,
+  "regular": 11000,
+  "out": "2026-10-31",
+  "outfits": [
+   {
+    "id": "Character_GuardHence",
+    "name": "Freddy Fazbear",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   },
+   {
+    "id": "Character_JigsawWaste",
+    "name": "Foxy The Pirate",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/featured.png",
+    "price": null,
+    "out": null,
+    "in": null
+   },
+   {
+    "id": "Character_SushiAware",
+    "name": "Chica the Chicken",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   },
+   {
+    "id": "Character_TearErrand",
+    "name": "Bonnie the Rabbit",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 1,
+  "outfits": [
+   {
+    "id": "CID_016_Athena_Commando_F",
+    "name": "Commando",
+    "rarity": "Uncommon",
+    "rarityKey": "uncommon",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_016_athena_commando_f/featured.png",
+    "price": 800,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   },
+   {
+    "id": "CID_043_Athena_Commando_F_Stealth",
+    "name": "Shadow Ops",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_043_athena_commando_f_stealth/featured.png",
+    "price": 1500,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   }
+  ]
+ },
+ "last": {
+  "count": 12,
+  "outfits": [
+   {
+    "id": "CID_861_Athena_Commando_F_Elastic_B",
+    "name": "Backlash",
+    "rarity": "Legendary",
+    "rarityKey": "legendary",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_861_athena_commando_f_elastic_b/featured.png",
+    "price": 1800,
+    "out": "2026-10-28",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "CID_857_Athena_Commando_M_Elastic_C",
+    "name": "Blastoff",
+    "rarity": "Legendary",
+    "rarityKey": "legendary",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_857_athena_commando_m_elastic_c/featured.png",
+    "price": 1800,
+    "out": "2026-10-28",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "CID_860_Athena_Commando_F_Elastic",
+    "name": "Dynamo Dancer",
+    "rarity": "Legendary",
+    "rarityKey": "legendary",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_860_athena_commando_f_elastic/featured.png",
+    "price": 1800,
+    "out": "2026-10-28",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "CID_862_Athena_Commando_F_Elastic_C",
+    "name": "Firebrand",
+    "rarity": "Legendary",
+    "rarityKey": "legendary",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_862_athena_commando_f_elastic_c/featured.png",
+    "price": 1800,
+    "out": "2026-10-28",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "CID_855_Athena_Commando_M_Elastic",
+    "name": "Hunter",
+    "rarity": "Legendary",
+    "rarityKey": "legendary",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_855_athena_commando_m_elastic/featured.png",
+    "price": 1800,
+    "out": "2026-10-28",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "CID_856_Athena_Commando_M_Elastic_B",
+    "name": "Hypersonic",
+    "rarity": "Legendary",
+    "rarityKey": "legendary",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_856_athena_commando_m_elastic_b/featured.png",
+    "price": 1800,
+    "out": "2026-10-28",
+    "in": "2026-10-26"
+   }
+  ]
+ },
+ "phrases": [
+  "Today's Item Shop.",
+  "Three things before you buy.",
+  "The Five Nights at Freddy's Bundle:",
+  "4,500 V-Bucks, instead of 11,000.",
+  "Commando and Shadow Ops are in the shop.",
+  "Both from Chapter 1, Season 1.",
+  "And twelve skins leave tonight, ten of them Legendary.",
+  "Buying today?",
+  "Use code BAD in the Item Shop."
+ ],
+ "resetLabel": "7 PM CT",
+ "dealOutLabel": "OCT 31"
+}

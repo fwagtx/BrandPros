@@ -1,0 +1,101 @@
+{
+ "duration": 19.1,
+ "caption": "#EpicPartner Fortnite Item Shop, Oct 28: the Five Nights at Freddy's Bundle is 4,500 V-Bucks instead of 11,000, Commando and Shadow Ops are in (Chapter 1, Season 1), and 12 skins leave at 7 PM CT.\nBuying today? Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Five Nights at Freddy's Bundle: 4500 V-Bucks, regular 11000",
+   "source": "shop.json",
+   "match": [
+    "Five Nights at Freddy's Bundle",
+    "\"finalPrice\": 4500",
+    "\"regularPrice\": 11000"
+   ]
+  },
+  {
+   "text": "Five Nights at Freddy's Bundle leaves 2026-10-31",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-10-31"
+   ]
+  },
+  {
+   "text": "Commando is in the shop, introduced Chapter 1, Season 1",
+   "source": "history.json",
+   "match": [
+    "Commando",
+    "Introduced in Chapter 1, Season 1."
+   ]
+  },
+  {
+   "text": "Shadow Ops is in the shop, introduced Chapter 1, Season 1",
+   "source": "history.json",
+   "match": [
+    "Shadow Ops",
+    "Introduced in Chapter 1, Season 1."
+   ]
+  },
+  {
+   "text": "12 outfits leave at tonight's reset",
+   "source": "plan.json",
+   "match": [
+    "\"count\": 12"
+   ],
+   "visual": "Counted from shop.json outDate == shop date (shop_pick.py)"
+  },
+  {
+   "text": "Reset at 7 PM CT",
+   "source": "plan.json",
+   "match": [
+    "7 PM CT"
+   ],
+   "visual": "00:00 UTC converted to America/Chicago"
+  }
+ ],
+ "text": [
+  "FREDDY FAZBEAR",
+  "SHADOW OPS",
+  "BACKLASH",
+  "TODAY'S ITEM SHOP / OCT 28",
+  "1 · BEST DEAL",
+  "FOXY THE PIRATE",
+  "CHICA THE CHICKEN",
+  "BONNIE THE RABBIT",
+  "4,500",
+  "11,000",
+  "FIVE NIGHTS AT FREDDY'S BUNDLE · LEAVES OCT 31",
+  "2 · OG CHECK",
+  "COMMANDO",
+  "CHAPTER 1 · SEASON 1",
+  "3 · LEAVING TONIGHT",
+  "BLASTOFF",
+  "DYNAMO DANCER",
+  "FIREBRAND",
+  "HUNTER",
+  "HYPERSONIC",
+  "+6 MORE",
+  "GONE AT 7 PM CT",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "TODAY'S ITEM SHOP.",
+  "THREE THINGS BEFORE",
+  "YOU BUY.",
+  "THE FIVE NIGHTS",
+  "AT FREDDY'S BUNDLE:",
+  "4,500 V-BUCKS,",
+  "INSTEAD OF 11,000.",
+  "COMMANDO AND SHADOW",
+  "OPS ARE IN",
+  "THE SHOP.",
+  "BOTH FROM CHAPTER",
+  "1,",
+  "SEASON 1.",
+  "AND TWELVE SKINS",
+  "LEAVE TONIGHT,",
+  "TEN OF THEM",
+  "LEGENDARY.",
+  "BUYING TODAY?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "#EPICPARTNER"
+ ]
+}

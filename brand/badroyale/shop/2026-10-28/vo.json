@@ -1,0 +1,44 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2,
+ "phrases": [
+  {
+   "text": "Today's Item Shop.",
+   "pause": 0.1
+  },
+  {
+   "text": "Three things before you buy.",
+   "pause": 0.24
+  },
+  {
+   "text": "The Five Nights at Freddy's Bundle:",
+   "pause": 0.06
+  },
+  {
+   "text": "4,500 V-Bucks, instead of 11,000.",
+   "pause": 0.26
+  },
+  {
+   "text": "Commando and Shadow Ops are in the shop.",
+   "pause": 0.06
+  },
+  {
+   "text": "Both from Chapter 1, Season 1.",
+   "pause": 0.26
+  },
+  {
+   "text": "And twelve skins leave tonight, ten of them Legendary.",
+   "pause": 0.3
+  },
+  {
+   "text": "Buying today?",
+   "pause": 0.06
+  },
+  {
+   "text": "Use code BAD in the Item Shop.",
+   "pause": 0.3
+  }
+ ]
+}
