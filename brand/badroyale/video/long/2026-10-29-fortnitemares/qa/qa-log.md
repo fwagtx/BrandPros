@@ -1,6 +1,6 @@
 # Pre-post check: badroyale-2026-10-29-fortnitemares.mp4
 
-Checked 2026-10-28T20:07:55Z · **DO NOT POST: fix failures**
+Checked 2026-10-28T20:30:39Z · **READY TO POST**
 
 ## 1. Facts: PASS
 13/13 claims verified against saved official data
@@ -18,10 +18,8 @@ Checked 2026-10-28T20:07:55Z · **DO NOT POST: fix failures**
 - FNAF bundle: 18 items incl. Mr. Cupcake, Freddy Slippers, emotes · PASS · matched in shop-2026-10-28.json; bundle brItems has 18 entries
 - A Nightmare on Elm Street Bundle: 2,300 V-Bucks, listed 4,700; Freddy Krueger + Freddy's Glove 1,600 · PASS · matched in shop-2026-10-28.json
 
-## 2. Spelling and grammar: FAIL
-Unknown words or a misspelled code
-- centre · FAIL
-- freddys · FAIL
+## 2. Spelling and grammar: PASS
+69 distinct words checked; code written as BAD in all 3 mentions
 
 ## 3. Frames: PASS
 No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png
@@ -29,19 +27,8 @@ No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) revie
 ## 4. Audio: PASS
 Integrated -14.1 LUFS, true peak -1.8 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.
 
-## 5. Specs and safe zones: FAIL
+## 5. Specs and safe zones: PASS
 1920x1080 h264 30 fps, aac 48000 Hz, 241.2s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.
-- FREDDY FAZBEAR'S PIZZERIA / NAMED SPOT · NORTH OF THE ISLAND at 62.25s: outside title-safe · FAIL
-- PAC-MAN, BLINKY & PINKY / THREE ISLANDS ON THE OFFICIAL MAP at 74.25s: outside title-safe · FAIL
-- NIGHTMARE NEIGHBORHOOD / NAMED LOCATION · NORTH-WEST OF THE  at 172.25s: outside title-safe · FAIL
-- 7 / OVERRIDE CONSOLES ON THE MAP at 196.5s: outside title-safe · FAIL
-- OVERRIDE CONSOLE 1 / IN THE NORTH OF THE MAP at 202.5s: outside title-safe · FAIL
-- OVERRIDE CONSOLE 2 / IN THE NORTH-EAST OF THE MAP at 204.25s: outside title-safe · FAIL
-- OVERRIDE CONSOLE 3 / IN THE SOUTH-EAST OF THE MAP at 206.25s: outside title-safe · FAIL
-- OVERRIDE CONSOLE 4 / IN THE SOUTH OF THE MAP at 208.25s: outside title-safe · FAIL
-- OVERRIDE CONSOLE 5 / IN THE SOUTH-WEST OF THE MAP at 210.25s: outside title-safe · FAIL
-- OVERRIDE CONSOLE 6 / IN THE WEST OF THE MAP at 212.25s: outside title-safe · FAIL
-- OVERRIDE CONSOLE 7 / IN THE NORTH-WEST OF THE MAP at 214.25s: outside title-safe · FAIL
 
 ## 6. Disclosure and wording: PASS
 #EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.

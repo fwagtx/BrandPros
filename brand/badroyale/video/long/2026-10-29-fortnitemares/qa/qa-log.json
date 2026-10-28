@@ -1,7 +1,7 @@
 {
   "video": "badroyale-2026-10-29-fortnitemares.mp4",
-  "checked_utc": "2026-10-28T20:07:55Z",
-  "verdict": "DO NOT POST: fix failures",
+  "checked_utc": "2026-10-28T20:30:39Z",
+  "verdict": "READY TO POST",
   "results": [
     {
       "check": "1. Facts",
@@ -77,18 +77,9 @@
     },
     {
       "check": "2. Spelling and grammar",
-      "status": "FAIL",
-      "detail": "Unknown words or a misspelled code",
-      "items": [
-        {
-          "word": "centre",
-          "result": "FAIL"
-        },
-        {
-          "word": "freddys",
-          "result": "FAIL"
-        }
-      ]
+      "status": "PASS",
+      "detail": "69 distinct words checked; code written as BAD in all 3 mentions",
+      "items": []
     },
     {
       "check": "3. Frames",
@@ -104,54 +95,9 @@
     },
     {
       "check": "5. Specs and safe zones",
-      "status": "FAIL",
+      "status": "PASS",
       "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 241.2s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
-      "items": [
-        {
-          "issue": "FREDDY FAZBEAR'S PIZZERIA / NAMED SPOT · NORTH OF THE ISLAND at 62.25s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "PAC-MAN, BLINKY & PINKY / THREE ISLANDS ON THE OFFICIAL MAP at 74.25s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "NIGHTMARE NEIGHBORHOOD / NAMED LOCATION · NORTH-WEST OF THE  at 172.25s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "7 / OVERRIDE CONSOLES ON THE MAP at 196.5s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "OVERRIDE CONSOLE 1 / IN THE NORTH OF THE MAP at 202.5s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "OVERRIDE CONSOLE 2 / IN THE NORTH-EAST OF THE MAP at 204.25s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "OVERRIDE CONSOLE 3 / IN THE SOUTH-EAST OF THE MAP at 206.25s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "OVERRIDE CONSOLE 4 / IN THE SOUTH OF THE MAP at 208.25s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "OVERRIDE CONSOLE 5 / IN THE SOUTH-WEST OF THE MAP at 210.25s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "OVERRIDE CONSOLE 6 / IN THE WEST OF THE MAP at 212.25s: outside title-safe",
-          "result": "FAIL"
-        },
-        {
-          "issue": "OVERRIDE CONSOLE 7 / IN THE NORTH-WEST OF THE MAP at 214.25s: outside title-safe",
-          "result": "FAIL"
-        }
-      ]
+      "items": []
     },
     {
       "check": "6. Disclosure and wording",

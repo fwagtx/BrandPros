@@ -252,6 +252,60 @@
    "match": "Every Override Console Location in Fortnite 🗺️ #Shorts"
   },
   {
+   "slug": "2026-10-29-fortnitemares",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-10-29T15:00:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-10-29-fortnitemares/video.mp4"
+    ],
+    "videoThumbnailUrl": "r2:2026-10-29-fortnitemares/thumb.jpg",
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-29T15:00:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "text": "#EpicPartner Everything in Fortnitemares right now 🎃 the cursed cartridge, the Five Nights at Freddy's bosses, BOTH Freddys in the Item Shop, Pac-Man's ghost islands, the squad-only Safety in Numbers quest and all 7 Override Consoles 📍\n\nFreddy Fazbear or Freddy Krueger? Tell me in the comments 👇\n\nUse code BAD in the Item Shop 💛\n\n0:00 Intro\n0:15 The Horror Is Here\n0:36 The Dark Cartridge\n1:01 Where the boss always is\n1:13 Pac-Man's ghost islands\n1:31 FNAF in the Item Shop\n2:01 The other Freddy\n2:28 Safety in Numbers\n2:51 Nightmare Neighborhood\n3:16 All 7 Override Consoles\n3:35 Recap\n\n#Fortnite #Fortnitemares #FNAF",
+    "youtubeData": {
+     "title": "Everything in Fortnitemares Right Now 🎃 Both Freddys, the Dark Cartridge & More",
+     "type": "video",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnitemares",
+      "fortnite fnaf",
+      "dark cartridge",
+      "safety in numbers quest",
+      "fortnite override",
+      "fortnite news"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Everything in Fortnitemares Right Now 🎃 Both Freddys, the Dark Cartridge & More",
+   "r2": {
+    "video": "2026-10-29-fortnitemares/video.mp4",
+    "cover": "2026-10-29-fortnitemares/thumb.jpg"
+   }
+  },
+  {
    "slug": "pacman",
    "network": "tiktok",
    "blogId": "7408112",
