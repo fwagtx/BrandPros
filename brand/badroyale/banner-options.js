@@ -55,6 +55,15 @@
     return s + center(cx, cy, cw, ch, logo, disc);
   }
 
+  window.__stormArt = (W, H) => {
+    let swirl = "";
+    for (let i = 0; i < 9; i++) swirl += `<ellipse cx="${W / 2}" cy="${H / 2}" rx="${W * (0.18 + i * 0.07)}" ry="${H * (0.2 + i * 0.09)}" fill="none" stroke="rgba(190,140,255,${0.16 - i * 0.012})" stroke-width="${W * 0.02}" transform="rotate(${i * 7 - 20} ${W / 2} ${H / 2})"/>`;
+    const u = H / 1000;
+    return svg(W, H, `${swirl}<ellipse cx="${W / 2}" cy="${H / 2}" rx="${W * 0.42}" ry="${H * 0.62}" fill="none" stroke="#FF6BD6" stroke-width="${8 * u + 4}" stroke-dasharray="${60 * u} ${26 * u}" opacity=".85"/>
+      ${bolt(W * 0.1, H * 0.48, 1.3 * u + 0.4, -12)}${bolt(W * 0.9, H * 0.5, 1.5 * u + 0.4, 14)}${bolt(W * 0.22, H * 0.2, 0.7 * u + 0.25, 8)}${bolt(W * 0.8, H * 0.82, 0.8 * u + 0.25, -10)}`) +
+      box(`inset:0;background:radial-gradient(ellipse 30% 40% at 50% 50%,rgba(30,10,85,.55),transparent 70%)`);
+  };
+
   // ---------- 3. SUPPLY DROP: a BAD crate drifting in on a balloon ----------
   function drop(W, H, cx, cy, cw, ch, logo, disc, side = "right") {
     let s = box(`inset:0;background:linear-gradient(180deg,#7FD3FF,#3DA6FF 45%,#1A63E6)`);
@@ -122,4 +131,41 @@
     add[`_direction/banner-${k}-facebook-1640x624`] = () => fb(fnc);
   });
   window.ASSETS.add(add);
+})();
+
+/* Tagline options, shown on the Storm banner as desktop sees it. Disclosure trimmed to the required #EpicPartner tag. */
+(function () {
+  "use strict";
+  const { box } = window.ASSETS.lib;
+  const { lockup, C } = window.BRAND_ROYALE;
+  const TAGS = [
+    ["", "No tagline: just the logo"],
+    ["What's new on the Island. Every day.", "Says what the channel is, in Fortnite words"],
+    ["Every update. Every secret.", "Short and punchy, covers news and Easter eggs"],
+    ["Drop in. Catch up.", "A play on dropping from the bus"],
+    ["The Island, explained.", "Calm and confident, like a show title"],
+    ["Use code BAD in the Item Shop", "Turns the banner into the ask"],
+  ];
+  // storm backdrop (same drawing as option B), with a custom tagline
+  function banner(tag) {
+    const W = 2560, H = 1440, cx = 507, cy = 508, cw = 1546, ch = 423;
+    let s = box(`inset:0;background:radial-gradient(ellipse 60% 85% at 50% 50%,#7B3BEA,#4A1BA8 45%,#1E0A55 85%)`);
+    const strip = box(`left:0;top:0;width:${W}px;height:${H}px`, window.__stormArt ? window.__stormArt(W, H) : "");
+    const tagHtml = tag ? `<div style="font:800 ${tag.length > 30 ? 46 : 52}px Barlow;letter-spacing:4px;text-transform:uppercase;color:#fff;text-shadow:0 4px 0 ${C.ink}">${tag.replace("BAD", `<span style="color:${C.yellow}">BAD</span>`)}</div>` : "";
+    const chip = `<div style="padding:4px 16px;border-radius:20px;background:rgba(7,15,50,.6);font:700 24px Barlow;color:#fff;letter-spacing:1px">#EpicPartner</div>`;
+    return s + strip + box(`left:${cx}px;top:${cy}px;width:${cw}px;height:${ch}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px`, lockup(tag ? 200 : 230) + tagHtml + chip);
+  }
+  function sheet() {
+    const tw = 1000, th = 423 * tw / 2560, W = 2160, rowH = th + 90;
+    let s = box(`inset:0;background:#ECEEF2`);
+    s += box(`left:60px;top:36px;font:700 42px Barlow;color:#14161C`, `Tagline options (on the Storm banner, as desktop shows it)`);
+    s += box(`left:60px;top:92px;font:600 25px Barlow;color:#5A6070`, `The long "fan-run, not affiliated" line is gone; the small #EpicPartner tag is the part Epic requires.`);
+    TAGS.forEach(([tag, why], i) => {
+      const x = 60 + (i % 2) * (tw + 40), y = 150 + Math.floor(i / 2) * rowH;
+      s += box(`left:${x}px;top:${y}px;width:${tw}px;height:${th}px;overflow:hidden;border-radius:10px`, box(`left:0;top:${-508 * tw / 2560}px;width:2560px;height:1440px;transform:scale(${tw / 2560});transform-origin:0 0`, banner(tag)));
+      s += box(`left:${x}px;top:${y + th + 10}px;font:700 26px Barlow;color:#14161C`, `${i + 1} · ${tag || "No tagline"} <span style="font-weight:600;color:#5A6070">· ${why}</span>`);
+    });
+    return [W, Math.ceil(150 + 3 * rowH + 20), s];
+  }
+  window.ASSETS.add({ "_direction/tagline-options": sheet });
 })();
