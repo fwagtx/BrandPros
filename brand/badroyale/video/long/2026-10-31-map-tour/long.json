@@ -306,6 +306,270 @@
    "count": {
     "Carwash": 2
    }
+  },
+  {
+   "text": "Freaky Fields: Its nearest neighbors are Stack o' Stones and Freddy Fazbear's Pizzeria.",
+   "source": "map.json",
+   "match": [
+    "Freaky Fields"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "WonkeeLand: Its nearest neighbors are Freaky Fields and Stack o' Stones.",
+   "source": "map.json",
+   "match": [
+    "WonkeeLand"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Reality's Reign: Its nearest neighbors are Geno's Machine and Dark Cartridge.",
+   "source": "map.json",
+   "match": [
+    "Reality's Reign"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Golden Grove: Its nearest neighbors are Carwash and Shaken Sanctuary.",
+   "source": "map.json",
+   "match": [
+    "Golden Grove"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Shaken Sanctuary: Its nearest neighbors are Pixel Polys and Pinky Island.",
+   "source": "map.json",
+   "match": [
+    "Shaken Sanctuary"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Cluster Coast: Its nearest neighbors are Pinky Island and Crashout Estates.",
+   "source": "map.json",
+   "match": [
+    "Cluster Coast"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Sunken Shores: Its nearest neighbors are Mega Maze and Blinky Island.",
+   "source": "map.json",
+   "match": [
+    "Sunken Shores"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Stone Sanctum: Its nearest neighbors are Dark Cartridge and Barncade.",
+   "source": "map.json",
+   "match": [
+    "Stone Sanctum"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Heatwave Harbor: Its nearest neighbors are Dine 'n Docks and The Quackaway.",
+   "source": "map.json",
+   "match": [
+    "Heatwave Harbor"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Green Hill Zone: Its nearest neighbors are Barncade and Ol' Stumpy.",
+   "source": "map.json",
+   "match": [
+    "Green Hill Zone"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Chopped Shop: Its nearest neighbors are Artsy RVs and Carwash.",
+   "source": "map.json",
+   "match": [
+    "Chopped Shop"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Nightmare Neighborhood: Its nearest neighbors are Ol' Stumpy and Freddy Fazbear's Pizzeria.",
+   "source": "map.json",
+   "match": [
+    "Nightmare Neighborhood"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Lifty Lodge: Its nearest neighbors are Pac-Man Island and Ol' Stumpy.",
+   "source": "map.json",
+   "match": [
+    "Lifty Lodge"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Stack o' Stones: The closest named location is Freaky Fields.",
+   "source": "map.json",
+   "match": [
+    "Stack o' Stones"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Carwash: The closest named location is Chopped Shop.",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Pinky Island: The closest named location is Cluster Coast.",
+   "source": "map.json",
+   "match": [
+    "Pinky Island"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Pixel Polys: The closest named location is Shaken Sanctuary.",
+   "source": "map.json",
+   "match": [
+    "Pixel Polys"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Crashout Estates: The closest named location is Cluster Coast.",
+   "source": "map.json",
+   "match": [
+    "Crashout Estates"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Wettest-Bones Research Facility: The closest named location is Shaken Sanctuary.",
+   "source": "map.json",
+   "match": [
+    "Wettest-Bones Research Facility"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Mega Maze: The closest named location is Sunken Shores.",
+   "source": "map.json",
+   "match": [
+    "Mega Maze"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Blinky Island: The closest named location is Sunken Shores.",
+   "source": "map.json",
+   "match": [
+    "Blinky Island"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "The Quackaway: The closest named location is Heatwave Harbor.",
+   "source": "map.json",
+   "match": [
+    "The Quackaway"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Birder's Beach: The closest named location is Heatwave Harbor.",
+   "source": "map.json",
+   "match": [
+    "Birder's Beach"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Dark Cartridge: The closest named location is Stone Sanctum.",
+   "source": "map.json",
+   "match": [
+    "Dark Cartridge"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Barncade: The closest named location is Stone Sanctum.",
+   "source": "map.json",
+   "match": [
+    "Barncade"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Dine 'n Docks: The closest named location is Heatwave Harbor.",
+   "source": "map.json",
+   "match": [
+    "Dine 'n Docks"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Geno's Machine: The closest named location is Reality's Reign.",
+   "source": "map.json",
+   "match": [
+    "Geno's Machine"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Carwash: The closest named location is Chopped Shop.",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Artsy RVs: The closest named location is Chopped Shop.",
+   "source": "map.json",
+   "match": [
+    "Artsy RVs"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Ol' Stumpy: The closest named location is Nightmare Neighborhood.",
+   "source": "map.json",
+   "match": [
+    "Ol' Stumpy"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Pac-Man Island: The closest named location is Nightmare Neighborhood.",
+   "source": "map.json",
+   "match": [
+    "Pac-Man Island"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "Freddy Fazbear's Pizzeria: The closest named location is Nightmare Neighborhood.",
+   "source": "map.json",
+   "match": [
+    "Freddy Fazbear's Pizzeria"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
+  },
+  {
+   "text": "The Sleazy Snooze: The closest named location is Freaky Fields.",
+   "source": "map.json",
+   "match": [
+    "The Sleazy Snooze"
+   ],
+   "visual": "nearest places by distance between official POI coordinates"
   }
  ],
  "segments": [
@@ -352,7 +616,7 @@
   },
   {
    "type": "map",
-   "p": 5,
+   "p": 6,
    "x": 1420.4,
    "y": 668.4,
    "z": 1.35,
@@ -368,7 +632,7 @@
   },
   {
    "type": "map",
-   "p": 6,
+   "p": 8,
    "x": 1130.8,
    "y": 1014.7,
    "z": 1.35,
@@ -384,7 +648,7 @@
   },
   {
    "type": "map",
-   "p": 7,
+   "p": 10,
    "x": 1489.4,
    "y": 1117.2,
    "z": 1.35,
@@ -400,7 +664,7 @@
   },
   {
    "type": "map",
-   "p": 8,
+   "p": 12,
    "x": 1260.0,
    "y": 1380.1,
    "z": 1.35,
@@ -416,7 +680,7 @@
   },
   {
    "type": "map",
-   "p": 9,
+   "p": 14,
    "x": 1383.7,
    "y": 1639.6,
    "z": 1.35,
@@ -432,7 +696,7 @@
   },
   {
    "type": "map",
-   "p": 10,
+   "p": 16,
    "x": 824.8,
    "y": 1605.1,
    "z": 1.35,
@@ -448,7 +712,7 @@
   },
   {
    "type": "map",
-   "p": 11,
+   "p": 18,
    "x": 867.3,
    "y": 1296.1,
    "z": 1.35,
@@ -464,7 +728,7 @@
   },
   {
    "type": "map",
-   "p": 12,
+   "p": 20,
    "x": 416.2,
    "y": 1397.0,
    "z": 1.35,
@@ -480,7 +744,7 @@
   },
   {
    "type": "map",
-   "p": 13,
+   "p": 22,
    "x": 599.8,
    "y": 1016.8,
    "z": 1.35,
@@ -496,7 +760,7 @@
   },
   {
    "type": "map",
-   "p": 15,
+   "p": 25,
    "x": 327.8,
    "y": 719.1,
    "z": 1.35,
@@ -512,7 +776,7 @@
   },
   {
    "type": "map",
-   "p": 16,
+   "p": 27,
    "x": 771.9,
    "y": 756.3,
    "z": 1.35,
@@ -528,7 +792,7 @@
   },
   {
    "type": "map",
-   "p": 17,
+   "p": 29,
    "x": 585.6,
    "y": 431.2,
    "z": 1.35,
@@ -544,11 +808,11 @@
   },
   {
    "type": "code",
-   "p": 18
+   "p": 31
   },
   {
    "type": "title",
-   "p": 19,
+   "p": 32,
    "chapter": "20 landmarks",
    "kicker": "PART 2",
    "lines": [
@@ -557,7 +821,7 @@
   },
   {
    "type": "map",
-   "p": 20,
+   "p": 33,
    "x": 1047.5,
    "y": 506.0,
    "z": 1.5,
@@ -573,7 +837,7 @@
   },
   {
    "type": "map",
-   "p": 21,
+   "p": 35,
    "x": 1402.8,
    "y": 1199.3,
    "z": 1.5,
@@ -589,7 +853,7 @@
   },
   {
    "type": "map",
-   "p": 22,
+   "p": 37,
    "x": 1259.9,
    "y": 1598.3,
    "z": 1.5,
@@ -605,7 +869,7 @@
   },
   {
    "type": "map",
-   "p": 23,
+   "p": 39,
    "x": 1090.9,
    "y": 1273.8,
    "z": 1.5,
@@ -621,7 +885,7 @@
   },
   {
    "type": "map",
-   "p": 24,
+   "p": 41,
    "x": 1206.5,
    "y": 1723.5,
    "z": 1.5,
@@ -637,7 +901,7 @@
   },
   {
    "type": "map",
-   "p": 25,
+   "p": 43,
    "x": 1108.4,
    "y": 1580.1,
    "z": 1.5,
@@ -653,7 +917,7 @@
   },
   {
    "type": "map",
-   "p": 26,
+   "p": 45,
    "x": 1010.7,
    "y": 1478.5,
    "z": 1.5,
@@ -669,7 +933,7 @@
   },
   {
    "type": "map",
-   "p": 27,
+   "p": 47,
    "x": 560.2,
    "y": 1659.1,
    "z": 1.5,
@@ -685,7 +949,7 @@
   },
   {
    "type": "map",
-   "p": 28,
+   "p": 49,
    "x": 421.6,
    "y": 1653.1,
    "z": 1.5,
@@ -701,7 +965,7 @@
   },
   {
    "type": "map",
-   "p": 29,
+   "p": 51,
    "x": 215.2,
    "y": 1767.5,
    "z": 1.5,
@@ -717,7 +981,7 @@
   },
   {
    "type": "map",
-   "p": 30,
+   "p": 53,
    "x": 885.0,
    "y": 1106.1,
    "z": 1.5,
@@ -733,7 +997,7 @@
   },
   {
    "type": "map",
-   "p": 32,
+   "p": 56,
    "x": 650.7,
    "y": 1245.6,
    "z": 1.5,
@@ -749,7 +1013,7 @@
   },
   {
    "type": "map",
-   "p": 33,
+   "p": 58,
    "x": 340.3,
    "y": 1198.0,
    "z": 1.5,
@@ -765,7 +1029,7 @@
   },
   {
    "type": "map",
-   "p": 34,
+   "p": 60,
    "x": 905.8,
    "y": 1013.3,
    "z": 1.5,
@@ -781,7 +1045,7 @@
   },
   {
    "type": "map",
-   "p": 35,
+   "p": 62,
    "x": 330.0,
    "y": 926.2,
    "z": 1.5,
@@ -797,7 +1061,7 @@
   },
   {
    "type": "map",
-   "p": 36,
+   "p": 64,
    "x": 235.5,
    "y": 818.1,
    "z": 1.5,
@@ -813,7 +1077,7 @@
   },
   {
    "type": "map",
-   "p": 37,
+   "p": 66,
    "x": 643.5,
    "y": 746.7,
    "z": 1.5,
@@ -829,7 +1093,7 @@
   },
   {
    "type": "map",
-   "p": 38,
+   "p": 68,
    "x": 842.6,
    "y": 531.1,
    "z": 1.5,
@@ -845,7 +1109,7 @@
   },
   {
    "type": "map",
-   "p": 39,
+   "p": 70,
    "x": 929.1,
    "y": 607.1,
    "z": 1.5,
@@ -861,7 +1125,7 @@
   },
   {
    "type": "map",
-   "p": 41,
+   "p": 73,
    "x": 939.2,
    "y": 370.7,
    "z": 1.5,
@@ -877,14 +1141,14 @@
   },
   {
    "type": "stat",
-   "p": 42,
+   "p": 75,
    "chapter": "7 Override Consoles",
    "big": "7",
    "label": "Override Consoles"
   },
   {
    "type": "map",
-   "p": 43,
+   "p": 76,
    "x": 1088.9,
    "y": 611.9,
    "z": 1.4,
@@ -900,7 +1164,7 @@
   },
   {
    "type": "map",
-   "p": 44,
+   "p": 77,
    "x": 1247.1,
    "y": 888.1,
    "z": 1.4,
@@ -916,7 +1180,7 @@
   },
   {
    "type": "map",
-   "p": 45,
+   "p": 78,
    "x": 1420.0,
    "y": 1275.0,
    "z": 1.4,
@@ -932,7 +1196,7 @@
   },
   {
    "type": "map",
-   "p": 46,
+   "p": 79,
    "x": 970.8,
    "y": 1573.9,
    "z": 1.4,
@@ -948,7 +1212,7 @@
   },
   {
    "type": "map",
-   "p": 47,
+   "p": 80,
    "x": 600.5,
    "y": 1448.1,
    "z": 1.4,
@@ -964,7 +1228,7 @@
   },
   {
    "type": "map",
-   "p": 48,
+   "p": 81,
    "x": 473.3,
    "y": 1124.0,
    "z": 1.4,
@@ -980,7 +1244,7 @@
   },
   {
    "type": "map",
-   "p": 49,
+   "p": 82,
    "x": 636.2,
    "y": 693.0,
    "z": 1.4,
@@ -996,7 +1260,7 @@
   },
   {
    "type": "title",
-   "p": 50,
+   "p": 83,
    "chapter": "Wrap-up",
    "kicker": "THAT'S THE MAP",
    "lines": [
@@ -1006,7 +1270,7 @@
   },
   {
    "type": "code",
-   "p": 52
+   "p": 85
   }
  ]
 }

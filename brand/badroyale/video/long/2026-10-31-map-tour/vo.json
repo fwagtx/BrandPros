@@ -21,40 +21,80 @@
    "pause": 0.25
   },
   {
+   "text": "Its nearest neighbors are Stack o' Stones and Freddy Fazbear's Pizzeria.",
+   "pause": 0.3
+  },
+  {
    "text": "Next, WonkeeLand, in the north-east of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "Its nearest neighbors are Freaky Fields and Stack o' Stones.",
+   "pause": 0.3
   },
   {
    "text": "Reality's Reign sits near the center of the island.",
    "pause": 0.25
   },
   {
+   "text": "Its nearest neighbors are Geno's Machine and Dark Cartridge.",
+   "pause": 0.3
+  },
+  {
    "text": "After that, Golden Grove, in the east of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "Its nearest neighbors are Carwash and Shaken Sanctuary.",
+   "pause": 0.3
   },
   {
    "text": "Then Shaken Sanctuary, in the south-east of the island.",
    "pause": 0.25
   },
   {
+   "text": "Its nearest neighbors are Pixel Polys and Pinky Island.",
+   "pause": 0.3
+  },
+  {
    "text": "Keep going and you hit Cluster Coast, on the far south-east edge of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "Its nearest neighbors are Pinky Island and Crashout Estates.",
+   "pause": 0.3
   },
   {
    "text": "Sunken Shores sits on the far south edge of the island.",
    "pause": 0.25
   },
   {
+   "text": "Its nearest neighbors are Mega Maze and Blinky Island.",
+   "pause": 0.3
+  },
+  {
    "text": "After that, Stone Sanctum, in the south-west of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "Its nearest neighbors are Dark Cartridge and Barncade.",
+   "pause": 0.3
   },
   {
    "text": "Then Heatwave Harbor, on the far south-west edge of the island.",
    "pause": 0.25
   },
   {
+   "text": "Its nearest neighbors are Dine 'n Docks and The Quackaway.",
+   "pause": 0.3
+  },
+  {
    "text": "Keep going and you hit Green Hill Zone, in the west of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "Its nearest neighbors are Barncade and Ol' Stumpy.",
+   "pause": 0.3
   },
   {
    "text": "Epic's Override news says the island now has areas inspired by gaming legends like Sonic, Tetris, and Pac-Man.",
@@ -65,12 +105,24 @@
    "pause": 0.25
   },
   {
+   "text": "Its nearest neighbors are Artsy RVs and Carwash.",
+   "pause": 0.3
+  },
+  {
    "text": "After that, Nightmare Neighborhood, in the north-west of the island.",
    "pause": 0.25
   },
   {
+   "text": "Its nearest neighbors are Ol' Stumpy and Freddy Fazbear's Pizzeria.",
+   "pause": 0.3
+  },
+  {
    "text": "Then Lifty Lodge, on the far north-west edge of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "Its nearest neighbors are Pac-Man Island and Ol' Stumpy.",
+   "pause": 0.3
   },
   {
    "text": "Quick break: if you're buying anything today, use code BAD in the Item Shop. It really helps the channel and keeps these videos coming.",
@@ -85,44 +137,88 @@
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Freaky Fields.",
+   "pause": 0.3
+  },
+  {
    "text": "There's a Carwash in the south-east of the island,",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Chopped Shop.",
+   "pause": 0.3
   },
   {
    "text": "Pinky Island, on the far south-east edge of the island.",
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Cluster Coast.",
+   "pause": 0.3
+  },
+  {
    "text": "Next, Pixel Polys, in the south of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Shaken Sanctuary.",
+   "pause": 0.3
   },
   {
    "text": "Crashout Estates is on the far south edge of the island.",
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Cluster Coast.",
+   "pause": 0.3
+  },
+  {
    "text": "Then there's Wettest-Bones Research Facility, in the south of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Shaken Sanctuary.",
+   "pause": 0.3
   },
   {
    "text": "Mega Maze, in the south of the island.",
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Sunken Shores.",
+   "pause": 0.3
+  },
+  {
    "text": "Next, Blinky Island, on the far south-west edge of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Sunken Shores.",
+   "pause": 0.3
   },
   {
    "text": "The Quackaway is on the far south-west edge of the island.",
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Heatwave Harbor.",
+   "pause": 0.3
+  },
+  {
    "text": "Then there's Birder's Beach, on the far south-west edge of the island.",
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Heatwave Harbor.",
+   "pause": 0.3
+  },
+  {
    "text": "Dark Cartridge, near the center of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Stone Sanctum.",
+   "pause": 0.3
   },
   {
    "text": "Epic says a cursed cartridge is spreading through the Island, corrupting everything it touches.",
@@ -133,32 +229,64 @@
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Stone Sanctum.",
+   "pause": 0.3
+  },
+  {
    "text": "Dine 'n Docks is on the far west edge of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Heatwave Harbor.",
+   "pause": 0.3
   },
   {
    "text": "Then there's Geno's Machine, near the center of the island.",
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Reality's Reign.",
+   "pause": 0.3
+  },
+  {
    "text": "and yes, a second Carwash, on the far west edge of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Chopped Shop.",
+   "pause": 0.3
   },
   {
    "text": "Next, Artsy RVs, on the far west edge of the island.",
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Chopped Shop.",
+   "pause": 0.3
+  },
+  {
    "text": "Ol' Stumpy is in the north-west of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Nightmare Neighborhood.",
+   "pause": 0.3
   },
   {
    "text": "Then there's Pac-Man Island, in the north of the island.",
    "pause": 0.25
   },
   {
+   "text": "The closest named location is Nightmare Neighborhood.",
+   "pause": 0.3
+  },
+  {
    "text": "Freddy Fazbear's Pizzeria, in the north of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Nightmare Neighborhood.",
+   "pause": 0.3
   },
   {
    "text": "Epic says one animatronic boss is always lurking at Freddy Fazbear's Pizza Parlor.",
@@ -167,6 +295,10 @@
   {
    "text": "Next, The Sleazy Snooze, on the far north edge of the island.",
    "pause": 0.25
+  },
+  {
+   "text": "The closest named location is Freaky Fields.",
+   "pause": 0.3
   },
   {
    "text": "And finally, part three: the seven Override Consoles.",
