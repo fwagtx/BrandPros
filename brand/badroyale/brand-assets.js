@@ -53,12 +53,36 @@
   const disclosure = (size) => `<span style="font:700 ${size}px Barlow;letter-spacing:1px;color:${C.white};opacity:.9">#EpicPartner · fan-run, not affiliated with Epic Games</span>`;
 
   // ---------- banners ----------
+  // cel-shaded cloud: flat white puffs with a light-blue underside, no outline
+  const cloud = (x, y, w, o = 1) => box(`left:${x}px;top:${y}px;width:${w}px;height:${w * 0.42}px;opacity:${o}`, svg(500, 210,
+    `<g fill="#DCEFFF"><circle cx="120" cy="140" r="70"/><circle cx="230" cy="110" r="95"/><circle cx="350" cy="135" r="75"/><rect x="110" y="140" width="290" height="62" rx="31"/></g>
+     <g fill="#FFFFFF"><circle cx="120" cy="125" r="62"/><circle cx="230" cy="95" r="86"/><circle cx="350" cy="122" r="66"/><rect x="118" y="120" width="272" height="56" rx="28"/></g>`, `width:${w}px;height:${w * 0.42}px`));
+  // a series shown as an in-game item card in its rarity color
+  function seriesCard(x, y, rot, rarity, icon, label) {
+    const [a, b] = RARITY[rarity];
+    return box(`left:${x}px;top:${y}px;width:210px;height:270px;transform:rotate(${rot}deg);border-radius:14px;overflow:hidden;
+      background:radial-gradient(circle at 50% 32%,${a},${b} 78%);border:5px solid ${C.ink};box-shadow:0 10px 0 rgba(7,26,94,.55)`,
+      box(`left:25px;top:18px;width:160px;height:160px`, `<div style="transform:scale(.4);transform-origin:0 0">${svg(400, 400, `<g transform="translate(200 200)">${ICONS[icon]}</g>`)}</div>`) +
+      box(`left:0;right:0;bottom:0;height:78px;background:linear-gradient(transparent,rgba(5,10,30,.85) 35%);display:flex;align-items:flex-end;justify-content:center;padding-bottom:12px`, fn(label, 30, { skew: 0, sw: 3 })));
+  }
   function youtube() {
-    const W = 2560, H = 1440;
-    let s = box(`inset:0;background:${BG_WIDE}`);
-    // all devices show the 1546 x 423 center
-    s += box(`left:${W / 2 - 773}px;top:${H / 2 - 212}px;width:1546px;height:423px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px`, lockup(245, true));
-    s += box(`left:0;right:0;top:${H / 2 + 222}px;text-align:center`, disclosure(26));
+    // TV shows all 2560x1440; desktop shows the full-width band y 508-931; phones only the 1546x423 center.
+    const W = 2560, H = 1440, X0 = W / 2 - 773, Y0 = H / 2 - 212;
+    let s = box(`inset:0;background:linear-gradient(180deg,#63C8FF 0%,#3DA6FF 32%,${C.blue} 62%,${C.deep} 100%)`);
+    // sky (TV area and behind the band)
+    s += cloud(-60, 90, 520, 0.95) + cloud(620, 40, 380, 0.9) + cloud(1500, 70, 460, 0.95) + cloud(2150, 150, 420, 0.9) + cloud(1050, 230, 300, 0.6);
+    s += cloud(80, 520, 360, 0.45) + cloud(2180, 600, 330, 0.45);
+    // rolling island hills along the bottom (TV area)
+    s += box(`left:0;top:0`, svg(W, H, `
+      <path d="M0 1180 C 260 1080 520 1120 760 1170 C 1000 1220 1200 1100 1460 1120 C 1760 1140 1980 1230 2240 1160 C 2400 1120 2500 1140 2560 1150 L2560 1440 L0 1440 Z" fill="#3E9A3A"/>
+      <path d="M0 1240 C 300 1170 600 1230 900 1260 C 1200 1290 1500 1200 1800 1230 C 2100 1260 2350 1300 2560 1240 L2560 1440 L0 1440 Z" fill="#2F7F31"/>
+      <path d="M0 1320 C 400 1290 800 1350 1280 1340 C 1760 1330 2200 1290 2560 1330 L2560 1440 L0 1440 Z" fill="#256A28"/>`));
+    // desktop band: series as item cards, left and right of the phone-safe center
+    s += seriesCard(40, 575, -6, "legendary", "easter-eggs", "Easter eggs") + seriesCard(268, 600, 5, "epic", "breaking", "Breaking");
+    s += seriesCard(2082, 600, -5, "rare", "patch-notes", "Patch notes") + seriesCard(2310, 575, 6, "uncommon", "collab-watch", "Collab watch");
+    // phone-safe center: logo, tagline, disclosure (all inside 1546 x 423)
+    s += box(`left:${X0}px;top:${Y0}px;width:1546px;height:423px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px`,
+      lockup(200, true) + `<div style="margin-top:2px;padding:6px 18px;border-radius:24px;background:rgba(7,26,94,.55)">${disclosure(24)}</div>`);
     return [W, H, s];
   }
   function xHeader() {
@@ -120,7 +144,7 @@
       s += box(`left:${x}px;top:900px;width:292px;height:120px;border-radius:14px;background:${c};border:2px solid #D9DDE6`);
       s += p(x, 1028, 292, `<b style="font-weight:700">${n}</b> ${c}<br><span style="color:#5A6070;font-size:20px">${use}</span>`, 22);
     });
-    s += p(80, 1120, 300, `<b>In-game rarity colors</b><br><span style="font-size:20px;color:#5A6070">Item cards and frames in videos only</span>`, 22);
+    s += p(80, 1120, 300, `<b>In-game rarity colors</b><br><span style="font-size:20px;color:#5A6070">Item cards in videos and the banner's series cards</span>`, 22);
     Object.entries(RARITY).forEach(([n, [a, b]], i) => {
       s += box(`left:${420 + i * 244}px;top:1118px;width:224px;height:84px;border-radius:12px;background:radial-gradient(circle at 50% 30%,${a},${b});display:flex;align-items:center;justify-content:center`, fn(n, 36, { sw: 3, skew: 0 }));
     });
