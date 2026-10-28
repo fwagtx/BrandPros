@@ -1,0 +1,49 @@
+{
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2,
+ "phrases": [
+  {
+   "text": "There's a Pac-Man hidden on the Fortnite map.",
+   "pause": 0.16,
+   "speed": 1.16
+  },
+  {
+   "text": "Right here, in this lake.",
+   "pause": 0.28,
+   "speed": 1.0
+  },
+  {
+   "text": "And two of his ghosts are here too.",
+   "pause": 0.14,
+   "speed": 1.12
+  },
+  {
+   "text": "Blinky,",
+   "pause": 0.14,
+   "speed": 1.0
+  },
+  {
+   "text": "and Pinky.",
+   "pause": 0.32,
+   "speed": 1.0
+  },
+  {
+   "text": "But Inky and Clyde?",
+   "pause": 0.22,
+   "speed": 1.02
+  },
+  {
+   "text": "They're nowhere on the map.",
+   "pause": 0.36,
+   "speed": 1.05
+  },
+  {
+   "text": "Code BAD in the Item Shop supports the channel.",
+   "pause": 0.3,
+   "speed": 1.1
+  }
+ ],
+ "mic": true
+}

@@ -7,6 +7,7 @@ timeline. Inside a phrase, word times are split in proportion to each word's pho
 Usage: python3 vo.py <script.json> <out.wav> <out-timings.json>
 script.json: {"voice": "af_heart", "speed": 1.1, "lang": "en-us", "lead": 0.25,
               "phrases": [{"text": "There's a Pac-Man hidden on the map.", "pause": 0.18}, ...]}
+"text" is what the captions show; the voice says it through PRONOUNCE (or a phrase's own "say").
 """
 import json, os, re, sys
 import numpy as np, soundfile as sf
@@ -14,6 +15,24 @@ from kokoro_onnx import Kokoro
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SR = 24000
+
+
+# How words are SAID, when that differs from how they're SHOWN in captions.
+# The model reads all-caps words as acronyms ("BAD" -> "B, A, D"), so the code is fed in lowercase.
+# Keys are matched case-sensitively on the bare word; punctuation around the word is kept.
+PRONOUNCE = {
+    "BAD": "bad",
+    "CODE": "code",
+    "v42.40": "version forty-two point four oh",
+    "FNCS": "F N C S",
+    "LTM": "limited time mode",
+}
+
+
+def spoken(tok):
+    m = re.match(r"^([^\w]*)(.*?)([^\w]*)$", tok)
+    lead, core, tail = m.groups()
+    return lead + PRONOUNCE.get(core, core) + tail
 
 
 def trim(a, thr=0.012, pad=0.035):
@@ -29,17 +48,24 @@ def main():
     cfg = json.load(open(script))
     k = Kokoro(os.path.join(HERE, "models/model_quantized.onnx"), os.path.join(HERE, "models/voices.npz"))
     voice, speed, lang = cfg.get("voice", "af_heart"), cfg.get("speed", 1.1), cfg.get("lang", "en-us")
+    # a blend like "af_heart:0.6+af_bella:0.4" mixes voices into one that no stock voice matches
+    if "+" in voice or ":" in voice:
+        parts = [v.split(":") for v in voice.split("+")]
+        voice_arr = sum(float(w) * k.voices[n] for n, w in parts) / sum(float(w) for _, w in parts)
+    else:
+        voice_arr = voice
     t = cfg.get("lead", 0.25)
     chunks, words, phrases = [np.zeros(int(t * SR), dtype=np.float32)], [], []
     for i, ph in enumerate(cfg["phrases"]):
-        a, _ = k.create(ph["text"], voice=voice, speed=ph.get("speed", speed), lang=lang)
+        say = ph.get("say") or " ".join(spoken(t) for t in ph["text"].split())
+        a, _ = k.create(say, voice=voice_arr, speed=ph.get("speed", speed), lang=lang)
         a = trim(a.astype(np.float32))
         dur = len(a) / SR
         toks = ph["text"].split()
         # weight each word by its phoneme count (spoken length), with a floor for short words
         w = []
         for tok in toks:
-            core = re.sub(r"[^\w'\-]", "", tok)
+            core = re.sub(r"[^\w'\-]", "", spoken(tok))
             try:
                 n = len(k.tokenizer.phonemize(core, lang)) if core else 1
             except Exception:

@@ -1,5 +1,5 @@
 {
- "duration": 13.3,
+ "duration": 13,
  "samples": [
   {
    "t": 0,
@@ -1471,13 +1471,6 @@
      "h": 387.5
     },
     {
-     "text": "SUPPORTS THE CHANNEL.",
-     "x": 60,
-     "y": 1150,
-     "w": 880,
-     "h": 159.8125
-    },
-    {
      "text": "#EPICPARTNER",
      "x": 44,
      "y": 166,
@@ -1488,25 +1481,6 @@
   },
   {
    "t": 13,
-   "boxes": [
-    {
-     "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
-     "x": 190,
-     "y": 520,
-     "w": 700,
-     "h": 387.5
-    },
-    {
-     "text": "#EPICPARTNER",
-     "x": 44,
-     "y": 166,
-     "w": 207,
-     "h": 45
-    }
-   ]
-  },
-  {
-   "t": 13.25,
    "boxes": [
     {
      "text": "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
