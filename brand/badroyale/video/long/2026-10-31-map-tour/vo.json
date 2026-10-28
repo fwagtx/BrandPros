@@ -212,5 +212,9 @@
    "text": "And if this helped, use code BAD in the Item Shop. See you in the next one.",
    "pause": 0.4
   }
- ]
+ ],
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2
 }
