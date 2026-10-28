@@ -1,0 +1,244 @@
+{
+ "_note": "Owner, 2026-10-28: the drafts already in Metricool must go live today. For each entry: updateScheduledPost(blogId 7408112, id, uuid, info exactly as given). The shop ones move from 12:15 (missed) to 2:00 PM CT.",
+ "blogId": "7408112",
+ "updates": [
+  {
+   "what": "Oct 28 shop · TikTok",
+   "id": "408965234",
+   "uuid": "-8132962385066767485",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://static.metricool.com/planner/202610/7065085-file-1329288568801454909.mp4"
+    ],
+    "videoThumbnailUrl": "https://static.metricool.com/planner/202610/7065085-file-1655322435868103816.jpeg",
+    "mediaAltText": [],
+    "publicationDate": {
+     "dateTime": "2026-10-28T14:00:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner This is today's Item Shop for October 28 🛒\nThe Five Nights at Freddy's bundle is 4,500 V-Bucks instead of 11,000 👀\nChapter 1 OGs Commando & Shadow Ops are in the shop and 12 skins are on their last day ⏳\nWhich one are you grabbing? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteitemshop #itemshop",
+    "tiktokData": {
+     "title": "Today's Item Shop · Oct 28",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "photoCoverIndex": 0,
+     "isAigc": false
+    }
+   }
+  },
+  {
+   "what": "Oct 28 shop · Instagram",
+   "id": "408965437",
+   "uuid": "4437627280271821204",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://static.metricool.com/planner/202610/7065085-file-1648371264600979006.mp4"
+    ],
+    "videoThumbnailUrl": "https://static.metricool.com/planner/202610/7065085-file-11047287368044099515.jpeg",
+    "mediaAltText": [],
+    "publicationDate": {
+     "dateTime": "2026-10-28T14:00:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner This is today's Item Shop for October 28 🛒\nThe Five Nights at Freddy's bundle is 4,500 V-Bucks instead of 11,000 👀\nChapter 1 OGs Commando & Shadow Ops are in the shop and 12 skins are on their last day ⏳\nWhich one are you grabbing? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteitemshop #itemshop",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  },
+  {
+   "what": "Oct 28 shop · Facebook",
+   "id": "408965614",
+   "uuid": "1151061994580428387",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://static.metricool.com/planner/202610/7065085-file-12328935589073542057.mp4"
+    ],
+    "videoThumbnailUrl": "https://static.metricool.com/planner/202610/7065085-file-14598895355160422649.jpeg",
+    "mediaAltText": [],
+    "publicationDate": {
+     "dateTime": "2026-10-28T14:00:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner This is today's Item Shop for October 28 🛒\nThe Five Nights at Freddy's bundle is 4,500 V-Bucks instead of 11,000 👀\nChapter 1 OGs Commando & Shadow Ops are in the shop and 12 skins are on their last day ⏳\nWhich one are you grabbing? 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "Today's Item Shop · Oct 28"
+    }
+   }
+  },
+  {
+   "what": "Oct 28 shop · YouTube",
+   "id": "408969576",
+   "uuid": "-8083387038947456759",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://static.metricool.com/planner/202610/7065085-file-2798290251559804115.mp4"
+    ],
+    "mediaAltText": [],
+    "publicationDate": {
+     "dateTime": "2026-10-28T14:00:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner This is today's Fortnite Item Shop for October 28 🛒\nThe Five Nights at Freddy's bundle is 4,500 V-Bucks instead of 11,000 👀\nChapter 1 OGs Commando & Shadow Ops are in the shop and 12 skins are on their last day ⏳\nWhich one are you grabbing? 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteItemShop #Shorts",
+    "youtubeData": {
+     "title": "Today's Fortnite Item Shop (Oct 28) 👀 Five Nights at Freddy's Bundle for 4,500 V-Bucks #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnite item shop",
+      "item shop today",
+      "fortnite shop",
+      "fortnite item shop october 28"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   }
+  },
+  {
+   "what": "Freddy's · TikTok",
+   "id": "408963232",
+   "uuid": "-585562653210164448",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://static.metricool.com/planner/202610/7065085-file-1694157431626181937.mp4"
+    ],
+    "videoThumbnailUrl": "https://static.metricool.com/planner/202610/7065085-file-4987335531536956533.jpeg",
+    "mediaAltText": [],
+    "publicationDate": {
+     "dateTime": "2026-10-28T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner One animatronic boss is ALWAYS at Freddy Fazbear's 🐻 Here's exactly where to find it 📍\nBeat any rogue robot and you can possess the suit 🤖\nWho are you running into first? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fnaf #fortnitemares",
+    "tiktokData": {
+     "title": "Freddy's boss spot 🐻",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "photoCoverIndex": 0,
+     "isAigc": false
+    }
+   }
+  },
+  {
+   "what": "Freddy's · Instagram",
+   "id": "408970250",
+   "uuid": "3562335690418244519",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://static.metricool.com/planner/202610/7065085-file-13534858221074582098.mp4"
+    ],
+    "videoThumbnailUrl": "https://static.metricool.com/planner/202610/7065085-file-4786312254088915988.jpeg",
+    "mediaAltText": [],
+    "publicationDate": {
+     "dateTime": "2026-10-28T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner One animatronic boss is ALWAYS at Freddy Fazbear's 🐻 Here's exactly where to find it 📍\nBeat any rogue robot and you can possess the suit 🤖\nWho are you running into first? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fnaf #fortnitemares",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   }
+  }
+ ]
+}
