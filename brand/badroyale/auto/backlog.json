@@ -430,7 +430,7 @@
     "hasNotReadNotes": false,
     "mediaAltText": [],
     "media": [
-     "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183137Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=85721b0c935f55c5ab3e1f3429357a4fe5926b9cc55326cdadc39c3d7bcc7c83"
+     "r2:2026-10-30-guess-1/video.mp4"
     ],
     "publicationDate": {
      "dateTime": "2026-10-30T16:30:00",
@@ -440,7 +440,7 @@
     "smartLinkData": {
      "ids": []
     },
-    "videoThumbnailUrl": "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183138Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=cac321ebcdf07346a2d2043bd45b7af16c2f6ab90299858cb8c45e1cba5e84a6",
+    "videoThumbnailUrl": "r2:2026-10-30-guess-1/cover.jpg",
     "providers": [
      {
       "network": "tiktok"
@@ -478,7 +478,7 @@
     "hasNotReadNotes": false,
     "mediaAltText": [],
     "media": [
-     "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183137Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=85721b0c935f55c5ab3e1f3429357a4fe5926b9cc55326cdadc39c3d7bcc7c83"
+     "r2:2026-10-30-guess-1/video.mp4"
     ],
     "publicationDate": {
      "dateTime": "2026-10-30T16:30:00",
@@ -488,7 +488,7 @@
     "smartLinkData": {
      "ids": []
     },
-    "videoThumbnailUrl": "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183138Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=cac321ebcdf07346a2d2043bd45b7af16c2f6ab90299858cb8c45e1cba5e84a6",
+    "videoThumbnailUrl": "r2:2026-10-30-guess-1/cover.jpg",
     "providers": [
      {
       "network": "instagram"
@@ -520,7 +520,7 @@
     "hasNotReadNotes": false,
     "mediaAltText": [],
     "media": [
-     "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183137Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=85721b0c935f55c5ab3e1f3429357a4fe5926b9cc55326cdadc39c3d7bcc7c83"
+     "r2:2026-10-30-guess-1/video.mp4"
     ],
     "publicationDate": {
      "dateTime": "2026-10-30T16:30:00",
@@ -530,7 +530,7 @@
     "smartLinkData": {
      "ids": []
     },
-    "videoThumbnailUrl": "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183138Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=cac321ebcdf07346a2d2043bd45b7af16c2f6ab90299858cb8c45e1cba5e84a6",
+    "videoThumbnailUrl": "r2:2026-10-30-guess-1/cover.jpg",
     "providers": [
      {
       "network": "facebook"
@@ -561,7 +561,7 @@
     "hasNotReadNotes": false,
     "mediaAltText": [],
     "media": [
-     "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183137Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=85721b0c935f55c5ab3e1f3429357a4fe5926b9cc55326cdadc39c3d7bcc7c83"
+     "r2:2026-10-30-guess-1/video.mp4"
     ],
     "publicationDate": {
      "dateTime": "2026-10-30T16:30:00",

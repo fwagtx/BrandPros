@@ -76,10 +76,10 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 ## DAY run
 
 1. `git pull origin claude/eloquent-lovelace-vu2quk`, then `bash brand/badroyale/auto/setup.sh`
-1b. **Backlog first:** run `python3 brand/badroyale/auto/backlog.py links` (fresh hosted links), then for each entry
-   in `brand/badroyale/auto/backlog.json` whose `date` is at least 15 minutes away and whose `match` isn't already
+1b. **Backlog first:** run `python3 brand/badroyale/auto/backlog.py links` (writes backlog.live.json with fresh hosted
+   links; never commit that file), then for each entry in `brand/badroyale/auto/backlog.live.json` whose `date` is at least 15 minutes away and whose `match` isn't already
    scheduled (SHOP step 6), call `createScheduledPost` with its blogId, date and info exactly as given. Remove
-   scheduled and past entries from the file; once every entry of a slug is gone, delete its hosted files
+   scheduled and past entries from backlog.json; once every entry of a slug is gone, delete its hosted files
    (`python3 brand/_shared/store.py rm <key>` for each of its "r2" keys).
 1c. **Keep 3 days of shorts queued.** Look at the 12:30 and 4:30 PM slots for today and the next 2 days
    (getScheduledPosts). Fill the empty ones, earliest first, at most 3 new shorts per run, with steps 3-8 below

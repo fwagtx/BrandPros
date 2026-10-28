@@ -21,3 +21,5 @@ brand/badroyale/video/auto/*/img/
 brand/badroyale/video/auto/*/qa/stills/
 brand/badroyale/video/auto/*/qa/boxes.json
 brand/badroyale/video/auto/*/qa/*.png
+brand/badroyale/**/posts.json
+brand/badroyale/auto/backlog.live.json
