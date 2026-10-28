@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's cosmetics data)",
+ "files": [
+  {
+   "file": "CID_069_Athena_Commando_F_PinkBear.json",
+   "source": "Epic cosmetics data for Cuddle Team Leader",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Cuddle%20Team%20Leader",
+   "fetched_utc": "2026-10-28T18:33:57Z"
+  },
+  {
+   "file": "CID_116_Athena_Commando_M_CarbideBlack.json",
+   "source": "Epic cosmetics data for Omega",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Omega",
+   "fetched_utc": "2026-10-28T18:33:57Z"
+  },
+  {
+   "file": "CID_701_Athena_Commando_M_BananaAgent.json",
+   "source": "Epic cosmetics data for Agent Peely",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Agent%20Peely",
+   "fetched_utc": "2026-10-28T18:33:57Z"
+  }
+ ]
+}

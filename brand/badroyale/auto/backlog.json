@@ -416,6 +416,187 @@
     }
    },
    "match": "Fortnite's Hidden Pac-Man (and 2 Missing Ghosts) 👻 #Shorts"
+  },
+  {
+   "slug": "2026-10-30-guess-1",
+   "network": "tiktok",
+   "blogId": "7408112",
+   "date": "2026-10-30T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183137Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=85721b0c935f55c5ab3e1f3429357a4fe5926b9cc55326cdadc39c3d7bcc7c83"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-30T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183138Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=cac321ebcdf07346a2d2043bd45b7af16c2f6ab90299858cb8c45e1cba5e84a6",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteog #guesstheseason",
+    "tiktokData": {
+     "title": "Guess the season 👀",
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "autoAddMusic": false,
+     "isAigc": false
+    }
+   },
+   "match": "Guess the season 👀",
+   "r2": {
+    "video": "2026-10-30-guess-1/video.mp4",
+    "cover": "2026-10-30-guess-1/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-10-30-guess-1",
+   "network": "instagram",
+   "blogId": "7408112",
+   "date": "2026-10-30T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183137Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=85721b0c935f55c5ab3e1f3429357a4fe5926b9cc55326cdadc39c3d7bcc7c83"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-30T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183138Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=cac321ebcdf07346a2d2043bd45b7af16c2f6ab90299858cb8c45e1cba5e84a6",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteog #guesstheseason",
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    }
+   },
+   "match": "#EpicPartner Guess the season 👀 Only true OGs get all 3 righ",
+   "r2": {
+    "video": "2026-10-30-guess-1/video.mp4",
+    "cover": "2026-10-30-guess-1/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-10-30-guess-1",
+   "network": "facebook",
+   "blogId": "7408112",
+   "date": "2026-10-30T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183137Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=85721b0c935f55c5ab3e1f3429357a4fe5926b9cc55326cdadc39c3d7bcc7c83"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-30T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "videoThumbnailUrl": "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183138Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=cac321ebcdf07346a2d2043bd45b7af16c2f6ab90299858cb8c45e1cba5e84a6",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛",
+    "facebookData": {
+     "type": "REEL",
+     "title": "Guess the season"
+    }
+   },
+   "match": "#EpicPartner Guess the season 👀 Only true OGs get all 3 righ",
+   "r2": {
+    "video": "2026-10-30-guess-1/video.mp4",
+    "cover": "2026-10-30-guess-1/cover.jpg"
+   }
+  },
+  {
+   "slug": "2026-10-30-guess-1",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-10-30T16:30:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "https://231999c96851bc148ac14dfa00c54bae.r2.cloudflarestorage.com/usecodebad-media/badroyale/2026-10-30-guess-1/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=42626e84f28c794c0be8981cd8a49eca%2F20261028%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261028T183137Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host&X-Amz-Signature=85721b0c935f55c5ab3e1f3429357a4fe5926b9cc55326cdadc39c3d7bcc7c83"
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-30T16:30:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "text": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteOG #Shorts",
+    "youtubeData": {
+     "title": "Guess the Season These Fortnite Skins Came Out 👀 #Shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnite og",
+      "fortnite quiz",
+      "guess the season",
+      "fortnite skins"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Guess the Season These Fortnite Skins Came Out 👀 #Shorts",
+   "r2": {
+    "video": "2026-10-30-guess-1/video.mp4"
+   }
   }
  ]
 }

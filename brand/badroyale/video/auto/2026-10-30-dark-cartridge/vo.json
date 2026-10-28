@@ -1,0 +1,32 @@
+{
+ "phrases": [
+  {
+   "text": "That cursed cartridge Epic keeps talking about? It has a real spot on the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "It's called the Dark Cartridge,",
+   "pause": 0.06
+  },
+  {
+   "text": "and it's right here, close to the middle of the island.",
+   "pause": 0.25
+  },
+  {
+   "text": "Epic says it's spreading through the island, corrupting everything it touches.",
+   "pause": 0.25
+  },
+  {
+   "text": "Would you drop here?",
+   "pause": 0.15
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2
+}

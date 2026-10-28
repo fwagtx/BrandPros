@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's cosmetics data)",
+ "files": [
+  {
+   "file": "CID_349_Athena_Commando_M_Banana.json",
+   "source": "Epic cosmetics data for Peely",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Peely",
+   "fetched_utc": "2026-10-28T18:33:51Z"
+  },
+  {
+   "file": "CID_035_Athena_Commando_M_Medieval.json",
+   "source": "Epic cosmetics data for Black Knight",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Black%20Knight",
+   "fetched_utc": "2026-10-28T18:33:51Z"
+  },
+  {
+   "file": "CID_693_Athena_Commando_M_BuffCat.json",
+   "source": "Epic cosmetics data for Meowscles",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Meowscles",
+   "fetched_utc": "2026-10-28T18:33:51Z"
+  }
+ ]
+}

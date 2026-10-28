@@ -1,0 +1,32 @@
+{
+ "phrases": [
+  {
+   "text": "There's a Fortnitemares quest you can only unlock with friends.",
+   "pause": 0.2
+  },
+  {
+   "text": "It's called Safety in Numbers.",
+   "pause": 0.2
+  },
+  {
+   "text": "Epic says: explore a Collection of spine-chilling Islands, each with its own twist.",
+   "pause": 0.15
+  },
+  {
+   "text": "Face the fear with friends to unlock the Safety in Numbers Quest.",
+   "pause": 0.25
+  },
+  {
+   "text": "Who are you squadding up with?",
+   "pause": 0.15
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2
+}

@@ -1,0 +1,44 @@
+{
+ "phrases": [
+  {
+   "text": "Guess the season. Only true OGs get all three.",
+   "pause": 0.25
+  },
+  {
+   "text": "Renegade Raider.",
+   "pause": 1.7
+  },
+  {
+   "text": "Chapter 1, Season 1.",
+   "pause": 0.4
+  },
+  {
+   "text": "Midas.",
+   "pause": 1.7
+  },
+  {
+   "text": "Chapter 2, Season 2.",
+   "pause": 0.4
+  },
+  {
+   "text": "Drift.",
+   "pause": 1.7
+  },
+  {
+   "text": "Chapter 1, Season 5.",
+   "pause": 0.4
+  },
+  {
+   "text": "How many did you get right? Tell me in the comments.",
+   "pause": 0.2
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2
+}

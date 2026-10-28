@@ -1,5 +1,5 @@
 // Renders a scene to MP4 (60 fps by default), with sound from mix.py.
-// Usage: node render.mjs <scene.js> <out.mp4> [--fps 60] [--data timings.js] [--voice vo.wav] [--stills t1,t2,... --stillsDir dir] [--boxes out.json] [--meta out.json]
+// Usage: node render.mjs <scene.js> <out.mp4> [--size 1920x1080] [--fps 60] [--data timings.js] [--voice vo.wav] [--stills t1,t2,... --stillsDir dir] [--boxes out.json] [--meta out.json]
 //   --boxes samples the on-screen text boxes 4 times a second for the safe-zone check.
 import { createRequire } from "module";
 import { execSync, spawn, spawnSync } from "child_process";
@@ -16,17 +16,18 @@ catch { playwright = require(path.join(execSync("npm root -g").toString().trim()
 const [sceneArg, outArg] = process.argv.slice(2);
 const args = Object.fromEntries(process.argv.slice(4).reduce((a, v, i, arr) => (v.startsWith("--") ? [...a, [v.slice(2), arr[i + 1]]] : a), []));
 const FPS = Number(args.fps || 60);
+const [W, H] = (args.size || "1080x1920").split("x").map(Number);   // 1080x1920 shorts, 1920x1080 long videos
 const FFMPEG = process.env.FFMPEG || execSync(`python3 -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())"`).toString().trim();
 const scene = path.relative(here, path.resolve(sceneArg));
 
 const browser = await playwright.chromium.launch();
-const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
+const page = await browser.newPage({ viewport: { width: W, height: H } });
 const errors = [];
 page.on("pageerror", (e) => { errors.push(e.message); console.error("page error:", e.message); });
 const dataQ = args.data ? "&d=" + encodeURIComponent(path.relative(here, path.resolve(args.data))) : "";
-await page.goto("file://" + path.join(here, "video.html") + "?s=" + encodeURIComponent(scene) + dataQ);
+await page.goto("file://" + path.join(here, "video.html") + "?s=" + encodeURIComponent(scene) + dataQ + `&w=${W}&h=${H}`);
 await page.evaluate(() => window.ready);
-const clip = { x: 0, y: 0, width: 1080, height: 1920 };
+const clip = { x: 0, y: 0, width: W, height: H };
 const dur = await page.evaluate(() => window.duration);
 
 if (args.stills) {

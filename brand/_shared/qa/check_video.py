@@ -20,10 +20,9 @@ FF = subprocess.run([sys.executable, "-c", "import imageio_ffmpeg;print(imageio_
 # union of TikTok, Reels and Shorts UI on a 1080x1920 frame
 SAFE = {"left": 40, "right": 1040, "top": 150, "bottom": 1440, "button_col_x": 940, "button_col_y": 700}
 PLATFORM_MAX_S = {"TikTok": 600, "Instagram Reels": 180, "YouTube Shorts": 180, "X": 140, "Facebook Reels": 90, "Threads": 300}
-TARGET_LEN = (10, 20)
+TARGET_LEN = (8, 45)       # quizzes need room for three rounds; still well under every platform cap
 BANNED = [r"\bdiscount\b", r"\b\d+\s?% off\b", r"\bsave money\b", r"costs nothing extra", r"\bfree v-?bucks\b", r"\bgiveaway\b",
-          r"\bofficial (epic )?partner\b", r"sponsored by epic", r"endorsed by", r"in partnership with epic", r"epic games presents",
-          r"tell us below", r"👇"]
+          r"\bofficial (epic )?partner\b", r"sponsored by epic", r"endorsed by", r"in partnership with epic", r"epic games presents"]   # comment prompts like "tell us below 👇" are wanted (owner, 2026-10-28)
 LOUD_TARGET, LOUD_TOL, TP_MAX = -14.0, 1.0, -1.0
 
 
