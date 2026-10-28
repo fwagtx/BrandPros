@@ -24,5 +24,9 @@
    "text": "Use code BAD in the Item Shop. It really helps the channel.",
    "pause": 0.3
   }
- ]
+ ],
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2
 }

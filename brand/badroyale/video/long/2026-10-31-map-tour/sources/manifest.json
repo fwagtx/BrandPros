@@ -1,0 +1,17 @@
+{
+ "via": "fortnite-api.com (mirror of Epic in-game data). Epic CDN and fortnite.com are blocked from cloud sessions.",
+ "files": [
+  {
+   "file": "news.json",
+   "source": "Epic in-game news feed (Battle Royale MOTDs)",
+   "url": "https://fortnite-api.com/v2/news",
+   "fetched_utc": "2026-10-28T14:02:26Z"
+  },
+  {
+   "file": "map.json",
+   "source": "Battle Royale map POI data",
+   "url": "https://fortnite-api.com/v1/map",
+   "fetched_utc": "2026-10-28T14:02:26Z"
+  }
+ ]
+}

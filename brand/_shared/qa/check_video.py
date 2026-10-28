@@ -31,6 +31,9 @@ def ff(args):
 
 
 DATA = []  # ["--data", "timings.js"] for voiced scenes
+LAND = {"on": False}  # --landscape: a long 1920x1080 YouTube video (title-safe margins, no app UI, 2-20 min)
+LONG_LEN = (120, 1200)
+TITLE_SAFE = {"left": 48, "right": 1872, "top": 27, "bottom": 1053}
 
 
 def node_dump(scene, flag, out):
@@ -145,17 +148,25 @@ def specs_and_safe(video, boxes, out):
     d = re.search(r"Duration: (\d+):(\d+):([\d.]+)", r.stderr)
     dur = int(d.group(1)) * 3600 + int(d.group(2)) * 60 + float(d.group(3))
     items = []
-    if not v or (v.group(2), v.group(3)) != ("1080", "1920"): items.append({"issue": "not 1080x1920", "result": "FAIL"})
+    land = LAND["on"]
+    want = ("1920", "1080") if land else ("1080", "1920")
+    if not v or (v.group(2), v.group(3)) != want: items.append({"issue": f"not {want[0]}x{want[1]}", "result": "FAIL"})
     if v and v.group(1) != "h264": items.append({"issue": f"video codec {v.group(1)}", "result": "FAIL"})
     if not a or a.group(1) != "aac": items.append({"issue": "audio not AAC", "result": "FAIL"})
-    if not (TARGET_LEN[0] <= dur <= TARGET_LEN[1]): items.append({"issue": f"length {dur:.1f}s outside {TARGET_LEN}", "result": "FAIL"})
-    for p, mx in PLATFORM_MAX_S.items():
+    rng = LONG_LEN if land else TARGET_LEN
+    if not (rng[0] <= dur <= rng[1]): items.append({"issue": f"length {dur:.1f}s outside {rng}", "result": "FAIL"})
+    for p, mx in ({} if land else PLATFORM_MAX_S).items():
         if dur > mx: items.append({"issue": f"too long for {p} ({mx}s)", "result": "FAIL"})
     bad = []
     for smp in boxes["samples"]:
         for b in smp["boxes"]:
             x2, y2 = b["x"] + b["w"], b["y"] + b["h"]
             why = []
+            if land:
+                Z = TITLE_SAFE
+                if b["x"] < Z["left"] - 0.5 or x2 > Z["right"] + 0.5 or b["y"] < Z["top"] - 0.5 or y2 > Z["bottom"] + 0.5: why.append("outside title-safe")
+                if why: bad.append({"t": smp["t"], "text": b["text"][:60], "where": ", ".join(why)})
+                continue
             if b["x"] < SAFE["left"] - 0.5: why.append("left edge")
             if x2 > SAFE["right"] + 0.5: why.append("right edge")
             if b["y"] < SAFE["top"] - 0.5: why.append("top bar")
@@ -171,8 +182,10 @@ def specs_and_safe(video, boxes, out):
     zone = (f"drawbox=x=0:y=0:w=1080:h={SAFE['top']}:color=red@0.35:t=fill,"
             f"drawbox=x=0:y={SAFE['bottom']}:w=1080:h={1920 - SAFE['bottom']}:color=red@0.35:t=fill,"
             f"drawbox=x={SAFE['button_col_x']}:y={SAFE['button_col_y']}:w={1080 - SAFE['button_col_x']}:h={SAFE['bottom'] - SAFE['button_col_y']}:color=red@0.35:t=fill")
-    ff(["-y", "-i", video, "-vf", f"select='eq(n\\,30)+eq(n\\,{int(dur * 30)})+eq(n\\,{int(dur * 52)})',{zone},scale=360:-1,tile=3x1:padding=6", "-frames:v", "1", "-vsync", "vfr", os.path.join(out, "safe-zones.png")])
+    if not land: ff(["-y", "-i", video, "-vf", f"select='eq(n\\,30)+eq(n\\,{int(dur * 30)})+eq(n\\,{int(dur * 52)})',{zone},scale=360:-1,tile=3x1:padding=6", "-frames:v", "1", "-vsync", "vfr", os.path.join(out, "safe-zones.png")])
     st = "PASS" if not items else "FAIL"
+    if land:
+        return check("5. Specs and safe zones", st, f"{v.group(2)}x{v.group(3)} {v.group(1)} {float(v.group(4)):.0f} fps, {a.group(1)} {a.group(2)} Hz, {dur:.1f}s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.", items)
     return check("5. Specs and safe zones", st, f"{v.group(2)}x{v.group(3)} {v.group(1)} {float(v.group(4)):.0f} fps, {a.group(1)} {a.group(2)} Hz, {dur:.1f}s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.", items)
 
 
@@ -203,6 +216,9 @@ def main():
     review = None
     if "--data" in sys.argv:
         DATA.extend(["--data", sys.argv[sys.argv.index("--data") + 1]])
+    if "--landscape" in sys.argv:
+        LAND["on"] = True
+        DATA.extend(["--size", "1920x1080"])
     if "--review" in sys.argv:
         review = json.load(open(sys.argv[sys.argv.index("--review") + 1]))
     os.makedirs(out, exist_ok=True)

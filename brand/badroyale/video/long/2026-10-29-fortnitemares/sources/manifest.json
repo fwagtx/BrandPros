@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's in-game news, map and shop)",
+ "files": [
+  {
+   "file": "news.json",
+   "source": "Epic in-game news feed (Battle Royale MOTDs)",
+   "url": "https://fortnite-api.com/v2/news",
+   "fetched_utc": "2026-10-28T14:02:26Z"
+  },
+  {
+   "file": "map.json",
+   "source": "Battle Royale map POI data",
+   "url": "https://fortnite-api.com/v1/map",
+   "fetched_utc": "2026-10-28T14:02:26Z"
+  },
+  {
+   "file": "shop-2026-10-28.json",
+   "source": "Item Shop for 2026-10-28",
+   "url": "https://fortnite-api.com/v2/shop",
+   "fetched_utc": "2026-10-28T05:04:02Z"
+  }
+ ]
+}

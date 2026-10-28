@@ -73,7 +73,7 @@
           const on = t >= tIn && t < tOut + 0.25;
           const pin = E.out5(k(t, tIn, tIn + 0.28)), pout = E.in(k(t, tOut - 0.05, tOut + 0.2));
           const gx = (1 - pin) * 900 - pout * 900;
-          T(r.g, { a: on ? Math.max(0, 1 - Math.abs(gx) / 60) : 0, x: gx });
+          T(r.g, { a: on ? Math.max(0, 1 - Math.abs(gx) / 15) : 0, x: gx });   // visible only within 15 px of rest: never over the app UI
           T(r.card, { x: 290, y: 300, r: -2 + Math.sin(t * 1.3) * 1.2, s: 0.94 + 0.06 * E.back(k(t, tIn, tIn + 0.35)) });
           // countdown in the silence between the name and the answer
           const g0 = nameP(i).t1, g1 = ansP(i).t0, left = Math.max(1, Math.ceil(3 * (1 - k(t, g0, g1))));
@@ -102,7 +102,13 @@
     const { VO, P, DUR } = timing();
     const codeP = P[P.length - 1];
     const at = (s) => (s.p === "end" ? DUR : P[s.p].t0 + (s.dt || 0));
-    const kf = cfg.shots.map((s) => [at(s), { x: s.x, y: s.y }, s.z, s.ease]);
+    // the camera holds still and only moves in a short whip before each shot, so no frame is a slow blur
+    const kf = [];
+    cfg.shots.forEach((s, i) => {
+      const t = i === 0 ? 0 : at(s);
+      if (i > 0) { const [pt, pp, pz] = kf[kf.length - 1]; kf.push([Math.max(pt + 0.01, t - (s.move || 0.6)), pp, pz]); }
+      kf.push([t, { x: s.x, y: s.y }, s.z, s.ease || "inOut"]);
+    });
     function build(stage) {
       mk(stage, `inset:0;background:#084687`);
       const cam = S.mapCam(stage, `../../badroyale/sources/${cfg.map === "blank" ? "map-blank" : "map-labels"}.png`, kf);
@@ -147,15 +153,18 @@
            <span style="font-family:'Barlow Condensed';font-weight:900;font-size:44px;color:${INK}">${cfg.kicker || "IN-GAME NEWS"}</span></div>
          <div style="padding:26px 34px 34px">
            <div style="font-family:Montserrat;font-weight:900;font-size:${cfg.tileSize || 62}px;line-height:1.02;text-transform:uppercase;color:#fff;-webkit-text-stroke:3px ${INK};paint-order:stroke fill">${cfg.tile}</div>
-           <div class="q" style="margin-top:22px"></div></div>`, `${cfg.kicker || "IN-GAME NEWS"} / ${cfg.tile}`.toUpperCase());
+           <div class="q" style="margin-top:22px;min-height:220px"></div></div>`, `${cfg.kicker || "IN-GAME NEWS"} / ${cfg.tile}`.toUpperCase());
       const q = panel.querySelector(".q");
       const lines = cfg.quote.map((l) => { const d = document.createElement("div"); d.style.cssText = `font:700 40px/1.25 Montserrat;color:#C9D6FF;margin-top:10px;opacity:0`; d.textContent = `“${l.text}”`; d.dataset.text = l.text.toUpperCase(); q.appendChild(d); return { ...l, d }; });
+      const hook = cfg.hook ? S.title(stage, cfg.hook, { y: 880, size: 88 }) : null;
+      const hookEnd = P[cfg.quote[0].p].t0 - 0.1;
       const dim = mk(stage, `inset:0;background:rgba(5,8,25,.75)`);
       const points = (cfg.points || []).map((o, i) => ({ ...o, el: S.toast(stage, o.label, o.text, 480 + i * 190, o.color || YEL) }));
       const e = end(stage, VO);
       return function renderAt(t) {
         bands.style.transform = `translateX(${(t * 40) % 260}px)`;
         T(panel, { y: 0, s: 0.9 + 0.1 * E.back(k(t, 0, 0.3)), r: -1 + Math.sin(t * 0.8) * 0.4 });
+        if (hook) T(hook, { a: 1 - k(t, hookEnd, hookEnd + 0.2), s: 0.85 + 0.15 * E.back(k(t, 0, 0.3)) });
         lines.forEach((l) => { const on = t >= P[l.p].t0 - 0.05; l.d.style.opacity = on ? 1 : 0; l.d.style.color = on && t < P[l.p].t1 + 0.1 ? "#fff" : "#C9D6FF"; });
         const pOn = points.length ? win(t, P[points[0].p].t0 - 0.05, codeP.t0, 0.08, 0.12) : 0;
         const codeOn = win(t, codeP.t0 - 0.05, DUR + 1, 0.12, 0.1);

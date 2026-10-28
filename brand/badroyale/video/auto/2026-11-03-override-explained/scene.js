@@ -57,5 +57,9 @@ window.SCENE = TPL.news({
     "Override Console": 7
    }
   }
+ ],
+ "hook": [
+  "Override",
+  "in 15 seconds"
  ]
 });

@@ -43,9 +43,10 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 | Run | When | Posts |
 |---|---|---|
 | **SHOP** | 00:05 UTC (7:05 PM CDT, 6:05 PM CST), right after the Item Shop resets | Today's shop video, about 15 min after the run starts, on TikTok, Instagram Reels, Facebook Reels, YouTube Shorts |
-| **DAY** | 9:41 AM | Two shorts: **12:30 PM** (map & secrets) and **4:30 PM** (news & games), each on all 4 networks |
+| **DAY** | 9:41 AM | Two shorts: **12:30 PM** (map & secrets) and **4:30 PM** (news & games), each on all 4 networks; keeps 3 days queued |
+| **LONG** | 5:13 AM Mon, Wed, Sat | One long YouTube video at **3:00 PM** |
 
-3 shorts a day on every network. Long YouTube videos (3 a week) are not automated yet: see the end.
+3 shorts a day on every network, plus 3 long YouTube videos a week (LONG run).
 
 ## SHOP run
 
@@ -75,10 +76,16 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 ## DAY run
 
 1. `git pull origin claude/eloquent-lovelace-vu2quk`, then `bash brand/badroyale/auto/setup.sh`
-1b. **Backlog first:** for each entry in `brand/badroyale/auto/backlog.json` whose `date` is at least 15 minutes
-   away and whose `match` isn't already scheduled (SHOP step 6), call `createScheduledPost` with its blogId, date
-   and info exactly as given. Remove scheduled and past entries from the file. A slot (12:30 or 4:30 PM) that a
-   backlog post already fills gets no new short today.
+1b. **Backlog first:** run `python3 brand/badroyale/auto/backlog.py links` (fresh hosted links), then for each entry
+   in `brand/badroyale/auto/backlog.json` whose `date` is at least 15 minutes away and whose `match` isn't already
+   scheduled (SHOP step 6), call `createScheduledPost` with its blogId, date and info exactly as given. Remove
+   scheduled and past entries from the file; once every entry of a slug is gone, delete its hosted files
+   (`python3 brand/_shared/store.py rm <key>` for each of its "r2" keys).
+1c. **Keep 3 days of shorts queued.** Look at the 12:30 and 4:30 PM slots for today and the next 2 days
+   (getScheduledPosts). Fill the empty ones, earliest first, at most 3 new shorts per run, with steps 3-8 below
+   (evergreen formats for later days: Guess the Season via
+   `python3 brand/badroyale/auto/new_guess.py <folder> "<outfit>" "<outfit>" "<outfit>"` with outfits never used
+   in the ledger, map secrets, news explainers; shop-tied formats only for today).
 2. `python3 brand/badroyale/auto/fetch_sources.py` (prints new news tiles, new or removed places, a new build).
 3. Pick the two formats for today's weekday from the grid. Read `brand/badroyale/auto/ledger.json` first and
    never repeat a topic already in it; if a format has nothing new and true to say today, use its fallback.
@@ -143,6 +150,27 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 10. Log line, `git add brand/badroyale/video/auto brand/badroyale/auto brand/badroyale/sources`, commit, push.
 11. Summary: each slot's format, topic, time and networks, or why it was skipped; yesterday's failures.
 
+## Facts change: pull outdated posts
+
+After fetch_sources.py, if it reports `news_removed` or `places_removed`, check every post scheduled for the next
+7 days (getScheduledPosts) against the ledger topics: a post whose fact is gone (a removed news tile or place) is
+set back to draft with updateScheduledPost (same content, `"draft": true`), and its slot is refilled. This is the
+one time a post becomes a draft: an outdated post is worse than an empty slot.
+
+## LONG run (Mon, Wed, Sat; posts 3:00 PM)
+
+1. Pull, setup, fetch_sources.py.
+2. Pick the episode, never repeating a ledger topic: **Mon** "This Week's Item Shop" (every big bundle, price and
+   OG return of the last 7 days from `brand/badroyale/shop/archive/`); **Wed** a full map tour or "every X on the
+   map" (map.json); **Sat** the week's news explained (news tiles, what changed in sources/history/). 4-10 min.
+3. Make `brand/badroyale/video/long/<D>-<slug>/` like `video/long/2026-10-29-fortnitemares/`: long.json (segments,
+   claims), vo.json, post.json (description starts with #EpicPartner, has `{chapters}`), sources/ with manifest.json.
+   Open with the hook in the first sentence; put the code ask once mid-video and once at the end.
+4. `python3 brand/badroyale/auto/make_long.py build <folder>`; review the sheet like a viewer (fix and rebuild up to
+   3 times); write review.json; `python3 brand/badroyale/auto/make_long.py ship <folder> --at "<D> 15:00"`.
+5. Schedule posts.json (if Metricool rejects the thumbnail, again without videoThumbnailUrl), then
+   `python3 brand/badroyale/auto/make_long.py done <folder>`, ledger, log, commit, push, summary.
+
 ## If something breaks
 
 - A script fails: read its error, fix the cause if it is in this repository (a bug, a missing allowlist word for
@@ -150,7 +178,3 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 - fortnite-api.com is down: skip what needs it; the next run tries again.
 - Metricool rejects a call: retry once if the error is about media; otherwise skip that network and report it.
 
-## Not automated yet
-
-Long YouTube videos (Mon, Wed, Sat at 3 PM): the renderer is vertical-only today. Until a horizontal template
-exists and has been checked, the autopilot does not post long videos.

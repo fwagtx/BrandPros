@@ -1,5 +1,5 @@
 {
- "_note": "Owner, 2026-10-28: the drafts already in Metricool must go live today. For each entry: updateScheduledPost(blogId 7408112, id, uuid, info exactly as given). The shop ones move from 12:15 (missed) to 2:00 PM CT.",
+ "_note": "Owner, 2026-10-28: the drafts already in Metricool must go live today. For each entry: updateScheduledPost(blogId 7408112, id, uuid, info exactly as given). The four shop posts go at 3:30 PM CT. If that time is less than 15 minutes away when you run this, use the next quarter hour at least 15 minutes out; if that would be after 6:30 PM CT, skip the four shop posts (the shop changes at 7 PM). Same rule for the Freddy's posts at 4:30 PM.",
  "blogId": "7408112",
  "updates": [
   {
@@ -18,7 +18,7 @@
     "videoThumbnailUrl": "https://static.metricool.com/planner/202610/7065085-file-1655322435868103816.jpeg",
     "mediaAltText": [],
     "publicationDate": {
-     "dateTime": "2026-10-28T14:00:00",
+     "dateTime": "2026-10-28T15:30:00",
      "timezone": "America/Chicago"
     },
     "shortener": false,
@@ -61,7 +61,7 @@
     "videoThumbnailUrl": "https://static.metricool.com/planner/202610/7065085-file-11047287368044099515.jpeg",
     "mediaAltText": [],
     "publicationDate": {
-     "dateTime": "2026-10-28T14:00:00",
+     "dateTime": "2026-10-28T15:30:00",
      "timezone": "America/Chicago"
     },
     "shortener": false,
@@ -97,7 +97,7 @@
     "videoThumbnailUrl": "https://static.metricool.com/planner/202610/7065085-file-14598895355160422649.jpeg",
     "mediaAltText": [],
     "publicationDate": {
-     "dateTime": "2026-10-28T14:00:00",
+     "dateTime": "2026-10-28T15:30:00",
      "timezone": "America/Chicago"
     },
     "shortener": false,
@@ -131,7 +131,7 @@
     ],
     "mediaAltText": [],
     "publicationDate": {
-     "dateTime": "2026-10-28T14:00:00",
+     "dateTime": "2026-10-28T15:30:00",
      "timezone": "America/Chicago"
     },
     "shortener": false,

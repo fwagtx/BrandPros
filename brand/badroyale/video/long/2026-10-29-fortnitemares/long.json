@@ -1,0 +1,283 @@
+{
+ "title": "Everything in Fortnitemares Right Now",
+ "caption": "#EpicPartner Everything in Fortnitemares right now: bosses, the Dark Cartridge, Safety in Numbers and more. Use code BAD in the Item Shop.\n#Fortnite #Fortnitemares",
+ "claims": [
+  {
+   "text": "The Horror Is Here: a cursed cartridge corrupting everything it touches",
+   "source": "news.json",
+   "match": [
+    "The Horror Is Here",
+    "A cursed cartridge is spreading through the Island, corrupting everything it touches",
+    "including powerful new weapons, terrifying mechanics, horrifying bosses, and more"
+   ]
+  },
+  {
+   "text": "Dark Cartridge is a named spot",
+   "source": "map.json",
+   "match": [
+    "Dark Cartridge"
+   ]
+  },
+  {
+   "text": "Animatronic bosses; one always at Freddy Fazbear's; possess the suit",
+   "source": "news.json",
+   "match": [
+    "Face down animatronic bosses in Battle Royale, with one always lurking at Freddy Fazbear's Pizza Parlor",
+    "Defeat any rogue robot you find to possess the suit"
+   ]
+  },
+  {
+   "text": "Freddy Fazbear's Pizzeria is a named spot",
+   "source": "map.json",
+   "match": [
+    "Freddy Fazbear's Pizzeria"
+   ]
+  },
+  {
+   "text": "FNAF bundle on Oct 28: 4,500 V-Bucks, listed 11,000, with the four animatronics",
+   "source": "shop-2026-10-28.json",
+   "match": [
+    "Five Nights at Freddy's Bundle",
+    "\"finalPrice\": 4500",
+    "\"regularPrice\": 11000",
+    "Freddy Fazbear",
+    "Foxy The Pirate",
+    "Chica the Chicken",
+    "Bonnie the Rabbit"
+   ]
+  },
+  {
+   "text": "Horrors Worth Facing Together; Safety in Numbers Quest with friends",
+   "source": "news.json",
+   "match": [
+    "Horrors Worth Facing Together",
+    "Explore a Collection of spine-chilling Islands, each with its own twist",
+    "Face the fear with friends to unlock the Safety in Numbers Quest"
+   ]
+  },
+  {
+   "text": "Nightmare Neighborhood is a named location",
+   "source": "map.json",
+   "match": [
+    "Nightmare Neighborhood"
+   ]
+  },
+  {
+   "text": "Sprites: collect, Sprite Powers, in Ranked with abilities disabled",
+   "source": "news.json",
+   "match": [
+    "There are all new Sprites to discover and collect!",
+    "game-changing Sprite Powers",
+    "Sprites will now appear in Ranked too, with abilities disabled to maintain even competition"
+   ]
+  },
+  {
+   "text": "7 Override Consoles",
+   "source": "map.json",
+   "match": [
+    "Override Console"
+   ],
+   "count": {
+    "Override Console": 7
+   }
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "FORTNITEMARES",
+   "lines": [
+    "Everything in",
+    "Fortnitemares right now"
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 3,
+   "chapter": "The Horror Is Here",
+   "kicker": "IN-GAME NEWS",
+   "title": "The Horror Is Here",
+   "lines": [
+    {
+     "p": 4,
+     "text": "A cursed cartridge is spreading through the Island, corrupting everything it touches."
+    },
+    {
+     "p": 5,
+     "text": "Step into Battle Royale to see what hair-raising horrors await,"
+    },
+    {
+     "p": 6,
+     "text": "including powerful new weapons, terrifying mechanics, horrifying bosses, and more!"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 7,
+   "chapter": "The Dark Cartridge",
+   "x": 885.0,
+   "y": 1106.1,
+   "z": 1.5,
+   "name": "Dark Cartridge",
+   "sub": "Named spot · near the middle of the island",
+   "pins": [
+    {
+     "x": 885.0,
+     "y": 1106.1,
+     "label": "Dark Cartridge"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 10,
+   "chapter": "Five Nights at Freddy's",
+   "kicker": "IN-GAME NEWS",
+   "title": "Five Nights at Freddy's Gameplay",
+   "lines": [
+    {
+     "p": 11,
+     "text": "It's showtime! Face down animatronic bosses in Battle Royale,"
+    },
+    {
+     "p": 12,
+     "text": "with one always lurking at Freddy Fazbear's Pizza Parlor."
+    },
+    {
+     "p": 13,
+     "text": "Defeat any rogue robot you find to possess the suit and finish the fight Fazbear style."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 14,
+   "chapter": "Where the boss always is",
+   "x": 929.1,
+   "y": 607.1,
+   "z": 1.5,
+   "name": "Freddy Fazbear's Pizzeria",
+   "sub": "Named spot · northern part of the island",
+   "pins": [
+    {
+     "x": 929.1,
+     "y": 607.1,
+     "label": "Freddy's"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 17,
+   "chapter": "The FNAF bundle",
+   "title": "Five Nights at Freddy's Bundle · 4,500 V-Bucks on Oct 28",
+   "items": [
+    {
+     "img": "../../badroyale/shop/2026-10-28/img/Character_GuardHence.png",
+     "name": "Freddy Fazbear",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "../../badroyale/shop/2026-10-28/img/Character_JigsawWaste.png",
+     "name": "Foxy The Pirate",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "../../badroyale/shop/2026-10-28/img/Character_SushiAware.png",
+     "name": "Chica the Chicken",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "../../badroyale/shop/2026-10-28/img/Character_TearErrand.png",
+     "name": "Bonnie the Rabbit",
+     "rarity": "gaminglegends"
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "p": 20
+  },
+  {
+   "type": "quote",
+   "p": 21,
+   "chapter": "Safety in Numbers",
+   "kicker": "IN-GAME NEWS",
+   "title": "Horrors Worth Facing Together",
+   "lines": [
+    {
+     "p": 22,
+     "text": "Wickedly talented Developers have brought their own horrors to life for Fortnitemares!"
+    },
+    {
+     "p": 23,
+     "text": "Explore a Collection of spine-chilling Islands, each with its own twist."
+    },
+    {
+     "p": 24,
+     "text": "Face the fear with friends to unlock the Safety in Numbers Quest."
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 26,
+   "chapter": "Nightmare Neighborhood",
+   "x": 771.9,
+   "y": 756.3,
+   "z": 1.5,
+   "name": "Nightmare Neighborhood",
+   "sub": "Named location · north-west of the centre",
+   "pins": [
+    {
+     "x": 771.9,
+     "y": 756.3,
+     "label": "Nightmare Neighborhood"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 28,
+   "chapter": "Sprites & Override",
+   "kicker": "IN-GAME NEWS",
+   "title": "Keep Collecting and Mastering",
+   "lines": [
+    {
+     "p": 29,
+     "text": "There are all new Sprites to discover and collect!"
+    },
+    {
+     "p": 30,
+     "text": "Extract and equip them for game-changing Sprite Powers, level them up, and keep growing the Collection in Override."
+    },
+    {
+     "p": 31,
+     "text": "Sprites will now appear in Ranked too, with abilities disabled to maintain even competition."
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 32,
+   "big": "7",
+   "label": "Override Consoles on the map"
+  },
+  {
+   "type": "title",
+   "p": 33,
+   "chapter": "Recap",
+   "kicker": "QUICK RECAP",
+   "lines": [
+    "Cartridge · Freddy's",
+    "Squads · Sprites"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 38
+  }
+ ]
+}

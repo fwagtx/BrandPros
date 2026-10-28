@@ -45,5 +45,9 @@ window.SCENE = TPL.news({
     "Face the fear with friends to unlock the Safety in Numbers Quest."
    ]
   }
+ ],
+ "hook": [
+  "Only unlock it",
+  "with friends"
  ]
 });

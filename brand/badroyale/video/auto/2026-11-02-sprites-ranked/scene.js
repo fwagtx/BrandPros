@@ -37,5 +37,9 @@ window.SCENE = TPL.news({
     "Extract and equip them for game-changing Sprite Powers"
    ]
   }
+ ],
+ "hook": [
+  "Sprites in Ranked",
+  "there's a catch"
  ]
 });

@@ -1,0 +1,1012 @@
+{
+ "title": "Every Place on the Fortnite Map Right Now",
+ "caption": "#EpicPartner A full tour of every place on the Fortnite map right now. Use code BAD in the Item Shop.\n#Fortnite #FortniteMap",
+ "claims": [
+  {
+   "text": "40 places: 13 named locations, 20 landmarks, 7 Override Consoles",
+   "source": "map.json",
+   "match": [
+    "Override Console"
+   ],
+   "count": {
+    "Override Console": 7
+   }
+  },
+  {
+   "text": "Freaky Fields is a named location",
+   "source": "map.json",
+   "match": [
+    "Freaky Fields"
+   ],
+   "visual": "map pixel (1158, 508): in the north of the island"
+  },
+  {
+   "text": "WonkeeLand is a named location",
+   "source": "map.json",
+   "match": [
+    "WonkeeLand"
+   ],
+   "visual": "map pixel (1420, 668): in the north-east of the island"
+  },
+  {
+   "text": "Reality's Reign is a named location",
+   "source": "map.json",
+   "match": [
+    "Reality's Reign"
+   ],
+   "visual": "map pixel (1131, 1015): near the centre of the island"
+  },
+  {
+   "text": "Golden Grove is a named location",
+   "source": "map.json",
+   "match": [
+    "Golden Grove"
+   ],
+   "visual": "map pixel (1489, 1117): in the east of the island"
+  },
+  {
+   "text": "Shaken Sanctuary is a named location",
+   "source": "map.json",
+   "match": [
+    "Shaken Sanctuary"
+   ],
+   "visual": "map pixel (1260, 1380): in the south-east of the island"
+  },
+  {
+   "text": "Cluster Coast is a named location",
+   "source": "map.json",
+   "match": [
+    "Cluster Coast"
+   ],
+   "visual": "map pixel (1384, 1640): on the far south-east edge of the island"
+  },
+  {
+   "text": "Sunken Shores is a named location",
+   "source": "map.json",
+   "match": [
+    "Sunken Shores"
+   ],
+   "visual": "map pixel (825, 1605): on the far south edge of the island"
+  },
+  {
+   "text": "Stone Sanctum is a named location",
+   "source": "map.json",
+   "match": [
+    "Stone Sanctum"
+   ],
+   "visual": "map pixel (867, 1296): in the south-west of the island"
+  },
+  {
+   "text": "Heatwave Harbor is a named location",
+   "source": "map.json",
+   "match": [
+    "Heatwave Harbor"
+   ],
+   "visual": "map pixel (416, 1397): on the far south-west edge of the island"
+  },
+  {
+   "text": "Green Hill Zone is a named location",
+   "source": "map.json",
+   "match": [
+    "Green Hill Zone"
+   ],
+   "visual": "map pixel (600, 1017): in the west of the island"
+  },
+  {
+   "text": "Epic's Override news says the island now has areas inspired by gaming legends like Sonic, Tetris, and Pac-Man.",
+   "source": "news.json",
+   "match": [
+    "areas inspired by gaming legends like Sonic, Tetris, and Pac-Man"
+   ]
+  },
+  {
+   "text": "Chopped Shop is a named location",
+   "source": "map.json",
+   "match": [
+    "Chopped Shop"
+   ],
+   "visual": "map pixel (328, 719): on the far north-west edge of the island"
+  },
+  {
+   "text": "Nightmare Neighborhood is a named location",
+   "source": "map.json",
+   "match": [
+    "Nightmare Neighborhood"
+   ],
+   "visual": "map pixel (772, 756): in the north-west of the island"
+  },
+  {
+   "text": "Lifty Lodge is a named location",
+   "source": "map.json",
+   "match": [
+    "Lifty Lodge"
+   ],
+   "visual": "map pixel (586, 431): on the far north-west edge of the island"
+  },
+  {
+   "text": "Stack o' Stones is a landmark",
+   "source": "map.json",
+   "match": [
+    "Stack o' Stones"
+   ],
+   "visual": "map pixel (1048, 506): in the north of the island"
+  },
+  {
+   "text": "Carwash is a landmark",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "visual": "map pixel (1403, 1199): in the south-east of the island"
+  },
+  {
+   "text": "Pinky Island is a landmark",
+   "source": "map.json",
+   "match": [
+    "Pinky Island"
+   ],
+   "visual": "map pixel (1260, 1598): on the far south-east edge of the island"
+  },
+  {
+   "text": "Pixel Polys is a landmark",
+   "source": "map.json",
+   "match": [
+    "Pixel Polys"
+   ],
+   "visual": "map pixel (1091, 1274): in the south of the island"
+  },
+  {
+   "text": "Crashout Estates is a landmark",
+   "source": "map.json",
+   "match": [
+    "Crashout Estates"
+   ],
+   "visual": "map pixel (1206, 1724): on the far south edge of the island"
+  },
+  {
+   "text": "Wettest-Bones Research Facility is a landmark",
+   "source": "map.json",
+   "match": [
+    "Wettest-Bones Research Facility"
+   ],
+   "visual": "map pixel (1108, 1580): in the south of the island"
+  },
+  {
+   "text": "Mega Maze is a landmark",
+   "source": "map.json",
+   "match": [
+    "Mega Maze"
+   ],
+   "visual": "map pixel (1011, 1478): in the south of the island"
+  },
+  {
+   "text": "Blinky Island is a landmark",
+   "source": "map.json",
+   "match": [
+    "Blinky Island"
+   ],
+   "visual": "map pixel (560, 1659): on the far south-west edge of the island"
+  },
+  {
+   "text": "The Quackaway is a landmark",
+   "source": "map.json",
+   "match": [
+    "The Quackaway"
+   ],
+   "visual": "map pixel (422, 1653): on the far south-west edge of the island"
+  },
+  {
+   "text": "Birder's Beach is a landmark",
+   "source": "map.json",
+   "match": [
+    "Birder's Beach"
+   ],
+   "visual": "map pixel (215, 1768): on the far south-west edge of the island"
+  },
+  {
+   "text": "Dark Cartridge is a landmark",
+   "source": "map.json",
+   "match": [
+    "Dark Cartridge"
+   ],
+   "visual": "map pixel (885, 1106): near the centre of the island"
+  },
+  {
+   "text": "Epic says a cursed cartridge is spreading through the Island, corrupting everything it touches.",
+   "source": "news.json",
+   "match": [
+    "A cursed cartridge is spreading through the Island, corrupting everything it touches"
+   ]
+  },
+  {
+   "text": "Barncade is a landmark",
+   "source": "map.json",
+   "match": [
+    "Barncade"
+   ],
+   "visual": "map pixel (651, 1246): in the south-west of the island"
+  },
+  {
+   "text": "Dine 'n Docks is a landmark",
+   "source": "map.json",
+   "match": [
+    "Dine 'n Docks"
+   ],
+   "visual": "map pixel (340, 1198): on the far west edge of the island"
+  },
+  {
+   "text": "Geno's Machine is a landmark",
+   "source": "map.json",
+   "match": [
+    "Geno's Machine"
+   ],
+   "visual": "map pixel (906, 1013): near the centre of the island"
+  },
+  {
+   "text": "Carwash is a landmark",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "visual": "map pixel (330, 926): on the far west edge of the island"
+  },
+  {
+   "text": "Artsy RVs is a landmark",
+   "source": "map.json",
+   "match": [
+    "Artsy RVs"
+   ],
+   "visual": "map pixel (236, 818): on the far west edge of the island"
+  },
+  {
+   "text": "Ol' Stumpy is a landmark",
+   "source": "map.json",
+   "match": [
+    "Ol' Stumpy"
+   ],
+   "visual": "map pixel (644, 747): in the north-west of the island"
+  },
+  {
+   "text": "Pac-Man Island is a landmark",
+   "source": "map.json",
+   "match": [
+    "Pac-Man Island"
+   ],
+   "visual": "map pixel (843, 531): in the north of the island"
+  },
+  {
+   "text": "Freddy Fazbear's Pizzeria is a landmark",
+   "source": "map.json",
+   "match": [
+    "Freddy Fazbear's Pizzeria"
+   ],
+   "visual": "map pixel (929, 607): in the north of the island"
+  },
+  {
+   "text": "Epic says one animatronic boss is always lurking at Freddy Fazbear's Pizza Parlor.",
+   "source": "news.json",
+   "match": [
+    "with one always lurking at Freddy Fazbear's Pizza Parlor"
+   ]
+  },
+  {
+   "text": "The Sleazy Snooze is a landmark",
+   "source": "map.json",
+   "match": [
+    "The Sleazy Snooze"
+   ],
+   "visual": "map pixel (939, 371): on the far north edge of the island"
+  },
+  {
+   "text": "Two landmarks are named Carwash",
+   "source": "map.json",
+   "match": [
+    "Carwash"
+   ],
+   "count": {
+    "Carwash": 2
+   }
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "FULL MAP TOUR",
+   "lines": [
+    "Every place on the",
+    "Fortnite map right now"
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 1,
+   "big": "40",
+   "label": "places on the official map"
+  },
+  {
+   "type": "title",
+   "p": 3,
+   "chapter": "13 named locations",
+   "kicker": "PART 1",
+   "lines": [
+    "The 13 named",
+    "locations"
+   ]
+  },
+  {
+   "type": "map",
+   "p": 4,
+   "x": 1157.7,
+   "y": 507.7,
+   "z": 1.35,
+   "name": "Freaky Fields",
+   "sub": "Named location · in the north of the map",
+   "pins": [
+    {
+     "x": 1157.7,
+     "y": 507.7,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 5,
+   "x": 1420.4,
+   "y": 668.4,
+   "z": 1.35,
+   "name": "WonkeeLand",
+   "sub": "Named location · in the north-east of the map",
+   "pins": [
+    {
+     "x": 1420.4,
+     "y": 668.4,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 6,
+   "x": 1130.8,
+   "y": 1014.7,
+   "z": 1.35,
+   "name": "Reality's Reign",
+   "sub": "Named location · near the centre of the map",
+   "pins": [
+    {
+     "x": 1130.8,
+     "y": 1014.7,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 7,
+   "x": 1489.4,
+   "y": 1117.2,
+   "z": 1.35,
+   "name": "Golden Grove",
+   "sub": "Named location · in the east of the map",
+   "pins": [
+    {
+     "x": 1489.4,
+     "y": 1117.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 8,
+   "x": 1260.0,
+   "y": 1380.1,
+   "z": 1.35,
+   "name": "Shaken Sanctuary",
+   "sub": "Named location · in the south-east of the map",
+   "pins": [
+    {
+     "x": 1260.0,
+     "y": 1380.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 9,
+   "x": 1383.7,
+   "y": 1639.6,
+   "z": 1.35,
+   "name": "Cluster Coast",
+   "sub": "Named location · on the far south-east edge of the map",
+   "pins": [
+    {
+     "x": 1383.7,
+     "y": 1639.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 10,
+   "x": 824.8,
+   "y": 1605.1,
+   "z": 1.35,
+   "name": "Sunken Shores",
+   "sub": "Named location · on the far south edge of the map",
+   "pins": [
+    {
+     "x": 824.8,
+     "y": 1605.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 11,
+   "x": 867.3,
+   "y": 1296.1,
+   "z": 1.35,
+   "name": "Stone Sanctum",
+   "sub": "Named location · in the south-west of the map",
+   "pins": [
+    {
+     "x": 867.3,
+     "y": 1296.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 12,
+   "x": 416.2,
+   "y": 1397.0,
+   "z": 1.35,
+   "name": "Heatwave Harbor",
+   "sub": "Named location · on the far south-west edge of the map",
+   "pins": [
+    {
+     "x": 416.2,
+     "y": 1397.0,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 13,
+   "x": 599.8,
+   "y": 1016.8,
+   "z": 1.35,
+   "name": "Green Hill Zone",
+   "sub": "Named location · in the west of the map",
+   "pins": [
+    {
+     "x": 599.8,
+     "y": 1016.8,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 15,
+   "x": 327.8,
+   "y": 719.1,
+   "z": 1.35,
+   "name": "Chopped Shop",
+   "sub": "Named location · on the far north-west edge of the map",
+   "pins": [
+    {
+     "x": 327.8,
+     "y": 719.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 16,
+   "x": 771.9,
+   "y": 756.3,
+   "z": 1.35,
+   "name": "Nightmare Neighborhood",
+   "sub": "Named location · in the north-west of the map",
+   "pins": [
+    {
+     "x": 771.9,
+     "y": 756.3,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 17,
+   "x": 585.6,
+   "y": 431.2,
+   "z": 1.35,
+   "name": "Lifty Lodge",
+   "sub": "Named location · on the far north-west edge of the map",
+   "pins": [
+    {
+     "x": 585.6,
+     "y": 431.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "p": 18
+  },
+  {
+   "type": "title",
+   "p": 19,
+   "chapter": "20 landmarks",
+   "kicker": "PART 2",
+   "lines": [
+    "The landmarks"
+   ]
+  },
+  {
+   "type": "map",
+   "p": 20,
+   "x": 1047.5,
+   "y": 506.0,
+   "z": 1.5,
+   "name": "Stack o' Stones",
+   "sub": "Landmark · in the north of the map",
+   "pins": [
+    {
+     "x": 1047.5,
+     "y": 506.0,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 21,
+   "x": 1402.8,
+   "y": 1199.3,
+   "z": 1.5,
+   "name": "Carwash",
+   "sub": "Landmark · in the south-east of the map",
+   "pins": [
+    {
+     "x": 1402.8,
+     "y": 1199.3,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 22,
+   "x": 1259.9,
+   "y": 1598.3,
+   "z": 1.5,
+   "name": "Pinky Island",
+   "sub": "Landmark · on the far south-east edge of the map",
+   "pins": [
+    {
+     "x": 1259.9,
+     "y": 1598.3,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 23,
+   "x": 1090.9,
+   "y": 1273.8,
+   "z": 1.5,
+   "name": "Pixel Polys",
+   "sub": "Landmark · in the south of the map",
+   "pins": [
+    {
+     "x": 1090.9,
+     "y": 1273.8,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 24,
+   "x": 1206.5,
+   "y": 1723.5,
+   "z": 1.5,
+   "name": "Crashout Estates",
+   "sub": "Landmark · on the far south edge of the map",
+   "pins": [
+    {
+     "x": 1206.5,
+     "y": 1723.5,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 25,
+   "x": 1108.4,
+   "y": 1580.1,
+   "z": 1.5,
+   "name": "Wettest-Bones Research Facility",
+   "sub": "Landmark · in the south of the map",
+   "pins": [
+    {
+     "x": 1108.4,
+     "y": 1580.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 26,
+   "x": 1010.7,
+   "y": 1478.5,
+   "z": 1.5,
+   "name": "Mega Maze",
+   "sub": "Landmark · in the south of the map",
+   "pins": [
+    {
+     "x": 1010.7,
+     "y": 1478.5,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 27,
+   "x": 560.2,
+   "y": 1659.1,
+   "z": 1.5,
+   "name": "Blinky Island",
+   "sub": "Landmark · on the far south-west edge of the map",
+   "pins": [
+    {
+     "x": 560.2,
+     "y": 1659.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 28,
+   "x": 421.6,
+   "y": 1653.1,
+   "z": 1.5,
+   "name": "The Quackaway",
+   "sub": "Landmark · on the far south-west edge of the map",
+   "pins": [
+    {
+     "x": 421.6,
+     "y": 1653.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 29,
+   "x": 215.2,
+   "y": 1767.5,
+   "z": 1.5,
+   "name": "Birder's Beach",
+   "sub": "Landmark · on the far south-west edge of the map",
+   "pins": [
+    {
+     "x": 215.2,
+     "y": 1767.5,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 30,
+   "x": 885.0,
+   "y": 1106.1,
+   "z": 1.5,
+   "name": "Dark Cartridge",
+   "sub": "Landmark · near the centre of the map",
+   "pins": [
+    {
+     "x": 885.0,
+     "y": 1106.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 32,
+   "x": 650.7,
+   "y": 1245.6,
+   "z": 1.5,
+   "name": "Barncade",
+   "sub": "Landmark · in the south-west of the map",
+   "pins": [
+    {
+     "x": 650.7,
+     "y": 1245.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 33,
+   "x": 340.3,
+   "y": 1198.0,
+   "z": 1.5,
+   "name": "Dine 'n Docks",
+   "sub": "Landmark · on the far west edge of the map",
+   "pins": [
+    {
+     "x": 340.3,
+     "y": 1198.0,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 34,
+   "x": 905.8,
+   "y": 1013.3,
+   "z": 1.5,
+   "name": "Geno's Machine",
+   "sub": "Landmark · near the centre of the map",
+   "pins": [
+    {
+     "x": 905.8,
+     "y": 1013.3,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 35,
+   "x": 330.0,
+   "y": 926.2,
+   "z": 1.5,
+   "name": "Carwash",
+   "sub": "Landmark · on the far west edge of the map",
+   "pins": [
+    {
+     "x": 330.0,
+     "y": 926.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 36,
+   "x": 235.5,
+   "y": 818.1,
+   "z": 1.5,
+   "name": "Artsy RVs",
+   "sub": "Landmark · on the far west edge of the map",
+   "pins": [
+    {
+     "x": 235.5,
+     "y": 818.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 37,
+   "x": 643.5,
+   "y": 746.7,
+   "z": 1.5,
+   "name": "Ol' Stumpy",
+   "sub": "Landmark · in the north-west of the map",
+   "pins": [
+    {
+     "x": 643.5,
+     "y": 746.7,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 38,
+   "x": 842.6,
+   "y": 531.1,
+   "z": 1.5,
+   "name": "Pac-Man Island",
+   "sub": "Landmark · in the north of the map",
+   "pins": [
+    {
+     "x": 842.6,
+     "y": 531.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 39,
+   "x": 929.1,
+   "y": 607.1,
+   "z": 1.5,
+   "name": "Freddy Fazbear's Pizzeria",
+   "sub": "Landmark · in the north of the map",
+   "pins": [
+    {
+     "x": 929.1,
+     "y": 607.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 41,
+   "x": 939.2,
+   "y": 370.7,
+   "z": 1.5,
+   "name": "The Sleazy Snooze",
+   "sub": "Landmark · on the far north edge of the map",
+   "pins": [
+    {
+     "x": 939.2,
+     "y": 370.7,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 42,
+   "chapter": "7 Override Consoles",
+   "big": "7",
+   "label": "Override Consoles"
+  },
+  {
+   "type": "map",
+   "p": 43,
+   "x": 1088.9,
+   "y": 611.9,
+   "z": 1.4,
+   "name": "Override Console 1",
+   "sub": "In the north of the map",
+   "pins": [
+    {
+     "x": 1088.9,
+     "y": 611.9,
+     "label": "1"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 44,
+   "x": 1247.1,
+   "y": 888.1,
+   "z": 1.4,
+   "name": "Override Console 2",
+   "sub": "In the north-east of the map",
+   "pins": [
+    {
+     "x": 1247.1,
+     "y": 888.1,
+     "label": "2"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 45,
+   "x": 1420.0,
+   "y": 1275.0,
+   "z": 1.4,
+   "name": "Override Console 3",
+   "sub": "In the south-east of the map",
+   "pins": [
+    {
+     "x": 1420.0,
+     "y": 1275.0,
+     "label": "3"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 46,
+   "x": 970.8,
+   "y": 1573.9,
+   "z": 1.4,
+   "name": "Override Console 4",
+   "sub": "In the south of the map",
+   "pins": [
+    {
+     "x": 970.8,
+     "y": 1573.9,
+     "label": "4"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 47,
+   "x": 600.5,
+   "y": 1448.1,
+   "z": 1.4,
+   "name": "Override Console 5",
+   "sub": "In the south-west of the map",
+   "pins": [
+    {
+     "x": 600.5,
+     "y": 1448.1,
+     "label": "5"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 48,
+   "x": 473.3,
+   "y": 1124.0,
+   "z": 1.4,
+   "name": "Override Console 6",
+   "sub": "In the west of the map",
+   "pins": [
+    {
+     "x": 473.3,
+     "y": 1124.0,
+     "label": "6"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 49,
+   "x": 636.2,
+   "y": 693.0,
+   "z": 1.4,
+   "name": "Override Console 7",
+   "sub": "In the north-west of the map",
+   "pins": [
+    {
+     "x": 636.2,
+     "y": 693.0,
+     "label": "7"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 50,
+   "chapter": "Wrap-up",
+   "kicker": "THAT'S THE MAP",
+   "lines": [
+    "Where are you",
+    "dropping first?"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 52
+  }
+ ]
+}
