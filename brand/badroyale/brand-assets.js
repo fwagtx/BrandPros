@@ -95,9 +95,10 @@
     return [W, H, storm(W, H, [[0.07, 0.5, 0.75, -12], [0.93, 0.5, 0.85, 14], [0.2, 0.18, 0.4, 8]]) + stormCenter(400, 10, 1000, 480, 135, 34, 18)];
   }
   function facebook() {
-    // desktop shows the whole cover; phones crop the sides, so content stays in the middle ~1000 px
+    // Facebook now centers the profile picture over the bottom-middle (about x 41-59%, y 54%+), and phones crop the sides:
+    // logo and text sit in the top half, middle ~1000 px.
     const W = 1640, H = 624;
-    return [W, H, storm(W, H, [[0.09, 0.48, 0.95, -12], [0.91, 0.5, 1.05, 14], [0.2, 0.18, 0.5, 8], [0.8, 0.84, 0.55, -10]]) + stormCenter(320, 30, 1000, 564, 165, 40, 20)];
+    return [W, H, storm(W, H, [[0.09, 0.48, 0.95, -12], [0.91, 0.5, 1.05, 14], [0.2, 0.18, 0.5, 8], [0.8, 0.84, 0.55, -10]]) + stormCenter(320, 12, 1000, 300, 118, 32, 16)];
   }
 
 
