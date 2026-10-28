@@ -12,6 +12,7 @@
   @font-face { font-family: "Barlow Condensed"; font-weight: 900; src: url(../fonts/BarlowCondensed-Black.ttf); font-display: block; }
   @font-face { font-family: "Barlow"; font-weight: 700; src: url(../fonts/Barlow-Bold.ttf); font-display: block; }
   @font-face { font-family: "Barlow"; font-weight: 600; src: url(../fonts/Barlow-SemiBold.ttf); font-display: block; }
+  @font-face { font-family: "Montserrat"; font-weight: 100 900; src: url("../fonts/Montserrat[wght].ttf"); font-display: block; }
   html, body { margin: 0; background: #222; }
   #stage { position: relative; overflow: hidden; }
   #stage * { box-sizing: border-box; }
@@ -23,11 +24,12 @@
 <script src="../../badroyale/brand-assets.js"></script>
 <script src="../../badroyale/logo-options.js"></script>
 <script src="../../badroyale/banner-options.js"></script>
+<script src="../../badroyale/covers.js"></script>
 <script>
   const stage = document.getElementById("stage");
   window.renderAsset = (name) => { const [w, h, html] = ASSETS.asset(name); stage.style.width = w + "px"; stage.style.height = h + "px"; stage.innerHTML = html; return [w, h]; };
   window.assetNames = () => ASSETS.names();
-  window.ready = Promise.all(["40px 'Luckiest Guy'", "40px Anton", "40px 'Bebas Neue'", "40px 'League Gothic'", "800 40px 'Barlow Condensed'", "900 40px 'Barlow Condensed'", "700 40px Barlow", "600 40px Barlow"]
+  window.ready = Promise.all(["40px 'Luckiest Guy'", "40px Anton", "40px 'Bebas Neue'", "40px 'League Gothic'", "800 40px 'Barlow Condensed'", "900 40px 'Barlow Condensed'", "700 40px Barlow", "600 40px Barlow", "900 40px Montserrat"]
     .map((f) => document.fonts.load(f))).then(() => document.fonts.ready);
 </script>
 </body>

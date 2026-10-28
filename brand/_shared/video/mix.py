@@ -1,5 +1,5 @@
 """Original sound design for BAD channel videos, synthesized from scratch (no samples, nothing extracted from any game).
-Lays effects and an original music bed under a silent render, then normalizes to -14 LUFS with a -2 dBTP ceiling (leaves room for AAC overshoot; the post limit is -1 dBTP).
+Lays effects and an original music bed under a silent render, then normalizes to -14 LUFS with a -2.6 dBTP ceiling (sharp effects overshoot after AAC encoding; the post limit is -1 dBTP).
 Usage: python3 mix.py silent.mp4 out.mp4 <duration> '<cues json [[t, name], ...]>' [voice.wav]
 With a voice track: the voice sits on top, music ducks under it (sidechain), effects sit between.
 """
@@ -89,10 +89,10 @@ def main():
     parts.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0:duration=first,atrim=0:{dur}[pre]")
     mixed = os.path.join(tmp, "mixed.wav")
     run([*inputs, "-filter_complex", ";".join(parts), "-map", "[pre]", "-ac", "2", mixed])
-    # two-pass loudness normalization to -14 LUFS integrated, -2 dBTP
-    p = subprocess.run([FF, "-hide_banner", "-i", mixed, "-af", "loudnorm=I=-14:TP=-2.0:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True)
+    # two-pass loudness normalization to -14 LUFS integrated, -2.6 dBTP
+    p = subprocess.run([FF, "-hide_banner", "-i", mixed, "-af", "loudnorm=I=-14:TP=-2.6:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True)
     m = json.loads(re.findall(r"\{[^{}]+\}", p.stderr)[-1])
-    ln = (f"loudnorm=I=-14:TP=-2.0:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
+    ln = (f"loudnorm=I=-14:TP=-2.6:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
           f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
     run(["-i", silent, "-i", mixed, "-filter_complex", f"[1]{ln},aresample={SR}[a]", "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-shortest", out])
 
