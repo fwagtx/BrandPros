@@ -1,6 +1,6 @@
 # Pre-post check: badroyale-2026-10-31-map-tour.mp4
 
-Checked 2026-10-28T21:25:34Z · **DO NOT POST: fix failures**
+Checked 2026-10-28T21:28:47Z · **READY TO POST**
 
 ## 1. Facts: PASS
 71/71 claims verified against saved official data
@@ -76,9 +76,8 @@ Checked 2026-10-28T21:25:34Z · **DO NOT POST: fix failures**
 - Freddy Fazbear's Pizzeria: The closest named location is Nightmare Neighborhood. · PASS · matched in map.json; nearest places by distance between official POI coordinates
 - The Sleazy Snooze: The closest named location is Freaky Fields. · PASS · matched in map.json; nearest places by distance between official POI coordinates
 
-## 2. Spelling and grammar: FAIL
-Unknown words or a misspelled code
-- wrap-up · FAIL
+## 2. Spelling and grammar: PASS
+85 distinct words checked; code written as BAD in all 3 mentions
 
 ## 3. Frames: PASS
 No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png

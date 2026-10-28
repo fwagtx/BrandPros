@@ -1,7 +1,7 @@
 {
   "video": "badroyale-2026-10-31-map-tour.mp4",
-  "checked_utc": "2026-10-28T21:25:34Z",
-  "verdict": "DO NOT POST: fix failures",
+  "checked_utc": "2026-10-28T21:28:47Z",
+  "verdict": "READY TO POST",
   "results": [
     {
       "check": "1. Facts",
@@ -367,14 +367,9 @@
     },
     {
       "check": "2. Spelling and grammar",
-      "status": "FAIL",
-      "detail": "Unknown words or a misspelled code",
-      "items": [
-        {
-          "word": "wrap-up",
-          "result": "FAIL"
-        }
-      ]
+      "status": "PASS",
+      "detail": "85 distinct words checked; code written as BAD in all 3 mentions",
+      "items": []
     },
     {
       "check": "3. Frames",

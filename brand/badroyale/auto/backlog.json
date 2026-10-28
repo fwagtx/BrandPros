@@ -1015,6 +1015,60 @@
    }
   },
   {
+   "slug": "2026-10-31-map-tour",
+   "network": "youtube",
+   "blogId": "7408112",
+   "date": "2026-10-31T15:00:00-05:00",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "mediaAltText": [],
+    "media": [
+     "r2:2026-10-31-map-tour/video.mp4"
+    ],
+    "videoThumbnailUrl": "r2:2026-10-31-map-tour/thumb.jpg",
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "publicationDate": {
+     "dateTime": "2026-10-31T15:00:00",
+     "timezone": "America/Chicago"
+    },
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "text": "#EpicPartner A full tour of EVERY place on the Fortnite map right now 🗺️ all 13 named locations, every landmark (yes, there are two Carwashes 🚗) and all 7 Override Consoles, straight from the official map.\n\nWhere are you dropping first? 👇\n\nUse code BAD in the Item Shop 💛\n\n0:00 Intro\n0:16 13 named locations\n2:01 20 landmarks\n4:19 7 Override Consoles\n4:40 Wrap-up\n\n#Fortnite #FortniteMap #FortniteOverride",
+    "youtubeData": {
+     "title": "Every Place on the Fortnite Map Right Now 🗺️ Full Tour (All 40 Spots)",
+     "type": "video",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "fortnite map",
+      "fortnite locations",
+      "fortnite map tour",
+      "fortnite override",
+      "fortnite poi",
+      "fortnite landmarks"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    }
+   },
+   "match": "Every Place on the Fortnite Map Right Now 🗺️ Full Tour (All 40 Spots)",
+   "r2": {
+    "video": "2026-10-31-map-tour/video.mp4",
+    "cover": "2026-10-31-map-tour/thumb.jpg"
+   }
+  },
+  {
    "slug": "2026-10-31-guess-2",
    "network": "tiktok",
    "blogId": "7408112",
