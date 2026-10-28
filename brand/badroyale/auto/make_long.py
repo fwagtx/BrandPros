@@ -43,9 +43,16 @@ def stamp(t):
 def chapters(d):
     L = json.load(open(os.path.join(d, "long.json")))
     P = json.load(open(os.path.join(d, "timings.json")))["phrases"]
-    out = [(0.0 if i == 0 else max(0, P[s["p"]]["t0"] - 0.15), s["chapter"]) for i, s in enumerate(s for s in L["segments"] if s.get("chapter"))]
+    out = [(max(0, P[s["p"]]["t0"] - 0.15), s["chapter"]) for s in L["segments"] if s.get("chapter")]
     if out and out[0][0] > 0:
         out.insert(0, (0.0, "Intro"))
+    # YouTube only shows chapters when each lasts 10 s or more: fold short ones into the one before
+    merged = []
+    for t, name in out:
+        if merged and t - merged[-1][0] < 12:
+            continue
+        merged.append((t, name))
+    out = merged
     return "\n".join(f"{stamp(t)} {name}" for t, name in out)
 
 

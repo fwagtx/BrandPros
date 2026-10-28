@@ -1,7 +1,7 @@
 {
   "video": "badroyale-2026-10-31-safety-in-numbers.mp4",
-  "checked_utc": "2026-10-28T19:03:43Z",
-  "verdict": "DO NOT POST: fix failures",
+  "checked_utc": "2026-10-28T19:34:11Z",
+  "verdict": "READY TO POST",
   "results": [
     {
       "check": "1. Facts",
@@ -27,14 +27,9 @@
     },
     {
       "check": "2. Spelling and grammar",
-      "status": "FAIL",
-      "detail": "Unknown words or a misspelled code",
-      "items": [
-        {
-          "word": "squadding",
-          "result": "FAIL"
-        }
-      ]
+      "status": "PASS",
+      "detail": "14 distinct words checked; code written as BAD in all 2 mentions",
+      "items": []
     },
     {
       "check": "3. Frames",
@@ -50,26 +45,9 @@
     },
     {
       "check": "5. Specs and safe zones",
-      "status": "FAIL",
+      "status": "PASS",
       "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 18.4s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
-      "items": [
-        {
-          "issue": "IN-GAME NEWS · FORTNITEMARES / HORRORS WORTH FACING TOGETHER at 0s: button column",
-          "result": "FAIL"
-        },
-        {
-          "issue": "ONLY UNLOCK IT / WITH FRIENDS at 0.25s: button column",
-          "result": "FAIL"
-        },
-        {
-          "issue": "EXPLORE A COLLECTION OF SPINE-CHILLING ISLANDS, EACH WITH IT at 5.25s: button column",
-          "result": "FAIL"
-        },
-        {
-          "issue": "FACE THE FEAR WITH FRIENDS TO UNLOCK THE SAFETY IN NUMBERS Q at 10s: button column",
-          "result": "FAIL"
-        }
-      ]
+      "items": []
     },
     {
       "check": "6. Disclosure and wording",

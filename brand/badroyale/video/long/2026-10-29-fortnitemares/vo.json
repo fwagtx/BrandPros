@@ -1,11 +1,11 @@
 {
  "phrases": [
   {
-   "text": "This is everything in Fortnitemares right now, straight from Epic's own news and the official map.",
+   "text": "This is everything in Fortnitemares right now, straight from Epic's own news, the official map, and the Item Shop.",
    "pause": 0.25
   },
   {
-   "text": "Bosses, a cursed cartridge, a quest you can only unlock with friends, and exactly where to find all of it.",
+   "text": "Bosses, a cursed cartridge, two very different Freddys, a quest you can only unlock with friends, and exactly where to find all of it.",
    "pause": 0.25
   },
   {
@@ -26,6 +26,10 @@
   },
   {
    "text": "including powerful new weapons, terrifying mechanics, horrifying bosses, and more.",
+   "pause": 0.25
+  },
+  {
+   "text": "New weapons, new mechanics, and bosses. That's Epic's own list for this update.",
    "pause": 0.35
   },
   {
@@ -65,19 +69,59 @@
    "pause": 0.2
   },
   {
-   "text": "That's the one place you know an animatronic boss will be.",
+   "text": "If you're boss hunting, start here. It's the one place Epic tells you an animatronic will always be.",
    "pause": 0.4
   },
   {
-   "text": "And if you want to look the part, the Five Nights at Freddy's Bundle was in the Item Shop on October 28th:",
+   "text": "And speaking of ghosts, this map has a couple of its own.",
+   "pause": 0.2
+  },
+  {
+   "text": "Pac-Man Island is up here, in the north of the island.",
    "pause": 0.15
   },
   {
-   "text": "Freddy Fazbear, Foxy the Pirate, Chica the Chicken and Bonnie the Rabbit,",
-   "pause": 0.1
+   "text": "Blinky Island is on the far south-west edge of the island,",
+   "pause": 0.05
   },
   {
-   "text": "for 4,500 V-Bucks, listed at 11,000.",
+   "text": "and Pinky Island is on the far south-east edge of the island.",
+   "pause": 0.25
+  },
+  {
+   "text": "Two of Pac-Man's ghosts got their own islands. Fitting, for spooky season.",
+   "pause": 0.4
+  },
+  {
+   "text": "Now, if you want to look the part, here's what was in the Item Shop on October 28th.",
+   "pause": 0.2
+  },
+  {
+   "text": "The Five Nights at Freddy's Bundle: eighteen items, for 4,500 V-Bucks, listed at 11,000.",
+   "pause": 0.2
+  },
+  {
+   "text": "Bought on their own, just the four animatronic sets are 1,500 for Freddy, 1,600 for Foxy, 1,500 for Chica and 1,500 for Bonnie.",
+   "pause": 0.15
+  },
+  {
+   "text": "That's 6,100 V-Bucks for those four alone, before the emotes, Mr. Cupcake and the Freddy Slippers.",
+   "pause": 0.4
+  },
+  {
+   "text": "And here's the twist: there were two Freddys in the shop that day.",
+   "pause": 0.2
+  },
+  {
+   "text": "The A Nightmare on Elm Street Bundle, with Freddy Krueger, for 2,300 V-Bucks, listed at 4,700.",
+   "pause": 0.2
+  },
+  {
+   "text": "Or Freddy Krueger with Freddy's Glove on their own, for 1,600.",
+   "pause": 0.2
+  },
+  {
+   "text": "So, Freddy Fazbear or Freddy Krueger? Tell me which one you're running.",
    "pause": 0.4
   },
   {
@@ -129,8 +173,36 @@
    "pause": 0.35
   },
   {
-   "text": "And if you're hunting Override Consoles, there are seven of them on the map right now.",
-   "pause": 0.4
+   "text": "And if you're hunting Override Consoles, there are seven of them on the map right now. Here's every one.",
+   "pause": 0.3
+  },
+  {
+   "text": "One, in the north of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Two, in the north-east of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, in the south-east of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Four, in the south of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Five, in the south-west of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Six, in the west of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Seven, in the north-west of the island.",
+   "pause": 0.2
   },
   {
    "text": "So, the quick recap.",
@@ -142,6 +214,10 @@
   },
   {
    "text": "One animatronic boss is always at Freddy Fazbear's, up north.",
+   "pause": 0.15
+  },
+  {
+   "text": "There were two Freddys in the shop, Fazbear and Krueger.",
    "pause": 0.15
   },
   {
@@ -158,7 +234,7 @@
   },
   {
    "text": "And if this helped, use code BAD in the Item Shop. See you in the next one.",
-   "pause": 0.4
+   "pause": 0.5
   }
  ],
  "voice": "af_heart",

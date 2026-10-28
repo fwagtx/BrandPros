@@ -63,7 +63,7 @@
         e.lines = s.lines.map((l) => { const d = document.createElement("div"); d.style.cssText = `font:700 42px/1.3 Montserrat;color:#C9D6FF;margin-top:16px;opacity:0`; d.textContent = `“${l.text}”`; d.dataset.text = l.text.toUpperCase(); q.appendChild(d); return { ...l, d }; });
       } else if (s.type === "items") {
         const n = s.items.length, w = Math.min(330, Math.floor(1600 / n) - 30), h = Math.round(w * 1.4);
-        e.head = mk(g, `left:0;right:0;top:120px;text-align:center`, big(s.title, 72), s.title.toUpperCase());
+        e.head = mk(g, `left:200px;right:200px;top:150px;text-align:center`, big(s.title, 54), s.title.toUpperCase());
         e.tiles = s.items.map((o, j) => { const el = tile(g, o, w, h); el.style.left = `${960 - (n * (w + 30) - 30) / 2 + j * (w + 30)}px`; el.style.top = `${300 + (j % 2) * 24}px`; return el; });
       } else if (s.type === "stat") {
         e.card = mk(g, `left:0;right:0;top:250px;text-align:center`, big(s.big, 300, YEL) + `<div style="margin-top:10px">${big(s.label, 70)}</div>`, `${s.big} / ${s.label}`.toUpperCase());
@@ -76,6 +76,7 @@
       return e;
     });
     // one-line subtitles, bottom centre
+    mk(stage, `left:0;right:0;top:880px;height:200px;background:linear-gradient(transparent,rgba(5,8,22,.78) 45%)`);
     const sub = mk(stage, `left:160px;width:1600px;top:950px;text-align:center`);
     const chunks = []; let cur = [];
     VO.words.forEach((w, i) => { cur.push(w); const nx = VO.words[i + 1]; if (!nx || nx.p !== w.p || /[.,?!:]$/.test(w.w) || cur.length >= 6) { chunks.push(cur); cur = []; } });
@@ -98,7 +99,7 @@
           T(e.card, { x: (1 - E.out5(k(t, s.t0 + 0.6, s.t0 + 1.0))) * -900, a: k(t, s.t0 + 0.6, s.t0 + 0.7) });
         }
         if (s.type === "quote") { dimA = Math.max(dimA, on); T(e.card, { s: 0.94 + 0.06 * E.back(k(t, s.t0, s.t0 + 0.4)) });
-          e.lines.forEach((l) => { const lit = t >= P[l.p].t0 - 0.05; l.d.style.opacity = lit ? 1 : 0.0; l.d.style.color = lit && t < P[l.p].t1 + 0.15 ? "#fff" : "#C9D6FF"; }); }
+          e.lines.forEach((l) => { const lit = t >= P[l.p].t0 - 0.05; l.d.style.opacity = lit ? 1 : 0.32; l.d.style.color = lit && t < P[l.p].t1 + 0.15 ? "#fff" : "#C9D6FF"; }); }
         if (s.type === "items") { dimA = Math.max(dimA, on); e.tiles.forEach((el, j) => T(el, { s: E.back(k(t, s.t0 + j * 0.08, s.t0 + 0.35 + j * 0.08)), r: Math.sin(t * 0.9 + j) * 1.2 })); }
         if (s.type === "stat") { dimA = Math.max(dimA, on); T(e.card, { s: 0.8 + 0.2 * E.back(k(t, s.t0, s.t0 + 0.4)) }); }
         if (s.type === "code") { dimA = Math.max(dimA, on); T(e.card, { s: 0.86 + 0.14 * E.back(k(t, s.t0, s.t0 + 0.4)) }); }

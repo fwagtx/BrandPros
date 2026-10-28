@@ -80,6 +80,49 @@
    "count": {
     "Override Console": 7
    }
+  },
+  {
+   "text": "Pac-Man, Blinky and Pinky islands",
+   "source": "map.json",
+   "match": [
+    "Pac-Man Island",
+    "Blinky Island",
+    "Pinky Island"
+   ]
+  },
+  {
+   "text": "Separate prices on Oct 28: Freddy 1,500, Foxy 1,600, Chica 1,500, Bonnie 1,500 (6,100)",
+   "source": "shop-2026-10-28.json",
+   "match": [
+    "\"finalPrice\": 1500",
+    "\"finalPrice\": 1600",
+    "Foxy's Side Stage",
+    "Freddy-oke Machine",
+    "Chica Chicake",
+    "Bonnie's Guitar Case"
+   ],
+   "visual": "entries: Freddy+Freddy-oke 1500, Foxy+Hook+Side Stage 1600, Chica+Chicake 1500, Bonnie+Guitar Case 1500"
+  },
+  {
+   "text": "FNAF bundle: 18 items incl. Mr. Cupcake, Freddy Slippers, emotes",
+   "source": "shop-2026-10-28.json",
+   "match": [
+    "Mr. Cupcake",
+    "Freddy Slippers",
+    "The Fazbear Band"
+   ],
+   "visual": "bundle brItems has 18 entries"
+  },
+  {
+   "text": "A Nightmare on Elm Street Bundle: 2,300 V-Bucks, listed 4,700; Freddy Krueger + Freddy's Glove 1,600",
+   "source": "shop-2026-10-28.json",
+   "match": [
+    "A Nightmare on Elm Street Bundle",
+    "\"finalPrice\": 2300",
+    "\"regularPrice\": 4700",
+    "Freddy Krueger",
+    "Freddy's Glove"
+   ]
   }
  ],
  "segments": [
@@ -115,7 +158,7 @@
   },
   {
    "type": "map",
-   "p": 7,
+   "p": 8,
    "chapter": "The Dark Cartridge",
    "x": 885.0,
    "y": 1106.1,
@@ -132,34 +175,34 @@
   },
   {
    "type": "quote",
-   "p": 10,
+   "p": 11,
    "chapter": "Five Nights at Freddy's",
    "kicker": "IN-GAME NEWS",
    "title": "Five Nights at Freddy's Gameplay",
    "lines": [
     {
-     "p": 11,
+     "p": 12,
      "text": "It's showtime! Face down animatronic bosses in Battle Royale,"
     },
     {
-     "p": 12,
+     "p": 13,
      "text": "with one always lurking at Freddy Fazbear's Pizza Parlor."
     },
     {
-     "p": 13,
+     "p": 14,
      "text": "Defeat any rogue robot you find to possess the suit and finish the fight Fazbear style."
     }
    ]
   },
   {
    "type": "map",
-   "p": 14,
+   "p": 15,
    "chapter": "Where the boss always is",
    "x": 929.1,
    "y": 607.1,
    "z": 1.5,
    "name": "Freddy Fazbear's Pizzeria",
-   "sub": "Named spot · northern part of the island",
+   "sub": "Named spot · north of the island",
    "pins": [
     {
      "x": 929.1,
@@ -169,61 +212,112 @@
    ]
   },
   {
+   "type": "map",
+   "p": 18,
+   "chapter": "Pac-Man's ghost islands",
+   "x": 1010,
+   "y": 1080,
+   "z": 0.55,
+   "name": "Pac-Man, Blinky & Pinky",
+   "sub": "Three islands on the official map",
+   "pins": [
+    {
+     "x": 842.6,
+     "y": 531.1,
+     "label": "Pac-Man"
+    },
+    {
+     "x": 560.2,
+     "y": 1659.1,
+     "label": "Blinky"
+    },
+    {
+     "x": 1259.9,
+     "y": 1598.3,
+     "label": "Pinky"
+    }
+   ]
+  },
+  {
    "type": "items",
-   "p": 17,
-   "chapter": "The FNAF bundle",
-   "title": "Five Nights at Freddy's Bundle · 4,500 V-Bucks on Oct 28",
+   "p": 23,
+   "chapter": "FNAF in the Item Shop",
+   "title": "Five Nights at Freddy's Bundle · Oct 28",
    "items": [
     {
      "img": "../../badroyale/shop/2026-10-28/img/Character_GuardHence.png",
      "name": "Freddy Fazbear",
-     "rarity": "gaminglegends"
+     "rarity": "gaminglegends",
+     "price": 1500
     },
     {
      "img": "../../badroyale/shop/2026-10-28/img/Character_JigsawWaste.png",
      "name": "Foxy The Pirate",
-     "rarity": "gaminglegends"
+     "rarity": "gaminglegends",
+     "price": 1600
     },
     {
      "img": "../../badroyale/shop/2026-10-28/img/Character_SushiAware.png",
      "name": "Chica the Chicken",
-     "rarity": "gaminglegends"
+     "rarity": "gaminglegends",
+     "price": 1500
     },
     {
      "img": "../../badroyale/shop/2026-10-28/img/Character_TearErrand.png",
      "name": "Bonnie the Rabbit",
-     "rarity": "gaminglegends"
+     "rarity": "gaminglegends",
+     "price": 1500
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 27,
+   "chapter": "The other Freddy",
+   "title": "A Nightmare on Elm Street Bundle · Oct 28",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-10-29-fortnitemares/img/Character_ApronChow.png",
+     "name": "Freddy Krueger",
+     "rarity": "epic",
+     "price": 1600
+    },
+    {
+     "img": "../../badroyale/video/long/2026-10-29-fortnitemares/img/Pickaxe_ApronChow.png",
+     "name": "Freddy's Glove",
+     "rarity": "rare",
+     "price": 800
     }
    ]
   },
   {
    "type": "code",
-   "p": 20
+   "p": 31
   },
   {
    "type": "quote",
-   "p": 21,
+   "p": 32,
    "chapter": "Safety in Numbers",
    "kicker": "IN-GAME NEWS",
    "title": "Horrors Worth Facing Together",
    "lines": [
     {
-     "p": 22,
+     "p": 33,
      "text": "Wickedly talented Developers have brought their own horrors to life for Fortnitemares!"
     },
     {
-     "p": 23,
+     "p": 34,
      "text": "Explore a Collection of spine-chilling Islands, each with its own twist."
     },
     {
-     "p": 24,
+     "p": 35,
      "text": "Face the fear with friends to unlock the Safety in Numbers Quest."
     }
    ]
   },
   {
    "type": "map",
-   "p": 26,
+   "p": 37,
    "chapter": "Nightmare Neighborhood",
    "x": 771.9,
    "y": 756.3,
@@ -240,44 +334,157 @@
   },
   {
    "type": "quote",
-   "p": 28,
+   "p": 39,
    "chapter": "Sprites & Override",
    "kicker": "IN-GAME NEWS",
    "title": "Keep Collecting and Mastering",
    "lines": [
     {
-     "p": 29,
+     "p": 40,
      "text": "There are all new Sprites to discover and collect!"
     },
     {
-     "p": 30,
+     "p": 41,
      "text": "Extract and equip them for game-changing Sprite Powers, level them up, and keep growing the Collection in Override."
     },
     {
-     "p": 31,
+     "p": 42,
      "text": "Sprites will now appear in Ranked too, with abilities disabled to maintain even competition."
     }
    ]
   },
   {
    "type": "stat",
-   "p": 32,
+   "p": 43,
+   "chapter": "All 7 Override Consoles",
    "big": "7",
    "label": "Override Consoles on the map"
   },
   {
+   "type": "map",
+   "p": 44,
+   "x": 1088.9,
+   "y": 611.9,
+   "z": 1.35,
+   "name": "Override Console 1",
+   "sub": "In the north of the map",
+   "pins": [
+    {
+     "x": 1088.9,
+     "y": 611.9,
+     "label": "1"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 45,
+   "x": 1247.1,
+   "y": 888.1,
+   "z": 1.35,
+   "name": "Override Console 2",
+   "sub": "In the north-east of the map",
+   "pins": [
+    {
+     "x": 1247.1,
+     "y": 888.1,
+     "label": "2"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 46,
+   "x": 1420.0,
+   "y": 1275.0,
+   "z": 1.35,
+   "name": "Override Console 3",
+   "sub": "In the south-east of the map",
+   "pins": [
+    {
+     "x": 1420.0,
+     "y": 1275.0,
+     "label": "3"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 47,
+   "x": 970.8,
+   "y": 1573.9,
+   "z": 1.35,
+   "name": "Override Console 4",
+   "sub": "In the south of the map",
+   "pins": [
+    {
+     "x": 970.8,
+     "y": 1573.9,
+     "label": "4"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 48,
+   "x": 600.5,
+   "y": 1448.1,
+   "z": 1.35,
+   "name": "Override Console 5",
+   "sub": "In the south-west of the map",
+   "pins": [
+    {
+     "x": 600.5,
+     "y": 1448.1,
+     "label": "5"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 49,
+   "x": 473.3,
+   "y": 1124.0,
+   "z": 1.35,
+   "name": "Override Console 6",
+   "sub": "In the west of the map",
+   "pins": [
+    {
+     "x": 473.3,
+     "y": 1124.0,
+     "label": "6"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 50,
+   "x": 636.2,
+   "y": 693.0,
+   "z": 1.35,
+   "name": "Override Console 7",
+   "sub": "In the north-west of the map",
+   "pins": [
+    {
+     "x": 636.2,
+     "y": 693.0,
+     "label": "7"
+    }
+   ]
+  },
+  {
    "type": "title",
-   "p": 33,
+   "p": 51,
    "chapter": "Recap",
    "kicker": "QUICK RECAP",
    "lines": [
-    "Cartridge · Freddy's",
-    "Squads · Sprites"
+    "Cartridge · Freddy's · Ghosts",
+    "Two Freddys · Squads · Sprites"
    ]
   },
   {
    "type": "code",
-   "p": 38
+   "p": 57
   }
  ]
 }
