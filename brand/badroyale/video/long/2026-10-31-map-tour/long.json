@@ -34,7 +34,7 @@
    "match": [
     "Reality's Reign"
    ],
-   "visual": "map pixel (1131, 1015): near the centre of the island"
+   "visual": "map pixel (1131, 1015): near the center of the island"
   },
   {
    "text": "Golden Grove is a named location",
@@ -209,7 +209,7 @@
    "match": [
     "Dark Cartridge"
    ],
-   "visual": "map pixel (885, 1106): near the centre of the island"
+   "visual": "map pixel (885, 1106): near the center of the island"
   },
   {
    "text": "Epic says a cursed cartridge is spreading through the Island, corrupting everything it touches.",
@@ -240,7 +240,7 @@
    "match": [
     "Geno's Machine"
    ],
-   "visual": "map pixel (906, 1013): near the centre of the island"
+   "visual": "map pixel (906, 1013): near the center of the island"
   },
   {
    "text": "Carwash is a landmark",
@@ -373,7 +373,7 @@
    "y": 1014.7,
    "z": 1.35,
    "name": "Reality's Reign",
-   "sub": "Named location · near the centre of the map",
+   "sub": "Named location · near the center of the map",
    "pins": [
     {
      "x": 1130.8,
@@ -722,7 +722,7 @@
    "y": 1106.1,
    "z": 1.5,
    "name": "Dark Cartridge",
-   "sub": "Landmark · near the centre of the map",
+   "sub": "Landmark · near the center of the map",
    "pins": [
     {
      "x": 885.0,
@@ -770,7 +770,7 @@
    "y": 1013.3,
    "z": 1.5,
    "name": "Geno's Machine",
-   "sub": "Landmark · near the centre of the map",
+   "sub": "Landmark · near the center of the map",
    "pins": [
     {
      "x": 905.8,

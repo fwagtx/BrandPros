@@ -45,3 +45,4 @@ bonnie
 foxy
 squadding
 carwashes
+freddys

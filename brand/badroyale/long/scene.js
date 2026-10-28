@@ -66,7 +66,7 @@
         e.head = mk(g, `left:200px;right:200px;top:150px;text-align:center`, big(s.title, 54), s.title.toUpperCase());
         e.tiles = s.items.map((o, j) => { const el = tile(g, o, w, h); el.style.left = `${960 - (n * (w + 30) - 30) / 2 + j * (w + 30)}px`; el.style.top = `${300 + (j % 2) * 24}px`; return el; });
       } else if (s.type === "stat") {
-        e.card = mk(g, `left:0;right:0;top:250px;text-align:center`, big(s.big, 300, YEL) + `<div style="margin-top:10px">${big(s.label, 70)}</div>`, `${s.big} / ${s.label}`.toUpperCase());
+        e.card = mk(g, `left:160px;right:160px;top:250px;text-align:center`, big(s.big, 300, YEL) + `<div style="margin-top:10px">${big(s.label, 70)}</div>`, `${s.big} / ${s.label}`.toUpperCase());
       } else if (s.type === "code") {
         e.card = S.codeCard(g, 0);
         e.card.style.left = "610px"; e.card.style.top = "250px";
@@ -96,7 +96,7 @@
         if (s.type === "title") { dimA = Math.max(dimA, 0.45 * on); T(e.card, { s: 0.9 + 0.1 * E.back(k(t, s.t0, s.t0 + 0.5)) }); }
         if (s.type === "map") {
           e.pins.forEach((p, j) => { const f = toScreen(p), t0 = s.t0 + 1.0 + j * 0.5; p.ring.place(f.x, f.y, t, t0, t >= t0 ? 1 : 0, 1); if (p.lab) p.lab.place(f.x + 50, f.y + 60, t, t0 + 0.15, t >= t0 + 0.15 ? 1 : 0); });
-          T(e.card, { x: (1 - E.out5(k(t, s.t0 + 0.6, s.t0 + 1.0))) * -900, a: k(t, s.t0 + 0.6, s.t0 + 0.7) });
+          { const x = (1 - E.out5(k(t, s.t0 + 0.6, s.t0 + 1.0))) * -900; T(e.card, { x, a: Math.max(0, 1 - Math.abs(x) / 20) }); }   // only visible once inside the title-safe area
         }
         if (s.type === "quote") { dimA = Math.max(dimA, on); T(e.card, { s: 0.94 + 0.06 * E.back(k(t, s.t0, s.t0 + 0.4)) });
           e.lines.forEach((l) => { const lit = t >= P[l.p].t0 - 0.05; l.d.style.opacity = lit ? 1 : 0.32; l.d.style.color = lit && t < P[l.p].t1 + 0.15 ? "#fff" : "#C9D6FF"; }); }
