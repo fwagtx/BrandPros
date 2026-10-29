@@ -31,3 +31,4 @@ brand/badroyale/video/long/*/qa/stills/
 brand/badroyale/video/long/*/qa/boxes.json
 brand/badroyale/video/long/*/qa/*.png
 brand/badroyale/video/long/*/img/
+__pycache__/
