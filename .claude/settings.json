@@ -1,11 +1,18 @@
 {
   "permissions": {
     "allow": [
+      "mcp__Metricool_Social_Media_Management",
+      "mcp__Metricool_Social_Media_Management__*",
       "mcp__Metricool_Social_Media_Management__createScheduledPost",
       "mcp__Metricool_Social_Media_Management__updateScheduledPost",
       "mcp__Metricool_Social_Media_Management__getScheduledPosts",
       "mcp__Metricool_Social_Media_Management__getBrandSettings",
-      "mcp__Metricool_Social_Media_Management__getBestTimeToPostByNetwork"
+      "mcp__Metricool_Social_Media_Management__getBestTimeToPostByNetwork",
+      "mcp__8241b34f-7730-4a3b-9838-f3120eef093c",
+      "mcp__8241b34f-7730-4a3b-9838-f3120eef093c__*",
+      "mcp__8241b34f-7730-4a3b-9838-f3120eef093c__createScheduledPost",
+      "mcp__8241b34f-7730-4a3b-9838-f3120eef093c__updateScheduledPost",
+      "mcp__8241b34f-7730-4a3b-9838-f3120eef093c__getScheduledPosts"
     ]
   }
 }
