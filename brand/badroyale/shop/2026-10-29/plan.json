@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-29",
+ "dateLabel": "OCT 29",
+ "resetLabel": "7 PM CT",
+ "dealOutLabel": "OCT 31",
+ "deal": {
+  "name": "Five Nights at Freddy's Bundle",
+  "final": 4500,
+  "regular": 11000,
+  "out": "2026-10-31",
+  "outfits": [
+   {
+    "id": "Character_GuardHence",
+    "name": "Freddy Fazbear",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   },
+   {
+    "id": "Character_JigsawWaste",
+    "name": "Foxy The Pirate",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/featured.png",
+    "price": null,
+    "out": null,
+    "in": null
+   },
+   {
+    "id": "Character_SushiAware",
+    "name": "Chica the Chicken",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   },
+   {
+    "id": "Character_TearErrand",
+    "name": "Bonnie the Rabbit",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 1,
+  "outfits": [
+   {
+    "id": "CID_016_Athena_Commando_F",
+    "name": "Commando",
+    "rarity": "Uncommon",
+    "rarityKey": "uncommon",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_016_athena_commando_f/featured.png",
+    "price": 800,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   },
+   {
+    "id": "CID_043_Athena_Commando_F_Stealth",
+    "name": "Shadow Ops",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_043_athena_commando_f_stealth/featured.png",
+    "price": 1500,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   }
+  ]
+ },
+ "last": {
+  "count": 13,
+  "outfits": [
+   {
+    "id": "Character_GlintRush",
+    "name": "Fractal Midas",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_glintrush/featured.png",
+    "price": 1500,
+    "out": "2026-10-29",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "Character_BronzeHat",
+    "name": "Rebel Oro",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_bronzehat/featured.png",
+    "price": 1500,
+    "out": "2026-10-29",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "Character_RevoltCrush",
+    "name": "The Grabber",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_revoltcrush/featured.png",
+    "price": 1500,
+    "out": "2026-10-29",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "Character_DyeBlast",
+    "name": "Fractal Brite Bomber",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_dyeblast/featured.png",
+    "price": 1200,
+    "out": "2026-10-29",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "Character_InterOrbit_Shock",
+    "name": "Imagined Order Hush",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_interorbit_shock/featured.png",
+    "price": 1200,
+    "out": "2026-10-29",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "Character_ToadLeaf",
+    "name": "Kaeru",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_toadleaf/featured.png",
+    "price": 1200,
+    "out": "2026-10-29",
+    "in": "2026-10-26"
+   }
+  ]
+ },
+ "phrases": [
+  "This is today's Item Shop for October 29th.",
+  "Three things before you spend a single V-Buck.",
+  "The Five Nights at Freddy's Bundle:",
+  "4,500 V-Bucks, instead of 11,000.",
+  "Commando and Shadow Ops are in the shop.",
+  "Both from Chapter 1, Season 1.",
+  "And 13 skins are on their last day, ten of them Epic.",
+  "Buying anything today?",
+  "Use code BAD in the Item Shop. It really helps the channel."
+ ]
+}

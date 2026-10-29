@@ -57,7 +57,7 @@
     // beat 2: OG check
     const g2 = mk(stage, `inset:0`);
     const c2 = chip(g2, "2 · OG check");
-    const ogTiles = D.og.outfits.map((o, i, a) => add(g2, tile(o, 380, 500), `left:${a.length === 2 ? 90 + i * 430 : 330}px;top:360px`));
+    const ogTiles = D.og.outfits.map((o, i, a) => add(g2, tile(o, 380, 500), `left:${a.length === 2 ? 90 + i * 420 : 330}px;top:360px`));
     const stamp = mk(g2, `left:150px;top:900px;width:680px;text-align:center;padding:10px 0 4px;background:${YEL};border:8px solid ${INK};transform:rotate(-6deg);box-shadow:0 10px 0 ${INK}`,
       `<span style="font-family:'Barlow Condensed';font-weight:900;font-size:78px;line-height:1;color:${INK}">CHAPTER ${D.og.chapter} · SEASON ${D.og.season}</span>`, `CHAPTER ${D.og.chapter} · SEASON ${D.og.season}`);
 
@@ -80,7 +80,7 @@
       const pin = E.out5(k(t, tIn, tIn + 0.28)), pout = E.in(k(t, tOut - 0.22, tOut));
       const x = (1 - pin) * 1100 - pout * 1100, blur = (1 - pin) * 14 + pout * 14;
       el.style.transform = `translateX(${x}px)`;
-      el.style.opacity = Math.max(0, 1 - Math.abs(x) / 60);
+      el.style.opacity = Math.max(0, 1 - Math.abs(x) / 15);
       el.style.filter = blur > 0.3 ? `blur(${blur.toFixed(1)}px)` : "none";
       el.style.visibility = t >= tIn - 0.01 && t < tOut ? "visible" : "hidden";
     };

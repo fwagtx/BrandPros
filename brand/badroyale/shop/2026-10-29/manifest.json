@@ -1,0 +1,17 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's in-game shop)",
+ "files": [
+  {
+   "file": "shop.json",
+   "source": "Item Shop for 2026-10-29",
+   "url": "https://fortnite-api.com/v2/shop",
+   "fetched_utc": "2026-10-29T00:14:52Z"
+  },
+  {
+   "file": "history.json",
+   "source": "Cosmetic introduction seasons",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/<id>",
+   "fetched_utc": "2026-10-29T00:14:52Z"
+  }
+ ]
+}
