@@ -1,0 +1,41 @@
+{
+ "duration": 14,
+ "caption": "#EpicPartner Where is The Quackaway in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "The Quackaway is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "The Quackaway"
+   ]
+  },
+  {
+   "text": "It is on the far south-west edge of the island, nearest named location Heatwave Harbor",
+   "source": "map-labels.png",
+   "visual": "map pixel (422, 1653); nearest named POI by coordinates: Heatwave Harbor"
+  }
+ ],
+ "text": [
+  "THE QUACKAWAY",
+  "WHERE IS THE QUACKAWAY? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "CAN'T FIND THE",
+  "QUACKAWAY IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S ON THE",
+  "FAR SOUTH-WEST EDGE",
+  "OF THE ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO HEATWAVE",
+  "HARBOR.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST.",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

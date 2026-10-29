@@ -1,0 +1,42 @@
+{
+ "duration": 14.2,
+ "caption": "#EpicPartner Where is Wettest-Bones Research Facility in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Wettest-Bones Research Facility is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Wettest-Bones Research Facility"
+   ]
+  },
+  {
+   "text": "It is in the south of the island, nearest named location Shaken Sanctuary",
+   "source": "map-labels.png",
+   "visual": "map pixel (1108, 1580); nearest named POI by coordinates: Shaken Sanctuary"
+  }
+ ],
+ "text": [
+  "HERE",
+  "WHERE IS WETTEST-BONES RESEARCH FACILITY? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "CAN'T FIND WETTEST-BONES",
+  "RESEARCH FACILITY IN",
+  "FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "SOUTH OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO SHAKEN",
+  "SANCTUARY.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST.",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

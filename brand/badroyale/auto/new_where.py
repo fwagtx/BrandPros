@@ -57,8 +57,9 @@ def main(folder, name):
                {"text": "Save this for your next quest.", "pause": 0.2},
                {"text": "Use code BAD in the Item Shop. It really helps the channel.", "pause": 0.3}]
     json.dump({"phrases": phrases}, open(os.path.join(folder, "vo.json"), "w"), indent=1, ensure_ascii=False)
-    short_d = d.replace(" of the island", "").replace("on the far ", "far ").replace("in the ", "")
-    body = f"Can't find {name}? 📍 It's {short_d} on the map, closest to {near}\nSave this for your next quest 📌"
+    # "in the south of the island" -> "south on the map"; edges and the center keep their own wording
+    where_map = d.replace(" of the island", " of the map") if not d.startswith("in the ") else d[7:].replace(" of the island", "") + " on the map"
+    body = f"Can't find {name}? 📍 It's {where_map}, closest to {near}\nSave this for your next quest 📌"
     json.dump({"tiktok": f"#EpicPartner {body}\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations", "tiktokTitle": f"Where is {name}? 📍",
                "instagram": f"#EpicPartner {body}\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
                "facebook": f"#EpicPartner {body}\nUse code BAD in the Item Shop 💛", "facebookTitle": f"Where is {name} in Fortnite?",

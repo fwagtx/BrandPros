@@ -1,0 +1,41 @@
+{
+ "duration": 14,
+ "caption": "#EpicPartner Where is Birder's Beach in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Birder's Beach is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Birder's Beach"
+   ]
+  },
+  {
+   "text": "It is on the far south-west edge of the island, nearest named location Heatwave Harbor",
+   "source": "map-labels.png",
+   "visual": "map pixel (215, 1768); nearest named POI by coordinates: Heatwave Harbor"
+  }
+ ],
+ "text": [
+  "BIRDER'S BEACH",
+  "WHERE IS BIRDER'S BEACH? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "CAN'T FIND BIRDER'S",
+  "BEACH IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S ON THE",
+  "FAR SOUTH-WEST EDGE",
+  "OF THE ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO HEATWAVE",
+  "HARBOR.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST.",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}
