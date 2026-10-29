@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's cosmetics data)",
+ "files": [
+  {
+   "file": "CID_962_Athena_Commando_M_FlapjackWrangler.json",
+   "source": "Epic cosmetics data for Mancake",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Mancake",
+   "fetched_utc": "2026-10-29T00:38:00Z"
+  },
+  {
+   "file": "CID_070_Athena_Commando_M_Cupid.json",
+   "source": "Epic cosmetics data for Love Ranger",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Love%20Ranger",
+   "fetched_utc": "2026-10-29T00:38:00Z"
+  },
+  {
+   "file": "CID_175_Athena_Commando_M_Celestial.json",
+   "source": "Epic cosmetics data for Galaxy",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Galaxy",
+   "fetched_utc": "2026-10-29T00:38:00Z"
+  }
+ ]
+}

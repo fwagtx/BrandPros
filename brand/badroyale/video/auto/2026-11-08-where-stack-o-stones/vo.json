@@ -1,0 +1,28 @@
+{
+ "phrases": [
+  {
+   "text": "Can't find Stack o' Stones in Fortnite? Here's exactly where it is.",
+   "pause": 0.25
+  },
+  {
+   "text": "It's in the north of the island,",
+   "pause": 0.1
+  },
+  {
+   "text": "right here, closest to Freaky Fields.",
+   "pause": 0.3
+  },
+  {
+   "text": "Save this for your next quest.",
+   "pause": 0.2
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lang": "en-us",
+ "lead": 0.2
+}

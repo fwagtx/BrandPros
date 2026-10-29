@@ -43,7 +43,7 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 | Run | When | Posts |
 |---|---|---|
 | **SHOP** | 00:05 UTC (7:05 PM CDT, 6:05 PM CST), right after the Item Shop resets | Today's shop video, about 15 min after the run starts, on TikTok, Instagram Reels, Facebook Reels, YouTube Shorts |
-| **DAY** | 9:41 AM | Two shorts: **12:30 PM** (map & secrets) and **4:30 PM** (news & games), each on all 4 networks; keeps 3 days queued |
+| **DAY** | 9:41 AM | Two shorts: **12:30 PM** (map & secrets) and **4:30 PM** (news & games), each on all 4 networks; keeps 7 days queued |
 | **LONG** | 5:13 AM Mon, Wed, Sat | One long YouTube video at **3:00 PM** |
 
 3 shorts a day on every network, plus 3 long YouTube videos a week (LONG run).
@@ -81,11 +81,16 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
    scheduled (SHOP step 6), call `createScheduledPost` with its blogId, date and info exactly as given. Remove
    scheduled and past entries from backlog.json; once every entry of a slug is gone, delete its hosted files
    (`python3 brand/_shared/store.py rm <key>` for each of its "r2" keys).
-1c. **Keep 3 days of shorts queued.** Look at the 12:30 and 4:30 PM slots for today and the next 2 days
-   (getScheduledPosts). Fill the empty ones, earliest first, at most 3 new shorts per run, with steps 3-8 below
-   (evergreen formats for later days: Guess the Season via
-   `python3 brand/badroyale/auto/new_guess.py <folder> "<outfit>" "<outfit>" "<outfit>"` with outfits never used
-   in the ledger, map secrets, news explainers; shop-tied formats only for today).
+1c. **Keep 7 days of shorts queued.** Look at the 12:30 and 4:30 PM slots for today and the next 6 days
+   (getScheduledPosts). Fill the empty ones, earliest first, at most 3 new shorts per run, with steps 3-8 below.
+   Evergreen formats for later days (shop-tied formats only for today):
+   - 4:30 PM: Guess the Season via `python3 brand/badroyale/auto/new_guess.py <folder> "<outfit>" "<outfit>" "<outfit>"`
+     with outfits never used in the ledger.
+   - 12:30 PM: Where Is via `python3 brand/badroyale/auto/new_where.py <folder> "<place name from map.json>"`
+     with a place never used in the ledger ("Can't find X? Here's exactly where it is", pinned on the official
+     map). These only hold while the map does: ship them within a day of `fetch_sources.py`, and if
+     fetch_sources.py later reports the place removed, set its queued posts to draft (Facts change, below).
+   - Map secrets and news explainers as below.
 2. `python3 brand/badroyale/auto/fetch_sources.py` (prints new news tiles, new or removed places, a new build).
 3. Pick the two formats for today's weekday from the grid. Read `brand/badroyale/auto/ledger.json` first and
    never repeat a topic already in it; if a format has nothing new and true to say today, use its fallback.
