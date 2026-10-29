@@ -80,6 +80,9 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 
 ## DAY run
 
+The scheduled message says "keep 7 days of shorts queued": that means the 4:30 PM evergreen slot (step 3). The 12:30 PM
+slot is never filled ahead; it is today's current-game short, made each morning (step 2).
+
 1. `git pull origin claude/eloquent-lovelace-vu2quk`, then `bash brand/badroyale/auto/setup.sh`
 1b. **Backlog first:** run `python3 brand/badroyale/auto/backlog.py links` (writes backlog.live.json with fresh hosted
    links; never commit that file), then for each entry in `brand/badroyale/auto/backlog.live.json` whose `date` is at least 15 minutes away and whose `match` isn't already
