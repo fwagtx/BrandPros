@@ -1,0 +1,41 @@
+{
+ "duration": 13.4,
+ "caption": "#EpicPartner Where is Ol' Stumpy in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Ol' Stumpy is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Ol' Stumpy"
+   ]
+  },
+  {
+   "text": "It is in the north-west of the island, nearest named location Nightmare Neighborhood",
+   "source": "map-labels.png",
+   "visual": "map pixel (644, 747); nearest named POI by coordinates: Nightmare Neighborhood"
+  }
+ ],
+ "text": [
+  "OL' STUMPY",
+  "WHERE IS OL' STUMPY? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "CAN'T FIND OL'",
+  "STUMPY IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "NORTH-WEST OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO NIGHTMARE",
+  "NEIGHBORHOOD.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST.",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}

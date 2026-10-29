@@ -1,0 +1,42 @@
+{
+ "duration": 13,
+ "caption": "#EpicPartner Where is Stack o' Stones in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Stack o' Stones is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Stack o' Stones"
+   ]
+  },
+  {
+   "text": "It is in the north of the island, nearest named location Freaky Fields",
+   "source": "map-labels.png",
+   "visual": "map pixel (1048, 506); nearest named POI by coordinates: Freaky Fields"
+  }
+ ],
+ "text": [
+  "STACK O' STONES",
+  "WHERE IS STACK O' STONES? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "CAN'T FIND STACK",
+  "O' STONES IN",
+  "FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "NORTH OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO FREAKY",
+  "FIELDS.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST.",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "#EPICPARTNER"
+ ]
+}
