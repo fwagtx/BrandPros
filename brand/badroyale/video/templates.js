@@ -4,6 +4,7 @@
  *   TPL.guess({ title, rounds: [{id, name, img, rarity, chapter, season}] })      Guess the Season
  *   TPL.map({ title, map, shots, pins, toasts })                                  a place / Easter egg on the map
  *   TPL.news({ kicker, tile, quote: [{p, text}], points: [{p, label, text}] })    an in-game news tile explained
+ *   TPL.drop({ title, cards, name, contents, price, when, tone })                 a shop listing: new today / leaving tonight
  * Each takes caption and claims too (see make_short.py and the pre-post checklist).
  */
 (function (root) {
@@ -178,5 +179,65 @@
     return { duration: DUR, build, cues, caption: cfg.caption, claims: cfg.claims };
   }
 
-  root.TPL = { guess, map, news, mapPx };
+  // ---------------- a shop listing right now: new today, or leaving tonight ----------------
+  // voice: [hook, name, (contents), price, when, question, code line]; each info beat swaps the line under the cards
+  // cfg: { title, cards: [{name, img, rarity}] (1-3), name, contents?, price: {final, regular?}, when, tone: "new"|"last" }
+  function drop(cfg) {
+    const { VO, P, DUR } = timing();
+    const codeP = P[P.length - 1], askP = P[P.length - 2];
+    const hasList = !!cfg.contents;
+    const nameP = P[1], listP = hasList ? P[2] : null, priceP = P[hasList ? 3 : 2], whenP = P[hasList ? 4 : 3];
+    const C = cfg.cards.slice(0, 3), n = C.length;
+    // cards as big as fits: the right one ends left of the app button column (x 940) once it is below y 700
+    const lay = n === 1 ? { w: 440, h: 600, xs: [300], y: 360 } : n === 2 ? { w: 360, h: 500, xs: [130, 520], y: 380 } : { w: 270, h: 390, xs: [70, 355, 640], y: 400 };
+    const infoY = Math.min(1000, lay.y + lay.h + 80);
+    const accent = cfg.tone === "last" ? RED : YEL;
+    function build(stage) {
+      const bands = wall(stage);
+      const title = S.title(stage, cfg.title, { y: 236, size: 64 });
+      const cards = C.map((o) => tile(stage, o, lay.w, lay.h));
+      // info lines wrap inside x 140-900 and pop in at most 6%, so even mid-pop they stay left of the button column (x 940)
+      const line = (html, label) => mk(stage, `left:140px;top:${infoY}px;width:760px;text-align:center`, html, label);
+      const nameSize = cfg.name.length <= 18 ? 92 : cfg.name.length <= 26 ? 80 : cfg.name.length <= 36 ? 66 : 56;
+      const listSize = cfg.contents && cfg.contents.length <= 40 ? 50 : cfg.contents && cfg.contents.length <= 70 ? 44 : 38;
+      const fit = (s, max) => Math.min(max, Math.floor(1300 / Math.max(8, s.length)));
+      const name = line(`<div style="font-family:'Barlow Condensed';font-weight:900;font-size:${nameSize}px;line-height:1;text-transform:uppercase;color:#fff;-webkit-text-stroke:10px ${INK};paint-order:stroke fill">${cfg.name}</div>`, cfg.name.toUpperCase());
+      const list = hasList ? line(`<div style="font-family:Montserrat;font-weight:900;font-size:${listSize}px;line-height:1.12;color:#fff;-webkit-text-stroke:8px ${INK};paint-order:stroke fill">${cfg.contents}</div>`, cfg.contents.toUpperCase()) : null;
+      const priceTxt = `${cfg.price.final.toLocaleString("en-US")} V-BUCKS`;
+      const was = cfg.price.regular && cfg.price.regular > cfg.price.final ? `<span style="font-size:44px;color:#5A5A5A;text-decoration:line-through;margin-left:18px">${cfg.price.regular.toLocaleString("en-US")}</span>` : "";
+      const price = mk(stage, `left:210px;top:${infoY}px;width:660px;text-align:center;padding:10px 0 4px;background:${YEL};border:8px solid ${INK};transform:rotate(-4deg);box-shadow:0 10px 0 ${INK}`,
+        `<span style="font-family:'Barlow Condensed';font-weight:900;font-size:76px;line-height:1;color:${INK}">${priceTxt}</span>${was}`, priceTxt);
+      const when = mk(stage, `left:190px;top:${infoY}px;width:700px;text-align:center;padding:12px 0 6px;background:${accent};border:8px solid ${INK};transform:rotate(3deg);box-shadow:0 10px 0 ${INK}`,
+        `<span style="font-family:'Barlow Condensed';font-weight:900;font-size:${fit(cfg.when, 70)}px;line-height:1;color:${cfg.tone === "last" ? "#fff" : INK}">${cfg.when.toUpperCase()}</span>`, cfg.when.toUpperCase());
+      const ask = S.title(stage, cfg.ask || ["Are you", "getting it?"], { y: 330, size: 96 });
+      const e = end(stage, VO);
+      const dim = mk(stage, `inset:0;background:rgba(5,8,25,.62)`);
+      stage.appendChild(ask); stage.appendChild(e.code);
+      // each info line shows from its phrase until the next one starts
+      const beats = [[name, nameP], [list, listP], [price, priceP], [when, whenP]].filter((b) => b[0]);
+      return function renderAt(t) {
+        bands.style.transform = `translateX(${(t * 40) % 260}px)`;
+        T(title, { s: 0.92 + 0.08 * E.out(k(t, 0, 0.3)) });
+        cards.forEach((el, i) => {
+          const t0 = 0.03 + i * 0.07, mid = (n - 1) / 2;
+          T(el, { x: lay.xs[i], y: lay.y + (n === 3 && i === 1 ? -30 : 0) + Math.sin(t * 1.1 + i) * 6, r: (i - mid) * 5 + Math.sin(t * 0.9 + i * 2) * 1, s: E.back(k(t, t0, t0 + 0.3)) });
+        });
+        beats.forEach(([el, ph], i) => {
+          const t0 = ph.t0 - 0.06, t1 = i < beats.length - 1 ? beats[i + 1][1].t0 - 0.06 : askP.t0 - 0.08;
+          const on = t >= t0 && t < t1;
+          T(el, { a: on ? 1 : 0, s: on ? 1.06 - 0.06 * E.out(k(t, t0, t0 + 0.2)) : 1, r: el === price ? -4 : el === when ? 3 : 0 });
+        });
+        const askOn = win(t, askP.t0 - 0.08, codeP.t0 - 0.05, 0.12, 0.1), codeOn = win(t, codeP.t0 - 0.05, DUR + 1, 0.12, 0.1);
+        T(dim, { a: Math.max(askOn, codeOn) });
+        T(ask, { a: askOn, s: 0.9 + 0.1 * E.back(k(t, askP.t0 - 0.08, askP.t0 + 0.25)) });
+        T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) });
+        e.caps(t); e.fin(t, [priceP.t0 - 0.06, whenP.t0 - 0.06]);
+      };
+    }
+    const cues = [[0.03, "pop"], ...C.map((_, i) => [0.05 + i * 0.07, "flip"]), [nameP.t0 - 0.06, "whoosh"], [priceP.t0 - 0.06, "reveal"], [whenP.t0 - 0.06, cfg.tone === "last" ? "tick" : "marker"],
+      [askP.t0 - 0.08, "pop"], [codeP.t0 - 0.05, "notify"]];
+    return { duration: DUR, build, cues, caption: cfg.caption, claims: cfg.claims };
+  }
+
+  root.TPL = { guess, map, news, drop, mapPx };
 })(window);

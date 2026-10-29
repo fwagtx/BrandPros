@@ -43,7 +43,8 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 | Run | When | Posts |
 |---|---|---|
 | **SHOP** | 00:05 UTC (7:05 PM CDT, 6:05 PM CST), right after the Item Shop resets | Today's shop video, about 15 min after the run starts, on TikTok, Instagram Reels, Facebook Reels, YouTube Shorts |
-| **DAY** | 9:41 AM | Two shorts: **12:30 PM** (map & secrets) and **4:30 PM** (news & games), each on all 4 networks; keeps 7 days queued |
+| **SHOP safety** | 01:47 UTC | The SHOP run again; it stops at step 3 when the shop video is already scheduled, so a failed or missed 00:05 run still gets the video out the same evening |
+| **DAY** | 9:41 AM | Two shorts on all 4 networks: **12:30 PM** today's current game content (made that morning from today's data) and **4:30 PM** evergreen (kept 7 days ahead) |
 | **LONG** | 5:13 AM Mon, Wed, Sat | One long YouTube video at **3:00 PM** |
 
 3 shorts a day on every network, plus 3 long YouTube videos a week (LONG run).
@@ -52,8 +53,12 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 
 1. `git pull origin claude/eloquent-lovelace-vu2quk`
 2. `bash brand/badroyale/auto/setup.sh`
-3. `date -u +%F` gives D, the shop day. `python3 brand/badroyale/auto/shop_daily.py build D`
-   (it waits up to 25 min for the live shop to turn over).
+3. `date -u +%F` gives D, the shop day. **Already posted?** `getScheduledPosts` (brandId 7408112, timezone
+   America/Chicago, D-1 17:00 to D 23:59): if TikTok, Instagram, Facebook and YouTube each have a post whose text
+   starts `#EpicPartner This is today's Item Shop for <Month day of D>`, stop here and log "shop already posted" (this
+   is how the 01:47 UTC safety run ends on a normal day). If only some networks have it, post just the missing ones
+   in step 6. Otherwise `python3 brand/badroyale/auto/shop_daily.py build D` (it waits up to 25 min for the live shop
+   to turn over).
 4. Open `brand/badroyale/shop/D/qa/review-sheet.png` with Read and look hard: the first frame grabs you (date
    and items visible at once), real items on every tile, prices and names readable, nothing cut off or
    overlapping, the code card at the end. Read the voice lines it printed: the first is "This is today's Item Shop
@@ -81,21 +86,30 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
    scheduled (SHOP step 6), call `createScheduledPost` with its blogId, date and info exactly as given. Remove
    scheduled and past entries from backlog.json; once every entry of a slug is gone, delete its hosted files
    (`python3 brand/_shared/store.py rm <key>` for each of its "r2" keys).
-1c. **Keep 7 days of shorts queued.** Look at the 12:30 and 4:30 PM slots for today and the next 6 days
-   (getScheduledPosts). Fill the empty ones, earliest first, at most 3 new shorts per run, with steps 3-8 below.
-   Evergreen formats for later days (shop-tied formats only for today):
-   - 4:30 PM: Guess the Season via `python3 brand/badroyale/auto/new_guess.py <folder> "<outfit>" "<outfit>" "<outfit>"`
-     with outfits never used in the ledger.
-   - 12:30 PM: Where Is via `python3 brand/badroyale/auto/new_where.py <folder> "<place name from map.json>"`
-     with a place never used in the ledger ("Can't find X? Here's exactly where it is", pinned on the official
-     map). These only hold while the map does: ship them within a day of `fetch_sources.py`, and if
-     fetch_sources.py later reports the place removed, set its queued posts to draft (Facts change, below).
-   - Map secrets and news explainers as below.
-2. `python3 brand/badroyale/auto/fetch_sources.py` (prints new news tiles, new or removed places, a new build).
-3. Pick the two formats for today's weekday from the grid. Read `brand/badroyale/auto/ledger.json` first and
-   never repeat a topic already in it; if a format has nothing new and true to say today, use its fallback.
+1c. `python3 brand/badroyale/auto/fetch_sources.py` (prints new news tiles, new or removed places, a new build).
+2. **Today's current short, 12:30 PM, every day.** If today's 12:30 slot is empty (getScheduledPosts), run
+   `python3 brand/badroyale/auto/new_today.py brand/badroyale/video/auto/<today>-now`. From today's own data it picks
+   the first that exists: a new in-game news tile about something current (an event, a quest, an update), else the
+   biggest Item Shop listing that went live at today's reset (brand-new skins first, never the shop video's deal),
+   else the priciest outfit leaving the shop at tonight's reset. Then steps 5–8 with `--at "<today> 12:30"` and
+   `--sources <folder>/sources`, and add the ledger line it printed. It is about today: never schedule it for a later
+   day. If the pick is a news tile that reads like a generic gameplay tip, or the sheet still looks wrong after a
+   rebuild, run it again with `--pick new` (then `--pick last`). If it prints STOP, make a Where Is short for 12:30.
+3. **Keep the 4:30 PM evergreen slot 7 days ahead.** Look at the 4:30 slots for today and the next 6 days and fill
+   the empty ones, earliest first, at most 2 new shorts per run, alternating:
+   - Guess the Season via `python3 brand/badroyale/auto/new_guess.py <folder> "<outfit>" "<outfit>" "<outfit>"`
+     with outfits never used in the ledger (`--sources <folder>/sources`).
+   - Where Is via `python3 brand/badroyale/auto/new_where.py <folder> "<place name from map.json>"` with a place
+     never used in the ledger ("Can't find X? Here's exactly where it is", pinned on the official map). These hold
+     only while the map does: ship them within a day of `fetch_sources.py`, and if fetch_sources.py later reports the
+     place removed, set its queued posts to draft (Facts change, below).
+   Never fill a 12:30 slot for a later day: each 12:30 is made that morning. When there's a bigger story than the
+   generators give (a new map area, a big update, a new mode), make it by hand from the grid below for today's 12:30
+   instead, with steps 4–8.
 
-| Day | 12:30 PM: map & secrets | 4:30 PM: news & games |
+   Hand-made formats by weekday (ideas for a bigger story at 12:30; the generators cover the normal days):
+
+| Day | Map & secrets | News & games |
 |---|---|---|
 | Mon | Easter Egg Files | Guess the Season |
 | Tue | What Changed (fallback: Easter Egg Files) | Breaking (fallback: news explainer) |
@@ -129,7 +143,7 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
    - **Week in 30:** the week's biggest bundle, the oldest outfit that showed up, and any map or news change, from
      `brand/badroyale/shop/archive/` and sources/history/.
 
-4. For each of the two shorts make a folder `brand/badroyale/video/auto/<D>-<slug>/` with:
+4. For a hand-made short (formats above; read `brand/badroyale/auto/ledger.json` first and never repeat a topic) make a folder `brand/badroyale/video/auto/<D>-<slug>/` with:
    - `scene.js`: build it like the ones in `brand/badroyale/video/v2/` (consoles, pacman, freddys) and
      `brand/badroyale/shop/scene.js`, using `window.FX`, `window.STYLE2` (map camera, captions, markers, code card,
      disclosure, finish). Map work uses `../../badroyale/sources/map-blank.png` and POI coordinates from map.json.
