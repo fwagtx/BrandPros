@@ -4,7 +4,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/../../.."
 python3 -c "import kokoro_onnx, soundfile, imageio_ffmpeg, spellchecker, boto3" 2>/dev/null ||
-  pip install -q kokoro-onnx soundfile imageio-ffmpeg pyspellchecker boto3 2>&1 | grep -v "running pip as the 'root' user" || true
+  python3 -m pip install -q kokoro-onnx soundfile imageio-ffmpeg pyspellchecker boto3 2>&1 | grep -v "running pip as the 'root' user" || true
 python3 -c "import kokoro_onnx, soundfile, imageio_ffmpeg, spellchecker, boto3"
 if [ ! -f brand/_shared/voice/models/model_quantized.onnx ] || [ ! -f brand/_shared/voice/models/voices.npz ]; then
   bash brand/_shared/voice/get_models.sh

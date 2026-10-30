@@ -1,7 +1,8 @@
 {
-  "_note": "BAD ROYALE channel voice, chosen by the owner on 2026-10-28 (the voice in the re-rendered Pac-Man video). Every new script uses these settings unless a video overrides them.",
+  "_note": "BAD ROYALE channel voice, chosen by the owner on 2026-10-28 (the voice in the re-rendered Pac-Man video). Every new script uses these settings unless a video overrides them. mode flow (2026-10-30): the script is spoken as one continuous take per passage instead of phrase by phrase, so the intonation runs on like a person reading; speed raised from 1.1 to 1.25 at the owner's request for a brisker pace. To change the pace, change only speed (1.1 relaxed, 1.25 brisk, 1.4 fast).",
   "voice": "af_heart",
-  "speed": 1.1,
+  "speed": 1.25,
+  "mode": "flow",
   "lang": "en-us",
   "lead": 0.2,
   "mic": false,

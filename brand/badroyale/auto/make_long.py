@@ -60,7 +60,7 @@ def build():
     d, slug = folder()
     vo = json.load(open(os.path.join(d, "vo.json")))
     v = json.load(open(VOICE))
-    vo.update({k: v[k] for k in ("voice", "speed", "lang", "lead")})
+    vo.update({k: v[k] for k in ("voice", "speed", "lang", "lead", "mode", "slack") if k in v})
     json.dump(vo, open(os.path.join(d, "vo.json"), "w"), indent=1, ensure_ascii=False)
     run([sys.executable, os.path.join(BRAND, "_shared", "voice", "vo.py"), "vo.json", "vo.wav", "timings.json"], d, quiet=True)
     t = json.load(open(os.path.join(d, "timings.json")))

@@ -117,7 +117,7 @@ def main():
     open(os.path.join(out, "img", "vbuck.png"), "wb").write(get(shop["vbuckIcon"]))
 
     voice = json.load(open(os.path.join(HERE, "..", "voice.json")))
-    json.dump({**{k: voice[k] for k in ("voice", "speed", "lang", "lead")}, "phrases": [{"text": t, "pause": p} for t, p in phrases]},
+    json.dump({**{k: voice[k] for k in ("voice", "speed", "lang", "lead", "mode", "slack") if k in voice}, "phrases": [{"text": t, "pause": p} for t, p in phrases]},
               open(os.path.join(out, "vo.json"), "w"), indent=1)
 
     from zoneinfo import ZoneInfo
