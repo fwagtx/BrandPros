@@ -1,0 +1,87 @@
+{
+  "video": "badroyale-shop-2026-10-30.mp4",
+  "checked_utc": "2026-10-30T00:12:41Z",
+  "verdict": "READY TO POST",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "6/6 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "Five Nights at Freddy's Bundle: 4500 V-Bucks, regular 11000",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Five Nights at Freddy's Bundle leaves 2026-10-31",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Commando is in the shop, introduced Chapter 1, Season 1",
+          "result": "PASS",
+          "why": "matched in history.json"
+        },
+        {
+          "claim": "Shadow Ops is in the shop, introduced Chapter 1, Season 1",
+          "result": "PASS",
+          "why": "matched in history.json"
+        },
+        {
+          "claim": "15 outfits leave at the next reset (last day)",
+          "result": "PASS",
+          "why": "matched in plan.json; Counted from shop.json outDate == shop date (shop_pick.py)"
+        },
+        {
+          "claim": "Reset at 7 PM CT",
+          "result": "PASS",
+          "why": "matched in plan.json; 00:00 UTC converted to America/Chicago"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "2 distinct words checked; code written as BAD in all 2 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -14.1 LUFS, true peak -2.1 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 23.1s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Frame 1 shows TODAY'S ITEM SHOP OCT 30 with Freddy Fazbear, Shadow Ops, Boo-Lastoff tiles. FNAF bundle 4,500 card, OG check Commando 800 / Shadow Ops 1,500 Chapter 1 Season 1, last-day grid 6 tiles + 9 more = 15 matching VO, code BAD card with #EpicPartner last. #EpicPartner on every frame, nothing cut off or overlapping. First VO line is 'This is today's Item Shop for October 30th.', all lines read as natural English; code not called a discount.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner Fortnite Item Shop, Oct 30: the Five Nights at Freddy's Bundle is 4,500 V-Bucks instead of 11,000, Commando and Shadow Ops are in (Chapter 1, Season 1), and 15 skins leave at 7 PM CT.\nBuying today? Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop"
+}

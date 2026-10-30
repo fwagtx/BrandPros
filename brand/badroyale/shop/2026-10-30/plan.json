@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-30",
+ "dateLabel": "OCT 30",
+ "resetLabel": "7 PM CT",
+ "dealOutLabel": "OCT 31",
+ "deal": {
+  "name": "Five Nights at Freddy's Bundle",
+  "final": 4500,
+  "regular": 11000,
+  "out": "2026-10-31",
+  "outfits": [
+   {
+    "id": "Character_GuardHence",
+    "name": "Freddy Fazbear",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   },
+   {
+    "id": "Character_JigsawWaste",
+    "name": "Foxy The Pirate",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/featured.png",
+    "price": null,
+    "out": null,
+    "in": null
+   },
+   {
+    "id": "Character_SushiAware",
+    "name": "Chica the Chicken",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   },
+   {
+    "id": "Character_TearErrand",
+    "name": "Bonnie the Rabbit",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 1,
+  "outfits": [
+   {
+    "id": "CID_016_Athena_Commando_F",
+    "name": "Commando",
+    "rarity": "Uncommon",
+    "rarityKey": "uncommon",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_016_athena_commando_f/featured.png",
+    "price": 800,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   },
+   {
+    "id": "CID_043_Athena_Commando_F_Stealth",
+    "name": "Shadow Ops",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_043_athena_commando_f_stealth/featured.png",
+    "price": 1500,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   }
+  ]
+ },
+ "last": {
+  "count": 15,
+  "outfits": [
+   {
+    "id": "CID_A_246_Athena_Commando_M_ZombieElastic_C",
+    "name": "Boo-lastoff",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_246_athena_commando_m_zombieelastic_c/featured.png",
+    "price": 1500,
+    "out": "2026-10-30",
+    "in": "2026-10-28"
+   },
+   {
+    "id": "CID_A_249_Athena_Commando_F_ZombieElastic",
+    "name": "Doom Dancer",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_249_athena_commando_f_zombieelastic/featured.png",
+    "price": 1500,
+    "out": "2026-10-30",
+    "in": "2026-10-28"
+   },
+   {
+    "id": "CID_A_251_Athena_Commando_F_ZombieElastic_C",
+    "name": "Extinguished Firebrand",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_251_athena_commando_f_zombieelastic_c/featured.png",
+    "price": 1500,
+    "out": "2026-10-30",
+    "in": "2026-10-28"
+   },
+   {
+    "id": "CID_A_244_Athena_Commando_M_ZombieElastic",
+    "name": "Haunted Hunter",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_244_athena_commando_m_zombieelastic/featured.png",
+    "price": 1500,
+    "out": "2026-10-30",
+    "in": "2026-10-28"
+   },
+   {
+    "id": "CID_A_245_Athena_Commando_M_ZombieElastic_B",
+    "name": "Horrorsonic",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_245_athena_commando_m_zombieelastic_b/featured.png",
+    "price": 1500,
+    "out": "2026-10-30",
+    "in": "2026-10-28"
+   },
+   {
+    "id": "CID_A_253_Athena_Commando_F_ZombieElastic_E",
+    "name": "Jolterror",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_253_athena_commando_f_zombieelastic_e/featured.png",
+    "price": 1500,
+    "out": "2026-10-30",
+    "in": "2026-10-28"
+   }
+  ]
+ },
+ "phrases": [
+  "This is today's Item Shop for October 30th.",
+  "Three things before you spend a single V-Buck.",
+  "The Five Nights at Freddy's Bundle:",
+  "4,500 V-Bucks, instead of 11,000.",
+  "Commando and Shadow Ops are in the shop.",
+  "Both from Chapter 1, Season 1.",
+  "And 15 skins are on their last day, eleven of them Epic.",
+  "Buying anything today?",
+  "Use code BAD in the Item Shop. It really helps the channel."
+ ]
+}
