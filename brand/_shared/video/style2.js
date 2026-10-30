@@ -159,8 +159,16 @@
       "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER");
   }
 
+  // sign-off under the code card, shown while the last line ("Thank you for watching! Follow for more daily content.") plays
+  function thanksStrip(stage, y = 960) {
+    return mk(stage, `left:190px;width:700px;top:${y}px;text-align:center`,
+      `<div style="display:inline-block;padding:8px 26px 4px;background:${YEL};border:5px solid ${INK};border-radius:10px;transform:skewX(-7deg);box-shadow:0 6px 0 ${INK};font-family:'Barlow Condensed';font-weight:900;font-size:48px;line-height:1;color:${INK}">THANK YOU FOR WATCHING!</div>
+       <div style="font:800 30px Montserrat;color:#fff;margin-top:12px;-webkit-text-stroke:5px ${INK};paint-order:stroke fill">Follow for more daily content</div>`,
+      "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT");
+  }
+
   // required disclosure, on screen from frame 1; small, like a creator would place it
   const disclosure = (stage) => mk(stage, `left:44px;top:166px;padding:6px 16px;border-radius:24px;background:rgba(11,13,26,.72);border:2px solid rgba(255,255,255,.85)`, `<span style="font:800 24px Montserrat;color:#fff">#EpicPartner</span>`, "#EPICPARTNER");
 
-  root.STYLE2 = { mapCam, captions, marker, scrawl, arrow, title, finish, toast, codeCard, disclosure, nz };
+  root.STYLE2 = { mapCam, captions, marker, scrawl, arrow, title, finish, toast, codeCard, disclosure, nz, thanksStrip };
 })(window);

@@ -88,7 +88,7 @@ def main():
 
     # short on purpose: dates and prices also sit on screen, the voice only says what matters
     # the opening line is fixed by the owner: "This is today's Item Shop for <date>", straight into the hook
-    phrases = [(f"This is today's Item Shop for {words_date(d0)}.", 0.08), ("Three things before you spend a single V-Buck.", 0.22),
+    phrases = [(f"This is today's Item Shop for {words_date(d0)}.", 0.08), ("Three things before you spend a single V-Buck!", 0.22),
                (f"The {deal['name']}:", 0.06), (f"{deal['final']:,} V-Bucks, instead of {deal['regular']:,}.", 0.26)]
     if len(og_recs) == 2:
         phrases += [(f"{og_recs[0]['name']} and {og_recs[1]['name']} are in the shop.", 0.06), (f"Both from Chapter {ch}, Season {se}.", 0.26)]
@@ -107,7 +107,7 @@ def main():
         phrases += [(line, 0.3)]
         last.sort(key=lambda o: (outfits[o]["rarity"] != top, -outfits[o]["price"], outfits[o]["name"]))
         last_recs = [outfits[o] for o in last]
-    phrases += [("Buying anything today?", 0.06), ("Use code BAD in the Item Shop. It really helps the channel.", 0.3)]
+    phrases += [("Buying anything today?", 0.06), ("Use code BAD in the Item Shop. It really helps the channel.", 0.25), ("Thank you for watching! Follow for more daily content.", 0.3)]
 
     need = set(deal["outfits"][:4]) | set(og) | set(last[:6])
     for oid in need:

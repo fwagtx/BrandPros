@@ -23,6 +23,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BR = os.path.abspath(os.path.join(HERE, ".."))
 API = "https://fortnite-api.com"
 CODE = "Use code BAD in the Item Shop. It really helps the channel."
+THANKS = "Thank you for watching! Follow for more daily content."
 
 
 def get(url, tries=4):
@@ -91,8 +92,8 @@ def pick_news(folder, today, used):
     open(os.path.join(folder, "sources", "news.json"), "wb").write(open(cur_path, "rb").read())
     src = json.load(open(os.path.join(BR, "sources", "manifest.json")))
     manifest(folder, [f for f in src["files"] if f["file"] == "news.json"])
-    phrases = [("Fortnite just put this in the in-game news.", 0.2), (f"{title}.", 0.25)] + [(s, 0.2) for s in sents] + \
-              [("What do you think? Tell me in the comments.", 0.2), (CODE, 0.3)]
+    phrases = [("Fortnite just put this in the in-game news!", 0.2), (f"{title}.", 0.25)] + [(s, 0.2) for s in sents] + \
+              [("What do you think? Tell me in the comments.", 0.2), (CODE, 0.25), (THANKS, 0.3)]
     cfg = {"kicker": "NEW IN FORTNITE", "tile": title, "tileSize": 62 if len(title) < 24 else 50, "hook": ["Just added", "in Fortnite"],
            "quote": [{"p": 2 + i, "text": s} for i, s in enumerate(sents)], "points": [],
            "caption": f"#EpicPartner New in Fortnite's in-game news 📰 {title}",
@@ -173,14 +174,14 @@ def pick_shop(folder, day, kind, used):
     price_line = f"{final:,} V-Bucks, instead of {regular:,}." if regular > final else f"{final:,} V-Bucks."
     fresh_release = kind == "new" and brand_new(e, day)
     if kind == "new":
-        hook, when_say, when_show, ask_say, ask_show = "Just dropped in the Fortnite Item Shop.", f"It's in the shop until {words_date(out)}.", f"In the shop until {out.strftime('%b %-d')}", "Are you getting it?", ["Are you", "getting it?"]
+        hook, when_say, when_show, ask_say, ask_show = "Just dropped in the Fortnite Item Shop!", f"It's in the shop until {words_date(out)}.", f"In the shop until {out.strftime('%b %-d')}", "Are you getting it?", ["Are you", "getting it?"]
         title = ["Just dropped", "in the Item Shop"]
         if fresh_release:
-            hook, title = "Brand new in the Fortnite Item Shop.", ["Brand new", "in the Item Shop"]
+            hook, title = "Brand new in the Fortnite Item Shop!", ["Brand new", "in the Item Shop"]
     else:
-        hook, when_say, when_show, ask_say, ask_show = "Last chance. This leaves the Fortnite Item Shop tonight.", f"It leaves the shop tonight at {reset_t} Central.", f"Leaves tonight · {reset_t} CT", "Getting it before it's gone?", ["Getting it", "before it's gone?"]
+        hook, when_say, when_show, ask_say, ask_show = "Last chance! This leaves the Fortnite Item Shop tonight.", f"It leaves the shop tonight at {reset_t} Central.", f"Leaves tonight · {reset_t} CT", "Getting it before it's gone?", ["Getting it", "before it's gone?"]
         title = ["Last chance", "leaving tonight"]
-    phrases = [(hook, 0.25), (f"{said}.", 0.2)] + ([(f"{contents}.", 0.2)] if contents else []) + [(price_line, 0.25), (when_say, 0.25), (ask_say, 0.2), (CODE, 0.3)]
+    phrases = [(hook, 0.25), (f"{said}.", 0.2)] + ([(f"{contents}.", 0.2)] if contents else []) + [(price_line, 0.25), (when_say, 0.25), (ask_say, 0.2), (CODE, 0.25), (THANKS, 0.3)]
     cfg = {"title": title, "tone": kind, "cards": cards, "name": name, "contents": contents, "price": {"final": final, "regular": regular},
            "when": when_show, "ask": ask_show,
            "caption": f"#EpicPartner {title[0]} {title[1]}: {name}",

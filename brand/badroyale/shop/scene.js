@@ -69,8 +69,9 @@
     const resetNote = S.scrawl(g3, `gone at ${D.resetLabel}`, 58, YEL, -5);
 
     const code = S.codeCard(stage, 520);
+    const thanks = S.thanksStrip(stage, 960);
     const dim = mk(stage, `inset:0;background:rgba(5,8,25,.55)`);
-    stage.appendChild(code);
+    stage.appendChild(code); stage.appendChild(thanks);
     const caps = S.captions(stage, VO.words, { y: 1150 });
     S.disclosure(stage);
     const fin = S.finish(stage);
@@ -115,13 +116,15 @@
       const codeOn = win(t, b4, DUR + 1, 0.12, 0.1);
       T(dim, { a: codeOn });
       T(code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, b4, b4 + 0.3)) });
+      const thP = P[P.length - 1], thanksOn = /thank/i.test(thP.text) ? win(t, thP.t0 - 0.05, DUR + 1, 0.12, 0.1) : 0;
+      T(thanks, { a: thanksOn, s: 0.9 + 0.1 * E.back(k(t, thP.t0 - 0.05, thP.t0 + 0.3)) });
       caps(t);
       fin(t);
     };
   }
 
   const cues = [[0.03, "pop"], [0.12, "flip"], [0.2, "flip"], [0.28, "flip"], [b1, "whoosh"], [P[3].t0, "pop"], [b2, "whoosh"], [P[5].t0, "locked"], [b3, "whoosh"],
-    ...[0, 1, 2, 3, 4, 5].map((i) => [b3 + 0.05 + i * 0.06, "flip"]), [b4, "notify"]];
+    ...[0, 1, 2, 3, 4, 5].map((i) => [b3 + 0.05 + i * 0.06, "flip"]), [b4, "notify"], ...(/thank/i.test(P[P.length - 1].text) ? [[P[P.length - 1].t0 - 0.03, "chime"]] : [])];
   const og = D.og.outfits.map((o) => o.name).join(" and ");
   window.SCENE = {
     duration: DUR, build, cues,

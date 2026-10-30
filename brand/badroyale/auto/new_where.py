@@ -54,8 +54,8 @@ def main(folder, name):
     phrases = [{"text": f"Can't find {name} in Fortnite? Here's exactly where it is.", "pause": 0.25},
                {"text": f"It's {d},", "pause": 0.1},
                {"text": f"right here, closest to {near}.", "pause": 0.3},
-               {"text": "Save this for your next quest.", "pause": 0.2},
-               {"text": "Use code BAD in the Item Shop. It really helps the channel.", "pause": 0.3}]
+               {"text": "Save this for your next quest!", "pause": 0.2},
+               {"text": "Use code BAD in the Item Shop. It really helps the channel.", "pause": 0.25}, {"text": "Thank you for watching! Follow for more daily content.", "pause": 0.3}]
     json.dump({"phrases": phrases}, open(os.path.join(folder, "vo.json"), "w"), indent=1, ensure_ascii=False)
     # "in the south of the island" -> "south on the map"; edges and the center keep their own wording
     where_map = d.replace(" of the island", " of the map") if not d.startswith("in the ") else d[7:].replace(" of the island", "") + " on the map"

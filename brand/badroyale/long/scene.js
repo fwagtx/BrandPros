@@ -70,6 +70,8 @@
       } else if (s.type === "code") {
         e.card = S.codeCard(g, 0);
         e.card.style.left = "610px"; e.card.style.top = "250px";
+        e.thanks = S.thanksStrip(g, 0);
+        e.thanks.style.left = "610px"; e.thanks.style.top = "640px"; e.thanks.style.opacity = 0;
       }
       if (s.chapter) e.chap = mk(g, `left:60px;top:60px;padding:8px 22px 4px;background:${YEL};border:5px solid ${INK};border-radius:10px;transform:skewX(-8deg)`,
         `<span style="font-family:'Barlow Condensed';font-weight:900;font-size:44px;color:${INK};text-transform:uppercase">${s.chapter}</span>`, s.chapter.toUpperCase());
@@ -102,7 +104,8 @@
           e.lines.forEach((l) => { const lit = t >= P[l.p].t0 - 0.05; l.d.style.opacity = lit ? 1 : 0.32; l.d.style.color = lit && t < P[l.p].t1 + 0.15 ? "#fff" : "#C9D6FF"; }); }
         if (s.type === "items") { dimA = Math.max(dimA, on); e.tiles.forEach((el, j) => T(el, { s: E.back(k(t, s.t0 + j * 0.08, s.t0 + 0.35 + j * 0.08)), r: Math.sin(t * 0.9 + j) * 1.2 })); }
         if (s.type === "stat") { dimA = Math.max(dimA, on); T(e.card, { s: 0.8 + 0.2 * E.back(k(t, s.t0, s.t0 + 0.4)) }); }
-        if (s.type === "code") { dimA = Math.max(dimA, on); T(e.card, { s: 0.86 + 0.14 * E.back(k(t, s.t0, s.t0 + 0.4)) }); }
+        if (s.type === "code") { dimA = Math.max(dimA, on); T(e.card, { s: 0.86 + 0.14 * E.back(k(t, s.t0, s.t0 + 0.4)) });
+          const thP = P[P.length - 1]; T(e.thanks, { a: /thank/i.test(thP.text) ? k(t, thP.t0 - 0.05, thP.t0 + 0.2) : 0 }); }
       });
       T(dim, { a: dimA * 0.78 });
       subs.forEach((x) => { x.el.style.visibility = t >= x.t0 && t < x.t1 ? "visible" : "hidden"; });

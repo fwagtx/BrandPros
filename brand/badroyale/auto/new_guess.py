@@ -46,10 +46,10 @@ def main(folder, names):
            "caption": "#EpicPartner Guess the season 👀 Only true OGs get all 3 right. Drop your score below 👇\nUse code BAD in the Item Shop 💛\n#fortnite #fortniteog #guesstheseason",
            "claims": [{"text": f"{r['name']}: Chapter {r['chapter']}, Season {r['season']}", "source": f"{r['id']}.json", "match": [r["name"], r["intro"]]} for r in rounds]}
     open(os.path.join(folder, "scene.js"), "w").write("/* BAD ROYALE · Guess the Season. Facts: Epic's cosmetics data in sources/. */\nwindow.SCENE = TPL.guess(" + json.dumps(cfg, indent=1, ensure_ascii=False) + ");\n")
-    phrases = [{"text": "Guess the season. Only true OGs get all three.", "pause": 0.25}]
+    phrases = [{"text": "Guess the season! Only true OGs get all three.", "pause": 0.25}]
     for r in rounds:
         phrases += [{"text": f"{r['name']}.", "pause": 1.7}, {"text": f"Chapter {r['chapter']}, Season {r['season']}.", "pause": 0.4}]
-    phrases += [{"text": "How many did you get right? Tell me in the comments.", "pause": 0.2}, {"text": "Use code BAD in the Item Shop. It really helps the channel.", "pause": 0.3}]
+    phrases += [{"text": "How many did you get right? Tell me in the comments.", "pause": 0.2}, {"text": "Use code BAD in the Item Shop. It really helps the channel.", "pause": 0.25}, {"text": "Thank you for watching! Follow for more daily content.", "pause": 0.3}]
     json.dump({"phrases": phrases}, open(os.path.join(folder, "vo.json"), "w"), indent=1)
     body = "Guess the season 👀 Only true OGs get all 3 right\nDrop your score in the comments 👇\nUse code BAD in the Item Shop 💛"
     json.dump({"tiktok": f"#EpicPartner {body}\n#fortnite #fortniteog #guesstheseason", "tiktokTitle": "Guess the season 👀",

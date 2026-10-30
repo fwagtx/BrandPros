@@ -1,6 +1,6 @@
 {
-  "_note": "BAD ROYALE channel voice, chosen by the owner on 2026-10-28 (the voice in the re-rendered Pac-Man video). Every new script uses these settings unless a video overrides them. mode flow (2026-10-30): the script is spoken as one continuous take per passage instead of phrase by phrase, so the intonation runs on like a person reading; speed raised from 1.1 to 1.25 at the owner's request for a brisker pace. To change the pace, change only speed (1.1 relaxed, 1.25 brisk, 1.4 fast).",
-  "voice": "af_heart",
+  "_note": "BAD ROYALE channel voice. af_heart was the owner's pick on 2026-10-28; switched to af_aoede on 2026-10-30 because the owner asked that questions sound like questions and af_heart drops its pitch at the end of every one (measured: af_aoede rises on 5 of 6, am_liam on 6 of 6). mode flow: the script is spoken as one continuous take per passage instead of phrase by phrase; speed 1.25 for a brisk pace. To change the voice, change only this field (af_heart warm but flat on questions, af_aoede asks, am_liam male and most expressive, blends like af_heart:0.5+af_aoede:0.5 work).",
+  "voice": "af_aoede",
   "speed": 1.25,
   "mode": "flow",
   "lang": "en-us",

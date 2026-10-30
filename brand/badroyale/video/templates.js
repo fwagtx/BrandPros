@@ -16,7 +16,10 @@
     gaminglegends: ["#7B6BFF", "#1E1557"], icon: ["#5CF2F3", "#0F6B7A"], marvel: ["#F0473C", "#5A0F0B"], dc: ["#5A84FF", "#14205E"], starwars: ["#3D3D3D", "#0A0A0A"], dark: ["#FF4FD8", "#3A0A4F"], shadow: ["#6E6E6E", "#141414"] };
   // official map: game coordinates -> pixels on the 2048 map image (fitted to the POI data, error < 1 px)
   const mapPx = (w) => ({ x: 0.0066081 * w.x + 976.46, y: 0.0066058 * w.y + 1016.67 });
-  const timing = () => { const VO = root.VO, P = VO.phrases; return { VO, P, DUR: Math.round((P[P.length - 1].t1 + 0.7) * 10) / 10 }; };
+  // the code line is the phrase that says the code; whatever follows it (the sign-off) plays over the code card
+  const codeIndex = (P) => { for (let i = P.length - 1; i >= 0; i--) if (/\bcode\b[^.?!]*\bbad\b/i.test(P[i].text)) return i; return P.length - 1; };
+  const timing = () => { const VO = root.VO, P = VO.phrases, codeI = codeIndex(P); return { VO, P, DUR: Math.round((P[P.length - 1].t1 + 0.7) * 10) / 10, codeI, codeP: P[codeI], thanksP: P[codeI + 1] }; };
+  const signoff = (e, t, thanksP, DUR) => T(e.thanks, { a: thanksP ? win(t, thanksP.t0 - 0.05, DUR + 1, 0.12, 0.1) : 0, s: thanksP ? 0.9 + 0.1 * E.back(k(t, thanksP.t0 - 0.05, thanksP.t0 + 0.3)) : 1 });
   const wall = (stage) => {
     mk(stage, `inset:0;background:linear-gradient(160deg,#1D2E8F,#14156B 45%,#2A0F5E)`);
     return mk(stage, `left:-600px;top:0;width:2400px;height:1920px;background:repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 90px,transparent 90px 260px)`);
@@ -33,14 +36,14 @@
        </div>`, o.name.toUpperCase());
     return el;
   }
-  const end = (stage, VO) => ({ code: S.codeCard(stage, 520), caps: S.captions(stage, VO.words, { y: 1150 }), disc: S.disclosure(stage), fin: S.finish(stage) });
+  const end = (stage, VO) => ({ code: S.codeCard(stage, 520), thanks: S.thanksStrip(stage, 960), caps: S.captions(stage, VO.words, { y: 1150 }), disc: S.disclosure(stage), fin: S.finish(stage) });
 
   // ---------------- Guess the Season ----------------
   // voice: [hook, name1, answer1, name2, answer2, ..., "How many did you get?", code line]
   function guess(cfg) {
-    const { VO, P, DUR } = timing();
+    const { VO, P, DUR, codeI, codeP, thanksP } = timing();
     const R = cfg.rounds, nameP = (i) => P[1 + 2 * i], ansP = (i) => P[2 + 2 * i];
-    const outro = P[P.length - 2], codeP = P[P.length - 1];
+    const outro = P[codeI - 1];
     function build(stage) {
       const bands = wall(stage);
       const hook = mk(stage, `inset:0`);
@@ -60,7 +63,7 @@
       const score = S.title(stage, ["How many", "did you get?"], { y: 330, size: 96 });
       const e = end(stage, VO);
       const dim = mk(stage, `inset:0;background:rgba(5,8,25,.55)`);
-      stage.appendChild(e.code);
+      stage.appendChild(e.code); stage.appendChild(e.thanks);
       return function renderAt(t) {
         bands.style.transform = `translateX(${(t * 40) % 260}px)`;
         const r0 = nameP(0).t0 - 0.12;
@@ -87,21 +90,21 @@
         const sc = win(t, outro.t0 - 0.1, codeP.t0 - 0.05, 0.15, 0.1);
         T(score, { a: sc, s: 0.9 + 0.1 * E.back(k(t, outro.t0 - 0.1, outro.t0 + 0.25)) });
         const codeOn = win(t, codeP.t0 - 0.05, DUR + 1, 0.12, 0.1);
-        T(dim, { a: codeOn }); T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) });
+        T(dim, { a: codeOn }); T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) }); signoff(e, t, thanksP, DUR);
         e.caps(t); e.fin(t, R.map((_, i) => ansP(i).t0 - 0.03));
       };
     }
     const cues = [[0.03, "pop"], [0.1, "flip"], [0.16, "flip"], [0.22, "flip"]];
     R.forEach((_, i) => cues.push([nameP(i).t0 - 0.12, "whoosh"], [nameP(i).t1 + 0.05, "tick"], [ansP(i).t0 - 0.03, "reveal"]));
     cues.push([codeP.t0 - 0.05, "notify"]);
+    if (thanksP) cues.push([thanksP.t0 - 0.03, "chime"]);
     return { duration: DUR, build, cues, caption: cfg.caption, claims: cfg.claims };
   }
 
   // ---------------- a spot on the map ----------------
   // shots: [{p, dt?, x, y, z, ease?}] camera keyframes (map pixels); pins: [{x, y, p, label, color?}]; toasts: [{p, label, text}]
   function map(cfg) {
-    const { VO, P, DUR } = timing();
-    const codeP = P[P.length - 1];
+    const { VO, P, DUR, codeP, thanksP } = timing();
     const at = (s) => (s.p === "end" ? DUR : P[s.p].t0 + (s.dt || 0));
     // the camera holds still and only moves in a short whip before each shot, so no frame is a slow blur
     const kf = [];
@@ -132,21 +135,21 @@
         const codeOn = win(t, codeP.t0 - 0.05, DUR + 1, 0.12, 0.1);
         T(dim, { a: Math.max(tOn, codeOn) });
         toasts.forEach((o) => { const x = (1 - E.out(k(t, P[o.p].t0 - 0.05, P[o.p].t0 + 0.22))) * -700; T(o.el, { a: t >= P[o.p].t0 - 0.05 ? tOn * Math.max(0, 1 - Math.abs(x) / 60) : 0, x }); });
-        T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) });
+        T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) }); signoff(e, t, thanksP, DUR);
         T(title, { a: 1 - Math.max(tOn, codeOn), s: 0.96 + 0.04 * E.out(k(t, 0, 0.3)) });
         e.caps(t); e.fin(t);
       };
     }
     const cues = [[0.03, "ping"], ...cfg.pins.map((p) => [P[p.p].t0 + (p.dt || 0.2), "marker"]), ...cfg.shots.slice(1).filter((s) => s.p !== "end" && s.whoosh).map((s) => [at(s) - 0.1, "whoosh"]),
       ...(cfg.toasts || []).map((o) => [P[o.p].t0, "notify"]), [codeP.t0 - 0.05, "pop"]];
+    if (thanksP) cues.push([thanksP.t0 - 0.03, "chime"]);
     return { duration: DUR, build, cues, caption: cfg.caption, claims: cfg.claims };
   }
 
   // ---------------- an in-game news tile, explained ----------------
   // quote: lines of the tile's own text, each shown from phrase p; points: takeaways as in-game toasts
   function news(cfg) {
-    const { VO, P, DUR } = timing();
-    const codeP = P[P.length - 1];
+    const { VO, P, DUR, codeP, thanksP } = timing();
     function build(stage) {
       const bands = wall(stage);
       const panel = mk(stage, `left:50px;top:330px;width:860px;border-radius:18px;overflow:hidden;border:6px solid ${INK};box-shadow:0 14px 0 rgba(0,0,0,.4);background:linear-gradient(180deg,#0E1B5C,#0A1240)`,
@@ -171,11 +174,12 @@
         const codeOn = win(t, codeP.t0 - 0.05, DUR + 1, 0.12, 0.1);
         T(dim, { a: Math.max(pOn, codeOn) });
         points.forEach((o) => { const x = (1 - E.out(k(t, P[o.p].t0 - 0.05, P[o.p].t0 + 0.22))) * -700; T(o.el, { a: t >= P[o.p].t0 - 0.05 ? pOn * Math.max(0, 1 - Math.abs(x) / 60) : 0, x }); });
-        T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) });
+        T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) }); signoff(e, t, thanksP, DUR);
         e.caps(t); e.fin(t);
       };
     }
     const cues = [[0.03, "pop"], ...cfg.quote.map((l) => [P[l.p].t0, "tick"]), ...(cfg.points || []).map((o) => [P[o.p].t0, "notify"]), [codeP.t0 - 0.05, "pop"]];
+    if (thanksP) cues.push([thanksP.t0 - 0.03, "chime"]);
     return { duration: DUR, build, cues, caption: cfg.caption, claims: cfg.claims };
   }
 
@@ -183,8 +187,8 @@
   // voice: [hook, name, (contents), price, when, question, code line]; each info beat swaps the line under the cards
   // cfg: { title, cards: [{name, img, rarity}] (1-3), name, contents?, price: {final, regular?}, when, tone: "new"|"last" }
   function drop(cfg) {
-    const { VO, P, DUR } = timing();
-    const codeP = P[P.length - 1], askP = P[P.length - 2];
+    const { VO, P, DUR, codeI, codeP, thanksP } = timing();
+    const askP = P[codeI - 1];
     const hasList = !!cfg.contents;
     const nameP = P[1], listP = hasList ? P[2] : null, priceP = P[hasList ? 3 : 2], whenP = P[hasList ? 4 : 3];
     const C = cfg.cards.slice(0, 3), n = C.length;
@@ -212,7 +216,7 @@
       const ask = S.title(stage, cfg.ask || ["Are you", "getting it?"], { y: 330, size: 96 });
       const e = end(stage, VO);
       const dim = mk(stage, `inset:0;background:rgba(5,8,25,.62)`);
-      stage.appendChild(ask); stage.appendChild(e.code);
+      stage.appendChild(ask); stage.appendChild(e.code); stage.appendChild(e.thanks);
       // each info line shows from its phrase until the next one starts
       const beats = [[name, nameP], [list, listP], [price, priceP], [when, whenP]].filter((b) => b[0]);
       return function renderAt(t) {
@@ -230,12 +234,13 @@
         const askOn = win(t, askP.t0 - 0.08, codeP.t0 - 0.05, 0.12, 0.1), codeOn = win(t, codeP.t0 - 0.05, DUR + 1, 0.12, 0.1);
         T(dim, { a: Math.max(askOn, codeOn) });
         T(ask, { a: askOn, s: 0.9 + 0.1 * E.back(k(t, askP.t0 - 0.08, askP.t0 + 0.25)) });
-        T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) });
+        T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) }); signoff(e, t, thanksP, DUR);
         e.caps(t); e.fin(t, [priceP.t0 - 0.06, whenP.t0 - 0.06]);
       };
     }
     const cues = [[0.03, "pop"], ...C.map((_, i) => [0.05 + i * 0.07, "flip"]), [nameP.t0 - 0.06, "whoosh"], [priceP.t0 - 0.06, "reveal"], [whenP.t0 - 0.06, cfg.tone === "last" ? "tick" : "marker"],
       [askP.t0 - 0.08, "pop"], [codeP.t0 - 0.05, "notify"]];
+    if (thanksP) cues.push([thanksP.t0 - 0.03, "chime"]);
     return { duration: DUR, build, cues, caption: cfg.caption, claims: cfg.claims };
   }
 

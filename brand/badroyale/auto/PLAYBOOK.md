@@ -16,8 +16,14 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 3. **Facts only from saved official data** (sources/ refreshed by fetch_sources.py, or that day's shop folder).
    Every on-screen fact is a claim in `SCENE.claims` that matches the source text. No leaks, no datamines, no
    rumors, no "coming soon", no invented dates, no opinions presented as fact ("best skin ever").
-4. **Voice:** always the owner's locked voice, `brand/badroyale/voice.json` (Kokoro `af_heart`, read as one continuous
-   take per passage, speed 1.25). The scripts enforce it; never edit voice.json. BAD is said as the word "bad" (vo.py's PRONOUNCE map).
+4. **Voice:** always the owner's locked voice, `brand/badroyale/voice.json` (Kokoro, read as one continuous take per
+   passage, speed 1.25; voice `af_aoede` since 2026-10-30 because it asks questions as questions). The scripts enforce
+   it; never edit voice.json. BAD is said as the word "bad" (vo.py's PRONOUNCE map).
+   **Say it the way it is meant** (owner, 2026-10-30): write every line the way it should be spoken. A question ends
+   with `?`, excitement or a reveal ends with `!`, a beat is a comma. The voice follows the punctuation, so a flat line
+   gets a flat read. **Every script ends** with the code line and then exactly
+   `Thank you for watching! Follow for more daily content.` (the generators add it; hand-made shorts and long videos
+   must too). The templates show the sign-off under the code card while it plays.
 5. **Art:** skin and item art only inside videos and covers about that item (Epic's fan content policy).
    Never in logos, profile pictures or banners.
 6. **Labels:** `isAigc`, `isAiGenerated` and `isAiGeneratedContent` stay false (a generic narrator voice over
