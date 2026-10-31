@@ -1,0 +1,49 @@
+{
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow",
+ "phrases": [
+  {
+   "text": "This is today's Item Shop for October 31st.",
+   "pause": 0.08
+  },
+  {
+   "text": "Three things before you spend a single V-Buck!",
+   "pause": 0.22
+  },
+  {
+   "text": "The Five Nights at Freddy's Bundle:",
+   "pause": 0.06
+  },
+  {
+   "text": "4,500 V-Bucks, instead of 11,000.",
+   "pause": 0.26
+  },
+  {
+   "text": "Commando and Shadow Ops are in the shop.",
+   "pause": 0.06
+  },
+  {
+   "text": "Both from Chapter 1, Season 1.",
+   "pause": 0.26
+  },
+  {
+   "text": "And 28 skins are on their last day, twelve of them Rare.",
+   "pause": 0.3
+  },
+  {
+   "text": "Buying anything today?",
+   "pause": 0.06
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ]
+}

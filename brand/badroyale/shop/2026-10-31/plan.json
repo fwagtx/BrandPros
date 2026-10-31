@@ -1,0 +1,169 @@
+{
+ "date": "2026-10-31",
+ "dateLabel": "OCT 31",
+ "resetLabel": "7 PM CT",
+ "dealOutLabel": "OCT 31",
+ "deal": {
+  "name": "Five Nights at Freddy's Bundle",
+  "final": 4500,
+  "regular": 11000,
+  "out": "2026-10-31",
+  "outfits": [
+   {
+    "id": "Character_GuardHence",
+    "name": "Freddy Fazbear",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   },
+   {
+    "id": "Character_JigsawWaste",
+    "name": "Foxy The Pirate",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/featured.png",
+    "price": null,
+    "out": null,
+    "in": null
+   },
+   {
+    "id": "Character_SushiAware",
+    "name": "Chica the Chicken",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   },
+   {
+    "id": "Character_TearErrand",
+    "name": "Bonnie the Rabbit",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/featured.png",
+    "price": 1500,
+    "out": "2026-10-31",
+    "in": "2026-10-01"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 1,
+  "outfits": [
+   {
+    "id": "CID_016_Athena_Commando_F",
+    "name": "Commando",
+    "rarity": "Uncommon",
+    "rarityKey": "uncommon",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_016_athena_commando_f/featured.png",
+    "price": 800,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   },
+   {
+    "id": "CID_043_Athena_Commando_F_Stealth",
+    "name": "Shadow Ops",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_043_athena_commando_f_stealth/featured.png",
+    "price": 1500,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   }
+  ]
+ },
+ "last": {
+  "count": 28,
+  "outfits": [
+   {
+    "id": "CID_591_Athena_Commando_M_SoccerZombieC",
+    "name": "Burial Threat",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_591_athena_commando_m_soccerzombiec/featured.png",
+    "price": 1200,
+    "out": "2026-10-31",
+    "in": "2026-10-29"
+   },
+   {
+    "id": "CID_596_Athena_Commando_F_SoccerZombieD",
+    "name": "Crypt Crosser",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_596_athena_commando_f_soccerzombied/featured.png",
+    "price": 1200,
+    "out": "2026-10-31",
+    "in": "2026-10-29"
+   },
+   {
+    "id": "CID_593_Athena_Commando_F_SoccerZombieA",
+    "name": "Decaying Dribbler",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_593_athena_commando_f_soccerzombiea/featured.png",
+    "price": 1200,
+    "out": "2026-10-31",
+    "in": "2026-10-29"
+   },
+   {
+    "id": "CID_595_Athena_Commando_F_SoccerZombieC",
+    "name": "Fatal Finisher",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_595_athena_commando_f_soccerzombiec/featured.png",
+    "price": 1200,
+    "out": "2026-10-31",
+    "in": "2026-10-29"
+   },
+   {
+    "id": "CID_590_Athena_Commando_M_SoccerZombieB",
+    "name": "Midfield Monstrosity",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_590_athena_commando_m_soccerzombieb/featured.png",
+    "price": 1200,
+    "out": "2026-10-31",
+    "in": "2026-10-29"
+   },
+   {
+    "id": "CID_594_Athena_Commando_F_SoccerZombieB",
+    "name": "Putrid Playmaker",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_594_athena_commando_f_soccerzombieb/featured.png",
+    "price": 1200,
+    "out": "2026-10-31",
+    "in": "2026-10-29"
+   }
+  ]
+ },
+ "phrases": [
+  "This is today's Item Shop for October 31st.",
+  "Three things before you spend a single V-Buck!",
+  "The Five Nights at Freddy's Bundle:",
+  "4,500 V-Bucks, instead of 11,000.",
+  "Commando and Shadow Ops are in the shop.",
+  "Both from Chapter 1, Season 1.",
+  "And 28 skins are on their last day, twelve of them Rare.",
+  "Buying anything today?",
+  "Use code BAD in the Item Shop. It really helps the channel.",
+  "Thank you for watching! Follow for more daily content."
+ ]
+}

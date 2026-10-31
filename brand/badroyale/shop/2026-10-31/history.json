@@ -1,0 +1,262 @@
+{
+ "Character_AltoGorgon": {
+  "name": "Dek",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_GourdRiddanceRock": {
+  "name": "Magmatic Carver",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "Character_CargoLying": {
+  "name": "Nikki",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_093_Athena_Commando_M_Dinosaur": {
+  "name": "Rex",
+  "introduction": "Introduced in Chapter 1, Season 3."
+ },
+ "Character_IvoryDwell": {
+  "name": "Inoxtag",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_SlugRipple": {
+  "name": "Art the Clown",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "CID_043_Athena_Commando_F_Stealth": {
+  "name": "Shadow Ops",
+  "introduction": "Introduced in Chapter 1, Season 1."
+ },
+ "CID_329_Athena_Commando_F_SnowNinja": {
+  "name": "Snowstrike",
+  "introduction": "Introduced in Chapter 1, Season 7."
+ },
+ "Character_Scuffle": {
+  "name": "Seung",
+  "introduction": "Introduced in Chapter 6, Season 2."
+ },
+ "CID_748_Athena_Commando_F_Hitman": {
+  "name": "Siren",
+  "introduction": "Introduced in Chapter 2, Season 2."
+ },
+ "CID_755_Athena_Commando_M_Splinter": {
+  "name": "Wolf",
+  "introduction": "Introduced in Chapter 2, Season 2."
+ },
+ "CID_591_Athena_Commando_M_SoccerZombieC": {
+  "name": "Burial Threat",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "CID_016_Athena_Commando_F": {
+  "name": "Commando ",
+  "introduction": "Introduced in Chapter 1, Season 1."
+ },
+ "Character_RainbowSplash": {
+  "name": "Remembrance Salvador",
+  "introduction": "Introduced in Chapter 6, Season 6."
+ },
+ "Character_SutureHalo": {
+  "name": "Nurse Lenore",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_SushiAware": {
+  "name": "Chica the Chicken",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_TearErrand": {
+  "name": "Bonnie the Rabbit",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_616_Athena_Commando_F_CavalryBandit": {
+  "name": "Hush",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "Character_SouthBalk": {
+  "name": "Dr. Eggman",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_Ruins": {
+  "name": "Undying Sorrow",
+  "introduction": "Introduced in Chapter 3, Season 4."
+ },
+ "Character_AllKnowing": {
+  "name": "Sinister Glare",
+  "introduction": "Introduced in Chapter 3, Season 4."
+ },
+ "Character_ZenithPair": {
+  "name": "HamiKuma",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_A_025_Athena_Commando_M_Kepler_UEN6V": {
+  "name": "Xenomorph",
+  "introduction": "Introduced in Chapter 2, Season 5."
+ },
+ "Character_MagneticPlotter": {
+  "name": "Technician Naya",
+  "introduction": "Introduced in Chapter 6, Season 2."
+ },
+ "Character_MastermindSummer": {
+  "name": "Chaos Explorer",
+  "introduction": "Introduced in Chapter 4, Season 3."
+ },
+ "Character_RadarDigitOrtho": {
+  "name": "Yeat",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_RadarDigitGloom": {
+  "name": "Twizz",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_ApronChow": {
+  "name": "Freddy Krueger",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_VelociTeeth": {
+  "name": "Saura",
+  "introduction": "Introduced in Chapter 4, Season OG."
+ },
+ "CID_728_Athena_Commando_M_MinotaurLuck": {
+  "name": "Master Minotaur",
+  "introduction": "Introduced in Chapter 2, Season 2."
+ },
+ "CID_A_072_Athena_Commando_M_BuffCatComic_XG5XC": {
+  "name": "Toon Meowscles",
+  "introduction": "Introduced in Chapter 2, Season 6."
+ },
+ "CID_A_210_Athena_Commando_F_RenegadeSkull": {
+  "name": "Skeletara",
+  "introduction": "Introduced in Chapter 2, Season 8."
+ },
+ "Character_ScribeSpider": {
+  "name": "Shadow the Hedgehog",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_Calavera": {
+  "name": "Salvador",
+  "introduction": "Introduced in Chapter 3, Season 4."
+ },
+ "Character_MixedAlley": {
+  "name": "Knuckles the Echidna",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_598_Athena_Commando_M_Mastermind": {
+  "name": "Chaos Agent",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "CID_672_Athena_Commando_F_ArcticCamo_Gray": {
+  "name": "Hailstorm",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "CID_593_Athena_Commando_F_SoccerZombieA": {
+  "name": "Decaying Dribbler",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "Character_AsideDepot": {
+  "name": "Beetlejuice",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_A_026_Athena_Commando_F_Kepler_2G59M": {
+  "name": "Ellen Ripley",
+  "introduction": "Introduced in Chapter 2, Season 5."
+ },
+ "CID_579_Athena_Commando_F_RedRidingRemix": {
+  "name": "Grim Fable",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "CID_A_403_Athena_Commando_F_RebirthFresh_B": {
+  "name": "General Banshee",
+  "introduction": "Introduced in Chapter 3, Season 2."
+ },
+ "CID_596_Athena_Commando_F_SoccerZombieD": {
+  "name": "Crypt Crosser",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "CID_595_Athena_Commando_F_SoccerZombieC": {
+  "name": "Fatal Finisher",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "Character_SubtleSilly": {
+  "name": "Soul",
+  "introduction": "Introduced in Chapter 7, Season 3."
+ },
+ "Character_FonduePaper": {
+  "name": "The Slender Man",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_GuardHence": {
+  "name": "Freddy Fazbear",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_WitchValve": {
+  "name": "Jack the Clown",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_JigsawWaste": {
+  "name": "Foxy The Pirate",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_WaveTrail": {
+  "name": "Raij\u016b",
+  "introduction": "Introduced in Chapter 6, Season 2."
+ },
+ "Character_BucketKick": {
+  "name": "Knightmare",
+  "introduction": "Introduced in Chapter 5, Season 4."
+ },
+ "CID_589_Athena_Commando_M_SoccerZombieA": {
+  "name": "Sinister Striker",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "CID_477_Athena_Commando_F_SpaceSuit": {
+  "name": "Astro Assassin",
+  "introduction": "Introduced in Chapter 1, Season 9."
+ },
+ "CID_452_Athena_Commando_F_CyberFu": {
+  "name": "Focus",
+  "introduction": "Introduced in Chapter 1, Season 9."
+ },
+ "Character_BrassSpar": {
+  "name": "Miasma",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_CloakedIron": {
+  "name": "Mal",
+  "introduction": "Introduced in Chapter 6, Season 4."
+ },
+ "CID_532_Athena_Commando_F_Punchy": {
+  "name": "Moxie",
+  "introduction": "Introduced in Chapter 1, Season X."
+ },
+ "Character_TulipGlory": {
+  "name": "Xenomorph (Alien: Earth)",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "CID_594_Athena_Commando_F_SoccerZombieB": {
+  "name": "Putrid Playmaker",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "Character_CommandoSpy": {
+  "name": "Whisper",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "CID_A_407_Athena_Commando_M_RebirthFresh_B": {
+  "name": "Captain Carlos",
+  "introduction": "Introduced in Chapter 3, Season 2."
+ },
+ "Character_MeowKnaw": {
+  "name": "Spice",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "Character_IchorIncisor": {
+  "name": "Countess Daraku",
+  "introduction": "Introduced in Chapter 4, Season 4."
+ },
+ "CID_590_Athena_Commando_M_SoccerZombieB": {
+  "name": "Midfield Monstrosity",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "CID_592_Athena_Commando_M_SoccerZombieD": {
+  "name": "Soulless Sweeper",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ }
+}
