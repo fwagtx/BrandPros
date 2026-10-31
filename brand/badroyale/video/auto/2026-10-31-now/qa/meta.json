@@ -1,0 +1,95 @@
+{
+ "duration": 19.1,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Ripley & Xenomorph Bundle",
+ "claims": [
+  {
+   "text": "Ripley & Xenomorph Bundle is in the Item Shop for 2026-10-31",
+   "source": "shop.json",
+   "match": [
+    "Ripley & Xenomorph Bundle",
+    "\"date\": \"2026-10-31"
+   ]
+  },
+  {
+   "text": "Price 2,200 V-Bucks (listed regular price 3,100)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 3100, \"finalPrice\": 2200"
+   ]
+  },
+  {
+   "text": "Listing started 2026-10-31",
+   "source": "shop.json",
+   "match": [
+    "2026-10-31T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Xenomorph is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Xenomorph"
+   ]
+  },
+  {
+   "text": "Ellen Ripley is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Ellen Ripley"
+   ]
+  },
+  {
+   "text": "Xenomorph Tail is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Xenomorph Tail"
+   ]
+  },
+  {
+   "text": "Weyland-Yutani Cat Carrier is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Weyland-Yutani Cat Carrier"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "XENOMORPH",
+  "ELLEN RIPLEY",
+  "XENOMORPH TAIL",
+  "RIPLEY & XENOMORPH BUNDLE",
+  "XENOMORPH, ELLEN RIPLEY, XENOMORPH TAIL AND 2 MORE ITEMS",
+  "2,200 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 3",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE RIPLEY &",
+  "XENOMORPH BUNDLE.",
+  "XENOMORPH,",
+  "ELLEN RIPLEY,",
+  "XENOMORPH TAIL AND",
+  "2 MORE ITEMS.",
+  "2,200 V-BUCKS,",
+  "INSTEAD OF 3,100.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "3RD.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
