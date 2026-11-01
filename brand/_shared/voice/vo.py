@@ -32,6 +32,7 @@ PRONOUNCE = {
     "v42.40": "version forty-two point four oh",
     "FNCS": "F N C S",
     "LTM": "limited time mode",
+    "A$AP": "A-sap",
 }
 SENTENCE_END = ".!?…"
 TAKE_PHONEMES = 380        # one model pass holds up to 510 phonemes; shorter takes align more precisely

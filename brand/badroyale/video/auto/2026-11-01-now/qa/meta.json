@@ -1,0 +1,95 @@
+{
+ "duration": 19.3,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Mariah Carey Bundle",
+ "claims": [
+  {
+   "text": "Mariah Carey Bundle is in the Item Shop for 2026-11-01",
+   "source": "shop.json",
+   "match": [
+    "Mariah Carey Bundle",
+    "\"date\": \"2026-11-01"
+   ]
+  },
+  {
+   "text": "Price 2,800 V-Bucks (listed regular price 4,300)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 4300, \"finalPrice\": 2800"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-01",
+   "source": "shop.json",
+   "match": [
+    "2026-11-01T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Santa Suit Mariah is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Santa Suit Mariah"
+   ]
+  },
+  {
+   "text": "Mariah Carey is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Mariah Carey"
+   ]
+  },
+  {
+   "text": "Angelic Wings is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Angelic Wings"
+   ]
+  },
+  {
+   "text": "Gilded Honey Wings is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Gilded Honey Wings"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "SANTA SUIT MARIAH",
+  "MARIAH CAREY",
+  "ANGELIC WINGS",
+  "MARIAH CAREY BUNDLE",
+  "SANTA SUIT MARIAH, MARIAH CAREY, ANGELIC WINGS AND 3 MORE ITEMS",
+  "2,800 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 4",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE MARIAH CAREY",
+  "BUNDLE.",
+  "SANTA SUIT MARIAH,",
+  "MARIAH CAREY,",
+  "ANGELIC WINGS AND",
+  "3 MORE ITEMS.",
+  "2,800 V-BUCKS,",
+  "INSTEAD OF 4,300.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "4TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}

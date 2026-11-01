@@ -1,0 +1,46 @@
+{
+ "duration": 15,
+ "caption": "#EpicPartner Where is WonkeeLand in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "WonkeeLand is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "WonkeeLand"
+   ]
+  },
+  {
+   "text": "It is in the north-east of the island, nearest named location Freaky Fields",
+   "source": "map-labels.png",
+   "visual": "map pixel (1420, 668); nearest named POI by coordinates: Freaky Fields"
+  }
+ ],
+ "text": [
+  "WONKEELAND",
+  "WHERE IS WONKEELAND? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND WONKEELAND",
+  "IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "NORTH-EAST OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO FREAKY",
+  "FIELDS.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
