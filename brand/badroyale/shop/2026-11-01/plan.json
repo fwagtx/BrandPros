@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-01",
+ "dateLabel": "NOV 1",
+ "resetLabel": "6 PM CT",
+ "dealOutLabel": "NOV 2",
+ "deal": {
+  "name": "Beetlejuice Bundle",
+  "final": 2400,
+  "regular": 5300,
+  "out": "2026-11-02",
+  "outfits": [
+   {
+    "id": "Character_AsideDepot",
+    "name": "Beetlejuice",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_asidedepot/featured.png",
+    "price": 1500,
+    "out": "2026-11-02",
+    "in": "2026-10-24"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 1,
+  "outfits": [
+   {
+    "id": "CID_016_Athena_Commando_F",
+    "name": "Commando",
+    "rarity": "Uncommon",
+    "rarityKey": "uncommon",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_016_athena_commando_f/featured.png",
+    "price": 800,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   },
+   {
+    "id": "CID_043_Athena_Commando_F_Stealth",
+    "name": "Shadow Ops",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_043_athena_commando_f_stealth/featured.png",
+    "price": 1500,
+    "out": "2026-11-02",
+    "in": "2026-10-27"
+   }
+  ]
+ },
+ "last": {
+  "count": 14,
+  "outfits": [
+   {
+    "id": "Character_ApronChow",
+    "name": "Freddy Krueger",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_apronchow/featured.png",
+    "price": 1600,
+    "out": "2026-11-01",
+    "in": "2026-10-28"
+   },
+   {
+    "id": "CID_477_Athena_Commando_F_SpaceSuit",
+    "name": "Astro Assassin",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_477_athena_commando_f_spacesuit/featured.png",
+    "price": 1500,
+    "out": "2026-11-01",
+    "in": "2026-10-30"
+   },
+   {
+    "id": "CID_579_Athena_Commando_F_RedRidingRemix",
+    "name": "Grim Fable",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_579_athena_commando_f_redridingremix/featured.png",
+    "price": 1500,
+    "out": "2026-11-01",
+    "in": "2026-10-26"
+   },
+   {
+    "id": "Character_BucketKick",
+    "name": "Knightmare",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_bucketkick/featured.png",
+    "price": 1500,
+    "out": "2026-11-01",
+    "in": "2026-10-30"
+   },
+   {
+    "id": "CID_638_Athena_Commando_M_NeonAnimal",
+    "name": "LLion",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_638_athena_commando_m_neonanimal/featured.png",
+    "price": 1500,
+    "out": "2026-11-01",
+    "in": "2026-11-01"
+   },
+   {
+    "id": "Character_FonduePaper",
+    "name": "The Slender Man",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_fonduepaper/featured.png",
+    "price": 1500,
+    "out": "2026-11-01",
+    "in": "2026-10-23"
+   }
+  ]
+ },
+ "phrases": [
+  "This is today's Item Shop for November 1st.",
+  "Three things before you spend a single V-Buck!",
+  "The Beetlejuice Bundle:",
+  "2,400 V-Bucks, instead of 5,300.",
+  "Commando and Shadow Ops are in the shop.",
+  "Both from Chapter 1, Season 1.",
+  "And 14 skins are on their last day, eight of them Epic.",
+  "Buying anything today?",
+  "Use code BAD in the Item Shop. It really helps the channel.",
+  "Thank you for watching! Follow for more daily content."
+ ]
+}

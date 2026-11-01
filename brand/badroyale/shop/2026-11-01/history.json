@@ -1,0 +1,150 @@
+{
+ "Character_AltoGorgon": {
+  "name": "Dek",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_CargoLying": {
+  "name": "Nikki",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_093_Athena_Commando_M_Dinosaur": {
+  "name": "Rex",
+  "introduction": "Introduced in Chapter 1, Season 3."
+ },
+ "Character_IvoryDwell": {
+  "name": "Inoxtag",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_SlugRipple": {
+  "name": "Art the Clown",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "CID_043_Athena_Commando_F_Stealth": {
+  "name": "Shadow Ops",
+  "introduction": "Introduced in Chapter 1, Season 1."
+ },
+ "CID_329_Athena_Commando_F_SnowNinja": {
+  "name": "Snowstrike",
+  "introduction": "Introduced in Chapter 1, Season 7."
+ },
+ "CID_016_Athena_Commando_F": {
+  "name": "Commando ",
+  "introduction": "Introduced in Chapter 1, Season 1."
+ },
+ "Character_SutureHalo": {
+  "name": "Nurse Lenore",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_616_Athena_Commando_F_CavalryBandit": {
+  "name": "Hush",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "CID_A_025_Athena_Commando_M_Kepler_UEN6V": {
+  "name": "Xenomorph",
+  "introduction": "Introduced in Chapter 2, Season 5."
+ },
+ "Character_MastermindSummer": {
+  "name": "Chaos Explorer",
+  "introduction": "Introduced in Chapter 4, Season 3."
+ },
+ "Character_PastelGlazeGift": {
+  "name": "Santa Suit Mariah",
+  "introduction": "Introduced in Chapter 6, Season 1."
+ },
+ "Character_ApronChow": {
+  "name": "Freddy Krueger",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_A_072_Athena_Commando_M_BuffCatComic_XG5XC": {
+  "name": "Toon Meowscles",
+  "introduction": "Introduced in Chapter 2, Season 6."
+ },
+ "CID_A_210_Athena_Commando_F_RenegadeSkull": {
+  "name": "Skeletara",
+  "introduction": "Introduced in Chapter 2, Season 8."
+ },
+ "CID_598_Athena_Commando_M_Mastermind": {
+  "name": "Chaos Agent",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "CID_672_Athena_Commando_F_ArcticCamo_Gray": {
+  "name": "Hailstorm",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "Character_AsideDepot": {
+  "name": "Beetlejuice",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_A_026_Athena_Commando_F_Kepler_2G59M": {
+  "name": "Ellen Ripley",
+  "introduction": "Introduced in Chapter 2, Season 5."
+ },
+ "CID_579_Athena_Commando_F_RedRidingRemix": {
+  "name": "Grim Fable",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "Character_PastelGlazeGrain": {
+  "name": "Mariah Carey",
+  "introduction": "Introduced in Chapter 6, Season 1."
+ },
+ "CID_A_403_Athena_Commando_F_RebirthFresh_B": {
+  "name": "General Banshee",
+  "introduction": "Introduced in Chapter 3, Season 2."
+ },
+ "Character_SubtleSilly": {
+  "name": "Soul",
+  "introduction": "Introduced in Chapter 7, Season 3."
+ },
+ "Character_FonduePaper": {
+  "name": "The Slender Man",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "CID_638_Athena_Commando_M_NeonAnimal": {
+  "name": "LLion",
+  "introduction": "Introduced in Chapter 2, Season 2."
+ },
+ "Character_BucketKick": {
+  "name": "Knightmare",
+  "introduction": "Introduced in Chapter 5, Season 4."
+ },
+ "CID_477_Athena_Commando_F_SpaceSuit": {
+  "name": "Astro Assassin",
+  "introduction": "Introduced in Chapter 1, Season 9."
+ },
+ "CID_538_Athena_Commando_M_Taco": {
+  "name": "Guaco",
+  "introduction": "Introduced in Chapter 1, Season X."
+ },
+ "CID_452_Athena_Commando_F_CyberFu": {
+  "name": "Focus",
+  "introduction": "Introduced in Chapter 1, Season 9."
+ },
+ "Character_BrassSpar": {
+  "name": "Miasma",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_CloakedIron": {
+  "name": "Mal",
+  "introduction": "Introduced in Chapter 6, Season 4."
+ },
+ "Character_TulipGlory": {
+  "name": "Xenomorph (Alien: Earth)",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "CID_532_Athena_Commando_F_Punchy": {
+  "name": "Moxie",
+  "introduction": "Introduced in Chapter 1, Season X."
+ },
+ "Character_CommandoSpy": {
+  "name": "Whisper",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "CID_A_407_Athena_Commando_M_RebirthFresh_B": {
+  "name": "Captain Carlos",
+  "introduction": "Introduced in Chapter 3, Season 2."
+ },
+ "Character_IchorIncisor": {
+  "name": "Countess Daraku",
+  "introduction": "Introduced in Chapter 4, Season 4."
+ }
+}

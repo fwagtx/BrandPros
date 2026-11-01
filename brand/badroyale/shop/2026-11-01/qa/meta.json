@@ -1,0 +1,108 @@
+{
+ "duration": 23,
+ "caption": "#EpicPartner Fortnite Item Shop, Nov 1: the Beetlejuice Bundle is 2,400 V-Bucks instead of 5,300, Commando and Shadow Ops are in (Chapter 1, Season 1), and 14 skins leave at 6 PM CT.\nBuying today? Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Beetlejuice Bundle: 2400 V-Bucks, regular 5300",
+   "source": "shop.json",
+   "match": [
+    "Beetlejuice Bundle",
+    "\"finalPrice\": 2400",
+    "\"regularPrice\": 5300"
+   ]
+  },
+  {
+   "text": "Beetlejuice Bundle leaves 2026-11-02",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-02"
+   ]
+  },
+  {
+   "text": "Commando is in the shop, introduced Chapter 1, Season 1",
+   "source": "history.json",
+   "match": [
+    "Commando",
+    "Introduced in Chapter 1, Season 1."
+   ]
+  },
+  {
+   "text": "Shadow Ops is in the shop, introduced Chapter 1, Season 1",
+   "source": "history.json",
+   "match": [
+    "Shadow Ops",
+    "Introduced in Chapter 1, Season 1."
+   ]
+  },
+  {
+   "text": "14 outfits leave at the next reset (last day)",
+   "source": "plan.json",
+   "match": [
+    "\"count\": 14"
+   ],
+   "visual": "Counted from shop.json outDate == shop date (shop_pick.py)"
+  },
+  {
+   "text": "Reset at 6 PM CT",
+   "source": "plan.json",
+   "match": [
+    "6 PM CT"
+   ],
+   "visual": "00:00 UTC converted to America/Chicago"
+  }
+ ],
+ "text": [
+  "BEETLEJUICE",
+  "SHADOW OPS",
+  "FREDDY KRUEGER",
+  "TODAY'S ITEM SHOP / NOV 1",
+  "1 · BEST DEAL",
+  "2,400",
+  "5,300",
+  "BEETLEJUICE BUNDLE · LEAVES NOV 2",
+  "2 · OG CHECK",
+  "COMMANDO",
+  "CHAPTER 1 · SEASON 1",
+  "3 · LAST DAY",
+  "ASTRO ASSASSIN",
+  "GRIM FABLE",
+  "KNIGHTMARE",
+  "LLION",
+  "THE SLENDER MAN",
+  "+8 MORE",
+  "GONE AT 6 PM CT",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "THIS IS TODAY'S",
+  "ITEM SHOP FOR",
+  "NOVEMBER 1ST.",
+  "THREE THINGS BEFORE",
+  "YOU SPEND A",
+  "SINGLE V-BUCK!",
+  "THE BEETLEJUICE BUNDLE:",
+  "2,400 V-BUCKS,",
+  "INSTEAD OF 5,300.",
+  "COMMANDO AND SHADOW",
+  "OPS ARE IN",
+  "THE SHOP.",
+  "BOTH FROM CHAPTER",
+  "1,",
+  "SEASON 1.",
+  "AND 14 SKINS",
+  "ARE ON THEIR",
+  "LAST DAY,",
+  "EIGHT OF THEM",
+  "EPIC.",
+  "BUYING ANYTHING TODAY?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
