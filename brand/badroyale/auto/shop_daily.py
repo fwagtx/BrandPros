@@ -137,8 +137,8 @@ def post_calls(day, when, video, cover, c):
                       "instagramData": {"type": "REEL", "showReelOnFeed": True, "isAiGenerated": False}},
         "facebook": {**base, **thumb, "providers": [{"network": "facebook"}], "text": c["facebook"],
                      "facebookData": {"type": "REEL", "title": c["facebookTitle"]}},
-        # no custom thumbnail on YouTube: Metricool rejects it unless the channel is verified
-        "youtube": {**base, "providers": [{"network": "youtube"}], "text": c["youtube"],
+        # the channel was verified on 2026-11-01, so YouTube takes the custom thumbnail too (owner: always use thumbnails)
+        "youtube": {**base, **thumb, "providers": [{"network": "youtube"}], "text": c["youtube"],
                     "youtubeData": {"title": c["youtubeTitle"], "type": "short", "privacy": "public", "tags": c["tags"], "category": "GAMING",
                                     "madeForKids": False, "isAiGeneratedContent": False}},
     }

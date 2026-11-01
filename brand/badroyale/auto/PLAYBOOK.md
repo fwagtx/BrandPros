@@ -75,7 +75,9 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
    D-1 00:00 to D 23:59). For each entry in `calls` whose `match` text is not already the tiktokData.title /
    youtubeData.title / text of a post in that list, call `createScheduledPost` with that entry's `blogId`, `date`
    and `info` exactly as given (info as a JSON string). If one network's call fails, the others still go; name
-   the error in the summary. If it says "Failed to normalize media", run
+   the error in the summary. Every call carries `videoThumbnailUrl` (the cover), YouTube included (owner, 2026-11-01:
+   always use thumbnails; the channel is verified). Only if Metricool answers VIDEO_THUMBNAIL_NOT_APPLICABLE, retry
+   that one call without `videoThumbnailUrl` and say so in the summary. If it says "Failed to normalize media", run
    `python3 brand/_shared/store.py link shop-D/video.mp4` (and cover.jpg), swap the links in, retry once.
 7. `getScheduledPosts` again: confirm 4 new posts (TikTok, Instagram, Facebook, YouTube), draft false, at the time
    ship printed.
@@ -196,7 +198,8 @@ one time a post becomes a draft: an outdated post is worse than an empty slot.
    Open with the hook in the first sentence; put the code ask once mid-video and once at the end.
 4. `python3 brand/badroyale/auto/make_long.py build <folder>`; review the sheet like a viewer (fix and rebuild up to
    3 times); write review.json; `python3 brand/badroyale/auto/make_long.py ship <folder> --at "<D> 15:00"`.
-5. Schedule posts.json (if Metricool rejects the thumbnail, again without videoThumbnailUrl), then
+5. Schedule posts.json with its `videoThumbnailUrl` (the channel is verified since 2026-11-01; only on
+   VIDEO_THUMBNAIL_NOT_APPLICABLE schedule again without it and say so), then
    `python3 brand/badroyale/auto/make_long.py done <folder>`, ledger, log, commit, push, summary.
 
 ## If something breaks

@@ -123,7 +123,7 @@ def ship():
     calls = [{"network": "youtube", "blogId": BLOG, "date": iso, "info": info, "match": c["youtubeTitle"]}]
     json.dump({"slug": slug, "blogId": BLOG, "post_at": when.isoformat(timespec="minutes"), "calls": calls}, open(os.path.join(d, "posts.json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps({"verdict": verdict, "post_at_ct": when.strftime("%Y-%m-%d %-I:%M %p CT"), "posts": os.path.relpath(os.path.join(d, "posts.json"), BRAND)}, indent=1))
-    print("NEXT: schedule it (if Metricool rejects the thumbnail, schedule again without videoThumbnailUrl), then run done.")
+    print("NEXT: schedule it with videoThumbnailUrl (channel verified 2026-11-01, owner wants thumbnails on every video; only on VIDEO_THUMBNAIL_NOT_APPLICABLE schedule again without it), then run done.")
 
 
 def done():
