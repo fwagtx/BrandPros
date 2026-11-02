@@ -1,7 +1,7 @@
 {
   "video": "badroyale-2026-11-02-week-item-shop.mp4",
-  "checked_utc": "2026-11-02T13:16:58Z",
-  "verdict": "DO NOT POST: fix failures",
+  "checked_utc": "2026-11-02T13:49:16Z",
+  "verdict": "READY TO POST",
   "results": [
     {
       "check": "1. Facts",
@@ -147,18 +147,9 @@
     },
     {
       "check": "2. Spelling and grammar",
-      "status": "FAIL",
-      "detail": "Unknown words or a misspelled code",
-      "items": [
-        {
-          "word": "collabs",
-          "result": "FAIL"
-        },
-        {
-          "word": "five-outfit",
-          "result": "FAIL"
-        }
-      ]
+      "status": "PASS",
+      "detail": "66 distinct words checked; code written as BAD in all 3 mentions",
+      "items": []
     },
     {
       "check": "3. Frames",
@@ -168,19 +159,14 @@
     },
     {
       "check": "4. Audio",
-      "status": "FAIL",
-      "detail": "Integrated -14.0 LUFS, true peak -0.8 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
-      "items": [
-        {
-          "issue": "true peak -0.8 dBTP (max -1.0)",
-          "result": "FAIL"
-        }
-      ]
+      "status": "PASS",
+      "detail": "Integrated -14.0 LUFS, true peak -1.0 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
     },
     {
       "check": "5. Specs and safe zones",
       "status": "PASS",
-      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 245.2s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
+      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 245.7s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
       "items": []
     },
     {

@@ -1,6 +1,6 @@
 # Pre-post check: badroyale-2026-11-02-week-item-shop.mp4
 
-Checked 2026-11-02T13:16:58Z · **DO NOT POST: fix failures**
+Checked 2026-11-02T13:49:16Z · **READY TO POST**
 
 ## 1. Facts: PASS
 27/27 claims verified against saved official data
@@ -32,20 +32,17 @@ Checked 2026-11-02T13:16:58Z · **DO NOT POST: fix failures**
 - Rest in Peace out 11-04; Inoxtag out 11-05 · PASS · matched in week.json
 - Harley Quinn Bundle out 11-06 · PASS · matched in week.json
 
-## 2. Spelling and grammar: FAIL
-Unknown words or a misspelled code
-- collabs · FAIL
-- five-outfit · FAIL
+## 2. Spelling and grammar: PASS
+66 distinct words checked; code written as BAD in all 3 mentions
 
 ## 3. Frames: PASS
 No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png
 
-## 4. Audio: FAIL
-Integrated -14.0 LUFS, true peak -0.8 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.
-- true peak -0.8 dBTP (max -1.0) · FAIL
+## 4. Audio: PASS
+Integrated -14.0 LUFS, true peak -1.0 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.
 
 ## 5. Specs and safe zones: PASS
-1920x1080 h264 30 fps, aac 48000 Hz, 245.2s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.
+1920x1080 h264 30 fps, aac 48000 Hz, 245.7s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.
 
 ## 6. Disclosure and wording: PASS
 #EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.
