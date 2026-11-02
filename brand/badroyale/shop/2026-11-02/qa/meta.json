@@ -1,0 +1,111 @@
+{
+ "duration": 23.7,
+ "caption": "#EpicPartner Fortnite Item Shop, Nov 2: the Adventure Time Bundle is 3,800 V-Bucks instead of 10,300, Commando and Shadow Ops are in (Chapter 1, Season 1), and 15 skins leave at 6 PM CT.\nBuying today? Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Adventure Time Bundle: 3800 V-Bucks, regular 10300",
+   "source": "shop.json",
+   "match": [
+    "Adventure Time Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 10300"
+   ]
+  },
+  {
+   "text": "Adventure Time Bundle leaves 2026-11-06",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-06"
+   ]
+  },
+  {
+   "text": "Commando is in the shop, introduced Chapter 1, Season 1",
+   "source": "history.json",
+   "match": [
+    "Commando",
+    "Introduced in Chapter 1, Season 1."
+   ]
+  },
+  {
+   "text": "Shadow Ops is in the shop, introduced Chapter 1, Season 1",
+   "source": "history.json",
+   "match": [
+    "Shadow Ops",
+    "Introduced in Chapter 1, Season 1."
+   ]
+  },
+  {
+   "text": "15 outfits leave at the next reset (last day)",
+   "source": "plan.json",
+   "match": [
+    "\"count\": 15"
+   ],
+   "visual": "Counted from shop.json outDate == shop date (shop_pick.py)"
+  },
+  {
+   "text": "Reset at 6 PM CT",
+   "source": "plan.json",
+   "match": [
+    "6 PM CT"
+   ],
+   "visual": "00:00 UTC converted to America/Chicago"
+  }
+ ],
+ "text": [
+  "FINN THE HUMAN",
+  "SHADOW OPS",
+  "ART THE CLOWN",
+  "TODAY'S ITEM SHOP / NOV 2",
+  "1 · BEST DEAL",
+  "JAKE THE DOG",
+  "PRINCESS BUBBLEGUM",
+  "MARCELINE",
+  "3,800",
+  "10,300",
+  "ADVENTURE TIME BUNDLE · LEAVES NOV 6",
+  "2 · OG CHECK",
+  "COMMANDO",
+  "CHAPTER 1 · SEASON 1",
+  "3 · LAST DAY",
+  "BEETLEJUICE",
+  "NIKKI",
+  "NITROJERRY",
+  "SNOWSTRIKE",
+  "+9 MORE",
+  "GONE AT 6 PM CT",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "THIS IS TODAY'S",
+  "ITEM SHOP FOR",
+  "NOVEMBER 2ND.",
+  "THREE THINGS BEFORE",
+  "YOU SPEND A",
+  "SINGLE V-BUCK!",
+  "THE ADVENTURE TIME",
+  "BUNDLE:",
+  "3,800 V-BUCKS,",
+  "INSTEAD OF 10,300.",
+  "COMMANDO AND SHADOW",
+  "OPS ARE IN",
+  "THE SHOP.",
+  "BOTH FROM CHAPTER",
+  "1,",
+  "SEASON 1.",
+  "AND 15 SKINS",
+  "ARE ON THEIR",
+  "LAST DAY,",
+  "SEVEN OF THEM",
+  "EPIC.",
+  "BUYING ANYTHING TODAY?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
