@@ -1,0 +1,206 @@
+{
+  "video": "badroyale-2026-11-02-week-item-shop.mp4",
+  "checked_utc": "2026-11-02T13:16:58Z",
+  "verdict": "DO NOT POST: fix failures",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "27/27 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "FNAF Bundle: 18 items, 4,500 V-Bucks (listed 11,000), out 2026-10-31",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Adventure Time Bundle: 13 items, 3,800 (listed 10,300), in 11-02 out 11-06",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Ice King and Lemongrab Bundle 3,200 (listed 5,400)",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "One Piece Bundle: Luffy, Nami, Usopp; 15 items; 4,000 (listed 8,200); in 11-01 out 12-03",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Mariah Carey Bundle 2,800 (listed 4,300) out 11-04",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Harley Quinn Bundle 2,000 (listed 3,100) in 11-02",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Catwoman Zero Bundle 1,500 (listed 2,000) in 11-02 out 11-06",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "HIT SQUAD BUNDLE 2,400 (listed 3,700) in 10-29, Siren and Wolf",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Art the Clown Bundle 2,200 (listed 3,300) in 10-30 out 11-02",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Knightmare Bundle 2,000 in 10-30; Focal Point Bundle 1,800 in 10-30 with Focus",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Chaos Agent Bundle 2,000 in 10-31; Xenomorph (Alien: Earth) Bundle 2,000 in 10-31",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Elm Street Bundle in 10-28, 2,300",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Ripley & Xenomorph Bundle in 10-31, 2,200, out 11-03",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Predator: Badlands Bundle in 10-29, 2,000, out 11-04",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Grave The Day and Hero Horde: 3,500 (listed 7,500), in 10-28 out 10-30, five outfits each",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Shadow & Knuckles Bundle 3,600 (listed 8,300) out 10-31",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Yeat Bundle 3,600 (listed 7,300) out 10-31",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Doja Cat Bundle 3,200 (listed 7,700) out 10-30",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Dr. Eggman Bundle 2,000 (listed 3,600) out 10-31",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Beetlejuice Bundle: 9 items, 2,400 (listed 5,300), out 11-02",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Commando and Shadow Ops: Chapter 1, Season 1, in every daily snapshot 10-28..11-02",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Commando 800, Shadow Ops 1,500 today",
+          "result": "PASS",
+          "why": "matched in shop-2026-11-02.json"
+        },
+        {
+          "claim": "Snowstrike Ch1 S7, Rex Ch1 S3, Fishstick Ch1 S7",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Mayhem, Ruckus Ch1 S6; Highrise Assault Trooper Ch1 S2; Astro Assassin, Focus Ch1 S9",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Moxie, Guaco Ch1 SX; Hime S5; Rosa S6; Aura, Buccaneer, Sea Wolf S8",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Rest in Peace out 11-04; Inoxtag out 11-05",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Harley Quinn Bundle out 11-06",
+          "result": "PASS",
+          "why": "matched in week.json"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "FAIL",
+      "detail": "Unknown words or a misspelled code",
+      "items": [
+        {
+          "word": "collabs",
+          "result": "FAIL"
+        },
+        {
+          "word": "five-outfit",
+          "result": "FAIL"
+        }
+      ]
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "FAIL",
+      "detail": "Integrated -14.0 LUFS, true peak -0.8 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": [
+        {
+          "issue": "true peak -0.8 dBTP (max -1.0)",
+          "result": "FAIL"
+        }
+      ]
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 245.2s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "4:06 long. Opens with THIS WEEK'S ITEM SHOP OCT 28 - NOV 2 and the hook line. Reviewed the 12-frame sheet plus 25 stills from the final mp4 covering every segment: item tiles show the right art and names, headings shortened so they clear the #EpicPartner badge (FNAF and Ice King & Lemongrab collided in the first build), chapter tags readable, subtitles one line, nothing cut off. Code ask mid-video (after Halloween week) and at the end with the sign-off. 27 claims matched in sources/week.json (daily shop snapshots + Introduced-in lines) and shop-2026-11-02.json. Prices described as 'listed at', the code is never called a discount. Chapters: Intro, Biggest bundle, New this week, More new bundles, Halloween week, Gone this week, OG check, Leaving soon, Recap.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner This week's Fortnite Item Shop: every big bundle, every new drop and every OG that came back. Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop"
+}

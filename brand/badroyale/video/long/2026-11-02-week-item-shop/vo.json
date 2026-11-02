@@ -113,7 +113,7 @@
    "pause": 0.25
   },
   {
-   "text": "Plus two five-outfit bundles, Grave The Day and Hero Horde, 3,500 V-Bucks each, listed at 7,500. Those were in the shop until October 30th.",
+   "text": "Plus two bundles with five outfits each, Grave The Day and Hero Horde, 3,500 V-Bucks each, listed at 7,500. Those were in the shop until October 30th.",
    "pause": 0.4
   },
   {
@@ -121,7 +121,7 @@
    "pause": 0.4
   },
   {
-   "text": "A few big collabs also left the shop this week.",
+   "text": "A few big collaborations also left the shop this week.",
    "pause": 0.25
   },
   {
@@ -240,10 +240,5 @@
    "text": "Thank you for watching! Follow for more daily content.",
    "pause": 0.6
   }
- ],
- "voice": "af_aoede",
- "speed": 1.25,
- "lang": "en-us",
- "lead": 0.2,
- "mode": "flow"
+ ]
 }

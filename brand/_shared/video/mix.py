@@ -89,11 +89,12 @@ def main():
     parts.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0:duration=first,atrim=0:{dur}[pre]")
     mixed = os.path.join(tmp, "mixed.wav")
     run([*inputs, "-filter_complex", ";".join(parts), "-map", "[pre]", "-ac", "2", mixed])
-    # two-pass loudness normalization to -14 LUFS integrated, -2.6 dBTP
+    # two-pass loudness normalization to -14 LUFS integrated, -2.6 dBTP; linear mode can still overshoot the ceiling,
+    # so a limiter at -3.1 dBFS catches what is left before AAC encoding adds its own overshoot
     p = subprocess.run([FF, "-hide_banner", "-i", mixed, "-af", "loudnorm=I=-14:TP=-2.6:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True)
     m = json.loads(re.findall(r"\{[^{}]+\}", p.stderr)[-1])
     ln = (f"loudnorm=I=-14:TP=-2.6:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
           f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
-    run(["-i", silent, "-i", mixed, "-filter_complex", f"[1]{ln},aresample={SR}[a]", "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-shortest", out])
+    run(["-i", silent, "-i", mixed, "-filter_complex", f"[1]{ln},alimiter=limit=0.7:level=false,aresample={SR}[a]", "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-shortest", out])
 
 main()

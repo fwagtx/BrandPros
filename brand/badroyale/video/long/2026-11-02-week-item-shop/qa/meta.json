@@ -1,0 +1,557 @@
+{
+ "duration": 245.7,
+ "caption": "#EpicPartner This week's Fortnite Item Shop: every big bundle, every new drop and every OG that came back. Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "FNAF Bundle: 18 items, 4,500 V-Bucks (listed 11,000), out 2026-10-31",
+   "source": "week.json",
+   "match": [
+    "Five Nights at Freddy's Bundle",
+    "\"final\": 4500, \"regular\": 11000, \"in\": \"2026-10-01\", \"out\": \"2026-10-31\"",
+    "Foxy The Pirate",
+    "Chica the Chicken",
+    "Bonnie the Rabbit"
+   ]
+  },
+  {
+   "text": "Adventure Time Bundle: 13 items, 3,800 (listed 10,300), in 11-02 out 11-06",
+   "source": "week.json",
+   "match": [
+    "Adventure Time Bundle",
+    "\"final\": 3800, \"regular\": 10300, \"in\": \"2026-11-02\", \"out\": \"2026-11-06\"",
+    "Finn the Human",
+    "Jake the Dog",
+    "Princess Bubblegum",
+    "Marceline"
+   ]
+  },
+  {
+   "text": "Ice King and Lemongrab Bundle 3,200 (listed 5,400)",
+   "source": "week.json",
+   "match": [
+    "Ice King and Lemongrab Bundle",
+    "\"final\": 3200, \"regular\": 5400",
+    "The Earl of Lemongrab"
+   ]
+  },
+  {
+   "text": "One Piece Bundle: Luffy, Nami, Usopp; 15 items; 4,000 (listed 8,200); in 11-01 out 12-03",
+   "source": "week.json",
+   "match": [
+    "One Piece Bundle",
+    "\"final\": 4000, \"regular\": 8200, \"in\": \"2026-11-01\", \"out\": \"2026-12-03\"",
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp"
+   ]
+  },
+  {
+   "text": "Mariah Carey Bundle 2,800 (listed 4,300) out 11-04",
+   "source": "week.json",
+   "match": [
+    "Mariah Carey Bundle",
+    "\"final\": 2800, \"regular\": 4300, \"in\": \"2026-11-01\", \"out\": \"2026-11-04\"",
+    "Santa Suit Mariah",
+    "Angelic Wings"
+   ]
+  },
+  {
+   "text": "Harley Quinn Bundle 2,000 (listed 3,100) in 11-02",
+   "source": "week.json",
+   "match": [
+    "Harley Quinn Bundle",
+    "\"final\": 2000, \"regular\": 3100, \"in\": \"2026-11-02\""
+   ]
+  },
+  {
+   "text": "Catwoman Zero Bundle 1,500 (listed 2,000) in 11-02 out 11-06",
+   "source": "week.json",
+   "match": [
+    "Catwoman Zero Bundle",
+    "\"final\": 1500, \"regular\": 2000, \"in\": \"2026-11-02\", \"out\": \"2026-11-06\""
+   ]
+  },
+  {
+   "text": "HIT SQUAD BUNDLE 2,400 (listed 3,700) in 10-29, Siren and Wolf",
+   "source": "week.json",
+   "match": [
+    "HIT SQUAD BUNDLE",
+    "\"final\": 2400, \"regular\": 3700, \"in\": \"2026-10-29\", \"out\": \"2026-10-31\"",
+    "\"Siren\"",
+    "\"Wolf\""
+   ]
+  },
+  {
+   "text": "Art the Clown Bundle 2,200 (listed 3,300) in 10-30 out 11-02",
+   "source": "week.json",
+   "match": [
+    "Art the Clown Bundle",
+    "\"final\": 2200, \"regular\": 3300, \"in\": \"2026-10-30\", \"out\": \"2026-11-02\""
+   ]
+  },
+  {
+   "text": "Knightmare Bundle 2,000 in 10-30; Focal Point Bundle 1,800 in 10-30 with Focus",
+   "source": "week.json",
+   "match": [
+    "Knightmare Bundle",
+    "\"final\": 2000, \"regular\": 2800, \"in\": \"2026-10-30\", \"out\": \"2026-11-01\"",
+    "Focal Point Bundle",
+    "\"final\": 1800, \"regular\": 3300, \"in\": \"2026-10-30\", \"out\": \"2026-11-01\"",
+    "\"Focus\""
+   ]
+  },
+  {
+   "text": "Chaos Agent Bundle 2,000 in 10-31; Xenomorph (Alien: Earth) Bundle 2,000 in 10-31",
+   "source": "week.json",
+   "match": [
+    "Chaos Agent Bundle",
+    "\"final\": 2000, \"regular\": 2800, \"in\": \"2026-10-31\", \"out\": \"2026-11-04\"",
+    "Xenomorph (Alien: Earth) Bundle",
+    "\"final\": 2000, \"regular\": 2700, \"in\": \"2026-10-31\", \"out\": \"2026-11-03\""
+   ]
+  },
+  {
+   "text": "Elm Street Bundle in 10-28, 2,300",
+   "source": "week.json",
+   "match": [
+    "A Nightmare on Elm Street Bundle",
+    "\"final\": 2300, \"regular\": 4700, \"in\": \"2026-10-28\"",
+    "Freddy Krueger"
+   ]
+  },
+  {
+   "text": "Ripley & Xenomorph Bundle in 10-31, 2,200, out 11-03",
+   "source": "week.json",
+   "match": [
+    "Ripley & Xenomorph Bundle",
+    "\"final\": 2200, \"regular\": 3100, \"in\": \"2026-10-31\", \"out\": \"2026-11-03\"",
+    "Ellen Ripley"
+   ]
+  },
+  {
+   "text": "Predator: Badlands Bundle in 10-29, 2,000, out 11-04",
+   "source": "week.json",
+   "match": [
+    "Predator: Badlands Bundle",
+    "\"final\": 2000, \"regular\": 2900, \"in\": \"2026-10-29\", \"out\": \"2026-11-04\"",
+    "\"Dek\"",
+    "\"Thia\""
+   ]
+  },
+  {
+   "text": "Grave The Day and Hero Horde: 3,500 (listed 7,500), in 10-28 out 10-30, five outfits each",
+   "source": "week.json",
+   "match": [
+    "Grave The Day Bundle",
+    "Hero Horde Bundle",
+    "\"final\": 3500, \"regular\": 7500, \"in\": \"2026-10-28\", \"out\": \"2026-10-30\"",
+    "Jolterror",
+    "Haunted Hunter"
+   ]
+  },
+  {
+   "text": "Shadow & Knuckles Bundle 3,600 (listed 8,300) out 10-31",
+   "source": "week.json",
+   "match": [
+    "Shadow the Hedgehog & Knuckles the Echidna Bundle",
+    "\"final\": 3600, \"regular\": 8300, \"in\": \"2026-10-25\", \"out\": \"2026-10-31\""
+   ]
+  },
+  {
+   "text": "Yeat Bundle 3,600 (listed 7,300) out 10-31",
+   "source": "week.json",
+   "match": [
+    "Yeat Bundle",
+    "\"final\": 3600, \"regular\": 7300, \"in\": \"2026-10-16\", \"out\": \"2026-10-31\"",
+    "Twizz"
+   ]
+  },
+  {
+   "text": "Doja Cat Bundle 3,200 (listed 7,700) out 10-30",
+   "source": "week.json",
+   "match": [
+    "Doja Cat Bundle",
+    "\"final\": 3200, \"regular\": 7700, \"in\": \"2026-10-26\", \"out\": \"2026-10-30\"",
+    "Mother of Thorns Doja"
+   ]
+  },
+  {
+   "text": "Dr. Eggman Bundle 2,000 (listed 3,600) out 10-31",
+   "source": "week.json",
+   "match": [
+    "Dr. Eggman Bundle",
+    "\"final\": 2000, \"regular\": 3600, \"in\": \"2026-10-25\", \"out\": \"2026-10-31\""
+   ]
+  },
+  {
+   "text": "Beetlejuice Bundle: 9 items, 2,400 (listed 5,300), out 11-02",
+   "source": "week.json",
+   "match": [
+    "Beetlejuice Bundle",
+    "\"final\": 2400, \"regular\": 5300, \"in\": \"2026-10-24\", \"out\": \"2026-11-02\""
+   ]
+  },
+  {
+   "text": "Commando and Shadow Ops: Chapter 1, Season 1, in every daily snapshot 10-28..11-02",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Commando \", \"introduction\": \"Introduced in Chapter 1, Season 1.\"",
+    "\"name\": \"Shadow Ops\", \"introduction\": \"Introduced in Chapter 1, Season 1.\""
+   ]
+  },
+  {
+   "text": "Commando 800, Shadow Ops 1,500 today",
+   "source": "shop-2026-11-02.json",
+   "match": [
+    "\"finalPrice\": 800",
+    "Shadow Ops"
+   ]
+  },
+  {
+   "text": "Snowstrike Ch1 S7, Rex Ch1 S3, Fishstick Ch1 S7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Snowstrike\", \"introduction\": \"Introduced in Chapter 1, Season 7.\"",
+    "\"name\": \"Rex\", \"introduction\": \"Introduced in Chapter 1, Season 3.\"",
+    "\"name\": \"Fishstick\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Mayhem, Ruckus Ch1 S6; Highrise Assault Trooper Ch1 S2; Astro Assassin, Focus Ch1 S9",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Mayhem\", \"introduction\": \"Introduced in Chapter 1, Season 6.\"",
+    "\"name\": \"Ruckus\", \"introduction\": \"Introduced in Chapter 1, Season 6.\"",
+    "\"name\": \"Highrise Assault Trooper\", \"introduction\": \"Introduced in Chapter 1, Season 2.\"",
+    "\"name\": \"Astro Assassin\", \"introduction\": \"Introduced in Chapter 1, Season 9.\"",
+    "\"name\": \"Focus\", \"introduction\": \"Introduced in Chapter 1, Season 9.\""
+   ]
+  },
+  {
+   "text": "Moxie, Guaco Ch1 SX; Hime S5; Rosa S6; Aura, Buccaneer, Sea Wolf S8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Moxie\", \"introduction\": \"Introduced in Chapter 1, Season X.\"",
+    "\"name\": \"Guaco\", \"introduction\": \"Introduced in Chapter 1, Season X.\"",
+    "\"name\": \"Hime\", \"introduction\": \"Introduced in Chapter 1, Season 5.\"",
+    "\"name\": \"Rosa\", \"introduction\": \"Introduced in Chapter 1, Season 6.\"",
+    "\"name\": \"Aura\", \"introduction\": \"Introduced in Chapter 1, Season 8.\"",
+    "\"name\": \"Buccaneer\", \"introduction\": \"Introduced in Chapter 1, Season 8.\"",
+    "\"name\": \"Sea Wolf\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Rest in Peace out 11-04; Inoxtag out 11-05",
+   "source": "week.json",
+   "match": [
+    "Rest in Peace Bundle",
+    "\"final\": 1800, \"regular\": 2800, \"in\": \"2026-10-27\", \"out\": \"2026-11-04\"",
+    "Inoxtag Bundle",
+    "\"final\": 2000, \"regular\": 3400, \"in\": \"2026-10-27\", \"out\": \"2026-11-05\""
+   ]
+  },
+  {
+   "text": "Harley Quinn Bundle out 11-06",
+   "source": "week.json",
+   "match": [
+    "Harley Quinn Bundle",
+    "\"out\": \"2026-11-06\""
+   ]
+  }
+ ],
+ "text": [
+  "OCT 28 - NOV 2 / THIS WEEK'S / ITEM SHOP",
+  "BIGGEST BUNDLE / FIVE NIGHTS / AT FREDDY'S",
+  "BIGGEST BUNDLE OF THE WEEK",
+  "FIVE NIGHTS AT FREDDY'S · 4,500",
+  "FREDDY FAZBEAR",
+  "FOXY THE PIRATE",
+  "CHICA THE CHICKEN",
+  "BONNIE THE RABBIT",
+  "NEW THIS WEEK / FRESH IN / THE SHOP",
+  "NEW THIS WEEK",
+  "ADVENTURE TIME BUNDLE · 3,800 V-BUCKS",
+  "FINN THE HUMAN",
+  "JAKE THE DOG",
+  "PRINCESS BUBBLEGUM",
+  "MARCELINE",
+  "ICE KING & LEMONGRAB · 3,200 V-BUCKS",
+  "ICE KING",
+  "THE EARL OF LEMONGRAB",
+  "ONE PIECE BUNDLE · 4,000 V-BUCKS",
+  "MONKEY D. LUFFY",
+  "NAMI",
+  "USOPP",
+  "MARIAH CAREY BUNDLE · 2,800 V-BUCKS",
+  "SANTA SUIT MARIAH",
+  "MARIAH CAREY",
+  "ANGELIC WINGS",
+  "HARLEY QUINN BUNDLE · 2,000 V-BUCKS",
+  "HARLEY QUINN",
+  "CATWOMAN ZERO BUNDLE · 1,500 V-BUCKS",
+  "CATWOMAN ZERO",
+  "MORE NEW BUNDLES / THE REST OF / THE NEW DROPS",
+  "MORE NEW BUNDLES",
+  "HIT SQUAD BUNDLE · 2,400 V-BUCKS",
+  "SIREN",
+  "WOLF",
+  "ART THE CLOWN BUNDLE · 2,200 V-BUCKS",
+  "ART THE CLOWN",
+  "KNIGHTMARE · FOCAL POINT",
+  "KNIGHTMARE",
+  "FOCUS",
+  "CHAOS AGENT · ALIEN: EARTH",
+  "CHAOS AGENT",
+  "XENOMORPH (ALIEN: EARTH)",
+  "HALLOWEEN WEEK / THE HORROR / ICONS",
+  "HALLOWEEN WEEK",
+  "NIGHTMARE ON ELM STREET · 2,300",
+  "FREDDY KRUEGER",
+  "RIPLEY & XENOMORPH · 2,200 V-BUCKS",
+  "XENOMORPH",
+  "ELLEN RIPLEY",
+  "PREDATOR: BADLANDS · 2,000 V-BUCKS",
+  "DEK",
+  "THIA",
+  "3,500 / GRAVE THE DAY · HERO HORDE",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "GONE THIS WEEK / LAST CHANCE / WAS THIS WEEK",
+  "GONE THIS WEEK",
+  "SHADOW & KNUCKLES · 3,600 V-BUCKS",
+  "SHADOW THE HEDGEHOG",
+  "KNUCKLES THE ECHIDNA",
+  "YEAT BUNDLE · 3,600 V-BUCKS",
+  "YEAT",
+  "TWIZZ",
+  "DOJA CAT BUNDLE · 3,200 V-BUCKS",
+  "DOJA CAT",
+  "MOTHER OF THORNS DOJA",
+  "DR. EGGMAN BUNDLE · 2,000 V-BUCKS",
+  "DR. EGGMAN",
+  "BEETLEJUICE BUNDLE · 2,400 V-BUCKS",
+  "BEETLEJUICE",
+  "OG CHECK / THE OGS / THAT CAME BACK",
+  "OG CHECK",
+  "CHAPTER 1, SEASON 1 · ALL WEEK",
+  "COMMANDO",
+  "SHADOW OPS",
+  "MORE OGS THIS WEEK",
+  "SNOWSTRIKE",
+  "REX",
+  "FISHSTICK",
+  "CHAPTER 1 · OCT 28 - OCT 30",
+  "MAYHEM",
+  "RUCKUS",
+  "HIGHRISE ASSAULT TROOPER",
+  "ASTRO ASSASSIN",
+  "CHAPTER 1 · OCT 30 - NOV 2",
+  "MOXIE",
+  "GUACO",
+  "HIME",
+  "ROSA",
+  "AURA",
+  "LEAVING SOON / NOV 3 · NOV 4 / NOV 6",
+  "LEAVING SOON",
+  "QUICK RECAP / FNAF · ADVENTURE TIME / ONE PIECE · THE OGS",
+  "RECAP",
+  "THIS IS THIS WEEK'S FORTNITE ITEM",
+  "SHOP!",
+  "EVERY BIG BUNDLE,",
+  "EVERY NEW DROP,",
+  "AND EVERY OG THAT CAME BACK.",
+  "SIX DAYS OF THE SHOP,",
+  "FROM OCTOBER 28TH TO NOVEMBER 2ND,",
+  "STRAIGHT FROM EPIC'S OWN ITEM SHOP",
+  "DATA.",
+  "LET'S GET INTO IT!",
+  "FIRST,",
+  "THE BIGGEST BUNDLE OF THE WHOLE",
+  "WEEK.",
+  "THE FIVE NIGHTS AT FREDDY'S BUNDLE!",
+  "FREDDY FAZBEAR,",
+  "FOXY,",
+  "CHICA,",
+  "BONNIE,",
+  "AND MORE.",
+  "EIGHTEEN ITEMS IN TOTAL.",
+  "LISTED AT 11,000 V-BUCKS,",
+  "IT SOLD FOR 4,500.",
+  "IT WAS IN THE SHOP UNTIL",
+  "OCTOBER 31ST,",
+  "SO IF YOU MISSED IT,",
+  "IT'S GONE FOR NOW.",
+  "NOW,",
+  "THE NEW STUFF.",
+  "THESE ALL WENT LIVE THIS WEEK.",
+  "THE ADVENTURE TIME BUNDLE LANDED TODAY,",
+  "NOVEMBER 2ND!",
+  "FINN THE HUMAN,",
+  "JAKE THE DOG,",
+  "PRINCESS BUBBLEGUM,",
+  "MARCELINE,",
+  "THIRTEEN ITEMS.",
+  "IT'S 3,800 V-BUCKS,",
+  "LISTED AT 10,300,",
+  "AND IT'S IN THE SHOP UNTIL",
+  "NOVEMBER 6TH.",
+  "RIGHT NEXT TO IT,",
+  "THE ICE KING AND LEMONGRAB BUNDLE.",
+  "3,200 V-BUCKS,",
+  "LISTED AT 5,400.",
+  "ON NOVEMBER 1ST,",
+  "THE ONE PIECE BUNDLE DROPPED.",
+  "MONKEY D.",
+  "LUFFY,",
+  "NAMI,",
+  "AND USOPP,",
+  "FIFTEEN ITEMS,",
+  "FOR 4,000 V-BUCKS,",
+  "LISTED AT 8,200.",
+  "AND THIS ONE STICKS AROUND.",
+  "IT'S IN THE SHOP UNTIL DECEMBER",
+  "3RD!",
+  "SAME DAY,",
+  "THE MARIAH CAREY BUNDLE ARRIVED.",
+  "2,800 V-BUCKS,",
+  "LISTED AT 4,300,",
+  "UNTIL NOVEMBER 4TH.",
+  "AND TODAY,",
+  "HARLEY QUINN IS BACK TOO,",
+  "WITH HER OWN BUNDLE FOR 2,000",
+  "V-BUCKS.",
+  "ALSO NEW TODAY,",
+  "THE CATWOMAN ZERO BUNDLE,",
+  "1,500 V-BUCKS,",
+  "LISTED AT 2,000.",
+  "THAT'S NOT ALL.",
+  "A BUNCH MORE BUNDLES SHOWED UP",
+  "DURING THE WEEK.",
+  "ON OCTOBER 29TH,",
+  "THE HIT SQUAD BUNDLE,",
+  "WITH SIREN AND WOLF,",
+  "FOR 2,400 V-BUCKS,",
+  "LISTED AT 3,700.",
+  "ON OCTOBER 30TH,",
+  "THE ART THE CLOWN BUNDLE,",
+  "FOR 2,200.",
+  "THE KNIGHTMARE BUNDLE FOR 2,000,",
+  "AND THE FOCAL POINT BUNDLE,",
+  "WITH FOCUS,",
+  "FOR 1,800.",
+  "AND ON OCTOBER 31ST,",
+  "THE CHAOS AGENT BUNDLE AND THE",
+  "XENOMORPH,",
+  "ALIEN:",
+  "EARTH BUNDLE,",
+  "BOTH FOR 2,000 V-BUCKS.",
+  "HALLOWEEN WEEK BROUGHT THE HORROR ICONS.",
+  "ON OCTOBER 28TH,",
+  "THE A NIGHTMARE ON ELM STREET",
+  "BUNDLE CAME IN,",
+  "WITH FREDDY KRUEGER,",
+  "FOR 2,300 V-BUCKS.",
+  "ON OCTOBER 31ST,",
+  "THE RIPLEY AND XENOMORPH BUNDLE,",
+  "AND THE PREDATOR:",
+  "BADLANDS BUNDLE,",
+  "WITH DEK,",
+  "FOR 2,000 V-BUCKS.",
+  "PLUS TWO FIVE-OUTFIT BUNDLES,",
+  "GRAVE THE DAY AND HERO HORDE,",
+  "3,500 V-BUCKS EACH,",
+  "LISTED AT 7,500.",
+  "THOSE WERE IN THE SHOP UNTIL",
+  "OCTOBER 30TH.",
+  "IF YOU'RE GRABBING ANY OF THESE,",
+  "USE CODE BAD IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS THE CHANNEL.",
+  "A FEW BIG COLLABS ALSO LEFT",
+  "THE SHOP THIS WEEK.",
+  "THE SHADOW THE HEDGEHOG AND KNUCKLES",
+  "THE ECHIDNA BUNDLE,",
+  "3,600 V-BUCKS,",
+  "WAS IN THE SHOP UNTIL OCTOBER",
+  "31ST.",
+  "THE YEAT BUNDLE,",
+  "ALSO 3,600,",
+  "LEFT THE SAME DAY.",
+  "AND THE DOJA CAT BUNDLE,",
+  "30TH.",
+  "THE DR.",
+  "EGGMAN BUNDLE,",
+  "2,000 V-BUCKS,",
+  "LEFT ON OCTOBER 31ST.",
+  "AND TODAY IS THE LAST DAY",
+  "FOR THE BEETLEJUICE BUNDLE.",
+  "NINE ITEMS FOR 2,400 V-BUCKS,",
+  "LISTED AT 5,300.",
+  "THE OGS!",
+  "COMMANDO AND SHADOW OPS,",
+  "BOTH FROM CHAPTER 1,",
+  "SEASON 1,",
+  "WERE IN THE SHOP EVERY SINGLE",
+  "DAY THIS WEEK.",
+  "COMMANDO IS 800 V-BUCKS.",
+  "SHADOW OPS IS 1,500.",
+  "SNOWSTRIKE,",
+  "FROM CHAPTER 1,",
+  "SEASON 7,",
+  "WAS THERE ALL WEEK TOO.",
+  "REX,",
+  "SEASON 3,",
+  "SHOWED UP FOR THREE DAYS.",
+  "FISHSTICK,",
+  "IS BACK IN THE SHOP.",
+  "A FEW MORE CHAPTER 1 OUTFITS",
+  "STOPPED BY DURING THE WEEK.",
+  "MAYHEM AND RUCKUS,",
+  "SEASON 6.",
+  "HIGHRISE ASSAULT TROOPER FROM SEASON 2,",
+  "AND ASTRO ASSASSIN AND FOCUS FROM",
+  "SEASON 9.",
+  "MOXIE FROM SEASON X CAME IN",
+  "AND GUACO,",
+  "ALSO FROM SEASON X,",
+  "ON NOVEMBER 1ST.",
+  "HIME FROM SEASON 5,",
+  "ROSA FROM SEASON 6,",
+  "AND AURA,",
+  "BUCCANEER AND SEA WOLF FROM SEASON",
+  "8.",
+  "LAST,",
+  "WHAT'S LEAVING SOON.",
+  "THE RIPLEY AND XENOMORPH BUNDLE IS",
+  "IN THE SHOP UNTIL NOVEMBER 3RD.",
+  "MARIAH CAREY AND PREDATOR:",
+  "BADLANDS,",
+  "REST IN PEACE AND CHAOS AGENT,",
+  "ALSO UNTIL NOVEMBER 4TH.",
+  "INOXTAG,",
+  "UNTIL NOVEMBER 5TH.",
+  "ADVENTURE TIME,",
+  "ICE KING AND LEMONGRAB,",
+  "HARLEY QUINN,",
+  "AND CATWOMAN ZERO,",
+  "UNTIL NOVEMBER 6TH.",
+  "AND ONE PIECE,",
+  "ALL THE WAY TO DECEMBER 3RD.",
+  "QUICK RECAP!",
+  "BIGGEST BUNDLE OF THE WEEK:",
+  "FIVE NIGHTS AT FREDDY'S.",
+  "NEWEST:",
+  "ADVENTURE TIME.",
+  "THE ONE THAT STAYS THE LONGEST:",
+  "ONE PIECE.",
+  "AND COMMANDO AND SHADOW OPS NEVER",
+  "LEFT.",
+  "WHICH BUNDLE DID YOU GRAB THIS",
+  "WEEK?",
+  "TELL ME IN THE COMMENTS!",
+  "THANK YOU FOR WATCHING!",
+  "FOLLOW FOR MORE DAILY CONTENT.",
+  "CODE BAD · ROYALE",
+  "#EPICPARTNER"
+ ]
+}
