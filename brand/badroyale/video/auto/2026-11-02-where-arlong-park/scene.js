@@ -4,7 +4,7 @@ window.SCENE = TPL.map({
   "Where is Arlong Park?",
   "Fortnite map"
  ],
- "map": "labels",
+ "map": "blank",
  "titleSize": 56,
  "shots": [
   {
