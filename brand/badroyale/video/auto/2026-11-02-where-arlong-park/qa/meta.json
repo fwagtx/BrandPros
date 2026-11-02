@@ -1,0 +1,46 @@
+{
+ "duration": 14.8,
+ "caption": "#EpicPartner Where is Arlong Park in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Arlong Park is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Arlong Park"
+   ]
+  },
+  {
+   "text": "It is in the west of the island, nearest named location Lantern Landing",
+   "source": "map-labels.png",
+   "visual": "map pixel (635, 1123); nearest named POI by coordinates: Lantern Landing"
+  }
+ ],
+ "text": [
+  "ARLONG PARK",
+  "WHERE IS ARLONG PARK? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND ARLONG",
+  "PARK IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "WEST OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO LANTERN",
+  "LANDING.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
