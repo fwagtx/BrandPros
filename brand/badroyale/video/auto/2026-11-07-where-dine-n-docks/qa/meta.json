@@ -1,0 +1,47 @@
+{
+ "duration": 15.4,
+ "caption": "#EpicPartner Where is Dine 'n Docks in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Dine 'n Docks is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Dine 'n Docks"
+   ]
+  },
+  {
+   "text": "It is on the far west edge of the island, nearest named location Heatwave Harbor",
+   "source": "map-labels.png",
+   "visual": "map pixel (340, 1198); nearest named POI by coordinates: Heatwave Harbor"
+  }
+ ],
+ "text": [
+  "DINE 'N DOCKS",
+  "WHERE IS DINE 'N DOCKS? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND DINE",
+  "'N DOCKS IN",
+  "FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S ON THE",
+  "FAR WEST EDGE",
+  "OF THE ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO HEATWAVE",
+  "HARBOR.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

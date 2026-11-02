@@ -1,0 +1,47 @@
+{
+ "duration": 15.4,
+ "caption": "#EpicPartner Where is The Sleazy Snooze in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "The Sleazy Snooze is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "The Sleazy Snooze"
+   ]
+  },
+  {
+   "text": "It is on the far north edge of the island, nearest named location Freaky Fields",
+   "source": "map-labels.png",
+   "visual": "map pixel (939, 371); nearest named POI by coordinates: Freaky Fields"
+  }
+ ],
+ "text": [
+  "HERE",
+  "WHERE IS THE SLEAZY SNOOZE? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND THE",
+  "SLEAZY SNOOZE IN",
+  "FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S ON THE",
+  "FAR NORTH EDGE",
+  "OF THE ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO FREAKY",
+  "FIELDS.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

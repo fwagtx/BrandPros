@@ -1,0 +1,46 @@
+{
+ "duration": 15,
+ "caption": "#EpicPartner Where is Geno's Machine in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Geno's Machine is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Geno's Machine"
+   ]
+  },
+  {
+   "text": "It is near the center of the island, nearest named location Reality's Reign",
+   "source": "map-labels.png",
+   "visual": "map pixel (906, 1013); nearest named POI by coordinates: Reality's Reign"
+  }
+ ],
+ "text": [
+  "GENO'S MACHINE",
+  "WHERE IS GENO'S MACHINE? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND GENO'S",
+  "MACHINE IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S NEAR THE",
+  "CENTER OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO REALITY'S",
+  "REIGN.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

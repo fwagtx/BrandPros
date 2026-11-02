@@ -1,0 +1,46 @@
+{
+ "duration": 15.5,
+ "caption": "#EpicPartner Where is Crashout Estates in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Crashout Estates is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Crashout Estates"
+   ]
+  },
+  {
+   "text": "It is on the far south edge of the island, nearest named location Cluster Coast",
+   "source": "map-labels.png",
+   "visual": "map pixel (1206, 1724); nearest named POI by coordinates: Cluster Coast"
+  }
+ ],
+ "text": [
+  "HERE",
+  "WHERE IS CRASHOUT ESTATES? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND CRASHOUT",
+  "ESTATES IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S ON THE",
+  "FAR SOUTH EDGE",
+  "OF THE ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO CLUSTER",
+  "COAST.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

@@ -56,9 +56,9 @@
    "topic": "There Are TWO Carwashes on the Fortnite Map 🚗 (video/auto/2026-11-02-two-carwashes)"
   },
   {
-   "date": "2026-11-03",
+   "date": "2026-11-18",
    "format": "Guess the Season",
-   "topic": "Outfits: Cuddle Team Leader, Omega, Agent Peely (video/auto/2026-11-03-guess-4)"
+   "topic": "Outfits: Cuddle Team Leader, Omega, Agent Peely (video/auto/2026-11-03-guess-4) [moved to 2026-11-18 4:30 on 2026-11-02 to make room for a map short]"
   },
   {
    "date": "2026-11-03",
@@ -76,9 +76,9 @@
    "topic": "Place: Mega Maze (video/auto/2026-11-04-where-mega-maze)"
   },
   {
-   "date": "2026-11-05",
+   "date": "2026-11-19",
    "format": "Guess the Season",
-   "topic": "Outfits: Skye, The Visitor, Brite Bomber (video/auto/2026-11-05-guess-6)"
+   "topic": "Outfits: Skye, The Visitor, Brite Bomber (video/auto/2026-11-05-guess-6) [moved to 2026-11-19 4:30 on 2026-11-02 to make room for a map short]"
   },
   {
    "date": "2026-11-12",
@@ -96,9 +96,9 @@
    "topic": "Place: The Quackaway (video/auto/2026-11-06-where-quackaway)"
   },
   {
-   "date": "2026-11-07",
+   "date": "2026-11-20",
    "format": "Guess the Season",
-   "topic": "Outfits: Jules, Red Knight, Beef Boss (video/auto/2026-11-07-guess-8)"
+   "topic": "Outfits: Jules, Red Knight, Beef Boss (video/auto/2026-11-07-guess-8) [moved to 2026-11-20 4:30 on 2026-11-02 to make room for a map short]"
   },
   {
    "date": "2026-11-14",
@@ -116,9 +116,9 @@
    "topic": "Place: Stack o' Stones (video/auto/2026-11-08-where-stack-o-stones)"
   },
   {
-   "date": "2026-11-09",
+   "date": "2026-11-21",
    "format": "Guess the Season",
-   "topic": "Outfits: Kit, Crackshot, Hybrid (video/auto/2026-11-09-guess-10)"
+   "topic": "Outfits: Kit, Crackshot, Hybrid (video/auto/2026-11-09-guess-10) [moved to 2026-11-21 4:30 on 2026-11-02 to make room for a map short]"
   },
   {
    "date": "2026-11-16",
@@ -159,6 +159,26 @@
    "date": "2026-11-02",
    "format": "Where Is",
    "topic": "Place: WonkeeLand (video/auto/2026-11-02-where-wonkeeland)"
+  },
+  {
+   "date": "2026-11-03",
+   "format": "Where Is",
+   "topic": "Place: Crashout Estates (video/auto/2026-11-03-where-crashout-estates)"
+  },
+  {
+   "date": "2026-11-05",
+   "format": "Where Is",
+   "topic": "Place: Geno's Machine (video/auto/2026-11-05-where-genos-machine)"
+  },
+  {
+   "date": "2026-11-07",
+   "format": "Where Is",
+   "topic": "Place: Dine 'n Docks (video/auto/2026-11-07-where-dine-n-docks)"
+  },
+  {
+   "date": "2026-11-09",
+   "format": "Where Is",
+   "topic": "Place: The Sleazy Snooze (video/auto/2026-11-09-where-sleazy-snooze)"
   }
  ]
 }

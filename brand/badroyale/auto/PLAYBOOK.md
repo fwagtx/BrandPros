@@ -107,7 +107,9 @@ slot is never filled ahead; it is today's current-game short, made each morning 
    day. If the pick is a news tile that reads like a generic gameplay tip, or the sheet still looks wrong after a
    rebuild, run it again with `--pick new` (then `--pick last`). If it prints STOP, make a Where Is short for 12:30.
 3. **Keep the 4:30 PM evergreen slot 7 days ahead.** Look at the 4:30 slots for today and the next 6 days and fill
-   the empty ones, earliest first, at most 2 new shorts per run, alternating:
+   the empty ones, earliest first, at most 2 new shorts per run. The owner likes the map videos most (2026-11-02:
+   "make some more of the map videos"), so fill two Where Is for every one Guess the Season, and never queue more
+   than two Guess the Season in a row:
    - Guess the Season via `python3 brand/badroyale/auto/new_guess.py <folder> "<outfit>" "<outfit>" "<outfit>"`
      with outfits never used in the ledger (`--sources <folder>/sources`).
    - Where Is via `python3 brand/badroyale/auto/new_where.py <folder> "<place name from map.json>"` with a place
