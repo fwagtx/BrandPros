@@ -64,6 +64,53 @@
    ]
   },
   {
+   "text": "Catwoman Zero Bundle 1,500 (listed 2,000) in 11-02 out 11-06",
+   "source": "week.json",
+   "match": [
+    "Catwoman Zero Bundle",
+    "\"final\": 1500, \"regular\": 2000, \"in\": \"2026-11-02\", \"out\": \"2026-11-06\""
+   ]
+  },
+  {
+   "text": "HIT SQUAD BUNDLE 2,400 (listed 3,700) in 10-29, Siren and Wolf",
+   "source": "week.json",
+   "match": [
+    "HIT SQUAD BUNDLE",
+    "\"final\": 2400, \"regular\": 3700, \"in\": \"2026-10-29\", \"out\": \"2026-10-31\"",
+    "\"Siren\"",
+    "\"Wolf\""
+   ]
+  },
+  {
+   "text": "Art the Clown Bundle 2,200 (listed 3,300) in 10-30 out 11-02",
+   "source": "week.json",
+   "match": [
+    "Art the Clown Bundle",
+    "\"final\": 2200, \"regular\": 3300, \"in\": \"2026-10-30\", \"out\": \"2026-11-02\""
+   ]
+  },
+  {
+   "text": "Knightmare Bundle 2,000 in 10-30; Focal Point Bundle 1,800 in 10-30 with Focus",
+   "source": "week.json",
+   "match": [
+    "Knightmare Bundle",
+    "\"final\": 2000, \"regular\": 2800, \"in\": \"2026-10-30\", \"out\": \"2026-11-01\"",
+    "Focal Point Bundle",
+    "\"final\": 1800, \"regular\": 3300, \"in\": \"2026-10-30\", \"out\": \"2026-11-01\"",
+    "\"Focus\""
+   ]
+  },
+  {
+   "text": "Chaos Agent Bundle 2,000 in 10-31; Xenomorph (Alien: Earth) Bundle 2,000 in 10-31",
+   "source": "week.json",
+   "match": [
+    "Chaos Agent Bundle",
+    "\"final\": 2000, \"regular\": 2800, \"in\": \"2026-10-31\", \"out\": \"2026-11-04\"",
+    "Xenomorph (Alien: Earth) Bundle",
+    "\"final\": 2000, \"regular\": 2700, \"in\": \"2026-10-31\", \"out\": \"2026-11-03\""
+   ]
+  },
+  {
    "text": "Elm Street Bundle in 10-28, 2,300",
    "source": "week.json",
    "match": [
@@ -129,6 +176,22 @@
    ]
   },
   {
+   "text": "Dr. Eggman Bundle 2,000 (listed 3,600) out 10-31",
+   "source": "week.json",
+   "match": [
+    "Dr. Eggman Bundle",
+    "\"final\": 2000, \"regular\": 3600, \"in\": \"2026-10-25\", \"out\": \"2026-10-31\""
+   ]
+  },
+  {
+   "text": "Beetlejuice Bundle: 9 items, 2,400 (listed 5,300), out 11-02",
+   "source": "week.json",
+   "match": [
+    "Beetlejuice Bundle",
+    "\"final\": 2400, \"regular\": 5300, \"in\": \"2026-10-24\", \"out\": \"2026-11-02\""
+   ]
+  },
+  {
    "text": "Commando and Shadow Ops: Chapter 1, Season 1, in every daily snapshot 10-28..11-02",
    "source": "week.json",
    "match": [
@@ -151,6 +214,40 @@
     "\"name\": \"Snowstrike\", \"introduction\": \"Introduced in Chapter 1, Season 7.\"",
     "\"name\": \"Rex\", \"introduction\": \"Introduced in Chapter 1, Season 3.\"",
     "\"name\": \"Fishstick\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Mayhem, Ruckus Ch1 S6; Highrise Assault Trooper Ch1 S2; Astro Assassin, Focus Ch1 S9",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Mayhem\", \"introduction\": \"Introduced in Chapter 1, Season 6.\"",
+    "\"name\": \"Ruckus\", \"introduction\": \"Introduced in Chapter 1, Season 6.\"",
+    "\"name\": \"Highrise Assault Trooper\", \"introduction\": \"Introduced in Chapter 1, Season 2.\"",
+    "\"name\": \"Astro Assassin\", \"introduction\": \"Introduced in Chapter 1, Season 9.\"",
+    "\"name\": \"Focus\", \"introduction\": \"Introduced in Chapter 1, Season 9.\""
+   ]
+  },
+  {
+   "text": "Moxie, Guaco Ch1 SX; Hime S5; Rosa S6; Aura, Buccaneer, Sea Wolf S8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Moxie\", \"introduction\": \"Introduced in Chapter 1, Season X.\"",
+    "\"name\": \"Guaco\", \"introduction\": \"Introduced in Chapter 1, Season X.\"",
+    "\"name\": \"Hime\", \"introduction\": \"Introduced in Chapter 1, Season 5.\"",
+    "\"name\": \"Rosa\", \"introduction\": \"Introduced in Chapter 1, Season 6.\"",
+    "\"name\": \"Aura\", \"introduction\": \"Introduced in Chapter 1, Season 8.\"",
+    "\"name\": \"Buccaneer\", \"introduction\": \"Introduced in Chapter 1, Season 8.\"",
+    "\"name\": \"Sea Wolf\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Rest in Peace out 11-04; Inoxtag out 11-05",
+   "source": "week.json",
+   "match": [
+    "Rest in Peace Bundle",
+    "\"final\": 1800, \"regular\": 2800, \"in\": \"2026-10-27\", \"out\": \"2026-11-04\"",
+    "Inoxtag Bundle",
+    "\"final\": 2000, \"regular\": 3400, \"in\": \"2026-10-27\", \"out\": \"2026-11-05\""
    ]
   },
   {
@@ -320,8 +417,97 @@
    ]
   },
   {
-   "type": "title",
+   "type": "items",
    "p": 18,
+   "title": "Catwoman Zero Bundle · 1,500 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_a_094_athena_commando_f_cavern_33lmc.png",
+     "name": "Catwoman Zero",
+     "rarity": "dc"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 19,
+   "chapter": "More new bundles",
+   "kicker": "MORE NEW BUNDLES",
+   "lines": [
+    "The rest of",
+    "the new drops"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 20,
+   "title": "HIT SQUAD Bundle · 2,400 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_748_athena_commando_f_hitman.png",
+     "name": "Siren",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_755_athena_commando_m_splinter.png",
+     "name": "Wolf",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 21,
+   "title": "Art the Clown Bundle · 2,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/character_slugripple.png",
+     "name": "Art the Clown",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 22,
+   "title": "Knightmare · Focal Point",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/character_bucketkick.png",
+     "name": "Knightmare",
+     "rarity": "epic",
+     "price": 2000
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_452_athena_commando_f_cyberfu.png",
+     "name": "Focus",
+     "rarity": "rare",
+     "price": 1800
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 23,
+   "title": "Chaos Agent · Xenomorph (Alien: Earth)",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_598_athena_commando_m_mastermind.png",
+     "name": "Chaos Agent",
+     "rarity": "epic",
+     "price": 2000
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/character_tulipglory.png",
+     "name": "Xenomorph (Alien: Earth)",
+     "rarity": "epic",
+     "price": 2000
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 24,
    "chapter": "Halloween week",
    "kicker": "HALLOWEEN WEEK",
    "lines": [
@@ -331,7 +517,7 @@
   },
   {
    "type": "items",
-   "p": 19,
+   "p": 25,
    "title": "A Nightmare on Elm Street Bundle · 2,300 V-Bucks",
    "items": [
     {
@@ -343,7 +529,7 @@
   },
   {
    "type": "items",
-   "p": 20,
+   "p": 26,
    "title": "Ripley & Xenomorph Bundle · 2,200 V-Bucks",
    "items": [
     {
@@ -360,7 +546,7 @@
   },
   {
    "type": "items",
-   "p": 21,
+   "p": 27,
    "title": "Predator: Badlands Bundle · 2,000 V-Bucks",
    "items": [
     {
@@ -377,17 +563,17 @@
   },
   {
    "type": "stat",
-   "p": 22,
+   "p": 28,
    "big": "3,500",
    "label": "Grave The Day · Hero Horde"
   },
   {
    "type": "code",
-   "p": 23
+   "p": 29
   },
   {
    "type": "title",
-   "p": 24,
+   "p": 30,
    "chapter": "Gone this week",
    "kicker": "GONE THIS WEEK",
    "lines": [
@@ -397,7 +583,7 @@
   },
   {
    "type": "items",
-   "p": 25,
+   "p": 31,
    "title": "Shadow & Knuckles Bundle · 3,600 V-Bucks",
    "items": [
     {
@@ -414,7 +600,7 @@
   },
   {
    "type": "items",
-   "p": 26,
+   "p": 32,
    "title": "Yeat Bundle · 3,600 V-Bucks",
    "items": [
     {
@@ -431,7 +617,7 @@
   },
   {
    "type": "items",
-   "p": 27,
+   "p": 33,
    "title": "Doja Cat Bundle · 3,200 V-Bucks",
    "items": [
     {
@@ -447,8 +633,32 @@
    ]
   },
   {
+   "type": "items",
+   "p": 34,
+   "title": "Dr. Eggman Bundle · 2,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/character_southbalk.png",
+     "name": "Dr. Eggman",
+     "rarity": "gaminglegends"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 35,
+   "title": "Beetlejuice Bundle · 2,400 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/character_asidedepot.png",
+     "name": "Beetlejuice",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
    "type": "title",
-   "p": 28,
+   "p": 36,
    "chapter": "OG check",
    "kicker": "OG CHECK",
    "lines": [
@@ -458,7 +668,7 @@
   },
   {
    "type": "items",
-   "p": 29,
+   "p": 37,
    "title": "Chapter 1, Season 1 · every day this week",
    "items": [
     {
@@ -477,7 +687,7 @@
   },
   {
    "type": "items",
-   "p": 31,
+   "p": 39,
    "title": "More OGs this week",
    "items": [
     {
@@ -498,8 +708,67 @@
    ]
   },
   {
+   "type": "items",
+   "p": 42,
+   "title": "Chapter 1 · Oct 28 - Oct 30",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_263_athena_commando_f_madcommander.png",
+     "name": "Mayhem",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_262_athena_commando_m_madcommander.png",
+     "name": "Ruckus",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_078_athena_commando_m_camo.png",
+     "name": "Highrise Assault Trooper",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_477_athena_commando_f_spacesuit.png",
+     "name": "Astro Assassin",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 45,
+   "title": "Chapter 1 · Oct 30 - Nov 2",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_532_athena_commando_f_punchy.png",
+     "name": "Moxie",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_538_athena_commando_m_taco.png",
+     "name": "Guaco",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_199_athena_commando_f_bluesamurai.png",
+     "name": "Hime",
+     "rarity": "legendary"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_251_athena_commando_f_muertos.png",
+     "name": "Rosa",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-02-week-item-shop/img/cid_397_athena_commando_f_treasurehunterfashion.png",
+     "name": "Aura",
+     "rarity": "uncommon"
+    }
+   ]
+  },
+  {
    "type": "title",
-   "p": 34,
+   "p": 47,
    "chapter": "Leaving soon",
    "kicker": "LEAVING SOON",
    "lines": [
@@ -509,7 +778,7 @@
   },
   {
    "type": "title",
-   "p": 38,
+   "p": 54,
    "chapter": "Recap",
    "kicker": "QUICK RECAP",
    "lines": [
@@ -519,7 +788,7 @@
   },
   {
    "type": "code",
-   "p": 42
+   "p": 58
   }
  ]
 }
