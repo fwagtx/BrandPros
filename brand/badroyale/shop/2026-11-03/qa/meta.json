@@ -1,0 +1,108 @@
+{
+ "duration": 22.7,
+ "caption": "#EpicPartner Fortnite Item Shop, Nov 3: the Adventure Time Bundle is 3,800 V-Bucks instead of 10,300, Dante and Rosa are in (Chapter 1, Season 6), and 4 skins leave at 6 PM CT.\nBuying today? Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Adventure Time Bundle: 3800 V-Bucks, regular 10300",
+   "source": "shop.json",
+   "match": [
+    "Adventure Time Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 10300"
+   ]
+  },
+  {
+   "text": "Adventure Time Bundle leaves 2026-11-06",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-06"
+   ]
+  },
+  {
+   "text": "Dante is in the shop, introduced Chapter 1, Season 6",
+   "source": "history.json",
+   "match": [
+    "Dante",
+    "Introduced in Chapter 1, Season 6."
+   ]
+  },
+  {
+   "text": "Rosa is in the shop, introduced Chapter 1, Season 6",
+   "source": "history.json",
+   "match": [
+    "Rosa",
+    "Introduced in Chapter 1, Season 6."
+   ]
+  },
+  {
+   "text": "4 outfits leave at the next reset (last day)",
+   "source": "plan.json",
+   "match": [
+    "\"count\": 4"
+   ],
+   "visual": "Counted from shop.json outDate == shop date (shop_pick.py)"
+  },
+  {
+   "text": "Reset at 6 PM CT",
+   "source": "plan.json",
+   "match": [
+    "6 PM CT"
+   ],
+   "visual": "00:00 UTC converted to America/Chicago"
+  }
+ ],
+ "text": [
+  "FINN THE HUMAN",
+  "ROSA",
+  "XENOMORPH",
+  "TODAY'S ITEM SHOP / NOV 3",
+  "1 · BEST DEAL",
+  "JAKE THE DOG",
+  "PRINCESS BUBBLEGUM",
+  "MARCELINE",
+  "3,800",
+  "10,300",
+  "ADVENTURE TIME BUNDLE · LEAVES NOV 6",
+  "2 · OG CHECK",
+  "DANTE",
+  "CHAPTER 1 · SEASON 6",
+  "3 · LAST DAY",
+  "ELLEN RIPLEY",
+  "XENOMORPH (ALIEN: EARTH)",
+  "WAKE RIDER",
+  "GONE AT 6 PM CT",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "THIS IS TODAY'S",
+  "ITEM SHOP FOR",
+  "NOVEMBER 3RD.",
+  "THREE THINGS BEFORE",
+  "YOU SPEND A",
+  "SINGLE V-BUCK!",
+  "THE ADVENTURE TIME",
+  "BUNDLE:",
+  "3,800 V-BUCKS,",
+  "INSTEAD OF 10,300.",
+  "DANTE AND ROSA",
+  "ARE IN THE",
+  "SHOP.",
+  "BOTH FROM CHAPTER",
+  "1,",
+  "SEASON 6.",
+  "AND FOUR SKINS",
+  "ARE ON THEIR",
+  "LAST DAY,",
+  "THREE OF THEM",
+  "EPIC.",
+  "BUYING ANYTHING TODAY?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
