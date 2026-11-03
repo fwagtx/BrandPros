@@ -55,8 +55,10 @@ def main():
     now = datetime.datetime.now(datetime.timezone.utc)
     stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     man = {"via": "fortnite-api.com (mirror of Epic in-game data). Epic CDN and fortnite.com are blocked from cloud sessions.", "files": []}
+    # download everything first: a failed fetch must not leave an empty file behind
+    got = {name: get(url) for name, what, url in FILES}
     for name, what, url in FILES:
-        open(os.path.join(SRC, name), "wb").write(get(url))
+        open(os.path.join(SRC, name), "wb").write(got[name])
         man["files"].append({"file": name, "source": what, "url": url, "fetched_utc": stamp})
     json.dump(man, open(os.path.join(SRC, "manifest.json"), "w"), indent=2)
     hist = os.path.join(SRC, "history")
