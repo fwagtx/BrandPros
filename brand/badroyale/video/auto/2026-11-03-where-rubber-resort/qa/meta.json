@@ -1,0 +1,46 @@
+{
+ "duration": 14.8,
+ "caption": "#EpicPartner Where is Rubber Resort in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Rubber Resort is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Rubber Resort"
+   ]
+  },
+  {
+   "text": "It is in the north-west of the island, nearest named location The Chest",
+   "source": "map-labels.png",
+   "visual": "map pixel (818, 718); nearest named POI by coordinates: The Chest"
+  }
+ ],
+ "text": [
+  "RUBBER RESORT",
+  "WHERE IS RUBBER RESORT? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND RUBBER",
+  "RESORT IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "NORTH-WEST OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO THE",
+  "CHEST.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

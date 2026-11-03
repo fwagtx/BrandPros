@@ -13,7 +13,8 @@ import re
 import sys
 
 SRC = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "sources"))
-C = (1010, 1010)                                    # island center on the 2048 map image
+C = [1010, 1010]                                    # island center on the 2048 map image; main() resets it to the
+                                                    # middle of the named places, so it follows a new season's island
 
 
 def px(p):
@@ -35,6 +36,8 @@ def main(folder, name):
         raise SystemExit(f"STOP: {name!r} must be exactly one place on the map (found {len(me)})")
     x, y = px(me[0])
     named = [p for p in pois if ".POI." in p["id"] and p["name"] != name]
+    allnamed = [px(p) for p in pois if ".POI." in p["id"]]
+    C[0], C[1] = sum(a for a, b in allnamed) / len(allnamed), sum(b for a, b in allnamed) / len(allnamed)
     near = min(named, key=lambda q: math.hypot(px(q)[0] - x, px(q)[1] - y))["name"]
     d = direction(x, y)
     slug = os.path.basename(folder.rstrip("/"))
