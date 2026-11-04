@@ -1,0 +1,290 @@
+{
+ "CID_704_Athena_Commando_F_LollipopTrickster": {
+  "name": "Harley Quinn",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "Character_AltoGorgon": {
+  "name": "Dek",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_ProngCling": {
+  "name": "Fionna the Human",
+  "introduction": "Introduced in Chapter 7, Season 1."
+ },
+ "Character_IvoryDwell": {
+  "name": "Inoxtag",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_Pencil_Lime": {
+  "name": "Striker Senpai",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_Pencil_Apple": {
+  "name": "Varsity Vanguard",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_CeleryStitch": {
+  "name": "Monkey D. Luffy",
+  "introduction": "Introduced in Chapter 7, Season 5."
+ },
+ "Character_PreciseRuffian": {
+  "name": "Serge",
+  "introduction": "Introduced in Chapter 6, Season 1."
+ },
+ "Character_GrindRex": {
+  "name": "Gnarly Charlie",
+  "introduction": "Introduced in Chapter 7, Season 2."
+ },
+ "Character_RainbowSplash": {
+  "name": "Remembrance Salvador",
+  "introduction": "Introduced in Chapter 6, Season 6."
+ },
+ "Character_RaisinHunt_Rag": {
+  "name": "John Rambo",
+  "introduction": "Introduced in Chapter 7, Season 3."
+ },
+ "Character_ChiveFlake": {
+  "name": "Princess Bubblegum",
+  "introduction": "Introduced in Chapter 6, Season 2."
+ },
+ "CID_111_Athena_Commando_F_Robo": {
+  "name": "Steelsight",
+  "introduction": "Introduced in Chapter 1, Season 3."
+ },
+ "CID_252_Athena_Commando_M_Muertos": {
+  "name": "Dante",
+  "introduction": "Introduced in Chapter 1, Season 6."
+ },
+ "Character_LabVapor": {
+  "name": "Scorpius Agent",
+  "introduction": "Introduced in Chapter 6, Season 4."
+ },
+ "Character_BoastJoint": {
+  "name": "Nami",
+  "introduction": "Introduced in Chapter 7, Season 5."
+ },
+ "Character_LoomRise": {
+  "name": "Usopp",
+  "introduction": "Introduced in Chapter 7, Season 5."
+ },
+ "Character_VampireHunter_Galaxy": {
+  "name": "Andromeda",
+  "introduction": "Introduced in Chapter 5, Season 3."
+ },
+ "Character_PastelGlazeGift": {
+  "name": "Santa Suit Mariah",
+  "introduction": "Introduced in Chapter 6, Season 1."
+ },
+ "Character_QuailWink": {
+  "name": "Mira (HUNTR/X)",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "Character_PennantSeasShade_B": {
+  "name": "Stealthy Surveyor",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_WingBath": {
+  "name": "Mandalorian Warrior",
+  "introduction": "Introduced in Chapter 6, Season 3."
+ },
+ "CID_889_Athena_Commando_F_ChOneWildcat": {
+  "name": "Wildstreak One",
+  "introduction": "Introduced in Chapter 2, Season 4."
+ },
+ "CID_A_094_Athena_Commando_F_Cavern_33LMC": {
+  "name": "Catwoman Zero",
+  "introduction": "Introduced in Chapter 2, Season 6."
+ },
+ "CID_251_Athena_Commando_F_Muertos": {
+  "name": "Rosa",
+  "introduction": "Introduced in Chapter 1, Season 6."
+ },
+ "Character_Pencil_Pear": {
+  "name": "Studious Scout",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_GraphShook": {
+  "name": "Perlica",
+  "introduction": "Introduced in Chapter 7, Season 3."
+ },
+ "CID_827_Athena_Commando_M_MultibotStealth": {
+  "name": "Mecha Team Shadow",
+  "introduction": "Introduced in Chapter 2, Season 4."
+ },
+ "CID_341_Athena_Commando_F_SkullBrite": {
+  "name": "Skully",
+  "introduction": "Introduced in Chapter 1, Season 7."
+ },
+ "Character_LoanFloat": {
+  "name": "Rumi (HUNTR/X)",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "Character_Pencil_Guava": {
+  "name": "Rebel Rival",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_Calavera": {
+  "name": "Salvador",
+  "introduction": "Introduced in Chapter 3, Season 4."
+ },
+ "CID_A_453_Athena_Commando_F_FuzzyBearSummer": {
+  "name": "Syd",
+  "introduction": "Introduced in Chapter 3, Season 3."
+ },
+ "CID_598_Athena_Commando_M_Mastermind": {
+  "name": "Chaos Agent",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "Character_MirageHike": {
+  "name": "Serenade",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_Pencil_Grape": {
+  "name": "Midterm Maverick",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_FuryFax": {
+  "name": "Simone",
+  "introduction": "Introduced in Chapter 6, Season 1."
+ },
+ "Character_ToughPack": {
+  "name": "Ruck",
+  "introduction": "Introduced in Chapter 6, Season 4."
+ },
+ "Character_AutumnDelivery": {
+  "name": "Elowen",
+  "introduction": "Introduced in Chapter 5, Season 2."
+ },
+ "CID_773_Athena_Commando_M_Beacon": {
+  "name": "Trench Trawler",
+  "introduction": "Introduced in Chapter 2, Season 3."
+ },
+ "Character_PastelGlazeGrain": {
+  "name": "Mariah Carey",
+  "introduction": "Introduced in Chapter 6, Season 1."
+ },
+ "Character_PuzzleShed": {
+  "name": "Finn the Human",
+  "introduction": "Introduced in Chapter 6, Season 2."
+ },
+ "Character_TwinkleLoop": {
+  "name": "Jake the Dog",
+  "introduction": "Introduced in Chapter 6, Season 2."
+ },
+ "Character_CajunTaco": {
+  "name": "Marceline",
+  "introduction": "Introduced in Chapter 6, Season 2."
+ },
+ "Character_SonnetSpirit": {
+  "name": "Ice King",
+  "introduction": "Introduced in Chapter 7, Season 1."
+ },
+ "Character_SubtleSilly": {
+  "name": "Soul",
+  "introduction": "Introduced in Chapter 7, Season 3."
+ },
+ "CID_372_Athena_Commando_F_Pirate01": {
+  "name": "Buccaneer",
+  "introduction": "Introduced in Chapter 1, Season 8."
+ },
+ "Character_NovelGuard": {
+  "name": "Kavel",
+  "introduction": "Introduced in Chapter 5, Season 1."
+ },
+ "CID_373_Athena_Commando_M_Pirate01": {
+  "name": "Sea Wolf",
+  "introduction": "Introduced in Chapter 1, Season 8."
+ },
+ "Character_Pencil_Fig": {
+  "name": "Victory Valedictorian",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_BrightLarva": {
+  "name": "Lunelle",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "Character_ScubaDasher": {
+  "name": "Bay",
+  "introduction": "Introduced in Chapter 6, Season 4."
+ },
+ "CID_A_152_Athena_Commando_F_Musician": {
+  "name": "Pepper Thorne",
+  "introduction": "Introduced in Chapter 2, Season 7."
+ },
+ "CID_A_379_Athena_Commando_F_VampireHunter": {
+  "name": "Sorina",
+  "introduction": "Introduced in Chapter 3, Season 2."
+ },
+ "Character_BrassSpar": {
+  "name": "Miasma",
+  "introduction": "Introduced in Chapter 7, Season 4."
+ },
+ "Character_Pencil_Kiwi": {
+  "name": "Sporty Skirmisher",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "CID_627_Athena_Commando_F_SnufflesLeader": {
+  "name": "Bundles",
+  "introduction": "Introduced in Chapter 2, Season 1."
+ },
+ "Character_Pencil_Raspberry": {
+  "name": "Prefect Patroller",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_FrostMystery": {
+  "name": "Mystery Zone",
+  "introduction": "Introduced in Chapter 5, Season 1."
+ },
+ "Character_Pencil_Mango": {
+  "name": "Ace Academic",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_FairyMochi": {
+  "name": "The Earl of Lemongrab",
+  "introduction": "Introduced in Chapter 7, Season 1."
+ },
+ "Character_EvokeFind": {
+  "name": "Zoey (HUNTR/X)",
+  "introduction": "Introduced in Chapter 6, Season 5."
+ },
+ "CID_526_Athena_Commando_F_DesertOpsSwamp": {
+  "name": "Swamp Stalker",
+  "introduction": "Introduced in Chapter 1, Season X."
+ },
+ "Character_Pencil_Cherry": {
+  "name": "Culture Club Commander",
+  "introduction": "Introduced in Chapter 4, Season 2."
+ },
+ "Character_BananaAdventure": {
+  "name": "Adventure Peely",
+  "introduction": "Introduced in Chapter 5, Season 1."
+ },
+ "CID_762_Athena_Commando_M_BrightGunnerSpy": {
+  "name": "Wild Gunner",
+  "introduction": "Introduced in Chapter 2, Season 2."
+ },
+ "CID_315_Athena_Commando_M_TeriyakiFish": {
+  "name": "Fishstick",
+  "introduction": "Introduced in Chapter 1, Season 7."
+ },
+ "CID_397_Athena_Commando_F_TreasureHunterFashion": {
+  "name": "Aura",
+  "introduction": "Introduced in Chapter 1, Season 8."
+ },
+ "Character_SlopeTramp": {
+  "name": "Cake the Cat",
+  "introduction": "Introduced in Chapter 7, Season 1."
+ },
+ "CID_A_360_Athena_Commando_F_LeatherJacketPurple": {
+  "name": "Halley",
+  "introduction": "Introduced in Chapter 3, Season 1."
+ },
+ "Character_PearlTote": {
+  "name": "Rain-Bear",
+  "introduction": "Introduced in Chapter 6, Season 2."
+ },
+ "CID_335_Athena_Commando_F_Scrapyard": {
+  "name": "Sparkplug",
+  "introduction": "Introduced in Chapter 1, Season 7."
+ }
+}
