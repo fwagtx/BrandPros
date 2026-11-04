@@ -90,7 +90,7 @@ claims += [{"text": f"{len(pois)} places on the map: {len(named)} named location
            {"text": "Game build is v43.00", "source": "build.json", "match": ["Release-43.00"]}]
 
 # ---- the news tile about the island
-segs.append({"type": "quote", "p": len(phrases), "chapter": "The new island", "kicker": "IN-GAME NEWS", "title": adv["title"],
+segs.append({"type": "quote", "p": len(phrases), "kicker": "IN-GAME NEWS", "title": adv["title"],
              "lines": [{"p": len(phrases) + 1, "text": "Explore One Piece's Arlong Park, sail past Baratie Bay,"},
                        {"p": len(phrases) + 2, "text": "or storm The $.$. Rocky on this mysterious skull-shaped island."}]})
 ph("Here's how Epic sums it up in the in-game news.", 0.2)
@@ -191,7 +191,7 @@ segs.append({"type": "code", "p": len(phrases)})
 ph("Use code BAD in the Item Shop. It really helps the channel.", 0.25)
 ph("Thank you for watching! Follow for more daily content.", 0.6)
 
-L = {"title": "Every Place on the New Fortnite Map",
+L = {"title": "Every Place on the New Fortnite Map", "map": "blank",
      "caption": "#EpicPartner A full tour of every place on the new Fortnite map. Use code BAD in the Item Shop.\n#Fortnite #FortniteMap",
      "claims": claims, "segments": segs}
 json.dump(L, open(os.path.join(HERE, "long.json"), "w"), indent=1, ensure_ascii=False)

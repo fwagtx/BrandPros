@@ -6,6 +6,7 @@
  *   {type:"items", p, title, items:[{img, name, rarity, price}]} a row of item tiles
  *   {type:"stat", p, big, label}                              one big number
  *   {type:"code", p}                                          the code card (mid-roll and outro)
+ * L.map: "blank" uses the map without labels (a season whose label image is too dense), anything else the labeled map.
  * A chapter bar (top left) shows the current segment's "chapter" if it has one.
  */
 (function () {
@@ -43,7 +44,7 @@
 
   function build(stage) {
     mk(stage, `inset:0;background:#084687`);
-    const cam = S.mapCam(stage, "../../badroyale/sources/map-labels.png", kf, { x: 960, y: 560 });
+    const cam = S.mapCam(stage, `../../badroyale/sources/map-${L.map === "blank" ? "blank" : "labels"}.png`, kf, { x: 960, y: 560 });
     const dim = mk(stage, `inset:0;background:rgba(5,10,28,.78)`);
     const els = SEG.map((s, i) => {
       const g = mk(stage, `inset:0`);

@@ -1,5 +1,6 @@
 {
  "title": "Every Place on the New Fortnite Map",
+ "map": "blank",
  "caption": "#EpicPartner A full tour of every place on the new Fortnite map. Use code BAD in the Item Shop.\n#Fortnite #FortniteMap",
  "claims": [
   {
@@ -461,7 +462,6 @@
   {
    "type": "quote",
    "p": 4,
-   "chapter": "The new island",
    "kicker": "IN-GAME NEWS",
    "title": "Adventure Awaits!",
    "lines": [
