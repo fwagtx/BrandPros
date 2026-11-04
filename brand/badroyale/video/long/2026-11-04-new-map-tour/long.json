@@ -400,7 +400,7 @@
    "visual": "minimum over all named pairs"
   },
   {
-   "text": "Most spread out named location Arlong Park, nearest ~410 m",
+   "text": "Most isolated named location Arlong Park, nearest ~410 m",
    "source": "map.json",
    "match": [
     "Arlong Park"
@@ -807,7 +807,7 @@
    "y": 1123.2,
    "z": 1.3,
    "name": "Arlong Park",
-   "sub": "Most spread out · in the west of the map",
+   "sub": "Most isolated · in the west of the map",
    "pins": [
     {
      "x": 634.8,

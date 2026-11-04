@@ -1,0 +1,643 @@
+{
+ "duration": 245.6,
+ "caption": "#EpicPartner A full tour of every place on the new Fortnite map. Use code BAD in the Item Shop.\n#Fortnite #FortniteMap",
+ "claims": [
+  {
+   "text": "17 places on the map: 12 named locations, 5 landmarks",
+   "source": "map.json",
+   "match": [
+    "Boogie Boat",
+    "Lantern Landing",
+    "Baratie",
+    "Plunder Port",
+    "The Chest",
+    "Arlong Park",
+    "Windmill Village",
+    "Henry",
+    "Fortune's Fort",
+    "The $.$. Rocky",
+    "Busy Bay",
+    "Rubber Resort",
+    "Cursed Cavern",
+    "Giant's Battlefield",
+    "Loot Lagoon",
+    "The Salty Skull",
+    "Loguetown"
+   ],
+   "visual": "12 ids with .POI., 5 UnNamedPOI ids"
+  },
+  {
+   "text": "None of last week's 33 places (2026-10-31 snapshot) is on the map",
+   "source": "map.json",
+   "absent": [
+    "Artsy RVs",
+    "Barncade",
+    "Birder's Beach",
+    "Blinky Island",
+    "Carwash",
+    "Chopped Shop",
+    "Cluster Coast",
+    "Crashout Estates",
+    "Dark Cartridge",
+    "Dine 'n Docks",
+    "Freaky Fields",
+    "Freddy Fazbear's Pizzeria",
+    "Geno's Machine",
+    "Golden Grove",
+    "Green Hill Zone",
+    "Heatwave Harbor",
+    "Lifty Lodge",
+    "Mega Maze",
+    "Nightmare Neighborhood",
+    "Ol' Stumpy",
+    "Override Console",
+    "Pac-Man Island",
+    "Pinky Island",
+    "Pixel Polys",
+    "Reality's Reign",
+    "Shaken Sanctuary",
+    "Stack o' Stones",
+    "Stone Sanctum",
+    "Sunken Shores",
+    "The Quackaway",
+    "The Sleazy Snooze",
+    "Wettest-Bones Research Facility",
+    "WonkeeLand"
+   ]
+  },
+  {
+   "text": "Game build is v43.00",
+   "source": "build.json",
+   "match": [
+    "Release-43.00"
+   ]
+  },
+  {
+   "text": "Adventure Awaits! news tile",
+   "source": "news.json",
+   "match": [
+    "Adventure Awaits!",
+    "Explore One Piece's Arlong Park, sail past Baratie Bay, or storm The $.$. Rocky on this mysterious skull-shaped island."
+   ]
+  },
+  {
+   "text": "Loot Lagoon: named location, in the north of the island, closest Fortune's Fort, then Lantern Landing",
+   "source": "map.json",
+   "match": [
+    "Loot Lagoon",
+    "Fortune's Fort",
+    "Lantern Landing"
+   ],
+   "visual": "map pixel (1069.6, 869.6); distances between official POI coordinates"
+  },
+  {
+   "text": "Loot Lagoon to Fortune's Fort: ~340 m east",
+   "source": "map.json",
+   "match": [
+    "Loot Lagoon",
+    "Fortune's Fort"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "Fortune's Fort: named location, in the north-east of the island, closest Loot Lagoon, then Cursed Cavern",
+   "source": "map.json",
+   "match": [
+    "Fortune's Fort",
+    "Loot Lagoon",
+    "Cursed Cavern"
+   ],
+   "visual": "map pixel (1293.7, 836.3); distances between official POI coordinates"
+  },
+  {
+   "text": "Boogie Boat ~330 m from Fortune's Fort",
+   "source": "map.json",
+   "match": [
+    "Boogie Boat",
+    "Fortune's Fort"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Fortune's Fort to Cursed Cavern: ~500 m south",
+   "source": "map.json",
+   "match": [
+    "Fortune's Fort",
+    "Cursed Cavern"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "Cursed Cavern: named location, near the center of the island, closest The $.$. Rocky, then Loot Lagoon",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern",
+    "The $.$. Rocky",
+    "Loot Lagoon"
+   ],
+   "visual": "map pixel (1184.2, 1147.6); distances between official POI coordinates"
+  },
+  {
+   "text": "The Salty Skull ~120 m from Cursed Cavern",
+   "source": "map.json",
+   "match": [
+    "The Salty Skull",
+    "Cursed Cavern"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Cursed Cavern to The $.$. Rocky: ~370 m east",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern",
+    "The $.$. Rocky"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "The $.$. Rocky: named location, in the east of the island, closest Cursed Cavern, then Busy Bay",
+   "source": "map.json",
+   "match": [
+    "The $.$. Rocky",
+    "Cursed Cavern",
+    "Busy Bay"
+   ],
+   "visual": "map pixel (1415.7, 1216.9); distances between official POI coordinates"
+  },
+  {
+   "text": "The $.$. Rocky to Busy Bay: ~400 m south",
+   "source": "map.json",
+   "match": [
+    "The $.$. Rocky",
+    "Busy Bay"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "Busy Bay: named location, in the south-east of the island, closest The $.$. Rocky, then Plunder Port",
+   "source": "map.json",
+   "match": [
+    "Busy Bay",
+    "The $.$. Rocky",
+    "Plunder Port"
+   ],
+   "visual": "map pixel (1387.9, 1481.5); distances between official POI coordinates"
+  },
+  {
+   "text": "Baratie ~40 m from Busy Bay",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Busy Bay"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Busy Bay to Plunder Port: ~410 m south-west",
+   "source": "map.json",
+   "match": [
+    "Busy Bay",
+    "Plunder Port"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "Plunder Port: named location, in the south of the island, closest Busy Bay, then Loguetown",
+   "source": "map.json",
+   "match": [
+    "Plunder Port",
+    "Busy Bay",
+    "Loguetown"
+   ],
+   "visual": "map pixel (1150.3, 1606.1); distances between official POI coordinates"
+  },
+  {
+   "text": "Henry ~180 m from Plunder Port",
+   "source": "map.json",
+   "match": [
+    "Henry",
+    "Plunder Port"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Plunder Port to Loguetown: ~420 m north-west",
+   "source": "map.json",
+   "match": [
+    "Plunder Port",
+    "Loguetown"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "Loguetown: named location, in the south of the island, closest Windmill Village, then Plunder Port",
+   "source": "map.json",
+   "match": [
+    "Loguetown",
+    "Windmill Village",
+    "Plunder Port"
+   ],
+   "visual": "map pixel (988.7, 1382.2); distances between official POI coordinates"
+  },
+  {
+   "text": "Giant's Battlefield ~220 m from Loguetown",
+   "source": "map.json",
+   "match": [
+    "Giant's Battlefield",
+    "Loguetown"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Loguetown to Windmill Village: ~360 m west",
+   "source": "map.json",
+   "match": [
+    "Loguetown",
+    "Windmill Village"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "Windmill Village: named location, in the south-west of the island, closest Loguetown, then Arlong Park",
+   "source": "map.json",
+   "match": [
+    "Windmill Village",
+    "Loguetown",
+    "Arlong Park"
+   ],
+   "visual": "map pixel (754.5, 1437.6); distances between official POI coordinates"
+  },
+  {
+   "text": "Windmill Village to Arlong Park: ~510 m north",
+   "source": "map.json",
+   "match": [
+    "Windmill Village",
+    "Arlong Park"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "Arlong Park: named location, in the west of the island, closest Lantern Landing, then The Chest",
+   "source": "map.json",
+   "match": [
+    "Arlong Park",
+    "Lantern Landing",
+    "The Chest"
+   ],
+   "visual": "map pixel (634.8, 1123.2); distances between official POI coordinates"
+  },
+  {
+   "text": "Arlong Park to Lantern Landing: ~410 m east",
+   "source": "map.json",
+   "match": [
+    "Arlong Park",
+    "Lantern Landing"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "Lantern Landing: named location, near the center of the island, closest The Chest, then Loot Lagoon",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "The Chest",
+    "Loot Lagoon"
+   ],
+   "visual": "map pixel (898.7, 1049.7); distances between official POI coordinates"
+  },
+  {
+   "text": "Lantern Landing to The Chest: ~340 m north-west",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "The Chest"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "The Chest: named location, in the north-west of the island, closest Rubber Resort, then Lantern Landing",
+   "source": "map.json",
+   "match": [
+    "The Chest",
+    "Rubber Resort",
+    "Lantern Landing"
+   ],
+   "visual": "map pixel (762.1, 875.4); distances between official POI coordinates"
+  },
+  {
+   "text": "The Chest to Rubber Resort: ~250 m north",
+   "source": "map.json",
+   "match": [
+    "The Chest",
+    "Rubber Resort"
+   ],
+   "visual": "distance and compass bearing between official POI coordinates"
+  },
+  {
+   "text": "Rubber Resort: named location, in the north-west of the island, closest The Chest, then Loot Lagoon",
+   "source": "map.json",
+   "match": [
+    "Rubber Resort",
+    "The Chest",
+    "Loot Lagoon"
+   ],
+   "visual": "map pixel (817.7, 718.0); distances between official POI coordinates"
+  },
+  {
+   "text": "Boogie Boat: landmark, in the east of the island, closest named Fortune's Fort ~330 m",
+   "source": "map.json",
+   "match": [
+    "Boogie Boat",
+    "Fortune's Fort"
+   ],
+   "visual": "map pixel (1445.9, 988.8); distances between official POI coordinates"
+  },
+  {
+   "text": "The Salty Skull: landmark, in the south-east of the island, closest named Cursed Cavern ~120 m",
+   "source": "map.json",
+   "match": [
+    "The Salty Skull",
+    "Cursed Cavern"
+   ],
+   "visual": "map pixel (1206.1, 1224.3); distances between official POI coordinates"
+  },
+  {
+   "text": "Baratie: landmark, in the south-east of the island, closest named Busy Bay ~40 m",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Busy Bay"
+   ],
+   "visual": "map pixel (1411.1, 1476.8); distances between official POI coordinates"
+  },
+  {
+   "text": "Henry: landmark, in the south-east of the island, closest named Plunder Port ~180 m",
+   "source": "map.json",
+   "match": [
+    "Henry",
+    "Plunder Port"
+   ],
+   "visual": "map pixel (1203.2, 1500.4); distances between official POI coordinates"
+  },
+  {
+   "text": "Giant's Battlefield: landmark, near the center of the island, closest named Loguetown ~220 m",
+   "source": "map.json",
+   "match": [
+    "Giant's Battlefield",
+    "Loguetown"
+   ],
+   "visual": "map pixel (952.6, 1243.0); distances between official POI coordinates"
+  },
+  {
+   "text": "Closest named pair The Chest / Rubber Resort ~250 m",
+   "source": "map.json",
+   "match": [
+    "The Chest",
+    "Rubber Resort"
+   ],
+   "visual": "minimum over all named pairs"
+  },
+  {
+   "text": "Most spread out named location Arlong Park, nearest ~410 m",
+   "source": "map.json",
+   "match": [
+    "Arlong Park"
+   ],
+   "visual": "maximum nearest-neighbor distance over named locations"
+  },
+  {
+   "text": "Farthest named pair Busy Bay / Rubber Resort ~1440 m",
+   "source": "map.json",
+   "match": [
+    "Busy Bay",
+    "Rubber Resort"
+   ],
+   "visual": "maximum over all named pairs"
+  },
+  {
+   "text": "Closest named location to the middle: Cursed Cavern",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern"
+   ],
+   "visual": "middle = centroid of the named locations"
+  },
+  {
+   "text": "Recap of the named locations",
+   "source": "map.json",
+   "match": [
+    "Loot Lagoon",
+    "Fortune's Fort",
+    "Cursed Cavern",
+    "The $.$. Rocky",
+    "Busy Bay",
+    "Plunder Port",
+    "Loguetown",
+    "Windmill Village",
+    "Arlong Park",
+    "Lantern Landing",
+    "The Chest",
+    "Rubber Resort"
+   ]
+  }
+ ],
+ "text": [
+  "NEW MAP TOUR / EVERY PLACE ON THE / NEW FORTNITE MAP",
+  "17 / PLACES ON THE OFFICIAL MAP",
+  "IN-GAME NEWS / ADVENTURE AWAITS!",
+  "EXPLORE ONE PIECE'S ARLONG PARK, SAIL PAST BARATIE BAY,",
+  "OR STORM THE $.$. ROCKY ON THIS MYSTERIOUS SKULL-SHAPED ISLAND.",
+  "PART 1 / THE 12 NAMED / LOCATIONS",
+  "12 NAMED LOCATIONS",
+  "LOOT LAGOON / NAMED LOCATION · IN THE NORTH OF THE MAP",
+  "FORTUNE'S FORT / NAMED LOCATION · IN THE NORTH-EAST OF THE MAP",
+  "CURSED CAVERN / NAMED LOCATION · NEAR THE CENTER OF THE MAP",
+  "THE $.$. ROCKY / NAMED LOCATION · IN THE EAST OF THE MAP",
+  "BUSY BAY / NAMED LOCATION · IN THE SOUTH-EAST OF THE MAP",
+  "PLUNDER PORT / NAMED LOCATION · IN THE SOUTH OF THE MAP",
+  "LOGUETOWN / NAMED LOCATION · IN THE SOUTH OF THE MAP",
+  "WINDMILL VILLAGE / NAMED LOCATION · IN THE SOUTH-WEST OF THE MAP",
+  "ARLONG PARK / NAMED LOCATION · IN THE WEST OF THE MAP",
+  "LANTERN LANDING / NAMED LOCATION · NEAR THE CENTER OF THE MAP",
+  "THE CHEST / NAMED LOCATION · IN THE NORTH-WEST OF THE MAP",
+  "RUBBER RESORT / NAMED LOCATION · IN THE NORTH-WEST OF THE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "PART 2 / THE 5 LANDMARKS",
+  "5 LANDMARKS",
+  "BOOGIE BOAT / LANDMARK · IN THE EAST OF THE MAP",
+  "THE SALTY SKULL / LANDMARK · IN THE SOUTH-EAST OF THE MAP",
+  "BARATIE / LANDMARK · IN THE SOUTH-EAST OF THE MAP",
+  "HENRY / LANDMARK · IN THE SOUTH-EAST OF THE MAP",
+  "GIANT'S BATTLEFIELD / LANDMARK · NEAR THE CENTER OF THE MAP",
+  "PART 3 / DROP GUIDE",
+  "DROP GUIDE",
+  "CLOSEST PAIR / THE CHEST + RUBBER RESORT",
+  "ARLONG PARK / MOST SPREAD OUT · IN THE WEST OF THE MAP",
+  "FARTHEST APART / BUSY BAY ↔ RUBBER RESORT",
+  "CURSED CAVERN / CLOSEST TO THE MIDDLE · NEAR THE CENTER OF THE MAP",
+  "RECAP / ALL 12 NAMED / LOCATIONS",
+  "RECAP",
+  "THAT'S THE MAP / WHERE ARE YOU / DROPPING FIRST?",
+  "WRAP-UP",
+  "FORTNITE HAS A BRAND-NEW ISLAND,",
+  "AND THIS IS A FULL TOUR",
+  "OF EVERY PLACE ON IT,",
+  "STRAIGHT FROM EPIC'S OFFICIAL MAP DATA.",
+  "THERE ARE 17 PLACES ON IT:",
+  "12 NAMED LOCATIONS AND 5 LANDMARKS.",
+  "AND IT REALLY IS NEW.",
+  "NOT ONE PLACE FROM LAST WEEK'S",
+  "MAP IS STILL ON IT.",
+  "WE'LL GO CLOCKWISE FROM THE NORTH,",
+  "WITH REAL DISTANCES BETWEEN EVERY STOP.",
+  "SAVE THIS ONE FOR YOUR NEXT",
+  "DROP!",
+  "HERE'S HOW EPIC SUMS IT UP",
+  "IN THE IN-GAME NEWS.",
+  "EXPLORE ONE PIECE'S ARLONG PARK,",
+  "SAIL PAST BARATIE BAY,",
+  "OR STORM THE $.$.",
+  "ROCKY ON THIS MYSTERIOUS SKULL-SHAPED ISLAND.",
+  "PART ONE:",
+  "THE 12 NAMED LOCATIONS.",
+  "FIRST UP,",
+  "LOOT LAGOON,",
+  "IN THE NORTH OF THE ISLAND.",
+  "ITS CLOSEST NEIGHBORS ARE FORTUNE'S FORT",
+  "AND LANTERN LANDING.",
+  "NEXT STOP:",
+  "FORTUNE'S FORT,",
+  "ABOUT 340 METERS TO THE EAST.",
+  "NEXT,",
+  "IN THE NORTH-EAST OF THE ISLAND.",
+  "ITS CLOSEST NEIGHBORS ARE LOOT LAGOON",
+  "AND CURSED CAVERN.",
+  "LANDMARK NEARBY:",
+  "BOOGIE BOAT,",
+  "ABOUT 330 METERS AWAY.",
+  "CURSED CAVERN,",
+  "ABOUT 500 METERS TO THE SOUTH.",
+  "CURSED CAVERN IS NEAR THE CENTER",
+  "OF THE ISLAND.",
+  "ITS CLOSEST NEIGHBORS ARE THE $.$.",
+  "ROCKY AND LOOT LAGOON.",
+  "THE SALTY SKULL,",
+  "ABOUT 120 METERS AWAY.",
+  "THE $.$.",
+  "ROCKY,",
+  "ABOUT 370 METERS TO THE EAST.",
+  "THEN THE $.$.",
+  "IN THE EAST OF THE ISLAND.",
+  "ITS CLOSEST NEIGHBORS ARE CURSED CAVERN",
+  "AND BUSY BAY.",
+  "EPIC'S NEWS TILE SAYS TO STORM",
+  "IT.",
+  "BUSY BAY,",
+  "ABOUT 400 METERS TO THE SOUTH.",
+  "AFTER THAT,",
+  "IN THE SOUTH-EAST OF THE ISLAND.",
+  "ROCKY AND PLUNDER PORT.",
+  "BARATIE,",
+  "ABOUT 40 METERS AWAY.",
+  "PLUNDER PORT,",
+  "ABOUT 410 METERS TO THE SOUTH-WEST.",
+  "KEEP GOING AND YOU HIT PLUNDER",
+  "PORT,",
+  "IN THE SOUTH OF THE ISLAND.",
+  "ITS CLOSEST NEIGHBORS ARE BUSY BAY",
+  "AND LOGUETOWN.",
+  "HENRY,",
+  "ABOUT 180 METERS AWAY.",
+  "LOGUETOWN,",
+  "ABOUT 420 METERS TO THE NORTH-WEST.",
+  "ITS CLOSEST NEIGHBORS ARE WINDMILL VILLAGE",
+  "AND PLUNDER PORT.",
+  "GIANT'S BATTLEFIELD,",
+  "ABOUT 220 METERS AWAY.",
+  "WINDMILL VILLAGE,",
+  "ABOUT 360 METERS TO THE WEST.",
+  "WINDMILL VILLAGE IS IN THE SOUTH-WEST",
+  "ITS CLOSEST NEIGHBORS ARE LOGUETOWN AND",
+  "ARLONG PARK.",
+  "ARLONG PARK,",
+  "ABOUT 510 METERS TO THE NORTH.",
+  "THEN ARLONG PARK,",
+  "IN THE WEST OF THE ISLAND.",
+  "ITS CLOSEST NEIGHBORS ARE LANTERN LANDING",
+  "AND THE CHEST.",
+  "EPIC'S NEWS TILE TELLS YOU TO",
+  "EXPLORE IT.",
+  "LANTERN LANDING,",
+  "ABOUT 410 METERS TO THE EAST.",
+  "NEAR THE CENTER OF THE ISLAND.",
+  "ITS CLOSEST NEIGHBORS ARE THE CHEST",
+  "AND LOOT LAGOON.",
+  "THE CHEST,",
+  "ABOUT 340 METERS TO THE NORTH-WEST.",
+  "KEEP GOING AND YOU HIT THE",
+  "CHEST,",
+  "IN THE NORTH-WEST OF THE ISLAND.",
+  "ITS CLOSEST NEIGHBORS ARE RUBBER RESORT",
+  "RUBBER RESORT,",
+  "ABOUT 250 METERS TO THE NORTH.",
+  "QUICK ONE:",
+  "IF YOU'RE GRABBING ANYTHING FROM THE",
+  "ITEM SHOP,",
+  "USE CODE BAD.",
+  "IT REALLY HELPS THE CHANNEL.",
+  "PART TWO:",
+  "THE 5 LANDMARKS.",
+  "IT'S ABOUT 330 METERS FROM FORTUNE'S",
+  "FORT,",
+  "THE CLOSEST NAMED LOCATION.",
+  "THE SALTY SKULL IS IN THE",
+  "SOUTH-EAST OF THE ISLAND.",
+  "IT'S ABOUT 120 METERS FROM CURSED",
+  "CAVERN,",
+  "THEN BARATIE,",
+  "IT SITS RIGHT AT BUSY BAY,",
+  "ONLY ABOUT 40 METERS AWAY.",
+  "EPIC'S NEWS TILE SAYS TO SAIL",
+  "PAST BARATIE BAY.",
+  "IT'S ABOUT 180 METERS FROM PLUNDER",
+  "KEEP GOING AND YOU HIT GIANT'S",
+  "BATTLEFIELD,",
+  "IT'S ABOUT 220 METERS FROM LOGUETOWN,",
+  "PART THREE:",
+  "A QUICK DROP GUIDE,",
+  "FROM THE SAME MAP DATA.",
+  "THE TWO NAMED LOCATIONS CLOSEST TOGETHER",
+  "ARE THE CHEST AND RUBBER RESORT,",
+  "ABOUT 250 METERS APART.",
+  "LAND AT ONE,",
+  "AND YOU CAN ROTATE INTO THE",
+  "OTHER FAST.",
+  "THE MOST SPREAD-OUT NAMED LOCATION IS",
+  "ITS CLOSEST NEIGHBOR IS ABOUT 410",
+  "METERS AWAY.",
+  "MORE ROOM TO LOOT BEFORE ANYONE",
+  "SHOWS UP.",
+  "THE TWO NAMED LOCATIONS FARTHEST APART",
+  "ARE BUSY BAY AND RUBBER RESORT,",
+  "ABOUT 1440 METERS ACROSS THE ISLAND.",
+  "AND THE NAMED LOCATION CLOSEST TO",
+  "THE MIDDLE OF THE ISLAND IS",
+  "CURSED CAVERN.",
+  "QUICK RECAP OF ALL THE NAMED",
+  "LOCATIONS,",
+  "CLOCKWISE FROM THE NORTH.",
+  "AND RUBBER RESORT.",
+  "THAT'S EVERY PLACE ON THE NEW",
+  "MAP.",
+  "WHERE ARE YOU DROPPING FIRST?",
+  "TELL ME IN THE COMMENTS!",
+  "USE CODE BAD IN THE ITEM",
+  "SHOP.",
+  "THANK YOU FOR WATCHING!",
+  "FOLLOW FOR MORE DAILY CONTENT.",
+  "CODE BAD · ROYALE",
+  "#EPICPARTNER"
+ ]
+}

@@ -79,7 +79,7 @@ assert not set(old) & {p["name"] for p in pois}
 
 # ---- intro
 segs.append({"type": "title", "p": 0, "kicker": "NEW MAP TOUR", "lines": ["Every place on the", "new Fortnite map"]})
-ph("Fortnite has a brand-new island, and this is a full tour of every place on it, straight from Epic's official map data.")
+ph("Fortnite has a whole new island, and this is a full tour of every place on it, straight from Epic's official map data.")
 segs.append({"type": "stat", "p": 1, "big": str(len(pois)), "label": "places on the official map"})
 ph(f"There are {len(pois)} places on it: {len(named)} named locations and {len(marks)} landmarks.")
 ph("And it really is new. Not one place from last week's map is still on it.")
@@ -162,15 +162,15 @@ ph("Part three: a quick drop guide, from the same map data.", 0.3)
 segs.append(pair_seg(close[1], close[2], "Closest pair", f"{close[1]['name']} + {close[2]['name']}"))
 ph(f"The two named locations closest together are {close[1]['name']} and {close[2]['name']}, about {r10(close[0])} meters apart.", 0.2)
 ph("Land at one, and you can rotate into the other fast.", 0.3)
-segs.append(pin(lone, 1.3, "Most spread out"))
-ph(f"The most spread-out named location is {lone['name']}. Its closest neighbor is about {r10(lone_d)} meters away.", 0.2)
+segs.append(pin(lone, 1.3, "Most isolated"))
+ph(f"The most isolated named location is {lone['name']}. Its closest neighbor is about {r10(lone_d)} meters away.", 0.2)
 ph("More room to loot before anyone shows up.", 0.3)
 segs.append(pair_seg(far[1], far[2], "Farthest apart", f"{far[1]['name']} ↔ {far[2]['name']}"))
 ph(f"The two named locations farthest apart are {far[1]['name']} and {far[2]['name']}, about {r10(far[0])} meters across the island.", 0.3)
 segs.append(pin(mid, 1.3, "Closest to the middle"))
 ph(f"And the named location closest to the middle of the island is {mid['name']}.", 0.3)
 claims += [{"text": f"Closest named pair {close[1]['name']} / {close[2]['name']} ~{r10(close[0])} m", "source": "map.json", "match": [close[1]["name"], close[2]["name"]], "visual": "minimum over all named pairs"},
-           {"text": f"Most spread out named location {lone['name']}, nearest ~{r10(lone_d)} m", "source": "map.json", "match": [lone["name"]], "visual": "maximum nearest-neighbor distance over named locations"},
+           {"text": f"Most isolated named location {lone['name']}, nearest ~{r10(lone_d)} m", "source": "map.json", "match": [lone["name"]], "visual": "maximum nearest-neighbor distance over named locations"},
            {"text": f"Farthest named pair {far[1]['name']} / {far[2]['name']} ~{r10(far[0])} m", "source": "map.json", "match": [far[1]["name"], far[2]["name"]], "visual": "maximum over all named pairs"},
            {"text": f"Closest named location to the middle: {mid['name']}", "source": "map.json", "match": [mid["name"]], "visual": "middle = centroid of the named locations"}]
 
@@ -197,9 +197,9 @@ L = {"title": "Every Place on the New Fortnite Map", "map": "blank",
 json.dump(L, open(os.path.join(HERE, "long.json"), "w"), indent=1, ensure_ascii=False)
 json.dump({"phrases": phrases}, open(os.path.join(HERE, "vo.json"), "w"), indent=1, ensure_ascii=False)
 json.dump({"youtubeTitle": f"Every Place on the NEW Fortnite Map 🗺️ Full Tour (All {len(pois)} Spots)",
-           "youtube": f"#EpicPartner A full tour of EVERY place on the brand-new Fortnite map 🗺️ all {len(named)} named locations and all {len(marks)} landmarks, "
+           "youtube": f"#EpicPartner A full tour of EVERY place on the new Fortnite map 🗺️ all {len(named)} named locations and all {len(marks)} landmarks, "
                       "clockwise from the north, with the real distance to every next stop, straight from the official map data. "
-                      "Plus a quick drop guide: the closest pair, the most spread-out spot and more.\n\nWhere are you dropping first? 👇\n\n"
+                      "Plus a quick drop guide: the closest pair, the most isolated spot and more.\n\nWhere are you dropping first? 👇\n\n"
                       "Use code BAD in the Item Shop 💛\n\n{chapters}\n\n#Fortnite #FortniteMap #OnePiece",
            "tags": ["fortnite", "fortnite map", "new fortnite map", "fortnite map tour", "fortnite locations", "fortnite one piece", "fortnite poi"],
            "thumb_t": 1.6}, open(os.path.join(HERE, "post.json"), "w"), indent=1, ensure_ascii=False)
