@@ -1,0 +1,95 @@
+{
+ "duration": 19.1,
+ "caption": "#EpicPartner Just dropped in the Item Shop: KPop Demon Hunters Bundle",
+ "claims": [
+  {
+   "text": "KPop Demon Hunters Bundle is in the Item Shop for 2026-11-04",
+   "source": "shop.json",
+   "match": [
+    "KPop Demon Hunters Bundle",
+    "\"date\": \"2026-11-04"
+   ]
+  },
+  {
+   "text": "Price 3,500 V-Bucks (listed regular price 7,200)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 7200, \"finalPrice\": 3500"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-04",
+   "source": "shop.json",
+   "match": [
+    "2026-11-04T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Rumi (HUNTR/X) is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Rumi (HUNTR/X)"
+   ]
+  },
+  {
+   "text": "Mira (HUNTR/X) is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Mira (HUNTR/X)"
+   ]
+  },
+  {
+   "text": "Zoey (HUNTR/X) is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Zoey (HUNTR/X)"
+   ]
+  },
+  {
+   "text": "Zoey's Ramyeon is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Zoey's Ramyeon"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "RUMI (HUNTR/X)",
+  "MIRA (HUNTR/X)",
+  "ZOEY (HUNTR/X)",
+  "KPOP DEMON HUNTERS BUNDLE",
+  "RUMI (HUNTR/X), MIRA (HUNTR/X), ZOEY (HUNTR/X) AND 7 MORE ITEMS",
+  "3,500 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 8",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE KPOP DEMON",
+  "HUNTERS BUNDLE.",
+  "RUMI (HUNTR/X),",
+  "MIRA (HUNTR/X),",
+  "ZOEY (HUNTR/X) AND",
+  "7 MORE ITEMS.",
+  "3,500 V-BUCKS,",
+  "INSTEAD OF 7,200.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "8TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
