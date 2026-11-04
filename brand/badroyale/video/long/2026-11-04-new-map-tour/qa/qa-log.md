@@ -1,6 +1,6 @@
 # Pre-post check: badroyale-2026-11-04-new-map-tour.mp4
 
-Checked 2026-11-04T12:06:03Z · **DO NOT POST: fix failures**
+Checked 2026-11-04T12:30:15Z · **READY TO POST**
 
 ## 1. Facts: PASS
 42/42 claims verified against saved official data
@@ -42,15 +42,13 @@ Checked 2026-11-04T12:06:03Z · **DO NOT POST: fix failures**
 - Henry: landmark, in the south-east of the island, closest named Plunder Port ~180 m · PASS · matched in map.json; map pixel (1203.2, 1500.4); distances between official POI coordinates
 - Giant's Battlefield: landmark, near the center of the island, closest named Loguetown ~220 m · PASS · matched in map.json; map pixel (952.6, 1243.0); distances between official POI coordinates
 - Closest named pair The Chest / Rubber Resort ~250 m · PASS · matched in map.json; minimum over all named pairs
-- Most spread out named location Arlong Park, nearest ~410 m · PASS · matched in map.json; maximum nearest-neighbor distance over named locations
+- Most isolated named location Arlong Park, nearest ~410 m · PASS · matched in map.json; maximum nearest-neighbor distance over named locations
 - Farthest named pair Busy Bay / Rubber Resort ~1440 m · PASS · matched in map.json; maximum over all named pairs
 - Closest named location to the middle: Cursed Cavern · PASS · matched in map.json; middle = centroid of the named locations
 - Recap of the named locations · PASS · matched in map.json
 
-## 2. Spelling and grammar: FAIL
-Unknown words or a misspelled code
-- brand-new · FAIL
-- spread-out · FAIL
+## 2. Spelling and grammar: PASS
+109 distinct words checked; code written as BAD in all 4 mentions
 
 ## 3. Frames: PASS
 No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png
@@ -59,13 +57,13 @@ No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) revie
 Integrated -14.1 LUFS, true peak -2.1 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.
 
 ## 5. Specs and safe zones: PASS
-1920x1080 h264 30 fps, aac 48000 Hz, 245.0s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.
+1920x1080 h264 30 fps, aac 48000 Hz, 245.1s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.
 
 ## 6. Disclosure and wording: PASS
 #EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.
 
 ## 7. Would a fan stop scrolling? Made by a person?: PASS
-4:05 long. Opens with NEW MAP TOUR / Every place on the new Fortnite map and the hook line. Reviewed the 12-frame sheet plus 12 stills from the final mp4 (news tile, part 1, mid code card, landmarks, drop guide pairs, recap, outro): pins land on the right spots of the unlabeled v43.00 map (first build used the labeled map and the pins and name cards covered its labels, so rebuilt with map: blank), name cards and subtitles one line and clear of the badge, news tile lines readable. Code ask mid-video after part 1 and at the end with the sign-off. 42 claims checked against map.json, news.json and build.json (all fetched 2026-11-04 11:15 UTC); distances are straight lines between official POI coordinates, rounded to 10 m and said as 'about'. Chapters: Intro, 12 named locations, 5 landmarks, Drop guide, Recap.
+4:05 long. Third build: reworded brand-new and spread-out after the spelling check flagged them. Opens with NEW MAP TOUR / Every place on the new Fortnite map and the hook line. Reviewed the 12-frame sheet plus 12 stills from the final mp4 (news tile, part 1, mid code card, landmarks, drop guide pairs, recap, outro): pins land on the right spots of the unlabeled v43.00 map (first build used the labeled map and the pins and name cards covered its labels, so rebuilt with map: blank), name cards and subtitles one line and clear of the badge, news tile lines readable. Code ask mid-video after part 1 and at the end with the sign-off. 42 claims checked against map.json, news.json and build.json (all fetched 2026-11-04 11:15 UTC); distances are straight lines between official POI coordinates, rounded to 10 m and said as 'about'. Chapters: Intro, 12 named locations, 5 landmarks, Drop guide, Recap.
 
 ## 8. Owner approval: PASS
 Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.

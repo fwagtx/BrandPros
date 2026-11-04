@@ -1,5 +1,5 @@
 {
- "duration": 245.6,
+ "duration": 245.7,
  "caption": "#EpicPartner A full tour of every place on the new Fortnite map. Use code BAD in the Item Shop.\n#Fortnite #FortniteMap",
  "claims": [
   {
@@ -399,7 +399,7 @@
    "visual": "minimum over all named pairs"
   },
   {
-   "text": "Most spread out named location Arlong Park, nearest ~410 m",
+   "text": "Most isolated named location Arlong Park, nearest ~410 m",
    "source": "map.json",
    "match": [
     "Arlong Park"
@@ -474,14 +474,14 @@
   "PART 3 / DROP GUIDE",
   "DROP GUIDE",
   "CLOSEST PAIR / THE CHEST + RUBBER RESORT",
-  "ARLONG PARK / MOST SPREAD OUT · IN THE WEST OF THE MAP",
+  "ARLONG PARK / MOST ISOLATED · IN THE WEST OF THE MAP",
   "FARTHEST APART / BUSY BAY ↔ RUBBER RESORT",
   "CURSED CAVERN / CLOSEST TO THE MIDDLE · NEAR THE CENTER OF THE MAP",
   "RECAP / ALL 12 NAMED / LOCATIONS",
   "RECAP",
   "THAT'S THE MAP / WHERE ARE YOU / DROPPING FIRST?",
   "WRAP-UP",
-  "FORTNITE HAS A BRAND-NEW ISLAND,",
+  "FORTNITE HAS A WHOLE NEW ISLAND,",
   "AND THIS IS A FULL TOUR",
   "OF EVERY PLACE ON IT,",
   "STRAIGHT FROM EPIC'S OFFICIAL MAP DATA.",
@@ -614,7 +614,7 @@
   "LAND AT ONE,",
   "AND YOU CAN ROTATE INTO THE",
   "OTHER FAST.",
-  "THE MOST SPREAD-OUT NAMED LOCATION IS",
+  "THE MOST ISOLATED NAMED LOCATION IS",
   "ITS CLOSEST NEIGHBOR IS ABOUT 410",
   "METERS AWAY.",
   "MORE ROOM TO LOOT BEFORE ANYONE",

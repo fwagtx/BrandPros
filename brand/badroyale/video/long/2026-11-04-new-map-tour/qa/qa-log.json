@@ -1,7 +1,7 @@
 {
   "video": "badroyale-2026-11-04-new-map-tour.mp4",
-  "checked_utc": "2026-11-04T12:06:03Z",
-  "verdict": "DO NOT POST: fix failures",
+  "checked_utc": "2026-11-04T12:30:15Z",
+  "verdict": "READY TO POST",
   "results": [
     {
       "check": "1. Facts",
@@ -199,7 +199,7 @@
           "why": "matched in map.json; minimum over all named pairs"
         },
         {
-          "claim": "Most spread out named location Arlong Park, nearest ~410 m",
+          "claim": "Most isolated named location Arlong Park, nearest ~410 m",
           "result": "PASS",
           "why": "matched in map.json; maximum nearest-neighbor distance over named locations"
         },
@@ -222,18 +222,9 @@
     },
     {
       "check": "2. Spelling and grammar",
-      "status": "FAIL",
-      "detail": "Unknown words or a misspelled code",
-      "items": [
-        {
-          "word": "brand-new",
-          "result": "FAIL"
-        },
-        {
-          "word": "spread-out",
-          "result": "FAIL"
-        }
-      ]
+      "status": "PASS",
+      "detail": "109 distinct words checked; code written as BAD in all 4 mentions",
+      "items": []
     },
     {
       "check": "3. Frames",
@@ -250,7 +241,7 @@
     {
       "check": "5. Specs and safe zones",
       "status": "PASS",
-      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 245.0s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
+      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 245.1s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
       "items": []
     },
     {
@@ -262,7 +253,7 @@
     {
       "check": "7. Would a fan stop scrolling? Made by a person?",
       "status": "PASS",
-      "detail": "4:05 long. Opens with NEW MAP TOUR / Every place on the new Fortnite map and the hook line. Reviewed the 12-frame sheet plus 12 stills from the final mp4 (news tile, part 1, mid code card, landmarks, drop guide pairs, recap, outro): pins land on the right spots of the unlabeled v43.00 map (first build used the labeled map and the pins and name cards covered its labels, so rebuilt with map: blank), name cards and subtitles one line and clear of the badge, news tile lines readable. Code ask mid-video after part 1 and at the end with the sign-off. 42 claims checked against map.json, news.json and build.json (all fetched 2026-11-04 11:15 UTC); distances are straight lines between official POI coordinates, rounded to 10 m and said as 'about'. Chapters: Intro, 12 named locations, 5 landmarks, Drop guide, Recap.",
+      "detail": "4:05 long. Third build: reworded brand-new and spread-out after the spelling check flagged them. Opens with NEW MAP TOUR / Every place on the new Fortnite map and the hook line. Reviewed the 12-frame sheet plus 12 stills from the final mp4 (news tile, part 1, mid code card, landmarks, drop guide pairs, recap, outro): pins land on the right spots of the unlabeled v43.00 map (first build used the labeled map and the pins and name cards covered its labels, so rebuilt with map: blank), name cards and subtitles one line and clear of the badge, news tile lines readable. Code ask mid-video after part 1 and at the end with the sign-off. 42 claims checked against map.json, news.json and build.json (all fetched 2026-11-04 11:15 UTC); distances are straight lines between official POI coordinates, rounded to 10 m and said as 'about'. Chapters: Intro, 12 named locations, 5 landmarks, Drop guide, Recap.",
       "items": []
     },
     {
