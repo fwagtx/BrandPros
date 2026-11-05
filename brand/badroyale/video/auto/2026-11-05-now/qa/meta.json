@@ -1,0 +1,95 @@
+{
+ "duration": 19.4,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Guardians of the Globe Bundle",
+ "claims": [
+  {
+   "text": "Guardians of the Globe Bundle is in the Item Shop for 2026-11-05",
+   "source": "shop.json",
+   "match": [
+    "Guardians of the Globe Bundle",
+    "\"date\": \"2026-11-05"
+   ]
+  },
+  {
+   "text": "Price 2,800 V-Bucks (listed regular price 4,500)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 4500, \"finalPrice\": 2800"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-05",
+   "source": "shop.json",
+   "match": [
+    "2026-11-05T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Omni-Man is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Omni-Man"
+   ]
+  },
+  {
+   "text": "Invincible is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Invincible"
+   ]
+  },
+  {
+   "text": "Atom Eve is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Atom Eve"
+   ]
+  },
+  {
+   "text": "The Immortal's Head is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "The Immortal's Head"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "OMNI-MAN",
+  "INVINCIBLE",
+  "ATOM EVE",
+  "GUARDIANS OF THE GLOBE BUNDLE",
+  "OMNI-MAN, INVINCIBLE, ATOM EVE AND 7 MORE ITEMS",
+  "2,800 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 8",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE GUARDIANS OF",
+  "THE GLOBE BUNDLE.",
+  "OMNI-MAN,",
+  "INVINCIBLE,",
+  "ATOM EVE AND",
+  "7 MORE ITEMS.",
+  "2,800 V-BUCKS,",
+  "INSTEAD OF 4,500.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "8TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}

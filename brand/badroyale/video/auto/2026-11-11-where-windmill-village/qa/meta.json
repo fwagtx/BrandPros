@@ -1,0 +1,45 @@
+{
+ "duration": 14.9,
+ "caption": "#EpicPartner Where is Windmill Village in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Windmill Village is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Windmill Village"
+   ]
+  },
+  {
+   "text": "It is in the south-west of the island, nearest named location Loguetown",
+   "source": "map-labels.png",
+   "visual": "map pixel (754, 1438); nearest named POI by coordinates: Loguetown"
+  }
+ ],
+ "text": [
+  "HERE",
+  "WHERE IS WINDMILL VILLAGE? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND WINDMILL",
+  "VILLAGE IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "SOUTH-WEST OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO LOGUETOWN.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

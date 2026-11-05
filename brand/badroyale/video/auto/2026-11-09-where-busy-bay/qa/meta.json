@@ -1,0 +1,47 @@
+{
+ "duration": 15,
+ "caption": "#EpicPartner Where is Busy Bay in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Busy Bay is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Busy Bay"
+   ]
+  },
+  {
+   "text": "It is in the south-east of the island, nearest named location The $.$. Rocky",
+   "source": "map-labels.png",
+   "visual": "map pixel (1388, 1482); nearest named POI by coordinates: The $.$. Rocky"
+  }
+ ],
+ "text": [
+  "BUSY BAY",
+  "WHERE IS BUSY BAY? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND BUSY",
+  "BAY IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "SOUTH-EAST OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO THE",
+  "$.$.",
+  "ROCKY.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
