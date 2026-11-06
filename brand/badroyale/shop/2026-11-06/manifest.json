@@ -5,13 +5,13 @@
    "file": "shop.json",
    "source": "Item Shop for 2026-11-06",
    "url": "https://fortnite-api.com/v2/shop",
-   "fetched_utc": "2026-11-06T00:11:31Z"
+   "fetched_utc": "2026-11-06T00:16:20Z"
   },
   {
    "file": "history.json",
    "source": "Cosmetic introduction seasons",
    "url": "https://fortnite-api.com/v2/cosmetics/br/<id>",
-   "fetched_utc": "2026-11-06T00:11:31Z"
+   "fetched_utc": "2026-11-06T00:16:20Z"
   }
  ]
 }
