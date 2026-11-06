@@ -1,0 +1,41 @@
+{
+ "phrases": [
+  {
+   "text": "Brand new in the Fortnite Item Shop!",
+   "pause": 0.25
+  },
+  {
+   "text": "The A$AP Rocky Bundle.",
+   "pause": 0.2
+  },
+  {
+   "text": "Helicopter Flacko, Rocky Rugahand, Hi-Fi Jets and 9 more items.",
+   "pause": 0.2
+  },
+  {
+   "text": "3,200 V-Bucks, instead of 8,800.",
+   "pause": 0.25
+  },
+  {
+   "text": "It's in the shop until December 6th.",
+   "pause": 0.25
+  },
+  {
+   "text": "Are you getting it?",
+   "pause": 0.2
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}
