@@ -1,0 +1,46 @@
+{
+ "duration": 14.7,
+ "caption": "#EpicPartner Where is Lantern Landing in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Lantern Landing is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing"
+   ]
+  },
+  {
+   "text": "It is near the center of the island, nearest named location The Chest",
+   "source": "map-labels.png",
+   "visual": "map pixel (899, 1050); nearest named POI by coordinates: The Chest"
+  }
+ ],
+ "text": [
+  "LANTERN LANDING",
+  "WHERE IS LANTERN LANDING? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND LANTERN",
+  "LANDING IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S NEAR THE",
+  "CENTER OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO THE",
+  "CHEST.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

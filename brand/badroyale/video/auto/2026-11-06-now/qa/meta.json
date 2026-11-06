@@ -1,0 +1,102 @@
+{
+ "duration": 19.5,
+ "caption": "#EpicPartner Brand new in the Item Shop: A$AP Rocky Bundle",
+ "claims": [
+  {
+   "text": "A$AP Rocky Bundle is in the Item Shop for 2026-11-06",
+   "source": "shop.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"date\": \"2026-11-06"
+   ]
+  },
+  {
+   "text": "Price 3,200 V-Bucks (listed regular price 8,800)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 8800, \"finalPrice\": 3200"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-06",
+   "source": "shop.json",
+   "match": [
+    "2026-11-06T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Helicopter Flacko is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Helicopter Flacko"
+   ]
+  },
+  {
+   "text": "Rocky Rugahand is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Rocky Rugahand"
+   ]
+  },
+  {
+   "text": "Hi-Fi Jets is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Hi-Fi Jets"
+   ]
+  },
+  {
+   "text": "A$AP Rockets is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "A$AP Rockets"
+   ]
+  },
+  {
+   "text": "Brand new: first added to the game in the last 14 days",
+   "source": "shop.json",
+   "match": [
+    "\"added\": \"2026-11-05T14:00:58Z\""
+   ]
+  }
+ ],
+ "text": [
+  "BRAND NEW / IN THE ITEM SHOP",
+  "HELICOPTER FLACKO",
+  "ROCKY RUGAHAND",
+  "HI-FI JETS",
+  "A$AP ROCKY BUNDLE",
+  "HELICOPTER FLACKO, ROCKY RUGAHAND, HI-FI JETS AND 9 MORE ITEMS",
+  "3,200 V-BUCKS",
+  "IN THE SHOP UNTIL DEC 6",
+  "BRAND NEW IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE A$AP ROCKY",
+  "BUNDLE.",
+  "HELICOPTER FLACKO,",
+  "ROCKY RUGAHAND,",
+  "HI-FI JETS AND",
+  "9 MORE ITEMS.",
+  "3,200 V-BUCKS,",
+  "INSTEAD OF 8,800.",
+  "IT'S IN THE",
+  "SHOP UNTIL DECEMBER",
+  "6TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
