@@ -42,7 +42,10 @@
 
     // hook: three tiles fanned + date
     const hook = mk(stage, `inset:0`);
-    const hookTiles = [D.deal.outfits[0], D.og.outfits[D.og.outfits.length - 1], D.last.outfits[0]].map((o, i) => add(hook, tile(o, 270, 390, false), `left:${68 + i * 282}px;top:${500 + (i === 1 ? -30 : 0)}px`));
+    // third tile: the first last-day outfit not already shown (the deal's outfits are often also on their last day)
+    const shown = [D.deal.outfits[0], D.og.outfits[D.og.outfits.length - 1]];
+    const lastPick = D.last.outfits.find((o) => !shown.some((s) => s.name === o.name)) || D.last.outfits[0];
+    const hookTiles = [...shown, lastPick].map((o, i) => add(hook, tile(o, 270, 390, false), `left:${68 + i * 282}px;top:${500 + (i === 1 ? -30 : 0)}px`));
     const title = S.title(stage, ["Today's Item Shop", D.dateLabel], { y: 236, size: 74 });
 
     // beat 1: best deal
