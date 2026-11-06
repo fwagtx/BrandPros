@@ -68,7 +68,7 @@
     const g3 = mk(stage, `inset:0`);
     const c3 = chip(g3, "3 · Last day", "#FF5A4A");
     const lastTiles = D.last.outfits.slice(0, 6).map((o, i) => add(g3, tile(o, 260, 330), `left:${80 + (i % 3) * 280}px;top:${350 + Math.floor(i / 3) * 350}px`));
-    const more = D.last.count > 6 ? mk(g3, `left:700px;top:1045px;padding:6px 20px 2px;background:#fff;border:5px solid ${INK};border-radius:30px;font-family:'Barlow Condensed';font-weight:900;font-size:54px;color:${INK}`, `+${D.last.count - 6} more`, `+${D.last.count - 6} MORE`) : null;
+    const more = D.last.count > 6 ? mk(g3, `right:190px;top:1045px;padding:6px 20px 2px;background:#fff;border:5px solid ${INK};border-radius:30px;font-family:'Barlow Condensed';font-weight:900;font-size:54px;color:${INK}`, `+${D.last.count - 6} more`, `+${D.last.count - 6} MORE`) : null;
     const resetNote = S.scrawl(g3, `gone at ${D.resetLabel}`, 58, YEL, -5);
 
     const code = S.codeCard(stage, 520);
