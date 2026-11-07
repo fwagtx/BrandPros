@@ -1,0 +1,41 @@
+{
+ "phrases": [
+  {
+   "text": "Brand new in the Fortnite Item Shop!",
+   "pause": 0.25
+  },
+  {
+   "text": "The Class President Nemia Bundle.",
+   "pause": 0.2
+  },
+  {
+   "text": "Class President Nemia, Social Spikebat & Satchel, Cat Marks the Spot and 2 more items.",
+   "pause": 0.2
+  },
+  {
+   "text": "1,800 V-Bucks, instead of 2,800.",
+   "pause": 0.25
+  },
+  {
+   "text": "It's in the shop until November 13th.",
+   "pause": 0.25
+  },
+  {
+   "text": "Are you getting it?",
+   "pause": 0.2
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}
