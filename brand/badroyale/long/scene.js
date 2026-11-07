@@ -38,7 +38,7 @@
     return mk(parent, `left:0;top:0;width:${w}px;height:${h}px;border-radius:${w * 0.05}px;overflow:hidden;background:radial-gradient(circle at 50% 30%,${a},${b} 80%);border:6px solid ${INK};box-shadow:0 10px 0 rgba(0,0,0,.45)`,
       `<img src="${o.img}" style="position:absolute;left:${-w * 0.2}px;top:0;width:${w * 1.4}px;height:auto">
        <div style="position:absolute;left:0;right:0;bottom:0;padding:${w * 0.05}px ${w * 0.06}px;background:linear-gradient(transparent,rgba(5,8,22,.92) 30%)">
-         <div style="font-family:'Barlow Condensed';font-weight:900;font-size:${Math.min(w * 0.14, (w * 0.86) / (o.name.length * 0.43))}px;line-height:.95;text-transform:uppercase;color:#fff;white-space:nowrap">${o.name}</div>
+         <div style="font-family:'Barlow Condensed';font-weight:900;font-size:${Math.min(w * 0.14, (w * 0.86) / (o.name.length * 0.5))}px;line-height:.95;text-transform:uppercase;color:#fff;white-space:nowrap">${o.name}</div>
          ${o.price ? `<div style="font-family:'Barlow Condensed';font-weight:900;font-size:${w * 0.12}px;color:${YEL}">${o.price.toLocaleString("en-US")} V-Bucks</div>` : ""}</div>`, o.name.toUpperCase());
   }
 

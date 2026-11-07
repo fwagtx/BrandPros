@@ -206,6 +206,9 @@ for q in order:
     pin(q["name"], 1.35, "Named location · " + W.direction(*W.px(q)).replace(" of the island", " of the map"))
     ph(f"{q['name']}, {W.direction(*W.px(q))}.", 0.2)
 claims.append({"text": f"{len(named)} named locations", "source": "map.json", "match": [q["name"] for q in named]})
+marks = [q["name"] for q in json.load(open(os.path.join(SRC, "map.json")))["data"]["pois"] if ".POI." not in q["id"]]
+ph(f"Plus {len(marks)} landmarks, like Baratie, Henry and Boogie Boat.", 0.3)
+claims.append({"text": f"{len(marks)} landmarks incl. Baratie, Henry, Boogie Boat", "source": "map.json", "match": ["Baratie", "Henry", "Boogie Boat"]})
 
 # ---- Devil Fruits
 quote("Devil Fruits", "Devil Fruits Across the Island",
@@ -228,6 +231,8 @@ quote(None, "Two Ways to Play", ["Standard Battle Royale lets players collect re
       "Back on October 31st, the tips were for new players. This one explains the two modes.")
 quote(None, "Land Smart to Start Strong", ["At the start of each match, drop from the Battle Bus and aim for a less crowded area.", "This gives time to loot and gear up before the fight begins..."],
       "And this one is about where to land.")
+quote(None, "Play Defense with Health and Shields", ["Keeping track of Shields and Health is critical to survival.", "Grab and consume Shield Potions as soon as possible, as low Shields means going down faster in a fight."],
+      "And one more, about staying alive.")
 gone = [t["title"] for t in tiles.values() if t["days"][-1] < LAST]
 ph(f"Those tips, the Treasure Tab and the Halloween tile have all left the news since. {len(gone)} tiles came and went this week.", 0.3)
 claims.append({"text": f"{len(gone)} tiles left the news during the week", "source": "week-news.json", "match": gone, "visual": "tiles whose last day is before " + LAST})

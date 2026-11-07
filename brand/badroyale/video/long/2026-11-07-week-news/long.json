@@ -205,6 +205,15 @@
    ]
   },
   {
+   "text": "5 landmarks incl. Baratie, Henry, Boogie Boat",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Henry",
+    "Boogie Boat"
+   ]
+  },
+  {
    "text": "Devil Fruits Across the Island tile, live 2026-11-04..2026-11-07",
    "source": "week-news.json",
    "match": [
@@ -259,6 +268,15 @@
     "Land Smart to Start Strong",
     "At the start of each match, drop from the Battle Bus and aim for a less crowded area",
     "This gives time to loot and gear up before the fight begins"
+   ]
+  },
+  {
+   "text": "Play Defense with Health and Shields tile, live 2026-10-31..2026-10-31",
+   "source": "week-news.json",
+   "match": [
+    "Play Defense with Health and Shields",
+    "Keeping track of Shields and Health is critical to survival",
+    "Grab and consume Shield Potions as soon as possible, as low Shields means going down faster in a fight"
    ]
   },
   {
@@ -654,24 +672,24 @@
   },
   {
    "type": "quote",
-   "p": 39,
+   "p": 40,
    "kicker": "IN-GAME NEWS",
    "title": "Devil Fruits Across the Island",
    "lines": [
     {
-     "p": 40,
+     "p": 41,
      "text": "Rare Devil Fruits have dropped in across the map!"
     },
     {
-     "p": 41,
+     "p": 42,
      "text": "Eat the Gum-Gum Fruit to stretch your skills as Luffy,"
     },
     {
-     "p": 42,
+     "p": 43,
      "text": "or the Flame-Flame Fruit to come in hot as Ace..."
     },
     {
-     "p": 43,
+     "p": 44,
      "text": "just stay away from water."
     }
    ],
@@ -679,16 +697,16 @@
   },
   {
    "type": "quote",
-   "p": 44,
+   "p": 45,
    "kicker": "IN-GAME NEWS",
    "title": "Keep Tabs on the Adventure!",
    "lines": [
     {
-     "p": 45,
+     "p": 46,
      "text": "All great adventures begin with a treasure map!"
     },
     {
-     "p": 46,
+     "p": 47,
      "text": "Head to the Treasure Tab to follow along with weekly progress and chart your next move."
     }
    ],
@@ -696,20 +714,20 @@
   },
   {
    "type": "quote",
-   "p": 47,
+   "p": 48,
    "kicker": "IN-GAME NEWS",
    "title": "Bring Your Squad Back From the Brink",
    "lines": [
     {
-     "p": 48,
+     "p": 49,
      "text": "All hope is not lost when a teammate goes down!"
     },
     {
-     "p": 49,
+     "p": 50,
      "text": "When they fall, they leave behind a Reboot Card."
     },
     {
-     "p": 50,
+     "p": 51,
      "text": "Pick it up, take it to a Reboot Van, and bring them back into the fight for a better shot at victory."
     }
    ],
@@ -717,48 +735,48 @@
   },
   {
    "type": "quote",
-   "p": 51,
+   "p": 52,
    "kicker": "IN-GAME NEWS",
    "title": "Rarer Color, Better Weapons!",
    "lines": [
     {
-     "p": 52,
+     "p": 53,
      "text": "Weapons come in five rarities: Gray (Common), Green (Uncommon), Blue (Rare), Purple (Epic), and Orange (Legendary)."
     },
     {
-     "p": 53,
+     "p": 54,
      "text": "Higher rarity means better stats, so open Chests and swap out weapons when finding something better!"
     }
    ]
   },
   {
    "type": "quote",
-   "p": 54,
+   "p": 55,
    "kicker": "IN-GAME NEWS",
    "title": "Two Ways to Play",
    "lines": [
     {
-     "p": 55,
+     "p": 56,
      "text": "Standard Battle Royale lets players collect resources and build walls, ramps, and structures on the fly."
     },
     {
-     "p": 56,
+     "p": 57,
      "text": "Zero Build removes building, so players can focus on combat and movement."
     }
    ]
   },
   {
    "type": "quote",
-   "p": 57,
+   "p": 58,
    "kicker": "IN-GAME NEWS",
    "title": "Land Smart to Start Strong",
    "lines": [
     {
-     "p": 58,
+     "p": 59,
      "text": "At the start of each match, drop from the Battle Bus and aim for a less crowded area."
     },
     {
-     "p": 59,
+     "p": 60,
      "text": "This gives time to loot and gear up before the fight begins..."
     }
    ]
@@ -767,18 +785,34 @@
    "type": "quote",
    "p": 61,
    "kicker": "IN-GAME NEWS",
-   "title": "Fortune Sprite Variants - November 7",
+   "title": "Play Defense with Health and Shields",
    "lines": [
     {
      "p": 62,
-     "text": "Set sail for sparkling Sprites from 2-4 PM ET and 9-11 PM ET!"
+     "text": "Keeping track of Shields and Health is critical to survival."
     },
     {
      "p": 63,
+     "text": "Grab and consume Shield Potions as soon as possible, as low Shields means going down faster in a fight."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 65,
+   "kicker": "IN-GAME NEWS",
+   "title": "Fortune Sprite Variants - November 7",
+   "lines": [
+    {
+     "p": 66,
+     "text": "Set sail for sparkling Sprites from 2-4 PM ET and 9-11 PM ET!"
+    },
+    {
+     "p": 67,
      "text": "Drop in with A$AP Rocky's Shock Rocket and a Self Revive,"
     },
     {
-     "p": 64,
+     "p": 68,
      "text": "and find more Fortune Sprite variants across the Island."
     }
    ],
@@ -786,7 +820,7 @@
   },
   {
    "type": "title",
-   "p": 66,
+   "p": 70,
    "chapter": "Recap",
    "kicker": "QUICK RECAP",
    "lines": [
@@ -796,7 +830,7 @@
   },
   {
    "type": "code",
-   "p": 70
+   "p": 74
   }
  ]
 }

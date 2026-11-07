@@ -159,6 +159,10 @@
    "pause": 0.2
   },
   {
+   "text": "Plus 5 landmarks, like Baratie, Henry and Boogie Boat.",
+   "pause": 0.3
+  },
+  {
    "text": "Also on November 4th, a gameplay tile went up.",
    "pause": 0.2
   },
@@ -240,6 +244,18 @@
   },
   {
    "text": "This gives time to loot and gear up before the fight begins...",
+   "pause": 0.2
+  },
+  {
+   "text": "And one more, about staying alive.",
+   "pause": 0.2
+  },
+  {
+   "text": "Keeping track of Shields and Health is critical to survival.",
+   "pause": 0.2
+  },
+  {
+   "text": "Grab and consume Shield Potions as soon as possible, as low Shields means going down faster in a fight.",
    "pause": 0.2
   },
   {
