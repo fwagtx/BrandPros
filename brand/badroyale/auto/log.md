@@ -43,3 +43,4 @@ One line per run: date, run, what posted (time, networks) or why not.
 - 2026-11-06 01:48 UTC SHOP safety: shop already posted. Nov 6 shop PUBLISHED on all 4 (TikTok, Instagram, Facebook, YouTube).
 - 2026-11-06 15:52 UTC DAY: backlog empty. fetch_sources: no news, map or build changes. 12:30 today: Brand new in shop A$AP Rocky Bundle, TT/IG/FB/YT. 4:30: Nov 12 Where Is Lantern Landing (blank v43.00 map), all 4. 4:30 full Nov 6-12. Yesterday (Nov 5): all live posts PUBLISHED on all 4.
 - 2026-11-07 00:12 UTC SHOP: Nov 7 shop scheduled 6:25 PM CST Nov 6 on TikTok, Instagram, Facebook, YouTube (ids 419546084/140/193/276, draft false, thumbnails on all). A$AP Rocky 3,200, OG Abstrakt (C1S4), 5 last-day skins. Hook frame shows no repeats with the new scene fix.
+- 2026-11-07 01:48 UTC SHOP safety: shop already posted. Nov 7 shop PUBLISHED on all 4 (TikTok, Instagram, Facebook, YouTube).
