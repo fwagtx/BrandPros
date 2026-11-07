@@ -1,0 +1,104 @@
+{
+ "duration": 21.3,
+ "caption": "#EpicPartner Brand new in the Item Shop: Class President Nemia Bundle",
+ "claims": [
+  {
+   "text": "Class President Nemia Bundle is in the Item Shop for 2026-11-07",
+   "source": "shop.json",
+   "match": [
+    "Class President Nemia Bundle",
+    "\"date\": \"2026-11-07"
+   ]
+  },
+  {
+   "text": "Price 1,800 V-Bucks (listed regular price 2,800)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 2800, \"finalPrice\": 1800"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-07",
+   "source": "shop.json",
+   "match": [
+    "2026-11-07T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Class President Nemia is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Class President Nemia"
+   ]
+  },
+  {
+   "text": "Social Spikebat & Satchel is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Social Spikebat & Satchel"
+   ]
+  },
+  {
+   "text": "Cat Marks the Spot is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Cat Marks the Spot"
+   ]
+  },
+  {
+   "text": "Demonic Dab & Hop is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Demonic Dab & Hop"
+   ]
+  },
+  {
+   "text": "Brand new: first added to the game in the last 14 days",
+   "source": "shop.json",
+   "match": [
+    "\"added\": \"2026-11-01T23:10:43Z\""
+   ]
+  }
+ ],
+ "text": [
+  "BRAND NEW / IN THE ITEM SHOP",
+  "CLASS PRESIDENT NEMIA",
+  "SOCIAL SPIKEBAT & SATCHEL",
+  "CAT MARKS THE SPOT",
+  "CLASS PRESIDENT NEMIA BUNDLE",
+  "CLASS PRESIDENT NEMIA, SOCIAL SPIKEBAT & SATCHEL, CAT MARKS THE SPOT AND 2 MORE ITEMS",
+  "1,800 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 13",
+  "BRAND NEW IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE CLASS PRESIDENT",
+  "NEMIA BUNDLE.",
+  "CLASS PRESIDENT NEMIA,",
+  "SOCIAL SPIKEBAT &",
+  "SATCHEL,",
+  "CAT MARKS THE",
+  "SPOT AND 2",
+  "MORE ITEMS.",
+  "1,800 V-BUCKS,",
+  "INSTEAD OF 2,800.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "13TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
