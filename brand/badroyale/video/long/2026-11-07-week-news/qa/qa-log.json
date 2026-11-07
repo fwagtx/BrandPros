@@ -1,0 +1,237 @@
+{
+  "video": "badroyale-2026-11-07-week-news.mp4",
+  "checked_utc": "2026-11-07T12:18:51Z",
+  "verdict": "DO NOT POST: fix failures",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "34/34 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "Build 42.40 on 2026-10-31, 43.00 from 2026-11-02",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Map: 40 places on 2026-10-31, 17 on 2026-11-07, none in common",
+          "result": "PASS",
+          "why": "matched in week-news.json; place lists per day in week-news.json have no name in common"
+        },
+        {
+          "claim": "The Horror Is Here tile, live 2026-10-31..2026-10-31",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "A$AP Rocky Sails In tile, live 2026-11-01..2026-11-01",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "A$AP Rocky Bundle in the 2026-11-07 shop at 3200",
+          "result": "PASS",
+          "why": "matched in shop-2026-11-07.json"
+        },
+        {
+          "claim": "Monkey D. Luffy, Nami, and Usopp Outfits tile, live 2026-11-01..2026-11-07",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Luffy 1800, Nami 1600, Usopp 1600 in the 2026-11-07 shop",
+          "result": "PASS",
+          "why": "matched in shop-2026-11-07.json"
+        },
+        {
+          "claim": "Multi-Punches Flex tile, live 2026-11-01..2026-11-07",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Adventure Awaits! tile, live 2026-11-04..2026-11-07",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Arlong Park is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Baratie is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Baratie is about 40 m from Busy Bay",
+          "result": "PASS",
+          "why": "matched in map.json; distance between official POI coordinates (36 m)"
+        },
+        {
+          "claim": "The $.$. Rocky is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Loot Lagoon is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Fortune's Fort is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Cursed Cavern is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Busy Bay is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Plunder Port is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Loguetown is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Windmill Village is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Lantern Landing is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "The Chest is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Rubber Resort is on the map",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "12 named locations",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "5 landmarks incl. Baratie, Henry, Boogie Boat",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Devil Fruits Across the Island tile, live 2026-11-04..2026-11-07",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Keep Tabs on the Adventure! tile, live 2026-11-02..2026-11-04",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Bring Your Squad Back From the Brink tile, live 2026-11-01..2026-11-02",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Rarer Color, Better Weapons! tile, live 2026-11-01..2026-11-02",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Two Ways to Play tile, live 2026-10-31..2026-10-31",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Land Smart to Start Strong tile, live 2026-10-31..2026-10-31",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Play Defense with Health and Shields tile, live 2026-10-31..2026-10-31",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "9 tiles left the news during the week",
+          "result": "PASS",
+          "why": "matched in week-news.json; tiles whose last day is before 2026-11-07"
+        },
+        {
+          "claim": "Fortune Sprite Variants - November 7 tile, live 2026-11-05..2026-11-07",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "FAIL",
+      "detail": "Unknown words or a misspelled code",
+      "items": [
+        {
+          "word": "gameplay",
+          "result": "FAIL"
+        },
+        {
+          "word": "code FOR",
+          "result": "FAIL",
+          "why": "code must be spelled exactly BAD"
+        }
+      ]
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -14.1 LUFS, true peak -2.2 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 248.7s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Third build, 4:09. Opens with FORTNITE THIS WEEK / A WHOLE NEW ISLAND and the hook line. Build 1 ran 3:03 and folded two chapters; build 2 ran 3:57 and clipped ROCKY RUGAHAND on its tile; build 3 adds Epic's remaining tips, the 12 named locations and landmarks, and long item names now shrink to fit (checked the still). Reviewed the 12-frame sheet: v43.00 and 40 -> 17 stats, every news tile quoted word for word, A$AP Rocky and One Piece item tiles with today's prices, map pins on the unlabeled v43.00 map, code card mid-video after the Straw Hats and at the end with the sign-off. Claims checked against week-news.json (daily snapshots Oct 31-Nov 7), map.json and the Nov 7 shop. Chapters: Intro, A$AP Rocky Sails In, The Straw Hats, The new island, All 12 named locations, Devil Fruits, Epic's tips, Fortune Sprites today, Recap.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner Everything that changed in Fortnite this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteNews"
+}

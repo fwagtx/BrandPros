@@ -1,0 +1,594 @@
+{
+ "duration": 249.2,
+ "caption": "#EpicPartner Everything that changed in Fortnite this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteNews",
+ "claims": [
+  {
+   "text": "Build 42.40 on 2026-10-31, 43.00 from 2026-11-02",
+   "source": "week-news.json",
+   "match": [
+    "Release-42.40",
+    "Release-43.00",
+    "2026-11-02"
+   ]
+  },
+  {
+   "text": "Map: 40 places on 2026-10-31, 17 on 2026-11-07, none in common",
+   "source": "week-news.json",
+   "match": [
+    "\"2026-10-31\": 40",
+    "\"2026-11-07\": 17"
+   ],
+   "visual": "place lists per day in week-news.json have no name in common"
+  },
+  {
+   "text": "The Horror Is Here tile, live 2026-10-31..2026-10-31",
+   "source": "week-news.json",
+   "match": [
+    "The Horror Is Here",
+    "A cursed cartridge is spreading through the Island, corrupting everything it touches"
+   ]
+  },
+  {
+   "text": "A$AP Rocky Sails In tile, live 2026-11-01..2026-11-01",
+   "source": "week-news.json",
+   "match": [
+    "A$AP Rocky Sails In",
+    "A new Captain has taken over part of the Island",
+    "Face the A$AP Rocky Boss to earn Lil' Flacko",
+    "and blast away the competition with the A$AP Rocky's Shock Rocket"
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle in the 2026-11-07 shop at 3200",
+   "source": "shop-2026-11-07.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "Helicopter Flacko",
+    "Rocky Rugahand",
+    "\"finalPrice\": 3200"
+   ]
+  },
+  {
+   "text": "Monkey D. Luffy, Nami, and Usopp Outfits tile, live 2026-11-01..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Monkey D. Luffy, Nami, and Usopp Outfits",
+    "When adventure calls, the Straw Hats answer",
+    "Set sail with Monkey D. Luffy, Nami, and Usopp Outfits and chart a course to uncharted waters"
+   ]
+  },
+  {
+   "text": "Luffy 1800, Nami 1600, Usopp 1600 in the 2026-11-07 shop",
+   "source": "shop-2026-11-07.json",
+   "match": [
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp",
+    "\"finalPrice\": 1800",
+    "\"finalPrice\": 1600"
+   ]
+  },
+  {
+   "text": "Multi-Punches Flex tile, live 2026-11-01..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Multi-Punches Flex",
+    "GUM-GUM GATLING"
+   ]
+  },
+  {
+   "text": "Adventure Awaits! tile, live 2026-11-04..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Adventure Awaits!",
+    "Explore One Piece's Arlong Park, sail past Baratie Bay",
+    "or storm The $.$. Rocky on this mysterious skull-shaped island"
+   ]
+  },
+  {
+   "text": "Arlong Park is on the map",
+   "source": "map.json",
+   "match": [
+    "Arlong Park"
+   ]
+  },
+  {
+   "text": "Baratie is on the map",
+   "source": "map.json",
+   "match": [
+    "Baratie"
+   ]
+  },
+  {
+   "text": "Baratie is about 40 m from Busy Bay",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Busy Bay"
+   ],
+   "visual": "distance between official POI coordinates (36 m)"
+  },
+  {
+   "text": "The $.$. Rocky is on the map",
+   "source": "map.json",
+   "match": [
+    "The $.$. Rocky"
+   ]
+  },
+  {
+   "text": "Loot Lagoon is on the map",
+   "source": "map.json",
+   "match": [
+    "Loot Lagoon"
+   ]
+  },
+  {
+   "text": "Fortune's Fort is on the map",
+   "source": "map.json",
+   "match": [
+    "Fortune's Fort"
+   ]
+  },
+  {
+   "text": "Cursed Cavern is on the map",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern"
+   ]
+  },
+  {
+   "text": "Busy Bay is on the map",
+   "source": "map.json",
+   "match": [
+    "Busy Bay"
+   ]
+  },
+  {
+   "text": "Plunder Port is on the map",
+   "source": "map.json",
+   "match": [
+    "Plunder Port"
+   ]
+  },
+  {
+   "text": "Loguetown is on the map",
+   "source": "map.json",
+   "match": [
+    "Loguetown"
+   ]
+  },
+  {
+   "text": "Windmill Village is on the map",
+   "source": "map.json",
+   "match": [
+    "Windmill Village"
+   ]
+  },
+  {
+   "text": "Lantern Landing is on the map",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing"
+   ]
+  },
+  {
+   "text": "The Chest is on the map",
+   "source": "map.json",
+   "match": [
+    "The Chest"
+   ]
+  },
+  {
+   "text": "Rubber Resort is on the map",
+   "source": "map.json",
+   "match": [
+    "Rubber Resort"
+   ]
+  },
+  {
+   "text": "12 named locations",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "Plunder Port",
+    "The Chest",
+    "Arlong Park",
+    "Windmill Village",
+    "Fortune's Fort",
+    "The $.$. Rocky",
+    "Busy Bay",
+    "Rubber Resort",
+    "Cursed Cavern",
+    "Loot Lagoon",
+    "Loguetown"
+   ]
+  },
+  {
+   "text": "5 landmarks incl. Baratie, Henry, Boogie Boat",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Henry",
+    "Boogie Boat"
+   ]
+  },
+  {
+   "text": "Devil Fruits Across the Island tile, live 2026-11-04..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Devil Fruits Across the Island",
+    "Rare Devil Fruits have dropped in across the map",
+    "Eat the Gum-Gum Fruit to stretch your skills as Luffy",
+    "or the Flame-Flame Fruit to come in hot as Ace",
+    "just stay away from water"
+   ]
+  },
+  {
+   "text": "Keep Tabs on the Adventure! tile, live 2026-11-02..2026-11-04",
+   "source": "week-news.json",
+   "match": [
+    "Keep Tabs on the Adventure!",
+    "All great adventures begin with a treasure map",
+    "Head to the Treasure Tab to follow along with weekly progress and chart your next move"
+   ]
+  },
+  {
+   "text": "Bring Your Squad Back From the Brink tile, live 2026-11-01..2026-11-02",
+   "source": "week-news.json",
+   "match": [
+    "Bring Your Squad Back From the Brink",
+    "All hope is not lost when a teammate goes down",
+    "When they fall, they leave behind a Reboot Card",
+    "Pick it up, take it to a Reboot Van, and bring them back into the fight for a better shot at victory"
+   ]
+  },
+  {
+   "text": "Rarer Color, Better Weapons! tile, live 2026-11-01..2026-11-02",
+   "source": "week-news.json",
+   "match": [
+    "Rarer Color, Better Weapons!",
+    "Weapons come in five rarities: Gray (Common), Green (Uncommon), Blue (Rare), Purple (Epic), and Orange (Legendary)",
+    "Higher rarity means better stats, so open Chests and swap out weapons when finding something better"
+   ]
+  },
+  {
+   "text": "Two Ways to Play tile, live 2026-10-31..2026-10-31",
+   "source": "week-news.json",
+   "match": [
+    "Two Ways to Play",
+    "Standard Battle Royale lets players collect resources and build walls, ramps, and structures on the fly",
+    "Zero Build removes building, so players can focus on combat and movement"
+   ]
+  },
+  {
+   "text": "Land Smart to Start Strong tile, live 2026-10-31..2026-10-31",
+   "source": "week-news.json",
+   "match": [
+    "Land Smart to Start Strong",
+    "At the start of each match, drop from the Battle Bus and aim for a less crowded area",
+    "This gives time to loot and gear up before the fight begins"
+   ]
+  },
+  {
+   "text": "Play Defense with Health and Shields tile, live 2026-10-31..2026-10-31",
+   "source": "week-news.json",
+   "match": [
+    "Play Defense with Health and Shields",
+    "Keeping track of Shields and Health is critical to survival",
+    "Grab and consume Shield Potions as soon as possible, as low Shields means going down faster in a fight"
+   ]
+  },
+  {
+   "text": "9 tiles left the news during the week",
+   "source": "week-news.json",
+   "match": [
+    "Two Ways to Play",
+    "Land Smart to Start Strong",
+    "Play Defense with Health and Shields",
+    "Open Chests for the Best Loot",
+    "The Horror Is Here",
+    "Bring Your Squad Back From the Brink",
+    "Rarer Color, Better Weapons!",
+    "A$AP Rocky Sails In",
+    "Keep Tabs on the Adventure!"
+   ],
+   "visual": "tiles whose last day is before 2026-11-07"
+  },
+  {
+   "text": "Fortune Sprite Variants - November 7 tile, live 2026-11-05..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Fortune Sprite Variants - November 7",
+    "Set sail for sparkling Sprites from 2-4 PM ET and 9-11 PM ET",
+    "Drop in with A$AP Rocky's Shock Rocket and a Self Revive",
+    "and find more Fortune Sprite variants across the Island"
+   ]
+  }
+ ],
+ "text": [
+  "FORTNITE THIS WEEK / A WHOLE NEW ISLAND / OCT 31 - NOV 7",
+  "V43.00 / LIVE SINCE NOVEMBER 2",
+  "40 → 17 / PLACES ON THE OFFICIAL MAP",
+  "IN-GAME NEWS / THE HORROR IS HERE",
+  "A CURSED CARTRIDGE IS SPREADING THROUGH THE ISLAND, CORRUPTING EVERYTHING IT TOUCHES.",
+  "IN-GAME NEWS / A$AP ROCKY SAILS IN",
+  "A NEW CAPTAIN HAS TAKEN OVER PART OF THE ISLAND!",
+  "FACE THE A$AP ROCKY BOSS TO EARN LIL' FLACKO,",
+  "AND BLAST AWAY THE COMPETITION WITH THE A$AP ROCKY'S SHOCK ROCKET.",
+  "A$AP ROCKY SAILS IN",
+  "A$AP ROCKY BUNDLE · IN THE SHOP 11/07",
+  "HELICOPTER FLACKO",
+  "ROCKY RUGAHAND",
+  "IN-GAME NEWS / MONKEY D. LUFFY, NAMI, AND USOPP OUTFITS",
+  "WHEN ADVENTURE CALLS, THE STRAW HATS ANSWER!",
+  "SET SAIL WITH MONKEY D. LUFFY, NAMI, AND USOPP OUTFITS AND CHART A COURSE TO UNCHARTED WATERS.",
+  "THE STRAW HATS",
+  "ONE PIECE OUTFITS · IN THE SHOP 11/07",
+  "MONKEY D. LUFFY",
+  "NAMI",
+  "USOPP",
+  "IN-GAME NEWS / MULTI-PUNCHES FLEX",
+  "GUM-GUM GATLING!",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "IN-GAME NEWS / ADVENTURE AWAITS!",
+  "EXPLORE ONE PIECE'S ARLONG PARK, SAIL PAST BARATIE BAY,",
+  "OR STORM THE $.$. ROCKY ON THIS MYSTERIOUS SKULL-SHAPED ISLAND.",
+  "THE NEW ISLAND",
+  "ARLONG PARK / NAMED LOCATION · WEST OF THE ISLAND",
+  "BARATIE / LANDMARK · NEXT TO BUSY BAY",
+  "THE $.$. ROCKY / NAMED LOCATION · EAST OF THE ISLAND",
+  "12 / NAMED LOCATIONS ON THE NEW ISLAND",
+  "ALL 12 NAMED LOCATIONS",
+  "LOOT LAGOON / NAMED LOCATION · IN THE NORTH OF THE MAP",
+  "FORTUNE'S FORT / NAMED LOCATION · IN THE NORTH-EAST OF THE MAP",
+  "CURSED CAVERN / NAMED LOCATION · NEAR THE CENTER OF THE MAP",
+  "BUSY BAY / NAMED LOCATION · IN THE SOUTH-EAST OF THE MAP",
+  "PLUNDER PORT / NAMED LOCATION · IN THE SOUTH OF THE MAP",
+  "LOGUETOWN / NAMED LOCATION · IN THE SOUTH OF THE MAP",
+  "WINDMILL VILLAGE / NAMED LOCATION · IN THE SOUTH-WEST OF THE MAP",
+  "LANTERN LANDING / NAMED LOCATION · NEAR THE CENTER OF THE MAP",
+  "THE CHEST / NAMED LOCATION · IN THE NORTH-WEST OF THE MAP",
+  "RUBBER RESORT / NAMED LOCATION · IN THE NORTH-WEST OF THE MAP",
+  "IN-GAME NEWS / DEVIL FRUITS ACROSS THE ISLAND",
+  "RARE DEVIL FRUITS HAVE DROPPED IN ACROSS THE MAP!",
+  "EAT THE GUM-GUM FRUIT TO STRETCH YOUR SKILLS AS LUFFY,",
+  "OR THE FLAME-FLAME FRUIT TO COME IN HOT AS ACE...",
+  "JUST STAY AWAY FROM WATER.",
+  "DEVIL FRUITS",
+  "IN-GAME NEWS / KEEP TABS ON THE ADVENTURE!",
+  "ALL GREAT ADVENTURES BEGIN WITH A TREASURE MAP!",
+  "HEAD TO THE TREASURE TAB TO FOLLOW ALONG WITH WEEKLY PROGRESS AND CHART YOUR NEXT MOVE.",
+  "THE TREASURE TAB",
+  "IN-GAME NEWS / BRING YOUR SQUAD BACK FROM THE BRINK",
+  "ALL HOPE IS NOT LOST WHEN A TEAMMATE GOES DOWN!",
+  "WHEN THEY FALL, THEY LEAVE BEHIND A REBOOT CARD.",
+  "PICK IT UP, TAKE IT TO A REBOOT VAN, AND BRING THEM BACK INTO THE FIGHT FOR A BETTER SHOT AT VICTORY.",
+  "EPIC'S TIPS",
+  "IN-GAME NEWS / RARER COLOR, BETTER WEAPONS!",
+  "WEAPONS COME IN FIVE RARITIES: GRAY (COMMON), GREEN (UNCOMMON), BLUE (RARE), PURPLE (EPIC), AND ORANGE (LEGENDARY).",
+  "HIGHER RARITY MEANS BETTER STATS, SO OPEN CHESTS AND SWAP OUT WEAPONS WHEN FINDING SOMETHING BETTER!",
+  "IN-GAME NEWS / TWO WAYS TO PLAY",
+  "STANDARD BATTLE ROYALE LETS PLAYERS COLLECT RESOURCES AND BUILD WALLS, RAMPS, AND STRUCTURES ON THE FLY.",
+  "ZERO BUILD REMOVES BUILDING, SO PLAYERS CAN FOCUS ON COMBAT AND MOVEMENT.",
+  "IN-GAME NEWS / LAND SMART TO START STRONG",
+  "AT THE START OF EACH MATCH, DROP FROM THE BATTLE BUS AND AIM FOR A LESS CROWDED AREA.",
+  "THIS GIVES TIME TO LOOT AND GEAR UP BEFORE THE FIGHT BEGINS...",
+  "IN-GAME NEWS / PLAY DEFENSE WITH HEALTH AND SHIELDS",
+  "KEEPING TRACK OF SHIELDS AND HEALTH IS CRITICAL TO SURVIVAL.",
+  "GRAB AND CONSUME SHIELD POTIONS AS SOON AS POSSIBLE, AS LOW SHIELDS MEANS GOING DOWN FASTER IN A FIGHT.",
+  "IN-GAME NEWS / FORTUNE SPRITE VARIANTS - NOVEMBER 7",
+  "SET SAIL FOR SPARKLING SPRITES FROM 2-4 PM ET AND 9-11 PM ET!",
+  "DROP IN WITH A$AP ROCKY'S SHOCK ROCKET AND A SELF REVIVE,",
+  "AND FIND MORE FORTUNE SPRITE VARIANTS ACROSS THE ISLAND.",
+  "FORTUNE SPRITES TODAY",
+  "QUICK RECAP / V43.00 · 17 NEW PLACES / A$AP ROCKY · ONE PIECE · DEVIL FRUITS",
+  "RECAP",
+  "THIS WAS THE WEEK FORTNITE GOT",
+  "A WHOLE NEW ISLAND.",
+  "HERE'S EVERYTHING THAT CHANGED,",
+  "STRAIGHT FROM EPIC'S OWN IN-GAME NEWS.",
+  "EVERY NEWS TILE,",
+  "EVERY UPDATE,",
+  "FROM OCTOBER 31ST TO NOVEMBER 7TH.",
+  "LET'S GET INTO IT!",
+  "FIRST,",
+  "THE BIG ONE.",
+  "ON NOVEMBER 2ND,",
+  "THE GAME UPDATED FROM VERSION 42.40",
+  "TO VERSION 43.00.",
+  "AND THE MAP CHANGED WITH IT.",
+  "LAST WEEK THE OFFICIAL MAP HAD",
+  "40 PLACES.",
+  "NOW IT HAS 17.",
+  "AND NOT ONE OF THE OLD",
+  "PLACES MADE IT TO THE NEW",
+  "ISLAND.",
+  "THE WEEK STARTED ON HALLOWEEN,",
+  "WITH THE LAST DAY OF THIS",
+  "TILE IN THE NEWS.",
+  "A CURSED CARTRIDGE IS SPREADING THROUGH",
+  "THE ISLAND,",
+  "CORRUPTING EVERYTHING IT TOUCHES.",
+  "THAT WAS THE FINAL DAY IT",
+  "SHOWED UP.",
+  "THE NEXT DAY,",
+  "THE NEWS WAS ALL NEW.",
+  "ON NOVEMBER 1ST,",
+  "A NEW CAPTAIN SHOWED UP.",
+  "A NEW CAPTAIN HAS TAKEN OVER",
+  "PART OF THE ISLAND!",
+  "FACE THE A$AP ROCKY BOSS TO",
+  "EARN LIL' FLACKO,",
+  "AND BLAST AWAY THE COMPETITION WITH",
+  "THE A$AP ROCKY'S SHOCK ROCKET.",
+  "AND THE A$AP ROCKY BUNDLE IS",
+  "IN TODAY'S ITEM SHOP,",
+  "LISTED AT 3,200 V-BUCKS.",
+  "THE SAME DAY,",
+  "ONE PIECE ARRIVED.",
+  "WHEN ADVENTURE CALLS,",
+  "THE STRAW HATS ANSWER!",
+  "SET SAIL WITH MONKEY D.",
+  "LUFFY,",
+  "NAMI,",
+  "AND USOPP OUTFITS AND CHART A",
+  "COURSE TO UNCHARTED WATERS.",
+  "ALL THREE ARE IN TODAY'S SHOP",
+  "ON THEIR OWN:",
+  "LUFFY AT 1,800 V-BUCKS,",
+  "NAMI AND USOPP AT 1,600 EACH.",
+  "AND THERE'S AN EMOTE TILE WITH",
+  "JUST THREE WORDS ON IT.",
+  "STILL IN THE NEWS TODAY,",
+  "A WHOLE WEEK LATER.",
+  "QUICK ONE:",
+  "IF YOU'RE GRABBING ANYTHING FROM THE",
+  "ITEM SHOP THIS WEEK,",
+  "USE CODE BAD.",
+  "IT REALLY HELPS THE CHANNEL.",
+  "ON NOVEMBER 4TH,",
+  "EPIC DESCRIBED THE NEW ISLAND.",
+  "EXPLORE ONE PIECE'S ARLONG PARK,",
+  "SAIL PAST BARATIE BAY,",
+  "OR STORM THE $.$.",
+  "ROCKY ON THIS MYSTERIOUS SKULL-SHAPED ISLAND.",
+  "HERE'S ARLONG PARK,",
+  "ON THE WEST SIDE OF THE",
+  "BARATIE SITS RIGHT NEXT TO BUSY",
+  "BAY,",
+  "IN THE SOUTH-EAST.",
+  "AND THE $.$.",
+  "ROCKY IS OUT ON THE EAST",
+  "SIDE.",
+  "THOSE ARE THREE OF THE SPOTS.",
+  "IN ALL,",
+  "THE NEW ISLAND HAS 12 NAMED",
+  "LOCATIONS.",
+  "HERE THEY ARE,",
+  "CLOCKWISE FROM THE NORTH.",
+  "LOOT LAGOON,",
+  "IN THE NORTH OF THE ISLAND.",
+  "FORTUNE'S FORT,",
+  "IN THE NORTH-EAST OF THE ISLAND.",
+  "CURSED CAVERN,",
+  "NEAR THE CENTER OF THE ISLAND.",
+  "BUSY BAY,",
+  "IN THE SOUTH-EAST OF THE ISLAND.",
+  "PLUNDER PORT,",
+  "IN THE SOUTH OF THE ISLAND.",
+  "LOGUETOWN,",
+  "WINDMILL VILLAGE,",
+  "IN THE SOUTH-WEST OF THE ISLAND.",
+  "LANTERN LANDING,",
+  "THE CHEST,",
+  "IN THE NORTH-WEST OF THE ISLAND.",
+  "RUBBER RESORT,",
+  "PLUS 5 LANDMARKS,",
+  "LIKE BARATIE,",
+  "HENRY AND BOOGIE BOAT.",
+  "ALSO ON NOVEMBER 4TH,",
+  "A GAMEPLAY TILE WENT UP.",
+  "RARE DEVIL FRUITS HAVE DROPPED IN",
+  "ACROSS THE MAP!",
+  "EAT THE GUM-GUM FRUIT TO STRETCH",
+  "YOUR SKILLS AS LUFFY,",
+  "OR THE FLAME-FLAME FRUIT TO COME",
+  "IN HOT AS ACE...",
+  "FROM NOVEMBER 2ND TO THE 4TH,",
+  "THIS ONE POINTED PLAYERS TO A",
+  "NEW TAB.",
+  "ALL GREAT ADVENTURES BEGIN WITH A",
+  "TREASURE MAP!",
+  "HEAD TO THE TREASURE TAB TO",
+  "FOLLOW ALONG WITH WEEKLY PROGRESS AND",
+  "CHART YOUR NEXT MOVE.",
+  "EPIC ALSO RAN A COUPLE OF",
+  "TIPS IN THE NEWS ON NOVEMBER",
+  "1ST AND 2ND.",
+  "THIS ONE IS FOR SQUADS.",
+  "ALL HOPE IS NOT LOST WHEN",
+  "A TEAMMATE GOES DOWN!",
+  "WHEN THEY FALL,",
+  "THEY LEAVE BEHIND A REBOOT CARD.",
+  "PICK IT UP,",
+  "TAKE IT TO A REBOOT VAN,",
+  "AND BRING THEM BACK INTO THE",
+  "FIGHT FOR A BETTER SHOT AT",
+  "VICTORY.",
+  "AND THIS ONE IS THE COLOR",
+  "CODE FOR EVERY WEAPON.",
+  "WEAPONS COME IN FIVE RARITIES:",
+  "GRAY (COMMON),",
+  "GREEN (UNCOMMON),",
+  "BLUE (RARE),",
+  "PURPLE (EPIC),",
+  "AND ORANGE (LEGENDARY).",
+  "HIGHER RARITY MEANS BETTER STATS,",
+  "SO OPEN CHESTS AND SWAP OUT",
+  "WEAPONS WHEN FINDING SOMETHING BETTER!",
+  "BACK ON OCTOBER 31ST,",
+  "THE TIPS WERE FOR NEW PLAYERS.",
+  "THIS ONE EXPLAINS THE TWO MODES.",
+  "STANDARD BATTLE ROYALE LETS PLAYERS COLLECT",
+  "RESOURCES AND BUILD WALLS,",
+  "RAMPS,",
+  "AND STRUCTURES ON THE FLY.",
+  "ZERO BUILD REMOVES BUILDING,",
+  "SO PLAYERS CAN FOCUS ON COMBAT",
+  "AND MOVEMENT.",
+  "AND THIS ONE IS ABOUT WHERE",
+  "TO LAND.",
+  "AT THE START OF EACH MATCH,",
+  "DROP FROM THE BATTLE BUS AND",
+  "AIM FOR A LESS CROWDED AREA.",
+  "THIS GIVES TIME TO LOOT AND",
+  "GEAR UP BEFORE THE FIGHT BEGINS...",
+  "AND ONE MORE,",
+  "ABOUT STAYING ALIVE.",
+  "KEEPING TRACK OF SHIELDS AND HEALTH",
+  "IS CRITICAL TO SURVIVAL.",
+  "GRAB AND CONSUME SHIELD POTIONS AS",
+  "SOON AS POSSIBLE,",
+  "AS LOW SHIELDS MEANS GOING DOWN",
+  "FASTER IN A FIGHT.",
+  "THOSE TIPS,",
+  "THE TREASURE TAB AND THE HALLOWEEN",
+  "TILE HAVE ALL LEFT THE NEWS",
+  "SINCE.",
+  "9 TILES CAME AND WENT THIS",
+  "WEEK.",
+  "AND THE NEWEST TILE IS ABOUT",
+  "TODAY,",
+  "NOVEMBER 7TH.",
+  "SET SAIL FOR SPARKLING SPRITES FROM",
+  "2-4 PM ET AND 9-11 PM",
+  "ET!",
+  "DROP IN WITH A$AP ROCKY'S SHOCK",
+  "ROCKET AND A SELF REVIVE,",
+  "AND FIND MORE FORTUNE SPRITE VARIANTS",
+  "ACROSS THE ISLAND.",
+  "THIS VIDEO GOES UP AT 4",
+  "PM EASTERN,",
+  "SO THE EVENING WINDOW,",
+  "9 TO 11 PM EASTERN,",
+  "IS STILL AHEAD.",
+  "QUICK RECAP.",
+  "A NEW VERSION,",
+  "43.00,",
+  "AND A NEW ISLAND WITH 17",
+  "PLACES.",
+  "A$AP ROCKY AS A BOSS,",
+  "THE STRAW HATS IN THE SHOP,",
+  "DEVIL FRUITS ON THE MAP,",
+  "AND FORTUNE SPRITES TONIGHT.",
+  "WHICH CHANGE IS YOUR FAVORITE?",
+  "TELL ME IN THE COMMENTS!",
+  "USE CODE BAD IN THE ITEM",
+  "SHOP.",
+  "THANK YOU FOR WATCHING!",
+  "FOLLOW FOR MORE DAILY CONTENT.",
+  "CODE BAD · ROYALE",
+  "#EPICPARTNER"
+ ]
+}

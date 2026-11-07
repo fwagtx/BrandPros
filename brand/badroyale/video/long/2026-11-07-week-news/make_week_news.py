@@ -213,7 +213,7 @@ claims.append({"text": f"{len(marks)} landmarks incl. Baratie, Henry, Boogie Boa
 # ---- Devil Fruits
 quote("Devil Fruits", "Devil Fruits Across the Island",
       ["Rare Devil Fruits have dropped in across the map!", "Eat the Gum-Gum Fruit to stretch your skills as Luffy,", "or the Flame-Flame Fruit to come in hot as Ace...", "just stay away from water."],
-      "Also on November 4th, a gameplay tile went up.")
+      "Also on November 4th, a new tile went up.")
 
 # ---- Treasure Tab (Nov 2-4)
 quote("The Treasure Tab", "Keep Tabs on the Adventure!",
@@ -226,7 +226,7 @@ quote("Epic's tips", "Bring Your Squad Back From the Brink",
       "Epic also ran a couple of tips in the news on November 1st and 2nd. This one is for squads.")
 quote(None, "Rarer Color, Better Weapons!",
       ["Weapons come in five rarities: Gray (Common), Green (Uncommon), Blue (Rare), Purple (Epic), and Orange (Legendary).", "Higher rarity means better stats, so open Chests and swap out weapons when finding something better!"],
-      "And this one is the color code for every weapon.")
+      "And this one is the color guide for every weapon.")
 quote(None, "Two Ways to Play", ["Standard Battle Royale lets players collect resources and build walls, ramps, and structures on the fly.", "Zero Build removes building, so players can focus on combat and movement."],
       "Back on October 31st, the tips were for new players. This one explains the two modes.")
 quote(None, "Land Smart to Start Strong", ["At the start of each match, drop from the Battle Bus and aim for a less crowded area.", "This gives time to loot and gear up before the fight begins..."],
