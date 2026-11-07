@@ -1,0 +1,97 @@
+{
+ "duration": 22.6,
+ "caption": "#EpicPartner Fortnite Item Shop, Nov 7: the A$AP Rocky Bundle is 3,200 V-Bucks instead of 8,800, Abstrakt is in (Chapter 1, Season 4), and 5 skins leave at 6 PM CT.\nBuying today? Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "A$AP Rocky Bundle: 3200 V-Bucks, regular 8800",
+   "source": "shop.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"finalPrice\": 3200",
+    "\"regularPrice\": 8800"
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle leaves 2026-12-06",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-12-06"
+   ]
+  },
+  {
+   "text": "Abstrakt is in the shop, introduced Chapter 1, Season 4",
+   "source": "history.json",
+   "match": [
+    "Abstrakt",
+    "Introduced in Chapter 1, Season 4."
+   ]
+  },
+  {
+   "text": "5 outfits leave at the next reset (last day)",
+   "source": "plan.json",
+   "match": [
+    "\"count\": 5"
+   ],
+   "visual": "Counted from shop.json outDate == shop date (shop_pick.py)"
+  },
+  {
+   "text": "Reset at 6 PM CT",
+   "source": "plan.json",
+   "match": [
+    "6 PM CT"
+   ],
+   "visual": "00:00 UTC converted to America/Chicago"
+  }
+ ],
+ "text": [
+  "HELICOPTER FLACKO",
+  "ABSTRAKT",
+  "BEAT MAN",
+  "TODAY'S ITEM SHOP / NOV 7",
+  "1 · BEST DEAL",
+  "ROCKY RUGAHAND",
+  "3,200",
+  "8,800",
+  "A$AP ROCKY BUNDLE · LEAVES DEC 6",
+  "2 · OG CHECK",
+  "CHAPTER 1 · SEASON 4",
+  "3 · LAST DAY",
+  "GRAVEHEART",
+  "KOMPLEX",
+  "SIZZLE SGT.",
+  "GONE AT 6 PM CT",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "THIS IS TODAY'S",
+  "ITEM SHOP FOR",
+  "NOVEMBER 7TH.",
+  "THREE THINGS BEFORE",
+  "YOU SPEND A",
+  "SINGLE V-BUCK!",
+  "THE A$AP ROCKY",
+  "BUNDLE:",
+  "3,200 V-BUCKS,",
+  "INSTEAD OF 8,800.",
+  "ABSTRAKT IS IN",
+  "THE SHOP.",
+  "IT'S FROM CHAPTER",
+  "1,",
+  "SEASON 4.",
+  "AND FIVE SKINS",
+  "ARE ON THEIR",
+  "LAST DAY,",
+  "TWO OF THEM",
+  "EPIC.",
+  "BUYING ANYTHING TODAY?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
