@@ -1,7 +1,7 @@
 {
   "video": "badroyale-2026-11-07-week-news.mp4",
-  "checked_utc": "2026-11-07T12:18:51Z",
-  "verdict": "DO NOT POST: fix failures",
+  "checked_utc": "2026-11-07T12:43:21Z",
+  "verdict": "READY TO POST",
   "results": [
     {
       "check": "1. Facts",
@@ -182,19 +182,9 @@
     },
     {
       "check": "2. Spelling and grammar",
-      "status": "FAIL",
-      "detail": "Unknown words or a misspelled code",
-      "items": [
-        {
-          "word": "gameplay",
-          "result": "FAIL"
-        },
-        {
-          "word": "code FOR",
-          "result": "FAIL",
-          "why": "code must be spelled exactly BAD"
-        }
-      ]
+      "status": "PASS",
+      "detail": "79 distinct words checked; code written as BAD in all 4 mentions",
+      "items": []
     },
     {
       "check": "3. Frames",
@@ -211,7 +201,7 @@
     {
       "check": "5. Specs and safe zones",
       "status": "PASS",
-      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 248.7s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
+      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 247.9s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
       "items": []
     },
     {
@@ -223,7 +213,7 @@
     {
       "check": "7. Would a fan stop scrolling? Made by a person?",
       "status": "PASS",
-      "detail": "Third build, 4:09. Opens with FORTNITE THIS WEEK / A WHOLE NEW ISLAND and the hook line. Build 1 ran 3:03 and folded two chapters; build 2 ran 3:57 and clipped ROCKY RUGAHAND on its tile; build 3 adds Epic's remaining tips, the 12 named locations and landmarks, and long item names now shrink to fit (checked the still). Reviewed the 12-frame sheet: v43.00 and 40 -> 17 stats, every news tile quoted word for word, A$AP Rocky and One Piece item tiles with today's prices, map pins on the unlabeled v43.00 map, code card mid-video after the Straw Hats and at the end with the sign-off. Claims checked against week-news.json (daily snapshots Oct 31-Nov 7), map.json and the Nov 7 shop. Chapters: Intro, A$AP Rocky Sails In, The Straw Hats, The new island, All 12 named locations, Devil Fruits, Epic's tips, Fortune Sprites today, Recap.",
+      "detail": "Fourth build (third failed the spelling check on gameplay and color code for; reworded to new tile and color guide). 4:09. Opens with FORTNITE THIS WEEK / A WHOLE NEW ISLAND and the hook line. Build 1 ran 3:03 and folded two chapters; build 2 ran 3:57 and clipped ROCKY RUGAHAND on its tile; build 3 adds Epic's remaining tips, the 12 named locations and landmarks, and long item names now shrink to fit (checked the still). Reviewed the 12-frame sheet: v43.00 and 40 -> 17 stats, every news tile quoted word for word, A$AP Rocky and One Piece item tiles with today's prices, map pins on the unlabeled v43.00 map, code card mid-video after the Straw Hats and at the end with the sign-off. Claims checked against week-news.json (daily snapshots Oct 31-Nov 7), map.json and the Nov 7 shop. Chapters: Intro, A$AP Rocky Sails In, The Straw Hats, The new island, All 12 named locations, Devil Fruits, Epic's tips, Fortune Sprites today, Recap.",
       "items": []
     },
     {
