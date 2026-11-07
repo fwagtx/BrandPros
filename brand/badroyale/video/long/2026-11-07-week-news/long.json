@@ -117,6 +117,94 @@
    ]
   },
   {
+   "text": "Loot Lagoon is on the map",
+   "source": "map.json",
+   "match": [
+    "Loot Lagoon"
+   ]
+  },
+  {
+   "text": "Fortune's Fort is on the map",
+   "source": "map.json",
+   "match": [
+    "Fortune's Fort"
+   ]
+  },
+  {
+   "text": "Cursed Cavern is on the map",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern"
+   ]
+  },
+  {
+   "text": "Busy Bay is on the map",
+   "source": "map.json",
+   "match": [
+    "Busy Bay"
+   ]
+  },
+  {
+   "text": "Plunder Port is on the map",
+   "source": "map.json",
+   "match": [
+    "Plunder Port"
+   ]
+  },
+  {
+   "text": "Loguetown is on the map",
+   "source": "map.json",
+   "match": [
+    "Loguetown"
+   ]
+  },
+  {
+   "text": "Windmill Village is on the map",
+   "source": "map.json",
+   "match": [
+    "Windmill Village"
+   ]
+  },
+  {
+   "text": "Lantern Landing is on the map",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing"
+   ]
+  },
+  {
+   "text": "The Chest is on the map",
+   "source": "map.json",
+   "match": [
+    "The Chest"
+   ]
+  },
+  {
+   "text": "Rubber Resort is on the map",
+   "source": "map.json",
+   "match": [
+    "Rubber Resort"
+   ]
+  },
+  {
+   "text": "12 named locations",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "Plunder Port",
+    "The Chest",
+    "Arlong Park",
+    "Windmill Village",
+    "Fortune's Fort",
+    "The $.$. Rocky",
+    "Busy Bay",
+    "Rubber Resort",
+    "Cursed Cavern",
+    "Loot Lagoon",
+    "Loguetown"
+   ]
+  },
+  {
    "text": "Devil Fruits Across the Island tile, live 2026-11-04..2026-11-07",
    "source": "week-news.json",
    "match": [
@@ -156,6 +244,40 @@
    ]
   },
   {
+   "text": "Two Ways to Play tile, live 2026-10-31..2026-10-31",
+   "source": "week-news.json",
+   "match": [
+    "Two Ways to Play",
+    "Standard Battle Royale lets players collect resources and build walls, ramps, and structures on the fly",
+    "Zero Build removes building, so players can focus on combat and movement"
+   ]
+  },
+  {
+   "text": "Land Smart to Start Strong tile, live 2026-10-31..2026-10-31",
+   "source": "week-news.json",
+   "match": [
+    "Land Smart to Start Strong",
+    "At the start of each match, drop from the Battle Bus and aim for a less crowded area",
+    "This gives time to loot and gear up before the fight begins"
+   ]
+  },
+  {
+   "text": "9 tiles left the news during the week",
+   "source": "week-news.json",
+   "match": [
+    "Two Ways to Play",
+    "Land Smart to Start Strong",
+    "Play Defense with Health and Shields",
+    "Open Chests for the Best Loot",
+    "The Horror Is Here",
+    "Bring Your Squad Back From the Brink",
+    "Rarer Color, Better Weapons!",
+    "A$AP Rocky Sails In",
+    "Keep Tabs on the Adventure!"
+   ],
+   "visual": "tiles whose last day is before 2026-11-07"
+  },
+  {
    "text": "Fortune Sprite Variants - November 7 tile, live 2026-11-05..2026-11-07",
    "source": "week-news.json",
    "match": [
@@ -179,7 +301,6 @@
   {
    "type": "stat",
    "p": 3,
-   "chapter": "The new season",
    "big": "v43.00",
    "label": "live since November 2"
   },
@@ -199,8 +320,7 @@
      "p": 7,
      "text": "A cursed cartridge is spreading through the Island, corrupting everything it touches."
     }
-   ],
-   "chapter": "The Horror Is Here"
+   ]
   },
   {
    "type": "quote",
@@ -366,25 +486,192 @@
    ]
   },
   {
-   "type": "quote",
+   "type": "stat",
    "p": 28,
+   "chapter": "All 12 named locations",
+   "big": "12",
+   "label": "named locations on the new island"
+  },
+  {
+   "type": "map",
+   "p": 29,
+   "x": 1069.6,
+   "y": 869.6,
+   "z": 1.35,
+   "name": "Loot Lagoon",
+   "sub": "Named location · in the north of the map",
+   "pins": [
+    {
+     "x": 1069.6,
+     "y": 869.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 30,
+   "x": 1293.7,
+   "y": 836.3,
+   "z": 1.35,
+   "name": "Fortune's Fort",
+   "sub": "Named location · in the north-east of the map",
+   "pins": [
+    {
+     "x": 1293.7,
+     "y": 836.3,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 31,
+   "x": 1184.2,
+   "y": 1147.6,
+   "z": 1.35,
+   "name": "Cursed Cavern",
+   "sub": "Named location · near the center of the map",
+   "pins": [
+    {
+     "x": 1184.2,
+     "y": 1147.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 32,
+   "x": 1387.9,
+   "y": 1481.5,
+   "z": 1.35,
+   "name": "Busy Bay",
+   "sub": "Named location · in the south-east of the map",
+   "pins": [
+    {
+     "x": 1387.9,
+     "y": 1481.5,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 33,
+   "x": 1150.3,
+   "y": 1606.1,
+   "z": 1.35,
+   "name": "Plunder Port",
+   "sub": "Named location · in the south of the map",
+   "pins": [
+    {
+     "x": 1150.3,
+     "y": 1606.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 34,
+   "x": 988.7,
+   "y": 1382.2,
+   "z": 1.35,
+   "name": "Loguetown",
+   "sub": "Named location · in the south of the map",
+   "pins": [
+    {
+     "x": 988.7,
+     "y": 1382.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 35,
+   "x": 754.5,
+   "y": 1437.6,
+   "z": 1.35,
+   "name": "Windmill Village",
+   "sub": "Named location · in the south-west of the map",
+   "pins": [
+    {
+     "x": 754.5,
+     "y": 1437.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 36,
+   "x": 898.7,
+   "y": 1049.7,
+   "z": 1.35,
+   "name": "Lantern Landing",
+   "sub": "Named location · near the center of the map",
+   "pins": [
+    {
+     "x": 898.7,
+     "y": 1049.7,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 37,
+   "x": 762.1,
+   "y": 875.4,
+   "z": 1.35,
+   "name": "The Chest",
+   "sub": "Named location · in the north-west of the map",
+   "pins": [
+    {
+     "x": 762.1,
+     "y": 875.4,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 38,
+   "x": 817.7,
+   "y": 718.0,
+   "z": 1.35,
+   "name": "Rubber Resort",
+   "sub": "Named location · in the north-west of the map",
+   "pins": [
+    {
+     "x": 817.7,
+     "y": 718.0,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 39,
    "kicker": "IN-GAME NEWS",
    "title": "Devil Fruits Across the Island",
    "lines": [
     {
-     "p": 29,
+     "p": 40,
      "text": "Rare Devil Fruits have dropped in across the map!"
     },
     {
-     "p": 30,
+     "p": 41,
      "text": "Eat the Gum-Gum Fruit to stretch your skills as Luffy,"
     },
     {
-     "p": 31,
+     "p": 42,
      "text": "or the Flame-Flame Fruit to come in hot as Ace..."
     },
     {
-     "p": 32,
+     "p": 43,
      "text": "just stay away from water."
     }
    ],
@@ -392,16 +679,16 @@
   },
   {
    "type": "quote",
-   "p": 33,
+   "p": 44,
    "kicker": "IN-GAME NEWS",
    "title": "Keep Tabs on the Adventure!",
    "lines": [
     {
-     "p": 34,
+     "p": 45,
      "text": "All great adventures begin with a treasure map!"
     },
     {
-     "p": 35,
+     "p": 46,
      "text": "Head to the Treasure Tab to follow along with weekly progress and chart your next move."
     }
    ],
@@ -409,20 +696,20 @@
   },
   {
    "type": "quote",
-   "p": 36,
+   "p": 47,
    "kicker": "IN-GAME NEWS",
    "title": "Bring Your Squad Back From the Brink",
    "lines": [
     {
-     "p": 37,
+     "p": 48,
      "text": "All hope is not lost when a teammate goes down!"
     },
     {
-     "p": 38,
+     "p": 49,
      "text": "When they fall, they leave behind a Reboot Card."
     },
     {
-     "p": 39,
+     "p": 50,
      "text": "Pick it up, take it to a Reboot Van, and bring them back into the fight for a better shot at victory."
     }
    ],
@@ -430,36 +717,68 @@
   },
   {
    "type": "quote",
-   "p": 40,
+   "p": 51,
    "kicker": "IN-GAME NEWS",
    "title": "Rarer Color, Better Weapons!",
    "lines": [
     {
-     "p": 41,
+     "p": 52,
      "text": "Weapons come in five rarities: Gray (Common), Green (Uncommon), Blue (Rare), Purple (Epic), and Orange (Legendary)."
     },
     {
-     "p": 42,
+     "p": 53,
      "text": "Higher rarity means better stats, so open Chests and swap out weapons when finding something better!"
     }
    ]
   },
   {
    "type": "quote",
-   "p": 43,
+   "p": 54,
+   "kicker": "IN-GAME NEWS",
+   "title": "Two Ways to Play",
+   "lines": [
+    {
+     "p": 55,
+     "text": "Standard Battle Royale lets players collect resources and build walls, ramps, and structures on the fly."
+    },
+    {
+     "p": 56,
+     "text": "Zero Build removes building, so players can focus on combat and movement."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 57,
+   "kicker": "IN-GAME NEWS",
+   "title": "Land Smart to Start Strong",
+   "lines": [
+    {
+     "p": 58,
+     "text": "At the start of each match, drop from the Battle Bus and aim for a less crowded area."
+    },
+    {
+     "p": 59,
+     "text": "This gives time to loot and gear up before the fight begins..."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 61,
    "kicker": "IN-GAME NEWS",
    "title": "Fortune Sprite Variants - November 7",
    "lines": [
     {
-     "p": 44,
+     "p": 62,
      "text": "Set sail for sparkling Sprites from 2-4 PM ET and 9-11 PM ET!"
     },
     {
-     "p": 45,
+     "p": 63,
      "text": "Drop in with A$AP Rocky's Shock Rocket and a Self Revive,"
     },
     {
-     "p": 46,
+     "p": 64,
      "text": "and find more Fortune Sprite variants across the Island."
     }
    ],
@@ -467,7 +786,7 @@
   },
   {
    "type": "title",
-   "p": 48,
+   "p": 66,
    "chapter": "Recap",
    "kicker": "QUICK RECAP",
    "lines": [
@@ -477,7 +796,7 @@
   },
   {
    "type": "code",
-   "p": 52
+   "p": 70
   }
  ]
 }

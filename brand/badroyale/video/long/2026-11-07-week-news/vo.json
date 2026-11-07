@@ -115,7 +115,51 @@
    "say": "And the S S Rocky is out on the east side."
   },
   {
-   "text": "The same day, a gameplay tile went up.",
+   "text": "Those are three of the spots. In all, the new island has 12 named locations. Here they are, clockwise from the north.",
+   "pause": 0.25
+  },
+  {
+   "text": "Loot Lagoon, in the north of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Fortune's Fort, in the north-east of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Cursed Cavern, near the center of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Busy Bay, in the south-east of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Plunder Port, in the south of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Loguetown, in the south of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Windmill Village, in the south-west of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Lantern Landing, near the center of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "The Chest, in the north-west of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Rubber Resort, in the north-west of the island.",
+   "pause": 0.2
+  },
+  {
+   "text": "Also on November 4th, a gameplay tile went up.",
    "pause": 0.2
   },
   {
@@ -173,6 +217,34 @@
   {
    "text": "Higher rarity means better stats, so open Chests and swap out weapons when finding something better!",
    "pause": 0.2
+  },
+  {
+   "text": "Back on October 31st, the tips were for new players. This one explains the two modes.",
+   "pause": 0.2
+  },
+  {
+   "text": "Standard Battle Royale lets players collect resources and build walls, ramps, and structures on the fly.",
+   "pause": 0.2
+  },
+  {
+   "text": "Zero Build removes building, so players can focus on combat and movement.",
+   "pause": 0.2
+  },
+  {
+   "text": "And this one is about where to land.",
+   "pause": 0.2
+  },
+  {
+   "text": "At the start of each match, drop from the Battle Bus and aim for a less crowded area.",
+   "pause": 0.2
+  },
+  {
+   "text": "This gives time to loot and gear up before the fight begins...",
+   "pause": 0.2
+  },
+  {
+   "text": "Those tips, the Treasure Tab and the Halloween tile have all left the news since. 9 tiles came and went this week.",
+   "pause": 0.3
   },
   {
    "text": "And the newest tile is about today, November 7th.",

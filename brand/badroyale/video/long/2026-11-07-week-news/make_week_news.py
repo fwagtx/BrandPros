@@ -138,7 +138,7 @@ ph("Every news tile, every update, from October 31st to November 7th.", 0.25)
 ph("Let's get into it!", 0.4)
 
 # ---- the update
-segs.append({"type": "stat", "p": len(phrases), "chapter": "The new season", "big": f"v{v_new}", "label": f"live since November {int(day_new[-2:])}"})
+segs.append({"type": "stat", "p": len(phrases), "big": f"v{v_new}", "label": f"live since November {int(day_new[-2:])}"})
 ph(f"First, the big one. On November {int(day_new[-2:])}nd, the game updated from version {v_old} to version {v_new}." if day_new.endswith("02") else
    f"First, the big one. The game updated from version {v_old} to version {v_new}.", 0.25)
 claims.append({"text": f"Build {v_old} on {FIRST}, {v_new} from {day_new}", "source": "week-news.json", "match": [f"Release-{v_old}", f"Release-{v_new}", day_new]})
@@ -150,7 +150,7 @@ claims.append({"text": f"Map: {old_n} places on {FIRST}, {new_n} on {LAST}, none
                "match": [f'"{FIRST}": {old_n}', f'"{LAST}": {new_n}'], "visual": "place lists per day in week-news.json have no name in common"})
 
 # ---- Halloween send-off
-quote("The Horror Is Here", "The Horror Is Here", ["A cursed cartridge is spreading through the Island, corrupting everything it touches."],
+quote(None, "The Horror Is Here", ["A cursed cartridge is spreading through the Island, corrupting everything it touches."],
       "The week started on Halloween, with the last day of this tile in the news.")
 ph("That was the final day it showed up. The next day, the news was all new.", 0.3)
 
@@ -193,10 +193,24 @@ claims.append({"text": "Baratie is about 40 m from Busy Bay", "source": "map.jso
 pin("The $.$. Rocky", 1.4, "Named location · east of the island")
 ph("And The $.$. Rocky is out on the east side.", 0.3)
 
+named = [q for q in json.load(open(os.path.join(SRC, "map.json")))["data"]["pois"] if ".POI." in q["id"]]
+a_ = [W.px(q) for q in named]
+W.C[0], W.C[1] = sum(x for x, y in a_) / len(a_), sum(y for x, y in a_) / len(a_)
+import math
+order = sorted(named, key=lambda q: math.degrees(math.atan2(W.px(q)[0] - W.C[0], W.C[1] - W.px(q)[1])) % 360)
+segs.append({"type": "stat", "p": len(phrases), "chapter": f"All {len(named)} named locations", "big": str(len(named)), "label": "named locations on the new island"})
+ph(f"Those are three of the spots. In all, the new island has {len(named)} named locations. Here they are, clockwise from the north.", 0.25)
+for q in order:
+    if q["name"] in ("Arlong Park", "The $.$. Rocky"):
+        continue
+    pin(q["name"], 1.35, "Named location · " + W.direction(*W.px(q)).replace(" of the island", " of the map"))
+    ph(f"{q['name']}, {W.direction(*W.px(q))}.", 0.2)
+claims.append({"text": f"{len(named)} named locations", "source": "map.json", "match": [q["name"] for q in named]})
+
 # ---- Devil Fruits
 quote("Devil Fruits", "Devil Fruits Across the Island",
       ["Rare Devil Fruits have dropped in across the map!", "Eat the Gum-Gum Fruit to stretch your skills as Luffy,", "or the Flame-Flame Fruit to come in hot as Ace...", "just stay away from water."],
-      "The same day, a gameplay tile went up.")
+      "Also on November 4th, a gameplay tile went up.")
 
 # ---- Treasure Tab (Nov 2-4)
 quote("The Treasure Tab", "Keep Tabs on the Adventure!",
@@ -210,6 +224,13 @@ quote("Epic's tips", "Bring Your Squad Back From the Brink",
 quote(None, "Rarer Color, Better Weapons!",
       ["Weapons come in five rarities: Gray (Common), Green (Uncommon), Blue (Rare), Purple (Epic), and Orange (Legendary).", "Higher rarity means better stats, so open Chests and swap out weapons when finding something better!"],
       "And this one is the color code for every weapon.")
+quote(None, "Two Ways to Play", ["Standard Battle Royale lets players collect resources and build walls, ramps, and structures on the fly.", "Zero Build removes building, so players can focus on combat and movement."],
+      "Back on October 31st, the tips were for new players. This one explains the two modes.")
+quote(None, "Land Smart to Start Strong", ["At the start of each match, drop from the Battle Bus and aim for a less crowded area.", "This gives time to loot and gear up before the fight begins..."],
+      "And this one is about where to land.")
+gone = [t["title"] for t in tiles.values() if t["days"][-1] < LAST]
+ph(f"Those tips, the Treasure Tab and the Halloween tile have all left the news since. {len(gone)} tiles came and went this week.", 0.3)
+claims.append({"text": f"{len(gone)} tiles left the news during the week", "source": "week-news.json", "match": gone, "visual": "tiles whose last day is before " + LAST})
 
 # ---- Fortune Sprites (today)
 quote("Fortune Sprites today", "Fortune Sprite Variants - November 7",
