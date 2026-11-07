@@ -1,0 +1,483 @@
+{
+ "title": "Fortnite This Week: A Whole New Island",
+ "map": "blank",
+ "caption": "#EpicPartner Everything that changed in Fortnite this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteNews",
+ "claims": [
+  {
+   "text": "Build 42.40 on 2026-10-31, 43.00 from 2026-11-02",
+   "source": "week-news.json",
+   "match": [
+    "Release-42.40",
+    "Release-43.00",
+    "2026-11-02"
+   ]
+  },
+  {
+   "text": "Map: 40 places on 2026-10-31, 17 on 2026-11-07, none in common",
+   "source": "week-news.json",
+   "match": [
+    "\"2026-10-31\": 40",
+    "\"2026-11-07\": 17"
+   ],
+   "visual": "place lists per day in week-news.json have no name in common"
+  },
+  {
+   "text": "The Horror Is Here tile, live 2026-10-31..2026-10-31",
+   "source": "week-news.json",
+   "match": [
+    "The Horror Is Here",
+    "A cursed cartridge is spreading through the Island, corrupting everything it touches"
+   ]
+  },
+  {
+   "text": "A$AP Rocky Sails In tile, live 2026-11-01..2026-11-01",
+   "source": "week-news.json",
+   "match": [
+    "A$AP Rocky Sails In",
+    "A new Captain has taken over part of the Island",
+    "Face the A$AP Rocky Boss to earn Lil' Flacko",
+    "and blast away the competition with the A$AP Rocky's Shock Rocket"
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle in the 2026-11-07 shop at 3200",
+   "source": "shop-2026-11-07.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "Helicopter Flacko",
+    "Rocky Rugahand",
+    "\"finalPrice\": 3200"
+   ]
+  },
+  {
+   "text": "Monkey D. Luffy, Nami, and Usopp Outfits tile, live 2026-11-01..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Monkey D. Luffy, Nami, and Usopp Outfits",
+    "When adventure calls, the Straw Hats answer",
+    "Set sail with Monkey D. Luffy, Nami, and Usopp Outfits and chart a course to uncharted waters"
+   ]
+  },
+  {
+   "text": "Luffy 1800, Nami 1600, Usopp 1600 in the 2026-11-07 shop",
+   "source": "shop-2026-11-07.json",
+   "match": [
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp",
+    "\"finalPrice\": 1800",
+    "\"finalPrice\": 1600"
+   ]
+  },
+  {
+   "text": "Multi-Punches Flex tile, live 2026-11-01..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Multi-Punches Flex",
+    "GUM-GUM GATLING"
+   ]
+  },
+  {
+   "text": "Adventure Awaits! tile, live 2026-11-04..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Adventure Awaits!",
+    "Explore One Piece's Arlong Park, sail past Baratie Bay",
+    "or storm The $.$. Rocky on this mysterious skull-shaped island"
+   ]
+  },
+  {
+   "text": "Arlong Park is on the map",
+   "source": "map.json",
+   "match": [
+    "Arlong Park"
+   ]
+  },
+  {
+   "text": "Baratie is on the map",
+   "source": "map.json",
+   "match": [
+    "Baratie"
+   ]
+  },
+  {
+   "text": "Baratie is about 40 m from Busy Bay",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Busy Bay"
+   ],
+   "visual": "distance between official POI coordinates (36 m)"
+  },
+  {
+   "text": "The $.$. Rocky is on the map",
+   "source": "map.json",
+   "match": [
+    "The $.$. Rocky"
+   ]
+  },
+  {
+   "text": "Devil Fruits Across the Island tile, live 2026-11-04..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Devil Fruits Across the Island",
+    "Rare Devil Fruits have dropped in across the map",
+    "Eat the Gum-Gum Fruit to stretch your skills as Luffy",
+    "or the Flame-Flame Fruit to come in hot as Ace",
+    "just stay away from water"
+   ]
+  },
+  {
+   "text": "Keep Tabs on the Adventure! tile, live 2026-11-02..2026-11-04",
+   "source": "week-news.json",
+   "match": [
+    "Keep Tabs on the Adventure!",
+    "All great adventures begin with a treasure map",
+    "Head to the Treasure Tab to follow along with weekly progress and chart your next move"
+   ]
+  },
+  {
+   "text": "Bring Your Squad Back From the Brink tile, live 2026-11-01..2026-11-02",
+   "source": "week-news.json",
+   "match": [
+    "Bring Your Squad Back From the Brink",
+    "All hope is not lost when a teammate goes down",
+    "When they fall, they leave behind a Reboot Card",
+    "Pick it up, take it to a Reboot Van, and bring them back into the fight for a better shot at victory"
+   ]
+  },
+  {
+   "text": "Rarer Color, Better Weapons! tile, live 2026-11-01..2026-11-02",
+   "source": "week-news.json",
+   "match": [
+    "Rarer Color, Better Weapons!",
+    "Weapons come in five rarities: Gray (Common), Green (Uncommon), Blue (Rare), Purple (Epic), and Orange (Legendary)",
+    "Higher rarity means better stats, so open Chests and swap out weapons when finding something better"
+   ]
+  },
+  {
+   "text": "Fortune Sprite Variants - November 7 tile, live 2026-11-05..2026-11-07",
+   "source": "week-news.json",
+   "match": [
+    "Fortune Sprite Variants - November 7",
+    "Set sail for sparkling Sprites from 2-4 PM ET and 9-11 PM ET",
+    "Drop in with A$AP Rocky's Shock Rocket and a Self Revive",
+    "and find more Fortune Sprite variants across the Island"
+   ]
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "FORTNITE THIS WEEK",
+   "lines": [
+    "A whole new island",
+    "Oct 31 - Nov 7"
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 3,
+   "chapter": "The new season",
+   "big": "v43.00",
+   "label": "live since November 2"
+  },
+  {
+   "type": "stat",
+   "p": 4,
+   "big": "40 → 17",
+   "label": "places on the official map"
+  },
+  {
+   "type": "quote",
+   "p": 6,
+   "kicker": "IN-GAME NEWS",
+   "title": "The Horror Is Here",
+   "lines": [
+    {
+     "p": 7,
+     "text": "A cursed cartridge is spreading through the Island, corrupting everything it touches."
+    }
+   ],
+   "chapter": "The Horror Is Here"
+  },
+  {
+   "type": "quote",
+   "p": 9,
+   "kicker": "IN-GAME NEWS",
+   "title": "A$AP Rocky Sails In",
+   "lines": [
+    {
+     "p": 10,
+     "text": "A new Captain has taken over part of the Island!"
+    },
+    {
+     "p": 11,
+     "text": "Face the A$AP Rocky Boss to earn Lil' Flacko,"
+    },
+    {
+     "p": 12,
+     "text": "and blast away the competition with the A$AP Rocky's Shock Rocket."
+    }
+   ],
+   "chapter": "A$AP Rocky Sails In"
+  },
+  {
+   "type": "items",
+   "p": 13,
+   "title": "A$AP Rocky Bundle · in the shop 11/07",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-07-week-news/img/Character_TonicMailWeb.png",
+     "name": "Helicopter Flacko",
+     "rarity": "icon",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-07-week-news/img/Character_TonicMailYam.png",
+     "name": "Rocky Rugahand",
+     "rarity": "icon",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 14,
+   "kicker": "IN-GAME NEWS",
+   "title": "Monkey D. Luffy, Nami, and Usopp Outfits",
+   "lines": [
+    {
+     "p": 15,
+     "text": "When adventure calls, the Straw Hats answer!"
+    },
+    {
+     "p": 16,
+     "text": "Set sail with Monkey D. Luffy, Nami, and Usopp Outfits and chart a course to uncharted waters."
+    }
+   ],
+   "chapter": "The Straw Hats"
+  },
+  {
+   "type": "items",
+   "p": 17,
+   "title": "One Piece outfits · in the shop 11/07",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-07-week-news/img/Character_CeleryStitch.png",
+     "name": "Monkey D. Luffy",
+     "rarity": "epic",
+     "price": 1800
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-07-week-news/img/Character_BoastJoint.png",
+     "name": "Nami",
+     "rarity": "epic",
+     "price": 1600
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-07-week-news/img/Character_LoomRise.png",
+     "name": "Usopp",
+     "rarity": "epic",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 18,
+   "kicker": "IN-GAME NEWS",
+   "title": "Multi-Punches Flex",
+   "lines": [
+    {
+     "p": 19,
+     "text": "GUM-GUM GATLING!"
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "p": 21
+  },
+  {
+   "type": "quote",
+   "p": 22,
+   "kicker": "IN-GAME NEWS",
+   "title": "Adventure Awaits!",
+   "lines": [
+    {
+     "p": 23,
+     "text": "Explore One Piece's Arlong Park, sail past Baratie Bay,"
+    },
+    {
+     "p": 24,
+     "text": "or storm The $.$. Rocky on this mysterious skull-shaped island."
+    }
+   ],
+   "chapter": "The new island"
+  },
+  {
+   "type": "map",
+   "p": 25,
+   "x": 634.8,
+   "y": 1123.2,
+   "z": 1.4,
+   "name": "Arlong Park",
+   "sub": "Named location · west of the island",
+   "pins": [
+    {
+     "x": 634.8,
+     "y": 1123.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 26,
+   "x": 1411.1,
+   "y": 1476.8,
+   "z": 1.5,
+   "name": "Baratie",
+   "sub": "Landmark · next to Busy Bay",
+   "pins": [
+    {
+     "x": 1411.1,
+     "y": 1476.8,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 27,
+   "x": 1415.7,
+   "y": 1216.9,
+   "z": 1.4,
+   "name": "The $.$. Rocky",
+   "sub": "Named location · east of the island",
+   "pins": [
+    {
+     "x": 1415.7,
+     "y": 1216.9,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 28,
+   "kicker": "IN-GAME NEWS",
+   "title": "Devil Fruits Across the Island",
+   "lines": [
+    {
+     "p": 29,
+     "text": "Rare Devil Fruits have dropped in across the map!"
+    },
+    {
+     "p": 30,
+     "text": "Eat the Gum-Gum Fruit to stretch your skills as Luffy,"
+    },
+    {
+     "p": 31,
+     "text": "or the Flame-Flame Fruit to come in hot as Ace..."
+    },
+    {
+     "p": 32,
+     "text": "just stay away from water."
+    }
+   ],
+   "chapter": "Devil Fruits"
+  },
+  {
+   "type": "quote",
+   "p": 33,
+   "kicker": "IN-GAME NEWS",
+   "title": "Keep Tabs on the Adventure!",
+   "lines": [
+    {
+     "p": 34,
+     "text": "All great adventures begin with a treasure map!"
+    },
+    {
+     "p": 35,
+     "text": "Head to the Treasure Tab to follow along with weekly progress and chart your next move."
+    }
+   ],
+   "chapter": "The Treasure Tab"
+  },
+  {
+   "type": "quote",
+   "p": 36,
+   "kicker": "IN-GAME NEWS",
+   "title": "Bring Your Squad Back From the Brink",
+   "lines": [
+    {
+     "p": 37,
+     "text": "All hope is not lost when a teammate goes down!"
+    },
+    {
+     "p": 38,
+     "text": "When they fall, they leave behind a Reboot Card."
+    },
+    {
+     "p": 39,
+     "text": "Pick it up, take it to a Reboot Van, and bring them back into the fight for a better shot at victory."
+    }
+   ],
+   "chapter": "Epic's tips"
+  },
+  {
+   "type": "quote",
+   "p": 40,
+   "kicker": "IN-GAME NEWS",
+   "title": "Rarer Color, Better Weapons!",
+   "lines": [
+    {
+     "p": 41,
+     "text": "Weapons come in five rarities: Gray (Common), Green (Uncommon), Blue (Rare), Purple (Epic), and Orange (Legendary)."
+    },
+    {
+     "p": 42,
+     "text": "Higher rarity means better stats, so open Chests and swap out weapons when finding something better!"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 43,
+   "kicker": "IN-GAME NEWS",
+   "title": "Fortune Sprite Variants - November 7",
+   "lines": [
+    {
+     "p": 44,
+     "text": "Set sail for sparkling Sprites from 2-4 PM ET and 9-11 PM ET!"
+    },
+    {
+     "p": 45,
+     "text": "Drop in with A$AP Rocky's Shock Rocket and a Self Revive,"
+    },
+    {
+     "p": 46,
+     "text": "and find more Fortune Sprite variants across the Island."
+    }
+   ],
+   "chapter": "Fortune Sprites today"
+  },
+  {
+   "type": "title",
+   "p": 48,
+   "chapter": "Recap",
+   "kicker": "QUICK RECAP",
+   "lines": [
+    "v43.00 · 17 new places",
+    "A$AP Rocky · One Piece · Devil Fruits"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 52
+  }
+ ]
+}

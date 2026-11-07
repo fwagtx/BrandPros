@@ -1,0 +1,24 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's in-game news, build, map and Item Shop)",
+ "files": [
+  {
+   "file": "week-news.json",
+   "source": "News tiles, builds and map places per day 2026-10-31..2026-11-07",
+   "url": "https://fortnite-api.com/v2/news",
+   "fetched_utc": "2026-11-07T11:14:07Z",
+   "note": "fetched_utc is today's snapshot; older days are the saved daily snapshots in sources/history/"
+  },
+  {
+   "file": "map.json",
+   "source": "Battle Royale map POI data",
+   "url": "https://fortnite-api.com/v1/map",
+   "fetched_utc": "2026-11-07T11:14:07Z"
+  },
+  {
+   "file": "shop-2026-11-07.json",
+   "source": "Item Shop for 2026-11-07",
+   "url": "https://fortnite-api.com/v2/shop",
+   "fetched_utc": "2026-11-07T00:06:39Z"
+  }
+ ]
+}

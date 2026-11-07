@@ -1,0 +1,323 @@
+{
+ "note": "Daily snapshots 2026-10-31..2026-11-07 of Epic's Battle Royale news, build and map (sources/history/)",
+ "tiles": [
+  {
+   "title": "Two Ways to Play",
+   "body": "Find the Battle Royale experience that fits! Standard Battle Royale lets players collect resources and build walls, ramps, and structures on the fly. Zero Build removes building, so players can focus on combat and movement. Zero Build is a great place to start!",
+   "days": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "title": "Land Smart to Start Strong",
+   "body": "At the start of each match, drop from the Battle Bus and aim for a less crowded area. This gives time to loot and gear up before the fight begins… unless you want to kick things off with a bang!",
+   "days": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "title": "Play Defense with Health and Shields",
+   "body": "Keeping track of Shields and Health is critical to survival. Grab and consume Shield Potions as soon as possible, as low Shields means going down faster in a fight. Use healing items like Med Kits to recover Health between encounters, preferably before the next battle begins!",
+   "days": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "title": "Open Chests for the Best Loot",
+   "body": "Valuable Chests are scattered across the Island and contain healing items, weapons, and more, with different rarities of Chests providing different qualities of loot. Listen for the shimmering audio cue to track them down!",
+   "days": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "title": "The Horror Is Here",
+   "body": "A cursed cartridge is spreading through the Island, corrupting everything it touches. Step into Battle Royale to see what hair-raising horrors await, including powerful new weapons, terrifying mechanics, horrifying bosses, and more!",
+   "days": [
+    "2026-10-31"
+   ]
+  },
+  {
+   "title": "Bring Your Squad Back From the Brink",
+   "body": "All hope is not lost when a teammate goes down! When they fall, they leave behind a Reboot Card. Pick it up, take it to a Reboot Van, and bring them back into the fight for a better shot at victory.",
+   "days": [
+    "2026-11-01",
+    "2026-11-02"
+   ]
+  },
+  {
+   "title": "Rarer Color, Better Weapons!",
+   "body": "Weapons come in five rarities: Gray (Common), Green (Uncommon), Blue (Rare), Purple (Epic), and Orange (Legendary). Higher rarity means better stats, so open Chests and swap out weapons when finding something better!",
+   "days": [
+    "2026-11-01",
+    "2026-11-02"
+   ]
+  },
+  {
+   "title": "A$AP Rocky Sails In",
+   "body": "A new Captain has taken over part of the Island! Face the A$AP Rocky Boss to earn Lil' Flacko, and blast away the competition with the A$AP Rocky's Shock Rocket.",
+   "days": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "title": "Monkey D. Luffy, Nami, and Usopp Outfits",
+   "body": "When adventure calls, the Straw Hats answer! Set sail with Monkey D. Luffy, Nami, and Usopp Outfits and chart a course to uncharted waters.",
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07"
+   ]
+  },
+  {
+   "title": "Multi-Punches Flex",
+   "body": "GUM-GUM GATLING!",
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07"
+   ]
+  },
+  {
+   "title": "Keep Tabs on the Adventure!",
+   "body": "All great adventures begin with a treasure map! Head to the Treasure Tab to follow along with weekly progress and chart your next move.",
+   "days": [
+    "2026-11-02",
+    "2026-11-04"
+   ]
+  },
+  {
+   "title": "Devil Fruits Across the Island",
+   "body": "Rare Devil Fruits have dropped in across the map! Eat the Gum-Gum Fruit to stretch your skills as Luffy, or the Flame-Flame Fruit to come in hot as Ace... just stay away from water.",
+   "days": [
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07"
+   ]
+  },
+  {
+   "title": "Adventure Awaits!",
+   "body": "Explore One Piece's Arlong Park, sail past Baratie Bay, or storm The $.$. Rocky on this mysterious skull-shaped island.",
+   "days": [
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07"
+   ]
+  },
+  {
+   "title": "Fortune Sprite Variants - November 7",
+   "body": "Set sail for sparkling Sprites from 2-4 PM ET and 9-11 PM ET! Drop in with A$AP Rocky's Shock Rocket and a Self Revive, and find more Fortune Sprite variants across the Island.",
+   "days": [
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07"
+   ]
+  }
+ ],
+ "builds": {
+  "2026-10-31": "++Fortnite+Release-42.40-CL-59086525",
+  "2026-11-01": "++Fortnite+Release-42.40-CL-59086525",
+  "2026-11-02": "++Fortnite+Release-43.00-CL-59596594",
+  "2026-11-04": "++Fortnite+Release-43.00-CL-59596594",
+  "2026-11-05": "++Fortnite+Release-43.00-CL-59596594",
+  "2026-11-06": "++Fortnite+Release-43.00-CL-59596594",
+  "2026-11-07": "++Fortnite+Release-43.00-CL-59596594"
+ },
+ "place_counts": {
+  "2026-10-31": 40,
+  "2026-11-01": 40,
+  "2026-11-02": 17,
+  "2026-11-04": 17,
+  "2026-11-05": 17,
+  "2026-11-06": 17,
+  "2026-11-07": 17
+ },
+ "places": {
+  "2026-10-31": [
+   "Mega Maze",
+   "Stack o' Stones",
+   "Artsy RVs",
+   "Birder's Beach",
+   "Ol' Stumpy",
+   "Crashout Estates",
+   "Heatwave Harbor",
+   "Carwash",
+   "Cluster Coast",
+   "Geno's Machine",
+   "Dine 'n Docks",
+   "The Quackaway",
+   "WonkeeLand",
+   "Freaky Fields",
+   "Pixel Polys",
+   "Green Hill Zone",
+   "Sunken Shores",
+   "Golden Grove",
+   "Stone Sanctum",
+   "Chopped Shop",
+   "Override Console",
+   "Reality's Reign",
+   "Wettest-Bones Research Facility",
+   "Carwash",
+   "Lifty Lodge",
+   "The Sleazy Snooze",
+   "Barncade",
+   "Shaken Sanctuary",
+   "Nightmare Neighborhood",
+   "Override Console",
+   "Override Console",
+   "Pac-Man Island",
+   "Blinky Island",
+   "Dark Cartridge",
+   "Override Console",
+   "Override Console",
+   "Override Console",
+   "Freddy Fazbear's Pizzeria",
+   "Override Console",
+   "Pinky Island"
+  ],
+  "2026-11-01": [
+   "Mega Maze",
+   "Stack o' Stones",
+   "Artsy RVs",
+   "Birder's Beach",
+   "Ol' Stumpy",
+   "Crashout Estates",
+   "Heatwave Harbor",
+   "Carwash",
+   "Cluster Coast",
+   "Geno's Machine",
+   "Dine 'n Docks",
+   "The Quackaway",
+   "WonkeeLand",
+   "Freaky Fields",
+   "Pixel Polys",
+   "Green Hill Zone",
+   "Sunken Shores",
+   "Golden Grove",
+   "Stone Sanctum",
+   "Chopped Shop",
+   "Override Console",
+   "Reality's Reign",
+   "Wettest-Bones Research Facility",
+   "Carwash",
+   "Lifty Lodge",
+   "The Sleazy Snooze",
+   "Barncade",
+   "Shaken Sanctuary",
+   "Nightmare Neighborhood",
+   "Override Console",
+   "Override Console",
+   "Pac-Man Island",
+   "Blinky Island",
+   "Dark Cartridge",
+   "Override Console",
+   "Override Console",
+   "Override Console",
+   "Freddy Fazbear's Pizzeria",
+   "Override Console",
+   "Pinky Island"
+  ],
+  "2026-11-02": [
+   "Boogie Boat",
+   "Lantern Landing",
+   "Baratie",
+   "Plunder Port",
+   "The Chest",
+   "Arlong Park",
+   "Windmill Village",
+   "Henry",
+   "Fortune's Fort",
+   "The $.$. Rocky",
+   "Busy Bay",
+   "Rubber Resort",
+   "Cursed Cavern",
+   "Giant's Battlefield",
+   "Loot Lagoon",
+   "The Salty Skull",
+   "Loguetown"
+  ],
+  "2026-11-04": [
+   "Boogie Boat",
+   "Lantern Landing",
+   "Baratie",
+   "Plunder Port",
+   "The Chest",
+   "Arlong Park",
+   "Windmill Village",
+   "Henry",
+   "Fortune's Fort",
+   "The $.$. Rocky",
+   "Busy Bay",
+   "Rubber Resort",
+   "Cursed Cavern",
+   "Giant's Battlefield",
+   "Loot Lagoon",
+   "The Salty Skull",
+   "Loguetown"
+  ],
+  "2026-11-05": [
+   "Boogie Boat",
+   "Lantern Landing",
+   "Baratie",
+   "Plunder Port",
+   "The Chest",
+   "Arlong Park",
+   "Windmill Village",
+   "Henry",
+   "Fortune's Fort",
+   "The $.$. Rocky",
+   "Busy Bay",
+   "Rubber Resort",
+   "Cursed Cavern",
+   "Giant's Battlefield",
+   "Loot Lagoon",
+   "The Salty Skull",
+   "Loguetown"
+  ],
+  "2026-11-06": [
+   "Boogie Boat",
+   "Lantern Landing",
+   "Baratie",
+   "Plunder Port",
+   "The Chest",
+   "Arlong Park",
+   "Windmill Village",
+   "Henry",
+   "Fortune's Fort",
+   "The $.$. Rocky",
+   "Busy Bay",
+   "Rubber Resort",
+   "Cursed Cavern",
+   "Giant's Battlefield",
+   "Loot Lagoon",
+   "The Salty Skull",
+   "Loguetown"
+  ],
+  "2026-11-07": [
+   "Boogie Boat",
+   "Lantern Landing",
+   "Baratie",
+   "Plunder Port",
+   "The Chest",
+   "Arlong Park",
+   "Windmill Village",
+   "Henry",
+   "Fortune's Fort",
+   "The $.$. Rocky",
+   "Busy Bay",
+   "Rubber Resort",
+   "Cursed Cavern",
+   "Giant's Battlefield",
+   "Loot Lagoon",
+   "The Salty Skull",
+   "Loguetown"
+  ]
+ }
+}
