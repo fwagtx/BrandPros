@@ -1,0 +1,11 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's in-game data)",
+ "files": [
+  {
+   "file": "news.json",
+   "source": "Epic in-game news feed (Battle Royale MOTDs)",
+   "url": "https://fortnite-api.com/v2/news",
+   "fetched_utc": "2026-11-08T15:41:56Z"
+  }
+ ]
+}

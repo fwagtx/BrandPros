@@ -1,0 +1,37 @@
+{
+ "phrases": [
+  {
+   "text": "Fortnite just put this in the in-game news!",
+   "pause": 0.2
+  },
+  {
+   "text": "Lil Uzi Vert Drops Anchor.",
+   "pause": 0.25
+  },
+  {
+   "text": "A new Captain has sailed in!",
+   "pause": 0.2
+  },
+  {
+   "text": "Face the Lil Uzi Vert Boss to earn Lil' Uzi Vert Jr., and get ahead with the lightning-fast Lil Uzi Vert's Lil' SMG.",
+   "pause": 0.2
+  },
+  {
+   "text": "What do you think? Tell me in the comments.",
+   "pause": 0.2
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}
