@@ -1,23 +1,27 @@
 {
  "phrases": [
   {
-   "text": "Fortnite just put this in the in-game news!",
-   "pause": 0.2
-  },
-  {
-   "text": "Lil Uzi Vert Drops Anchor.",
+   "text": "Brand new in the Fortnite Item Shop!",
    "pause": 0.25
   },
   {
-   "text": "A new Captain has sailed in!",
+   "text": "The Straw Hats Bundle.",
    "pause": 0.2
   },
   {
-   "text": "Face the Lil Uzi Vert Boss to earn Lil' Uzi Vert Jr., and get ahead with the lightning-fast Lil Uzi Vert's Lil' SMG.",
+   "text": "Roronoa Zoro, Sanji, Zoro's Training Gear and 4 more items.",
    "pause": 0.2
   },
   {
-   "text": "What do you think? Tell me in the comments.",
+   "text": "3,200 V-Bucks, instead of 4,900.",
+   "pause": 0.25
+  },
+  {
+   "text": "It's in the shop until December 5th.",
+   "pause": 0.25
+  },
+  {
+   "text": "Are you getting it?",
    "pause": 0.2
   },
   {
@@ -28,10 +32,5 @@
    "text": "Thank you for watching! Follow for more daily content.",
    "pause": 0.3
   }
- ],
- "voice": "af_aoede",
- "speed": 1.25,
- "lang": "en-us",
- "lead": 0.2,
- "mode": "flow"
+ ]
 }
