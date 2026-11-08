@@ -1,0 +1,49 @@
+{
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow",
+ "phrases": [
+  {
+   "text": "This is today's Item Shop for November 8th.",
+   "pause": 0.08
+  },
+  {
+   "text": "Three things before you spend a single V-Buck!",
+   "pause": 0.22
+  },
+  {
+   "text": "The A$AP Rocky Bundle:",
+   "pause": 0.06
+  },
+  {
+   "text": "3,200 V-Bucks, instead of 8,800.",
+   "pause": 0.26
+  },
+  {
+   "text": "Skully and Sparkplug are in the shop.",
+   "pause": 0.06
+  },
+  {
+   "text": "Both from Chapter 1, Season 7.",
+   "pause": 0.26
+  },
+  {
+   "text": "And eleven skins are on their last day, six of them Epic.",
+   "pause": 0.3
+  },
+  {
+   "text": "Buying anything today?",
+   "pause": 0.06
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ]
+}

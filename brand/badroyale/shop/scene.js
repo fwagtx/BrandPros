@@ -25,7 +25,7 @@
     el.innerHTML = `<div style="position:absolute;inset:0;background:linear-gradient(120deg,rgba(255,255,255,.18) 0 18%,transparent 18%)"></div>
       <img src="${IMG(o.id)}" style="position:absolute;left:${-w * 0.2}px;top:${-h * 0.02}px;width:${w * 1.4}px;height:auto">
       <div style="position:absolute;left:0;right:0;bottom:0;padding:${w * 0.05}px ${w * 0.06}px ${w * 0.045}px;background:linear-gradient(transparent,rgba(5,8,22,.92) 30%)">
-        <div style="font-family:'Barlow Condensed';font-weight:900;font-size:${Math.min(w * 0.13, (w * 0.86) / (o.name.length * 0.43))}px;line-height:.95;text-transform:uppercase;color:#fff;-webkit-text-stroke:${w * 0.012}px ${INK};paint-order:stroke fill;white-space:nowrap">${o.name}</div>
+        <div style="font-family:'Barlow Condensed';font-weight:900;font-size:${Math.min(w * 0.13, (w * 0.86) / (o.name.length * 0.5))}px;line-height:.95;text-transform:uppercase;color:#fff;-webkit-text-stroke:${w * 0.012}px ${INK};paint-order:stroke fill;white-space:nowrap">${o.name}</div>
         ${price && o.price ? `<div style="margin-top:${w * 0.02}px;font-family:'Barlow Condensed';font-weight:900;font-size:${w * 0.11}px;color:#fff">${vb(w * 0.11)} ${num(o.price)}</div>` : ""}
       </div>`;
     el.dataset.text = o.name.toUpperCase();
