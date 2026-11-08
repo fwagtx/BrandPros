@@ -1,0 +1,102 @@
+{
+ "duration": 19.5,
+ "caption": "#EpicPartner Brand new in the Item Shop: Straw Hats Bundle",
+ "claims": [
+  {
+   "text": "Straw Hats Bundle is in the Item Shop for 2026-11-08",
+   "source": "shop.json",
+   "match": [
+    "Straw Hats Bundle",
+    "\"date\": \"2026-11-08"
+   ]
+  },
+  {
+   "text": "Price 3,200 V-Bucks (listed regular price 4,900)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 4900, \"finalPrice\": 3200"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-08",
+   "source": "shop.json",
+   "match": [
+    "2026-11-08T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Roronoa Zoro is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Roronoa Zoro"
+   ]
+  },
+  {
+   "text": "Sanji is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Sanji"
+   ]
+  },
+  {
+   "text": "Zoro's Training Gear is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Zoro's Training Gear"
+   ]
+  },
+  {
+   "text": "Sanji's Utensils is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Sanji's Utensils"
+   ]
+  },
+  {
+   "text": "Brand new: first added to the game in the last 14 days",
+   "source": "shop.json",
+   "match": [
+    "\"added\": \"2026-11-01T23:10:43Z\""
+   ]
+  }
+ ],
+ "text": [
+  "BRAND NEW / IN THE ITEM SHOP",
+  "RORONOA ZORO",
+  "SANJI",
+  "ZORO'S TRAINING GEAR",
+  "STRAW HATS BUNDLE",
+  "RORONOA ZORO, SANJI, ZORO'S TRAINING GEAR AND 4 MORE ITEMS",
+  "3,200 V-BUCKS",
+  "IN THE SHOP UNTIL DEC 5",
+  "BRAND NEW IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE STRAW HATS",
+  "BUNDLE.",
+  "RORONOA ZORO,",
+  "SANJI,",
+  "AND 4 MORE",
+  "ITEMS.",
+  "3,200 V-BUCKS,",
+  "INSTEAD OF 4,900.",
+  "IT'S IN THE",
+  "SHOP UNTIL DECEMBER",
+  "5TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
