@@ -1,0 +1,46 @@
+{
+ "duration": 14.8,
+ "caption": "#EpicPartner Where is The Chest in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "The Chest is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "The Chest"
+   ]
+  },
+  {
+   "text": "It is in the north-west of the island, nearest named location Rubber Resort",
+   "source": "map-labels.png",
+   "visual": "map pixel (762, 875); nearest named POI by coordinates: Rubber Resort"
+  }
+ ],
+ "text": [
+  "THE CHEST",
+  "WHERE IS THE CHEST? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND THE",
+  "CHEST IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "NORTH-WEST OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO RUBBER",
+  "RESORT.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

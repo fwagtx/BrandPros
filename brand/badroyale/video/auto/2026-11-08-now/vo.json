@@ -32,5 +32,10 @@
    "text": "Thank you for watching! Follow for more daily content.",
    "pause": 0.3
   }
- ]
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
 }
