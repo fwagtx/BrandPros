@@ -1,0 +1,37 @@
+{
+ "phrases": [
+  {
+   "text": "Epic just revealed the real odds of finding Pirate Shop Access. Ready?",
+   "pause": 0.3
+  },
+  {
+   "text": "One in one hundred thirty seven thousand, five hundred. Per chest, in a normal match.",
+   "pause": 0.3
+  },
+  {
+   "text": "The weekly gold outfit is even rarer: one in over one and a half million.",
+   "pause": 0.25
+  },
+  {
+   "text": "A gizmo? One in one hundred twenty seven. That's the common one.",
+   "pause": 0.3
+  },
+  {
+   "text": "How many chests have you opened this season?",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

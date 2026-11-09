@@ -1,0 +1,41 @@
+{
+ "phrases": [
+  {
+   "text": "Pirate Shop Access makes the Item Shop free. But not everything! Watch out for these.",
+   "pause": 0.3
+  },
+  {
+   "text": "Battle Pass levels? Not included.",
+   "pause": 0.2
+  },
+  {
+   "text": "Bundles that cost real money instead of V-Bucks? Not included.",
+   "pause": 0.2
+  },
+  {
+   "text": "Gifting is off. And you can claim only one free Sidekick.",
+   "pause": 0.25
+  },
+  {
+   "text": "Everything else, skins, emotes, gliders, cars, jam tracks, is free to claim.",
+   "pause": 0.3
+  },
+  {
+   "text": "Still the best thing in Fortnite right now, right?",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

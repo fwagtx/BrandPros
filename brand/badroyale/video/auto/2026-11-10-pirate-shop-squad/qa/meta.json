@@ -1,0 +1,80 @@
+{
+ "duration": 23,
+ "caption": "#EpicPartner Hunting Pirate Shop Access solo is the slow way 👀 If anyone in your squad finds it, the whole squad gets it. Use Fill and open every chest\nWho are you teaming up with? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pirateshop #treasurehunters",
+ "claims": [
+  {
+   "text": "If anyone in the squad finds it, every member gets it",
+   "source": "vgc-guide.json",
+   "match": [
+    "if anyone in your Squad finds the Pirate Shop Token in a chest, every member of the Squad gets it"
+   ]
+  },
+  {
+   "text": "Squad members share the token",
+   "source": "biglead-pirate-shop.json",
+   "match": [
+    "all squad members will get it too"
+   ]
+  },
+  {
+   "text": "Fill gives a squad of four, four times the chests",
+   "source": "vgc-guide.json",
+   "match": [
+    "just choose the Fill option to add random players to your squad of four",
+    "four times as many chests"
+   ]
+  },
+  {
+   "text": "Every chest type counts",
+   "source": "vgc-guide.json",
+   "match": [
+    "Normal chests, Rare chests, Sprite Chests, Buried Chests, Wanted Poster Chests, Relic Chests"
+   ]
+  }
+ ],
+ "text": [
+  "TREASURE HUNTERS",
+  "PIRATE SHOP ACCESS: / THE SQUAD TRICK",
+  "SQUAD / ONE FIND, THE WHOLE SQUAD GETS IT",
+  "FILL / 4 PLAYERS, 4X THE CHESTS",
+  "ANY CHEST / NORMAL, RARE, SPRITE, BURIED, RELIC",
+  "PIRATE SHOP / ACCESS",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "STOP HUNTING PIRATE",
+  "SHOP ACCESS SOLO.",
+  "HERE'S WHY!",
+  "IF ANYONE IN",
+  "YOUR SQUAD FINDS",
+  "IT IN A",
+  "CHEST,",
+  "EVERY MEMBER OF",
+  "THE SQUAD GETS",
+  "IT.",
+  "NO FRIENDS ONLINE?",
+  "HIT FILL.",
+  "FOUR PLAYERS MEANS",
+  "FOUR TIMES THE",
+  "CHESTS.",
+  "AND EVERY CHEST",
+  "COUNTS: NORMAL,",
+  "RARE,",
+  "SPRITE,",
+  "BURIED,",
+  "WANTED POSTER,",
+  "EVEN RELIC CHESTS.",
+  "WHO ARE YOU",
+  "TEAMING UP WITH",
+  "TONIGHT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

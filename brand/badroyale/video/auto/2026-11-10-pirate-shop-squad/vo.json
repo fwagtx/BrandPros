@@ -1,0 +1,37 @@
+{
+ "phrases": [
+  {
+   "text": "Stop hunting Pirate Shop Access solo. Here's why!",
+   "pause": 0.3
+  },
+  {
+   "text": "If anyone in your squad finds it in a chest, every member of the squad gets it.",
+   "pause": 0.25
+  },
+  {
+   "text": "No friends online? Hit Fill. Four players means four times the chests.",
+   "pause": 0.25
+  },
+  {
+   "text": "And every chest counts: normal, rare, Sprite, buried, Wanted Poster, even Relic chests.",
+   "pause": 0.3
+  },
+  {
+   "text": "Who are you teaming up with tonight?",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

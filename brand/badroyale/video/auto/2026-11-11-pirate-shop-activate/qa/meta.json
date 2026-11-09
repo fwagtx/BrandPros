@@ -1,0 +1,78 @@
+{
+ "duration": 26.5,
+ "caption": "#EpicPartner Found Pirate Shop Access? Here's what to do 🏴‍☠️ Item Shop → Plunder the Item Shop → Activate Now. Your 14 days start, and you get a second token for 2027\nWhich skin would you claim first? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pirateshop #treasurehunters",
+ "claims": [
+  {
+   "text": "Activate from the Item Shop via Plunder the Item Shop and Activate Now",
+   "source": "gamingbible.json",
+   "match": [
+    "return to the item shop, where you'll be met with the option to",
+    "Plunder the Item Shop",
+    "Activate Now",
+    "your free 14-day 2026 access will begin"
+   ]
+  },
+  {
+   "text": "Two tokens: one for 2026, one for 2027",
+   "source": "vgc-odds-confirmed.json",
+   "match": [
+    "receive two tokens – one which can be activated at any point in 2026 between November 1 and December 15, and one which can be activated at any point in 2027"
+   ]
+  },
+  {
+   "text": "Items must be claimed, nothing lands automatically",
+   "source": "gamingbible.json",
+   "match": [
+    "You do have to claim everything in the item shop",
+    "automatically land in your account"
+   ]
+  }
+ ],
+ "text": [
+  "TREASURE HUNTERS",
+  "GOT PIRATE SHOP ACCESS? / DO THIS NEXT",
+  "STEP 1 / ITEM SHOP: PLUNDER THE ITEM SHOP",
+  "STEP 2 / ACTIVATE NOW. 14 DAYS START",
+  "BONUS / A SECOND TOKEN FOR 2027",
+  "CLAIM IT / NOTHING LANDS AUTOMATICALLY",
+  "PIRATE SHOP / ACCESS",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "YOU FOUND PIRATE",
+  "SHOP ACCESS?",
+  "DON'T WASTE IT.",
+  "HERE'S EXACTLY WHAT",
+  "TO DO.",
+  "OPEN THE ITEM",
+  "SHOP AND LOOK",
+  "FOR THE PLUNDER",
+  "THE ITEM SHOP",
+  "OPTION.",
+  "HIT ACTIVATE NOW,",
+  "AND YOUR 14",
+  "DAYS START RIGHT",
+  "THERE.",
+  "YOU ACTUALLY GET",
+  "TWO: ONE FOR",
+  "THIS YEAR,",
+  "AND ONE YOU",
+  "CAN SAVE FOR",
+  "2027.",
+  "AND YOU HAVE",
+  "TO CLAIM EACH",
+  "ITEM YOURSELF.",
+  "NOTHING LANDS AUTOMATICALLY!",
+  "WHICH SKIN WOULD",
+  "YOU CLAIM FIRST?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

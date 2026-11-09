@@ -1,0 +1,41 @@
+{
+ "phrases": [
+  {
+   "text": "You found Pirate Shop Access? Don't waste it. Here's exactly what to do.",
+   "pause": 0.3
+  },
+  {
+   "text": "Open the Item Shop and look for the Plunder the Item Shop option.",
+   "pause": 0.25
+  },
+  {
+   "text": "Hit Activate Now, and your 14 days start right there.",
+   "pause": 0.25
+  },
+  {
+   "text": "You actually get two: one for this year, and one you can save for 2027.",
+   "pause": 0.25
+  },
+  {
+   "text": "And you have to claim each item yourself. Nothing lands automatically!",
+   "pause": 0.3
+  },
+  {
+   "text": "Which skin would you claim first?",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

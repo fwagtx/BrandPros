@@ -1,0 +1,37 @@
+{
+ "phrases": [
+  {
+   "text": "Fortnite is giving away the entire Item Shop for free. Here's how it works!",
+   "pause": 0.3
+  },
+  {
+   "text": "This season, every chest you open has a tiny chance to drop Pirate Shop Access.",
+   "pause": 0.25
+  },
+  {
+   "text": "Activate it, and for 14 days, everything that costs V-Bucks is free.",
+   "pause": 0.25
+  },
+  {
+   "text": "Skins, emotes, pickaxes, gliders. And you keep them forever.",
+   "pause": 0.3
+  },
+  {
+   "text": "Would you even know what to grab first?",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

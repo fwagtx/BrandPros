@@ -1,0 +1,82 @@
+{
+ "duration": 25.3,
+ "caption": "#EpicPartner Pirate Shop Access makes the Item Shop free, but NOT everything 👀 No Battle Pass levels, no real-money bundles, no gifting, and only one Sidekick. Skins, emotes, gliders, cars and jam tracks? All free\nStill the best thing in Fortnite right now? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pirateshop #treasurehunters",
+ "claims": [
+  {
+   "text": "Battle Pass levels are not included",
+   "source": "vgc-guide.json",
+   "match": [
+    "you can't claim Battle Pass levels"
+   ]
+  },
+  {
+   "text": "Real-money bundles are not included",
+   "source": "vgc-guide.json",
+   "match": [
+    "you can't get bundles that cost real money (instead of V-Bucks)"
+   ]
+  },
+  {
+   "text": "No gifting, only one free Sidekick",
+   "source": "vgc-guide.json",
+   "match": [
+    "you can't gift items to other players, and you can only claim one free sidekick"
+   ]
+  },
+  {
+   "text": "Skins, emotes, gliders, cars and jam tracks are free to claim",
+   "source": "vgc-guide.json",
+   "match": [
+    "skins, emotes, backpacks, pickaxes, instruments, cars, gliders, jam tracks – is entirely free for you to claim"
+   ]
+  }
+ ],
+ "text": [
+  "TREASURE HUNTERS",
+  "PIRATE SHOP ACCESS: / WHAT'S NOT FREE",
+  "NO / BATTLE PASS LEVELS",
+  "NO / REAL-MONEY BUNDLES",
+  "NO / GIFTS. ONLY 1 SIDEKICK",
+  "YES / SKINS, EMOTES, GLIDERS, CARS",
+  "PIRATE SHOP / ACCESS",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "PIRATE SHOP ACCESS",
+  "MAKES THE ITEM",
+  "SHOP FREE.",
+  "BUT NOT EVERYTHING!",
+  "WATCH OUT FOR",
+  "THESE.",
+  "BATTLE PASS LEVELS?",
+  "NOT INCLUDED.",
+  "BUNDLES THAT COST",
+  "REAL MONEY INSTEAD",
+  "OF V-BUCKS?",
+  "GIFTING IS OFF.",
+  "AND YOU CAN",
+  "CLAIM ONLY ONE",
+  "FREE SIDEKICK.",
+  "EVERYTHING ELSE,",
+  "SKINS,",
+  "EMOTES,",
+  "GLIDERS,",
+  "CARS,",
+  "JAM TRACKS,",
+  "IS FREE TO",
+  "CLAIM.",
+  "STILL THE BEST",
+  "THING IN FORTNITE",
+  "RIGHT NOW,",
+  "RIGHT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

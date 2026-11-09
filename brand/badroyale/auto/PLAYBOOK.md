@@ -55,6 +55,12 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 
 3 shorts a day on every network, plus 3 long YouTube videos a week (LONG run).
 
+**Owner-requested extra series (not a run; leave these posts alone):** Pirate Shop Access, 7 shorts made by hand on
+2026-11-09 with `TPL.guide` (facts over the real map) from `video/auto/pirate-shop-sources/`: Nov 9 11:00 AM and
+8:30 PM, Nov 10-13 8:30 PM, Nov 14 10:30 AM (Treasure Hours day). They sit beside the normal three; the 12:30 and 4:30
+checks ignore them. If the in-game news or fetch_sources shows the Treasure Hours schedule or the Pirate Shop rules
+changed, set the affected queued posts to draft (Facts change, below).
+
 ## SHOP run
 
 1. `git pull origin claude/eloquent-lovelace-vu2quk`

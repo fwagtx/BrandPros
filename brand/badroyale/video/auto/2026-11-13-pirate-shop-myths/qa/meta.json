@@ -1,0 +1,83 @@
+{
+ "duration": 25.1,
+ "caption": "#EpicPartner Pirate Shop Access myths, busted 🧐 No Token Compass, your skin changes nothing, and no chest is luckier than another. Epic says everyone has the same odds\nTreasure Hours are tomorrow! Which myth did you fall for? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pirateshop #treasurehunters",
+ "claims": [
+  {
+   "text": "There is no Token Compass",
+   "source": "vgc-guide.json",
+   "match": [
+    "There's no such thing as a Token Compass"
+   ]
+  },
+  {
+   "text": "The skin you wear has no effect on the odds",
+   "source": "vgc-guide.json",
+   "match": [
+    "the skin you choose has no effect on your odds",
+    "wear a One Piece skin"
+   ]
+  },
+  {
+   "text": "Epic says everyone has an equal chance",
+   "source": "vgc-guide.json",
+   "match": [
+    "according to Epic games, everyone has an equal chance of finding a Pirate Shop Token"
+   ]
+  },
+  {
+   "text": "Treasure Hours on Saturday Nov 14 boost Pirate Shop Access odds",
+   "source": "vice-treasure-hours.json",
+   "match": [
+    "November 14",
+    "1.5× both rounds"
+   ]
+  }
+ ],
+ "text": [
+  "TREASURE HUNTERS",
+  "PIRATE SHOP ACCESS / MYTHS, BUSTED",
+  "MYTH / THE TOKEN COMPASS",
+  "MYTH / SKINS CHANGE YOUR ODDS",
+  "FACT / EVERYONE HAS EQUAL ODDS",
+  "TOMORROW / TREASURE HOURS: BOOSTED ODDS",
+  "PIRATE SHOP / ACCESS",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "EVERYONE HAS A",
+  "THEORY ABOUT PIRATE",
+  "SHOP ACCESS.",
+  "HERE'S WHAT EPIC",
+  "ACTUALLY SAYS.",
+  "THE TOKEN COMPASS?",
+  "NOT REAL.",
+  "THERE IS NO",
+  "SUCH THING.",
+  "WEARING A ONE",
+  "PIECE SKIN?",
+  "YOUR SKIN HAS",
+  "NO EFFECT ON",
+  "YOUR ODDS.",
+  "LUCKY CHESTS?",
+  "NOPE.",
+  "EVERYONE HAS AN",
+  "EQUAL CHANCE.",
+  "JUST OPEN CHESTS.",
+  "AND TREASURE HOURS",
+  "ARE TOMORROW,",
+  "WITH BOOSTED ODDS.",
+  "GET YOUR SQUAD",
+  "READY!",
+  "WHICH MYTH DID",
+  "YOU FALL FOR?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

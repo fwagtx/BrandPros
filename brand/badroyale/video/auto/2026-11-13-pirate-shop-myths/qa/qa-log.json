@@ -1,0 +1,77 @@
+{
+  "video": "badroyale-2026-11-13-pirate-shop-myths.mp4",
+  "checked_utc": "2026-11-09T15:36:42Z",
+  "verdict": "READY TO POST",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "4/4 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "There is no Token Compass",
+          "result": "PASS",
+          "why": "matched in vgc-guide.json"
+        },
+        {
+          "claim": "The skin you wear has no effect on the odds",
+          "result": "PASS",
+          "why": "matched in vgc-guide.json"
+        },
+        {
+          "claim": "Epic says everyone has an equal chance",
+          "result": "PASS",
+          "why": "matched in vgc-guide.json"
+        },
+        {
+          "claim": "Treasure Hours on Saturday Nov 14 boost Pirate Shop Access odds",
+          "result": "PASS",
+          "why": "matched in vice-treasure-hours.json"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "25 distinct words checked; code written as BAD in all 2 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -14.0 LUFS, true peak -3.0 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 24.5s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Map behind, headline readable, two red MYTH facts, one FACT and the Treasure Hours teaser land on their lines and match the saved VGC and VICE passages; token, code card and sign-off strip in place.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner Pirate Shop Access myths, busted 🧐 No Token Compass, your skin changes nothing, and no chest is luckier than another. Epic says everyone has the same odds\nTreasure Hours are tomorrow! Which myth did you fall for? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pirateshop #treasurehunters"
+}

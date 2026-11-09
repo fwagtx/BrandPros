@@ -5,6 +5,7 @@
  *   TPL.map({ title, map, shots, pins, toasts })                                  a place / Easter egg on the map
  *   TPL.news({ kicker, tile, quote: [{p, text}], points: [{p, label, text}] })    an in-game news tile explained
  *   TPL.drop({ title, cards, name, contents, price, when, tone })                 a shop listing: new today / leaving tonight
+ *   TPL.guide({ kicker, title, facts: [{p, label, text}] })                        a feature explained: each fact lands on its voice line
  * Each takes caption and claims too (see make_short.py and the pre-post checklist).
  */
 (function (root) {
@@ -183,6 +184,46 @@
     return { duration: DUR, build, cues, caption: cfg.caption, claims: cfg.claims };
   }
 
+  // ---------------- a feature explained: kicker, headline, 3-4 facts that land on their voice lines ----------------
+  // cfg: { kicker, title: [l1, l2], titleSize?, facts: [{p, label, text, color?}] (max 4) }
+  function guide(cfg) {
+    const { VO, P, DUR, codeP, thanksP } = timing();
+    const F = (cfg.facts || []).slice(0, 4), gap = F.length > 3 ? 150 : 190, top = F.length > 3 ? 500 : 560;
+    function build(stage) {
+      // the real map behind everything (owner: "make sure you show the actual map as well"), a slow push-in, shaded so the text reads
+      mk(stage, `inset:0;background:#084687`);
+      const cam = S.mapCam(stage, `../../badroyale/sources/${cfg.map === "blank" ? "map-blank" : "map-labels"}.png`, [[0, { x: 1010, y: 1040 }, 1.1], [DUR, { x: 1010, y: 990 }, 1.22]]);
+      mk(stage, `inset:0;background:linear-gradient(180deg,rgba(5,8,25,.8) 0 28%,rgba(5,8,25,.5) 58%,rgba(5,8,25,.6))`);
+      const kick = chip(stage, cfg.kicker || "TREASURE HUNTERS", cfg.kickerColor || YEL, 236);
+      const title = S.title(stage, cfg.title, { y: 322, size: cfg.titleSize || 66 });
+      const facts = F.map((o, i) => { const el = S.toast(stage, o.label, o.text, top + i * gap, o.color || YEL); el.style.width = "770px"; return { ...o, el }; });
+      // a gold token below the captions: the thing everyone is hunting, drawn here (no Epic art)
+      const coinText = cfg.coin || ["PIRATE SHOP", "ACCESS"];
+      const coin = mk(stage, `left:60px;top:1232px;width:190px;height:190px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#FFE98A,#F2B21B 55%,#B06A00);border:10px solid ${INK};box-shadow:0 14px 0 rgba(0,0,0,.4),inset 0 0 0 14px rgba(255,255,255,.28)`,
+        `<div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Barlow Condensed';font-weight:900;color:${INK};text-transform:uppercase;line-height:.95;text-align:center">
+           <div style="font-size:${coinText[0].length > 11 ? 24 : 29}px">${coinText[0]}</div><div style="font-size:${coinText[1].length > 8 ? 34 : 46}px">${coinText[1]}</div></div>`, coinText.join(" / ").toUpperCase());
+      const dim = mk(stage, `inset:0;background:rgba(5,8,25,.75)`);
+      const e = end(stage, VO);
+      return function renderAt(t) {
+        cam.draw(t);
+        const kx = 1 - E.out(k(t, 0, 0.3)); T(kick, { x: -60 * kx, a: 1 - kx });
+        T(title, { a: 1, s: 0.9 + 0.1 * E.out(k(t, 0, 0.35)) });
+        T(coin, { y: Math.sin(t * 1.6) * 6, r: Math.sin(t * 0.9) * 4, s: 0.7 + 0.3 * E.out(k(t, 0.15, 0.6)) });
+        facts.forEach((o) => {
+          const t0 = P[o.p].t0 - 0.05, u = 1 - E.out(k(t, t0, t0 + 0.25)), live = t >= t0 && t < P[o.p].t1 + 0.15;
+          T(o.el, { a: t >= t0 ? 1 - u : 0, x: -70 * u, s: live ? 1.02 : 1 });
+        });
+        const codeOn = win(t, codeP.t0 - 0.05, DUR + 1, 0.12, 0.1);
+        T(dim, { a: codeOn });
+        T(e.code, { a: codeOn, s: 0.86 + 0.14 * E.back(k(t, codeP.t0 - 0.05, codeP.t0 + 0.3)) }); signoff(e, t, thanksP, DUR);
+        e.caps(t); e.fin(t);
+      };
+    }
+    const cues = [[0.03, "pop"], ...F.map((o) => [P[o.p].t0 - 0.03, "notify"]), [codeP.t0 - 0.05, "pop"]];
+    if (thanksP) cues.push([thanksP.t0 - 0.03, "chime"]);
+    return { duration: DUR, build, cues, caption: cfg.caption, claims: cfg.claims };
+  }
+
   // ---------------- a shop listing right now: new today, or leaving tonight ----------------
   // voice: [hook, name, (contents), price, when, question, code line]; each info beat swaps the line under the cards
   // cfg: { title, cards: [{name, img, rarity}] (1-3), name, contents?, price: {final, regular?}, when, tone: "new"|"last" }
@@ -244,5 +285,5 @@
     return { duration: DUR, build, cues, caption: cfg.caption, claims: cfg.claims };
   }
 
-  root.TPL = { guess, map, news, drop, mapPx };
+  root.TPL = { guess, map, news, drop, guide, mapPx };
 })(window);

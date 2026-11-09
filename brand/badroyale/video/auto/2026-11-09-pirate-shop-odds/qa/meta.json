@@ -1,0 +1,79 @@
+{
+ "duration": 23.2,
+ "caption": "#EpicPartner Epic confirmed the odds 😅 Pirate Shop Access is 1 in 137,500 per chest. The weekly gold outfit? 1 in 1,562,500\nHow many chests have you opened this season? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pirateshop #treasurehunters",
+ "claims": [
+  {
+   "text": "Epic confirmed Pirate Shop Access at 1 in 137,500 per chest in a normal match",
+   "source": "vgc-odds-confirmed.json",
+   "match": [
+    "Epic has now officially confirmed the drop rates",
+    "Pirate Shop Access – 1 in 137,500"
+   ]
+  },
+  {
+   "text": "Per chest in a normal match",
+   "source": "vice-treasure-hours.json",
+   "match": [
+    "per chest in a normal match"
+   ]
+  },
+  {
+   "text": "Weekly Gold Outfit is 1 in 1,562,500",
+   "source": "vgc-odds-confirmed.json",
+   "match": [
+    "Weekly Gold Outfit – 1 in 1,562,500"
+   ]
+  },
+  {
+   "text": "Any gizmo is 1 in 127",
+   "source": "vgc-odds-confirmed.json",
+   "match": [
+    "Gizmo (any) – 1 in 127"
+   ]
+  }
+ ],
+ "text": [
+  "TREASURE HUNTERS",
+  "THE REAL ODDS OF / PIRATE SHOP ACCESS",
+  "PER CHEST / 1 IN 137,500",
+  "GOLD OUTFIT / 1 IN 1,562,500",
+  "ANY GIZMO / 1 IN 127",
+  "PIRATE SHOP / ACCESS",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "EPIC JUST REVEALED",
+  "THE REAL ODDS",
+  "OF FINDING PIRATE",
+  "SHOP ACCESS.",
+  "READY?",
+  "ONE IN ONE",
+  "HUNDRED THIRTY SEVEN",
+  "THOUSAND,",
+  "FIVE HUNDRED.",
+  "PER CHEST,",
+  "IN A NORMAL",
+  "MATCH.",
+  "THE WEEKLY GOLD",
+  "OUTFIT IS EVEN",
+  "RARER: ONE IN",
+  "OVER ONE AND",
+  "A HALF MILLION.",
+  "A GIZMO?",
+  "HUNDRED TWENTY SEVEN.",
+  "THAT'S THE COMMON",
+  "ONE.",
+  "HOW MANY CHESTS",
+  "HAVE YOU OPENED",
+  "THIS SEASON?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

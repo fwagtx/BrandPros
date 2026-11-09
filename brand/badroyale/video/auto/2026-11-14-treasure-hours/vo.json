@@ -1,0 +1,37 @@
+{
+ "phrases": [
+  {
+   "text": "Treasure Hours are today, and Pirate Shop Access odds are boosted. Here's the schedule!",
+   "pause": 0.3
+  },
+  {
+   "text": "Round one: two to four PM Eastern. That's one to three Central.",
+   "pause": 0.25
+  },
+  {
+   "text": "Round two: nine to eleven PM Eastern. Eight to ten Central.",
+   "pause": 0.25
+  },
+  {
+   "text": "Both rounds: one point five times the normal odds for Pirate Shop Access.",
+   "pause": 0.3
+  },
+  {
+   "text": "Squad up and open every chest. Are you playing both rounds?",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

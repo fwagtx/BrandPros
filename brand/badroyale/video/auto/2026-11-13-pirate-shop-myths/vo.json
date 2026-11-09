@@ -1,0 +1,41 @@
+{
+ "phrases": [
+  {
+   "text": "Everyone has a theory about Pirate Shop Access. Here's what Epic actually says.",
+   "pause": 0.3
+  },
+  {
+   "text": "The Token Compass? Not real. There is no such thing.",
+   "pause": 0.25
+  },
+  {
+   "text": "Wearing a One Piece skin? Your skin has no effect on your odds.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lucky chests? Nope. Everyone has an equal chance. Just open chests.",
+   "pause": 0.3
+  },
+  {
+   "text": "And Treasure Hours are tomorrow, with boosted odds. Get your squad ready!",
+   "pause": 0.3
+  },
+  {
+   "text": "Which myth did you fall for?",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

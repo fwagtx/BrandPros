@@ -1,0 +1,81 @@
+{
+ "duration": 23.6,
+ "caption": "#EpicPartner Fortnite is giving the WHOLE Item Shop away for free 😳 Find Pirate Shop Access in a chest and every V-Bucks item is free for 14 days, and you keep it all\nWhat would you grab first? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pirateshop #treasurehunters",
+ "claims": [
+  {
+   "text": "Treasure Hunters chests can drop Pirate Shop Access",
+   "source": "vgc-guide.json",
+   "match": [
+    "every time you open or break a chest, there's a small chance that you'll get a treasure reward",
+    "Pirate Shop Access"
+   ]
+  },
+  {
+   "text": "After activation every item that costs V-Bucks is free for 14 days",
+   "source": "vgc-guide.json",
+   "match": [
+    "every single item in the Fortnite Shop which costs V-Bucks becomes entirely free for the next 14 days"
+   ]
+  },
+  {
+   "text": "You keep the claimed items",
+   "source": "biglead-pirate-shop.json",
+   "match": [
+    "you keep the items forever"
+   ]
+  },
+  {
+   "text": "Skins, emotes, pickaxes and gliders are among the free items",
+   "source": "vgc-guide.json",
+   "match": [
+    "skins, emotes, backpacks, pickaxes, instruments, cars, gliders, jam tracks"
+   ]
+  }
+ ],
+ "text": [
+  "TREASURE HUNTERS",
+  "THE WHOLE ITEM SHOP / FOR FREE?!",
+  "CHESTS / CAN DROP PIRATE SHOP ACCESS",
+  "14 DAYS / EVERY V-BUCKS ITEM IS FREE",
+  "FOREVER / YOU KEEP WHAT YOU CLAIM",
+  "PIRATE SHOP / ACCESS",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "FORTNITE IS GIVING",
+  "AWAY THE ENTIRE",
+  "ITEM SHOP FOR",
+  "FREE.",
+  "HERE'S HOW IT",
+  "WORKS!",
+  "THIS SEASON,",
+  "EVERY CHEST YOU",
+  "OPEN HAS A",
+  "TINY CHANCE TO",
+  "DROP PIRATE SHOP",
+  "ACCESS.",
+  "ACTIVATE IT,",
+  "AND FOR 14",
+  "DAYS,",
+  "EVERYTHING THAT COSTS",
+  "V-BUCKS IS FREE.",
+  "SKINS,",
+  "EMOTES,",
+  "PICKAXES,",
+  "GLIDERS.",
+  "AND YOU KEEP",
+  "THEM FOREVER.",
+  "WOULD YOU EVEN",
+  "KNOW WHAT TO",
+  "GRAB FIRST?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
