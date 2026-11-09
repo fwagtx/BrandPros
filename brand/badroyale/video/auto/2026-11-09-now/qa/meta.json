@@ -1,0 +1,95 @@
+{
+ "duration": 18.8,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Cyber Infiltration Pack",
+ "claims": [
+  {
+   "text": "Cyber Infiltration Pack is in the Item Shop for 2026-11-09",
+   "source": "shop.json",
+   "match": [
+    "Cyber Infiltration Pack",
+    "\"date\": \"2026-11-09"
+   ]
+  },
+  {
+   "text": "Price 2,200 V-Bucks (listed regular price 3,600)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 3600, \"finalPrice\": 2200"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-09",
+   "source": "shop.json",
+   "match": [
+    "2026-11-09T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Chigusa is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Chigusa"
+   ]
+  },
+  {
+   "text": "Megumi is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Megumi"
+   ]
+  },
+  {
+   "text": "Yuki is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Yuki"
+   ]
+  },
+  {
+   "text": "Guard Pup is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Guard Pup"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "CHIGUSA",
+  "MEGUMI",
+  "YUKI",
+  "CYBER INFILTRATION PACK",
+  "CHIGUSA, MEGUMI, YUKI AND 3 MORE ITEMS",
+  "2,200 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 11",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE CYBER INFILTRATION",
+  "PACK.",
+  "CHIGUSA,",
+  "MEGUMI,",
+  "YUKI AND 3",
+  "MORE ITEMS.",
+  "2,200 V-BUCKS,",
+  "INSTEAD OF 3,600.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "11TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
