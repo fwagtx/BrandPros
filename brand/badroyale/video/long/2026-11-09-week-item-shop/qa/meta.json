@@ -1,0 +1,668 @@
+{
+ "duration": 241.9,
+ "caption": "#EpicPartner Everything in the Fortnite Item Shop this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Adventure Time Bundle: 3800 (listed 10300), in 2026-11-02 out 2026-11-06",
+   "source": "week.json",
+   "match": [
+    "Adventure Time Bundle",
+    "\"final\": 3800, \"regular\": 10300, \"in\": \"2026-11-02\", \"out\": \"2026-11-06\"",
+    "Finn the Human",
+    "Jake the Dog",
+    "Princess Bubblegum",
+    "Marceline"
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle: 3200 (listed 8800), in 2026-11-06 out 2026-12-06",
+   "source": "week.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"final\": 3200, \"regular\": 8800, \"in\": \"2026-11-06\", \"out\": \"2026-12-06\"",
+    "Helicopter Flacko",
+    "Rocky Rugahand"
+   ]
+  },
+  {
+   "text": "Straw Hats Bundle: 3200 (listed 4900), in 2026-11-08 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "Straw Hats Bundle",
+    "\"final\": 3200, \"regular\": 4900, \"in\": \"2026-11-08\", \"out\": \"2026-12-05\"",
+    "Roronoa Zoro",
+    "Sanji"
+   ]
+  },
+  {
+   "text": "One Piece Bundle out 12-05",
+   "source": "week.json",
+   "match": [
+    "One Piece Bundle",
+    "\"out\": \"2026-12-05\""
+   ]
+  },
+  {
+   "text": "One Piece Bundle: 4000 (listed 8200), in 2026-11-01 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "One Piece Bundle",
+    "\"final\": 4000, \"regular\": 8200, \"in\": \"2026-11-01\", \"out\": \"2026-12-05\"",
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp"
+   ]
+  },
+  {
+   "text": "KPop Demon Hunters Bundle: 3500 (listed 7200), in 2026-11-04 out 2026-11-08",
+   "source": "week.json",
+   "match": [
+    "KPop Demon Hunters Bundle",
+    "\"final\": 3500, \"regular\": 7200, \"in\": \"2026-11-04\", \"out\": \"2026-11-08\"",
+    "Rumi (HUNTR/X)",
+    "Mira (HUNTR/X)",
+    "Zoey (HUNTR/X)"
+   ]
+  },
+  {
+   "text": "Ben 10 Bundle: 4000 (listed 6700), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Ben 10 Bundle",
+    "\"final\": 4000, \"regular\": 6700, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Ben Tennyson",
+    "Gwen Tennyson"
+   ]
+  },
+  {
+   "text": "Star Wars Samurai Bundle: 3200 (listed 5600), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Star Wars Samurai Bundle",
+    "\"final\": 3200, \"regular\": 5600, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Darth Vader Samurai",
+    "Stormtrooper Samurai"
+   ]
+  },
+  {
+   "text": "Pumpkin King & Sally Bundle: 3400 (listed 5100), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Pumpkin King & Sally Bundle",
+    "\"final\": 3400, \"regular\": 5100, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Pumpkin King",
+    "Sally"
+   ]
+  },
+  {
+   "text": "Jack Skellington Bundle",
+   "source": "week.json",
+   "match": [
+    "Jack Skellington Bundle",
+    "\"final\": 2600, \"regular\": 4000, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\""
+   ]
+  },
+  {
+   "text": "Lola Bunny & Daffy Duck Bundle: 3200 (listed 5100), in 2026-11-06 out 2026-11-09",
+   "source": "week.json",
+   "match": [
+    "Lola Bunny & Daffy Duck Bundle",
+    "\"final\": 3200, \"regular\": 5100, \"in\": \"2026-11-06\", \"out\": \"2026-11-09\"",
+    "Lola Bunny",
+    "Daffy Duck"
+   ]
+  },
+  {
+   "text": "Rambo Bundle: 2200 (listed 3800), in 2026-11-03 out 2026-11-07",
+   "source": "week.json",
+   "match": [
+    "Rambo Bundle",
+    "\"final\": 2200, \"regular\": 3800, \"in\": \"2026-11-03\", \"out\": \"2026-11-07\"",
+    "John Rambo"
+   ]
+  },
+  {
+   "text": "Champions of Mandalore Bundle: 2500 (listed 3600), in 2026-11-04 out 2026-11-07",
+   "source": "week.json",
+   "match": [
+    "Champions of Mandalore Bundle",
+    "\"final\": 2500, \"regular\": 3600, \"in\": \"2026-11-04\", \"out\": \"2026-11-07\"",
+    "Mandalorian Warrior"
+   ]
+  },
+  {
+   "text": "Edward Scissorhands Bundle: 2500 (listed 3000), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Edward Scissorhands Bundle",
+    "\"final\": 2500, \"regular\": 3000, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Edward Scissorhands"
+   ]
+  },
+  {
+   "text": "Deadpool Mashups: 2000 (listed 3000), in 2026-11-08 out 2026-11-11",
+   "source": "week.json",
+   "match": [
+    "Deadpool Mashups",
+    "\"final\": 2000, \"regular\": 3000, \"in\": \"2026-11-08\", \"out\": \"2026-11-11\"",
+    "Ravenpool",
+    "Cuddlepool"
+   ]
+  },
+  {
+   "text": "Hospital Emergency Bundle: 2200 (listed 5000), in 2026-11-05 out 2026-11-07",
+   "source": "week.json",
+   "match": [
+    "Hospital Emergency Bundle",
+    "\"final\": 2200, \"regular\": 5000, \"in\": \"2026-11-05\", \"out\": \"2026-11-07\"",
+    "Nurse Miyako",
+    "Nurse Hikari"
+   ]
+  },
+  {
+   "text": "Brainrot Bundle: 2400 (listed 4300), in 2026-11-07 out 2026-11-09",
+   "source": "week.json",
+   "match": [
+    "Brainrot Bundle",
+    "\"final\": 2400, \"regular\": 4300, \"in\": \"2026-11-07\", \"out\": \"2026-11-09\"",
+    "Tung Tung Tung Sahur",
+    "Ballerina Cappuccina"
+   ]
+  },
+  {
+   "text": "Class President Nemia Bundle: 1800 (listed 2800), in 2026-11-07 out 2026-11-13",
+   "source": "week.json",
+   "match": [
+    "Class President Nemia Bundle",
+    "\"final\": 1800, \"regular\": 2800, \"in\": \"2026-11-07\", \"out\": \"2026-11-13\"",
+    "Class President Nemia"
+   ]
+  },
+  {
+   "text": "32 bundles with an in date 2026-11-03..2026-11-09",
+   "source": "week.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "Academy Champions Gear Bundle",
+    "Adanna of the Deep Bundle",
+    "Aerosol Assassins Bundle",
+    "Allen the Alien Bundle",
+    "Andromeda Bundle",
+    "Beat Man Bundle",
+    "Ben 10 Bundle",
+    "Brainrot Bundle",
+    "Champions of Mandalore Bundle",
+    "Class President Nemia Bundle",
+    "Cuddle Stompers Bundle",
+    "Deadpool Gear Bundle",
+    "Edward Scissorhands Bundle",
+    "Elite Kado Thorne Bundle",
+    "Fate-Carved Warrior Bundle",
+    "Golden King Bundle",
+    "Guardians of the Globe Bundle",
+    "Guardians of the Globe Gear Bundle",
+    "Gummi Team Leader Bundle",
+    "Hospital Emergency Bundle",
+    "Jack Skellington Bundle",
+    "KPop Demon Hunters Bundle",
+    "Lola Bunny & Daffy Duck Bundle",
+    "Oatley's Locker Bundle",
+    "Orelia Bundle",
+    "Painted Dusk Bundle",
+    "Pumpkin King & Sally Bundle",
+    "Rambo Bundle",
+    "Star Wars Samurai Bundle",
+    "Stellaron Hunter Kafka Bundle",
+    "Straw Hats Bundle"
+   ]
+  },
+  {
+   "text": "Aerosol Assassins Bundle: 2500 (listed 6400), in 2026-11-06 out 2026-11-07",
+   "source": "week.json",
+   "match": [
+    "Aerosol Assassins Bundle",
+    "\"final\": 2500, \"regular\": 6400, \"in\": \"2026-11-06\", \"out\": \"2026-11-07\"",
+    "Komplex",
+    "Abstrakt"
+   ]
+  },
+  {
+   "text": "Golden King Bundle: 2500 (listed 3300), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Golden King Bundle",
+    "\"final\": 2500, \"regular\": 3300, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Ascendant Midas"
+   ]
+  },
+  {
+   "text": "Orelia Bundle: 2200 (listed 3200), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Orelia Bundle",
+    "\"final\": 2200, \"regular\": 3200, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Orelia"
+   ]
+  },
+  {
+   "text": "Cyber Infiltration Pack: 2200 (listed 3600), in 2026-11-09 out 2026-11-11",
+   "source": "week.json",
+   "match": [
+    "Cyber Infiltration Pack",
+    "\"final\": 2200, \"regular\": 3600, \"in\": \"2026-11-09\", \"out\": \"2026-11-11\"",
+    "Chigusa",
+    "Megumi",
+    "Yuki"
+   ]
+  },
+  {
+   "text": "Infiltrator: Chapter 1, Season 1",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Infiltrator\", \"introduction\": \"Introduced in Chapter 1, Season 1.\""
+   ]
+  },
+  {
+   "text": "Steelsight: Chapter 1, Season 3",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Steelsight\", \"introduction\": \"Introduced in Chapter 1, Season 3.\""
+   ]
+  },
+  {
+   "text": "Abstrakt: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Abstrakt\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Dante: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Dante\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Rosa: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Rosa\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Tender Defender: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Tender Defender\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Fishstick: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Fishstick\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Skully: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Skully\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Sparkplug: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Sparkplug\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Ice King and Lemongrab Bundle: 3200 (listed 5400), in 2026-11-02 out 2026-11-06",
+   "source": "week.json",
+   "match": [
+    "Ice King and Lemongrab Bundle",
+    "\"final\": 3200, \"regular\": 5400, \"in\": \"2026-11-02\", \"out\": \"2026-11-06\"",
+    "Ice King",
+    "The Earl of Lemongrab"
+   ]
+  },
+  {
+   "text": "Mariah Carey Bundle: 2800 (listed 4300), in 2026-11-01 out 2026-11-04",
+   "source": "week.json",
+   "match": [
+    "Mariah Carey Bundle",
+    "\"final\": 2800, \"regular\": 4300, \"in\": \"2026-11-01\", \"out\": \"2026-11-04\"",
+    "Santa Suit Mariah",
+    "Mariah Carey"
+   ]
+  },
+  {
+   "text": "Guardians of the Globe Bundle: 2800 (listed 4500), in 2026-11-05 out 2026-11-08",
+   "source": "week.json",
+   "match": [
+    "Guardians of the Globe Bundle",
+    "\"final\": 2800, \"regular\": 4500, \"in\": \"2026-11-05\", \"out\": \"2026-11-08\"",
+    "Omni-Man",
+    "Invincible",
+    "Atom Eve"
+   ]
+  },
+  {
+   "text": "Ben 10 Bundle: 4000 (listed 6700), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Ben 10 Bundle",
+    "\"final\": 4000, \"regular\": 6700, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Ben Tennyson",
+    "Gwen Tennyson"
+   ]
+  },
+  {
+   "text": "Pumpkin King & Sally Bundle: 3400 (listed 5100), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Pumpkin King & Sally Bundle",
+    "\"final\": 3400, \"regular\": 5100, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Pumpkin King",
+    "Sally"
+   ]
+  },
+  {
+   "text": "Edward Scissorhands Bundle: 2500 (listed 3000), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Edward Scissorhands Bundle",
+    "\"final\": 2500, \"regular\": 3000, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Edward Scissorhands"
+   ]
+  }
+ ],
+ "text": [
+  "NOV 3 - NOV 9 / THIS WEEK'S / ITEM SHOP",
+  "BIGGEST BUNDLE / ADVENTURE / TIME",
+  "BIGGEST BUNDLE OF THE WEEK",
+  "ADVENTURE TIME · 3,800 V-BUCKS",
+  "FINN THE HUMAN",
+  "JAKE THE DOG",
+  "PRINCESS BUBBLEGUM",
+  "MARCELINE",
+  "NEW THIS WEEK / FRESH IN / THE SHOP",
+  "NEW THIS WEEK",
+  "A$AP ROCKY · 3,200 V-BUCKS",
+  "HELICOPTER FLACKO",
+  "ROCKY RUGAHAND",
+  "STRAW HATS · 3,200 V-BUCKS",
+  "RORONOA ZORO",
+  "SANJI",
+  "ONE PIECE · 4,000 V-BUCKS",
+  "MONKEY D. LUFFY",
+  "NAMI",
+  "USOPP",
+  "KPOP DEMON HUNTERS · 3,500 V-BUCKS",
+  "RUMI (HUNTR/X)",
+  "MIRA (HUNTR/X)",
+  "ZOEY (HUNTR/X)",
+  "BEN 10 · 4,000 V-BUCKS",
+  "BEN TENNYSON",
+  "GWEN TENNYSON",
+  "STAR WARS SAMURAI · 3,200 V-BUCKS",
+  "DARTH VADER SAMURAI",
+  "STORMTROOPER SAMURAI",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "MORE NEW BUNDLES / THE REST OF / THE NEW DROPS",
+  "MORE NEW BUNDLES",
+  "PUMPKIN KING + SALLY · 3,400",
+  "PUMPKIN KING",
+  "SALLY",
+  "LOLA BUNNY + DAFFY DUCK · 3,200",
+  "LOLA BUNNY",
+  "DAFFY DUCK",
+  "RAMBO · 2,200 V-BUCKS",
+  "JOHN RAMBO",
+  "CHAMPIONS OF MANDALORE · 2,500",
+  "MANDALORIAN WARRIOR",
+  "EDWARD SCISSORHANDS · 2,500",
+  "EDWARD SCISSORHANDS",
+  "DEADPOOL MASHUPS · 2,000 V-BUCKS",
+  "RAVENPOOL",
+  "CUDDLEPOOL",
+  "HOSPITAL EMERGENCY · 2,200 V-BUCKS",
+  "NURSE MIYAKO",
+  "NURSE HIKARI",
+  "BRAINROT · 2,400 V-BUCKS",
+  "TUNG TUNG TUNG SAHUR",
+  "BALLERINA CAPPUCCINA",
+  "CLASS PRESIDENT NEMIA · 1,800",
+  "CLASS PRESIDENT NEMIA",
+  "32 / NEW BUNDLES THIS WEEK",
+  "AEROSOL ASSASSINS · 2,500 V-BUCKS",
+  "KOMPLEX",
+  "ABSTRAKT",
+  "NEW TODAY / FRESH THIS / MORNING",
+  "NEW TODAY",
+  "GOLDEN KING · 2,500 V-BUCKS",
+  "ASCENDANT MIDAS",
+  "ORELIA · 2,200 V-BUCKS",
+  "ORELIA",
+  "CYBER INFILTRATION PACK · 2,200",
+  "CHIGUSA",
+  "MEGUMI",
+  "YUKI",
+  "OG CHECK / CHAPTER 1 / RETURNS",
+  "OG CHECK",
+  "CHAPTER 1 OGS THIS WEEK",
+  "INFILTRATOR",
+  "STEELSIGHT",
+  "DANTE",
+  "ROSA",
+  "TENDER DEFENDER",
+  "FISHSTICK",
+  "SKULLY",
+  "SPARKPLUG",
+  "GONE THIS WEEK / LAST CHANCE / WAS THIS WEEK",
+  "GONE THIS WEEK",
+  "ICE KING AND LEMONGRAB · 3,200",
+  "ICE KING",
+  "THE EARL OF LEMONGRAB",
+  "MARIAH CAREY · 2,800 V-BUCKS",
+  "SANTA SUIT MARIAH",
+  "MARIAH CAREY",
+  "GUARDIANS OF THE GLOBE · 2,800",
+  "OMNI-MAN",
+  "INVINCIBLE",
+  "ATOM EVE",
+  "LEAVING SOON / IN THE SHOP / UNTIL NOV 10",
+  "LEAVING TOMORROW",
+  "BEN 10 · UNTIL NOV 10",
+  "PUMPKIN KING + SALLY · UNTIL NOV 10",
+  "EDWARD SCISSORHANDS · UNTIL NOV 10",
+  "QUICK RECAP / A$AP ROCKY · STRAW HATS / BEN 10 · STAR WARS SAMURAI",
+  "RECAP",
+  "THIS IS THIS WEEK'S FORTNITE ITEM",
+  "SHOP!",
+  "THE BIGGEST BUNDLES,",
+  "EVERY NEW DROP,",
+  "AND EVERY OG THAT CAME BACK.",
+  "SEVEN DAYS OF THE SHOP,",
+  "FROM NOVEMBER 3RD TO NOVEMBER 9TH,",
+  "STRAIGHT FROM EPIC'S OWN ITEM SHOP",
+  "DATA.",
+  "LET'S GET INTO IT!",
+  "FIRST,",
+  "THE BIGGEST BUNDLE OF THE WEEK.",
+  "THE ADVENTURE TIME BUNDLE!",
+  "FINN,",
+  "JAKE,",
+  "PRINCESS BUBBLEGUM,",
+  "MARCELINE,",
+  "AND MORE.",
+  "13 ITEMS.",
+  "LISTED AT 10,300 V-BUCKS,",
+  "IT SOLD FOR 3,800.",
+  "IT WAS IN THE SHOP UNTIL",
+  "NOVEMBER 6TH,",
+  "SO IF YOU MISSED IT,",
+  "IT'S GONE FOR NOW.",
+  "NOW,",
+  "THE NEW STUFF.",
+  "THESE ALL WENT LIVE THIS WEEK.",
+  "ON NOVEMBER 6TH,",
+  "THE A$AP ROCKY BUNDLE DROPPED,",
+  "WITH HELICOPTER FLACKO AND ROCKY RUGAHAND.",
+  "13 ITEMS FOR 3,200 V-BUCKS,",
+  "LISTED AT 8,800.",
+  "AND IT STAYS UNTIL DECEMBER 6TH.",
+  "ON NOVEMBER 8TH,",
+  "MORE ONE PIECE.",
+  "THE STRAW HATS BUNDLE,",
+  "WITH RORONOA ZORO AND SANJI,",
+  "FOR 3,200 V-BUCKS,",
+  "LISTED AT 4,900.",
+  "IT'S IN THE SHOP UNTIL DECEMBER",
+  "5TH,",
+  "AND THE ONE PIECE BUNDLE STAYS",
+  "UNTIL DECEMBER 5TH TOO.",
+  "THAT'S THE ONE WITH MONKEY D.",
+  "LUFFY,",
+  "NAMI AND USOPP,",
+  "4,000 V-BUCKS,",
+  "LISTED AT 8,200.",
+  "ON NOVEMBER 4TH,",
+  "THE KPOP DEMON HUNTERS BUNDLE.",
+  "RUMI,",
+  "MIRA AND ZOEY OF HUNTR/X,",
+  "FOR 3,500 V-BUCKS,",
+  "LISTED AT 7,200.",
+  "THAT ONE WAS IN THE SHOP",
+  "UNTIL NOVEMBER 8TH.",
+  "ON NOVEMBER 7TH,",
+  "THE BEN 10 BUNDLE,",
+  "WITH BEN AND GWEN TENNYSON.",
+  "LISTED AT 6,700,",
+  "UNTIL NOVEMBER 10TH.",
+  "AND TODAY,",
+  "THE STAR WARS SAMURAI BUNDLE.",
+  "DARTH VADER SAMURAI AND STORMTROOPER SAMURAI,",
+  "3,200 V-BUCKS,",
+  "LISTED AT 5,600.",
+  "IF YOU'RE GRABBING ANY OF THESE,",
+  "USE CODE BAD IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS THE CHANNEL.",
+  "A LOT MORE BUNDLES SHOWED UP",
+  "DURING THE WEEK.",
+  "THE PUMPKIN KING AND SALLY BUNDLE",
+  "FOR 3,400,",
+  "WITH A JACK SKELLINGTON BUNDLE FOR",
+  "2,600.",
+  "LOLA BUNNY AND DAFFY DUCK,",
+  "3,200 V-BUCKS FOR THE PAIR.",
+  "ON NOVEMBER 3RD,",
+  "THE RAMBO BUNDLE,",
+  "FOR 2,200 V-BUCKS.",
+  "AND THE CHAMPIONS OF MANDALORE BUNDLE,",
+  "FOR 2,500 V-BUCKS.",
+  "THE EDWARD SCISSORHANDS BUNDLE,",
+  "AND ON NOVEMBER 8TH,",
+  "DEADPOOL MASHUPS,",
+  "WITH RAVENPOOL AND CUDDLEPOOL,",
+  "FOR 2,000 V-BUCKS.",
+  "ON NOVEMBER 5TH,",
+  "THE HOSPITAL EMERGENCY BUNDLE,",
+  "WITH NURSE MIYAKO AND NURSE HIKARI.",
+  "2,200 V-BUCKS,",
+  "LISTED AT 5,000.",
+  "THE BRAINROT BUNDLE,",
+  "FOR 2,400 V-BUCKS.",
+  "AND THE CLASS PRESIDENT NEMIA BUNDLE,",
+  "FOR 1,800.",
+  "THAT ONE STAYS UNTIL NOVEMBER 13TH.",
+  "ADD IT ALL UP,",
+  "AND 32 NEW BUNDLES WENT LIVE",
+  "THIS WEEK.",
+  "ONE MORE YOU MIGHT HAVE MISSED.",
+  "THE AEROSOL ASSASSINS BUNDLE,",
+  "WITH KOMPLEX AND ABSTRAKT.",
+  "2,500 V-BUCKS,",
+  "LISTED AT 6,400,",
+  "AND IT WAS IN THE SHOP",
+  "UNTIL NOVEMBER 7TH.",
+  "AND A FEW MORE LANDED IN",
+  "TODAY'S SHOP.",
+  "THE GOLDEN KING BUNDLE,",
+  "WITH ASCENDANT MIDAS,",
+  "THE ORELIA BUNDLE,",
+  "FOR 2,200.",
+  "AND THE CYBER INFILTRATION PACK,",
+  "WITH CHIGUSA,",
+  "MEGUMI AND YUKI,",
+  "FOR 2,200 V-BUCKS,",
+  "LISTED AT 3,600.",
+  "THE OG CHECK.",
+  "THESE CHAPTER 1 OUTFITS ALL CAME",
+  "BACK THIS WEEK.",
+  "INFILTRATOR,",
+  "FROM CHAPTER 1,",
+  "SEASON 1.",
+  "THAT'S THE OLDEST ONE THIS WEEK.",
+  "STEELSIGHT,",
+  "FROM SEASON 3,",
+  "AND ABSTRAKT,",
+  "FROM SEASON 4.",
+  "DANTE,",
+  "ROSA AND TENDER DEFENDER,",
+  "ALL FROM SEASON 6.",
+  "AND FISHSTICK,",
+  "SKULLY AND SPARKPLUG,",
+  "FROM SEASON 7.",
+  "A FEW BIG ONES ALSO LEFT",
+  "THE SHOP THIS WEEK.",
+  "THE ICE KING AND LEMONGRAB BUNDLE",
+  "WAS IN THE SHOP UNTIL NOVEMBER",
+  "6TH,",
+  "SAME AS ADVENTURE TIME.",
+  "THE MARIAH CAREY BUNDLE WAS IN",
+  "THE SHOP UNTIL NOVEMBER 4TH.",
+  "AND THE GUARDIANS OF THE GLOBE",
+  "BUNDLE,",
+  "WITH OMNI-MAN,",
+  "INVINCIBLE AND ATOM EVE,",
+  "CAME IN ON NOVEMBER 5TH FOR",
+  "2,800 V-BUCKS AND WAS IN THE",
+  "SHOP UNTIL NOVEMBER 8TH,",
+  "SAME AS KPOP DEMON HUNTERS.",
+  "AND SOME ARE LEAVING SOON.",
+  "THESE ARE IN THE SHOP UNTIL",
+  "TOMORROW,",
+  "NOVEMBER 10TH.",
+  "THE BEN 10 BUNDLE.",
+  "THE PUMPKIN KING AND SALLY BUNDLE,",
+  "AND THE JACK SKELLINGTON BUNDLE.",
+  "AND THE EDWARD SCISSORHANDS BUNDLE.",
+  "SO IF YOU WANT ONE OF",
+  "THESE,",
+  "TODAY'S THE DAY TO DECIDE.",
+  "QUICK RECAP.",
+  "BIGGEST BUNDLE:",
+  "ADVENTURE TIME.",
+  "STAYING THE LONGEST:",
+  "A$AP ROCKY,",
+  "THE ONE PIECE BUNDLE AND THE",
+  "STRAW HATS.",
+  "NEW TODAY:",
+  "STAR WARS SAMURAI.",
+  "32 NEW BUNDLES IN SEVEN DAYS,",
+  "AND NINE CHAPTER 1 OGS CAME",
+  "BACK.",
+  "WHICH BUNDLE DID YOU GRAB THIS",
+  "WEEK?",
+  "TELL ME IN THE COMMENTS!",
+  "THANK YOU FOR WATCHING!",
+  "FOLLOW FOR MORE DAILY CONTENT.",
+  "CODE BAD · ROYALE",
+  "#EPICPARTNER"
+ ]
+}
