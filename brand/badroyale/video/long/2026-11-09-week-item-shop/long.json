@@ -1,0 +1,746 @@
+{
+ "title": "This Week's Fortnite Item Shop",
+ "caption": "#EpicPartner Everything in the Fortnite Item Shop this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Adventure Time Bundle: 3800 (listed 10300), in 2026-11-02 out 2026-11-06",
+   "source": "week.json",
+   "match": [
+    "Adventure Time Bundle",
+    "\"final\": 3800, \"regular\": 10300, \"in\": \"2026-11-02\", \"out\": \"2026-11-06\"",
+    "Finn the Human",
+    "Jake the Dog",
+    "Princess Bubblegum",
+    "Marceline"
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle: 3200 (listed 8800), in 2026-11-06 out 2026-12-06",
+   "source": "week.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"final\": 3200, \"regular\": 8800, \"in\": \"2026-11-06\", \"out\": \"2026-12-06\"",
+    "Helicopter Flacko",
+    "Rocky Rugahand"
+   ]
+  },
+  {
+   "text": "Straw Hats Bundle: 3200 (listed 4900), in 2026-11-08 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "Straw Hats Bundle",
+    "\"final\": 3200, \"regular\": 4900, \"in\": \"2026-11-08\", \"out\": \"2026-12-05\"",
+    "Roronoa Zoro",
+    "Sanji"
+   ]
+  },
+  {
+   "text": "One Piece Bundle out 12-05",
+   "source": "week.json",
+   "match": [
+    "One Piece Bundle",
+    "\"out\": \"2026-12-05\""
+   ]
+  },
+  {
+   "text": "KPop Demon Hunters Bundle: 3500 (listed 7200), in 2026-11-04 out 2026-11-08",
+   "source": "week.json",
+   "match": [
+    "KPop Demon Hunters Bundle",
+    "\"final\": 3500, \"regular\": 7200, \"in\": \"2026-11-04\", \"out\": \"2026-11-08\"",
+    "Rumi (HUNTR/X)",
+    "Mira (HUNTR/X)",
+    "Zoey (HUNTR/X)"
+   ]
+  },
+  {
+   "text": "Ben 10 Bundle: 4000 (listed 6700), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Ben 10 Bundle",
+    "\"final\": 4000, \"regular\": 6700, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Ben Tennyson",
+    "Gwen Tennyson"
+   ]
+  },
+  {
+   "text": "Star Wars Samurai Bundle: 3200 (listed 5600), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Star Wars Samurai Bundle",
+    "\"final\": 3200, \"regular\": 5600, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Darth Vader Samurai",
+    "Stormtrooper Samurai"
+   ]
+  },
+  {
+   "text": "Pumpkin King & Sally Bundle: 3400 (listed 5100), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Pumpkin King & Sally Bundle",
+    "\"final\": 3400, \"regular\": 5100, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Pumpkin King",
+    "Sally"
+   ]
+  },
+  {
+   "text": "Jack Skellington Bundle",
+   "source": "week.json",
+   "match": [
+    "Jack Skellington Bundle",
+    "\"final\": 2600, \"regular\": 4000, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\""
+   ]
+  },
+  {
+   "text": "Lola Bunny & Daffy Duck Bundle: 3200 (listed 5100), in 2026-11-06 out 2026-11-09",
+   "source": "week.json",
+   "match": [
+    "Lola Bunny & Daffy Duck Bundle",
+    "\"final\": 3200, \"regular\": 5100, \"in\": \"2026-11-06\", \"out\": \"2026-11-09\"",
+    "Lola Bunny",
+    "Daffy Duck"
+   ]
+  },
+  {
+   "text": "Rambo Bundle: 2200 (listed 3800), in 2026-11-03 out 2026-11-07",
+   "source": "week.json",
+   "match": [
+    "Rambo Bundle",
+    "\"final\": 2200, \"regular\": 3800, \"in\": \"2026-11-03\", \"out\": \"2026-11-07\"",
+    "John Rambo"
+   ]
+  },
+  {
+   "text": "Champions of Mandalore Bundle: 2500 (listed 3600), in 2026-11-04 out 2026-11-07",
+   "source": "week.json",
+   "match": [
+    "Champions of Mandalore Bundle",
+    "\"final\": 2500, \"regular\": 3600, \"in\": \"2026-11-04\", \"out\": \"2026-11-07\"",
+    "Mandalorian Warrior"
+   ]
+  },
+  {
+   "text": "Edward Scissorhands Bundle: 2500 (listed 3000), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Edward Scissorhands Bundle",
+    "\"final\": 2500, \"regular\": 3000, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Edward Scissorhands"
+   ]
+  },
+  {
+   "text": "Deadpool Mashups: 2000 (listed 3000), in 2026-11-08 out 2026-11-11",
+   "source": "week.json",
+   "match": [
+    "Deadpool Mashups",
+    "\"final\": 2000, \"regular\": 3000, \"in\": \"2026-11-08\", \"out\": \"2026-11-11\"",
+    "Ravenpool",
+    "Cuddlepool"
+   ]
+  },
+  {
+   "text": "Aerosol Assassins Bundle: 2500 (listed 6400), in 2026-11-06 out 2026-11-07",
+   "source": "week.json",
+   "match": [
+    "Aerosol Assassins Bundle",
+    "\"final\": 2500, \"regular\": 6400, \"in\": \"2026-11-06\", \"out\": \"2026-11-07\"",
+    "Komplex",
+    "Abstrakt"
+   ]
+  },
+  {
+   "text": "Golden King Bundle: 2500 (listed 3300), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Golden King Bundle",
+    "\"final\": 2500, \"regular\": 3300, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Ascendant Midas"
+   ]
+  },
+  {
+   "text": "Orelia Bundle: 2200 (listed 3200), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Orelia Bundle",
+    "\"final\": 2200, \"regular\": 3200, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Orelia"
+   ]
+  },
+  {
+   "text": "Cyber Infiltration Pack: 2200 (listed 3600), in 2026-11-09 out 2026-11-11",
+   "source": "week.json",
+   "match": [
+    "Cyber Infiltration Pack",
+    "\"final\": 2200, \"regular\": 3600, \"in\": \"2026-11-09\", \"out\": \"2026-11-11\"",
+    "Chigusa",
+    "Megumi",
+    "Yuki"
+   ]
+  },
+  {
+   "text": "Infiltrator: Chapter 1, Season 1",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Infiltrator\", \"introduction\": \"Introduced in Chapter 1, Season 1.\""
+   ]
+  },
+  {
+   "text": "Steelsight: Chapter 1, Season 3",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Steelsight\", \"introduction\": \"Introduced in Chapter 1, Season 3.\""
+   ]
+  },
+  {
+   "text": "Abstrakt: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Abstrakt\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Dante: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Dante\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Rosa: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Rosa\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Tender Defender: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Tender Defender\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Fishstick: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Fishstick\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Skully: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Skully\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Sparkplug: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Sparkplug\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Ice King and Lemongrab Bundle: 3200 (listed 5400), in 2026-11-02 out 2026-11-06",
+   "source": "week.json",
+   "match": [
+    "Ice King and Lemongrab Bundle",
+    "\"final\": 3200, \"regular\": 5400, \"in\": \"2026-11-02\", \"out\": \"2026-11-06\"",
+    "Ice King",
+    "The Earl of Lemongrab"
+   ]
+  },
+  {
+   "text": "Mariah Carey Bundle: 2800 (listed 4300), in 2026-11-01 out 2026-11-04",
+   "source": "week.json",
+   "match": [
+    "Mariah Carey Bundle",
+    "\"final\": 2800, \"regular\": 4300, \"in\": \"2026-11-01\", \"out\": \"2026-11-04\"",
+    "Santa Suit Mariah",
+    "Mariah Carey"
+   ]
+  },
+  {
+   "text": "Guardians of the Globe Bundle: 2800 (listed 4500), in 2026-11-05 out 2026-11-08",
+   "source": "week.json",
+   "match": [
+    "Guardians of the Globe Bundle",
+    "\"final\": 2800, \"regular\": 4500, \"in\": \"2026-11-05\", \"out\": \"2026-11-08\"",
+    "Omni-Man",
+    "Invincible",
+    "Atom Eve"
+   ]
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "NOV 3 - NOV 9",
+   "lines": [
+    "This Week's",
+    "Item Shop"
+   ]
+  },
+  {
+   "type": "title",
+   "p": 3,
+   "chapter": "Biggest bundle of the week",
+   "kicker": "BIGGEST BUNDLE",
+   "lines": [
+    "Adventure",
+    "Time"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 4,
+   "title": "Adventure Time Bundle · 3,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_puzzleshed.png",
+     "name": "Finn the Human",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_twinkleloop.png",
+     "name": "Jake the Dog",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_chiveflake.png",
+     "name": "Princess Bubblegum",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_cajuntaco.png",
+     "name": "Marceline",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 7,
+   "chapter": "New this week",
+   "kicker": "NEW THIS WEEK",
+   "lines": [
+    "Fresh in",
+    "the shop"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 8,
+   "title": "A$AP Rocky Bundle · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_tonicmailweb.png",
+     "name": "Helicopter Flacko",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_tonicmailyam.png",
+     "name": "Rocky Rugahand",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 10,
+   "title": "Straw Hats Bundle · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_brandcreed.png",
+     "name": "Roronoa Zoro",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_insightbawl.png",
+     "name": "Sanji",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 12,
+   "title": "KPop Demon Hunters Bundle · 3,500 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_loanfloat.png",
+     "name": "Rumi (HUNTR/X)",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_quailwink.png",
+     "name": "Mira (HUNTR/X)",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_evokefind.png",
+     "name": "Zoey (HUNTR/X)",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 14,
+   "title": "Ben 10 Bundle · 4,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_biomehose.png",
+     "name": "Ben Tennyson",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_wordunity.png",
+     "name": "Gwen Tennyson",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 15,
+   "title": "Star Wars Samurai Bundle · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_sequinpie.png",
+     "name": "Darth Vader Samurai",
+     "rarity": "starwars"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_beettread.png",
+     "name": "Stormtrooper Samurai",
+     "rarity": "starwars"
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "p": 16
+  },
+  {
+   "type": "title",
+   "p": 17,
+   "chapter": "More new bundles",
+   "kicker": "MORE NEW BUNDLES",
+   "lines": [
+    "The rest of",
+    "the new drops"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 18,
+   "title": "Pumpkin King & Sally Bundle · 3,400 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_burntbagel.png",
+     "name": "Pumpkin King",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_haybrush.png",
+     "name": "Sally",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 19,
+   "title": "Lola Bunny & Daffy Duck Bundle · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_brinegleam.png",
+     "name": "Lola Bunny",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_notchgnarl.png",
+     "name": "Daffy Duck",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 20,
+   "title": "Rambo Bundle · 2,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_raisinhunt_rag.png",
+     "name": "John Rambo",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 21,
+   "title": "Champions of Mandalore Bundle · 2,500 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_wingbath.png",
+     "name": "Mandalorian Warrior",
+     "rarity": "starwars"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 22,
+   "title": "Edward Scissorhands Bundle · 2,500 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_shrimpstroll.png",
+     "name": "Edward Scissorhands",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 23,
+   "title": "Deadpool Mashups · 2,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_745_athena_commando_m_ravenquill.png",
+     "name": "Ravenpool",
+     "rarity": "marvel"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_746_athena_commando_f_fuzzybear.png",
+     "name": "Cuddlepool",
+     "rarity": "marvel"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 24,
+   "title": "Aerosol Assassins Bundle · 2,500 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_665_athena_commando_f_neongraffiti.png",
+     "name": "Komplex",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_121_athena_commando_m_graffiti.png",
+     "name": "Abstrakt",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 26,
+   "chapter": "New today",
+   "kicker": "NEW TODAY",
+   "lines": [
+    "Fresh this",
+    "morning"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 27,
+   "title": "Golden King Bundle · 2,500 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_piteouskicks.png",
+     "name": "Ascendant Midas",
+     "rarity": "legendary"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 28,
+   "title": "Orelia Bundle · 2,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_a_057_athena_commando_f_thegoldenskeleton.png",
+     "name": "Orelia",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 29,
+   "title": "Cyber Infiltration Pack · 2,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_a_048_athena_commando_f_sailorsquadleader.png",
+     "name": "Chigusa",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_a_049_athena_commando_f_sailorsquadrebel.png",
+     "name": "Megumi",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_a_050_athena_commando_f_sailorsquadrose.png",
+     "name": "Yuki",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 30,
+   "chapter": "OG check",
+   "kicker": "OG CHECK",
+   "lines": [
+    "Chapter 1",
+    "returns"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 31,
+   "title": "Chapter 1 OGs this week",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_019_athena_commando_m.png",
+     "name": "Infiltrator",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_111_athena_commando_f_robo.png",
+     "name": "Steelsight",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_121_athena_commando_m_graffiti.png",
+     "name": "Abstrakt",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/companion_triododge.png",
+     "name": "Dante",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_251_athena_commando_f_muertos.png",
+     "name": "Rosa",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 33,
+   "title": "Chapter 1 OGs this week",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_274_athena_commando_m_feathers.png",
+     "name": "Tender Defender",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_315_athena_commando_m_teriyakifish.png",
+     "name": "Fishstick",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_341_athena_commando_f_skullbrite.png",
+     "name": "Skully",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_335_athena_commando_f_scrapyard.png",
+     "name": "Sparkplug",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 35,
+   "chapter": "Gone this week",
+   "kicker": "GONE THIS WEEK",
+   "lines": [
+    "Last chance",
+    "was this week"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 36,
+   "title": "Ice King and Lemongrab Bundle · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_sonnetspirit.png",
+     "name": "Ice King",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_fairymochi.png",
+     "name": "The Earl of Lemongrab",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 37,
+   "title": "Mariah Carey Bundle · 2,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_pastelglazegift.png",
+     "name": "Santa Suit Mariah",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_pastelglazegrain.png",
+     "name": "Mariah Carey",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 38,
+   "title": "Guardians of the Globe Bundle · 2,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_sharpmagnet.png",
+     "name": "Omni-Man",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_openended.png",
+     "name": "Invincible",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_timeinterval.png",
+     "name": "Atom Eve",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 39,
+   "chapter": "Recap",
+   "kicker": "QUICK RECAP",
+   "lines": [
+    "A$AP Rocky · Straw Hats",
+    "Ben 10 · Star Wars Samurai"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 43
+  }
+ ]
+}
