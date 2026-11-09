@@ -43,6 +43,17 @@
    ]
   },
   {
+   "text": "One Piece Bundle: 4000 (listed 8200), in 2026-11-01 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "One Piece Bundle",
+    "\"final\": 4000, \"regular\": 8200, \"in\": \"2026-11-01\", \"out\": \"2026-12-05\"",
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp"
+   ]
+  },
+  {
    "text": "KPop Demon Hunters Bundle: 3500 (listed 7200), in 2026-11-04 out 2026-11-08",
    "source": "week.json",
    "match": [
@@ -462,6 +473,28 @@
   {
    "type": "items",
    "p": 12,
+   "title": "One Piece · 4,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_celerystitch.png",
+     "name": "Monkey D. Luffy",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_boastjoint.png",
+     "name": "Nami",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_loomrise.png",
+     "name": "Usopp",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 13,
    "title": "KPop Demon Hunters · 3,500 V-Bucks",
    "items": [
     {
@@ -483,7 +516,7 @@
   },
   {
    "type": "items",
-   "p": 14,
+   "p": 15,
    "title": "Ben 10 · 4,000 V-Bucks",
    "items": [
     {
@@ -500,7 +533,7 @@
   },
   {
    "type": "items",
-   "p": 15,
+   "p": 16,
    "title": "Star Wars Samurai · 3,200 V-Bucks",
    "items": [
     {
@@ -517,11 +550,11 @@
   },
   {
    "type": "code",
-   "p": 16
+   "p": 17
   },
   {
    "type": "title",
-   "p": 17,
+   "p": 18,
    "chapter": "More new bundles",
    "kicker": "MORE NEW BUNDLES",
    "lines": [
@@ -531,7 +564,7 @@
   },
   {
    "type": "items",
-   "p": 18,
+   "p": 19,
    "title": "Pumpkin King + Sally · 3,400",
    "items": [
     {
@@ -548,7 +581,7 @@
   },
   {
    "type": "items",
-   "p": 19,
+   "p": 20,
    "title": "Lola Bunny + Daffy Duck · 3,200",
    "items": [
     {
@@ -565,7 +598,7 @@
   },
   {
    "type": "items",
-   "p": 20,
+   "p": 21,
    "title": "Rambo · 2,200 V-Bucks",
    "items": [
     {
@@ -577,7 +610,7 @@
   },
   {
    "type": "items",
-   "p": 21,
+   "p": 22,
    "title": "Champions of Mandalore · 2,500",
    "items": [
     {
@@ -589,7 +622,7 @@
   },
   {
    "type": "items",
-   "p": 22,
+   "p": 23,
    "title": "Edward Scissorhands · 2,500",
    "items": [
     {
@@ -601,7 +634,7 @@
   },
   {
    "type": "items",
-   "p": 23,
+   "p": 24,
    "title": "Deadpool Mashups · 2,000 V-Bucks",
    "items": [
     {
@@ -618,7 +651,7 @@
   },
   {
    "type": "items",
-   "p": 24,
+   "p": 25,
    "title": "Hospital Emergency · 2,200 V-Bucks",
    "items": [
     {
@@ -635,7 +668,7 @@
   },
   {
    "type": "items",
-   "p": 25,
+   "p": 26,
    "title": "Brainrot · 2,400 V-Bucks",
    "items": [
     {
@@ -652,7 +685,7 @@
   },
   {
    "type": "items",
-   "p": 26,
+   "p": 27,
    "title": "Class President Nemia · 1,800",
    "items": [
     {
@@ -664,13 +697,13 @@
   },
   {
    "type": "stat",
-   "p": 27,
+   "p": 28,
    "big": "32",
    "label": "new bundles this week"
   },
   {
    "type": "items",
-   "p": 28,
+   "p": 29,
    "title": "Aerosol Assassins · 2,500 V-Bucks",
    "items": [
     {
@@ -687,7 +720,7 @@
   },
   {
    "type": "title",
-   "p": 30,
+   "p": 31,
    "chapter": "New today",
    "kicker": "NEW TODAY",
    "lines": [
@@ -697,7 +730,7 @@
   },
   {
    "type": "items",
-   "p": 31,
+   "p": 32,
    "title": "Golden King · 2,500 V-Bucks",
    "items": [
     {
@@ -709,7 +742,7 @@
   },
   {
    "type": "items",
-   "p": 32,
+   "p": 33,
    "title": "Orelia · 2,200 V-Bucks",
    "items": [
     {
@@ -721,7 +754,7 @@
   },
   {
    "type": "items",
-   "p": 33,
+   "p": 34,
    "title": "Cyber Infiltration Pack · 2,200",
    "items": [
     {
@@ -743,7 +776,7 @@
   },
   {
    "type": "title",
-   "p": 34,
+   "p": 35,
    "chapter": "OG check",
    "kicker": "OG CHECK",
    "lines": [
@@ -753,7 +786,7 @@
   },
   {
    "type": "items",
-   "p": 35,
+   "p": 36,
    "title": "Chapter 1 OGs this week",
    "items": [
     {
@@ -785,7 +818,7 @@
   },
   {
    "type": "items",
-   "p": 37,
+   "p": 38,
    "title": "Chapter 1 OGs this week",
    "items": [
     {
@@ -812,7 +845,7 @@
   },
   {
    "type": "title",
-   "p": 39,
+   "p": 40,
    "chapter": "Gone this week",
    "kicker": "GONE THIS WEEK",
    "lines": [
@@ -822,7 +855,7 @@
   },
   {
    "type": "items",
-   "p": 40,
+   "p": 41,
    "title": "Ice King and Lemongrab · 3,200",
    "items": [
     {
@@ -839,7 +872,7 @@
   },
   {
    "type": "items",
-   "p": 41,
+   "p": 42,
    "title": "Mariah Carey · 2,800 V-Bucks",
    "items": [
     {
@@ -856,7 +889,7 @@
   },
   {
    "type": "items",
-   "p": 42,
+   "p": 43,
    "title": "Guardians of the Globe · 2,800",
    "items": [
     {
@@ -878,7 +911,7 @@
   },
   {
    "type": "title",
-   "p": 43,
+   "p": 44,
    "chapter": "Leaving tomorrow",
    "kicker": "LEAVING SOON",
    "lines": [
@@ -888,7 +921,7 @@
   },
   {
    "type": "items",
-   "p": 44,
+   "p": 45,
    "title": "Ben 10 · until Nov 10",
    "items": [
     {
@@ -905,7 +938,7 @@
   },
   {
    "type": "items",
-   "p": 45,
+   "p": 46,
    "title": "Pumpkin King + Sally · until Nov 10",
    "items": [
     {
@@ -922,7 +955,7 @@
   },
   {
    "type": "items",
-   "p": 46,
+   "p": 47,
    "title": "Edward Scissorhands · until Nov 10",
    "items": [
     {
@@ -934,7 +967,7 @@
   },
   {
    "type": "title",
-   "p": 47,
+   "p": 48,
    "chapter": "Recap",
    "kicker": "QUICK RECAP",
    "lines": [
@@ -944,7 +977,7 @@
   },
   {
    "type": "code",
-   "p": 51
+   "p": 52
   }
  ]
 }
