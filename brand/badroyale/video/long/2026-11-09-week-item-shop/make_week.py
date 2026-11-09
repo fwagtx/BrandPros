@@ -104,7 +104,14 @@ def vb(n):
 
 def show(name, outfits, title=None, extra=None):
     e, m = bundle(name)
-    S.append({"type": "items", "p": len(P), "title": title or f"{name} · {vb(e['final'])} V-Bucks", "items": [it(o) for o in outfits]})
+    if not title:
+        short = name.replace(" Bundle", "").replace(" & ", " + ")
+        title = f"{short} · {vb(e['final'])} V-Bucks"
+        if len(title) > 34:
+            title = f"{short} · {vb(e['final'])}"
+        if len(title) > 34:
+            title = short
+    S.append({"type": "items", "p": len(P), "title": title, "items": [it(o) for o in outfits]})
     claim(f"{name}: {e['final']} (listed {e['regular']}), in {e['in']} out {e['out']}", name, m, *outfits)
     return e
 
@@ -163,6 +170,17 @@ say(f"On {day(e['in'])}, the Edward Scissorhands Bundle, for {vb(e['final'])} V-
 e = show("Deadpool Mashups", ["Ravenpool", "Cuddlepool"])
 say(f"And on {day(e['in'])}, Deadpool Mashups, with Ravenpool and Cuddlepool, for {vb(e['final'])} V-Bucks.", 0.4)
 
+e = show("Hospital Emergency Bundle", ["Nurse Miyako", "Nurse Hikari"])
+say(f"On {day(e['in'])}, the Hospital Emergency Bundle, with Nurse Miyako and Nurse Hikari. {vb(e['final'])} V-Bucks, listed at {vb(e['regular'])}.")
+e = show("Brainrot Bundle", ["Tung Tung Tung Sahur", "Ballerina Cappuccina"])
+say(f"On {day(e['in'])}, the Brainrot Bundle, for {vb(e['final'])} V-Bucks.")
+e = show("Class President Nemia Bundle", ["Class President Nemia"])
+say(f"And the Class President Nemia Bundle, for {vb(e['final'])}. That one stays until {day(e['out'])}.", 0.4)
+new_b = sorted(k for k, v in B.items() if FIRST <= v["in"] <= LAST and k.endswith("Bundle"))
+S.append({"type": "stat", "p": len(P), "big": str(len(new_b)), "label": "new bundles this week"})
+say(f"Add it all up, and {len(new_b)} new bundles went live this week.", 0.4)
+claim(f"{len(new_b)} bundles with an in date {FIRST}..{LAST}", *new_b)
+
 # one-day deal
 e = show("Aerosol Assassins Bundle", ["Komplex", "Abstrakt"])
 say(f"One more you might have missed. On {day(e['in'])}, the Aerosol Assassins Bundle, with Komplex and Abstrakt.")
@@ -200,6 +218,16 @@ e = show("Mariah Carey Bundle", ["Santa Suit Mariah", "Mariah Carey"])
 say(f"The Mariah Carey Bundle was in the shop until {day(e['out'])}.")
 e = show("Guardians of the Globe Bundle", ["Omni-Man", "Invincible", "Atom Eve"])
 say(f"And the Guardians of the Globe Bundle, with Omni-Man, Invincible and Atom Eve, came in on {day(e['in'])} for {vb(e['final'])} V-Bucks and was in the shop until {day(e['out'])}, same as KPop Demon Hunters.", 0.4)
+
+# leaving tomorrow
+p = say("And some are leaving soon. These are in the shop until tomorrow, November 10th.")
+S.append({"type": "title", "p": p, "chapter": "Leaving tomorrow", "kicker": "LEAVING SOON", "lines": ["In the shop", "until Nov 10"]})
+e = show("Ben 10 Bundle", ["Ben Tennyson", "Gwen Tennyson"], title="Ben 10 · until Nov 10")
+say("The Ben 10 Bundle.")
+e = show("Pumpkin King & Sally Bundle", ["Pumpkin King", "Sally"], title="Pumpkin King + Sally · until Nov 10")
+say("The Pumpkin King and Sally Bundle, and the Jack Skellington Bundle.")
+e = show("Edward Scissorhands Bundle", ["Edward Scissorhands"], title="Edward Scissorhands · until Nov 10")
+say("And the Edward Scissorhands Bundle. So if you want one of these, today's the day to decide.", 0.4)
 
 # 6. recap
 p = say("Quick recap.")

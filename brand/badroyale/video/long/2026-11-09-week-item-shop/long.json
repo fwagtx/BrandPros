@@ -139,6 +139,73 @@
    ]
   },
   {
+   "text": "Hospital Emergency Bundle: 2200 (listed 5000), in 2026-11-05 out 2026-11-07",
+   "source": "week.json",
+   "match": [
+    "Hospital Emergency Bundle",
+    "\"final\": 2200, \"regular\": 5000, \"in\": \"2026-11-05\", \"out\": \"2026-11-07\"",
+    "Nurse Miyako",
+    "Nurse Hikari"
+   ]
+  },
+  {
+   "text": "Brainrot Bundle: 2400 (listed 4300), in 2026-11-07 out 2026-11-09",
+   "source": "week.json",
+   "match": [
+    "Brainrot Bundle",
+    "\"final\": 2400, \"regular\": 4300, \"in\": \"2026-11-07\", \"out\": \"2026-11-09\"",
+    "Tung Tung Tung Sahur",
+    "Ballerina Cappuccina"
+   ]
+  },
+  {
+   "text": "Class President Nemia Bundle: 1800 (listed 2800), in 2026-11-07 out 2026-11-13",
+   "source": "week.json",
+   "match": [
+    "Class President Nemia Bundle",
+    "\"final\": 1800, \"regular\": 2800, \"in\": \"2026-11-07\", \"out\": \"2026-11-13\"",
+    "Class President Nemia"
+   ]
+  },
+  {
+   "text": "32 bundles with an in date 2026-11-03..2026-11-09",
+   "source": "week.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "Academy Champions Gear Bundle",
+    "Adanna of the Deep Bundle",
+    "Aerosol Assassins Bundle",
+    "Allen the Alien Bundle",
+    "Andromeda Bundle",
+    "Beat Man Bundle",
+    "Ben 10 Bundle",
+    "Brainrot Bundle",
+    "Champions of Mandalore Bundle",
+    "Class President Nemia Bundle",
+    "Cuddle Stompers Bundle",
+    "Deadpool Gear Bundle",
+    "Edward Scissorhands Bundle",
+    "Elite Kado Thorne Bundle",
+    "Fate-Carved Warrior Bundle",
+    "Golden King Bundle",
+    "Guardians of the Globe Bundle",
+    "Guardians of the Globe Gear Bundle",
+    "Gummi Team Leader Bundle",
+    "Hospital Emergency Bundle",
+    "Jack Skellington Bundle",
+    "KPop Demon Hunters Bundle",
+    "Lola Bunny & Daffy Duck Bundle",
+    "Oatley's Locker Bundle",
+    "Orelia Bundle",
+    "Painted Dusk Bundle",
+    "Pumpkin King & Sally Bundle",
+    "Rambo Bundle",
+    "Star Wars Samurai Bundle",
+    "Stellaron Hunter Kafka Bundle",
+    "Straw Hats Bundle"
+   ]
+  },
+  {
    "text": "Aerosol Assassins Bundle: 2500 (listed 6400), in 2026-11-06 out 2026-11-07",
    "source": "week.json",
    "match": [
@@ -270,6 +337,35 @@
     "Invincible",
     "Atom Eve"
    ]
+  },
+  {
+   "text": "Ben 10 Bundle: 4000 (listed 6700), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Ben 10 Bundle",
+    "\"final\": 4000, \"regular\": 6700, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Ben Tennyson",
+    "Gwen Tennyson"
+   ]
+  },
+  {
+   "text": "Pumpkin King & Sally Bundle: 3400 (listed 5100), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Pumpkin King & Sally Bundle",
+    "\"final\": 3400, \"regular\": 5100, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Pumpkin King",
+    "Sally"
+   ]
+  },
+  {
+   "text": "Edward Scissorhands Bundle: 2500 (listed 3000), in 2026-11-07 out 2026-11-10",
+   "source": "week.json",
+   "match": [
+    "Edward Scissorhands Bundle",
+    "\"final\": 2500, \"regular\": 3000, \"in\": \"2026-11-07\", \"out\": \"2026-11-10\"",
+    "Edward Scissorhands"
+   ]
   }
  ],
  "segments": [
@@ -295,7 +391,7 @@
   {
    "type": "items",
    "p": 4,
-   "title": "Adventure Time Bundle · 3,800 V-Bucks",
+   "title": "Adventure Time · 3,800 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_puzzleshed.png",
@@ -332,7 +428,7 @@
   {
    "type": "items",
    "p": 8,
-   "title": "A$AP Rocky Bundle · 3,200 V-Bucks",
+   "title": "A$AP Rocky · 3,200 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_tonicmailweb.png",
@@ -349,7 +445,7 @@
   {
    "type": "items",
    "p": 10,
-   "title": "Straw Hats Bundle · 3,200 V-Bucks",
+   "title": "Straw Hats · 3,200 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_brandcreed.png",
@@ -366,7 +462,7 @@
   {
    "type": "items",
    "p": 12,
-   "title": "KPop Demon Hunters Bundle · 3,500 V-Bucks",
+   "title": "KPop Demon Hunters · 3,500 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_loanfloat.png",
@@ -388,7 +484,7 @@
   {
    "type": "items",
    "p": 14,
-   "title": "Ben 10 Bundle · 4,000 V-Bucks",
+   "title": "Ben 10 · 4,000 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_biomehose.png",
@@ -405,7 +501,7 @@
   {
    "type": "items",
    "p": 15,
-   "title": "Star Wars Samurai Bundle · 3,200 V-Bucks",
+   "title": "Star Wars Samurai · 3,200 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_sequinpie.png",
@@ -436,7 +532,7 @@
   {
    "type": "items",
    "p": 18,
-   "title": "Pumpkin King & Sally Bundle · 3,400 V-Bucks",
+   "title": "Pumpkin King + Sally · 3,400",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_burntbagel.png",
@@ -453,7 +549,7 @@
   {
    "type": "items",
    "p": 19,
-   "title": "Lola Bunny & Daffy Duck Bundle · 3,200 V-Bucks",
+   "title": "Lola Bunny + Daffy Duck · 3,200",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_brinegleam.png",
@@ -470,7 +566,7 @@
   {
    "type": "items",
    "p": 20,
-   "title": "Rambo Bundle · 2,200 V-Bucks",
+   "title": "Rambo · 2,200 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_raisinhunt_rag.png",
@@ -482,7 +578,7 @@
   {
    "type": "items",
    "p": 21,
-   "title": "Champions of Mandalore Bundle · 2,500 V-Bucks",
+   "title": "Champions of Mandalore · 2,500",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_wingbath.png",
@@ -494,7 +590,7 @@
   {
    "type": "items",
    "p": 22,
-   "title": "Edward Scissorhands Bundle · 2,500 V-Bucks",
+   "title": "Edward Scissorhands · 2,500",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_shrimpstroll.png",
@@ -523,7 +619,59 @@
   {
    "type": "items",
    "p": 24,
-   "title": "Aerosol Assassins Bundle · 2,500 V-Bucks",
+   "title": "Hospital Emergency · 2,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_shadetoll.png",
+     "name": "Nurse Miyako",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_shintoll.png",
+     "name": "Nurse Hikari",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 25,
+   "title": "Brainrot · 2,400 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_choruspunt.png",
+     "name": "Tung Tung Tung Sahur",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_lumpymuddy.png",
+     "name": "Ballerina Cappuccina",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 26,
+   "title": "Class President Nemia · 1,800",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_pocketbobble.png",
+     "name": "Class President Nemia",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 27,
+   "big": "32",
+   "label": "new bundles this week"
+  },
+  {
+   "type": "items",
+   "p": 28,
+   "title": "Aerosol Assassins · 2,500 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_665_athena_commando_f_neongraffiti.png",
@@ -539,7 +687,7 @@
   },
   {
    "type": "title",
-   "p": 26,
+   "p": 30,
    "chapter": "New today",
    "kicker": "NEW TODAY",
    "lines": [
@@ -549,8 +697,8 @@
   },
   {
    "type": "items",
-   "p": 27,
-   "title": "Golden King Bundle · 2,500 V-Bucks",
+   "p": 31,
+   "title": "Golden King · 2,500 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_piteouskicks.png",
@@ -561,8 +709,8 @@
   },
   {
    "type": "items",
-   "p": 28,
-   "title": "Orelia Bundle · 2,200 V-Bucks",
+   "p": 32,
+   "title": "Orelia · 2,200 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_a_057_athena_commando_f_thegoldenskeleton.png",
@@ -573,8 +721,8 @@
   },
   {
    "type": "items",
-   "p": 29,
-   "title": "Cyber Infiltration Pack · 2,200 V-Bucks",
+   "p": 33,
+   "title": "Cyber Infiltration Pack · 2,200",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/cid_a_048_athena_commando_f_sailorsquadleader.png",
@@ -595,7 +743,7 @@
   },
   {
    "type": "title",
-   "p": 30,
+   "p": 34,
    "chapter": "OG check",
    "kicker": "OG CHECK",
    "lines": [
@@ -605,7 +753,7 @@
   },
   {
    "type": "items",
-   "p": 31,
+   "p": 35,
    "title": "Chapter 1 OGs this week",
    "items": [
     {
@@ -637,7 +785,7 @@
   },
   {
    "type": "items",
-   "p": 33,
+   "p": 37,
    "title": "Chapter 1 OGs this week",
    "items": [
     {
@@ -664,7 +812,7 @@
   },
   {
    "type": "title",
-   "p": 35,
+   "p": 39,
    "chapter": "Gone this week",
    "kicker": "GONE THIS WEEK",
    "lines": [
@@ -674,8 +822,8 @@
   },
   {
    "type": "items",
-   "p": 36,
-   "title": "Ice King and Lemongrab Bundle · 3,200 V-Bucks",
+   "p": 40,
+   "title": "Ice King and Lemongrab · 3,200",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_sonnetspirit.png",
@@ -691,8 +839,8 @@
   },
   {
    "type": "items",
-   "p": 37,
-   "title": "Mariah Carey Bundle · 2,800 V-Bucks",
+   "p": 41,
+   "title": "Mariah Carey · 2,800 V-Bucks",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_pastelglazegift.png",
@@ -708,8 +856,8 @@
   },
   {
    "type": "items",
-   "p": 38,
-   "title": "Guardians of the Globe Bundle · 2,800 V-Bucks",
+   "p": 42,
+   "title": "Guardians of the Globe · 2,800",
    "items": [
     {
      "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_sharpmagnet.png",
@@ -730,7 +878,63 @@
   },
   {
    "type": "title",
-   "p": 39,
+   "p": 43,
+   "chapter": "Leaving tomorrow",
+   "kicker": "LEAVING SOON",
+   "lines": [
+    "In the shop",
+    "until Nov 10"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 44,
+   "title": "Ben 10 · until Nov 10",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_biomehose.png",
+     "name": "Ben Tennyson",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_wordunity.png",
+     "name": "Gwen Tennyson",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 45,
+   "title": "Pumpkin King + Sally · until Nov 10",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_burntbagel.png",
+     "name": "Pumpkin King",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_haybrush.png",
+     "name": "Sally",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 46,
+   "title": "Edward Scissorhands · until Nov 10",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-09-week-item-shop/img/character_shrimpstroll.png",
+     "name": "Edward Scissorhands",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 47,
    "chapter": "Recap",
    "kicker": "QUICK RECAP",
    "lines": [
@@ -740,7 +944,7 @@
   },
   {
    "type": "code",
-   "p": 43
+   "p": 51
   }
  ]
 }
