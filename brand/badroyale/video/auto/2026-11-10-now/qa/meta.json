@@ -1,0 +1,95 @@
+{
+ "duration": 19.2,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Masters of the Universe Bundle",
+ "claims": [
+  {
+   "text": "Masters of the Universe Bundle is in the Item Shop for 2026-11-10",
+   "source": "shop.json",
+   "match": [
+    "Masters of the Universe Bundle",
+    "\"date\": \"2026-11-10"
+   ]
+  },
+  {
+   "text": "Price 3,600 V-Bucks (listed regular price 6,700)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 6700, \"finalPrice\": 3600"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-10",
+   "source": "shop.json",
+   "match": [
+    "2026-11-10T00:00:00Z"
+   ]
+  },
+  {
+   "text": "He-Man is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "He-Man"
+   ]
+  },
+  {
+   "text": "Skeletor is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Skeletor"
+   ]
+  },
+  {
+   "text": "She-Ra is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "She-Ra"
+   ]
+  },
+  {
+   "text": "Power Scabbard is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Power Scabbard"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "HE-MAN",
+  "SKELETOR",
+  "SHE-RA",
+  "MASTERS OF THE UNIVERSE BUNDLE",
+  "HE-MAN, SKELETOR, SHE-RA AND 9 MORE ITEMS",
+  "3,600 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 13",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE MASTERS OF",
+  "THE UNIVERSE BUNDLE.",
+  "HE-MAN,",
+  "SKELETOR,",
+  "SHE-RA AND 9",
+  "MORE ITEMS.",
+  "3,600 V-BUCKS,",
+  "INSTEAD OF 6,700.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "13TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
