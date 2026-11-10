@@ -1,0 +1,11 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's in-game data)",
+ "files": [
+  {
+   "file": "shop.json",
+   "source": "Item Shop for 2026-11-10",
+   "url": "https://fortnite-api.com/v2/shop",
+   "fetched_utc": "2026-11-10T15:42:38Z"
+  }
+ ]
+}

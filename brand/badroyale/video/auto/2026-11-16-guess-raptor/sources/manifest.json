@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's cosmetics data)",
+ "files": [
+  {
+   "file": "CID_031_Athena_Commando_M_Retro.json",
+   "source": "Epic cosmetics data for Raptor",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Raptor",
+   "fetched_utc": "2026-11-10T15:42:56Z"
+  },
+  {
+   "file": "CID_082_Athena_Commando_M_Scavenger.json",
+   "source": "Epic cosmetics data for Rust Lord",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Rust%20Lord",
+   "fetched_utc": "2026-11-10T15:42:56Z"
+  },
+  {
+   "file": "CID_104_Athena_Commando_F_Bunny.json",
+   "source": "Epic cosmetics data for Bunny Brawler",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Bunny%20Brawler",
+   "fetched_utc": "2026-11-10T15:42:56Z"
+  }
+ ]
+}
