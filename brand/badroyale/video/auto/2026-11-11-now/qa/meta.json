@@ -1,0 +1,96 @@
+{
+ "duration": 19.8,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Mega Man Bundle",
+ "claims": [
+  {
+   "text": "Mega Man Bundle is in the Item Shop for 2026-11-11",
+   "source": "shop.json",
+   "match": [
+    "Mega Man Bundle",
+    "\"date\": \"2026-11-11"
+   ]
+  },
+  {
+   "text": "Price 3,800 V-Bucks (listed regular price 7,300)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 7300, \"finalPrice\": 3800"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-11",
+   "source": "shop.json",
+   "match": [
+    "2026-11-11T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Mega Man (Dual Override) is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Mega Man (Dual Override)"
+   ]
+  },
+  {
+   "text": "Mega Man X is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Mega Man X"
+   ]
+  },
+  {
+   "text": "Zero (Mega Man) is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Zero (Mega Man)"
+   ]
+  },
+  {
+   "text": "E-Tank Power Pack is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "E-Tank Power Pack"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "MEGA MAN (DUAL OVERRIDE)",
+  "MEGA MAN X",
+  "ZERO (MEGA MAN)",
+  "MEGA MAN BUNDLE",
+  "MEGA MAN (DUAL OVERRIDE), MEGA MAN X, ZERO (MEGA MAN) AND 6 MORE ITEMS",
+  "3,800 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 15",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE MEGA MAN",
+  "BUNDLE.",
+  "MEGA MAN (DUAL",
+  "OVERRIDE),",
+  "MEGA MAN X,",
+  "AND 6 MORE",
+  "ITEMS.",
+  "3,800 V-BUCKS,",
+  "INSTEAD OF 7,300.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "15TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
