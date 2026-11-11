@@ -1,0 +1,906 @@
+{
+ "title": "Fortnite Map Quiz",
+ "map": "blank",
+ "caption": "#EpicPartner Can you name every place on the new Fortnite map? Use code BAD in the Item Shop.\n#Fortnite #FortniteMap",
+ "claims": [
+  {
+   "text": "17 places on the map: 12 named locations, 5 landmarks",
+   "source": "map.json",
+   "match": [
+    "Boogie Boat",
+    "Lantern Landing",
+    "Baratie",
+    "Plunder Port",
+    "The Chest",
+    "Arlong Park",
+    "Windmill Village",
+    "Henry",
+    "Fortune's Fort",
+    "The $.$. Rocky",
+    "Busy Bay",
+    "Rubber Resort",
+    "Cursed Cavern",
+    "Giant's Battlefield",
+    "Loot Lagoon",
+    "The Salty Skull",
+    "Loguetown"
+   ],
+   "visual": "12 ids with .POI., 5 UnNamedPOI ids"
+  },
+  {
+   "text": "Game build is v43.00",
+   "source": "build.json",
+   "match": [
+    "Release-43.00"
+   ]
+  },
+  {
+   "text": "Loot Lagoon: named location, in the north of the map, closest named Fortune's Fort ~340 m",
+   "source": "map.json",
+   "match": [
+    "Loot Lagoon",
+    "Fortune's Fort"
+   ],
+   "visual": "map pixel (1069.6, 869.6); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Plunder Port: named location, in the south of the map, closest named Busy Bay ~410 m",
+   "source": "map.json",
+   "match": [
+    "Plunder Port",
+    "Busy Bay"
+   ],
+   "visual": "map pixel (1150.3, 1606.1); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "The Chest: named location, in the north-west of the map, closest named Rubber Resort ~250 m",
+   "source": "map.json",
+   "match": [
+    "The Chest",
+    "Rubber Resort"
+   ],
+   "visual": "map pixel (762.1, 875.4); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "The $.$. Rocky: named location, in the east of the map, closest named Cursed Cavern ~370 m",
+   "source": "map.json",
+   "match": [
+    "The $.$. Rocky",
+    "Cursed Cavern"
+   ],
+   "visual": "map pixel (1415.7, 1216.9); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Arlong Park ~420 m from The Chest",
+   "source": "map.json",
+   "match": [
+    "Arlong Park",
+    "The Chest"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Arlong Park: named location, in the west of the map, closest named Lantern Landing ~410 m",
+   "source": "map.json",
+   "match": [
+    "Arlong Park",
+    "Lantern Landing"
+   ],
+   "visual": "map pixel (634.8, 1123.2); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Fortune's Fort ~340 m from Loot Lagoon",
+   "source": "map.json",
+   "match": [
+    "Fortune's Fort",
+    "Loot Lagoon"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Fortune's Fort: named location, in the north-east of the map, second closest named Cursed Cavern ~500 m",
+   "source": "map.json",
+   "match": [
+    "Fortune's Fort",
+    "Cursed Cavern"
+   ],
+   "visual": "map pixel (1293.7, 836.3); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Loguetown ~420 m from Plunder Port",
+   "source": "map.json",
+   "match": [
+    "Loguetown",
+    "Plunder Port"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Loguetown: named location, in the south of the map, closest named Windmill Village ~360 m",
+   "source": "map.json",
+   "match": [
+    "Loguetown",
+    "Windmill Village"
+   ],
+   "visual": "map pixel (988.7, 1382.2); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Rubber Resort ~250 m from The Chest",
+   "source": "map.json",
+   "match": [
+    "Rubber Resort",
+    "The Chest"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Rubber Resort: named location, in the north-west of the map, second closest named Loot Lagoon ~450 m",
+   "source": "map.json",
+   "match": [
+    "Rubber Resort",
+    "Loot Lagoon"
+   ],
+   "visual": "map pixel (817.7, 718.0); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Busy Bay ~400 m from The $.$. Rocky",
+   "source": "map.json",
+   "match": [
+    "Busy Bay",
+    "The $.$. Rocky"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Busy Bay: named location, in the south-east of the map, second closest named Plunder Port ~410 m",
+   "source": "map.json",
+   "match": [
+    "Busy Bay",
+    "Plunder Port"
+   ],
+   "visual": "map pixel (1387.9, 1481.5); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Lantern Landing ~340 m from The Chest",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "The Chest"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Lantern Landing: named location, near the center of the map, second closest named Loot Lagoon ~380 m",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "Loot Lagoon"
+   ],
+   "visual": "map pixel (898.7, 1049.7); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Cursed Cavern ~370 m from The $.$. Rocky",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern",
+    "The $.$. Rocky"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Cursed Cavern: named location, near the center of the map, second closest named Loot Lagoon ~460 m",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern",
+    "Loot Lagoon"
+   ],
+   "visual": "map pixel (1184.2, 1147.6); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Windmill Village ~360 m from Loguetown",
+   "source": "map.json",
+   "match": [
+    "Windmill Village",
+    "Loguetown"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Windmill Village: named location, in the south-west of the map, second closest named Arlong Park ~510 m",
+   "source": "map.json",
+   "match": [
+    "Windmill Village",
+    "Arlong Park"
+   ],
+   "visual": "map pixel (754.5, 1437.6); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Boogie Boat ~330 m from Fortune's Fort",
+   "source": "map.json",
+   "match": [
+    "Boogie Boat",
+    "Fortune's Fort"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Boogie Boat: landmark, in the east of the map, second closest named The $.$. Rocky ~350 m",
+   "source": "map.json",
+   "match": [
+    "Boogie Boat",
+    "The $.$. Rocky"
+   ],
+   "visual": "map pixel (1445.9, 988.8); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "The Salty Skull ~120 m from Cursed Cavern",
+   "source": "map.json",
+   "match": [
+    "The Salty Skull",
+    "Cursed Cavern"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "The Salty Skull: landmark, in the south-east of the map, second closest named The $.$. Rocky ~320 m",
+   "source": "map.json",
+   "match": [
+    "The Salty Skull",
+    "The $.$. Rocky"
+   ],
+   "visual": "map pixel (1206.1, 1224.3); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Baratie ~40 m from Busy Bay",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Busy Bay"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Baratie: landmark, in the south-east of the map, second closest named The $.$. Rocky ~390 m",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "The $.$. Rocky"
+   ],
+   "visual": "map pixel (1411.1, 1476.8); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Henry ~180 m from Plunder Port",
+   "source": "map.json",
+   "match": [
+    "Henry",
+    "Plunder Port"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Henry: landmark, in the south-east of the map, second closest named Busy Bay ~280 m",
+   "source": "map.json",
+   "match": [
+    "Henry",
+    "Busy Bay"
+   ],
+   "visual": "map pixel (1203.2, 1500.4); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Giant's Battlefield ~220 m from Loguetown",
+   "source": "map.json",
+   "match": [
+    "Giant's Battlefield",
+    "Loguetown"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Giant's Battlefield: landmark, near the center of the map, second closest named Lantern Landing ~300 m",
+   "source": "map.json",
+   "match": [
+    "Giant's Battlefield",
+    "Lantern Landing"
+   ],
+   "visual": "map pixel (952.6, 1243.0); unlabeled official map; distances between official POI coordinates"
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "MAP QUIZ",
+   "lines": [
+    "Can you name every",
+    "place on the map?"
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 1,
+   "big": "17",
+   "label": "places on the official map"
+  },
+  {
+   "type": "title",
+   "p": 3,
+   "chapter": "Round 1: named locations",
+   "kicker": "ROUND 1",
+   "lines": [
+    "The 12 named",
+    "locations"
+   ]
+  },
+  {
+   "type": "map",
+   "p": 4,
+   "x": 1069.6,
+   "y": 869.6,
+   "z": 1.0,
+   "name": "Place 1 of 17",
+   "sub": "Named location · in the north of the map",
+   "pins": [
+    {
+     "x": 1069.6,
+     "y": 869.6,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 6,
+   "x": 1069.6,
+   "y": 869.6,
+   "z": 1.35,
+   "name": "Loot Lagoon",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 1069.6,
+     "y": 869.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 8,
+   "x": 1150.3,
+   "y": 1606.1,
+   "z": 1.0,
+   "name": "Place 2 of 17",
+   "sub": "Named location · in the south of the map",
+   "pins": [
+    {
+     "x": 1150.3,
+     "y": 1606.1,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 10,
+   "x": 1150.3,
+   "y": 1606.1,
+   "z": 1.35,
+   "name": "Plunder Port",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 1150.3,
+     "y": 1606.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 12,
+   "x": 762.1,
+   "y": 875.4,
+   "z": 1.0,
+   "name": "Place 3 of 17",
+   "sub": "Named location · in the north-west of the map",
+   "pins": [
+    {
+     "x": 762.1,
+     "y": 875.4,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 14,
+   "x": 762.1,
+   "y": 875.4,
+   "z": 1.35,
+   "name": "The Chest",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 762.1,
+     "y": 875.4,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 16,
+   "x": 1415.7,
+   "y": 1216.9,
+   "z": 1.0,
+   "name": "Place 4 of 17",
+   "sub": "Named location · in the east of the map",
+   "pins": [
+    {
+     "x": 1415.7,
+     "y": 1216.9,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 18,
+   "x": 1415.7,
+   "y": 1216.9,
+   "z": 1.35,
+   "name": "The $.$. Rocky",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 1415.7,
+     "y": 1216.9,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 20,
+   "x": 634.8,
+   "y": 1123.2,
+   "z": 1.0,
+   "name": "Place 5 of 17",
+   "sub": "Named location · in the west of the map",
+   "pins": [
+    {
+     "x": 634.8,
+     "y": 1123.2,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 23,
+   "x": 634.8,
+   "y": 1123.2,
+   "z": 1.35,
+   "name": "Arlong Park",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 634.8,
+     "y": 1123.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 25,
+   "x": 1293.7,
+   "y": 836.3,
+   "z": 1.0,
+   "name": "Place 6 of 17",
+   "sub": "Named location · in the north-east of the map",
+   "pins": [
+    {
+     "x": 1293.7,
+     "y": 836.3,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 28,
+   "x": 1293.7,
+   "y": 836.3,
+   "z": 1.35,
+   "name": "Fortune's Fort",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 1293.7,
+     "y": 836.3,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 30,
+   "x": 988.7,
+   "y": 1382.2,
+   "z": 1.0,
+   "name": "Place 7 of 17",
+   "sub": "Named location · in the south of the map",
+   "pins": [
+    {
+     "x": 988.7,
+     "y": 1382.2,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 33,
+   "x": 988.7,
+   "y": 1382.2,
+   "z": 1.35,
+   "name": "Loguetown",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 988.7,
+     "y": 1382.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 35,
+   "x": 817.7,
+   "y": 718.0,
+   "z": 1.0,
+   "name": "Place 8 of 17",
+   "sub": "Named location · in the north-west of the map",
+   "pins": [
+    {
+     "x": 817.7,
+     "y": 718.0,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 38,
+   "x": 817.7,
+   "y": 718.0,
+   "z": 1.35,
+   "name": "Rubber Resort",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 817.7,
+     "y": 718.0,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 40,
+   "x": 1387.9,
+   "y": 1481.5,
+   "z": 1.0,
+   "name": "Place 9 of 17",
+   "sub": "Named location · in the south-east of the map",
+   "pins": [
+    {
+     "x": 1387.9,
+     "y": 1481.5,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 43,
+   "x": 1387.9,
+   "y": 1481.5,
+   "z": 1.35,
+   "name": "Busy Bay",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 1387.9,
+     "y": 1481.5,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 45,
+   "x": 898.7,
+   "y": 1049.7,
+   "z": 1.0,
+   "name": "Place 10 of 17",
+   "sub": "Named location · near the center of the map",
+   "pins": [
+    {
+     "x": 898.7,
+     "y": 1049.7,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 48,
+   "x": 898.7,
+   "y": 1049.7,
+   "z": 1.35,
+   "name": "Lantern Landing",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 898.7,
+     "y": 1049.7,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 50,
+   "x": 1184.2,
+   "y": 1147.6,
+   "z": 1.0,
+   "name": "Place 11 of 17",
+   "sub": "Named location · near the center of the map",
+   "pins": [
+    {
+     "x": 1184.2,
+     "y": 1147.6,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 53,
+   "x": 1184.2,
+   "y": 1147.6,
+   "z": 1.35,
+   "name": "Cursed Cavern",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 1184.2,
+     "y": 1147.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 55,
+   "x": 754.5,
+   "y": 1437.6,
+   "z": 1.0,
+   "name": "Place 12 of 17",
+   "sub": "Named location · in the south-west of the map",
+   "pins": [
+    {
+     "x": 754.5,
+     "y": 1437.6,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 58,
+   "x": 754.5,
+   "y": 1437.6,
+   "z": 1.35,
+   "name": "Windmill Village",
+   "sub": "Named location",
+   "pins": [
+    {
+     "x": 754.5,
+     "y": 1437.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "p": 60
+  },
+  {
+   "type": "title",
+   "p": 61,
+   "chapter": "Round 2: landmarks",
+   "kicker": "ROUND 2",
+   "lines": [
+    "The 5 landmarks"
+   ]
+  },
+  {
+   "type": "map",
+   "p": 62,
+   "x": 1445.9,
+   "y": 988.8,
+   "z": 1.0,
+   "name": "Place 13 of 17",
+   "sub": "Landmark · in the east of the map",
+   "pins": [
+    {
+     "x": 1445.9,
+     "y": 988.8,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 65,
+   "x": 1445.9,
+   "y": 988.8,
+   "z": 1.35,
+   "name": "Boogie Boat",
+   "sub": "Landmark",
+   "pins": [
+    {
+     "x": 1445.9,
+     "y": 988.8,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 67,
+   "x": 1206.1,
+   "y": 1224.3,
+   "z": 1.0,
+   "name": "Place 14 of 17",
+   "sub": "Landmark · in the south-east of the map",
+   "pins": [
+    {
+     "x": 1206.1,
+     "y": 1224.3,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 70,
+   "x": 1206.1,
+   "y": 1224.3,
+   "z": 1.35,
+   "name": "The Salty Skull",
+   "sub": "Landmark",
+   "pins": [
+    {
+     "x": 1206.1,
+     "y": 1224.3,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 72,
+   "x": 1411.1,
+   "y": 1476.8,
+   "z": 1.0,
+   "name": "Place 15 of 17",
+   "sub": "Landmark · in the south-east of the map",
+   "pins": [
+    {
+     "x": 1411.1,
+     "y": 1476.8,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 75,
+   "x": 1411.1,
+   "y": 1476.8,
+   "z": 1.35,
+   "name": "Baratie",
+   "sub": "Landmark",
+   "pins": [
+    {
+     "x": 1411.1,
+     "y": 1476.8,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 77,
+   "x": 1203.2,
+   "y": 1500.4,
+   "z": 1.0,
+   "name": "Place 16 of 17",
+   "sub": "Landmark · in the south-east of the map",
+   "pins": [
+    {
+     "x": 1203.2,
+     "y": 1500.4,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 80,
+   "x": 1203.2,
+   "y": 1500.4,
+   "z": 1.35,
+   "name": "Henry",
+   "sub": "Landmark",
+   "pins": [
+    {
+     "x": 1203.2,
+     "y": 1500.4,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 82,
+   "x": 952.6,
+   "y": 1243.0,
+   "z": 1.0,
+   "name": "Place 17 of 17",
+   "sub": "Landmark · near the center of the map",
+   "pins": [
+    {
+     "x": 952.6,
+     "y": 1243.0,
+     "label": "?"
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 85,
+   "x": 952.6,
+   "y": 1243.0,
+   "z": 1.35,
+   "name": "Giant's Battlefield",
+   "sub": "Landmark",
+   "pins": [
+    {
+     "x": 952.6,
+     "y": 1243.0,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 87,
+   "chapter": "Your score",
+   "kicker": "YOUR SCORE",
+   "lines": [
+    "How many out",
+    "of 17?"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 92
+  }
+ ]
+}
