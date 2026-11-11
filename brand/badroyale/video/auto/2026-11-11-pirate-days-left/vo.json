@@ -1,0 +1,37 @@
+{
+ "phrases": [
+  {
+   "text": "Treasure Hunters ends December 5. That's 24 days left to find Pirate Shop Access!",
+   "pause": 0.3
+  },
+  {
+   "text": "Every chest you open is a ticket: one in one hundred thirty seven thousand five hundred.",
+   "pause": 0.25
+  },
+  {
+   "text": "Find it, and the Item Shop is free for 14 days. You keep everything.",
+   "pause": 0.25
+  },
+  {
+   "text": "And Treasure Hours boost the odds every Saturday.",
+   "pause": 0.3
+  },
+  {
+   "text": "How many chests will you open before it's gone?",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

@@ -1,4 +1,4 @@
-/* BAD ROYALE · Pirate Shop Access myths busted. Facts: video/auto/pirate-shop-sources/ (press reports of Epic's Fortnite Status post). */
+/* BAD ROYALE · pirate:myths · Pirate Shop Access myths busted. Facts: video/auto/pirate-shop-sources/ (press reports of Epic's Fortnite Status post). */
 window.SCENE = TPL.guide({
  "kicker": "TREASURE HUNTERS",
  "title": [

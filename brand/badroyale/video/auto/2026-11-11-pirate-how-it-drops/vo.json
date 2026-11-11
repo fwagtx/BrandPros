@@ -1,0 +1,37 @@
+{
+ "phrases": [
+  {
+   "text": "Pirate Shop Access doesn't come out of the chest like a weapon. Here's what actually happens.",
+   "pause": 0.3
+  },
+  {
+   "text": "When you open a chest, there's a small chance of a treasure prize.",
+   "pause": 0.25
+  },
+  {
+   "text": "It doesn't hit the floor. You get a message on screen telling you what you got.",
+   "pause": 0.25
+  },
+  {
+   "text": "So don't dig through the loot. Just keep opening chests!",
+   "pause": 0.3
+  },
+  {
+   "text": "Have you seen a treasure message yet?",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

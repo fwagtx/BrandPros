@@ -53,6 +53,11 @@ def facts(meta, src):
     now = datetime.datetime.utcnow()
     stale = []
     for f in manifest["files"]:
+        if f.get("valid_until"):
+            # season-long facts (e.g. an event's published rules): good until the declared end date, then they fail
+            if now.date() > datetime.date.fromisoformat(f["valid_until"]):
+                stale.append(f"{f['file']} expired on {f['valid_until']}")
+            continue
         age = (now - datetime.datetime.strptime(f["fetched_utc"], "%Y-%m-%dT%H:%M:%SZ")).total_seconds() / 3600
         if age > 24:
             stale.append(f"{f['file']} fetched {age:.0f} h ago")
@@ -83,7 +88,7 @@ def facts(meta, src):
             items.append({"claim": c["text"], "result": "PASS", "why": f"visual check against {os.path.basename(path)}: {c.get('visual', '')}"})
     if stale:
         worst = "FAIL"
-        items.append({"claim": "Sources are fresh (< 24 h)", "result": "FAIL", "why": "; ".join(stale) + ". Re-fetch and re-run before posting."})
+        items.append({"claim": "Sources are fresh (< 24 h, or inside their valid_until)", "result": "FAIL", "why": "; ".join(stale) + ". Re-fetch and re-run before posting."})
     return check("1. Facts", worst, f"{sum(i['result'] == 'PASS' for i in items)}/{len(items)} claims verified against saved official data", items)
 
 

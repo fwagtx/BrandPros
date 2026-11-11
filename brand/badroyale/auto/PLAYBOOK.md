@@ -53,13 +53,13 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 | **DAY** | 9:41 AM | Two shorts on all 4 networks: **12:30 PM** today's current game content (made that morning from today's data) and **4:30 PM** evergreen (kept 7 days ahead) |
 | **LONG** | 5:13 AM Mon, Wed, Sat | One long YouTube video at **3:00 PM** |
 
-3 shorts a day on every network, plus 3 long YouTube videos a week (LONG run).
+3 shorts a day on every network (plus the Pirate Shop Access series, three more a day while it runs), plus 3 long YouTube videos a week (LONG run).
 
-**Owner-requested extra series (not a run; leave these posts alone):** Pirate Shop Access, 7 shorts made by hand on
-2026-11-09 with `TPL.guide` (facts over the real map) from `video/auto/pirate-shop-sources/`: Nov 9 11:00 AM and
-8:30 PM, Nov 10-13 8:30 PM, Nov 14 10:30 AM (Treasure Hours day). They sit beside the normal three; the 12:30 and 4:30
-checks ignore them. If the in-game news or fetch_sources shows the Treasure Hours schedule or the Pirate Shop rules
-changed, set the affected queued posts to draft (Facts change, below).
+**Pirate Shop Access series (owner, 2026-11-09 and 2026-11-11):** `TPL.guide` shorts (facts over the real map) from
+`video/auto/pirate-shop-sources/`. Hand-made first week: Nov 9 11:00 AM and 8:30 PM, Nov 10-13 8:30 PM, Nov 14 10:30 AM;
+from Nov 11 the DAY run adds three a day (step 3b) until the season ends. They sit beside the normal three; the 12:30
+and 4:30 checks ignore them. If the in-game news or fetch_sources shows the Treasure Hours schedule or the Pirate Shop
+rules changed, set the affected queued posts to draft (Facts change, below).
 
 ## SHOP run
 
@@ -122,6 +122,15 @@ slot is never filled ahead; it is today's current-game short, made each morning 
      never used in the ledger ("Can't find X? Here's exactly where it is", pinned on the official map). These hold
      only while the map does: ship them within a day of `fetch_sources.py`, and if fetch_sources.py later reports the
      place removed, set its queued posts to draft (Facts change, below).
+3b. **Pirate Shop Access series, three more shorts every day (owner, 2026-11-11: "about 3 extra videos for today and
+   every day until it gets removed").** Slots **2:30 PM, 7:30 PM, 9:30 PM** today; on a Saturday the first one is
+   **11:30 AM** (the Treasure Hours day angle, before the first round at 1 PM CT). For each empty slot:
+   `python3 brand/badroyale/auto/new_pirate.py brand/badroyale/video/auto/<D>-pirate-<n>` (it picks the angle used
+   least recently and prints it; rename the folder to `<D>-pirate-<angle>`), then steps 4-8 with
+   `--sources brand/badroyale/video/auto/pirate-shop-sources` on build and ship. Ledger topic: the `ledger_topic` it
+   prints (keeps the `pirate:<angle>` marker the rotation reads). The series ends by itself: new_pirate.py stops after
+   December 5 and the sources expire that day; also stop it (and set its queued posts to draft) the day fetch_sources
+   reports a new build or a new map (a new season), or the in-game news says Pirate Shop Access is gone.
    Never fill a 12:30 slot for a later day: each 12:30 is made that morning. When there's a bigger story than the
    generators give (a new map area, a big update, a new mode), make it by hand from the grid below for today's 12:30
    instead, with steps 4–8.

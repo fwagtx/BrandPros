@@ -1,4 +1,4 @@
-/* BAD ROYALE · The real odds of Pirate Shop Access. Facts: video/auto/pirate-shop-sources/ (press reports of Epic's Fortnite Status post). */
+/* BAD ROYALE · pirate:odds · The real odds of Pirate Shop Access. Facts: video/auto/pirate-shop-sources/ (press reports of Epic's Fortnite Status post). */
 window.SCENE = TPL.guide({
  "kicker": "TREASURE HUNTERS",
  "title": [

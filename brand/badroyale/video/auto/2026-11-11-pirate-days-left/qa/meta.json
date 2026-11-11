@@ -1,0 +1,86 @@
+{
+ "duration": 25.3,
+ "caption": "#EpicPartner Pirate Shop Access ends with the season on December 5 ⏳ 24 days left, 1 in 137,500 per chest, and Treasure Hours every Saturday\nHow many chests will you open before it's gone? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pirateshop #treasurehunters",
+ "claims": [
+  {
+   "text": "Treasure Hunters ends December 5",
+   "source": "vgc-odds-confirmed.json",
+   "match": [
+    "started on November 1 and is set to end on December 5"
+   ]
+  },
+  {
+   "text": "24 days from today to December 5",
+   "source": "vgc-odds-confirmed.json",
+   "match": [
+    "December 5"
+   ],
+   "visual": "24 days counted from 2026-11-11"
+  },
+  {
+   "text": "Pirate Shop Access is 1 in 137,500 per chest",
+   "source": "vgc-odds-confirmed.json",
+   "match": [
+    "Pirate Shop Access – 1 in 137,500",
+    "Epic has now officially confirmed the drop rates"
+   ]
+  },
+  {
+   "text": "Every V-Bucks item is free for 14 days after activation",
+   "source": "vgc-guide.json",
+   "match": [
+    "every single item in the Fortnite Shop which costs V-Bucks becomes entirely free for the next 14 days"
+   ]
+  },
+  {
+   "text": "Treasure Hours run on Saturdays with boosted Pirate Shop Access odds",
+   "source": "vice-treasure-hours.json",
+   "match": [
+    "boosted drop rates during Treasure Hours, which run on Saturdays"
+   ]
+  }
+ ],
+ "text": [
+  "TREASURE HUNTERS",
+  "PIRATE SHOP ACCESS / ENDS SOON",
+  "SEASON ENDS / DECEMBER 5",
+  "DAYS LEFT / 24 DAYS",
+  "PER CHEST / 1 IN 137,500",
+  "SATURDAYS / TREASURE HOURS: BOOSTED ODDS",
+  "PIRATE SHOP / ACCESS",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "TREASURE HUNTERS ENDS",
+  "DECEMBER 5.",
+  "THAT'S 24 DAYS",
+  "LEFT TO FIND",
+  "PIRATE SHOP ACCESS!",
+  "EVERY CHEST YOU",
+  "OPEN IS A",
+  "TICKET: ONE IN",
+  "ONE HUNDRED THIRTY",
+  "SEVEN THOUSAND FIVE",
+  "HUNDRED.",
+  "FIND IT,",
+  "AND THE ITEM",
+  "SHOP IS FREE",
+  "FOR 14 DAYS.",
+  "YOU KEEP EVERYTHING.",
+  "AND TREASURE HOURS",
+  "BOOST THE ODDS",
+  "EVERY SATURDAY.",
+  "HOW MANY CHESTS",
+  "WILL YOU OPEN",
+  "BEFORE IT'S GONE?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

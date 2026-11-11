@@ -1,0 +1,79 @@
+{
+ "duration": 22.4,
+ "caption": "#EpicPartner How many chests for Pirate Shop Access? 🧮 At 1 in 137,500, a 50% chance takes about 95,000 chests. A squad of 4 makes it 4x faster, Treasure Hours add 1.5x\nHow many chests do you open per match? 👇\nUse code BAD in the Item Shop 💛\n#fortnite #pirateshop #treasurehunters",
+ "claims": [
+  {
+   "text": "Pirate Shop Access is 1 in 137,500 per chest",
+   "source": "vgc-odds-confirmed.json",
+   "match": [
+    "Pirate Shop Access – 1 in 137,500",
+    "Epic has now officially confirmed the drop rates"
+   ]
+  },
+  {
+   "text": "About 95,000 chests for a 50% chance",
+   "source": "vgc-odds-confirmed.json",
+   "match": [
+    "1 in 137,500"
+   ],
+   "visual": "1 - (1 - 1/137500)^n = 0.5 at n = 95,310 chests"
+  },
+  {
+   "text": "If anyone in the squad finds it, every member gets it",
+   "source": "vgc-guide.json",
+   "match": [
+    "if anyone in your Squad finds the Pirate Shop Token in a chest, every member of the Squad gets it"
+   ]
+  },
+  {
+   "text": "1.5x during Treasure Hours",
+   "source": "vice-treasure-hours.json",
+   "match": [
+    "1.5× both rounds"
+   ]
+  }
+ ],
+ "text": [
+  "TREASURE HUNTERS",
+  "HOW MANY CHESTS / FOR PIRATE SHOP ACCESS?",
+  "50% CHANCE / ABOUT 95,000 CHESTS",
+  "SQUAD OF 4 / 4X FASTER",
+  "TREASURE HOUR / ODDS UP 1.5X",
+  "PIRATE SHOP / ACCESS",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "AT ONE IN",
+  "ONE HUNDRED THIRTY",
+  "SEVEN THOUSAND FIVE",
+  "HUNDRED,",
+  "HOW MANY CHESTS",
+  "DOES IT TAKE?",
+  "LET'S DO THE",
+  "MATH.",
+  "FOR A FIFTY",
+  "PERCENT CHANCE,",
+  "ABOUT NINETY FIVE",
+  "THOUSAND CHESTS.",
+  "IN A SQUAD",
+  "OF FOUR,",
+  "EVERY MEMBER'S CHEST",
+  "COUNTS FOR YOU.",
+  "FOUR TIMES FASTER.",
+  "DURING A TREASURE",
+  "HOUR,",
+  "THE ODDS GO",
+  "UP BY HALF.",
+  "DO YOU OPEN",
+  "PER MATCH?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

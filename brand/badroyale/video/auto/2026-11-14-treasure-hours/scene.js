@@ -1,4 +1,4 @@
-/* BAD ROYALE · Treasure Hours today, Saturday Nov 14. Facts: video/auto/pirate-shop-sources/ (press reports of Epic's Fortnite Status post). */
+/* BAD ROYALE · pirate:treasure-hours-today · Treasure Hours today, Saturday Nov 14. Facts: video/auto/pirate-shop-sources/ (press reports of Epic's Fortnite Status post). */
 window.SCENE = TPL.guide({
  "kicker": "SATURDAY NOV 14",
  "title": [
