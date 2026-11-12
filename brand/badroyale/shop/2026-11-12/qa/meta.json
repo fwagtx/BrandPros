@@ -1,0 +1,108 @@
+{
+ "duration": 23.8,
+ "caption": "#EpicPartner Fortnite Item Shop, Nov 12: the A$AP Rocky Bundle is 3,200 V-Bucks instead of 8,800, Archetype and Overtaker are in (Chapter 1, Season 5), and 14 skins leave at 6 PM CT.\nBuying today? Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "A$AP Rocky Bundle: 3200 V-Bucks, regular 8800",
+   "source": "shop.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"finalPrice\": 3200",
+    "\"regularPrice\": 8800"
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle leaves 2026-12-06",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-12-06"
+   ]
+  },
+  {
+   "text": "Archetype is in the shop, introduced Chapter 1, Season 5",
+   "source": "history.json",
+   "match": [
+    "Archetype",
+    "Introduced in Chapter 1, Season 5."
+   ]
+  },
+  {
+   "text": "Overtaker is in the shop, introduced Chapter 1, Season 5",
+   "source": "history.json",
+   "match": [
+    "Overtaker",
+    "Introduced in Chapter 1, Season 5."
+   ]
+  },
+  {
+   "text": "14 outfits leave at the next reset (last day)",
+   "source": "plan.json",
+   "match": [
+    "\"count\": 14"
+   ],
+   "visual": "Counted from shop.json outDate == shop date (shop_pick.py)"
+  },
+  {
+   "text": "Reset at 6 PM CT",
+   "source": "plan.json",
+   "match": [
+    "6 PM CT"
+   ],
+   "visual": "00:00 UTC converted to America/Chicago"
+  }
+ ],
+ "text": [
+  "HELICOPTER FLACKO",
+  "OVERTAKER",
+  "ARCHETYPE",
+  "TODAY'S ITEM SHOP / NOV 12",
+  "1 · BEST DEAL",
+  "ROCKY RUGAHAND",
+  "3,200",
+  "8,800",
+  "A$AP ROCKY BUNDLE · LEAVES DEC 6",
+  "2 · OG CHECK",
+  "CHAPTER 1 · SEASON 5",
+  "3 · LAST DAY",
+  "ORELIA",
+  "TENDER DEFENDER",
+  "FETCH",
+  "GILDED SKULLY",
+  "AGENT BLANC",
+  "+8 MORE",
+  "GONE AT 6 PM CT",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "THIS IS TODAY'S",
+  "ITEM SHOP FOR",
+  "NOVEMBER 12TH.",
+  "THREE THINGS BEFORE",
+  "YOU SPEND A",
+  "SINGLE V-BUCK!",
+  "THE A$AP ROCKY",
+  "BUNDLE:",
+  "3,200 V-BUCKS,",
+  "INSTEAD OF 8,800.",
+  "ARCHETYPE AND OVERTAKER",
+  "ARE IN THE",
+  "SHOP.",
+  "BOTH FROM CHAPTER",
+  "1,",
+  "SEASON 5.",
+  "AND 14 SKINS",
+  "ARE ON THEIR",
+  "LAST DAY,",
+  "EIGHT OF THEM",
+  "EPIC.",
+  "BUYING ANYTHING TODAY?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
