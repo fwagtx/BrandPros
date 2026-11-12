@@ -1,0 +1,46 @@
+{
+ "duration": 14.9,
+ "caption": "#EpicPartner Where is Buggy's Beachhead in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Buggy's Beachhead is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Buggy's Beachhead"
+   ]
+  },
+  {
+   "text": "It is in the north of the island, nearest named location Lantern Landing",
+   "source": "map-labels.png",
+   "visual": "map pixel (1031, 851); nearest named POI by coordinates: Lantern Landing"
+  }
+ ],
+ "text": [
+  "HERE",
+  "WHERE IS BUGGY'S BEACHHEAD? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND BUGGY'S",
+  "BEACHHEAD IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "NORTH OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO LANTERN",
+  "LANDING.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
