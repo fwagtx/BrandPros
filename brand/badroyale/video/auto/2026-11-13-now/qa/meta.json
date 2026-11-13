@@ -1,0 +1,103 @@
+{
+ "duration": 20,
+ "caption": "#EpicPartner Brand new in the Item Shop: Lil Uzi Vert Bundle",
+ "claims": [
+  {
+   "text": "Lil Uzi Vert Bundle is in the Item Shop for 2026-11-13",
+   "source": "shop.json",
+   "match": [
+    "Lil Uzi Vert Bundle",
+    "\"date\": \"2026-11-13"
+   ]
+  },
+  {
+   "text": "Price 3,200 V-Bucks (listed regular price 7,100)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 7100, \"finalPrice\": 3200"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-13",
+   "source": "shop.json",
+   "match": [
+    "2026-11-13T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Lil Uzi Vert is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Lil Uzi Vert"
+   ]
+  },
+  {
+   "text": "Pink Star Lil Uzi Vert is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Pink Star Lil Uzi Vert"
+   ]
+  },
+  {
+   "text": "Uzi's Wings is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Uzi's Wings"
+   ]
+  },
+  {
+   "text": "Lil Uzi Star is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Lil Uzi Star"
+   ]
+  },
+  {
+   "text": "Brand new: first added to the game in the last 14 days",
+   "source": "shop.json",
+   "match": [
+    "\"added\": \"2026-11-12T14:00:23Z\""
+   ]
+  }
+ ],
+ "text": [
+  "BRAND NEW / IN THE ITEM SHOP",
+  "LIL UZI VERT",
+  "PINK STAR LIL UZI VERT",
+  "UZI'S WINGS",
+  "LIL UZI VERT BUNDLE",
+  "LIL UZI VERT, PINK STAR LIL UZI VERT, UZI'S WINGS AND 8 MORE ITEMS",
+  "3,200 V-BUCKS",
+  "IN THE SHOP UNTIL DEC 12",
+  "BRAND NEW IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE LIL UZI",
+  "VERT BUNDLE.",
+  "LIL UZI VERT,",
+  "PINK STAR LIL",
+  "UZI VERT,",
+  "UZI'S WINGS AND",
+  "8 MORE ITEMS.",
+  "3,200 V-BUCKS,",
+  "INSTEAD OF 7,100.",
+  "IT'S IN THE",
+  "SHOP UNTIL DECEMBER",
+  "12TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
