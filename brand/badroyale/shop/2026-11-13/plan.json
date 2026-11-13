@@ -1,0 +1,103 @@
+{
+ "date": "2026-11-13",
+ "dateLabel": "NOV 13",
+ "resetLabel": "6 PM CT",
+ "dealOutLabel": "DEC 6",
+ "deal": {
+  "name": "A$AP Rocky Bundle",
+  "final": 3200,
+  "regular": 8800,
+  "out": "2026-12-06",
+  "outfits": [
+   {
+    "id": "Character_TonicMailWeb",
+    "name": "Helicopter Flacko",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailweb/featured.png",
+    "price": null,
+    "out": null,
+    "in": null
+   },
+   {
+    "id": "Character_TonicMailYam",
+    "name": "Rocky Rugahand",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailyam/featured.png",
+    "price": 1500,
+    "out": "2026-12-06",
+    "in": "2026-11-06"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 5,
+  "outfits": [
+   {
+    "id": "CID_190_Athena_Commando_M_StreetRacerWhite",
+    "name": "Overtaker",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_190_athena_commando_m_streetracerwhite/featured.png",
+    "price": 1500,
+    "out": "2026-11-16",
+    "in": "2026-11-10"
+   }
+  ]
+ },
+ "last": {
+  "count": 3,
+  "outfits": [
+   {
+    "id": "CID_265_Athena_Commando_F_AnimalJackets",
+    "name": "Flapjackie",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_265_athena_commando_f_animaljackets/featured.png",
+    "price": 1500,
+    "out": "2026-11-13",
+    "in": "2026-11-13"
+   },
+   {
+    "id": "Character_PocketBobble",
+    "name": "Class President Nemia",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_pocketbobble/featured.png",
+    "price": 1200,
+    "out": "2026-11-13",
+    "in": "2026-11-07"
+   },
+   {
+    "id": "Character_SleepyDuck",
+    "name": "Scrubdown Scrapper",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_sleepyduck/featured.png",
+    "price": 800,
+    "out": "2026-11-13",
+    "in": "2026-11-13"
+   }
+  ]
+ },
+ "phrases": [
+  "This is today's Item Shop for November 13th.",
+  "Three things before you spend a single V-Buck!",
+  "The A$AP Rocky Bundle:",
+  "3,200 V-Bucks, instead of 8,800.",
+  "Overtaker is in the shop.",
+  "It's from Chapter 1, Season 5.",
+  "And three Epic skins are on their last day.",
+  "Buying anything today?",
+  "Use code BAD in the Item Shop. It really helps the channel.",
+  "Thank you for watching! Follow for more daily content."
+ ]
+}
