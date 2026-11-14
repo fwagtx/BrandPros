@@ -1,0 +1,167 @@
+{
+  "video": "badroyale-2026-11-14-week-news.mp4",
+  "checked_utc": "2026-11-14T11:57:41Z",
+  "verdict": "DO NOT POST: fix failures",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "FAIL",
+      "detail": "21/22 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "Build 43.00 on 2026-11-07, 43.10 from 2026-11-12",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Map 17 -> 16 places; removed ['Boogie Boat', \"Fortune's Fort\", 'Loot Lagoon']; added [\"Nami's Tangerine Grove\", \"Buggy's Beachhead\"]",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Buggy's Beachhead: named, in the north of the map, closest Lantern Landing; ~60 m from Loot Lagoon's old coordinates",
+          "result": "PASS",
+          "why": "matched in week-news.json; map_coords for both days; distance between them"
+        },
+        {
+          "claim": "Nami's Tangerine Grove: landmark, in the south-west of the map, ~200 m from Windmill Village",
+          "result": "PASS",
+          "why": "matched in map.json; UnNamedPOI id; distance between official POI coordinates"
+        },
+        {
+          "claim": "11 named locations and 5 landmarks on 2026-11-14, directions from the middle of the named locations",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Lil Uzi Vert Drops Anchor tile, live 2026-11-08..2026-11-08",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Lil Uzi Vert Bundle contents by type {'outfit': 2, 'backpack': 3, 'pickaxe': 2, 'emote': 2, 'shoe': 1, 'wrap': 1, 'loadingscreen': 1}",
+          "result": "PASS",
+          "why": "matched in shop-2026-11-14.json"
+        },
+        {
+          "claim": "Lil Uzi Vert Bundle 3200 (listed 7100), 12 items, out 2026-12-12, first in shop 2026-11-13",
+          "result": "PASS",
+          "why": "matched in shop-2026-11-14.json"
+        },
+        {
+          "claim": "One Piece's Buggy Makes Landfall tile, live 2026-11-12..2026-11-12",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Buggy outfit 1600, first in the shop 2026-11-14",
+          "result": "PASS",
+          "why": "matched in shop-2026-11-14.json"
+        },
+        {
+          "claim": "Monkey D. Luffy, Nami, and Usopp Outfits tile, live 2026-11-08..2026-11-14",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Luffy 1800, Zoro 1800, Nami/Usopp 1600 in the 2026-11-14 shop; Zoro in the shop 7 days 2026-11-08..2026-11-14",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Devil Fruits Across the Island tile, live 2026-11-08..2026-11-14",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Multi-Punches Flex tile, live 2026-11-08..2026-11-14",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Adventure Awaits! tile, live 2026-11-08..2026-11-14",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Adventure Awaits! absent 2026-11-12, back 2026-11-13; Arlong Park, Baratie, The $.$. Rocky positions",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "TWINDRILL DIVA Music Pass tile, live 2026-11-12..2026-11-14",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Keep Tabs on the Adventure! tile, live 2026-11-09..2026-11-11",
+          "result": "PASS",
+          "why": "matched in week-news.json"
+        },
+        {
+          "claim": "Masters of the Universe Bundle 3600 (listed 6700), in the shop 2026-11-10..2026-11-13",
+          "result": "PASS",
+          "why": "matched in shop-2026-11-10.json"
+        },
+        {
+          "claim": "Mega Man Bundle Rush sidekick",
+          "result": "PASS",
+          "why": "matched in shop-2026-11-14.json"
+        },
+        {
+          "claim": "Mega Man Bundle 3800 (listed 7300), first 2026-11-11, outDate 2026-11-15",
+          "result": "PASS",
+          "why": "matched in shop-2026-11-14.json"
+        },
+        {
+          "claim": "Sources are fresh (< 24 h, or inside their valid_until)",
+          "result": "FAIL",
+          "why": "shop-2026-11-10.json fetched 108 h ago. Re-fetch and re-run before posting."
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "64 distinct words checked; code written as BAD in all 4 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -14.1 LUFS, true peak -1.9 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 246.9s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Sheet plus 6 extra stills reviewed: title TWO NEW CAPTAINS NOV 8 - NOV 14, v43.10 stat, 17 → 16 places, Buggy's Beachhead and Nami's Tangerine Grove pins on today's map, 11 named locations tour, Lil Uzi Vert Bundle tiles, Buggy 1,600 tile, Straw Hats news quote, $.$. Rocky pin, Masters of the Universe tiles, Mega Man tiles (mid-transition in one still). Readable, nothing cut off. 4:07 long, 10 chapters. First build was 3:49, rebuilt with three more sourced lines and slightly longer pauses.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner Everything that changed in Fortnite this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteNews"
+}

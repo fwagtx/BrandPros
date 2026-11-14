@@ -61,7 +61,12 @@ shutil.copy(os.path.join(SRC, "map.json"), os.path.join(HERE, "sources", "map.js
 files = [{"file": "week-news.json", "source": f"News tiles, builds and map places per day {PREV}..{LAST}, outfits per shop day", "url": "https://fortnite-api.com/v2/news",
           "fetched_utc": fetched, "note": "fetched_utc is today's snapshot; older days are the saved daily snapshots in sources/history/ and shop/<day>/shop.json"},
          {"file": "map.json", "source": "Battle Royale map POI data", "url": "https://fortnite-api.com/v1/map", "fetched_utc": fetched}]
-for d in SHOPS:
+old_b = next(e for e in json.load(open(os.path.join(BR, "shop", "2026-11-10", "shop.json")))["data"]["entries"]
+             if (e.get("bundle") or {}).get("name") == "Masters of the Universe Bundle")
+week["bundles_seen"] = {"Masters of the Universe Bundle": {"shop_day": "2026-11-10", "finalPrice": old_b["finalPrice"], "regularPrice": old_b["regularPrice"],
+                                                           "outDate": old_b["outDate"], "items": [i["name"] for i in old_b["brItems"]]}}
+json.dump(week, open(os.path.join(HERE, "sources", "week-news.json"), "w"), indent=1, ensure_ascii=False)
+for d in [LAST]:
     shutil.copy(os.path.join(BR, "shop", d, "shop.json"), os.path.join(HERE, "sources", f"shop-{d}.json"))
     sm = json.load(open(os.path.join(BR, "shop", d, "manifest.json")))
     files.append({"file": f"shop-{d}.json", "source": f"Item Shop for {d}", "url": "https://fortnite-api.com/v2/shop",
@@ -287,7 +292,7 @@ segs.append({"type": "items", "p": len(phrases), "title": "Masters of the Univer
                        tile("She-Ra", "2026-11-10", "Masters of the Universe Bundle")]})
 hm = [d for d, v in shop_days.items() if "He-Man" in v]
 ph(f"The Masters of the Universe Bundle, with He-Man, Skeletor and She-Ra, was in from {day(hm[0])} to the {int(hm[-1][-2:])}th, at {mb['finalPrice']:,} V-Bucks, listed at {mb['regularPrice']:,}.", 0.3)
-claims.append({"text": f"Masters of the Universe Bundle {mb['finalPrice']} (listed {mb['regularPrice']}), in the shop {hm[0]}..{hm[-1]}", "source": "shop-2026-11-10.json",
+claims.append({"text": f"Masters of the Universe Bundle {mb['finalPrice']} (listed {mb['regularPrice']}), in the shop {hm[0]}..{hm[-1]}", "source": "week-news.json",
                "match": ["Masters of the Universe Bundle", "He-Man", "Skeletor", "She-Ra", f'"finalPrice": {mb["finalPrice"]}', f'"regularPrice": {mb["regularPrice"]}']})
 gb = bundle("Mega Man Bundle", LAST)
 segs.append({"type": "items", "p": len(phrases), "title": "Mega Man Bundle · last day tomorrow",

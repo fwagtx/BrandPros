@@ -781,5 +781,28 @@
    "Voyager Unleashed",
    "Zero (Mega Man)"
   ]
+ },
+ "bundles_seen": {
+  "Masters of the Universe Bundle": {
+   "shop_day": "2026-11-10",
+   "finalPrice": 3600,
+   "regularPrice": 6700,
+   "outDate": "2026-11-13T23:59:59.999Z",
+   "items": [
+    "He-Man",
+    "He-Man's Weaponry",
+    "Power Scabbard",
+    "Skeletor",
+    "Skeletor's Weaponry",
+    "Skeletor's Cape",
+    "She-Ra",
+    "Sword of Protection",
+    "She-Ra's Cape",
+    "Laugh of Power",
+    "Seat of Defeat",
+    "Sticks of Eternia",
+    "Sticks of Eternia"
+   ]
+  }
  }
 }
