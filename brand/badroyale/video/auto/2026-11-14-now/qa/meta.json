@@ -1,0 +1,102 @@
+{
+ "duration": 19.4,
+ "caption": "#EpicPartner Brand new in the Item Shop: PIRATE D. SPEEDY Bundle",
+ "claims": [
+  {
+   "text": "PIRATE D. SPEEDY Bundle is in the Item Shop for 2026-11-14",
+   "source": "shop.json",
+   "match": [
+    "PIRATE D. SPEEDY Bundle",
+    "\"date\": \"2026-11-14"
+   ]
+  },
+  {
+   "text": "Price 1,800 V-Bucks (listed regular price 2,700)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 2700, \"finalPrice\": 1800"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-14",
+   "source": "shop.json",
+   "match": [
+    "2026-11-14T00:00:00Z"
+   ]
+  },
+  {
+   "text": "PIRATE D. SPEEDY is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "PIRATE D. SPEEDY"
+   ]
+  },
+  {
+   "text": "Speed's Coin is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Speed's Coin"
+   ]
+  },
+  {
+   "text": "Speed's Pirate Blade is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Speed's Pirate Blade"
+   ]
+  },
+  {
+   "text": "IShowFlip is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "IShowFlip"
+   ]
+  },
+  {
+   "text": "Brand new: first added to the game in the last 14 days",
+   "source": "shop.json",
+   "match": [
+    "\"added\": \"2026-11-13T14:01:03Z\""
+   ]
+  }
+ ],
+ "text": [
+  "BRAND NEW / IN THE ITEM SHOP",
+  "PIRATE D. SPEEDY",
+  "SPEED'S COIN",
+  "SPEED'S PIRATE BLADE",
+  "PIRATE D. SPEEDY BUNDLE",
+  "PIRATE D. SPEEDY, SPEED'S COIN, SPEED'S PIRATE BLADE AND ISHOWFLIP",
+  "1,800 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 20",
+  "BRAND NEW IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE PIRATE D.",
+  "SPEEDY BUNDLE.",
+  "PIRATE D.",
+  "SPEEDY,",
+  "SPEED'S COIN,",
+  "AND ISHOWFLIP.",
+  "1,800 V-BUCKS,",
+  "INSTEAD OF 2,700.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "20TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
