@@ -1,12 +1,12 @@
 {
   "video": "badroyale-2026-11-14-week-news.mp4",
-  "checked_utc": "2026-11-14T11:59:41Z",
-  "verdict": "DO NOT POST: fix failures",
+  "checked_utc": "2026-11-14T12:01:34Z",
+  "verdict": "READY TO POST",
   "results": [
     {
       "check": "1. Facts",
-      "status": "FAIL",
-      "detail": "20/21 claims verified against saved official data",
+      "status": "PASS",
+      "detail": "21/21 claims verified against saved official data",
       "items": [
         {
           "claim": "Build 43.00 on 2026-11-07, 43.10 from 2026-11-12",
@@ -100,8 +100,8 @@
         },
         {
           "claim": "Masters of the Universe Bundle 3600 (listed 6700), in the shop 2026-11-10..2026-11-13",
-          "result": "FAIL",
-          "why": "source missing: shop-2026-11-10.json"
+          "result": "PASS",
+          "why": "matched in week-news.json"
         },
         {
           "claim": "Mega Man Bundle Rush sidekick",
