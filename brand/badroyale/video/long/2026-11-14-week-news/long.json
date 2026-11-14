@@ -77,6 +77,14 @@
    ]
   },
   {
+   "text": "Lil Uzi Vert Bundle contents by type {'outfit': 2, 'backpack': 3, 'pickaxe': 2, 'emote': 2, 'shoe': 1, 'wrap': 1, 'loadingscreen': 1}",
+   "source": "shop-2026-11-14.json",
+   "match": [
+    "Lil Uzi Vert Bundle",
+    "\"shoe\""
+   ]
+  },
+  {
    "text": "Lil Uzi Vert Bundle 3200 (listed 7100), 12 items, out 2026-12-12, first in shop 2026-11-13",
    "source": "shop-2026-11-14.json",
    "match": [
@@ -191,6 +199,14 @@
     "She-Ra",
     "\"finalPrice\": 3600",
     "\"regularPrice\": 6700"
+   ]
+  },
+  {
+   "text": "Mega Man Bundle Rush sidekick",
+   "source": "shop-2026-11-14.json",
+   "match": [
+    "Rush (Mega Man)",
+    "\"sidekick\""
    ]
   },
   {
@@ -484,20 +500,20 @@
   },
   {
    "type": "quote",
-   "p": 29,
+   "p": 30,
    "kicker": "IN-GAME NEWS",
    "title": "One Piece's Buggy Makes Landfall",
    "lines": [
     {
-     "p": 30,
+     "p": 31,
      "text": "A new Captain has claimed territory!"
     },
     {
-     "p": 31,
+     "p": 32,
      "text": "Defeat the Buggy Boss, claim the Transponder Snail Sprite,"
     },
     {
-     "p": 32,
+     "p": 33,
      "text": "and explode into action with the Special Buggy Ball."
     }
    ],
@@ -505,7 +521,7 @@
   },
   {
    "type": "items",
-   "p": 33,
+   "p": 34,
    "title": "Buggy · new in today's shop",
    "items": [
     {
@@ -518,20 +534,20 @@
   },
   {
    "type": "code",
-   "p": 34
+   "p": 36
   },
   {
    "type": "quote",
-   "p": 35,
+   "p": 37,
    "kicker": "IN-GAME NEWS",
    "title": "Monkey D. Luffy, Nami, and Usopp Outfits",
    "lines": [
     {
-     "p": 36,
+     "p": 38,
      "text": "When adventure calls, the Straw Hats answer!"
     },
     {
-     "p": 37,
+     "p": 39,
      "text": "Set sail with Monkey D. Luffy, Nami, and Usopp Outfits and chart a course to uncharted waters."
     }
    ],
@@ -539,7 +555,7 @@
   },
   {
    "type": "items",
-   "p": 38,
+   "p": 40,
    "title": "One Piece outfits · in today's shop",
    "items": [
     {
@@ -570,37 +586,25 @@
   },
   {
    "type": "quote",
-   "p": 40,
+   "p": 42,
    "kicker": "IN-GAME NEWS",
    "title": "Devil Fruits Across the Island",
    "lines": [
     {
-     "p": 41,
+     "p": 43,
      "text": "Rare Devil Fruits have dropped in across the map!"
     },
     {
-     "p": 42,
+     "p": 44,
      "text": "Eat the Gum-Gum Fruit to stretch your skills as Luffy,"
     },
     {
-     "p": 43,
+     "p": 45,
      "text": "or the Flame-Flame Fruit to come in hot as Ace..."
     },
     {
-     "p": 44,
-     "text": "just stay away from water."
-    }
-   ]
-  },
-  {
-   "type": "quote",
-   "p": 45,
-   "kicker": "IN-GAME NEWS",
-   "title": "Multi-Punches Flex",
-   "lines": [
-    {
      "p": 46,
-     "text": "GUM-GUM GATLING!"
+     "text": "just stay away from water."
     }
    ]
   },
@@ -608,14 +612,26 @@
    "type": "quote",
    "p": 47,
    "kicker": "IN-GAME NEWS",
-   "title": "Adventure Awaits!",
+   "title": "Multi-Punches Flex",
    "lines": [
     {
      "p": 48,
+     "text": "GUM-GUM GATLING!"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 49,
+   "kicker": "IN-GAME NEWS",
+   "title": "Adventure Awaits!",
+   "lines": [
+    {
+     "p": 50,
      "text": "Explore One Piece's Arlong Park, sail past Baratie Bay,"
     },
     {
-     "p": 49,
+     "p": 51,
      "text": "or storm The $.$. Rocky on this mysterious skull-shaped island."
     }
    ],
@@ -623,7 +639,7 @@
   },
   {
    "type": "map",
-   "p": 50,
+   "p": 52,
    "x": 634.8,
    "y": 1123.2,
    "z": 1.4,
@@ -639,7 +655,7 @@
   },
   {
    "type": "map",
-   "p": 51,
+   "p": 53,
    "x": 1411.1,
    "y": 1476.8,
    "z": 1.5,
@@ -655,7 +671,7 @@
   },
   {
    "type": "map",
-   "p": 52,
+   "p": 54,
    "x": 1415.7,
    "y": 1216.9,
    "z": 1.4,
@@ -671,20 +687,20 @@
   },
   {
    "type": "quote",
-   "p": 53,
+   "p": 55,
    "kicker": "IN-GAME NEWS",
    "title": "TWINDRILL DIVA Music Pass",
    "lines": [
     {
-     "p": 54,
+     "p": 56,
      "text": "Virtual Diva Kasane Teto takes the stage!"
     },
     {
-     "p": 55,
+     "p": 57,
      "text": "TWINDRILL DIVA Music Pass holders get access to the Kasane Teto Outfit, Back Bling, Emote, and more."
     },
     {
-     "p": 56,
+     "p": 58,
      "text": "Dive into Festival to start unlocking rewards!"
     }
    ],
@@ -692,16 +708,16 @@
   },
   {
    "type": "quote",
-   "p": 57,
+   "p": 59,
    "kicker": "IN-GAME NEWS",
    "title": "Keep Tabs on the Adventure!",
    "lines": [
     {
-     "p": 58,
+     "p": 60,
      "text": "All great adventures begin with a treasure map!"
     },
     {
-     "p": 59,
+     "p": 61,
      "text": "Head to the Treasure Tab to follow along with weekly progress and chart your next move."
     }
    ],
@@ -709,7 +725,7 @@
   },
   {
    "type": "title",
-   "p": 60,
+   "p": 62,
    "chapter": "The week's bundles",
    "kicker": "ITEM SHOP",
    "lines": [
@@ -719,7 +735,7 @@
   },
   {
    "type": "items",
-   "p": 61,
+   "p": 63,
    "title": "Masters of the Universe Bundle",
    "items": [
     {
@@ -744,7 +760,7 @@
   },
   {
    "type": "items",
-   "p": 62,
+   "p": 64,
    "title": "Mega Man Bundle · last day tomorrow",
    "items": [
     {
@@ -769,7 +785,7 @@
   },
   {
    "type": "title",
-   "p": 64,
+   "p": 67,
    "chapter": "Recap",
    "kicker": "QUICK RECAP",
    "lines": [
@@ -779,7 +795,7 @@
   },
   {
    "type": "code",
-   "p": 68
+   "p": 71
   }
  ]
 }

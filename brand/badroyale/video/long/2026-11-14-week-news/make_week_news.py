@@ -102,7 +102,7 @@ SAY = {"The $.$. Rocky": "the S S Rocky", "Kasane Teto": "Kasane Teto"}
 
 
 def ph(text, pause=0.25):
-    d = {"text": text, "pause": pause}
+    d = {"text": text, "pause": round(pause + 0.1, 2)}
     s = text
     for k, v in SAY.items():
         s = s.replace(k, v)
@@ -217,6 +217,10 @@ segs.append({"type": "items", "p": len(phrases), "title": "Lil Uzi Vert Bundle �
 uzi_first = min(d for d, v in shop_days.items() if "Lil Uzi Vert" in v)
 ph(f"Then on {day(uzi_first)}, the Lil Uzi Vert Bundle hit the Item Shop.", 0.2)
 ph(f"It's {ub['finalPrice']:,} V-Bucks, listed at {ub['regularPrice']:,}, with {len(ub['brItems'])} items, and it stays until December {int(ub['outDate'][8:10])}th.", 0.3)
+from collections import Counter
+ut = Counter(i["type"]["value"] for i in ub["brItems"])
+ph(f"Inside: two outfits, {ut['backpack']} backpacks, {ut['emote']} emotes, {ut['pickaxe']} pickaxes, and even a pair of shoes.", 0.3)
+claims.append({"text": f"Lil Uzi Vert Bundle contents by type {dict(ut)}", "source": f"shop-{LAST}.json", "match": ["Lil Uzi Vert Bundle", '"shoe"']})
 claims.append({"text": f"Lil Uzi Vert Bundle {ub['finalPrice']} (listed {ub['regularPrice']}), {len(ub['brItems'])} items, out {ub['outDate'][:10]}, first in shop {uzi_first}",
                "source": f"shop-{LAST}.json", "match": ["Lil Uzi Vert Bundle", f'"finalPrice": {ub["finalPrice"]}', f'"regularPrice": {ub["regularPrice"]}', ub["outDate"][:10]]})
 
@@ -228,6 +232,7 @@ segs.append({"type": "items", "p": len(phrases), "title": "Buggy · new in today
 _, be = outfit("Buggy")
 assert min(d for d, v in shop_days.items() if "Buggy" in v) == LAST
 ph(f"And as of today, Buggy is in the Item Shop too, at {be['finalPrice']:,} V-Bucks.", 0.3)
+ph("And his new spot on the map, Buggy's Beachhead, is the one we saw up north.", 0.3)
 claims.append({"text": f"Buggy outfit {be['finalPrice']}, first in the shop {LAST}", "source": f"shop-{LAST}.json", "match": ["Buggy", f'"finalPrice": {be["finalPrice"]}']})
 
 segs.append({"type": "code", "p": len(phrases)})
@@ -290,6 +295,9 @@ segs.append({"type": "items", "p": len(phrases), "title": "Mega Man Bundle · la
 mm = [d for d, v in shop_days.items() if "Mega Man X" in v]
 ph(f"And the Mega Man Bundle, in since {day(mm[0])}, is {gb['finalPrice']:,} V-Bucks, listed at {gb['regularPrice']:,}.", 0.2)
 ph(f"It leaves the shop after November {int(gb['outDate'][8:10])}th, so tomorrow is the last day.", 0.3)
+assert any(i["name"] == "Rush (Mega Man)" and i["type"]["value"] == "sidekick" for i in gb["brItems"])
+ph(f"It has {len(gb['brItems'])} items, and it even comes with Rush as a sidekick.", 0.3)
+claims.append({"text": f"Mega Man Bundle Rush sidekick", "source": f"shop-{LAST}.json", "match": ["Rush (Mega Man)", '"sidekick"']})
 claims.append({"text": f"Mega Man Bundle {gb['finalPrice']} (listed {gb['regularPrice']}), first {mm[0]}, outDate {gb['outDate'][:10]}", "source": f"shop-{LAST}.json",
                "match": ["Mega Man Bundle", f'"finalPrice": {gb["finalPrice"]}', f'"regularPrice": {gb["regularPrice"]}', gb["outDate"][:10]]})
 
