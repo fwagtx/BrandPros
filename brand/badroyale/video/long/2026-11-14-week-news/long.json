@@ -1,0 +1,785 @@
+{
+ "title": "Fortnite This Week: Two New Captains",
+ "map": "blank",
+ "caption": "#EpicPartner Everything that changed in Fortnite this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteNews",
+ "claims": [
+  {
+   "text": "Build 43.00 on 2026-11-07, 43.10 from 2026-11-12",
+   "source": "week-news.json",
+   "match": [
+    "Release-43.00",
+    "Release-43.10",
+    "2026-11-12"
+   ]
+  },
+  {
+   "text": "Map 17 -> 16 places; removed ['Boogie Boat', \"Fortune's Fort\", 'Loot Lagoon']; added [\"Nami's Tangerine Grove\", \"Buggy's Beachhead\"]",
+   "source": "week-news.json",
+   "match": [
+    "\"2026-11-07\": 17",
+    "\"2026-11-14\": 16",
+    "Boogie Boat",
+    "Fortune's Fort",
+    "Loot Lagoon",
+    "Nami's Tangerine Grove",
+    "Buggy's Beachhead"
+   ]
+  },
+  {
+   "text": "Buggy's Beachhead: named, in the north of the map, closest Lantern Landing; ~60 m from Loot Lagoon's old coordinates",
+   "source": "week-news.json",
+   "match": [
+    "Buggy's Beachhead",
+    "Loot Lagoon",
+    "Lantern Landing"
+   ],
+   "visual": "map_coords for both days; distance between them"
+  },
+  {
+   "text": "Nami's Tangerine Grove: landmark, in the south-west of the map, ~200 m from Windmill Village",
+   "source": "map.json",
+   "match": [
+    "Nami's Tangerine Grove",
+    "Windmill Village"
+   ],
+   "visual": "UnNamedPOI id; distance between official POI coordinates"
+  },
+  {
+   "text": "11 named locations and 5 landmarks on 2026-11-14, directions from the middle of the named locations",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "Rubber Resort",
+    "Plunder Port",
+    "The Chest",
+    "Arlong Park",
+    "Windmill Village",
+    "The $.$. Rocky",
+    "Busy Bay",
+    "Cursed Cavern",
+    "Buggy's Beachhead",
+    "Loguetown",
+    "Baratie",
+    "Nami's Tangerine Grove",
+    "Henry",
+    "Giant's Battlefield",
+    "The Salty Skull"
+   ]
+  },
+  {
+   "text": "Lil Uzi Vert Drops Anchor tile, live 2026-11-08..2026-11-08",
+   "source": "week-news.json",
+   "match": [
+    "Lil Uzi Vert Drops Anchor",
+    "A new Captain has sailed in",
+    "Face the Lil Uzi Vert Boss to earn Lil' Uzi Vert Jr",
+    "and get ahead with the lightning-fast Lil Uzi Vert's Lil' SMG"
+   ]
+  },
+  {
+   "text": "Lil Uzi Vert Bundle 3200 (listed 7100), 12 items, out 2026-12-12, first in shop 2026-11-13",
+   "source": "shop-2026-11-14.json",
+   "match": [
+    "Lil Uzi Vert Bundle",
+    "\"finalPrice\": 3200",
+    "\"regularPrice\": 7100",
+    "2026-12-12"
+   ]
+  },
+  {
+   "text": "One Piece's Buggy Makes Landfall tile, live 2026-11-12..2026-11-12",
+   "source": "week-news.json",
+   "match": [
+    "One Piece's Buggy Makes Landfall",
+    "A new Captain has claimed territory",
+    "Defeat the Buggy Boss, claim the Transponder Snail Sprite",
+    "and explode into action with the Special Buggy Ball"
+   ]
+  },
+  {
+   "text": "Buggy outfit 1600, first in the shop 2026-11-14",
+   "source": "shop-2026-11-14.json",
+   "match": [
+    "Buggy",
+    "\"finalPrice\": 1600"
+   ]
+  },
+  {
+   "text": "Monkey D. Luffy, Nami, and Usopp Outfits tile, live 2026-11-08..2026-11-14",
+   "source": "week-news.json",
+   "match": [
+    "Monkey D. Luffy, Nami, and Usopp Outfits",
+    "When adventure calls, the Straw Hats answer",
+    "Set sail with Monkey D. Luffy, Nami, and Usopp Outfits and chart a course to uncharted waters"
+   ]
+  },
+  {
+   "text": "Luffy 1800, Zoro 1800, Nami/Usopp 1600 in the 2026-11-14 shop; Zoro in the shop 7 days 2026-11-08..2026-11-14",
+   "source": "week-news.json",
+   "match": [
+    "Roronoa Zoro",
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp"
+   ]
+  },
+  {
+   "text": "Devil Fruits Across the Island tile, live 2026-11-08..2026-11-14",
+   "source": "week-news.json",
+   "match": [
+    "Devil Fruits Across the Island",
+    "Rare Devil Fruits have dropped in across the map",
+    "Eat the Gum-Gum Fruit to stretch your skills as Luffy",
+    "or the Flame-Flame Fruit to come in hot as Ace",
+    "just stay away from water"
+   ]
+  },
+  {
+   "text": "Multi-Punches Flex tile, live 2026-11-08..2026-11-14",
+   "source": "week-news.json",
+   "match": [
+    "Multi-Punches Flex",
+    "GUM-GUM GATLING"
+   ]
+  },
+  {
+   "text": "Adventure Awaits! tile, live 2026-11-08..2026-11-14",
+   "source": "week-news.json",
+   "match": [
+    "Adventure Awaits!",
+    "Explore One Piece's Arlong Park, sail past Baratie Bay",
+    "or storm The $.$. Rocky on this mysterious skull-shaped island"
+   ]
+  },
+  {
+   "text": "Adventure Awaits! absent 2026-11-12, back 2026-11-13; Arlong Park, Baratie, The $.$. Rocky positions",
+   "source": "week-news.json",
+   "match": [
+    "Adventure Awaits!",
+    "Arlong Park",
+    "Baratie",
+    "The $.$. Rocky",
+    "Busy Bay"
+   ]
+  },
+  {
+   "text": "TWINDRILL DIVA Music Pass tile, live 2026-11-12..2026-11-14",
+   "source": "week-news.json",
+   "match": [
+    "TWINDRILL DIVA Music Pass",
+    "Virtual Diva Kasane Teto takes the stage",
+    "TWINDRILL DIVA Music Pass holders get access to the Kasane Teto Outfit, Back Bling, Emote, and more",
+    "Dive into Festival to start unlocking rewards"
+   ]
+  },
+  {
+   "text": "Keep Tabs on the Adventure! tile, live 2026-11-09..2026-11-11",
+   "source": "week-news.json",
+   "match": [
+    "Keep Tabs on the Adventure!",
+    "All great adventures begin with a treasure map",
+    "Head to the Treasure Tab to follow along with weekly progress and chart your next move"
+   ]
+  },
+  {
+   "text": "Masters of the Universe Bundle 3600 (listed 6700), in the shop 2026-11-10..2026-11-13",
+   "source": "shop-2026-11-10.json",
+   "match": [
+    "Masters of the Universe Bundle",
+    "He-Man",
+    "Skeletor",
+    "She-Ra",
+    "\"finalPrice\": 3600",
+    "\"regularPrice\": 6700"
+   ]
+  },
+  {
+   "text": "Mega Man Bundle 3800 (listed 7300), first 2026-11-11, outDate 2026-11-15",
+   "source": "shop-2026-11-14.json",
+   "match": [
+    "Mega Man Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 7300",
+    "2026-11-15"
+   ]
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "FORTNITE THIS WEEK",
+   "lines": [
+    "Two new captains",
+    "Nov 8 - Nov 14"
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 3,
+   "chapter": "The update",
+   "big": "v43.10",
+   "label": "live since November 12th"
+  },
+  {
+   "type": "stat",
+   "p": 4,
+   "big": "17 → 16",
+   "label": "places on the official map"
+  },
+  {
+   "type": "map",
+   "p": 7,
+   "x": 1031.1,
+   "y": 850.9,
+   "z": 1.35,
+   "name": "Buggy's Beachhead",
+   "sub": "New named location · in the north of the map",
+   "pins": [
+    {
+     "x": 1031.1,
+     "y": 850.9,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 9,
+   "x": 710.1,
+   "y": 1560.9,
+   "z": 1.45,
+   "name": "Nami's Tangerine Grove",
+   "sub": "New landmark · in the south-west of the map",
+   "pins": [
+    {
+     "x": 710.1,
+     "y": 1560.9,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 10,
+   "chapter": "The map now",
+   "big": "11",
+   "label": "named locations on the map today"
+  },
+  {
+   "type": "map",
+   "p": 11,
+   "x": 1031.1,
+   "y": 850.9,
+   "z": 1.3,
+   "name": "Buggy's Beachhead",
+   "sub": "Named location · in the north of the map",
+   "pins": [
+    {
+     "x": 1031.1,
+     "y": 850.9,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 12,
+   "x": 1184.2,
+   "y": 1147.6,
+   "z": 1.3,
+   "name": "Cursed Cavern",
+   "sub": "Named location · in the east of the map",
+   "pins": [
+    {
+     "x": 1184.2,
+     "y": 1147.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 13,
+   "x": 1415.7,
+   "y": 1216.9,
+   "z": 1.3,
+   "name": "The $.$. Rocky",
+   "sub": "Named location · in the east of the map",
+   "pins": [
+    {
+     "x": 1415.7,
+     "y": 1216.9,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 14,
+   "x": 1387.9,
+   "y": 1481.5,
+   "z": 1.3,
+   "name": "Busy Bay",
+   "sub": "Named location · in the south-east of the map",
+   "pins": [
+    {
+     "x": 1387.9,
+     "y": 1481.5,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 15,
+   "x": 1150.3,
+   "y": 1606.1,
+   "z": 1.3,
+   "name": "Plunder Port",
+   "sub": "Named location · in the south of the map",
+   "pins": [
+    {
+     "x": 1150.3,
+     "y": 1606.1,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 16,
+   "x": 988.7,
+   "y": 1382.2,
+   "z": 1.3,
+   "name": "Loguetown",
+   "sub": "Named location · in the south of the map",
+   "pins": [
+    {
+     "x": 988.7,
+     "y": 1382.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 17,
+   "x": 754.5,
+   "y": 1437.6,
+   "z": 1.3,
+   "name": "Windmill Village",
+   "sub": "Named location · in the south-west of the map",
+   "pins": [
+    {
+     "x": 754.5,
+     "y": 1437.6,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 18,
+   "x": 634.8,
+   "y": 1123.2,
+   "z": 1.3,
+   "name": "Arlong Park",
+   "sub": "Named location · in the west of the map",
+   "pins": [
+    {
+     "x": 634.8,
+     "y": 1123.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 19,
+   "x": 898.7,
+   "y": 1049.7,
+   "z": 1.3,
+   "name": "Lantern Landing",
+   "sub": "Named location · near the center of the map",
+   "pins": [
+    {
+     "x": 898.7,
+     "y": 1049.7,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 20,
+   "x": 762.1,
+   "y": 875.4,
+   "z": 1.3,
+   "name": "The Chest",
+   "sub": "Named location · in the north-west of the map",
+   "pins": [
+    {
+     "x": 762.1,
+     "y": 875.4,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 21,
+   "x": 817.7,
+   "y": 718.0,
+   "z": 1.3,
+   "name": "Rubber Resort",
+   "sub": "Named location · in the north of the map",
+   "pins": [
+    {
+     "x": 817.7,
+     "y": 718.0,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 23,
+   "kicker": "IN-GAME NEWS",
+   "title": "Lil Uzi Vert Drops Anchor",
+   "lines": [
+    {
+     "p": 24,
+     "text": "A new Captain has sailed in!"
+    },
+    {
+     "p": 25,
+     "text": "Face the Lil Uzi Vert Boss to earn Lil' Uzi Vert Jr.,"
+    },
+    {
+     "p": 26,
+     "text": "and get ahead with the lightning-fast Lil Uzi Vert's Lil' SMG."
+    }
+   ],
+   "chapter": "Lil Uzi Vert"
+  },
+  {
+   "type": "items",
+   "p": 27,
+   "title": "Lil Uzi Vert Bundle · in the shop now",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_RookGeckoRod.png",
+     "name": "Lil Uzi Vert",
+     "rarity": "icon",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_RookGeckoRye.png",
+     "name": "Pink Star Lil Uzi Vert",
+     "rarity": "icon",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 29,
+   "kicker": "IN-GAME NEWS",
+   "title": "One Piece's Buggy Makes Landfall",
+   "lines": [
+    {
+     "p": 30,
+     "text": "A new Captain has claimed territory!"
+    },
+    {
+     "p": 31,
+     "text": "Defeat the Buggy Boss, claim the Transponder Snail Sprite,"
+    },
+    {
+     "p": 32,
+     "text": "and explode into action with the Special Buggy Ball."
+    }
+   ],
+   "chapter": "Buggy"
+  },
+  {
+   "type": "items",
+   "p": 33,
+   "title": "Buggy · new in today's shop",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_FlipperBalm.png",
+     "name": "Buggy",
+     "rarity": "epic",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "p": 34
+  },
+  {
+   "type": "quote",
+   "p": 35,
+   "kicker": "IN-GAME NEWS",
+   "title": "Monkey D. Luffy, Nami, and Usopp Outfits",
+   "lines": [
+    {
+     "p": 36,
+     "text": "When adventure calls, the Straw Hats answer!"
+    },
+    {
+     "p": 37,
+     "text": "Set sail with Monkey D. Luffy, Nami, and Usopp Outfits and chart a course to uncharted waters."
+    }
+   ],
+   "chapter": "The Straw Hats"
+  },
+  {
+   "type": "items",
+   "p": 38,
+   "title": "One Piece outfits · in today's shop",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_CeleryStitch.png",
+     "name": "Monkey D. Luffy",
+     "rarity": "epic",
+     "price": 1800
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_BrandCreed.png",
+     "name": "Roronoa Zoro",
+     "rarity": "epic",
+     "price": 1800
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_BoastJoint.png",
+     "name": "Nami",
+     "rarity": "epic",
+     "price": 1600
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_LoomRise.png",
+     "name": "Usopp",
+     "rarity": "epic",
+     "price": 1600
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 40,
+   "kicker": "IN-GAME NEWS",
+   "title": "Devil Fruits Across the Island",
+   "lines": [
+    {
+     "p": 41,
+     "text": "Rare Devil Fruits have dropped in across the map!"
+    },
+    {
+     "p": 42,
+     "text": "Eat the Gum-Gum Fruit to stretch your skills as Luffy,"
+    },
+    {
+     "p": 43,
+     "text": "or the Flame-Flame Fruit to come in hot as Ace..."
+    },
+    {
+     "p": 44,
+     "text": "just stay away from water."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 45,
+   "kicker": "IN-GAME NEWS",
+   "title": "Multi-Punches Flex",
+   "lines": [
+    {
+     "p": 46,
+     "text": "GUM-GUM GATLING!"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 47,
+   "kicker": "IN-GAME NEWS",
+   "title": "Adventure Awaits!",
+   "lines": [
+    {
+     "p": 48,
+     "text": "Explore One Piece's Arlong Park, sail past Baratie Bay,"
+    },
+    {
+     "p": 49,
+     "text": "or storm The $.$. Rocky on this mysterious skull-shaped island."
+    }
+   ],
+   "chapter": "Adventure Awaits!"
+  },
+  {
+   "type": "map",
+   "p": 50,
+   "x": 634.8,
+   "y": 1123.2,
+   "z": 1.4,
+   "name": "Arlong Park",
+   "sub": "Named location · in the west of the map",
+   "pins": [
+    {
+     "x": 634.8,
+     "y": 1123.2,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 51,
+   "x": 1411.1,
+   "y": 1476.8,
+   "z": 1.5,
+   "name": "Baratie",
+   "sub": "Landmark · next to Busy Bay",
+   "pins": [
+    {
+     "x": 1411.1,
+     "y": 1476.8,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "p": 52,
+   "x": 1415.7,
+   "y": 1216.9,
+   "z": 1.4,
+   "name": "The $.$. Rocky",
+   "sub": "Named location · in the east of the map",
+   "pins": [
+    {
+     "x": 1415.7,
+     "y": 1216.9,
+     "label": ""
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 53,
+   "kicker": "IN-GAME NEWS",
+   "title": "TWINDRILL DIVA Music Pass",
+   "lines": [
+    {
+     "p": 54,
+     "text": "Virtual Diva Kasane Teto takes the stage!"
+    },
+    {
+     "p": 55,
+     "text": "TWINDRILL DIVA Music Pass holders get access to the Kasane Teto Outfit, Back Bling, Emote, and more."
+    },
+    {
+     "p": 56,
+     "text": "Dive into Festival to start unlocking rewards!"
+    }
+   ],
+   "chapter": "TWINDRILL DIVA"
+  },
+  {
+   "type": "quote",
+   "p": 57,
+   "kicker": "IN-GAME NEWS",
+   "title": "Keep Tabs on the Adventure!",
+   "lines": [
+    {
+     "p": 58,
+     "text": "All great adventures begin with a treasure map!"
+    },
+    {
+     "p": 59,
+     "text": "Head to the Treasure Tab to follow along with weekly progress and chart your next move."
+    }
+   ],
+   "chapter": "The Treasure Tab"
+  },
+  {
+   "type": "title",
+   "p": 60,
+   "chapter": "The week's bundles",
+   "kicker": "ITEM SHOP",
+   "lines": [
+    "The week's",
+    "big bundles"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 61,
+   "title": "Masters of the Universe Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_RebelTempo.png",
+     "name": "He-Man",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_PrismGlee.png",
+     "name": "Skeletor",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_TrickCrate.png",
+     "name": "She-Ra",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 62,
+   "title": "Mega Man Bundle · last day tomorrow",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_DuneBriefMerry.png",
+     "name": "Mega Man (Dual Override)",
+     "rarity": "gaminglegends",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_DuneBriefShift.png",
+     "name": "Mega Man X",
+     "rarity": "gaminglegends",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-14-week-news/img/Character_TackleShow.png",
+     "name": "Zero (Mega Man)",
+     "rarity": "gaminglegends",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 64,
+   "chapter": "Recap",
+   "kicker": "QUICK RECAP",
+   "lines": [
+    "v43.10 · Buggy's Beachhead",
+    "Lil Uzi Vert · Buggy · Mega Man"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 68
+  }
+ ]
+}
