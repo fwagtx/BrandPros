@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-14",
+ "dateLabel": "NOV 14",
+ "resetLabel": "6 PM CT",
+ "dealOutLabel": "DEC 6",
+ "deal": {
+  "name": "A$AP Rocky Bundle",
+  "final": 3200,
+  "regular": 8800,
+  "out": "2026-12-06",
+  "outfits": [
+   {
+    "id": "Character_TonicMailWeb",
+    "name": "Helicopter Flacko",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailweb/featured.png",
+    "price": null,
+    "out": null,
+    "in": null
+   },
+   {
+    "id": "Character_TonicMailYam",
+    "name": "Rocky Rugahand",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailyam/featured.png",
+    "price": 1500,
+    "out": "2026-12-06",
+    "in": "2026-11-06"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 4,
+  "outfits": [
+   {
+    "id": "CID_154_Athena_Commando_M_Gumshoe",
+    "name": "Sleuth",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_154_athena_commando_m_gumshoe/featured.png",
+    "price": 1500,
+    "out": "2026-11-14",
+    "in": "2026-11-14"
+   }
+  ]
+ },
+ "last": {
+  "count": 6,
+  "outfits": [
+   {
+    "id": "Character_CosmicSquatter",
+    "name": "Budge",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_cosmicsquatter/featured.png",
+    "price": 1200,
+    "out": "2026-11-14",
+    "in": "2026-11-10"
+   },
+   {
+    "id": "Character_TacticKale_D",
+    "name": "Guerilla",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tactickale_d/featured.png",
+    "price": 1200,
+    "out": "2026-11-14",
+    "in": "2026-11-14"
+   },
+   {
+    "id": "Character_IceRetreat",
+    "name": "Summitseeker Evie",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_iceretreat/featured.png",
+    "price": 1200,
+    "out": "2026-11-14",
+    "in": "2026-11-13"
+   },
+   {
+    "id": "CID_679_Athena_Commando_M_ModernMilitaryEclipse",
+    "name": "Shadow Archetype",
+    "rarity": "Shadow Series",
+    "rarityKey": "shadow",
+    "series": "Shadow Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_679_athena_commando_m_modernmilitaryeclipse/featured.png",
+    "price": 1500,
+    "out": "2026-11-14",
+    "in": "2026-11-13"
+   },
+   {
+    "id": "CID_154_Athena_Commando_M_Gumshoe",
+    "name": "Sleuth",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_154_athena_commando_m_gumshoe/featured.png",
+    "price": 1500,
+    "out": "2026-11-14",
+    "in": "2026-11-14"
+   },
+   {
+    "id": "CID_A_007_Athena_Commando_F_StreetFashionEclipse",
+    "name": "Ruby Shadows",
+    "rarity": "Shadow Series",
+    "rarityKey": "shadow",
+    "series": "Shadow Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_007_athena_commando_f_streetfashioneclipse/featured.png",
+    "price": 1200,
+    "out": "2026-11-14",
+    "in": "2026-11-13"
+   }
+  ]
+ },
+ "phrases": [
+  "This is today's Item Shop for November 14th.",
+  "Three things before you spend a single V-Buck!",
+  "The A$AP Rocky Bundle:",
+  "3,200 V-Bucks, instead of 8,800.",
+  "Sleuth is in the shop.",
+  "It's from Chapter 1, Season 4.",
+  "And six skins are on their last day, three of them Rare.",
+  "Buying anything today?",
+  "Use code BAD in the Item Shop. It really helps the channel.",
+  "Thank you for watching! Follow for more daily content."
+ ]
+}
