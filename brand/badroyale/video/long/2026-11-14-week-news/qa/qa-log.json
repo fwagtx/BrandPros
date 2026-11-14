@@ -1,12 +1,12 @@
 {
   "video": "badroyale-2026-11-14-week-news.mp4",
-  "checked_utc": "2026-11-14T11:57:41Z",
+  "checked_utc": "2026-11-14T11:59:41Z",
   "verdict": "DO NOT POST: fix failures",
   "results": [
     {
       "check": "1. Facts",
       "status": "FAIL",
-      "detail": "21/22 claims verified against saved official data",
+      "detail": "20/21 claims verified against saved official data",
       "items": [
         {
           "claim": "Build 43.00 on 2026-11-07, 43.10 from 2026-11-12",
@@ -100,8 +100,8 @@
         },
         {
           "claim": "Masters of the Universe Bundle 3600 (listed 6700), in the shop 2026-11-10..2026-11-13",
-          "result": "PASS",
-          "why": "matched in shop-2026-11-10.json"
+          "result": "FAIL",
+          "why": "source missing: shop-2026-11-10.json"
         },
         {
           "claim": "Mega Man Bundle Rush sidekick",
@@ -112,18 +112,13 @@
           "claim": "Mega Man Bundle 3800 (listed 7300), first 2026-11-11, outDate 2026-11-15",
           "result": "PASS",
           "why": "matched in shop-2026-11-14.json"
-        },
-        {
-          "claim": "Sources are fresh (< 24 h, or inside their valid_until)",
-          "result": "FAIL",
-          "why": "shop-2026-11-10.json fetched 108 h ago. Re-fetch and re-run before posting."
         }
       ]
     },
     {
       "check": "2. Spelling and grammar",
       "status": "PASS",
-      "detail": "64 distinct words checked; code written as BAD in all 4 mentions",
+      "detail": "73 distinct words checked; code written as BAD in all 4 mentions",
       "items": []
     },
     {

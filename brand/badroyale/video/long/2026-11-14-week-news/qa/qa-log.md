@@ -1,9 +1,9 @@
 # Pre-post check: badroyale-2026-11-14-week-news.mp4
 
-Checked 2026-11-14T11:57:41Z · **DO NOT POST: fix failures**
+Checked 2026-11-14T11:59:41Z · **DO NOT POST: fix failures**
 
 ## 1. Facts: FAIL
-21/22 claims verified against saved official data
+20/21 claims verified against saved official data
 - Build 43.00 on 2026-11-07, 43.10 from 2026-11-12 · PASS · matched in week-news.json
 - Map 17 -> 16 places; removed ['Boogie Boat', "Fortune's Fort", 'Loot Lagoon']; added ["Nami's Tangerine Grove", "Buggy's Beachhead"] · PASS · matched in week-news.json
 - Buggy's Beachhead: named, in the north of the map, closest Lantern Landing; ~60 m from Loot Lagoon's old coordinates · PASS · matched in week-news.json; map_coords for both days; distance between them
@@ -22,13 +22,12 @@ Checked 2026-11-14T11:57:41Z · **DO NOT POST: fix failures**
 - Adventure Awaits! absent 2026-11-12, back 2026-11-13; Arlong Park, Baratie, The $.$. Rocky positions · PASS · matched in week-news.json
 - TWINDRILL DIVA Music Pass tile, live 2026-11-12..2026-11-14 · PASS · matched in week-news.json
 - Keep Tabs on the Adventure! tile, live 2026-11-09..2026-11-11 · PASS · matched in week-news.json
-- Masters of the Universe Bundle 3600 (listed 6700), in the shop 2026-11-10..2026-11-13 · PASS · matched in shop-2026-11-10.json
+- Masters of the Universe Bundle 3600 (listed 6700), in the shop 2026-11-10..2026-11-13 · FAIL · source missing: shop-2026-11-10.json
 - Mega Man Bundle Rush sidekick · PASS · matched in shop-2026-11-14.json
 - Mega Man Bundle 3800 (listed 7300), first 2026-11-11, outDate 2026-11-15 · PASS · matched in shop-2026-11-14.json
-- Sources are fresh (< 24 h, or inside their valid_until) · FAIL · shop-2026-11-10.json fetched 108 h ago. Re-fetch and re-run before posting.
 
 ## 2. Spelling and grammar: PASS
-64 distinct words checked; code written as BAD in all 4 mentions
+73 distinct words checked; code written as BAD in all 4 mentions
 
 ## 3. Frames: PASS
 No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png
