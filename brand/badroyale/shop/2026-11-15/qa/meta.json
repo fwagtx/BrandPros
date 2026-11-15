@@ -1,0 +1,100 @@
+{
+ "duration": 22.8,
+ "caption": "#EpicPartner Fortnite Item Shop, Nov 15: the A$AP Rocky Bundle is 3,200 V-Bucks instead of 8,800, Snorkel Ops is in (Chapter 1, Season 2), and 13 skins leave at 6 PM CT.\nBuying today? Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "A$AP Rocky Bundle: 3200 V-Bucks, regular 8800",
+   "source": "shop.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"finalPrice\": 3200",
+    "\"regularPrice\": 8800"
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle leaves 2026-12-06",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-12-06"
+   ]
+  },
+  {
+   "text": "Snorkel Ops is in the shop, introduced Chapter 1, Season 2",
+   "source": "history.json",
+   "match": [
+    "Snorkel Ops",
+    "Introduced in Chapter 1, Season 2."
+   ]
+  },
+  {
+   "text": "13 outfits leave at the next reset (last day)",
+   "source": "plan.json",
+   "match": [
+    "\"count\": 13"
+   ],
+   "visual": "Counted from shop.json outDate == shop date (shop_pick.py)"
+  },
+  {
+   "text": "Reset at 6 PM CT",
+   "source": "plan.json",
+   "match": [
+    "6 PM CT"
+   ],
+   "visual": "00:00 UTC converted to America/Chicago"
+  }
+ ],
+ "text": [
+  "HELICOPTER FLACKO",
+  "SNORKEL OPS",
+  "MELODY MAVERICK",
+  "TODAY'S ITEM SHOP / NOV 15",
+  "1 · BEST DEAL",
+  "ROCKY RUGAHAND",
+  "3,200",
+  "8,800",
+  "A$AP ROCKY BUNDLE · LEAVES DEC 6",
+  "2 · OG CHECK",
+  "CHAPTER 1 · SEASON 2",
+  "3 · LAST DAY",
+  "RADIANT STRIKER",
+  "STARR OAKLEY",
+  "THE BRAT",
+  "ARACHNE",
+  "MEGA MAN (DUAL OVERRIDE)",
+  "+7 MORE",
+  "GONE AT 6 PM CT",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "THIS IS TODAY'S",
+  "ITEM SHOP FOR",
+  "NOVEMBER 15TH.",
+  "THREE THINGS BEFORE",
+  "YOU SPEND A",
+  "SINGLE V-BUCK!",
+  "THE A$AP ROCKY",
+  "BUNDLE:",
+  "3,200 V-BUCKS,",
+  "INSTEAD OF 8,800.",
+  "SNORKEL OPS IS",
+  "IN THE SHOP.",
+  "IT'S FROM CHAPTER",
+  "1,",
+  "SEASON 2.",
+  "AND 13 SKINS",
+  "ARE ON THEIR",
+  "LAST DAY,",
+  "FOUR OF THEM",
+  "RARE.",
+  "BUYING ANYTHING TODAY?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

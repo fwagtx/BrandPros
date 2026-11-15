@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-15",
+ "dateLabel": "NOV 15",
+ "resetLabel": "6 PM CT",
+ "dealOutLabel": "DEC 6",
+ "deal": {
+  "name": "A$AP Rocky Bundle",
+  "final": 3200,
+  "regular": 8800,
+  "out": "2026-12-06",
+  "outfits": [
+   {
+    "id": "Character_TonicMailWeb",
+    "name": "Helicopter Flacko",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailweb/featured.png",
+    "price": null,
+    "out": null,
+    "in": null
+   },
+   {
+    "id": "Character_TonicMailYam",
+    "name": "Rocky Rugahand",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailyam/featured.png",
+    "price": 1500,
+    "out": "2026-12-06",
+    "in": "2026-11-06"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 2,
+  "outfits": [
+   {
+    "id": "CID_073_Athena_Commando_F_Scuba",
+    "name": "Snorkel Ops",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_073_athena_commando_f_scuba/featured.png",
+    "price": 1200,
+    "out": "2026-11-16",
+    "in": "2026-11-15"
+   }
+  ]
+ },
+ "last": {
+  "count": 13,
+  "outfits": [
+   {
+    "id": "CID_A_168_Athena_Commando_F_Stands",
+    "name": "Melody Maverick",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_168_athena_commando_f_stands/featured.png",
+    "price": 1200,
+    "out": "2026-11-15",
+    "in": "2026-11-13"
+   },
+   {
+    "id": "CID_091_Athena_Commando_M_RedShirt",
+    "name": "Radiant Striker",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_091_athena_commando_m_redshirt/featured.png",
+    "price": 1200,
+    "out": "2026-11-15",
+    "in": "2026-11-15"
+   },
+   {
+    "id": "Character_SparkArcher",
+    "name": "Starr Oakley",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_sparkarcher/featured.png",
+    "price": 1200,
+    "out": "2026-11-15",
+    "in": "2026-11-15"
+   },
+   {
+    "id": "CID_614_Athena_Commando_M_MissingLink",
+    "name": "The Brat",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_614_athena_commando_m_missinglink/featured.png",
+    "price": 1200,
+    "out": "2026-11-15",
+    "in": "2026-11-13"
+   },
+   {
+    "id": "CID_249_Athena_Commando_F_BlackWidow",
+    "name": "Arachne",
+    "rarity": "Legendary",
+    "rarityKey": "legendary",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_249_athena_commando_f_blackwidow/featured.png",
+    "price": 2000,
+    "out": "2026-11-15",
+    "in": "2026-11-13"
+   },
+   {
+    "id": "Character_DuneBriefMerry",
+    "name": "Mega Man (Dual Override)",
+    "rarity": "Gaming Legends Series",
+    "rarityKey": "gaminglegends",
+    "series": "Gaming Legends Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_dunebriefmerry/featured.png",
+    "price": 1800,
+    "out": "2026-11-15",
+    "in": "2026-11-11"
+   }
+  ]
+ },
+ "phrases": [
+  "This is today's Item Shop for November 15th.",
+  "Three things before you spend a single V-Buck!",
+  "The A$AP Rocky Bundle:",
+  "3,200 V-Bucks, instead of 8,800.",
+  "Snorkel Ops is in the shop.",
+  "It's from Chapter 1, Season 2.",
+  "And 13 skins are on their last day, four of them Rare.",
+  "Buying anything today?",
+  "Use code BAD in the Item Shop. It really helps the channel.",
+  "Thank you for watching! Follow for more daily content."
+ ]
+}
