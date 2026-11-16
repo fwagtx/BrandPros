@@ -1,0 +1,954 @@
+{
+ "title": "This Week's Fortnite Item Shop",
+ "caption": "#EpicPartner Everything in the Fortnite Item Shop this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Mega Man Bundle: 3800 (listed 7300), in 2026-11-11 out 2026-11-15",
+   "source": "week.json",
+   "match": [
+    "Mega Man Bundle",
+    "\"final\": 3800, \"regular\": 7300, \"in\": \"2026-11-11\", \"out\": \"2026-11-15\"",
+    "Mega Man (Dual Override)",
+    "Mega Man X",
+    "Zero (Mega Man)"
+   ]
+  },
+  {
+   "text": "Mega Man Bundle has the highest listed price of the week's new bundles; Rush sidekick",
+   "source": "week.json",
+   "match": [
+    "Mega Man Bundle",
+    "\"Rush (Mega Man)\""
+   ]
+  },
+  {
+   "text": "Masters of the Universe Bundle: 3600 (listed 6700), in 2026-11-10 out 2026-11-13",
+   "source": "week.json",
+   "match": [
+    "Masters of the Universe Bundle",
+    "\"final\": 3600, \"regular\": 6700, \"in\": \"2026-11-10\", \"out\": \"2026-11-13\"",
+    "He-Man",
+    "Skeletor",
+    "She-Ra"
+   ]
+  },
+  {
+   "text": "J Balvin Bundle: 2400 (listed 3300), in 2026-11-11 out 2026-11-15",
+   "source": "week.json",
+   "match": [
+    "J Balvin Bundle",
+    "\"final\": 2400, \"regular\": 3300, \"in\": \"2026-11-11\", \"out\": \"2026-11-15\"",
+    "J Balvin"
+   ]
+  },
+  {
+   "text": "Jurassic J Bundle",
+   "source": "week.json",
+   "match": [
+    "Jurassic J Bundle",
+    "\"final\": 2500, \"regular\": 3600, \"in\": \"2026-11-11\", \"out\": \"2026-11-15\""
+   ]
+  },
+  {
+   "text": "Black Cat Bundle: 2300 (listed 3600), in 2026-11-12 out 2026-11-15",
+   "source": "week.json",
+   "match": [
+    "Black Cat Bundle",
+    "\"final\": 2300, \"regular\": 3600, \"in\": \"2026-11-12\", \"out\": \"2026-11-15\"",
+    "Black Cat"
+   ]
+  },
+  {
+   "text": "Spider-Man Zero Bundle",
+   "source": "week.json",
+   "match": [
+    "Spider-Man Zero Bundle",
+    "\"final\": 1800, \"regular\": 2600, \"in\": \"2026-11-12\", \"out\": \"2026-11-15\""
+   ]
+  },
+  {
+   "text": "Lil Uzi Vert Bundle: 3200 (listed 7100), in 2026-11-13 out 2026-12-12",
+   "source": "week.json",
+   "match": [
+    "Lil Uzi Vert Bundle",
+    "\"final\": 3200, \"regular\": 7100, \"in\": \"2026-11-13\", \"out\": \"2026-12-12\"",
+    "Lil Uzi Vert",
+    "Pink Star Lil Uzi Vert"
+   ]
+  },
+  {
+   "text": "Jason Bundle: 2500 (listed 3600), in 2026-11-13 out 2026-11-15",
+   "source": "week.json",
+   "match": [
+    "Jason Bundle",
+    "\"final\": 2500, \"regular\": 3600, \"in\": \"2026-11-13\", \"out\": \"2026-11-15\"",
+    "Jason"
+   ]
+  },
+  {
+   "text": "PIRATE D. SPEEDY Bundle: 1800 (listed 2700), in 2026-11-14 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "PIRATE D. SPEEDY Bundle",
+    "\"final\": 1800, \"regular\": 2700, \"in\": \"2026-11-14\", \"out\": \"2026-11-20\"",
+    "PIRATE D. SPEEDY"
+   ]
+  },
+  {
+   "text": "Buggy entry 1600, in 2026-11-14 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "Buggy",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-14\", \"out\": \"2026-12-05\""
+   ]
+  },
+  {
+   "text": "Cap'n Hatsune Miku entry 2200 (listed 4100), 6 items, in 2026-11-15 out 2026-12-14",
+   "source": "week.json",
+   "match": [
+    "Cap'n Hatsune Miku",
+    "\"final\": 2200, \"regular\": 4100, \"in\": \"2026-11-15\", \"out\": \"2026-12-14\""
+   ]
+  },
+  {
+   "text": "Escape Artists Bundle: 1800 (listed 2400), in 2026-11-12 out 2026-11-14",
+   "source": "week.json",
+   "match": [
+    "Escape Artists Bundle",
+    "\"final\": 1800, \"regular\": 2400, \"in\": \"2026-11-12\", \"out\": \"2026-11-14\"",
+    "Alias",
+    "Caper",
+    "Heartline"
+   ]
+  },
+  {
+   "text": "Escape Artists Bundle has the most items (37) of the week's new bundles",
+   "source": "week.json",
+   "match": [
+    "Escape Artists Bundle"
+   ]
+  },
+  {
+   "text": "Grim Medicine Bundle: 2200 (listed 4600), in 2026-11-10 out 2026-11-11",
+   "source": "week.json",
+   "match": [
+    "Grim Medicine Bundle",
+    "\"final\": 2200, \"regular\": 4600, \"in\": \"2026-11-10\", \"out\": \"2026-11-11\"",
+    "Scourge",
+    "Plague"
+   ]
+  },
+  {
+   "text": "Archetype Bundle: 1800 (listed 3200), in 2026-11-11 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Archetype Bundle",
+    "\"final\": 1800, \"regular\": 3200, \"in\": \"2026-11-11\", \"out\": \"2026-11-12\"",
+    "Archetype"
+   ]
+  },
+  {
+   "text": "24 bundles with an in date 2026-11-10..2026-11-16",
+   "source": "week.json",
+   "match": [
+    "Archetype Bundle",
+    "Black Cat Bundle",
+    "Candywing's Glitch Locker Bundle",
+    "Caspian Bundle",
+    "Escape Artists Bundle",
+    "Gotham City Summer Bundle",
+    "Grim Medicine Bundle",
+    "Hatsune Miku Bundle",
+    "Hesper King Bundle",
+    "High Tide Harley & Chlorophyll Ivy Bundle",
+    "J Balvin Bundle",
+    "Jacob's Pierogi Locker Bundle",
+    "Jason Bundle",
+    "Jurassic J Bundle",
+    "Katalina Bundle",
+    "Like a G6 Bundle",
+    "Lil Uzi Vert Bundle",
+    "Masters of the Universe Bundle",
+    "Mega Man Bundle",
+    "PIRATE D. SPEEDY Bundle",
+    "Shohei Ohtani Bundle",
+    "Spider-Man Zero Bundle",
+    "Stay Afloat Bundle",
+    "emo girl Bundle"
+   ]
+  },
+  {
+   "text": "Gotham City Summer Bundle: 3000 (listed 6900), in 2026-11-16 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Gotham City Summer Bundle",
+    "\"final\": 3000, \"regular\": 6900, \"in\": \"2026-11-16\", \"out\": \"2026-11-20\"",
+    "Beach Bod Batman",
+    "Coastal Catwoman"
+   ]
+  },
+  {
+   "text": "High Tide Harley & Chlorophyll Ivy Bundle: 2300 (listed 4300), in 2026-11-16 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "High Tide Harley & Chlorophyll Ivy Bundle",
+    "\"final\": 2300, \"regular\": 4300, \"in\": \"2026-11-16\", \"out\": \"2026-11-20\"",
+    "High Tide Harley",
+    "Chlorophyll Ivy"
+   ]
+  },
+  {
+   "text": "Hatsune Miku Bundle: 3200 (listed 5200), in 2026-11-16 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Hatsune Miku Bundle",
+    "\"final\": 3200, \"regular\": 5200, \"in\": \"2026-11-16\", \"out\": \"2026-11-20\"",
+    "Hatsune Miku"
+   ]
+  },
+  {
+   "text": "Shohei Ohtani Bundle: 2800 (listed 6100), in 2026-11-16 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Shohei Ohtani Bundle",
+    "\"final\": 2800, \"regular\": 6100, \"in\": \"2026-11-16\", \"out\": \"2026-11-20\"",
+    "Shohei Ohtani",
+    "Samurai Shohei"
+   ]
+  },
+  {
+   "text": "Candywing's Glitch Locker Bundle: 2800 (listed 4500), in 2026-11-16 out 2026-11-18",
+   "source": "week.json",
+   "match": [
+    "Candywing's Glitch Locker Bundle",
+    "\"final\": 2800, \"regular\": 4500, \"in\": \"2026-11-16\", \"out\": \"2026-11-18\"",
+    "Glitch"
+   ]
+  },
+  {
+   "text": "Snorkel Ops: Chapter 1, Season 2",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Snorkel Ops\", \"introduction\": \"Introduced in Chapter 1, Season 2.\""
+   ]
+  },
+  {
+   "text": "Radiant Striker: Chapter 1, Season 3",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Radiant Striker\", \"introduction\": \"Introduced in Chapter 1, Season 3.\""
+   ]
+  },
+  {
+   "text": "Sleuth: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Sleuth\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Bandolier: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Bandolier\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Overtaker: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Overtaker\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Archetype: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Archetype\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Moniker: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Moniker\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Tender Defender: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Tender Defender\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Arachne: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Arachne\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Flapjackie: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Flapjackie\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Firewalker: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Firewalker\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Deep Sea Destroyer: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Deep Sea Destroyer\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Signature Sniper: Chapter 1, Season 9",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Signature Sniper\", \"introduction\": \"Introduced in Chapter 1, Season 9.\""
+   ]
+  },
+  {
+   "text": "One Piece Bundle: 4000 (listed 8200), in 2026-11-01 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "One Piece Bundle",
+    "\"final\": 4000, \"regular\": 8200, \"in\": \"2026-11-01\", \"out\": \"2026-12-05\"",
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp"
+   ]
+  },
+  {
+   "text": "Straw Hats Bundle",
+   "source": "week.json",
+   "match": [
+    "Straw Hats Bundle",
+    "\"final\": 3200, \"regular\": 4900, \"in\": \"2026-11-08\", \"out\": \"2026-12-05\""
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle: 3200 (listed 8800), in 2026-11-06 out 2026-12-06",
+   "source": "week.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"final\": 3200, \"regular\": 8800, \"in\": \"2026-11-06\", \"out\": \"2026-12-06\"",
+    "Helicopter Flacko",
+    "Rocky Rugahand"
+   ]
+  },
+  {
+   "text": "Star Wars Samurai Bundle: 3200 (listed 5600), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Star Wars Samurai Bundle",
+    "\"final\": 3200, \"regular\": 5600, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Darth Vader Samurai",
+    "Stormtrooper Samurai"
+   ]
+  },
+  {
+   "text": "Golden King Bundle: 2500 (listed 3300), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Golden King Bundle",
+    "\"final\": 2500, \"regular\": 3300, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Ascendant Midas"
+   ]
+  },
+  {
+   "text": "Cyber Infiltration Pack: 2200 (listed 3600), in 2026-11-09 out 2026-11-11",
+   "source": "week.json",
+   "match": [
+    "Cyber Infiltration Pack",
+    "\"final\": 2200, \"regular\": 3600, \"in\": \"2026-11-09\", \"out\": \"2026-11-11\"",
+    "Chigusa",
+    "Megumi",
+    "Yuki"
+   ]
+  },
+  {
+   "text": "Katalina Bundle: 1600 (listed 2500), in 2026-11-16 out 2026-11-17",
+   "source": "week.json",
+   "match": [
+    "Katalina Bundle",
+    "\"final\": 1600, \"regular\": 2500, \"in\": \"2026-11-16\", \"out\": \"2026-11-17\"",
+    "Katalina"
+   ]
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "NOV 10 - NOV 16",
+   "lines": [
+    "This Week's",
+    "Item Shop"
+   ]
+  },
+  {
+   "type": "title",
+   "p": 3,
+   "chapter": "Biggest bundle of the week",
+   "kicker": "BIGGEST BUNDLE",
+   "lines": [
+    "Mega Man"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 4,
+   "title": "Mega Man · 3,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_dunebriefmerry.png",
+     "name": "Mega Man (Dual Override)",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_dunebriefshift.png",
+     "name": "Mega Man X",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_tackleshow.png",
+     "name": "Zero (Mega Man)",
+     "rarity": "gaminglegends"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 7,
+   "chapter": "New this week",
+   "kicker": "NEW THIS WEEK",
+   "lines": [
+    "Fresh in",
+    "the shop"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 8,
+   "title": "Masters of the Universe · 3,600",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_rebeltempo.png",
+     "name": "He-Man",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_prismglee.png",
+     "name": "Skeletor",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_trickcrate.png",
+     "name": "She-Ra",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 10,
+   "title": "J Balvin · 2,400 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_a_182_athena_commando_m_vivid_lzgq3.png",
+     "name": "J Balvin",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 11,
+   "title": "Black Cat · 2,300 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_sweetletter.png",
+     "name": "Black Cat",
+     "rarity": "marvel"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 12,
+   "title": "Lil Uzi Vert · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_rookgeckorod.png",
+     "name": "Lil Uzi Vert",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_rookgeckorye.png",
+     "name": "Pink Star Lil Uzi Vert",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 14,
+   "title": "Jason · 2,500 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_gnatgala.png",
+     "name": "Jason",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 15,
+   "title": "PIRATE D. SPEEDY · 1,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_locketsnug.png",
+     "name": "PIRATE D. SPEEDY",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 16,
+   "chapter": "New captains",
+   "kicker": "NEW CAPTAINS",
+   "lines": [
+    "Buggy and",
+    "Cap'n Miku"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 17,
+   "title": "Buggy · 1,600 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_flipperbalm.png",
+     "name": "Buggy",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 18,
+   "title": "Cap'n Hatsune Miku · 2,200",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_peonypizza.png",
+     "name": "Cap'n Hatsune Miku",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "p": 19
+  },
+  {
+   "type": "title",
+   "p": 20,
+   "chapter": "More new bundles",
+   "kicker": "MORE NEW BUNDLES",
+   "lines": [
+    "The rest of",
+    "the new drops"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 21,
+   "title": "Escape Artists · 1,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_jumpsuit_mutable.png",
+     "name": "Alias",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_jumpsuit_scrap_mutable.png",
+     "name": "Caper",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/spray_jumpsuit_1.png",
+     "name": "Heartline",
+     "rarity": "uncommon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 22,
+   "title": "Grim Medicine · 2,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_240_athena_commando_f_plague.png",
+     "name": "Scourge",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_241_athena_commando_m_plague.png",
+     "name": "Plague",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 23,
+   "title": "Archetype · 1,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_182_athena_commando_m_modernmilitary.png",
+     "name": "Archetype",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 24,
+   "big": "24",
+   "label": "new bundles this week"
+  },
+  {
+   "type": "title",
+   "p": 25,
+   "chapter": "New today",
+   "kicker": "NEW TODAY",
+   "lines": [
+    "Fresh this",
+    "morning"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 26,
+   "title": "Gotham City Summer · 3,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_tidecompost.png",
+     "name": "Beach Bod Batman",
+     "rarity": "dc"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_hammervice.png",
+     "name": "Coastal Catwoman",
+     "rarity": "dc"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 27,
+   "title": "High Tide Harley + Chlorophyll Ivy",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_humorshale_teak.png",
+     "name": "High Tide Harley",
+     "rarity": "dc"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_crimpperfume.png",
+     "name": "Chlorophyll Ivy",
+     "rarity": "dc"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 28,
+   "title": "Hatsune Miku · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_jadetowelgloss.png",
+     "name": "Hatsune Miku",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 29,
+   "title": "Shohei Ohtani · 2,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_velvetdeskcam.png",
+     "name": "Shohei Ohtani",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_velvetdeskfiber.png",
+     "name": "Samurai Shohei",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 31,
+   "title": "Candywing's Glitch Locker · 2,800",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_defectglitch.png",
+     "name": "Glitch",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 32,
+   "chapter": "OG check",
+   "kicker": "OG CHECK",
+   "lines": [
+    "Chapter 1",
+    "returns"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 33,
+   "title": "Chapter 1 OGs this week",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_073_athena_commando_f_scuba.png",
+     "name": "Snorkel Ops",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_091_athena_commando_m_redshirt.png",
+     "name": "Radiant Striker",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_154_athena_commando_m_gumshoe.png",
+     "name": "Sleuth",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_131_athena_commando_m_warpaint.png",
+     "name": "Bandolier",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 35,
+   "title": "Chapter 1 OGs this week",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_190_athena_commando_m_streetracerwhite.png",
+     "name": "Overtaker",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_182_athena_commando_m_modernmilitary.png",
+     "name": "Archetype",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_171_athena_commando_m_sharpdresser.png",
+     "name": "Moniker",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_274_athena_commando_m_feathers.png",
+     "name": "Tender Defender",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_249_athena_commando_f_blackwidow.png",
+     "name": "Arachne",
+     "rarity": "legendary"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 37,
+   "title": "Chapter 1 OGs this week",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_336_athena_commando_m_dragonmask.png",
+     "name": "Firewalker",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_320_athena_commando_m_nautilus.png",
+     "name": "Deep Sea Destroyer",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_447_athena_commando_m_bannerb.png",
+     "name": "Signature Sniper",
+     "rarity": "uncommon"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 38,
+   "chapter": "Still in the shop",
+   "kicker": "STILL HERE",
+   "lines": [
+    "In the shop",
+    "for weeks"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 39,
+   "title": "One Piece · 4,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_celerystitch.png",
+     "name": "Monkey D. Luffy",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_boastjoint.png",
+     "name": "Nami",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_loomrise.png",
+     "name": "Usopp",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 40,
+   "title": "A$AP Rocky · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_tonicmailweb.png",
+     "name": "Helicopter Flacko",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_tonicmailyam.png",
+     "name": "Rocky Rugahand",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 41,
+   "chapter": "Gone this week",
+   "kicker": "GONE THIS WEEK",
+   "lines": [
+    "Last chance",
+    "was this week"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 42,
+   "title": "Star Wars Samurai · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_sequinpie.png",
+     "name": "Darth Vader Samurai",
+     "rarity": "starwars"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_beettread.png",
+     "name": "Stormtrooper Samurai",
+     "rarity": "starwars"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 43,
+   "title": "Golden King · 2,500 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_piteouskicks.png",
+     "name": "Ascendant Midas",
+     "rarity": "legendary"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 44,
+   "title": "Cyber Infiltration Pack · 2,200",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_a_048_athena_commando_f_sailorsquadleader.png",
+     "name": "Chigusa",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_a_049_athena_commando_f_sailorsquadrebel.png",
+     "name": "Megumi",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/cid_a_050_athena_commando_f_sailorsquadrose.png",
+     "name": "Yuki",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 45,
+   "chapter": "Leaving soon",
+   "kicker": "LEAVING SOON",
+   "lines": [
+    "In the shop",
+    "until Nov 17"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 45,
+   "title": "Katalina · until Nov 17",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-16-week-item-shop/img/character_excitedcyan.png",
+     "name": "Katalina",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 47,
+   "chapter": "Recap",
+   "kicker": "QUICK RECAP",
+   "lines": [
+    "Mega Man · Lil Uzi Vert",
+    "Gotham · Hatsune Miku · Ohtani"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 51
+  }
+ ]
+}
