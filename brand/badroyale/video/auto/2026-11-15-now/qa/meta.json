@@ -1,0 +1,100 @@
+{
+ "duration": 19.4,
+ "caption": "#EpicPartner Brand new in the Item Shop: Cap'n Hatsune Miku",
+ "claims": [
+  {
+   "text": "Cap'n Hatsune Miku is in the Item Shop for 2026-11-15",
+   "source": "shop.json",
+   "match": [
+    "Cap'n Hatsune Miku",
+    "\"date\": \"2026-11-15"
+   ]
+  },
+  {
+   "text": "Price 2,200 V-Bucks (listed regular price 4,100)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 4100, \"finalPrice\": 2200"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-15",
+   "source": "shop.json",
+   "match": [
+    "2026-11-15T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Cap'n Hatsune Miku is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Cap'n Hatsune Miku"
+   ]
+  },
+  {
+   "text": "Miku's Treasure is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Miku's Treasure"
+   ]
+  },
+  {
+   "text": "Miku's Mic is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Miku's Mic"
+   ]
+  },
+  {
+   "text": "Miku's Anchor Floatie is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Miku's Anchor Floatie"
+   ]
+  },
+  {
+   "text": "Brand new: first added to the game in the last 14 days",
+   "source": "shop.json",
+   "match": [
+    "\"added\": \"2026-11-12T13:09:30Z\""
+   ]
+  }
+ ],
+ "text": [
+  "BRAND NEW / IN THE ITEM SHOP",
+  "CAP'N HATSUNE MIKU",
+  "MIKU'S TREASURE",
+  "MIKU'S MIC",
+  "CAP'N HATSUNE MIKU, MIKU'S TREASURE, MIKU'S MIC AND 2 MORE ITEMS",
+  "2,200 V-BUCKS",
+  "IN THE SHOP UNTIL DEC 14",
+  "BRAND NEW IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "CAP'N HATSUNE MIKU.",
+  "CAP'N HATSUNE MIKU,",
+  "MIKU'S TREASURE,",
+  "MIKU'S MIC AND",
+  "2 MORE ITEMS.",
+  "2,200 V-BUCKS,",
+  "INSTEAD OF 4,100.",
+  "IT'S IN THE",
+  "SHOP UNTIL DECEMBER",
+  "14TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
