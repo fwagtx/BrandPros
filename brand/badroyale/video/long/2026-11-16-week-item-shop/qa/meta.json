@@ -1,0 +1,679 @@
+{
+ "duration": 257.2,
+ "caption": "#EpicPartner Everything in the Fortnite Item Shop this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Mega Man Bundle: 3800 (listed 7300), in 2026-11-11 out 2026-11-15",
+   "source": "week.json",
+   "match": [
+    "Mega Man Bundle",
+    "\"final\": 3800, \"regular\": 7300, \"in\": \"2026-11-11\", \"out\": \"2026-11-15\"",
+    "Mega Man (Dual Override)",
+    "Mega Man X",
+    "Zero (Mega Man)"
+   ]
+  },
+  {
+   "text": "Mega Man Bundle has the highest listed price of the week's new bundles; Rush sidekick",
+   "source": "week.json",
+   "match": [
+    "Mega Man Bundle",
+    "\"Rush (Mega Man)\""
+   ]
+  },
+  {
+   "text": "Masters of the Universe Bundle: 3600 (listed 6700), in 2026-11-10 out 2026-11-13",
+   "source": "week.json",
+   "match": [
+    "Masters of the Universe Bundle",
+    "\"final\": 3600, \"regular\": 6700, \"in\": \"2026-11-10\", \"out\": \"2026-11-13\"",
+    "He-Man",
+    "Skeletor",
+    "She-Ra"
+   ]
+  },
+  {
+   "text": "J Balvin Bundle: 2400 (listed 3300), in 2026-11-11 out 2026-11-15",
+   "source": "week.json",
+   "match": [
+    "J Balvin Bundle",
+    "\"final\": 2400, \"regular\": 3300, \"in\": \"2026-11-11\", \"out\": \"2026-11-15\"",
+    "J Balvin"
+   ]
+  },
+  {
+   "text": "Jurassic J Bundle",
+   "source": "week.json",
+   "match": [
+    "Jurassic J Bundle",
+    "\"final\": 2500, \"regular\": 3600, \"in\": \"2026-11-11\", \"out\": \"2026-11-15\""
+   ]
+  },
+  {
+   "text": "Black Cat Bundle: 2300 (listed 3600), in 2026-11-12 out 2026-11-15",
+   "source": "week.json",
+   "match": [
+    "Black Cat Bundle",
+    "\"final\": 2300, \"regular\": 3600, \"in\": \"2026-11-12\", \"out\": \"2026-11-15\"",
+    "Black Cat"
+   ]
+  },
+  {
+   "text": "Spider-Man Zero Bundle",
+   "source": "week.json",
+   "match": [
+    "Spider-Man Zero Bundle",
+    "\"final\": 1800, \"regular\": 2600, \"in\": \"2026-11-12\", \"out\": \"2026-11-15\""
+   ]
+  },
+  {
+   "text": "Lil Uzi Vert Bundle: 3200 (listed 7100), in 2026-11-13 out 2026-12-12",
+   "source": "week.json",
+   "match": [
+    "Lil Uzi Vert Bundle",
+    "\"final\": 3200, \"regular\": 7100, \"in\": \"2026-11-13\", \"out\": \"2026-12-12\"",
+    "Lil Uzi Vert",
+    "Pink Star Lil Uzi Vert"
+   ]
+  },
+  {
+   "text": "Jason Bundle: 2500 (listed 3600), in 2026-11-13 out 2026-11-15",
+   "source": "week.json",
+   "match": [
+    "Jason Bundle",
+    "\"final\": 2500, \"regular\": 3600, \"in\": \"2026-11-13\", \"out\": \"2026-11-15\"",
+    "Jason"
+   ]
+  },
+  {
+   "text": "PIRATE D. SPEEDY Bundle: 1800 (listed 2700), in 2026-11-14 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "PIRATE D. SPEEDY Bundle",
+    "\"final\": 1800, \"regular\": 2700, \"in\": \"2026-11-14\", \"out\": \"2026-11-20\"",
+    "PIRATE D. SPEEDY"
+   ]
+  },
+  {
+   "text": "Buggy entry 1600, in 2026-11-14 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "Buggy",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-14\", \"out\": \"2026-12-05\""
+   ]
+  },
+  {
+   "text": "Cap'n Hatsune Miku entry 2200 (listed 4100), 6 items, in 2026-11-15 out 2026-12-14",
+   "source": "week.json",
+   "match": [
+    "Cap'n Hatsune Miku",
+    "\"final\": 2200, \"regular\": 4100, \"in\": \"2026-11-15\", \"out\": \"2026-12-14\""
+   ]
+  },
+  {
+   "text": "Escape Artists Bundle: 1800 (listed 2400), in 2026-11-12 out 2026-11-14",
+   "source": "week.json",
+   "match": [
+    "Escape Artists Bundle",
+    "\"final\": 1800, \"regular\": 2400, \"in\": \"2026-11-12\", \"out\": \"2026-11-14\"",
+    "Alias",
+    "Caper",
+    "Heartline"
+   ]
+  },
+  {
+   "text": "Escape Artists Bundle has the most items (37) of the week's new bundles",
+   "source": "week.json",
+   "match": [
+    "Escape Artists Bundle"
+   ]
+  },
+  {
+   "text": "Grim Medicine Bundle: 2200 (listed 4600), in 2026-11-10 out 2026-11-11",
+   "source": "week.json",
+   "match": [
+    "Grim Medicine Bundle",
+    "\"final\": 2200, \"regular\": 4600, \"in\": \"2026-11-10\", \"out\": \"2026-11-11\"",
+    "Scourge",
+    "Plague"
+   ]
+  },
+  {
+   "text": "Archetype Bundle: 1800 (listed 3200), in 2026-11-11 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Archetype Bundle",
+    "\"final\": 1800, \"regular\": 3200, \"in\": \"2026-11-11\", \"out\": \"2026-11-12\"",
+    "Archetype"
+   ]
+  },
+  {
+   "text": "24 bundles with an in date 2026-11-10..2026-11-16",
+   "source": "week.json",
+   "match": [
+    "Archetype Bundle",
+    "Black Cat Bundle",
+    "Candywing's Glitch Locker Bundle",
+    "Caspian Bundle",
+    "Escape Artists Bundle",
+    "Gotham City Summer Bundle",
+    "Grim Medicine Bundle",
+    "Hatsune Miku Bundle",
+    "Hesper King Bundle",
+    "High Tide Harley & Chlorophyll Ivy Bundle",
+    "J Balvin Bundle",
+    "Jacob's Pierogi Locker Bundle",
+    "Jason Bundle",
+    "Jurassic J Bundle",
+    "Katalina Bundle",
+    "Like a G6 Bundle",
+    "Lil Uzi Vert Bundle",
+    "Masters of the Universe Bundle",
+    "Mega Man Bundle",
+    "PIRATE D. SPEEDY Bundle",
+    "Shohei Ohtani Bundle",
+    "Spider-Man Zero Bundle",
+    "Stay Afloat Bundle",
+    "emo girl Bundle"
+   ]
+  },
+  {
+   "text": "Gotham City Summer Bundle: 3000 (listed 6900), in 2026-11-16 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Gotham City Summer Bundle",
+    "\"final\": 3000, \"regular\": 6900, \"in\": \"2026-11-16\", \"out\": \"2026-11-20\"",
+    "Beach Bod Batman",
+    "Coastal Catwoman"
+   ]
+  },
+  {
+   "text": "High Tide Harley & Chlorophyll Ivy Bundle: 2300 (listed 4300), in 2026-11-16 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "High Tide Harley & Chlorophyll Ivy Bundle",
+    "\"final\": 2300, \"regular\": 4300, \"in\": \"2026-11-16\", \"out\": \"2026-11-20\"",
+    "High Tide Harley",
+    "Chlorophyll Ivy"
+   ]
+  },
+  {
+   "text": "Hatsune Miku Bundle: 3200 (listed 5200), in 2026-11-16 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Hatsune Miku Bundle",
+    "\"final\": 3200, \"regular\": 5200, \"in\": \"2026-11-16\", \"out\": \"2026-11-20\"",
+    "Hatsune Miku"
+   ]
+  },
+  {
+   "text": "Shohei Ohtani Bundle: 2800 (listed 6100), in 2026-11-16 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Shohei Ohtani Bundle",
+    "\"final\": 2800, \"regular\": 6100, \"in\": \"2026-11-16\", \"out\": \"2026-11-20\"",
+    "Shohei Ohtani",
+    "Samurai Shohei"
+   ]
+  },
+  {
+   "text": "Candywing's Glitch Locker Bundle: 2800 (listed 4500), in 2026-11-16 out 2026-11-18",
+   "source": "week.json",
+   "match": [
+    "Candywing's Glitch Locker Bundle",
+    "\"final\": 2800, \"regular\": 4500, \"in\": \"2026-11-16\", \"out\": \"2026-11-18\"",
+    "Glitch"
+   ]
+  },
+  {
+   "text": "Snorkel Ops: Chapter 1, Season 2",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Snorkel Ops\", \"introduction\": \"Introduced in Chapter 1, Season 2.\""
+   ]
+  },
+  {
+   "text": "Radiant Striker: Chapter 1, Season 3",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Radiant Striker\", \"introduction\": \"Introduced in Chapter 1, Season 3.\""
+   ]
+  },
+  {
+   "text": "Sleuth: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Sleuth\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Bandolier: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Bandolier\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Overtaker: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Overtaker\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Archetype: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Archetype\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Moniker: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Moniker\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Tender Defender: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Tender Defender\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Arachne: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Arachne\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Flapjackie: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Flapjackie\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Firewalker: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Firewalker\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Deep Sea Destroyer: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Deep Sea Destroyer\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Signature Sniper: Chapter 1, Season 9",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Signature Sniper\", \"introduction\": \"Introduced in Chapter 1, Season 9.\""
+   ]
+  },
+  {
+   "text": "One Piece Bundle: 4000 (listed 8200), in 2026-11-01 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "One Piece Bundle",
+    "\"final\": 4000, \"regular\": 8200, \"in\": \"2026-11-01\", \"out\": \"2026-12-05\"",
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp"
+   ]
+  },
+  {
+   "text": "Straw Hats Bundle",
+   "source": "week.json",
+   "match": [
+    "Straw Hats Bundle",
+    "\"final\": 3200, \"regular\": 4900, \"in\": \"2026-11-08\", \"out\": \"2026-12-05\""
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle: 3200 (listed 8800), in 2026-11-06 out 2026-12-06",
+   "source": "week.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"final\": 3200, \"regular\": 8800, \"in\": \"2026-11-06\", \"out\": \"2026-12-06\"",
+    "Helicopter Flacko",
+    "Rocky Rugahand"
+   ]
+  },
+  {
+   "text": "Star Wars Samurai Bundle: 3200 (listed 5600), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Star Wars Samurai Bundle",
+    "\"final\": 3200, \"regular\": 5600, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Darth Vader Samurai",
+    "Stormtrooper Samurai"
+   ]
+  },
+  {
+   "text": "Golden King Bundle: 2500 (listed 3300), in 2026-11-09 out 2026-11-12",
+   "source": "week.json",
+   "match": [
+    "Golden King Bundle",
+    "\"final\": 2500, \"regular\": 3300, \"in\": \"2026-11-09\", \"out\": \"2026-11-12\"",
+    "Ascendant Midas"
+   ]
+  },
+  {
+   "text": "Cyber Infiltration Pack: 2200 (listed 3600), in 2026-11-09 out 2026-11-11",
+   "source": "week.json",
+   "match": [
+    "Cyber Infiltration Pack",
+    "\"final\": 2200, \"regular\": 3600, \"in\": \"2026-11-09\", \"out\": \"2026-11-11\"",
+    "Chigusa",
+    "Megumi",
+    "Yuki"
+   ]
+  },
+  {
+   "text": "Katalina Bundle: 1600 (listed 2500), in 2026-11-16 out 2026-11-17",
+   "source": "week.json",
+   "match": [
+    "Katalina Bundle",
+    "\"final\": 1600, \"regular\": 2500, \"in\": \"2026-11-16\", \"out\": \"2026-11-17\"",
+    "Katalina"
+   ]
+  }
+ ],
+ "text": [
+  "NOV 10 - NOV 16 / THIS WEEK'S / ITEM SHOP",
+  "BIGGEST BUNDLE / MEGA MAN",
+  "BIGGEST BUNDLE OF THE WEEK",
+  "MEGA MAN · 3,800 V-BUCKS",
+  "MEGA MAN (DUAL OVERRIDE)",
+  "MEGA MAN X",
+  "ZERO (MEGA MAN)",
+  "NEW THIS WEEK / FRESH IN / THE SHOP",
+  "NEW THIS WEEK",
+  "MASTERS OF THE UNIVERSE · 3,600",
+  "HE-MAN",
+  "SKELETOR",
+  "SHE-RA",
+  "J BALVIN · 2,400 V-BUCKS",
+  "J BALVIN",
+  "BLACK CAT · 2,300 V-BUCKS",
+  "BLACK CAT",
+  "LIL UZI VERT · 3,200 V-BUCKS",
+  "LIL UZI VERT",
+  "PINK STAR LIL UZI VERT",
+  "JASON · 2,500 V-BUCKS",
+  "JASON",
+  "PIRATE D. SPEEDY · 1,800 V-BUCKS",
+  "PIRATE D. SPEEDY",
+  "NEW CAPTAINS / BUGGY AND / CAP'N MIKU",
+  "NEW CAPTAINS",
+  "BUGGY · 1,600 V-BUCKS",
+  "BUGGY",
+  "CAP'N HATSUNE MIKU · 2,200",
+  "CAP'N HATSUNE MIKU",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "MORE NEW BUNDLES / THE REST OF / THE NEW DROPS",
+  "MORE NEW BUNDLES",
+  "ESCAPE ARTISTS · 1,800 V-BUCKS",
+  "ALIAS",
+  "CAPER",
+  "HEARTLINE",
+  "GRIM MEDICINE · 2,200 V-BUCKS",
+  "SCOURGE",
+  "PLAGUE",
+  "ARCHETYPE · 1,800 V-BUCKS",
+  "ARCHETYPE",
+  "24 / NEW BUNDLES THIS WEEK",
+  "NEW TODAY / FRESH THIS / MORNING",
+  "NEW TODAY",
+  "GOTHAM CITY SUMMER · 3,000 V-BUCKS",
+  "BEACH BOD BATMAN",
+  "COASTAL CATWOMAN",
+  "HIGH TIDE HARLEY + CHLOROPHYLL IVY",
+  "HIGH TIDE HARLEY",
+  "CHLOROPHYLL IVY",
+  "HATSUNE MIKU · 3,200 V-BUCKS",
+  "HATSUNE MIKU",
+  "SHOHEI OHTANI · 2,800 V-BUCKS",
+  "SHOHEI OHTANI",
+  "SAMURAI SHOHEI",
+  "CANDYWING'S GLITCH LOCKER · 2,800",
+  "GLITCH",
+  "OG CHECK / CHAPTER 1 / RETURNS",
+  "OG CHECK",
+  "CHAPTER 1 OGS THIS WEEK",
+  "SNORKEL OPS",
+  "RADIANT STRIKER",
+  "SLEUTH",
+  "BANDOLIER",
+  "OVERTAKER",
+  "MONIKER",
+  "TENDER DEFENDER",
+  "ARACHNE",
+  "FIREWALKER",
+  "DEEP SEA DESTROYER",
+  "SIGNATURE SNIPER",
+  "STILL HERE / IN THE SHOP / FOR WEEKS",
+  "STILL IN THE SHOP",
+  "ONE PIECE · 4,000 V-BUCKS",
+  "MONKEY D. LUFFY",
+  "NAMI",
+  "USOPP",
+  "A$AP ROCKY · 3,200 V-BUCKS",
+  "HELICOPTER FLACKO",
+  "ROCKY RUGAHAND",
+  "GONE THIS WEEK / LAST CHANCE / WAS THIS WEEK",
+  "GONE THIS WEEK",
+  "STAR WARS SAMURAI · 3,200 V-BUCKS",
+  "DARTH VADER SAMURAI",
+  "STORMTROOPER SAMURAI",
+  "GOLDEN KING · 2,500 V-BUCKS",
+  "ASCENDANT MIDAS",
+  "CYBER INFILTRATION PACK · 2,200",
+  "CHIGUSA",
+  "MEGUMI",
+  "YUKI",
+  "LEAVING SOON / IN THE SHOP / UNTIL NOV 17",
+  "LEAVING SOON",
+  "KATALINA · UNTIL NOV 17",
+  "KATALINA",
+  "QUICK RECAP / MEGA MAN · LIL UZI VERT / GOTHAM · HATSUNE MIKU · OHTANI",
+  "RECAP",
+  "THIS IS THIS WEEK'S FORTNITE ITEM",
+  "SHOP!",
+  "THE BIGGEST BUNDLES,",
+  "EVERY NEW DROP,",
+  "AND EVERY OG THAT CAME BACK.",
+  "SEVEN DAYS OF THE SHOP,",
+  "FROM NOVEMBER 10TH TO NOVEMBER 16TH,",
+  "STRAIGHT FROM EPIC'S OWN ITEM SHOP",
+  "DATA.",
+  "LET'S GET INTO IT!",
+  "FIRST,",
+  "THE BIGGEST NEW BUNDLE OF THE",
+  "WEEK.",
+  "THE MEGA MAN BUNDLE!",
+  "MEGA MAN,",
+  "MEGA MAN X AND ZERO,",
+  "PLUS RUSH AS A SIDEKICK.",
+  "10 ITEMS.",
+  "LISTED AT 7,300 V-BUCKS,",
+  "IT SOLD FOR 3,800.",
+  "IT WENT LIVE ON NOVEMBER 11TH",
+  "AND WAS IN THE SHOP UNTIL",
+  "NOVEMBER 15TH,",
+  "SO IF YOU MISSED IT,",
+  "IT'S GONE FOR NOW.",
+  "NOW,",
+  "THE NEW STUFF.",
+  "THESE ALL WENT LIVE THIS WEEK.",
+  "ON NOVEMBER 10TH,",
+  "THE MASTERS OF THE UNIVERSE BUNDLE.",
+  "HE-MAN,",
+  "SKELETOR AND SHE-RA,",
+  "13 ITEMS FOR 3,600 V-BUCKS,",
+  "LISTED AT 6,700.",
+  "THAT ONE WAS IN THE SHOP",
+  "UNTIL NOVEMBER 13TH.",
+  "ON NOVEMBER 11TH,",
+  "J BALVIN,",
+  "WITH THE J BALVIN BUNDLE FOR",
+  "2,400 AND THE JURASSIC J BUNDLE",
+  "FOR 2,500.",
+  "BOTH WERE IN UNTIL NOVEMBER 15TH.",
+  "ON NOVEMBER 12TH,",
+  "MARVEL.",
+  "THE BLACK CAT BUNDLE FOR 2,300,",
+  "AND THE SPIDER-MAN ZERO BUNDLE FOR",
+  "1,800.",
+  "ON NOVEMBER 13TH,",
+  "THE LIL UZI VERT BUNDLE.",
+  "12 ITEMS FOR 3,200 V-BUCKS,",
+  "LISTED AT 7,100.",
+  "AND THIS ONE STAYS A WHILE,",
+  "UNTIL DECEMBER 12TH.",
+  "ALSO ON NOVEMBER 13TH,",
+  "THE JASON BUNDLE,",
+  "FOR 2,500 V-BUCKS,",
+  "UNTIL NOVEMBER 15TH.",
+  "AND ON NOVEMBER 14TH,",
+  "THE PIRATE D.",
+  "SPEEDY BUNDLE,",
+  "FOR 1,800 V-BUCKS,",
+  "LISTED AT 2,700.",
+  "IT'S IN THE SHOP UNTIL NOVEMBER",
+  "20TH.",
+  "TWO MORE CAPTAINS LANDED IN THE",
+  "SHOP ON THEIR OWN.",
+  "ON NOVEMBER 14TH,",
+  "BUGGY,",
+  "WITH HIS COAT AND KNIVES,",
+  "FOR 1,600 V-BUCKS.",
+  "HE STAYS UNTIL DECEMBER 5TH.",
+  "AND ON NOVEMBER 15TH,",
+  "CAP'N HATSUNE MIKU.",
+  "THE FULL SET IS 2,200 V-BUCKS,",
+  "LISTED AT 4,100,",
+  "WITH 6 ITEMS,",
+  "UNTIL DECEMBER 14TH.",
+  "IF YOU'RE GRABBING ANY OF THESE,",
+  "USE CODE BAD IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS THE CHANNEL.",
+  "A FEW MORE BUNDLES SHOWED UP",
+  "DURING THE WEEK.",
+  "THE ESCAPE ARTISTS BUNDLE,",
+  "WITH 37 ITEMS FOR 1,800 V-BUCKS.",
+  "THAT'S THE MOST ITEMS IN ONE",
+  "BUNDLE THIS WEEK.",
+  "THE GRIM MEDICINE BUNDLE,",
+  "WITH SCOURGE AND PLAGUE,",
+  "FOR 2,200 V-BUCKS,",
+  "LISTED AT 4,600.",
+  "AND ON NOVEMBER 11TH,",
+  "THE ARCHETYPE BUNDLE,",
+  "FOR 1,800.",
+  "ADD IT ALL UP,",
+  "AND 24 NEW BUNDLES WENT LIVE",
+  "THIS WEEK.",
+  "AND A BIG BATCH LANDED IN",
+  "TODAY'S SHOP.",
+  "THE GOTHAM CITY SUMMER BUNDLE,",
+  "WITH BEACH BOD BATMAN AND COASTAL",
+  "CATWOMAN.",
+  "3,000 V-BUCKS,",
+  "LISTED AT 6,900.",
+  "HIGH TIDE HARLEY AND CHLOROPHYLL IVY,",
+  "FOR 2,300.",
+  "THE HATSUNE MIKU BUNDLE,",
+  "FOR 3,200,",
+  "LISTED AT 5,200.",
+  "AND THE SHOHEI OHTANI BUNDLE,",
+  "WITH SHOHEI OHTANI AND SAMURAI SHOHEI,",
+  "FOR 2,800 V-BUCKS,",
+  "LISTED AT 6,100.",
+  "ALL FOUR ARE IN THE SHOP",
+  "UNTIL NOVEMBER 20TH.",
+  "PLUS CANDYWING'S GLITCH LOCKER BUNDLE,",
+  "WITH THE GLITCH OUTFIT AND 6",
+  "MORE ITEMS,",
+  "FOR 2,800,",
+  "UNTIL NOVEMBER 18TH.",
+  "THE OG CHECK.",
+  "THESE CHAPTER 1 OUTFITS WERE ALL",
+  "IN THE SHOP THIS WEEK.",
+  "SNORKEL OPS,",
+  "FROM CHAPTER 1,",
+  "SEASON 2.",
+  "THAT'S THE OLDEST ONE THIS WEEK.",
+  "RADIANT STRIKER,",
+  "FROM SEASON 3,",
+  "AND SLEUTH AND BANDOLIER,",
+  "FROM SEASON 4.",
+  "OVERTAKER,",
+  "ARCHETYPE AND MONIKER,",
+  "FROM SEASON 5.",
+  "OVERTAKER WAS IN THE SHOP ALL",
+  "SEVEN DAYS.",
+  "TENDER DEFENDER,",
+  "ARACHNE AND FLAPJACKIE,",
+  "FROM SEASON 6.",
+  "FIREWALKER AND DEEP SEA DESTROYER,",
+  "FROM SEASON 7,",
+  "AND SIGNATURE SNIPER,",
+  "FROM SEASON 9.",
+  "AND SOME BUNDLES ARE STICKING AROUND",
+  "FOR WEEKS.",
+  "THE ONE PIECE BUNDLE,",
+  "4,000 V-BUCKS,",
+  "AND THE STRAW HATS BUNDLE,",
+  "3,200,",
+  "ARE BOTH IN THE SHOP UNTIL",
+  "DECEMBER 5TH.",
+  "AND THE A$AP ROCKY BUNDLE IS",
+  "STILL 3,200 V-BUCKS,",
+  "LISTED AT 8,800,",
+  "UNTIL DECEMBER 6TH.",
+  "SOME BIG ONES ALSO LEFT THE",
+  "SHOP THIS WEEK.",
+  "THE STAR WARS SAMURAI BUNDLE WAS",
+  "IN THE SHOP UNTIL NOVEMBER 12TH.",
+  "SO WAS THE GOLDEN KING BUNDLE,",
+  "WITH ASCENDANT MIDAS.",
+  "AND THE CYBER INFILTRATION PACK WAS",
+  "IN UNTIL NOVEMBER 11TH.",
+  "AND ONE IS LEAVING FAST.",
+  "THE KATALINA BUNDLE CAME IN TODAY",
+  "AND IS ONLY IN THE SHOP",
+  "UNTIL TOMORROW,",
+  "NOVEMBER 17TH.",
+  "1,600 V-BUCKS,",
+  "LISTED AT 2,500.",
+  "QUICK RECAP.",
+  "BIGGEST BUNDLE:",
+  "MEGA MAN.",
+  "STAYING THE LONGEST:",
+  "CAP'N HATSUNE MIKU,",
+  "UNTIL DECEMBER 14TH,",
+  "AND THE LIL UZI VERT BUNDLE,",
+  "NEW TODAY:",
+  "GOTHAM CITY SUMMER,",
+  "HATSUNE MIKU AND SHOHEI OHTANI.",
+  "24 NEW BUNDLES IN SEVEN DAYS,",
+  "AND 13 CHAPTER 1 OGS IN",
+  "THE SHOP.",
+  "WHICH BUNDLE DID YOU GRAB THIS",
+  "WEEK?",
+  "TELL ME IN THE COMMENTS!",
+  "THANK YOU FOR WATCHING!",
+  "FOLLOW FOR MORE DAILY CONTENT.",
+  "CODE BAD · ROYALE",
+  "#EPICPARTNER"
+ ]
+}
