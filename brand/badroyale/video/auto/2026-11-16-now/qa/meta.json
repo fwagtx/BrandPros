@@ -1,0 +1,95 @@
+{
+ "duration": 19.5,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Gotham City Summer Bundle",
+ "claims": [
+  {
+   "text": "Gotham City Summer Bundle is in the Item Shop for 2026-11-16",
+   "source": "shop.json",
+   "match": [
+    "Gotham City Summer Bundle",
+    "\"date\": \"2026-11-16"
+   ]
+  },
+  {
+   "text": "Price 3,000 V-Bucks (listed regular price 6,900)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 6900, \"finalPrice\": 3000"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-16",
+   "source": "shop.json",
+   "match": [
+    "2026-11-16T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Beach Bod Batman is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Beach Bod Batman"
+   ]
+  },
+  {
+   "text": "Coastal Catwoman is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Coastal Catwoman"
+   ]
+  },
+  {
+   "text": "Batman Floatie is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Batman Floatie"
+   ]
+  },
+  {
+   "text": "Selina's Treasure Tote is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Selina's Treasure Tote"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "BEACH BOD BATMAN",
+  "COASTAL CATWOMAN",
+  "BATMAN FLOATIE",
+  "GOTHAM CITY SUMMER BUNDLE",
+  "BEACH BOD BATMAN, COASTAL CATWOMAN, BATMAN FLOATIE AND 6 MORE ITEMS",
+  "3,000 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 20",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE GOTHAM CITY",
+  "SUMMER BUNDLE.",
+  "BEACH BOD BATMAN,",
+  "COASTAL CATWOMAN,",
+  "BATMAN FLOATIE AND",
+  "6 MORE ITEMS.",
+  "3,000 V-BUCKS,",
+  "INSTEAD OF 6,900.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "20TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
