@@ -40,7 +40,7 @@ def html(spec):
     for i, (x, y) in enumerate((spec.get("pins") or [])[:3]):
         px, py = mx + x * SCALE - 55, my + y * SCALE - 55
         body += (f'<div class="a pin" style="left:{px:.0f}px;top:{py:.0f}px;transform:rotate({(-8, 6, -4)[i]}deg)">?</div>')
-    pos = {1: [(700, 50, 760)], 2: [(560, 70, 720), (860, 50, 740)]}.get(len(chars[:2]), [])
+    pos = {1: [(700, 50, 760)], 2: [(500, 70, 720), (790, 50, 740)]}.get(len(chars[:2]), [])
     for (left, top, h), src in zip(pos, chars[:2]):
         body += f'<img class="char" src="file://{src}" style="left:{left}px;top:{top}px;height:{h}px">'
     lines = "<br>".join(spec["lines"])
