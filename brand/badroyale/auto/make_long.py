@@ -4,7 +4,8 @@ A long video is a folder (brand/badroyale/video/long/<YYYY-MM-DD>-<slug>/) holdi
     long.json   {"title", "caption", "claims", "segments": [...]} (see brand/badroyale/long/scene.js for segment types;
                 segments with a "chapter" become YouTube chapters)
     vo.json     {"phrases": [...]}; voice settings always come from brand/badroyale/voice.json
-    post.json   {"youtubeTitle", "youtube" (description; {chapters} is replaced with the chapter list), "tags", "thumb_t"}
+    post.json   {"youtubeTitle", "youtube" (description; {chapters} is replaced with the chapter list), "tags",
+                "thumb": house-style thumbnail spec, see brand/badroyale/long/thumb.py (required; chars paths relative to DIR)}
     sources/    the files the claims are checked against, with manifest.json
 
     python3 brand/badroyale/auto/make_long.py build DIR      voice, render, review sheet (DIR/qa/review-sheet.png)
@@ -56,6 +57,17 @@ def chapters(d):
     return "\n".join(f"{stamp(t)} {name}" for t, name in out)
 
 
+def thumbnail(d, out):
+    """render the house-style thumbnail (owner pick 2026-11-17) from post.json "thumb"; no thumbnail, no ship"""
+    sys.path.insert(0, os.path.join(BRAND, "badroyale", "long"))
+    import thumb
+    spec = json.load(open(os.path.join(d, "post.json"))).get("thumb")
+    if not spec:
+        raise SystemExit('STOP: post.json has no "thumb" spec. Every long video needs the house-style thumbnail (brand/badroyale/long/thumb.py).')
+    spec = dict(spec, chars=[c if os.path.isabs(c) else os.path.join(d, c) for c in spec.get("chars") or []])
+    return thumb.render(spec, out)
+
+
 def build():
     d, slug = folder()
     vo = json.load(open(os.path.join(d, "vo.json")))
@@ -82,7 +94,9 @@ def build():
     run([ffmpeg(), "-y", "-loglevel", "error", *inputs, "-filter_complex", graph, os.path.join(d, "qa", "review-sheet.png")], d, quiet=True)
     print(json.dumps({"video": os.path.relpath(mp4, BRAND), "duration": round(P[-1]["t1"] + 1.2, 1), "review_sheet": os.path.relpath(os.path.join(d, "qa", "review-sheet.png"), BRAND),
                       "chapters": chapters(d).split("\n")}, indent=1))
-    print("NEXT: look at the review sheet, write review.json, then run ship.")
+    thumbnail(d, os.path.join(d, "qa", "thumb.jpg"))
+    print(json.dumps({"thumbnail": os.path.relpath(os.path.join(d, "qa", "thumb.jpg"), BRAND)}))
+    print("NEXT: look at the review sheet and qa/thumb.jpg, write review.json, then run ship.")
 
 
 def ship():
@@ -97,6 +111,8 @@ def ship():
     if not os.path.exists(rv) or json.load(open(rv)).get("status") != "PASS":
         raise SystemExit("STOP: review.json is missing or not PASS.")
     c = json.load(open(os.path.join(d, "post.json")))
+    if not c.get("thumb"):
+        raise SystemExit('STOP: post.json has no "thumb" spec. Every long video needs the house-style thumbnail (brand/badroyale/long/thumb.py).')
     desc = c["youtube"].replace("{chapters}", chapters(d))
     bad = [m for m in [BANNED.search(desc)] if m]
     if not desc.startswith("#EpicPartner") or "code BAD" not in desc or bad or not c.get("youtubeTitle") or len(c["youtubeTitle"]) > 100:
@@ -112,7 +128,7 @@ def ship():
     FF = ffmpeg()
     run([FF, "-y", "-loglevel", "error", "-i", mp4, "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "10M", "-bufsize", "20M",
          "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "copy", "-movflags", "+faststart", os.path.join(out, "video.mp4")], d, quiet=True)
-    run([FF, "-y", "-loglevel", "error", "-ss", str(c.get("thumb_t", 1.6)), "-i", mp4, "-frames:v", "1", "-vf", "scale=1280:720", "-q:v", "2", os.path.join(out, "thumb.jpg")], d, quiet=True)
+    thumbnail(d, os.path.join(out, "thumb.jpg"))
     video = run([sys.executable, STORE, "put", os.path.join(out, "video.mp4"), f"{slug}/video.mp4"], BRAND, quiet=True).strip()
     thumb = run([sys.executable, STORE, "put", os.path.join(out, "thumb.jpg"), f"{slug}/thumb.jpg"], BRAND, quiet=True).strip()
     iso, local = when.isoformat(timespec="seconds"), when.strftime("%Y-%m-%dT%H:%M:%S")

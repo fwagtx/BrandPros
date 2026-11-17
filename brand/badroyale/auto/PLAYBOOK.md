@@ -213,7 +213,13 @@ one time a post becomes a draft: an outdated post is worse than an empty slot.
 3. Make `brand/badroyale/video/long/<D>-<slug>/` like `video/long/2026-10-29-fortnitemares/`: long.json (segments,
    claims), vo.json, post.json (description starts with #EpicPartner, has `{chapters}`), sources/ with manifest.json.
    Open with the hook in the first sentence; put the code ask once mid-video and once at the end.
-4. `python3 brand/badroyale/auto/make_long.py build <folder>`; review the sheet like a viewer (fix and rebuild up to
+   post.json also needs `"thumb"`: the house-style thumbnail (owner pick 2026-11-17, the "CAN YOU NAME ALL 17?" map
+   design; renderer brand/badroyale/long/thumb.py). Two short white lines + one huge yellow line (up to 9 characters
+   each), a chip (up to 18), and on the map side either up to 3 red "?" pins (map pixels) or 1-2 characters (their
+   transparent `featured.png` art saved in the folder's img/). Every word and number comes from the video's sources.
+   ship stops without it, and the old frame-grab thumbnail is gone.
+4. `python3 brand/badroyale/auto/make_long.py build <folder>`; review the sheet and `qa/thumb.jpg` like a viewer
+   (thumbnail: readable at phone size, faces/pins not covered by text, nothing cut off) (fix and rebuild up to
    3 times); write review.json; `python3 brand/badroyale/auto/make_long.py ship <folder> --at "<D> 15:00"`.
 5. Schedule posts.json with its `videoThumbnailUrl` (the channel is verified since 2026-11-01; only on
    VIDEO_THUMBNAIL_NOT_APPLICABLE schedule again without it and say so), then
