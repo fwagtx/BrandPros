@@ -1,0 +1,147 @@
+{
+ "date": "2026-11-17",
+ "dateLabel": "NOV 17",
+ "resetLabel": "6 PM CT",
+ "dealOutLabel": "DEC 6",
+ "deal": {
+  "name": "A$AP Rocky Bundle",
+  "final": 3200,
+  "regular": 8800,
+  "out": "2026-12-06",
+  "outfits": [
+   {
+    "id": "Character_TonicMailWeb",
+    "name": "Helicopter Flacko",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailweb/featured.png",
+    "price": null,
+    "out": null,
+    "in": null
+   },
+   {
+    "id": "Character_TonicMailYam",
+    "name": "Rocky Rugahand",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailyam/featured.png",
+    "price": 1500,
+    "out": "2026-12-06",
+    "in": "2026-11-06"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 4,
+  "outfits": [
+   {
+    "id": "CID_131_Athena_Commando_M_Warpaint",
+    "name": "Bandolier",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_131_athena_commando_m_warpaint/featured.png",
+    "price": 1500,
+    "out": "2026-11-20",
+    "in": "2026-11-16"
+   },
+   {
+    "id": "CID_134_Athena_Commando_M_Jailbird",
+    "name": "Scoundrel",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_134_athena_commando_m_jailbird/featured.png",
+    "price": 1500,
+    "out": "2026-11-23",
+    "in": "2026-11-17"
+   }
+  ]
+ },
+ "last": {
+  "count": 6,
+  "outfits": [
+   {
+    "id": "CID_726_Athena_Commando_M_TargetPractice",
+    "name": "Hit Man",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_726_athena_commando_m_targetpractice/featured.png",
+    "price": 1500,
+    "out": "2026-11-17",
+    "in": "2026-11-17"
+   },
+   {
+    "id": "CID_751_Athena_Commando_F_NeonCatSpy",
+    "name": "Vix",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_751_athena_commando_f_neoncatspy/featured.png",
+    "price": 1500,
+    "out": "2026-11-17",
+    "in": "2026-11-16"
+   },
+   {
+    "id": "Character_VoyagerCuboid",
+    "name": "Voyager Unleashed",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_voyagercuboid/featured.png",
+    "price": 1200,
+    "out": "2026-11-17",
+    "in": "2026-11-11"
+   },
+   {
+    "id": "Character_SplishSplash",
+    "name": "Bathany",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_splishsplash/featured.png",
+    "price": 800,
+    "out": "2026-11-17",
+    "in": "2026-11-17"
+   },
+   {
+    "id": "Character_ExcitedCyan",
+    "name": "Katalina",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_excitedcyan/featured.png",
+    "price": 800,
+    "out": "2026-11-17",
+    "in": "2026-11-16"
+   },
+   {
+    "id": "CID_336_Athena_Commando_M_DragonMask",
+    "name": "Firewalker",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_336_athena_commando_m_dragonmask/featured.png",
+    "price": 1200,
+    "out": "2026-11-17",
+    "in": "2026-11-11"
+   }
+  ]
+ },
+ "phrases": [
+  "This is today's Item Shop for November 17th.",
+  "Three things before you spend a single V-Buck!",
+  "The A$AP Rocky Bundle:",
+  "3,200 V-Bucks, instead of 8,800.",
+  "Bandolier and Scoundrel are in the shop.",
+  "Both from Chapter 1, Season 4.",
+  "And six skins are on their last day, five of them Epic.",
+  "Buying anything today?",
+  "Use code BAD in the Item Shop. It really helps the channel.",
+  "Thank you for watching! Follow for more daily content."
+ ]
+}
