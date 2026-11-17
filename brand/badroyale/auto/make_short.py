@@ -5,7 +5,8 @@ A short is a folder (brand/badroyale/video/auto/<YYYY-MM-DD>-<slug>/) holding:
     vo.json     {"phrases": [{"text": ..., "pause": ...}, ...]}; the voice settings are always
                 taken from brand/badroyale/voice.json (the owner's locked voice), whatever this says
     post.json   captions and titles: tiktok, tiktokTitle, instagram, facebook, facebookTitle,
-                youtube, youtubeTitle, tags, and cover_t (the second of the video used as its cover)
+                youtube, youtubeTitle, tags; the cover is made by brand/badroyale/video/cover.py from the
+                scene (now / guess / where), or from a "cover" spec here for any other short
 
     python3 brand/badroyale/auto/make_short.py build DIR [--sources SRC]
         Records the voice, renders the video and a review sheet (DIR/qa/review-sheet.png).
@@ -46,6 +47,12 @@ def folder():
     return d, os.path.basename(d.rstrip("/"))
 
 
+def cover_render(d, out):
+    sys.path.insert(0, os.path.join(BRAND, "badroyale", "video"))
+    import cover
+    return cover.render_dir(d, out)
+
+
 def build():
     d, slug = folder()
     vo = json.load(open(os.path.join(d, "vo.json")))
@@ -70,7 +77,8 @@ def build():
     run([ffmpeg(), "-y", "-loglevel", "error", *inputs, "-filter_complex", graph, os.path.join(d, "qa", "review-sheet.png")], d, quiet=True)
     print(json.dumps({"video": os.path.relpath(mp4, BRAND), "duration": round(P[-1]["t1"] + 0.75, 1), "review_sheet": os.path.relpath(os.path.join(d, "qa", "review-sheet.png"), BRAND),
                       "voice": [p["text"] for p in P]}, indent=1))
-    print("NEXT: look at the review sheet (and a few more stills if anything looks off), write review.json, then run ship.")
+    cover_render(d, os.path.join(d, "qa", "cover.jpg"))
+    print("NEXT: look at the review sheet and qa/cover.jpg (and a few more stills if anything looks off), write review.json, then run ship.")
 
 
 def caption_problems(c):
@@ -122,7 +130,7 @@ def ship():
     FF = ffmpeg()
     run([FF, "-y", "-loglevel", "error", "-i", mp4, "-c:v", "libx264", "-preset", "slow", "-crf", "20", "-maxrate", "14M", "-bufsize", "28M",
          "-pix_fmt", "yuv420p", "-r", "60", "-c:a", "copy", "-movflags", "+faststart", os.path.join(out, "video.mp4")], d, quiet=True)
-    run([FF, "-y", "-loglevel", "error", "-ss", str(c.get("cover_t", 0.5)), "-i", mp4, "-frames:v", "1", "-q:v", "2", os.path.join(out, "cover.jpg")], d, quiet=True)
+    cover_render(d, os.path.join(out, "cover.jpg"))       # house-style cover (owner pick 2026-11-17), never a frame of the video
     video = run([sys.executable, STORE, "put", os.path.join(out, "video.mp4"), f"{slug}/video.mp4"], BRAND, quiet=True).strip()
     cover = run([sys.executable, STORE, "put", os.path.join(out, "cover.jpg"), f"{slug}/cover.jpg"], BRAND, quiet=True).strip()
     calls = post_calls(slug, when, video, cover, c)

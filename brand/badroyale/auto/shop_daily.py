@@ -165,9 +165,9 @@ def ship(day):
     FF = ffmpeg()
     run([FF, "-y", "-loglevel", "error", "-i", os.path.join(D, f"badroyale-shop-{day}.mp4"), "-c:v", "libx264", "-preset", "slow", "-crf", "20", "-maxrate", "14M", "-bufsize", "28M",
          "-pix_fmt", "yuv420p", "-r", "60", "-c:a", "copy", "-movflags", "+faststart", os.path.join(out, "video.mp4")], D, quiet=True)
-    run(["node", "render.mjs", "--pre", os.path.join(D, "plan.js"), "badroyale/shop/cover"], ENGINE, quiet=True)
-    shutil.move(os.path.join(SHOP, "cover.png"), os.path.join(out, "cover-1080x1920.png"))
-    run([FF, "-y", "-loglevel", "error", "-i", os.path.join(out, "cover-1080x1920.png"), "-q:v", "2", os.path.join(out, "cover.jpg")], D, quiet=True)
+    sys.path.insert(0, os.path.join(BRAND, "badroyale", "video"))
+    import cover                                           # house-style cover (owner pick 2026-11-17)
+    cover.render(cover.shop_spec(day), os.path.join(out, "cover.jpg"))
     video = run([sys.executable, STORE, "put", os.path.join(out, "video.mp4"), f"shop-{day}/video.mp4"], BRAND, quiet=True).strip()
     cover = run([sys.executable, STORE, "put", os.path.join(out, "cover.jpg"), f"shop-{day}/cover.jpg"], BRAND, quiet=True).strip()
     when = (now + datetime.timedelta(minutes=12)).astimezone(CT)

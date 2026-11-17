@@ -180,11 +180,15 @@ slot is never filled ahead; it is today's current-game short, made each morning 
      `#EpicPartner`.
    - `vo.json`: `{"phrases": [{"text": "...", "pause": 0.2}, ...]}`. Plain spoken English, short lines.
    - `post.json`: `tiktok`, `tiktokTitle`, `instagram` (5 hashtags at most), `facebook`, `facebookTitle`,
-     `youtube`, `youtubeTitle` (searchable, 100 characters at most, ends with #Shorts), `tags`, `cover_t`.
+     `youtube`, `youtubeTitle` (searchable, 100 characters at most, ends with #Shorts), `tags`.
+     Covers (owner pick 2026-11-17, same house style as the long thumbnails) are made by brand/badroyale/video/cover.py:
+     Just Dropped, Guess and Where Is covers come straight from the scene (a Where Is cover never marks the answer);
+     any other short needs `"cover": {"lines": [...], "big": "...", "chip": "...", "chars": [...] or "map": [x, y]}`
+     in post.json, every word a fact. Never use a frame of the video as the cover.
      Every caption starts with `#EpicPartner` and carries the code line. Match the house style in `brand/badroyale/auto/backlog.json`
      (rule 10).
 5. `python3 brand/badroyale/auto/make_short.py build <folder>` (add `--sources <dir>` when the facts come from
-   somewhere other than brand/badroyale/sources). Open `<folder>/qa/review-sheet.png` and judge it like a fan
+   somewhere other than brand/badroyale/sources). Open `<folder>/qa/review-sheet.png` and `<folder>/qa/cover.jpg` and judge them like a fan
    scrolling: does frame 1 make you stop? Is every word readable on a phone? Anything overlapping, cut off, empty
    or ugly? If so, fix the scene and build again (up to 3 tries). Then write `<folder>/review.json`.
 6. `python3 brand/badroyale/auto/make_short.py ship <folder> --at "<D> 12:30"` (or 16:30), plus the same
