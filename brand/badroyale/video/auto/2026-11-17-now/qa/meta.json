@@ -1,0 +1,95 @@
+{
+ "duration": 19.8,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Kaiju No. 8 Bundle",
+ "claims": [
+  {
+   "text": "Kaiju No. 8 Bundle is in the Item Shop for 2026-11-17",
+   "source": "shop.json",
+   "match": [
+    "Kaiju No. 8 Bundle",
+    "\"date\": \"2026-11-17"
+   ]
+  },
+  {
+   "text": "Price 3,800 V-Bucks (listed regular price 7,700)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 7700, \"finalPrice\": 3800"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-17",
+   "source": "shop.json",
+   "match": [
+    "2026-11-17T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Kafka Hibino is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Kafka Hibino"
+   ]
+  },
+  {
+   "text": "Kikoru Shinomiya is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Kikoru Shinomiya"
+   ]
+  },
+  {
+   "text": "Reno Ichikawa is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Reno Ichikawa"
+   ]
+  },
+  {
+   "text": "Kikoru's Scaled Slingbag is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Kikoru's Scaled Slingbag"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "KAFKA HIBINO",
+  "KIKORU SHINOMIYA",
+  "RENO ICHIKAWA",
+  "KAIJU NO. 8 BUNDLE",
+  "KAFKA HIBINO, KIKORU SHINOMIYA, RENO ICHIKAWA AND 8 MORE ITEMS",
+  "3,800 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 20",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE KAIJU NO.",
+  "8 BUNDLE.",
+  "KAFKA HIBINO,",
+  "KIKORU SHINOMIYA,",
+  "RENO ICHIKAWA AND",
+  "8 MORE ITEMS.",
+  "3,800 V-BUCKS,",
+  "INSTEAD OF 7,700.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "20TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
