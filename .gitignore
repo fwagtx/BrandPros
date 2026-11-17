@@ -32,3 +32,7 @@ brand/badroyale/video/long/*/qa/boxes.json
 brand/badroyale/video/long/*/qa/*.png
 brand/badroyale/video/long/*/img/
 __pycache__/
+
+# long-video thumbnail art and renders (media, not committed)
+brand/badroyale/long/thumbs/art/
+brand/badroyale/long/thumbs/out/
