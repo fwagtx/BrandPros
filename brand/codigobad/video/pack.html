@@ -1,0 +1,30 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>CÓDIGO BAD pack stage</title>
+<style>
+  @font-face { font-family: "Inter"; font-weight: 800; src: url(../../../code-bad-packs/fonts/Inter-ExtraBold.ttf); font-display: block; }
+  @font-face { font-family: "Inter"; font-weight: 400; src: url(../../../code-bad-packs/fonts/Inter-Regular.ttf); font-display: block; }
+  @font-face { font-family: "Barlow Condensed"; font-weight: 900; src: url(../../_shared/fonts/BarlowCondensed-Black.ttf); font-display: block; }
+  html, body { margin: 0; background: #000; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  #stage * { box-sizing: border-box; }
+  #stage img { display: block; pointer-events: none; }
+</style></head>
+<body><div id="stage"></div>
+<script src="../../_shared/video/lib.js"></script>
+<script>
+  const Q = new URLSearchParams(location.search);
+  if (Q.get("w")) { const st = document.getElementById("stage"); st.style.width = Q.get("w") + "px"; st.style.height = Q.get("h") + "px"; }
+  const tag = document.createElement("script"); tag.src = Q.get("s");
+  const loadData = () => new Promise((r) => { const d = Q.get("d"); if (!d) return r(); const e = document.createElement("script"); e.src = d; e.onload = r; document.body.appendChild(e); });
+  window.ready = new Promise((resolve) => {
+    tag.onload = () => {
+      const stage = document.getElementById("stage"), scene = window.SCENE;
+      const draw = scene.build(stage);
+      window.duration = scene.duration; window.cues = scene.cues; window.renderAt = draw;
+      window.textBoxes = () => []; window.allText = () => [];
+      Promise.all(["800 40px Inter", "400 40px Inter", "900 40px 'Barlow Condensed'"].map((f) => document.fonts.load(f))).then(() => document.fonts.ready)
+        .then(() => Promise.all([...document.images].map((i) => i.decode().catch(() => {})))).then(() => { draw(0); resolve(); });
+    };
+    loadData().then(() => document.body.appendChild(tag));
+  });
+</script></body></html>

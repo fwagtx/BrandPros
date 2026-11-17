@@ -1,0 +1,282 @@
+{
+ "voice": "pf_dora",
+ "speed": 1.15,
+ "lang": "pt-br",
+ "lead": 0.3,
+ "mode": "flow",
+ "mic": false,
+ "phrases": [
+  {
+   "text": "Esses são os 25 trajes mais antigos da loja do Fortnite de hoje, 17 de novembro.",
+   "say": "Esses são os vinte e cinco trajes mais antigos da loja do Fortnite de hoje, dezessete de novembro.",
+   "pause": 0.3
+  },
+  {
+   "text": "Do mais novo pro mais OG. Vamos lá!",
+   "pause": 0.5
+  },
+  {
+   "text": "Número 25: Rubro José.",
+   "say": "Número vinte e cinco: Rubro José.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 5. Temporada 4. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo cinco, Temporada quatro. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 24: Gatalina.",
+   "say": "Número vinte e quatro: Gatalina.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 5. Temporada 3. 800 V-Bucks.",
+   "say": "Lançado no Capítulo cinco, Temporada três. oitocentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 23: Discotécnica.",
+   "say": "Número vinte e três: Discotécnica.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 5. Temporada 2. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo cinco, Temporada dois. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 22: Drosera.",
+   "say": "Número vinte e dois: Drosera.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 4. Temporada 4. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo quatro, Temporada quatro. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 21: Ás da Navegação.",
+   "say": "Número vinte e um: Ás da Navegação.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 4. Temporada 2. 800 V-Bucks.",
+   "say": "Lançado no Capítulo quatro, Temporada dois. oitocentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 20: Ava.",
+   "say": "Número vinte: Ava.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 3. Temporada 4. 1.500 V-Bucks.",
+   "say": "Lançado no Capítulo três, Temporada quatro. mil e quinhentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 19: Bugada.",
+   "say": "Número dezenove: Bugada.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 3. Temporada 4. 1.500 V-Bucks.",
+   "say": "Lançado no Capítulo três, Temporada quatro. mil e quinhentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 18: Harmonizadora.",
+   "say": "Número dezoito: Harmonizadora.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 7. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada sete. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 17: Talento do Pop.",
+   "say": "Número dezessete: Talento do Pop.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 7. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada sete. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 16: Princesa Penélope Peixe.",
+   "say": "Número dezesseis: Princesa Penélope Peixe.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 6. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada seis. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 15: Jonesy — O Primeiro.",
+   "say": "Número quinze: Jonesy — O Primeiro.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 4. 800 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada quatro. oitocentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 14: Kyra.",
+   "say": "Número catorze: Kyra.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 4. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada quatro. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 13: Vitória.",
+   "say": "Número treze: Vitória.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 4. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada quatro. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 12: Salmoura.",
+   "say": "Número doze: Salmoura.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 3. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada três. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 11: Jonesy — Náufrago.",
+   "say": "Número onze: Jonesy — Náufrago.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 3. 800 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada três. oitocentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 10: Mordida Macia.",
+   "say": "Número dez: Mordida Macia.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 3. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada três. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 9: Homem-alvo.",
+   "say": "Número nove: Homem-alvo.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 2. 1.500 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada dois. mil e quinhentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 8: Vix.",
+   "say": "Número oito: Vix.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 2. 1.500 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada dois. mil e quinhentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 7: Embananosso.",
+   "say": "Número sete: Embananosso.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 2. Temporada 1. 1.500 V-Bucks.",
+   "say": "Lançado no Capítulo dois, Temporada um. mil e quinhentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 6: Brigadeira Registrada.",
+   "say": "Número seis: Brigadeira Registrada.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 1. Temporada 9. 800 V-Bucks.",
+   "say": "Lançado no Capítulo um, Temporada nove. oitocentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 5: Andarilho do Fogo.",
+   "say": "Número cinco: Andarilho do Fogo.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 1. Temporada 7. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo um, Temporada sete. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 4: Destruidor das Profundezas.",
+   "say": "Número quatro: Destruidor das Profundezas.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 1. Temporada 7. 1.500 V-Bucks.",
+   "say": "Lançado no Capítulo um, Temporada sete. mil e quinhentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 3: Codinome.",
+   "say": "Número três: Codinome.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 1. Temporada 5. 1.200 V-Bucks.",
+   "say": "Lançado no Capítulo um, Temporada cinco. mil e duzentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 2: Pilantra.",
+   "say": "Número dois: Pilantra.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 1. Temporada 4. 1.500 V-Bucks.",
+   "say": "Lançado no Capítulo um, Temporada quatro. mil e quinhentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Número 1: Bandoleiro.",
+   "say": "Número um: Bandoleiro.",
+   "pause": 0.25
+  },
+  {
+   "text": "Lançado no Capítulo 1. Temporada 4. 1.500 V-Bucks.",
+   "say": "Lançado no Capítulo um, Temporada quatro. mil e quinhentos vi-baks.",
+   "pause": 0.6
+  },
+  {
+   "text": "Qual desses você tem no armário?",
+   "pause": 0.3
+  },
+  {
+   "text": "Usa o código BAD na Loja de Itens. Isso ajuda muito o canal.",
+   "say": "Usa o código béd na Loja de Itens. Isso ajuda muito o canal.",
+   "pause": 0.3
+  },
+  {
+   "text": "Valeu por assistir! Segue pra mais conteúdo todo dia.",
+   "pause": 0.4
+  }
+ ]
+}
