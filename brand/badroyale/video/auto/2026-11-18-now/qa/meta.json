@@ -1,0 +1,95 @@
+{
+ "duration": 19,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Falcon Clan Bundle",
+ "claims": [
+  {
+   "text": "Falcon Clan Bundle is in the Item Shop for 2026-11-18",
+   "source": "shop.json",
+   "match": [
+    "Falcon Clan Bundle",
+    "\"date\": \"2026-11-18"
+   ]
+  },
+  {
+   "text": "Price 2,800 V-Bucks (listed regular price 5,800)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 5800, \"finalPrice\": 2800"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-18",
+   "source": "shop.json",
+   "match": [
+    "2026-11-18T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Kuno is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Kuno"
+   ]
+  },
+  {
+   "text": "Kenji is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Kenji"
+   ]
+  },
+  {
+   "text": "Katana & Kunai is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Katana & Kunai"
+   ]
+  },
+  {
+   "text": "Dual Kama is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Dual Kama"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "KUNO",
+  "KENJI",
+  "KATANA & KUNAI",
+  "FALCON CLAN BUNDLE",
+  "KUNO, KENJI, KATANA & KUNAI AND 4 MORE ITEMS",
+  "2,800 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 19",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE FALCON CLAN",
+  "BUNDLE.",
+  "KUNO,",
+  "KENJI,",
+  "AND 4 MORE",
+  "ITEMS.",
+  "2,800 V-BUCKS,",
+  "INSTEAD OF 5,800.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "19TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
