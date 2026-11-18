@@ -38,19 +38,29 @@ def dpt(d): m = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", 
 D = f"video/dia-{day}"; os.makedirs(D, exist_ok=True)
 def write(key, hook, sub, teaser, worth, picks, recapQ):
     items = [item(5 - i, r, f, max(100, int(r["final"] * 0.22))) for i, (r, f) in enumerate(picks)]
-    open(f"{D}/{key}.js", "w").write("window.GRABS=" + json.dumps(dict(hook=hook, sub=sub, wait="espera o #1 👀", teaser=teaser, worth=worth, items=items, recapQ=recapQ, imgBase=f"../../shop/{day}/img/"), ensure_ascii=False) + ";\n")
-# S1: bundles with the biggest saving, #1 = biggest
+    open(f"{D}/{key}.js", "w").write("window.GRABS=" + json.dumps(dict(hook=hook, sub=sub, wait="espera o #1 👀", teaser=teaser, worth=worth, items=items, recapQ=recapQ, imgBase=f"../shop/{day}/img/"), ensure_ascii=False) + ";\n")
+# S1 rotates by weekday: Mon/Fri bundles with the biggest saving, Wed/Sun OG check, Tue/Thu/Sat priciest outfits
+import datetime
+wd = datetime.date.fromisoformat(day).weekday()
+if wd in (2, 6):
+    o5 = list(reversed(oldest[:5]))
+    write("s1-pacotoes", ["OG check 👴", "os 5 trajes mais antigos de hoje"], f"pelo capítulo e temporada de lançamento · {dpt(day)}", "o mais OG da loja de hoje 👀", "vale",
+          [(r, [f"traje · capítulo {r['intro'][0]}, temporada {r['intro'][1]}", f"{r['rarityLabel'].lower()}" + (f" · {r['setName'].lower()}" if r.get("setName") else ""), "você tem esse? 👀"]) for r in o5], "qual desses você tem no armário? 👇")
+elif wd in (1, 3, 5):
+    c5 = list(reversed(sorted(outfits, key=lambda r: (-r["final"], r["name"]))[:5]))
+    write("s1-pacotoes", ["loja do Fortnite de hoje 🛒", "os 5 trajes mais caros"], f"os trajes mais caros da loja de itens, {dpt(day)}", "o traje mais caro de hoje 👀", "vale",
+          [(r, [f"traje · {r['rarityLabel'].lower()}"] + ([f"capítulo {r['intro'][0]}, temporada {r['intro'][1]}"] if r["intro"] else []) + ([f"sai da loja em {dpt(r['outDate'])} ⏰"] if r["outDate"] else []) + ["vale pegar? ☠"]) for r in c5], "qual você pega? 👇")
 b5 = list(reversed(bundles[:5]))
-write("s1-pacotoes", ["loja do Fortnite de hoje 🛒", "5 pacotões com a maior economia"], f"quanto você economiza em cada pacotão, {dpt(day)}", "a maior economia de hoje 👀", "por",
+if wd in (0, 4): write("s1-pacotoes", ["loja do Fortnite de hoje 🛒", "5 pacotões com a maior economia"], f"quanto você economiza em cada pacotão, {dpt(day)}", "a maior economia de hoje 👀", "por",
       [(r, [f"pacote · {r['n']} itens", f"em vez de {num(r['regular'])} v-bucks", f"economia de {num(r['regular'] - r['final'])} 💚"] + ([f"sai da loja em {dpt(r['outDate'])} ⏰"] if r["outDate"] else [])) for r in b5], "qual pacotão você pega? 👇")
 # S2: priciest new items
 n5 = list(reversed(sorted(new, key=lambda r: -r["final"])[:5]))
 write("s2-chegou-hoje", ["chegou hoje na loja 🆕", "os 5 itens novos mais caros"], f"{len(new)} itens novos na loja de itens, {dpt(day)}", "o mais caro que chegou hoje 👀", "vale",
-      [(r, [f"{r['typeLabel'].lower()} · novo hoje 🆕"] + ([f"em vez de {num(r['regular'])} v-bucks"] if r["regular"] > r["final"] else []) + ([f"capítulo {r['intro'][0]}, temporada {r['intro'][1]}"] if r["intro"] else []) + ["você pegaria? 👀"]) for r in n5], "qual você pega primeiro? 👇")
+      [(r, ([f"pacote · {r['n']} itens · novo hoje 🆕" if r["n"] else "pacote · novo hoje 🆕"] if r["bundle"] else [f"{r['typeLabel'].lower()} · novo hoje 🆕"]) + ([f"em vez de {num(r['regular'])} v-bucks"] if r["regular"] > r["final"] else []) + ([f"capítulo {r['intro'][0]}, temporada {r['intro'][1]}"] if (r["intro"] and not r["bundle"]) else []) + ["você pegaria? 👀"]) for r in n5], "qual você pega primeiro? 👇")
 # S3: priciest leaving tonight
 l5 = list(reversed(sorted(leaving, key=lambda r: -r["final"])[:5]))
 write("s3-sai-hoje", ["sai da loja hoje à noite ⏰", "os 5 mais caros que vão embora"], f"{len(leaving)} itens saem às 21h, horário de Brasília · {dpt(day)}", "o mais caro que sai hoje 👀", "vale",
-      [(r, [r["typeLabel"].lower() + (f" · capítulo {r['intro'][0]}, temporada {r['intro'][1]}" if r["intro"] else ""), "sai da loja hoje às 21h", "última chance ⏰"]) for r in l5], "vai pegar algum antes de sair? 👇")
+      [(r, [((f"pacote · {r['n']} itens" if r["n"] else "pacote") if r["bundle"] else r["typeLabel"].lower() + (f" · capítulo {r['intro'][0]}, temporada {r['intro'][1]}" if r["intro"] else "")), "sai da loja hoje às 21h", "última chance ⏰"]) for r in l5], "vai pegar algum antes de sair? 👇")
 # long: 25 oldest outfits
 L = oldest[:25]; [fetch(r) for r in L]
 U = ["", "um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez", "onze", "doze", "treze", "catorze", "quinze", "dezesseis", "dezessete", "dezoito", "dezenove", "vinte", "vinte e um", "vinte e dois", "vinte e três", "vinte e quatro", "vinte e cinco", "vinte e seis", "vinte e sete", "vinte e oito", "vinte e nove", "trinta"]
@@ -67,5 +77,5 @@ for k, r in enumerate(reversed(L)):
 lines += [{"text": "Qual desses você tem no armário?", "pause": 0.3}, {"text": "Usa o código BAD na Loja de Itens. Isso ajuda muito o canal.", "say": "Usa o código béd na Loja de Itens. Isso ajuda muito o canal.", "pause": 0.3}, {"text": "Valeu por assistir! Segue pra mais conteúdo todo dia.", "pause": 0.4}]
 LD = f"video/long-{day}-og25"; os.makedirs(LD, exist_ok=True)
 json.dump({"voice": "pf_dora", "speed": 1.15, "lang": "pt-br", "lead": 0.3, "mode": "flow", "mic": False, "phrases": lines}, open(f"{LD}/vo.json", "w"), ensure_ascii=False, indent=1)
-open(f"{LD}/items.js", "w").write("window.LONG=" + json.dumps(dict(items=items, imgBase=f"../../shop/{day}/img/", date=dlong), ensure_ascii=False) + ";\n")
+open(f"{LD}/items.js", "w").write("window.LONG=" + json.dumps(dict(items=items, imgBase=f"../shop/{day}/img/", date=dlong), ensure_ascii=False) + ";\n")
 print("ok", day, "new", len(new), "leaving", len(leaving), "bundles", len(bundles), "oldest", [(r["name"], r["intro"]) for r in L[:3]])
