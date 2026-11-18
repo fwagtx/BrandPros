@@ -1,0 +1,267 @@
+{
+  "video": "badroyale-2026-11-18-map-tour-v4310.mp4",
+  "checked_utc": "2026-11-18T11:41:46Z",
+  "verdict": "READY TO POST",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "42/42 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "16 places on the map: 11 named locations, 5 landmarks",
+          "result": "PASS",
+          "why": "matched in map.json; 11 ids with .POI., 5 UnNamedPOI ids"
+        },
+        {
+          "claim": "Game build is v43.10",
+          "result": "PASS",
+          "why": "matched in build.json"
+        },
+        {
+          "claim": "Nami's Tangerine Grove is on the map (landmark), in the south-west of the island, closest named Windmill Village ~200 m",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (710.1, 1560.9); not in the pre-43.10 map"
+        },
+        {
+          "claim": "Buggy's Beachhead is on the map (named location), in the north of the island, closest named Lantern Landing ~360 m",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1031.1, 850.9); not in the pre-43.10 map"
+        },
+        {
+          "claim": "3 places no longer on the map: Boogie Boat, Fortune's Fort, Loot Lagoon",
+          "result": "PASS",
+          "why": "matched in map.json"
+        },
+        {
+          "claim": "Adventure Awaits! news tile",
+          "result": "PASS",
+          "why": "matched in news.json"
+        },
+        {
+          "claim": "Buggy's Beachhead: named location, in the north of the island, closest Lantern Landing, then Rubber Resort",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1031.1, 850.9); distances between official POI coordinates"
+        },
+        {
+          "claim": "Buggy's Beachhead to Cursed Cavern: ~510 m south-east",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "Cursed Cavern: named location, in the east of the island, closest The $.$. Rocky, then Lantern Landing",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1184.2, 1147.6); distances between official POI coordinates"
+        },
+        {
+          "claim": "The Salty Skull ~120 m from Cursed Cavern",
+          "result": "PASS",
+          "why": "matched in map.json; distance between official POI coordinates"
+        },
+        {
+          "claim": "Cursed Cavern to The $.$. Rocky: ~370 m east",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "The $.$. Rocky: named location, in the east of the island, closest Cursed Cavern, then Busy Bay",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1415.7, 1216.9); distances between official POI coordinates"
+        },
+        {
+          "claim": "The $.$. Rocky to Busy Bay: ~400 m south",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "Busy Bay: named location, in the south-east of the island, closest The $.$. Rocky, then Plunder Port",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1387.9, 1481.5); distances between official POI coordinates"
+        },
+        {
+          "claim": "Baratie ~40 m from Busy Bay",
+          "result": "PASS",
+          "why": "matched in map.json; distance between official POI coordinates"
+        },
+        {
+          "claim": "Busy Bay to Plunder Port: ~410 m south-west",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "Plunder Port: named location, in the south of the island, closest Busy Bay, then Loguetown",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1150.3, 1606.1); distances between official POI coordinates"
+        },
+        {
+          "claim": "Henry ~180 m from Plunder Port",
+          "result": "PASS",
+          "why": "matched in map.json; distance between official POI coordinates"
+        },
+        {
+          "claim": "Plunder Port to Loguetown: ~420 m north-west",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "Loguetown: named location, in the south of the island, closest Windmill Village, then Plunder Port",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (988.7, 1382.2); distances between official POI coordinates"
+        },
+        {
+          "claim": "Giant's Battlefield ~220 m from Loguetown",
+          "result": "PASS",
+          "why": "matched in map.json; distance between official POI coordinates"
+        },
+        {
+          "claim": "Loguetown to Windmill Village: ~360 m west",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "Windmill Village: named location, in the south-west of the island, closest Loguetown, then Arlong Park",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (754.5, 1437.6); distances between official POI coordinates"
+        },
+        {
+          "claim": "Nami's Tangerine Grove ~200 m from Windmill Village",
+          "result": "PASS",
+          "why": "matched in map.json; distance between official POI coordinates"
+        },
+        {
+          "claim": "Windmill Village to Arlong Park: ~510 m north",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "Arlong Park: named location, in the west of the island, closest Lantern Landing, then The Chest",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (634.8, 1123.2); distances between official POI coordinates"
+        },
+        {
+          "claim": "Arlong Park to Lantern Landing: ~410 m east",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "Lantern Landing: named location, near the center of the island, closest The Chest, then Buggy's Beachhead",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (898.7, 1049.7); distances between official POI coordinates"
+        },
+        {
+          "claim": "Lantern Landing to The Chest: ~340 m north-west",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "The Chest: named location, in the north-west of the island, closest Rubber Resort, then Lantern Landing",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (762.1, 875.4); distances between official POI coordinates"
+        },
+        {
+          "claim": "The Chest to Rubber Resort: ~250 m north",
+          "result": "PASS",
+          "why": "matched in map.json; distance and compass bearing between official POI coordinates"
+        },
+        {
+          "claim": "Rubber Resort: named location, in the north of the island, closest The Chest, then Buggy's Beachhead",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (817.7, 718.0); distances between official POI coordinates"
+        },
+        {
+          "claim": "The Salty Skull: landmark, in the east of the island, closest named Cursed Cavern ~120 m",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1206.1, 1224.3); distances between official POI coordinates"
+        },
+        {
+          "claim": "Baratie: landmark, in the south-east of the island, closest named Busy Bay ~40 m",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1411.1, 1476.8); distances between official POI coordinates"
+        },
+        {
+          "claim": "Henry: landmark, in the south-east of the island, closest named Plunder Port ~180 m",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1203.2, 1500.4); distances between official POI coordinates"
+        },
+        {
+          "claim": "Giant's Battlefield: landmark, near the center of the island, closest named Loguetown ~220 m",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (952.6, 1243.0); distances between official POI coordinates"
+        },
+        {
+          "claim": "Nami's Tangerine Grove: landmark, in the south-west of the island, closest named Windmill Village ~200 m",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (710.1, 1560.9); distances between official POI coordinates"
+        },
+        {
+          "claim": "Closest named pair Rubber Resort / The Chest ~250 m",
+          "result": "PASS",
+          "why": "matched in map.json; minimum over all named pairs"
+        },
+        {
+          "claim": "Most isolated named location Arlong Park, nearest ~410 m",
+          "result": "PASS",
+          "why": "matched in map.json; maximum nearest-neighbor distance over named locations"
+        },
+        {
+          "claim": "Farthest named pair Rubber Resort / Busy Bay ~1440 m",
+          "result": "PASS",
+          "why": "matched in map.json; maximum over all named pairs"
+        },
+        {
+          "claim": "Closest named location to the middle: Lantern Landing",
+          "result": "PASS",
+          "why": "matched in map.json; middle = centroid of the named locations"
+        },
+        {
+          "claim": "Recap of the named locations",
+          "result": "PASS",
+          "why": "matched in map.json"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "126 distinct words checked; code written as BAD in all 4 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -14.1 LUFS, true peak -2.2 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 267.2s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "4:28. Hook title card (Update 43.10, every place on the map now), 16-places stat, what-changed chapter pins Nami's Tangerine Grove and Buggy's Beachhead with NEW, 3-gone stat, news quote, per-place map pins with name/sub cards readable, captions in safe area, nothing overlapping. Thumbnail: NEW MAP / CHANGES readable at phone size, two ? pins on the map side not covered by text, chip UPDATE 43.10, CODE BAD, nothing cut off.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner What changed in 43.10 and a full tour of every place on the Fortnite map. Use code BAD in the Item Shop.\n#Fortnite #FortniteMap"
+}
