@@ -1,0 +1,70 @@
+{
+ "rows": [
+  {
+   "date": "2026-11-17",
+   "series": "chegou hoje",
+   "network": "instagram",
+   "views": 109,
+   "reach": 98,
+   "retention": 87.0,
+   "avg_watch_s": 3.1,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-17",
+   "series": "s1 pacotões",
+   "network": "instagram",
+   "views": 91,
+   "reach": 75,
+   "retention": 59.0,
+   "avg_watch_s": 9.0,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-17",
+   "series": "sai hoje",
+   "network": "instagram",
+   "views": 67,
+   "reach": 56,
+   "retention": 62.5,
+   "avg_watch_s": 6.5,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-18",
+   "series": "chegou hoje",
+   "network": "instagram",
+   "views": 30,
+   "reach": 30,
+   "retention": 72.4,
+   "avg_watch_s": 3.9,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-18",
+   "series": "s1 OG check",
+   "network": "instagram",
+   "views": 52,
+   "reach": 46,
+   "retention": 75.0,
+   "avg_watch_s": 5.5,
+   "interactions": 1
+  },
+  {
+   "date": "2026-11-18",
+   "series": "sai hoje",
+   "network": "instagram",
+   "views": 19,
+   "reach": 17,
+   "retention": 58.8,
+   "avg_watch_s": 10.0,
+   "interactions": 0
+  }
+ ],
+ "notes": [
+  {
+   "date": "2026-11-19",
+   "review": "Instagram only has data so far (TikTok posts and YouTube evolution not yet synced in Metricool). 6 reels, 19-109 views, retention 59-87%. 'sai hoje' lowest retention both days (62.5, 58.8). No series has 7 videos; no rule fires. Keep: all formats. Change: none. Test next: nothing until 7 per series (about 25 Nov); voice A/B starts on the next long video (Sat 21 Nov = voice B)."
+  }
+ ]
+}

@@ -2,3 +2,4 @@
 
 - 2026-11-17 · 12:20 CT · scheduled 4 posts on brand 8179363: s2-chegou-hoje 13:15 (yt/tt/ig/fb, id 431843191), s1-pacotoes 14:30 (yt/tt/ig/fb, id 431843806), long-og25 15:00 (yt, id 431844447), s3-sai-hoje 16:30 (yt/tt/ig/fb, id 431845174); media hosted on R2 then removed; pipeline installed in brand/codigobad.
 - 2026-11-18 · 08:17 CT · scheduled 4 posts on brand 8179363: s2-chegou-hoje 12:30 (yt/tt/ig/fb, id 432896173), s1-pacotoes 14:30 (yt/tt/ig/fb, id 432896766), long-og25 15:00 (yt, id 432897320), s3-sai-hoje 16:30 (yt/tt/ig/fb, id 432897848); media hosted on R2 then removed; make_day.py updated from pipeline.
+- 2026-11-19 · 08:02 CT · scheduled 3 posts on brand 8179363 (no long video, Thursday): s2-chegou-hoje 12:30 (yt/tt/ig/fb, id 434263761), s1-pacotoes 14:30 (yt/tt/ig/fb, id 434264122), s3-sai-hoje 16:30 (yt/tt/ig/fb, id 434264380); media hosted on R2 then removed; metrics.json added from pipeline; review: baseline, no change.
