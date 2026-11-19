@@ -1,0 +1,94 @@
+{
+ "duration": 19,
+ "caption": "#EpicPartner Just dropped in the Item Shop: CouRage Bundle",
+ "claims": [
+  {
+   "text": "CouRage Bundle is in the Item Shop for 2026-11-19",
+   "source": "shop.json",
+   "match": [
+    "CouRage Bundle",
+    "\"date\": \"2026-11-19"
+   ]
+  },
+  {
+   "text": "Price 3,000 V-Bucks (listed regular price 6,600)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 6600, \"finalPrice\": 3000"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-19",
+   "source": "shop.json",
+   "match": [
+    "2026-11-19T00:00:00Z"
+   ]
+  },
+  {
+   "text": "CouRage is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "CouRage"
+   ]
+  },
+  {
+   "text": "Courageous Knight is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Courageous Knight"
+   ]
+  },
+  {
+   "text": "Lion Shield is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Lion Shield"
+   ]
+  },
+  {
+   "text": "Courage Shield is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Courage Shield"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "COURAGE",
+  "COURAGEOUS KNIGHT",
+  "LION SHIELD",
+  "COURAGE BUNDLE",
+  "COURAGE, COURAGEOUS KNIGHT, LION SHIELD AND 7 MORE ITEMS",
+  "3,000 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 21",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE COURAGE BUNDLE.",
+  "COURAGE,",
+  "COURAGEOUS KNIGHT,",
+  "LION SHIELD AND",
+  "7 MORE ITEMS.",
+  "3,000 V-BUCKS,",
+  "INSTEAD OF 6,600.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "21ST.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}

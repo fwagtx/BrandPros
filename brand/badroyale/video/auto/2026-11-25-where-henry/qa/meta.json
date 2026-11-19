@@ -1,0 +1,46 @@
+{
+ "duration": 14.3,
+ "caption": "#EpicPartner Where is Henry in Fortnite? 📍\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "Henry is a place on the official map",
+   "source": "map.json",
+   "match": [
+    "Henry"
+   ]
+  },
+  {
+   "text": "It is in the south-east of the island, nearest named location Plunder Port",
+   "source": "map-labels.png",
+   "visual": "map pixel (1203, 1500); nearest named POI by coordinates: Plunder Port"
+  }
+ ],
+ "text": [
+  "HENRY",
+  "WHERE IS HENRY? / FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CAN'T FIND HENRY",
+  "IN FORTNITE?",
+  "HERE'S EXACTLY WHERE",
+  "IT IS.",
+  "IT'S IN THE",
+  "SOUTH-EAST OF THE",
+  "ISLAND,",
+  "RIGHT HERE,",
+  "CLOSEST TO PLUNDER",
+  "PORT.",
+  "SAVE THIS FOR",
+  "YOUR NEXT QUEST!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
