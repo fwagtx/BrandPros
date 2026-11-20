@@ -4,9 +4,9 @@
    "date": "2026-11-17",
    "series": "chegou hoje",
    "network": "instagram",
-   "views": 109,
-   "reach": 98,
-   "retention": 87.0,
+   "views": 110,
+   "reach": 99,
+   "retention": 86.1,
    "avg_watch_s": 3.1,
    "interactions": 0
   },
@@ -14,19 +14,19 @@
    "date": "2026-11-17",
    "series": "s1 pacotões",
    "network": "instagram",
-   "views": 91,
-   "reach": 75,
-   "retention": 59.0,
-   "avg_watch_s": 9.0,
+   "views": 92,
+   "reach": 76,
+   "retention": 59.5,
+   "avg_watch_s": 8.9,
    "interactions": 0
   },
   {
    "date": "2026-11-17",
    "series": "sai hoje",
    "network": "instagram",
-   "views": 67,
-   "reach": 56,
-   "retention": 62.5,
+   "views": 68,
+   "reach": 57,
+   "retention": 61.4,
    "avg_watch_s": 6.5,
    "interactions": 0
   },
@@ -34,30 +34,60 @@
    "date": "2026-11-18",
    "series": "chegou hoje",
    "network": "instagram",
-   "views": 30,
-   "reach": 30,
-   "retention": 72.4,
-   "avg_watch_s": 3.9,
+   "views": 47,
+   "reach": 47,
+   "retention": 58.7,
+   "avg_watch_s": 8.0,
    "interactions": 0
   },
   {
    "date": "2026-11-18",
    "series": "s1 OG check",
    "network": "instagram",
-   "views": 52,
-   "reach": 46,
-   "retention": 75.0,
-   "avg_watch_s": 5.5,
+   "views": 85,
+   "reach": 76,
+   "retention": 75.6,
+   "avg_watch_s": 5.7,
    "interactions": 1
   },
   {
    "date": "2026-11-18",
    "series": "sai hoje",
    "network": "instagram",
-   "views": 19,
-   "reach": 17,
-   "retention": 58.8,
-   "avg_watch_s": 10.0,
+   "views": 112,
+   "reach": 104,
+   "retention": 51.4,
+   "avg_watch_s": 10.3,
+   "interactions": 2
+  },
+  {
+   "date": "2026-11-19",
+   "series": "chegou hoje",
+   "network": "instagram",
+   "views": 66,
+   "reach": 66,
+   "retention": 47.7,
+   "avg_watch_s": 10.8,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-19",
+   "series": "s1 mais caros",
+   "network": "instagram",
+   "views": 116,
+   "reach": 98,
+   "retention": 59.4,
+   "avg_watch_s": 11.1,
+   "interactions": 1
+  },
+  {
+   "date": "2026-11-19",
+   "series": "sai hoje",
+   "network": "instagram",
+   "views": 116,
+   "reach": 105,
+   "retention": 66.7,
+   "avg_watch_s": 4.9,
    "interactions": 0
   }
  ],
@@ -65,6 +95,10 @@
   {
    "date": "2026-11-19",
    "review": "Instagram only has data so far (TikTok posts and YouTube evolution not yet synced in Metricool). 6 reels, 19-109 views, retention 59-87%. 'sai hoje' lowest retention both days (62.5, 58.8). No series has 7 videos; no rule fires. Keep: all formats. Change: none. Test next: nothing until 7 per series (about 25 Nov); voice A/B starts on the next long video (Sat 21 Nov = voice B)."
+  },
+  {
+   "date": "2026-11-20",
+   "review": "Instagram: 9 reels, 47-116 views; day-3 reels both hit 116 views. Retention 48-86%, no series below 30% of median. 'sai hoje' recovered to 66.7%. TikTok and YouTube per-video data still not synced in Metricool; YouTube shows first subscriber (1). No series at 7 videos yet. Keep: all. Change: make_day.py now avoids repeating a bundle ranking within 7 days and keeps today's new and leaving items out of the first short; when bundle deals run thin it switches to 'voltou pra loja hoje' (OG returns among today's arrivals). Test next: voice B on Saturday's long video."
   }
  ]
 }
