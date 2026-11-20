@@ -1,0 +1,95 @@
+{
+ "duration": 19.7,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Cowboy Bebop Bundle",
+ "claims": [
+  {
+   "text": "Cowboy Bebop Bundle is in the Item Shop for 2026-11-20",
+   "source": "shop.json",
+   "match": [
+    "Cowboy Bebop Bundle",
+    "\"date\": \"2026-11-20"
+   ]
+  },
+  {
+   "text": "Price 3,400 V-Bucks (listed regular price 6,600)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 6600, \"finalPrice\": 3400"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-20",
+   "source": "shop.json",
+   "match": [
+    "2026-11-20T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Faye Valentine is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Faye Valentine"
+   ]
+  },
+  {
+   "text": "Spike Spiegel is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Spike Spiegel"
+   ]
+  },
+  {
+   "text": "Multi-Purpose Phone is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Multi-Purpose Phone"
+   ]
+  },
+  {
+   "text": "Roses For Julia is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Roses For Julia"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "FAYE VALENTINE",
+  "SPIKE SPIEGEL",
+  "MULTI-PURPOSE PHONE",
+  "COWBOY BEBOP BUNDLE",
+  "FAYE VALENTINE, SPIKE SPIEGEL, MULTI-PURPOSE PHONE AND 6 MORE ITEMS",
+  "3,400 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 23",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE COWBOY BEBOP",
+  "BUNDLE.",
+  "FAYE VALENTINE,",
+  "SPIKE SPIEGEL,",
+  "MULTI-PURPOSE PHONE AND",
+  "6 MORE ITEMS.",
+  "3,400 V-BUCKS,",
+  "INSTEAD OF 6,600.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "23RD.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}

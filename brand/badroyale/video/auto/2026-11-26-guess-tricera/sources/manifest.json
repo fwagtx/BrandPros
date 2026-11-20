@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's cosmetics data)",
+ "files": [
+  {
+   "file": "CID_083_Athena_Commando_F_Tactical.json",
+   "source": "Epic cosmetics data for Elite Agent",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Elite%20Agent",
+   "fetched_utc": "2026-11-20T15:47:55Z"
+  },
+  {
+   "file": "CID_107_Athena_Commando_F_PajamaParty.json",
+   "source": "Epic cosmetics data for Tricera Ops",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Tricera%20Ops",
+   "fetched_utc": "2026-11-20T15:47:55Z"
+  },
+  {
+   "file": "CID_397_Athena_Commando_F_TreasureHunterFashion.json",
+   "source": "Epic cosmetics data for Aura",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Aura",
+   "fetched_utc": "2026-11-20T15:47:55Z"
+  }
+ ]
+}
