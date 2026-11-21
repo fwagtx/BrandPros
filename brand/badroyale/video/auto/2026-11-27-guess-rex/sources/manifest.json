@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's cosmetics data)",
+ "files": [
+  {
+   "file": "CID_093_Athena_Commando_M_Dinosaur.json",
+   "source": "Epic cosmetics data for Rex",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Rex",
+   "fetched_utc": "2026-11-21T15:46:58Z"
+  },
+  {
+   "file": "CID_119_Athena_Commando_F_Candy.json",
+   "source": "Epic cosmetics data for Zoey",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Zoey",
+   "fetched_utc": "2026-11-21T15:46:58Z"
+  },
+  {
+   "file": "CID_118_Athena_Commando_F_Valor.json",
+   "source": "Epic cosmetics data for Valor",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Valor",
+   "fetched_utc": "2026-11-21T15:46:58Z"
+  }
+ ]
+}
