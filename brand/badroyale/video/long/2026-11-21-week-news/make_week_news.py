@@ -236,7 +236,7 @@ json.dump({"phrases": phrases}, open(os.path.join(HERE, "vo.json"), "w"), indent
 mk = outfits("Hatsune Miku Bundle", 1)[0]
 sp = next(i for i in bundles["Cowboy Bebop Bundle"]["items"] if i["name"] == "Spike Spiegel")
 img(mk), img(sp)
-json.dump({"youtubeTitle": "Fortnite This Week 🎤 Hatsune Miku, Naruto, Cowboy Bebop, Kaiju No. 8 & More Collabs (Nov 15 - Nov 21)",
+json.dump({"youtubeTitle": "Fortnite This Week 🎤 Hatsune Miku, Naruto, Cowboy Bebop, Kaiju No. 8 & More (Nov 15 - Nov 21)",
            "youtube": "#EpicPartner Everything that happened in Fortnite this week 🎤 no new update and the same map, but a week packed with collabs in the Item Shop: "
                       "Hatsune Miku, Gotham City Summer, Shohei Ohtani, Madison Beer, Kaiju No. 8, four Naruto bundles, Regular Show, CouRage, Kim Kardashian, "
                       "Cowboy Bebop, The Kid LAROI and Ice Spice, with every price and which ones are still in the shop. Straight from Epic's in-game news and Item Shop.\n\n"
