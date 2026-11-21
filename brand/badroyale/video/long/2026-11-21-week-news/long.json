@@ -1,0 +1,703 @@
+{
+ "title": "Fortnite This Week: A Week of Collabs",
+ "map": "blank",
+ "caption": "#EpicPartner Everything that happened in Fortnite this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteNews",
+ "claims": [
+  {
+   "text": "Collab names in the hook are all bundles that first showed up this week",
+   "source": "week-news.json",
+   "match": [
+    "Hatsune Miku Bundle",
+    "Gotham City Summer Bundle",
+    "Shohei Ohtani Bundle",
+    "Naruto & Kakashi Bundle",
+    "Cowboy Bebop Bundle",
+    "Regular Show Bundle",
+    "Ice Spice Bundle"
+   ]
+  },
+  {
+   "text": "Build 43.10 every day 2026-11-15..2026-11-21; 16 places unchanged; same 5 news tiles every day",
+   "source": "week-news.json",
+   "match": [
+    "Release-43.10",
+    "\"2026-11-21\": 16",
+    "Devil Fruits Across the Island",
+    "TWINDRILL DIVA Music Pass",
+    "Monkey D. Luffy, Nami, and Usopp Outfits",
+    "Multi-Punches Flex",
+    "Adventure Awaits!"
+   ]
+  },
+  {
+   "text": "Devil Fruits Across the Island tile, live 2026-11-15..2026-11-21",
+   "source": "week-news.json",
+   "match": [
+    "Devil Fruits Across the Island",
+    "Rare Devil Fruits have dropped in across the map",
+    "Eat the Gum-Gum Fruit to stretch your skills as Luffy",
+    "or the Flame-Flame Fruit to come in hot as Ace",
+    "just stay away from water"
+   ]
+  },
+  {
+   "text": "TWINDRILL DIVA Music Pass tile, live 2026-11-15..2026-11-21",
+   "source": "week-news.json",
+   "match": [
+    "TWINDRILL DIVA Music Pass",
+    "Virtual Diva Kasane Teto takes the stage",
+    "Dive into Festival to start unlocking rewards"
+   ]
+  },
+  {
+   "text": "Monkey D. Luffy, Nami, and Usopp Outfits tile, live 2026-11-15..2026-11-21",
+   "source": "week-news.json",
+   "match": [
+    "Monkey D. Luffy, Nami, and Usopp Outfits",
+    "When adventure calls, the Straw Hats answer"
+   ]
+  },
+  {
+   "text": "Multi-Punches Flex tile, live 2026-11-15..2026-11-21",
+   "source": "week-news.json",
+   "match": [
+    "Multi-Punches Flex",
+    "GUM-GUM GATLING"
+   ]
+  },
+  {
+   "text": "15 picked collab bundles, each first seen in our archive on its day",
+   "source": "week-news.json",
+   "match": [
+    "Hatsune Miku Bundle",
+    "Gotham City Summer Bundle",
+    "Shohei Ohtani Bundle",
+    "Madison Beer Bundle",
+    "Kaiju No. 8 Bundle",
+    "Naruto & Kakashi Bundle",
+    "Sasuke & Sakura Bundle",
+    "Gaara & Hinata Bundle",
+    "Itachi & Orochimaru Bundle",
+    "Regular Show Bundle",
+    "CouRage Bundle",
+    "Kim Kardashian Bundle",
+    "Cowboy Bebop Bundle",
+    "The Kid LAROI Bundle",
+    "Ice Spice Bundle"
+   ]
+  },
+  {
+   "text": "Hatsune Miku Bundle: first 2026-11-16, 3200 (listed 5200), 9 items, outDate 2026-11-20, in today's shop False; outfits ['Hatsune Miku']",
+   "source": "week-news.json",
+   "match": [
+    "Hatsune Miku Bundle",
+    "\"finalPrice\": 3200",
+    "\"regularPrice\": 5200",
+    "2026-11-20",
+    "Hatsune Miku"
+   ]
+  },
+  {
+   "text": "Gotham City Summer Bundle: first 2026-11-16, 3000 (listed 6900), 9 items, outDate 2026-11-20, in today's shop False; outfits ['Beach Bod Batman', 'Coastal Catwoman']",
+   "source": "week-news.json",
+   "match": [
+    "Gotham City Summer Bundle",
+    "\"finalPrice\": 3000",
+    "\"regularPrice\": 6900",
+    "2026-11-20",
+    "Beach Bod Batman",
+    "Coastal Catwoman"
+   ]
+  },
+  {
+   "text": "Shohei Ohtani Bundle: first 2026-11-16, 2800 (listed 6100), 8 items, outDate 2026-11-20, in today's shop False; outfits ['Shohei Ohtani', 'Samurai Shohei']",
+   "source": "week-news.json",
+   "match": [
+    "Shohei Ohtani Bundle",
+    "\"finalPrice\": 2800",
+    "\"regularPrice\": 6100",
+    "2026-11-20",
+    "Shohei Ohtani",
+    "Samurai Shohei"
+   ]
+  },
+  {
+   "text": "Madison Beer Bundle: first 2026-11-17, 3400 (listed 6800), 11 items, outDate 2026-11-21, in today's shop True; outfits ['Make You Mine Madison', 'Satin Angel Madison']",
+   "source": "week-news.json",
+   "match": [
+    "Madison Beer Bundle",
+    "\"finalPrice\": 3400",
+    "\"regularPrice\": 6800",
+    "2026-11-21",
+    "Make You Mine Madison",
+    "Satin Angel Madison"
+   ]
+  },
+  {
+   "text": "Kaiju No. 8 Bundle: first 2026-11-17, 3800 (listed 7700), 11 items, outDate 2026-11-20, in today's shop False; outfits ['Kafka Hibino', 'Kikoru Shinomiya', 'Reno Ichikawa']",
+   "source": "week-news.json",
+   "match": [
+    "Kaiju No. 8 Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 7700",
+    "2026-11-20",
+    "Kafka Hibino",
+    "Kikoru Shinomiya",
+    "Reno Ichikawa"
+   ]
+  },
+  {
+   "text": "Naruto & Kakashi Bundle: first 2026-11-18, 2100 (listed 3000), 5 items, outDate 2026-11-20, in today's shop False; outfits ['Naruto Uzumaki', 'Kakashi Hatake']",
+   "source": "week-news.json",
+   "match": [
+    "Naruto & Kakashi Bundle",
+    "\"finalPrice\": 2100",
+    "\"regularPrice\": 3000",
+    "2026-11-20",
+    "Naruto Uzumaki",
+    "Kakashi Hatake"
+   ]
+  },
+  {
+   "text": "Sasuke & Sakura Bundle: first 2026-11-18, 2200 (listed 3100), 6 items, outDate 2026-11-20, in today's shop False; outfits ['Sasuke Uchiha', 'Sakura Haruno']",
+   "source": "week-news.json",
+   "match": [
+    "Sasuke & Sakura Bundle",
+    "\"finalPrice\": 2200",
+    "\"regularPrice\": 3100",
+    "2026-11-20",
+    "Sasuke Uchiha",
+    "Sakura Haruno"
+   ]
+  },
+  {
+   "text": "Gaara & Hinata Bundle: first 2026-11-18, 2400 (listed 3300), 6 items, outDate 2026-11-20, in today's shop False; outfits ['Gaara', 'Hinata Hyuga']",
+   "source": "week-news.json",
+   "match": [
+    "Gaara & Hinata Bundle",
+    "\"finalPrice\": 2400",
+    "\"regularPrice\": 3300",
+    "2026-11-20",
+    "Gaara",
+    "Hinata Hyuga"
+   ]
+  },
+  {
+   "text": "Itachi & Orochimaru Bundle: first 2026-11-18, 2200 (listed 3100), 4 items, outDate 2026-11-20, in today's shop False; outfits ['Itachi Uchiha', 'Orochimaru']",
+   "source": "week-news.json",
+   "match": [
+    "Itachi & Orochimaru Bundle",
+    "\"finalPrice\": 2200",
+    "\"regularPrice\": 3100",
+    "2026-11-20",
+    "Itachi Uchiha",
+    "Orochimaru"
+   ]
+  },
+  {
+   "text": "Regular Show Bundle: first 2026-11-19, 3400 (listed 6100), 9 items, outDate 2026-11-23, in today's shop True; outfits ['Mordecai', 'Skips']",
+   "source": "week-news.json",
+   "match": [
+    "Regular Show Bundle",
+    "\"finalPrice\": 3400",
+    "\"regularPrice\": 6100",
+    "2026-11-23",
+    "Mordecai",
+    "Skips"
+   ]
+  },
+  {
+   "text": "CouRage Bundle: first 2026-11-19, 3000 (listed 6600), 10 items, outDate 2026-11-21, in today's shop True; outfits ['CouRage', 'Courageous Knight']",
+   "source": "week-news.json",
+   "match": [
+    "CouRage Bundle",
+    "\"finalPrice\": 3000",
+    "\"regularPrice\": 6600",
+    "2026-11-21",
+    "CouRage",
+    "Courageous Knight"
+   ]
+  },
+  {
+   "text": "Kim Kardashian Bundle: first 2026-11-20, 3000 (listed 5900), 9 items, outDate 2026-11-24, in today's shop True; outfits ['Iconic Kim Kardashian', 'Kim Kardashian']",
+   "source": "week-news.json",
+   "match": [
+    "Kim Kardashian Bundle",
+    "\"finalPrice\": 3000",
+    "\"regularPrice\": 5900",
+    "2026-11-24",
+    "Iconic Kim Kardashian",
+    "Kim Kardashian"
+   ]
+  },
+  {
+   "text": "Cowboy Bebop Bundle: first 2026-11-20, 3400 (listed 6600), 9 items, outDate 2026-11-23, in today's shop True; outfits ['Faye Valentine', 'Spike Spiegel']",
+   "source": "week-news.json",
+   "match": [
+    "Cowboy Bebop Bundle",
+    "\"finalPrice\": 3400",
+    "\"regularPrice\": 6600",
+    "2026-11-23",
+    "Faye Valentine",
+    "Spike Spiegel"
+   ]
+  },
+  {
+   "text": "The Kid LAROI Bundle: first 2026-11-20, 2400 (listed 4000), 6 items, outDate 2026-11-26, in today's shop True; outfits ['The Kid LAROI', 'The Rogue LAROI']",
+   "source": "week-news.json",
+   "match": [
+    "The Kid LAROI Bundle",
+    "\"finalPrice\": 2400",
+    "\"regularPrice\": 4000",
+    "2026-11-26",
+    "The Kid LAROI",
+    "The Rogue LAROI"
+   ]
+  },
+  {
+   "text": "Ice Spice Bundle: first 2026-11-21, 2800 (listed 4800), 8 items, outDate 2026-11-24, in today's shop True; outfits ['Rap Princess Ice Spice', 'Ice Spice']",
+   "source": "week-news.json",
+   "match": [
+    "Ice Spice Bundle",
+    "\"finalPrice\": 2800",
+    "\"regularPrice\": 4800",
+    "2026-11-24",
+    "Rap Princess Ice Spice",
+    "Ice Spice"
+   ]
+  },
+  {
+   "text": "Priciest Kaiju No. 8 Bundle, lowest Naruto & Kakashi Bundle, biggest listed-vs-price gap ['Gotham City Summer Bundle', 'Kaiju No. 8 Bundle'] (3900), most items 11 in ['Madison Beer Bundle', 'Kaiju No. 8 Bundle']",
+   "source": "week-news.json",
+   "match": [
+    "Kaiju No. 8 Bundle",
+    "Naruto & Kakashi Bundle",
+    "Gotham City Summer Bundle",
+    "Kaiju No. 8 Bundle",
+    "Madison Beer Bundle",
+    "Kaiju No. 8 Bundle"
+   ]
+  },
+  {
+   "text": "Still in the 2026-11-21 shop: ['Madison Beer Bundle', 'Regular Show Bundle', 'CouRage Bundle', 'Kim Kardashian Bundle', 'Cowboy Bebop Bundle', 'The Kid LAROI Bundle', 'Ice Spice Bundle']",
+   "source": "week-news.json",
+   "match": [
+    "Madison Beer Bundle",
+    "Regular Show Bundle",
+    "CouRage Bundle",
+    "Kim Kardashian Bundle",
+    "Cowboy Bebop Bundle",
+    "The Kid LAROI Bundle",
+    "Ice Spice Bundle"
+   ]
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "FORTNITE THIS WEEK",
+   "lines": [
+    "A week of collabs",
+    "Nov 15 - Nov 21"
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 3,
+   "chapter": "The news",
+   "big": "v43.10",
+   "label": "all week, 16 places on the map"
+  },
+  {
+   "type": "quote",
+   "p": 5,
+   "kicker": "IN-GAME NEWS",
+   "title": "Devil Fruits Across the Island",
+   "lines": [
+    {
+     "p": 6,
+     "text": "Rare Devil Fruits have dropped in across the map!"
+    },
+    {
+     "p": 7,
+     "text": "Eat the Gum-Gum Fruit to stretch your skills as Luffy,"
+    },
+    {
+     "p": 8,
+     "text": "or the Flame-Flame Fruit to come in hot as Ace..."
+    },
+    {
+     "p": 9,
+     "text": "just stay away from water."
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 10,
+   "kicker": "IN-GAME NEWS",
+   "title": "TWINDRILL DIVA Music Pass",
+   "lines": [
+    {
+     "p": 11,
+     "text": "Virtual Diva Kasane Teto takes the stage!"
+    },
+    {
+     "p": 12,
+     "text": "Dive into Festival to start unlocking rewards!"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 13,
+   "kicker": "IN-GAME NEWS",
+   "title": "Monkey D. Luffy, Nami, and Usopp Outfits",
+   "lines": [
+    {
+     "p": 14,
+     "text": "When adventure calls, the Straw Hats answer!"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "p": 15,
+   "kicker": "IN-GAME NEWS",
+   "title": "Multi-Punches Flex",
+   "lines": [
+    {
+     "p": 16,
+     "text": "GUM-GUM GATLING!"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 17,
+   "chapter": "The shop",
+   "big": "15",
+   "label": "collab bundles in six days"
+  },
+  {
+   "type": "items",
+   "p": 19,
+   "title": "Hatsune Miku Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_JadeTowelGloss.png",
+     "name": "Hatsune Miku",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 16th"
+  },
+  {
+   "type": "items",
+   "p": 21,
+   "title": "Gotham City Summer Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_TideCompost.png",
+     "name": "Beach Bod Batman",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_HammerVice.png",
+     "name": "Coastal Catwoman",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 23,
+   "title": "Shohei Ohtani Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_VelvetDeskCam.png",
+     "name": "Shohei Ohtani",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_VelvetDeskFiber.png",
+     "name": "Samurai Shohei",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 25,
+   "title": "Madison Beer Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_MistTycoonHike.png",
+     "name": "Make You Mine Madison",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_MistTycoonLife.png",
+     "name": "Satin Angel Madison",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 17th"
+  },
+  {
+   "type": "items",
+   "p": 27,
+   "title": "Kaiju No. 8 Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_SureBamboo.png",
+     "name": "Kafka Hibino",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_CafeStove.png",
+     "name": "Kikoru Shinomiya",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_YamPowder.png",
+     "name": "Reno Ichikawa",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "p": 29
+  },
+  {
+   "type": "items",
+   "p": 30,
+   "title": "Naruto & Kakashi Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/CID_A_261_Athena_Commando_M_Headband.png",
+     "name": "Naruto Uzumaki",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/CID_A_262_Athena_Commando_M_HeadbandK.png",
+     "name": "Kakashi Hatake",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 18th"
+  },
+  {
+   "type": "items",
+   "p": 32,
+   "title": "Sasuke & Sakura Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/CID_A_263_Athena_Commando_M_HeadbandS.png",
+     "name": "Sasuke Uchiha",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/CID_A_264_Athena_Commando_F_HeadbandS.png",
+     "name": "Sakura Haruno",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 33,
+   "title": "Gaara & Hinata Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/CID_A_434_Athena_Commando_M_EnsembleMaroon.png",
+     "name": "Gaara",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/CID_A_435_Athena_Commando_F_Ensemble.png",
+     "name": "Hinata Hyuga",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 34,
+   "title": "Itachi & Orochimaru Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/CID_A_432_Athena_Commando_M_Ensemble.png",
+     "name": "Itachi Uchiha",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/CID_A_433_Athena_Commando_M_EnsembleSnake.png",
+     "name": "Orochimaru",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 36,
+   "title": "Regular Show Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_VouchTrig.png",
+     "name": "Mordecai",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_RobustTorn.png",
+     "name": "Skips",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 19th"
+  },
+  {
+   "type": "items",
+   "p": 38,
+   "title": "CouRage Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_BoldDormRise.png",
+     "name": "CouRage",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_BoldDormWork.png",
+     "name": "Courageous Knight",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 40,
+   "title": "Kim Kardashian Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_QuicheLorraineLime.png",
+     "name": "Iconic Kim Kardashian",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_QuicheLorraineCrisp.png",
+     "name": "Kim Kardashian",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 20th"
+  },
+  {
+   "type": "items",
+   "p": 42,
+   "title": "Cowboy Bebop Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_KneeLens.png",
+     "name": "Faye Valentine",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_StudyBench.png",
+     "name": "Spike Spiegel",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 44,
+   "title": "The Kid LAROI Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_SunBurst.png",
+     "name": "The Kid LAROI",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_SunBurstAlt.png",
+     "name": "The Rogue LAROI",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 46,
+   "title": "Ice Spice Bundle",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_BerryTartBrunt.png",
+     "name": "Rap Princess Ice Spice",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-21-week-news/img/Character_BerryTartRiver.png",
+     "name": "Ice Spice",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 21st"
+  },
+  {
+   "type": "title",
+   "p": 48,
+   "chapter": "By the numbers",
+   "kicker": "BY THE NUMBERS",
+   "lines": [
+    "The week's collabs",
+    "by the numbers"
+   ]
+  },
+  {
+   "type": "title",
+   "p": 53,
+   "chapter": "Recap",
+   "kicker": "QUICK RECAP",
+   "lines": [
+    "v43.10 · same map, same news",
+    "a week of collabs"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 56
+  }
+ ]
+}

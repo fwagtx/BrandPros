@@ -1,0 +1,1010 @@
+{
+ "note": "Daily snapshots 2026-11-15..2026-11-21: Epic's Battle Royale news tiles, build and map places (sources/history/), and the bundles in each day's Item Shop (shop/<day>/shop.json). first_shop_day = first day in our shop archive (since 2026-10-28).",
+ "tiles": [
+  {
+   "title": "Devil Fruits Across the Island",
+   "body": "Rare Devil Fruits have dropped in across the map! Eat the Gum-Gum Fruit to stretch your skills as Luffy, or the Flame-Flame Fruit to come in hot as Ace... just stay away from water.",
+   "days": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21"
+   ]
+  },
+  {
+   "title": "TWINDRILL DIVA Music Pass",
+   "body": "Virtual Diva Kasane Teto takes the stage! TWINDRILL DIVA Music Pass holders get access to the Kasane Teto Outfit, Back Bling, Emote, and more. Dive into Festival to start unlocking rewards!",
+   "days": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21"
+   ]
+  },
+  {
+   "title": "Monkey D. Luffy, Nami, and Usopp Outfits",
+   "body": "When adventure calls, the Straw Hats answer! Set sail with Monkey D. Luffy, Nami, and Usopp Outfits and chart a course to uncharted waters.",
+   "days": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21"
+   ]
+  },
+  {
+   "title": "Multi-Punches Flex",
+   "body": "GUM-GUM GATLING!",
+   "days": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21"
+   ]
+  },
+  {
+   "title": "Adventure Awaits!",
+   "body": "Explore One Piece's Arlong Park, sail past Baratie Bay, or storm The $.$. Rocky on this mysterious skull-shaped island.",
+   "days": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21"
+   ]
+  }
+ ],
+ "builds": {
+  "2026-11-15": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-16": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-17": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-18": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-19": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-20": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-21": "++Fortnite+Release-43.10-CL-60118918"
+ },
+ "place_counts": {
+  "2026-11-15": 16,
+  "2026-11-16": 16,
+  "2026-11-17": 16,
+  "2026-11-18": 16,
+  "2026-11-19": 16,
+  "2026-11-20": 16,
+  "2026-11-21": 16
+ },
+ "bundles_first_seen_this_week": 50,
+ "bundles": {
+  "Hatsune Miku Bundle": {
+   "first_shop_day": "2026-11-16",
+   "days_in_shop": [
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+   ],
+   "finalPrice": 3200,
+   "regularPrice": 5200,
+   "outDate": "2026-11-20",
+   "items": [
+    {
+     "name": "Hatsune Miku",
+     "type": "outfit",
+     "id": "Character_JadeTowelGloss",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_jadetowelgloss/featured.png"
+    },
+    {
+     "name": "Pack-sune Miku",
+     "type": "backpack",
+     "id": "Backpack_JadeTowelGloss",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_jadetowelgloss/featured.png"
+    },
+    {
+     "name": "Miku Live",
+     "type": "emote",
+     "id": "EID_JadeTowel",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_jadetowel/icon.png"
+    },
+    {
+     "name": "Miku Miku Beam",
+     "type": "emote",
+     "id": "EID_JadeTowel_Gloss",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_jadetowel_gloss/icon.png"
+    },
+    {
+     "name": "Miku Light",
+     "type": "contrail",
+     "id": "Contrail_JadeTowel",
+     "img": "https://fortnite-api.com/images/cosmetics/br/contrail_jadetowel/featured.png"
+    },
+    {
+     "name": "Miku's Beat Drums",
+     "type": "backpack",
+     "id": "Backpack_JadeTowel_Drum",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_jadetowel_drum/featured.png"
+    },
+    {
+     "name": "Miku's Beat Drums",
+     "type": "pickaxe",
+     "id": "Pickaxe_JadeTowel_Drum",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jadetowel_drum/featured.png"
+    },
+    {
+     "name": "Hatsune's Mic-u",
+     "type": "backpack",
+     "id": "Backpack_JadeTowel_Mic",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_jadetowel_mic/featured.png"
+    },
+    {
+     "name": "Hatsune's Mic-u",
+     "type": "pickaxe",
+     "id": "Pickaxe_JadeTowel_Mic",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jadetowel_mic/featured.png"
+    }
+   ]
+  },
+  "Gotham City Summer Bundle": {
+   "first_shop_day": "2026-11-16",
+   "days_in_shop": [
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+   ],
+   "finalPrice": 3000,
+   "regularPrice": 6900,
+   "outDate": "2026-11-20",
+   "items": [
+    {
+     "name": "Beach Bod Batman",
+     "type": "outfit",
+     "id": "Character_TideCompost",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/featured.png"
+    },
+    {
+     "name": "Batman Floatie",
+     "type": "backpack",
+     "id": "Backpack_TideCompost",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_tidecompost/featured.png"
+    },
+    {
+     "name": "Coastal Catwoman",
+     "type": "outfit",
+     "id": "Character_HammerVice",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_hammervice/featured.png"
+    },
+    {
+     "name": "Riptide Claws",
+     "type": "pickaxe",
+     "id": "Pickaxe_HammerVice",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hammervice/featured.png"
+    },
+    {
+     "name": "Ace the Bat-Hound",
+     "type": "sidekick",
+     "id": "Companion_ScoffFrill",
+     "img": "https://fortnite-api.com/images/cosmetics/br/companion_scofffrill/featured.png"
+    },
+    {
+     "name": "Beach Bats",
+     "type": "shoe",
+     "id": "Shoes_TideCompostZoo",
+     "img": "https://fortnite-api.com/images/cosmetics/br/shoes_tidecompostzoo/featured.png"
+    },
+    {
+     "name": "Surf's Up!",
+     "type": "emote",
+     "id": "EID_TideCompost",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_tidecompost/icon.png"
+    },
+    {
+     "name": "Batman Paddle",
+     "type": "pickaxe",
+     "id": "Pickaxe_TideCompost",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tidecompost/featured.png"
+    },
+    {
+     "name": "Selina's Treasure Tote",
+     "type": "backpack",
+     "id": "Backpack_HammerVice",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_hammervice/featured.png"
+    }
+   ]
+  },
+  "Shohei Ohtani Bundle": {
+   "first_shop_day": "2026-11-16",
+   "days_in_shop": [
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+   ],
+   "finalPrice": 2800,
+   "regularPrice": 6100,
+   "outDate": "2026-11-20",
+   "items": [
+    {
+     "name": "Shohei Ohtani",
+     "type": "outfit",
+     "id": "Character_VelvetDeskCam",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_velvetdeskcam/featured.png"
+    },
+    {
+     "name": "Samurai Shohei",
+     "type": "outfit",
+     "id": "Character_VelvetDeskFiber",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_velvetdeskfiber/featured.png"
+    },
+    {
+     "name": "Trusty Two-Way",
+     "type": "pickaxe",
+     "id": "Pickaxe_VelvetDeskCam",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_velvetdeskcam/featured.png"
+    },
+    {
+     "name": "Baseball Batana",
+     "type": "pickaxe",
+     "id": "Pickaxe_VelvetDeskFiber",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_velvetdeskfiber/featured.png"
+    },
+    {
+     "name": "Doggy Dingers",
+     "type": "emote",
+     "id": "EID_VelvetDesk",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_velvetdesk/icon.png"
+    },
+    {
+     "name": "Hey Batter Batter",
+     "type": "emote",
+     "id": "EID_VelvetDesk_Cam",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_velvetdesk_cam/icon.png"
+    },
+    {
+     "name": "Decoy",
+     "type": "backpack",
+     "id": "Backpack_VelvetDeskCam",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_velvetdeskcam/featured.png"
+    },
+    {
+     "name": "Samurai Screamer",
+     "type": "backpack",
+     "id": "Backpack_VelvetDeskFiber",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_velvetdeskfiber/featured.png"
+    }
+   ]
+  },
+  "Madison Beer Bundle": {
+   "first_shop_day": "2026-11-17",
+   "days_in_shop": [
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21"
+   ],
+   "finalPrice": 3400,
+   "regularPrice": 6800,
+   "outDate": "2026-11-21",
+   "items": [
+    {
+     "name": "Make You Mine Madison",
+     "type": "outfit",
+     "id": "Character_MistTycoonHike",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_misttycoonhike/featured.png"
+    },
+    {
+     "name": "Madison's OG Pickaxe",
+     "type": "pickaxe",
+     "id": "Pickaxe_MistTycoonHike",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_misttycoonhike/featured.png"
+    },
+    {
+     "name": "Satin Angel Madison",
+     "type": "outfit",
+     "id": "Character_MistTycoonLife",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_misttycoonlife/featured.png"
+    },
+    {
+     "name": "Madison's Angel Wings",
+     "type": "backpack",
+     "id": "Backpack_MistTycoonLife",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoonlife/featured.png"
+    },
+    {
+     "name": "Mookie & Maple Plushies",
+     "type": "backpack",
+     "id": "Backpack_MistTycoonHike",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoonhike/featured.png"
+    },
+    {
+     "name": "Bittersweet",
+     "type": "emote",
+     "id": "EID_MistTycoonLife",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_misttycoonlife/icon.png"
+    },
+    {
+     "name": "Yes Baby",
+     "type": "emote",
+     "id": "EID_MistTycoonHike",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_misttycoonhike/icon.png"
+    },
+    {
+     "name": "Madison's Mic",
+     "type": "pickaxe",
+     "id": "Pickaxe_MistTycoon_Mic",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_misttycoon_mic/featured.png"
+    },
+    {
+     "name": "Madison's Mic",
+     "type": "backpack",
+     "id": "Backpack_MistTycoon_Mic",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoon_mic/featured.png"
+    },
+    {
+     "name": "Madison's Glam Wrap",
+     "type": "wrap",
+     "id": "Wrap_MistTycoon",
+     "img": "https://fortnite-api.com/images/cosmetics/br/wrap_misttycoon/featured.png"
+    },
+    {
+     "name": "Rooftop Madison",
+     "type": "loadingscreen",
+     "id": "LoadingScreen_MistTycoonKeyArt",
+     "img": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_misttycoonkeyart/featured.png"
+    }
+   ]
+  },
+  "Kaiju No. 8 Bundle": {
+   "first_shop_day": "2026-11-17",
+   "days_in_shop": [
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+   ],
+   "finalPrice": 3800,
+   "regularPrice": 7700,
+   "outDate": "2026-11-20",
+   "items": [
+    {
+     "name": "Kafka Hibino",
+     "type": "outfit",
+     "id": "Character_SureBamboo",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_surebamboo/featured.png"
+    },
+    {
+     "name": "Kikoru Shinomiya",
+     "type": "outfit",
+     "id": "Character_CafeStove",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_cafestove/featured.png"
+    },
+    {
+     "name": "Reno Ichikawa",
+     "type": "outfit",
+     "id": "Character_YamPowder",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_yampowder/featured.png"
+    },
+    {
+     "name": "Kikoru’s Personal Weapon",
+     "type": "pickaxe",
+     "id": "Pickaxe_CafeStove",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cafestove/featured.png"
+    },
+    {
+     "name": "Kaiju No. 8's Scythe",
+     "type": "pickaxe",
+     "id": "Pickaxe_SureBamboo",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_surebamboo/featured.png"
+    },
+    {
+     "name": "Freezing Round Axes",
+     "type": "pickaxe",
+     "id": "Pickaxe_YamPowder",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_yampowder/featured.png"
+    },
+    {
+     "name": "Spirit of the Kaiju",
+     "type": "emote",
+     "id": "EID_SureBamboo",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_surebamboo/icon.png"
+    },
+    {
+     "name": "Kikoru's Scaled Slingbag",
+     "type": "backpack",
+     "id": "Backpack_CafeStove",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_cafestove/featured.png"
+    },
+    {
+     "name": "Cracked Mask",
+     "type": "backpack",
+     "id": "Backpack_SureBamboo",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_surebamboo/featured.png"
+    },
+    {
+     "name": "Reno's Gearbag",
+     "type": "backpack",
+     "id": "Backpack_YamPowder",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_yampowder/featured.png"
+    },
+    {
+     "name": "Kaiju No. 8",
+     "type": "wrap",
+     "id": "Wrap_SureBamboo",
+     "img": "https://fortnite-api.com/images/cosmetics/br/wrap_surebamboo/featured.png"
+    }
+   ]
+  },
+  "Naruto & Kakashi Bundle": {
+   "first_shop_day": "2026-11-18",
+   "days_in_shop": [
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+   ],
+   "finalPrice": 2100,
+   "regularPrice": 3000,
+   "outDate": "2026-11-20",
+   "items": [
+    {
+     "name": "Naruto Uzumaki",
+     "type": "outfit",
+     "id": "CID_A_261_Athena_Commando_M_Headband",
+     "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_261_athena_commando_m_headband/featured.png"
+    },
+    {
+     "name": "Scroll",
+     "type": "backpack",
+     "id": "BID_902_HeadbandMale",
+     "img": "https://fortnite-api.com/images/cosmetics/br/bid_902_headbandmale/featured.png"
+    },
+    {
+     "name": "Kakashi Hatake",
+     "type": "outfit",
+     "id": "CID_A_262_Athena_Commando_M_HeadbandK",
+     "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_262_athena_commando_m_headbandk/featured.png"
+    },
+    {
+     "name": "Pakkun",
+     "type": "backpack",
+     "id": "BID_903_HeadbandKMale",
+     "img": "https://fortnite-api.com/images/cosmetics/br/bid_903_headbandkmale/featured.png"
+    },
+    {
+     "name": "Pizza Eating Jutsu",
+     "type": "loadingscreen",
+     "id": "LSID_370_HeadbandPizza",
+     "img": "https://fortnite-api.com/images/cosmetics/br/lsid_370_headbandpizza/featured.png"
+    }
+   ]
+  },
+  "Sasuke & Sakura Bundle": {
+   "first_shop_day": "2026-11-18",
+   "days_in_shop": [
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+   ],
+   "finalPrice": 2200,
+   "regularPrice": 3100,
+   "outDate": "2026-11-20",
+   "items": [
+    {
+     "name": "Sasuke Uchiha",
+     "type": "outfit",
+     "id": "CID_A_263_Athena_Commando_M_HeadbandS",
+     "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_263_athena_commando_m_headbands/featured.png"
+    },
+    {
+     "name": "Demon Wind Shuriken",
+     "type": "backpack",
+     "id": "BID_904_HeadbandSMale",
+     "img": "https://fortnite-api.com/images/cosmetics/br/bid_904_headbandsmale/featured.png"
+    },
+    {
+     "name": "Snake Sword",
+     "type": "pickaxe",
+     "id": "Pickaxe_ID_705_HeadbandSMale1H",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_705_headbandsmale1h/featured.png"
+    },
+    {
+     "name": "Sakura Haruno",
+     "type": "outfit",
+     "id": "CID_A_264_Athena_Commando_F_HeadbandS",
+     "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_264_athena_commando_f_headbands/featured.png"
+    },
+    {
+     "name": "Hidden Leaf Cloak",
+     "type": "backpack",
+     "id": "BID_905_HeadbandSFemale",
+     "img": "https://fortnite-api.com/images/cosmetics/br/bid_905_headbandsfemale/featured.png"
+    },
+    {
+     "name": "Team 7",
+     "type": "loadingscreen",
+     "id": "LSID_369_Headband",
+     "img": "https://fortnite-api.com/images/cosmetics/br/lsid_369_headband/featured.png"
+    }
+   ]
+  },
+  "Gaara & Hinata Bundle": {
+   "first_shop_day": "2026-11-18",
+   "days_in_shop": [
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+   ],
+   "finalPrice": 2400,
+   "regularPrice": 3300,
+   "outDate": "2026-11-20",
+   "items": [
+    {
+     "name": "Gaara",
+     "type": "outfit",
+     "id": "CID_A_434_Athena_Commando_M_EnsembleMaroon",
+     "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_434_athena_commando_m_ensemblemaroon/featured.png"
+    },
+    {
+     "name": "Sand Gourd",
+     "type": "backpack",
+     "id": "BID_A_032_EnsembleMaroonMale",
+     "img": "https://fortnite-api.com/images/cosmetics/br/bid_a_032_ensemblemaroonmale/featured.png"
+    },
+    {
+     "name": "Gaara's Sand Cloud",
+     "type": "glider",
+     "id": "Glider_ID_377_EnsembleMaroonMale",
+     "img": "https://fortnite-api.com/images/cosmetics/br/glider_id_377_ensemblemaroonmale/featured.png"
+    },
+    {
+     "name": "Hinata Hyuga",
+     "type": "outfit",
+     "id": "CID_A_435_Athena_Commando_F_Ensemble",
+     "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_435_athena_commando_f_ensemble/featured.png"
+    },
+    {
+     "name": "Hinata's Backpack",
+     "type": "backpack",
+     "id": "BID_A_031_EnsembleFemale",
+     "img": "https://fortnite-api.com/images/cosmetics/br/bid_a_031_ensemblefemale/featured.png"
+    },
+    {
+     "name": "Shinobi Lineup",
+     "type": "loadingscreen",
+     "id": "LSID_457_Ensemble_Characters",
+     "img": "https://fortnite-api.com/images/cosmetics/br/lsid_457_ensemble_characters/icon.png"
+    }
+   ]
+  },
+  "Itachi & Orochimaru Bundle": {
+   "first_shop_day": "2026-11-18",
+   "days_in_shop": [
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+   ],
+   "finalPrice": 2200,
+   "regularPrice": 3100,
+   "outDate": "2026-11-20",
+   "items": [
+    {
+     "name": "Itachi Uchiha",
+     "type": "outfit",
+     "id": "CID_A_432_Athena_Commando_M_Ensemble",
+     "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_432_athena_commando_m_ensemble/featured.png"
+    },
+    {
+     "name": "Black Ops Mask",
+     "type": "backpack",
+     "id": "BID_A_030_EnsembleMaskMale",
+     "img": "https://fortnite-api.com/images/cosmetics/br/bid_a_030_ensemblemaskmale/featured.png"
+    },
+    {
+     "name": "Orochimaru",
+     "type": "outfit",
+     "id": "CID_A_433_Athena_Commando_M_EnsembleSnake",
+     "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_433_athena_commando_m_ensemblesnake/featured.png"
+    },
+    {
+     "name": "Islandbound Ninja",
+     "type": "loadingscreen",
+     "id": "LSID_456_Ensemble_BusGroup",
+     "img": "https://fortnite-api.com/images/cosmetics/br/lsid_456_ensemble_busgroup/icon.png"
+    }
+   ]
+  },
+  "Regular Show Bundle": {
+   "first_shop_day": "2026-11-19",
+   "days_in_shop": [
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21"
+   ],
+   "finalPrice": 3400,
+   "regularPrice": 6100,
+   "outDate": "2026-11-23",
+   "items": [
+    {
+     "name": "Rigby",
+     "type": "sidekick",
+     "id": "Companion_PromDutch",
+     "img": "https://fortnite-api.com/images/cosmetics/br/companion_promdutch/featured.png"
+    },
+    {
+     "name": "Mordecai",
+     "type": "outfit",
+     "id": "Character_VouchTrig",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_vouchtrig/featured.png"
+    },
+    {
+     "name": "Maximum Glove",
+     "type": "pickaxe",
+     "id": "Pickaxe_VouchTrig",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vouchtrig/featured.png"
+    },
+    {
+     "name": "Skips",
+     "type": "outfit",
+     "id": "Character_RobustTorn",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_robusttorn/featured.png"
+    },
+    {
+     "name": "Fists of Justice",
+     "type": "pickaxe",
+     "id": "Pickaxe_RobustTorn",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_robusttorn/featured.png"
+    },
+    {
+     "name": "Oooohhh!",
+     "type": "emote",
+     "id": "EID_VouchTrig",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_vouchtrig/icon.png"
+    },
+    {
+     "name": "Skips' Skip",
+     "type": "emote",
+     "id": "EID_RobustTorn",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_robusttorn/icon.png"
+    },
+    {
+     "name": "BABY DUCKS",
+     "type": "backpack",
+     "id": "Backpack_VouchTrig",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_vouchtrig/featured.png"
+    },
+    {
+     "name": "Rattle & Mace",
+     "type": "backpack",
+     "id": "Backpack_RobustTorn",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_robusttorn/featured.png"
+    }
+   ]
+  },
+  "CouRage Bundle": {
+   "first_shop_day": "2026-11-19",
+   "days_in_shop": [
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21"
+   ],
+   "finalPrice": 3000,
+   "regularPrice": 6600,
+   "outDate": "2026-11-21",
+   "items": [
+    {
+     "name": "CouRage",
+     "type": "outfit",
+     "id": "Character_BoldDormRise",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_bolddormrise/featured.png"
+    },
+    {
+     "name": "Lion Shield",
+     "type": "backpack",
+     "id": "Backpack_BoldDormMum",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_bolddormmum/featured.png"
+    },
+    {
+     "name": "Louis",
+     "type": "sidekick",
+     "id": "Companion_ScrollVessel",
+     "img": "https://fortnite-api.com/images/cosmetics/br/companion_scrollvessel/featured.png"
+    },
+    {
+     "name": "Courageous Knight",
+     "type": "outfit",
+     "id": "Character_BoldDormWork",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_bolddormwork/featured.png"
+    },
+    {
+     "name": "Courage Shield",
+     "type": "backpack",
+     "id": "Backpack_BoldDormWork",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_bolddormwork/featured.png"
+    },
+    {
+     "name": "Proud Victory",
+     "type": "emote",
+     "id": "EID_BoldDorm",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_bolddorm/icon.png"
+    },
+    {
+     "name": "Win-ception",
+     "type": "emote",
+     "id": "EID_BoldDorm_Bagel",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_bolddorm_bagel/icon.png"
+    },
+    {
+     "name": "Courageous Scepter",
+     "type": "pickaxe",
+     "id": "Pickaxe_BoldDormRise",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bolddormrise/featured.png"
+    },
+    {
+     "name": "Courageous Axe",
+     "type": "pickaxe",
+     "id": "Pickaxe_BoldDormWork",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bolddormwork/featured.png"
+    },
+    {
+     "name": "The Lion's Pride",
+     "type": "wrap",
+     "id": "Wrap_BoldDorm",
+     "img": "https://fortnite-api.com/images/cosmetics/br/wrap_bolddorm/featured.png"
+    }
+   ]
+  },
+  "Kim Kardashian Bundle": {
+   "first_shop_day": "2026-11-20",
+   "days_in_shop": [
+    "2026-11-20",
+    "2026-11-21"
+   ],
+   "finalPrice": 3000,
+   "regularPrice": 5900,
+   "outDate": "2026-11-24",
+   "items": [
+    {
+     "name": "Iconic Kim Kardashian",
+     "type": "outfit",
+     "id": "Character_QuicheLorraineLime",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/featured.png"
+    },
+    {
+     "name": "Ring Light To Go",
+     "type": "backpack",
+     "id": "Backpack_QuicheLorraineLime",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_quichelorrainelime/featured.png"
+    },
+    {
+     "name": "Kim Kardashian",
+     "type": "outfit",
+     "id": "Character_QuicheLorraineCrisp",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainecrisp/featured.png"
+    },
+    {
+     "name": "Kim's Kit",
+     "type": "backpack",
+     "id": "Backpack_QuicheLorraineCrisp",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_quichelorrainecrisp/featured.png"
+    },
+    {
+     "name": "Full Beat Brush",
+     "type": "pickaxe",
+     "id": "Pickaxe_QuicheLorraineCrisp",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quichelorrainecrisp/featured.png"
+    },
+    {
+     "name": "Bag Basher",
+     "type": "pickaxe",
+     "id": "Pickaxe_QuicheLorraineLime",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quichelorrainelime/featured.png"
+    },
+    {
+     "name": "Slurp the Internet",
+     "type": "emote",
+     "id": "EID_QuicheLorraineCrisp",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_quichelorrainecrisp/icon.png"
+    },
+    {
+     "name": "Diamond Drop",
+     "type": "emote",
+     "id": "EID_QuicheLorraineLime",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_quichelorrainelime/icon.png"
+    },
+    {
+     "name": "Private Jet",
+     "type": "glider",
+     "id": "Glider_QuicheLorraineLime",
+     "img": "https://fortnite-api.com/images/cosmetics/br/glider_quichelorrainelime/featured.png"
+    }
+   ]
+  },
+  "Cowboy Bebop Bundle": {
+   "first_shop_day": "2026-11-20",
+   "days_in_shop": [
+    "2026-11-20",
+    "2026-11-21"
+   ],
+   "finalPrice": 3400,
+   "regularPrice": 6600,
+   "outDate": "2026-11-23",
+   "items": [
+    {
+     "name": "Faye Valentine",
+     "type": "outfit",
+     "id": "Character_KneeLens",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_kneelens/featured.png"
+    },
+    {
+     "name": "Spike Spiegel",
+     "type": "outfit",
+     "id": "Character_StudyBench",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_studybench/featured.png"
+    },
+    {
+     "name": "Jukebox Bop",
+     "type": "emote",
+     "id": "EID_KneeLens",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_kneelens/icon.png"
+    },
+    {
+     "name": "Lil' Swordfish II",
+     "type": "emote",
+     "id": "EID_StudyBench",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_studybench/icon.png"
+    },
+    {
+     "name": "Red Tail Reaver",
+     "type": "pickaxe",
+     "id": "Pickaxe_KneeLens",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_kneelens/featured.png"
+    },
+    {
+     "name": "Swordfish II Slasher",
+     "type": "pickaxe",
+     "id": "Pickaxe_StudyBench",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_studybench/featured.png"
+    },
+    {
+     "name": "Multi-Purpose Phone",
+     "type": "backpack",
+     "id": "Backpack_KneeLens",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_kneelens/featured.png"
+    },
+    {
+     "name": "Roses For Julia",
+     "type": "backpack",
+     "id": "Backpack_StudyBench",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_studybench/featured.png"
+    },
+    {
+     "name": "Valentine Blue",
+     "type": "wrap",
+     "id": "Wrap_KneeLens",
+     "img": "https://fortnite-api.com/images/cosmetics/br/wrap_kneelens/featured.png"
+    }
+   ]
+  },
+  "The Kid LAROI Bundle": {
+   "first_shop_day": "2026-11-20",
+   "days_in_shop": [
+    "2026-11-20",
+    "2026-11-21"
+   ],
+   "finalPrice": 2400,
+   "regularPrice": 4000,
+   "outDate": "2026-11-26",
+   "items": [
+    {
+     "name": "The Kid LAROI",
+     "type": "outfit",
+     "id": "Character_SunBurst",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_sunburst/featured.png"
+    },
+    {
+     "name": "Get My Bag",
+     "type": "backpack",
+     "id": "Backpack_SunBurst",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_sunburst/featured.png"
+    },
+    {
+     "name": "The Rogue LAROI",
+     "type": "outfit",
+     "id": "Character_SunBurstAlt",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_sunburstalt/featured.png"
+    },
+    {
+     "name": "The Tragic BLADE",
+     "type": "backpack",
+     "id": "Backpack_Sunburst_Alt",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_sunburst_alt/featured.png"
+    },
+    {
+     "name": "The Tragic BLADE",
+     "type": "pickaxe",
+     "id": "Pickaxe_SunBurstAlt",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sunburstalt/featured.png"
+    },
+    {
+     "name": "LAROI Free Style",
+     "type": "wrap",
+     "id": "Wrap_SunBurst",
+     "img": "https://fortnite-api.com/images/cosmetics/br/wrap_sunburst/featured.png"
+    }
+   ]
+  },
+  "Ice Spice Bundle": {
+   "first_shop_day": "2026-11-21",
+   "days_in_shop": [
+    "2026-11-21"
+   ],
+   "finalPrice": 2800,
+   "regularPrice": 4800,
+   "outDate": "2026-11-24",
+   "items": [
+    {
+     "name": "Rap Princess Ice Spice",
+     "type": "outfit",
+     "id": "Character_BerryTartBrunt",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_berrytartbrunt/featured.png"
+    },
+    {
+     "name": "Ice Spice",
+     "type": "outfit",
+     "id": "Character_BerryTartRiver",
+     "img": "https://fortnite-api.com/images/cosmetics/br/character_berrytartriver/featured.png"
+    },
+    {
+     "name": "Ice Spice Mini",
+     "type": "backpack",
+     "id": "Backpack_BerryTartBrunt",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_berrytartbrunt/featured.png"
+    },
+    {
+     "name": "Munchkin",
+     "type": "backpack",
+     "id": "Backpack_BerryTartRiver",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_berrytartriver/featured.png"
+    },
+    {
+     "name": "In Ha Mood",
+     "type": "emote",
+     "id": "EID_BerryTart",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_berrytart/icon.png"
+    },
+    {
+     "name": "Oh Shhh",
+     "type": "emote",
+     "id": "EID_BerryTartRiver",
+     "img": "https://fortnite-api.com/images/cosmetics/br/eid_berrytartriver/icon.png"
+    },
+    {
+     "name": "Iced Out Mic",
+     "type": "backpack",
+     "id": "Backpack_BerryTart_Mic",
+     "img": "https://fortnite-api.com/images/cosmetics/br/backpack_berrytart_mic/featured.png"
+    },
+    {
+     "name": "Iced Out Mic",
+     "type": "pickaxe",
+     "id": "Pickaxe_BerryTart_Mic",
+     "img": "https://fortnite-api.com/images/cosmetics/br/pickaxe_berrytart_mic/featured.png"
+    }
+   ]
+  }
+ }
+}
