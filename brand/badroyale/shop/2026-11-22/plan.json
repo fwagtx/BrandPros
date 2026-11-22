@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-22",
+ "dateLabel": "NOV 22",
+ "resetLabel": "6 PM CT",
+ "dealOutLabel": "DEC 6",
+ "deal": {
+  "name": "A$AP Rocky Bundle",
+  "final": 3200,
+  "regular": 8800,
+  "out": "2026-12-06",
+  "outfits": [
+   {
+    "id": "Character_TonicMailWeb",
+    "name": "Helicopter Flacko",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailweb/featured.png",
+    "price": null,
+    "out": null,
+    "in": null
+   },
+   {
+    "id": "Character_TonicMailYam",
+    "name": "Rocky Rugahand",
+    "rarity": "Icon Series",
+    "rarityKey": "icon",
+    "series": "Icon Series",
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailyam/featured.png",
+    "price": 1500,
+    "out": "2026-12-06",
+    "in": "2026-11-06"
+   }
+  ]
+ },
+ "og": {
+  "chapter": 1,
+  "season": 4,
+  "outfits": [
+   {
+    "id": "CID_134_Athena_Commando_M_Jailbird",
+    "name": "Scoundrel",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_134_athena_commando_m_jailbird/featured.png",
+    "price": 1500,
+    "out": "2026-11-23",
+    "in": "2026-11-17"
+   }
+  ]
+ },
+ "last": {
+  "count": 7,
+  "outfits": [
+   {
+    "id": "Character_DemoCrook",
+    "name": "Aubrey",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_democrook/featured.png",
+    "price": 1200,
+    "out": "2026-11-22",
+    "in": "2026-11-20"
+   },
+   {
+    "id": "Character_PrisonBreak",
+    "name": "Barrett",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_prisonbreak/featured.png",
+    "price": 1200,
+    "out": "2026-11-22",
+    "in": "2026-11-22"
+   },
+   {
+    "id": "CID_492_Athena_Commando_M_Bronto",
+    "name": "Bronto",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_492_athena_commando_m_bronto/featured.png",
+    "price": 1200,
+    "out": "2026-11-22",
+    "in": "2026-11-22"
+   },
+   {
+    "id": "CID_A_453_Athena_Commando_F_FuzzyBearSummer",
+    "name": "Syd",
+    "rarity": "Rare",
+    "rarityKey": "rare",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_a_453_athena_commando_f_fuzzybearsummer/featured.png",
+    "price": 1200,
+    "out": "2026-11-22",
+    "in": "2026-11-21"
+   },
+   {
+    "id": "CID_393_Athena_Commando_M_Shiny",
+    "name": "Sterling",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/cid_393_athena_commando_m_shiny/featured.png",
+    "price": 1500,
+    "out": "2026-11-22",
+    "in": "2026-11-20"
+   },
+   {
+    "id": "Character_TwinGinger",
+    "name": "Mira",
+    "rarity": "Epic",
+    "rarityKey": "epic",
+    "series": null,
+    "img": "https://fortnite-api.com/images/cosmetics/br/character_twinginger/featured.png",
+    "price": 800,
+    "out": "2026-11-22",
+    "in": "2026-11-20"
+   }
+  ]
+ },
+ "phrases": [
+  "This is today's Item Shop for November 22nd.",
+  "Three things before you spend a single V-Buck!",
+  "The A$AP Rocky Bundle:",
+  "3,200 V-Bucks, instead of 8,800.",
+  "Scoundrel is in the shop.",
+  "It's from Chapter 1, Season 4.",
+  "And seven skins are on their last day, four of them Rare.",
+  "Buying anything today?",
+  "Use code BAD in the Item Shop. It really helps the channel.",
+  "Thank you for watching! Follow for more daily content."
+ ]
+}
