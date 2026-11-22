@@ -1,0 +1,94 @@
+{
+ "duration": 18.7,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Overwatch Bundle",
+ "claims": [
+  {
+   "text": "Overwatch Bundle is in the Item Shop for 2026-11-22",
+   "source": "shop.json",
+   "match": [
+    "Overwatch Bundle",
+    "\"date\": \"2026-11-22"
+   ]
+  },
+  {
+   "text": "Price 4,200 V-Bucks (listed regular price 8,800)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 8800, \"finalPrice\": 4200"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-22",
+   "source": "shop.json",
+   "match": [
+    "2026-11-22T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Mercy is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Mercy"
+   ]
+  },
+  {
+   "text": "D.Va is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "D.Va"
+   ]
+  },
+  {
+   "text": "Tracer is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Tracer"
+   ]
+  },
+  {
+   "text": "Genji is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Genji"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "MERCY",
+  "D.VA",
+  "TRACER",
+  "OVERWATCH BUNDLE",
+  "MERCY, D.VA, TRACER AND 13 MORE ITEMS",
+  "4,200 V-BUCKS",
+  "IN THE SHOP UNTIL DEC 4",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE OVERWATCH BUNDLE.",
+  "MERCY,",
+  "D.VA,",
+  "TRACER AND 13",
+  "MORE ITEMS.",
+  "4,200 V-BUCKS,",
+  "INSTEAD OF 8,800.",
+  "IT'S IN THE",
+  "SHOP UNTIL DECEMBER",
+  "4TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}

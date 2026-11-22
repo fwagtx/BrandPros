@@ -1,0 +1,45 @@
+{
+ "phrases": [
+  {
+   "text": "There are only five landmarks on the Fortnite map. Here's every single one.",
+   "pause": 0.25
+  },
+  {
+   "text": "First, The Salty Skull, in the east, closest to Cursed Cavern.",
+   "pause": 0.3
+  },
+  {
+   "text": "Then Baratie, in the south-east, closest to Busy Bay.",
+   "pause": 0.3
+  },
+  {
+   "text": "Next, Henry, in the south-east, closest to Plunder Port.",
+   "pause": 0.3
+  },
+  {
+   "text": "After that, Giant's Battlefield, near the center, closest to Loguetown.",
+   "pause": 0.3
+  },
+  {
+   "text": "And last, Nami's Tangerine Grove, in the south-west, closest to Windmill Village.",
+   "pause": 0.3
+  },
+  {
+   "text": "Which one have you found? Tell me in the comments!",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

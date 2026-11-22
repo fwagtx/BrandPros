@@ -1,0 +1,114 @@
+{
+ "duration": 28.8,
+ "caption": "#EpicPartner Every landmark on the Fortnite map 📍 all 5 of them\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "5 landmarks on the map",
+   "source": "map.json",
+   "match": [
+    "The Salty Skull",
+    "Baratie",
+    "Henry",
+    "Giant's Battlefield",
+    "Nami's Tangerine Grove"
+   ],
+   "visual": "5 UnNamedPOI ids"
+  },
+  {
+   "text": "The Salty Skull: landmark, in the east, nearest named location Cursed Cavern",
+   "source": "map.json",
+   "match": [
+    "The Salty Skull",
+    "Cursed Cavern"
+   ],
+   "visual": "map pixel (1206, 1224); nearest named POI by coordinates"
+  },
+  {
+   "text": "Baratie: landmark, in the south-east, nearest named location Busy Bay",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Busy Bay"
+   ],
+   "visual": "map pixel (1411, 1477); nearest named POI by coordinates"
+  },
+  {
+   "text": "Henry: landmark, in the south-east, nearest named location Plunder Port",
+   "source": "map.json",
+   "match": [
+    "Henry",
+    "Plunder Port"
+   ],
+   "visual": "map pixel (1203, 1500); nearest named POI by coordinates"
+  },
+  {
+   "text": "Giant's Battlefield: landmark, near the center, nearest named location Loguetown",
+   "source": "map.json",
+   "match": [
+    "Giant's Battlefield",
+    "Loguetown"
+   ],
+   "visual": "map pixel (953, 1243); nearest named POI by coordinates"
+  },
+  {
+   "text": "Nami's Tangerine Grove: landmark, in the south-west, nearest named location Windmill Village",
+   "source": "map.json",
+   "match": [
+    "Nami's Tangerine Grove",
+    "Windmill Village"
+   ],
+   "visual": "map pixel (710, 1561); nearest named POI by coordinates"
+  }
+ ],
+ "text": [
+  "THE SALTY SKULL",
+  "BARATIE",
+  "HENRY",
+  "GIANT'S BATTLEFIELD",
+  "NAMI'S TANGERINE GROVE",
+  "EVERY LANDMARK / ON THE FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "THERE ARE ONLY",
+  "FIVE LANDMARKS ON",
+  "THE FORTNITE MAP.",
+  "HERE'S EVERY SINGLE",
+  "ONE.",
+  "FIRST,",
+  "THE SALTY SKULL,",
+  "IN THE EAST,",
+  "CLOSEST TO CURSED",
+  "CAVERN.",
+  "THEN BARATIE,",
+  "IN THE SOUTH-EAST,",
+  "CLOSEST TO BUSY",
+  "BAY.",
+  "NEXT,",
+  "HENRY,",
+  "CLOSEST TO PLUNDER",
+  "PORT.",
+  "AFTER THAT,",
+  "GIANT'S BATTLEFIELD,",
+  "NEAR THE CENTER,",
+  "CLOSEST TO LOGUETOWN.",
+  "AND LAST,",
+  "NAMI'S TANGERINE GROVE,",
+  "IN THE SOUTH-WEST,",
+  "CLOSEST TO WINDMILL",
+  "VILLAGE.",
+  "WHICH ONE HAVE",
+  "YOU FOUND?",
+  "TELL ME IN",
+  "THE COMMENTS!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
