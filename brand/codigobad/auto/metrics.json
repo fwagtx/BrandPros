@@ -94,11 +94,11 @@
    "date": "2026-11-20",
    "series": "chegou hoje",
    "network": "instagram",
-   "views": 116,
-   "reach": 101,
-   "retention": 63.1,
-   "avg_watch_s": 9.1,
-   "interactions": 4
+   "views": 143,
+   "reach": 124,
+   "retention": 61.4,
+   "avg_watch_s": 9.5,
+   "interactions": 5
   },
   {
    "date": "2026-11-20",
@@ -114,17 +114,17 @@
    "date": "2026-11-20",
    "series": "sai hoje",
    "network": "instagram",
-   "views": 110,
-   "reach": 97,
-   "retention": 61.0,
-   "avg_watch_s": 7.1,
-   "interactions": 1
+   "views": 129,
+   "reach": 113,
+   "retention": 58.7,
+   "avg_watch_s": 8.1,
+   "interactions": 2
   },
   {
    "date": "2026-11-17",
    "series": "long og25",
    "network": "youtube",
-   "views": 237,
+   "views": 235,
    "reach": null,
    "retention": null,
    "avg_watch_s": null,
@@ -141,6 +141,47 @@
    "avg_watch_s": null,
    "interactions": null,
    "voice": "A"
+  },
+  {
+   "date": "2026-11-21",
+   "series": "chegou hoje",
+   "network": "instagram",
+   "views": 113,
+   "reach": 105,
+   "retention": 61.0,
+   "avg_watch_s": 6.6,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-21",
+   "series": "s1 mais caros",
+   "network": "instagram",
+   "views": 130,
+   "reach": 111,
+   "retention": 63.7,
+   "avg_watch_s": 6.3,
+   "interactions": 1
+  },
+  {
+   "date": "2026-11-21",
+   "series": "sai hoje",
+   "network": "instagram",
+   "views": 122,
+   "reach": 104,
+   "retention": 51.4,
+   "avg_watch_s": 11.7,
+   "interactions": 2
+  },
+  {
+   "date": "2026-11-21",
+   "series": "long og25",
+   "network": "youtube",
+   "views": null,
+   "reach": null,
+   "retention": null,
+   "avg_watch_s": null,
+   "interactions": null,
+   "voice": "B"
   }
  ],
  "notes": [
@@ -155,6 +196,10 @@
   {
    "date": "2026-11-21",
    "review": "Instagram: 12 reels, 20 Nov all at 110-116 views and 61-63% retention (chegou hoje 4 interactions, best so far). 19 Nov chegou hoje climbed from 66 to 102 views after 48 h. Channel median retention ~61%; no series below 30% of median; no series at 7 videos yet. YouTube evolution: 237 views on 17 Nov, 206 published-video views on 18 Nov (the two long videos, voice A), 0 subscribers gained; TikTok per-video and YouTube per-video still not synced. Keep: all. Change: none. Test: long video of 21 Nov uses voice B (pf_dora:0.7+pm_alex:0.3); compare 48 h YouTube views with the 17/18 Nov voice-A videos."
+  },
+  {
+   "date": "2026-11-22",
+   "review": "Instagram: 15 reels, channel median retention 61.0%. Series medians: {'chegou hoje': (5, 61.0), 's1': (5, 62.5), 'sai hoje': (5, 58.7)}. Nothing 30% under the median; no series at 7 videos yet (chegou hoje and sai hoje at 5). Best reel so far: chegou hoje 20 Nov, 143 views, 5 interactions. YouTube evolution: 19 Nov 380 views and the channel's first subscriber; 20-21 Nov not synced yet, so the voice B long video has no 48 h figure yet. TikTok per-video still empty. Keep: all. Change: none to format; builder fix extends the 7-day memory to the Wed/Sun OG check (falls back to 'voltou pra loja hoje' when 3+ of the OG top 5 were featured this week or leave today) and labels every outfit 'traje'. Test: voice B result pending; next long video (Mon 23 Nov) uses voice A per alternation."
   }
  ]
 }

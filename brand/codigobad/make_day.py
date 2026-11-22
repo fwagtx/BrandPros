@@ -21,7 +21,7 @@ for e in s["entries"]:
     if not items and not b: continue
     m = items[0] if items else None
     rows.append(dict(id=(bid(b["name"]) if b and b.get("image") else (m["id"] if m else e.get("offerId"))), name=(b["name"] if b else m["name"]), bundle=bool(b), n=len(items),
-        type=(m["type"]["value"] if m else "bundle"), typeLabel=(m["type"]["displayValue"] if m else "Pacote"), rarity=("bundle" if b else m["rarity"]["value"]), rarityLabel=(m["rarity"]["displayValue"] if m else ""),
+        type=(m["type"]["value"] if m else "bundle"), typeLabel=(("Traje" if m["type"]["value"] == "outfit" else m["type"]["displayValue"]) if m else "Pacote"), rarity=("bundle" if b else m["rarity"]["value"]), rarityLabel=(m["rarity"]["displayValue"] if m else ""),
         final=e["finalPrice"], regular=e["regularPrice"], inDate=e.get("inDate", "")[:10], outDate=e.get("outDate", "")[:10], intro=intro(m) if m else None,
         img=(b["image"] if b and b.get("image") else (img(m) if m else None)), setName=((m.get("set") or {}).get("value") if m else None)))
 new = [r for r in rows if r["inDate"] == day]; leaving = [r for r in rows if r["outDate"] == day]
@@ -42,14 +42,6 @@ def write(key, hook, sub, teaser, worth, picks, recapQ):
 # S1 rotates by weekday: Mon/Fri bundles with the biggest saving, Wed/Sun OG check, Tue/Thu/Sat priciest outfits
 import datetime
 wd = datetime.date.fromisoformat(day).weekday()
-if wd in (2, 6):
-    o5 = list(reversed(oldest[:5]))
-    write("s1-pacotoes", ["OG check 👴", "os 5 trajes mais antigos de hoje"], f"pelo capítulo e temporada de lançamento · {dpt(day)}", "o mais OG da loja de hoje 👀", "vale",
-          [(r, [f"traje · capítulo {r['intro'][0]}, temporada {r['intro'][1]}", f"{r['rarityLabel'].lower()}" + (f" · {r['setName'].lower()}" if r.get("setName") else ""), "você tem esse? 👀"]) for r in o5], "qual desses você tem no armário? 👇")
-elif wd in (1, 3, 5):
-    c5 = list(reversed(sorted(outfits, key=lambda r: (-r["final"], r["name"]))[:5]))
-    write("s1-pacotoes", ["loja do Fortnite de hoje 🛒", "os 5 trajes mais caros"], f"os trajes mais caros da loja de itens, {dpt(day)}", "o traje mais caro de hoje 👀", "vale",
-          [(r, [f"traje · {r['rarityLabel'].lower()}"] + ([f"capítulo {r['intro'][0]}, temporada {r['intro'][1]}"] if r["intro"] else []) + ([f"sai da loja em {dpt(r['outDate'])} ⏰"] if r["outDate"] else []) + ["vale pegar? ☠"]) for r in c5], "qual você pega? 👇")
 import glob
 used = set()
 for f in glob.glob("video/dia-*/s1-pacotoes.js") + glob.glob("video/dia-*/s2-chegou-hoje.js"):
@@ -57,6 +49,20 @@ for f in glob.glob("video/dia-*/s1-pacotoes.js") + glob.glob("video/dia-*/s2-che
     if d0 < day and (datetime.date.fromisoformat(day) - datetime.date.fromisoformat(d0)).days <= 7:
         try: used |= {i["name"] for i in json.loads(open(f).read().split("=", 1)[1].rstrip(";\n"))["items"]}
         except Exception: pass
+back = sorted([r for r in new if r["type"] == "outfit" and r["intro"] and not r["bundle"] and r["outDate"] != day], key=lambda r: r["intro"])
+stale = sum(1 for r in oldest[:5] if r["name"] in used or r["outDate"] == day)
+if wd in (2, 6) and stale >= 3 and len(back) >= 5:
+    k5 = list(reversed(back[:5]))
+    write("s1-pacotoes", ["voltou pra loja hoje 🔁", "os 5 trajes mais OG que chegaram"], f"pelo capítulo e temporada de lançamento · {dpt(day)}", "o mais OG que voltou hoje 👀", "vale",
+          [(r, [f"traje · capítulo {r['intro'][0]}, temporada {r['intro'][1]}", f"{r['rarityLabel'].lower()}" + (f" · {r['setName'].lower()}" if r.get("setName") else ""), "voltou hoje 🔁"]) for r in k5], "qual você estava esperando? 👇")
+elif wd in (2, 6):
+    o5 = list(reversed(oldest[:5]))
+    write("s1-pacotoes", ["OG check 👴", "os 5 trajes mais antigos de hoje"], f"pelo capítulo e temporada de lançamento · {dpt(day)}", "o mais OG da loja de hoje 👀", "vale",
+          [(r, [f"traje · capítulo {r['intro'][0]}, temporada {r['intro'][1]}", f"{r['rarityLabel'].lower()}" + (f" · {r['setName'].lower()}" if r.get("setName") else ""), "você tem esse? 👀"]) for r in o5], "qual desses você tem no armário? 👇")
+elif wd in (1, 3, 5):
+    c5 = list(reversed(sorted(outfits, key=lambda r: (-r["final"], r["name"]))[:5]))
+    write("s1-pacotoes", ["loja do Fortnite de hoje 🛒", "os 5 trajes mais caros"], f"os trajes mais caros da loja de itens, {dpt(day)}", "o traje mais caro de hoje 👀", "vale",
+          [(r, [f"traje · {r['rarityLabel'].lower()}"] + ([f"capítulo {r['intro'][0]}, temporada {r['intro'][1]}"] if r["intro"] else []) + ([f"sai da loja em {dpt(r['outDate'])} ⏰"] if r["outDate"] else []) + ["vale pegar? ☠"]) for r in c5], "qual você pega? 👇")
 pool = [r for r in bundles if r["outDate"] != day and r["inDate"] != day and r["name"] not in used] or [r for r in bundles if r["outDate"] != day and r["inDate"] != day] or bundles
 pool = [r for r in pool if r["n"] > 0 and r["regular"] - r["final"] >= 1000]
 b5 = list(reversed(pool[:5]))
