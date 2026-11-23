@@ -1,0 +1,1194 @@
+{
+ "title": "This Week's Fortnite Item Shop",
+ "caption": "#EpicPartner Everything in the Fortnite Item Shop this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Overwatch Bundle: 4200 (listed 8800), in 2026-11-22 out 2026-12-04",
+   "source": "week.json",
+   "match": [
+    "Overwatch Bundle",
+    "\"final\": 4200, \"regular\": 8800, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\"",
+    "Mercy",
+    "D.Va",
+    "Tracer",
+    "Genji"
+   ]
+  },
+  {
+   "text": "Mercy entry 1600",
+   "source": "week.json",
+   "match": [
+    "Mercy",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\""
+   ]
+  },
+  {
+   "text": "Tracer entry 1600",
+   "source": "week.json",
+   "match": [
+    "Tracer",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\""
+   ]
+  },
+  {
+   "text": "Genji entry 1600",
+   "source": "week.json",
+   "match": [
+    "Genji",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\""
+   ]
+  },
+  {
+   "text": "D.Va entry 1600",
+   "source": "week.json",
+   "match": [
+    "D.Va",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\""
+   ]
+  },
+  {
+   "text": "Overwatch Bundle has the highest listed price and most items of the week's new bundles",
+   "source": "week.json",
+   "match": [
+    "Overwatch Bundle"
+   ]
+  },
+  {
+   "text": "Kaiju No. 8 Bundle: 3800 (listed 7700), in 2026-11-17 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Kaiju No. 8 Bundle",
+    "\"final\": 3800, \"regular\": 7700, \"in\": \"2026-11-17\", \"out\": \"2026-11-20\"",
+    "Kafka Hibino",
+    "Kikoru Shinomiya",
+    "Reno Ichikawa"
+   ]
+  },
+  {
+   "text": "Madison Beer Bundle: 3400 (listed 6800), in 2026-11-17 out 2026-11-21",
+   "source": "week.json",
+   "match": [
+    "Madison Beer Bundle",
+    "\"final\": 3400, \"regular\": 6800, \"in\": \"2026-11-17\", \"out\": \"2026-11-21\"",
+    "Make You Mine Madison",
+    "Satin Angel Madison"
+   ]
+  },
+  {
+   "text": "Naruto & Kakashi Bundle: 2100 (listed 3000), in 2026-11-18 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Naruto & Kakashi Bundle",
+    "\"final\": 2100, \"regular\": 3000, \"in\": \"2026-11-18\", \"out\": \"2026-11-20\"",
+    "Naruto Uzumaki",
+    "Kakashi Hatake",
+    "Sasuke Uchiha",
+    "Sakura Haruno"
+   ]
+  },
+  {
+   "text": "Sasuke & Sakura Bundle",
+   "source": "week.json",
+   "match": [
+    "Sasuke & Sakura Bundle",
+    "\"final\": 2200, \"regular\": 3100, \"in\": \"2026-11-18\", \"out\": \"2026-11-20\""
+   ]
+  },
+  {
+   "text": "Gaara & Hinata Bundle",
+   "source": "week.json",
+   "match": [
+    "Gaara & Hinata Bundle",
+    "\"final\": 2400, \"regular\": 3300, \"in\": \"2026-11-18\", \"out\": \"2026-11-20\""
+   ]
+  },
+  {
+   "text": "Itachi & Orochimaru Bundle",
+   "source": "week.json",
+   "match": [
+    "Itachi & Orochimaru Bundle",
+    "\"final\": 2200, \"regular\": 3100, \"in\": \"2026-11-18\", \"out\": \"2026-11-20\""
+   ]
+  },
+  {
+   "text": "Falcon Clan Bundle: 2800 (listed 5800), in 2026-11-18 out 2026-11-19",
+   "source": "week.json",
+   "match": [
+    "Falcon Clan Bundle",
+    "\"final\": 2800, \"regular\": 5800, \"in\": \"2026-11-18\", \"out\": \"2026-11-19\"",
+    "Kuno",
+    "Kenji"
+   ]
+  },
+  {
+   "text": "CouRage Bundle: 3000 (listed 6600), in 2026-11-19 out 2026-11-21",
+   "source": "week.json",
+   "match": [
+    "CouRage Bundle",
+    "\"final\": 3000, \"regular\": 6600, \"in\": \"2026-11-19\", \"out\": \"2026-11-21\"",
+    "CouRage",
+    "Courageous Knight"
+   ]
+  },
+  {
+   "text": "Regular Show Bundle: 3400 (listed 6100), in 2026-11-19 out 2026-11-23",
+   "source": "week.json",
+   "match": [
+    "Regular Show Bundle",
+    "\"final\": 3400, \"regular\": 6100, \"in\": \"2026-11-19\", \"out\": \"2026-11-23\"",
+    "Mordecai",
+    "Skips"
+   ]
+  },
+  {
+   "text": "Cowboy Bebop Bundle: 3400 (listed 6600), in 2026-11-20 out 2026-11-23",
+   "source": "week.json",
+   "match": [
+    "Cowboy Bebop Bundle",
+    "\"final\": 3400, \"regular\": 6600, \"in\": \"2026-11-20\", \"out\": \"2026-11-23\"",
+    "Spike Spiegel",
+    "Faye Valentine"
+   ]
+  },
+  {
+   "text": "Kim Kardashian Bundle: 3000 (listed 5900), in 2026-11-20 out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Kim Kardashian Bundle",
+    "\"final\": 3000, \"regular\": 5900, \"in\": \"2026-11-20\", \"out\": \"2026-11-24\"",
+    "Kim Kardashian",
+    "Iconic Kim Kardashian"
+   ]
+  },
+  {
+   "text": "The Kid LAROI Bundle: 2400 (listed 4000), in 2026-11-20 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "The Kid LAROI Bundle",
+    "\"final\": 2400, \"regular\": 4000, \"in\": \"2026-11-20\", \"out\": \"2026-11-26\"",
+    "The Kid LAROI",
+    "The Rogue LAROI"
+   ]
+  },
+  {
+   "text": "Ice Spice Bundle: 2800 (listed 4800), in 2026-11-21 out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Ice Spice Bundle",
+    "\"final\": 2800, \"regular\": 4800, \"in\": \"2026-11-21\", \"out\": \"2026-11-24\"",
+    "Ice Spice",
+    "Rap Princess Ice Spice"
+   ]
+  },
+  {
+   "text": "Noodle & 2D Bundle: 2600 (listed 7300), in 2026-11-22 out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Noodle & 2D Bundle",
+    "\"final\": 2600, \"regular\": 7300, \"in\": \"2026-11-22\", \"out\": \"2026-11-24\"",
+    "Noodle",
+    "2D"
+   ]
+  },
+  {
+   "text": "Crash Bandicoot & Spyro the Dragon Bundle: 3000 (listed 4900), in 2026-11-22 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "Crash Bandicoot & Spyro the Dragon Bundle",
+    "\"final\": 3000, \"regular\": 4900, \"in\": \"2026-11-22\", \"out\": \"2026-11-26\"",
+    "Crash Bandicoot"
+   ]
+  },
+  {
+   "text": "Lazarbeam Bundle: 1800 (listed 2600), in 2026-11-19 out 2026-11-21",
+   "source": "week.json",
+   "match": [
+    "Lazarbeam Bundle",
+    "\"final\": 1800, \"regular\": 2600, \"in\": \"2026-11-19\", \"out\": \"2026-11-21\"",
+    "Lazarbeam"
+   ]
+  },
+  {
+   "text": "Lachlan Bundle: 2200 (listed 3000), in 2026-11-22 out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Lachlan Bundle",
+    "\"final\": 2200, \"regular\": 3000, \"in\": \"2026-11-22\", \"out\": \"2026-11-24\"",
+    "Lachlan"
+   ]
+  },
+  {
+   "text": "Rubius Bundle",
+   "source": "week.json",
+   "match": [
+    "Rubius Bundle",
+    "\"final\": 2400, \"regular\": 3300, \"in\": \"2026-11-22\", \"out\": \"2026-11-24\"",
+    "Rubius"
+   ]
+  },
+  {
+   "text": "43 bundles with an in date 2026-11-17..2026-11-23",
+   "source": "week.json",
+   "match": [
+    "Autumn Bundle",
+    "Beary Cuddly Bundle",
+    "Comfy Chomps Bundle",
+    "CouRage Bundle",
+    "Cowboy Bebop Bundle",
+    "Crash Bandicoot & Spyro the Dragon Bundle",
+    "Falcon Clan Bundle",
+    "Fatal Fielders Bundle",
+    "Gaara & Hinata Bundle",
+    "Harvest's Bounty Bundle",
+    "Hearts of Stone Bundle",
+    "Heat Waves Bundle",
+    "Hexed & Haunted Bundle",
+    "High Stakes Summer Bundle",
+    "Ice Spice Bundle",
+    "Itachi & Orochimaru Bundle",
+    "Jack Sparrow Bundle",
+    "Kaiju No. 8 Bundle",
+    "Kim Kardashian Bundle",
+    "Lachlan Bundle",
+    "Lazarbeam Bundle",
+    "Lexa Hexbringer Bundle",
+    "M.E.O.W. Protocol Bundle",
+    "Madison Beer Bundle",
+    "Martoz's Locker Bundle",
+    "Naruto & Kakashi Bundle",
+    "Nindo Gear Bundle",
+    "Noodle & 2D Bundle",
+    "Overwatch Bundle",
+    "Phineas and Ferb Bundle",
+    "Pirates of the Caribbean Bundle",
+    "Privateer Oscar Bundle",
+    "Regular Show Bundle",
+    "Rogue Scout Bundle",
+    "Rubius Bundle",
+    "Sasuke & Sakura Bundle",
+    "Serge Bundle",
+    "Sharktooth Racer Bundle",
+    "Shinobi Gear Bundle",
+    "Skatepark Royalty Bundle",
+    "The Kid LAROI Bundle",
+    "The Odyssey Bundle",
+    "Wilson Gear Bundle"
+   ]
+  },
+  {
+   "text": "Pirates of the Caribbean Bundle: 3400 (listed 5200), in 2026-11-23 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "Pirates of the Caribbean Bundle",
+    "\"final\": 3400, \"regular\": 5200, \"in\": \"2026-11-23\", \"out\": \"2026-11-26\"",
+    "Davy Jones",
+    "Elizabeth Swann",
+    "Captain Barbossa"
+   ]
+  },
+  {
+   "text": "Jack Sparrow Bundle: 2000 (listed 3000), in 2026-11-23 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "Jack Sparrow Bundle",
+    "\"final\": 2000, \"regular\": 3000, \"in\": \"2026-11-23\", \"out\": \"2026-11-26\"",
+    "Jack Sparrow",
+    "Cursed Jack Sparrow"
+   ]
+  },
+  {
+   "text": "Phineas and Ferb Bundle: 3200 (listed 6400), in 2026-11-23 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "Phineas and Ferb Bundle",
+    "\"final\": 3200, \"regular\": 6400, \"in\": \"2026-11-23\", \"out\": \"2026-11-26\"",
+    "Buff Perry",
+    "Dr. Doofenshmirtz"
+   ]
+  },
+  {
+   "text": "Love Ranger: Chapter 1, Season 2",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Love Ranger\", \"introduction\": \"Introduced in Chapter 1, Season 2.\""
+   ]
+  },
+  {
+   "text": "Bandolier: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Bandolier\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Scoundrel: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Scoundrel\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Moniker: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Moniker\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Grill Sergeant: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Grill Sergeant\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Growler: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Growler\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Ludwig: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Ludwig\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Heidi: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Heidi\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Deep Sea Destroyer: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Deep Sea Destroyer\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Firewalker: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Firewalker\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Kuno: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Kuno\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Kenji: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Kenji\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Sterling: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Sterling\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Guild: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Guild\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Sunflower: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Sunflower\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Hayseed: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Hayseed\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Branded Brigadier: Chapter 1, Season 9",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Branded Brigadier\", \"introduction\": \"Introduced in Chapter 1, Season 9.\""
+   ]
+  },
+  {
+   "text": "B.R.U.T.E. Navigator: Chapter 1, Season X",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"B.R.U.T.E. Navigator\", \"introduction\": \"Introduced in Chapter 1, Season X.\""
+   ]
+  },
+  {
+   "text": "Ruby: Chapter 1, Season X",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Ruby\", \"introduction\": \"Introduced in Chapter 1, Season X.\""
+   ]
+  },
+  {
+   "text": "Stoneheart: Chapter 1, Season X",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Stoneheart\", \"introduction\": \"Introduced in Chapter 1, Season X.\""
+   ]
+  },
+  {
+   "text": "Bronto: Chapter 1, Season X",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Bronto\", \"introduction\": \"Introduced in Chapter 1, Season X.\""
+   ]
+  },
+  {
+   "text": "Hearts of Stone Bundle has Love Ranger and Stoneheart",
+   "source": "week.json",
+   "match": [
+    "Hearts of Stone Bundle",
+    "\"final\": 2500, \"regular\": 5300, \"in\": \"2026-11-20\", \"out\": \"2026-11-21\"",
+    "Love Ranger",
+    "Stoneheart"
+   ]
+  },
+  {
+   "text": "One Piece Bundle: 4000 (listed 8200), in 2026-11-01 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "One Piece Bundle",
+    "\"final\": 4000, \"regular\": 8200, \"in\": \"2026-11-01\", \"out\": \"2026-12-05\"",
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp"
+   ]
+  },
+  {
+   "text": "Straw Hats Bundle",
+   "source": "week.json",
+   "match": [
+    "Straw Hats Bundle",
+    "\"final\": 3200, \"regular\": 4900, \"in\": \"2026-11-08\", \"out\": \"2026-12-05\""
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle: 3200 (listed 8800), in 2026-11-06 out 2026-12-06",
+   "source": "week.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"final\": 3200, \"regular\": 8800, \"in\": \"2026-11-06\", \"out\": \"2026-12-06\"",
+    "Helicopter Flacko",
+    "Rocky Rugahand"
+   ]
+  },
+  {
+   "text": "Lil Uzi Vert Bundle: 3200 (listed 7100), in 2026-11-13 out 2026-12-12",
+   "source": "week.json",
+   "match": [
+    "Lil Uzi Vert Bundle",
+    "\"final\": 3200, \"regular\": 7100, \"in\": \"2026-11-13\", \"out\": \"2026-12-12\"",
+    "Lil Uzi Vert",
+    "Pink Star Lil Uzi Vert"
+   ]
+  },
+  {
+   "text": "Kim Kardashian Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Kim Kardashian Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  },
+  {
+   "text": "Ice Spice Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Ice Spice Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  },
+  {
+   "text": "Noodle & 2D Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Noodle & 2D Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  },
+  {
+   "text": "Rubius Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Rubius Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  },
+  {
+   "text": "Lachlan Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Lachlan Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "NOV 17 - NOV 23",
+   "lines": [
+    "This Week's",
+    "Item Shop"
+   ]
+  },
+  {
+   "type": "title",
+   "p": 3,
+   "chapter": "Biggest bundle of the week",
+   "kicker": "BIGGEST BUNDLE",
+   "lines": [
+    "Overwatch"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 4,
+   "title": "Overwatch · 4,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_trackwaver.png",
+     "name": "Mercy",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_skiffgrind.png",
+     "name": "D.Va",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_loosecreep.png",
+     "name": "Tracer",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_facetblom.png",
+     "name": "Genji",
+     "rarity": "gaminglegends"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 8,
+   "chapter": "New this week",
+   "kicker": "NEW THIS WEEK",
+   "lines": [
+    "Fresh in",
+    "the shop"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 9,
+   "title": "Kaiju No. 8 · 3,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_surebamboo.png",
+     "name": "Kafka Hibino",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_cafestove.png",
+     "name": "Kikoru Shinomiya",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_yampowder.png",
+     "name": "Reno Ichikawa",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 11,
+   "title": "Madison Beer · 3,400 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_misttycoonhike.png",
+     "name": "Make You Mine Madison",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_misttycoonlife.png",
+     "name": "Satin Angel Madison",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 12,
+   "title": "Naruto · four bundles",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_a_261_athena_commando_m_headband.png",
+     "name": "Naruto Uzumaki",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_a_262_athena_commando_m_headbandk.png",
+     "name": "Kakashi Hatake",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_a_263_athena_commando_m_headbands.png",
+     "name": "Sasuke Uchiha",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_a_264_athena_commando_f_headbands.png",
+     "name": "Sakura Haruno",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 14,
+   "title": "Falcon Clan · 2,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_362_athena_commando_f_bandageninja.png",
+     "name": "Kuno",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_361_athena_commando_m_bandageninja.png",
+     "name": "Kenji",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 15,
+   "title": "CouRage · 3,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_bolddormrise.png",
+     "name": "CouRage",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_bolddormwork.png",
+     "name": "Courageous Knight",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 16,
+   "title": "Regular Show · 3,400 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_vouchtrig.png",
+     "name": "Mordecai",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_robusttorn.png",
+     "name": "Skips",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 17,
+   "title": "Cowboy Bebop · 3,400 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_studybench.png",
+     "name": "Spike Spiegel",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_kneelens.png",
+     "name": "Faye Valentine",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 18,
+   "title": "Kim Kardashian · 3,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_quichelorrainecrisp.png",
+     "name": "Kim Kardashian",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_quichelorrainelime.png",
+     "name": "Iconic Kim Kardashian",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 19,
+   "title": "The Kid LAROI · 2,400 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_sunburst.png",
+     "name": "The Kid LAROI",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_sunburstalt.png",
+     "name": "The Rogue LAROI",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 20,
+   "title": "Ice Spice · 2,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_berrytartriver.png",
+     "name": "Ice Spice",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_berrytartbrunt.png",
+     "name": "Rap Princess Ice Spice",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 21,
+   "title": "Noodle + 2D · 2,600 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_degreeproper.png",
+     "name": "Noodle",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_pajamasoar.png",
+     "name": "2D",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 22,
+   "title": "Crash & Spyro · 3,000",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_sprucebark.png",
+     "name": "Crash Bandicoot",
+     "rarity": "gaminglegends"
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "p": 23
+  },
+  {
+   "type": "title",
+   "p": 24,
+   "chapter": "Creator bundles",
+   "kicker": "CREATORS",
+   "lines": [
+    "Creator",
+    "bundles"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 25,
+   "title": "Lazarbeam · 1,800 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_a_031_athena_commando_m_builder.png",
+     "name": "Lazarbeam",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 26,
+   "title": "Lachlan · 2,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_891_athena_commando_m_lunchbox.png",
+     "name": "Lachlan",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 26,
+   "title": "Rubius · 2,400",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_livelydomino.png",
+     "name": "Rubius",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 27,
+   "big": "43",
+   "label": "new bundles this week"
+  },
+  {
+   "type": "title",
+   "p": 28,
+   "chapter": "New today",
+   "kicker": "NEW TODAY",
+   "lines": [
+    "Fresh this",
+    "morning"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 29,
+   "title": "Pirates of the Caribbean · 3,400",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_accentwall.png",
+     "name": "Davy Jones",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_stonelion.png",
+     "name": "Elizabeth Swann",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_domeroof.png",
+     "name": "Captain Barbossa",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 30,
+   "title": "Jack Sparrow · 2,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_springbreak.png",
+     "name": "Jack Sparrow",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_springbreaktrip.png",
+     "name": "Cursed Jack Sparrow",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 31,
+   "title": "Phineas and Ferb · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_brawngraze.png",
+     "name": "Buff Perry",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_peacescarf.png",
+     "name": "Dr. Doofenshmirtz",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 33,
+   "chapter": "OG check",
+   "kicker": "OG CHECK",
+   "lines": [
+    "Chapter 1",
+    "returns"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 34,
+   "title": "Chapter 1 OGs this week",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_070_athena_commando_m_cupid.png",
+     "name": "Love Ranger",
+     "rarity": "legendary"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_131_athena_commando_m_warpaint.png",
+     "name": "Bandolier",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_134_athena_commando_m_jailbird.png",
+     "name": "Scoundrel",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_171_athena_commando_m_sharpdresser.png",
+     "name": "Moniker",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_184_athena_commando_m_durrburgerworker.png",
+     "name": "Grill Sergeant",
+     "rarity": "uncommon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 36,
+   "title": "Chapter 1 OGs this week",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_264_athena_commando_m_animaljackets.png",
+     "name": "Growler",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_225_athena_commando_m_octoberfest.png",
+     "name": "Ludwig",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_226_athena_commando_f_octoberfest.png",
+     "name": "Heidi",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_320_athena_commando_m_nautilus.png",
+     "name": "Deep Sea Destroyer",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_336_athena_commando_m_dragonmask.png",
+     "name": "Firewalker",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 37,
+   "title": "Chapter 1 OGs this week",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_393_athena_commando_m_shiny.png",
+     "name": "Sterling",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_398_athena_commando_m_treasurehunterfashion.png",
+     "name": "Guild",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_356_athena_commando_f_farmer.png",
+     "name": "Sunflower",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_355_athena_commando_m_farmer.png",
+     "name": "Hayseed",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_444_athena_commando_f_bannerc.png",
+     "name": "Branded Brigadier",
+     "rarity": "uncommon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 38,
+   "title": "Chapter 1 OGs this week",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_494_athena_commando_m_mechpilotshark.png",
+     "name": "B.R.U.T.E. Navigator",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_527_athena_commando_f_streetfashionred.png",
+     "name": "Ruby",
+     "rarity": "rare"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_523_athena_commando_f_cupid.png",
+     "name": "Stoneheart",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_492_athena_commando_m_bronto.png",
+     "name": "Bronto",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 40,
+   "chapter": "Still in the shop",
+   "kicker": "STILL HERE",
+   "lines": [
+    "In the shop",
+    "for weeks"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 41,
+   "title": "One Piece · 4,000 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_celerystitch.png",
+     "name": "Monkey D. Luffy",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_boastjoint.png",
+     "name": "Nami",
+     "rarity": "epic"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_loomrise.png",
+     "name": "Usopp",
+     "rarity": "epic"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 42,
+   "title": "A$AP Rocky · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_tonicmailweb.png",
+     "name": "Helicopter Flacko",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_tonicmailyam.png",
+     "name": "Rocky Rugahand",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 43,
+   "title": "Lil Uzi Vert · 3,200 V-Bucks",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_rookgeckorod.png",
+     "name": "Lil Uzi Vert",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_rookgeckorye.png",
+     "name": "Pink Star Lil Uzi Vert",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 44,
+   "chapter": "Leaving soon",
+   "kicker": "LEAVING SOON",
+   "lines": [
+    "In the shop",
+    "until Nov 24"
+   ]
+  },
+  {
+   "type": "items",
+   "p": 45,
+   "title": "Until Nov 24",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_quichelorrainecrisp.png",
+     "name": "Kim Kardashian",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_berrytartriver.png",
+     "name": "Ice Spice",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_degreeproper.png",
+     "name": "Noodle",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/character_livelydomino.png",
+     "name": "Rubius",
+     "rarity": "icon"
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-23-week-item-shop/img/cid_891_athena_commando_m_lunchbox.png",
+     "name": "Lachlan",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 46,
+   "chapter": "Recap",
+   "kicker": "QUICK RECAP",
+   "lines": [
+    "Overwatch · Kaiju No. 8 · Naruto",
+    "Pirates · Phineas and Ferb"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 50
+  }
+ ]
+}

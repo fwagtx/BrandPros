@@ -1,0 +1,863 @@
+{
+ "duration": 267.4,
+ "caption": "#EpicPartner Everything in the Fortnite Item Shop this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "Overwatch Bundle: 4200 (listed 8800), in 2026-11-22 out 2026-12-04",
+   "source": "week.json",
+   "match": [
+    "Overwatch Bundle",
+    "\"final\": 4200, \"regular\": 8800, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\"",
+    "Mercy",
+    "D.Va",
+    "Tracer",
+    "Genji"
+   ]
+  },
+  {
+   "text": "Mercy entry 1600",
+   "source": "week.json",
+   "match": [
+    "Mercy",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\""
+   ]
+  },
+  {
+   "text": "Tracer entry 1600",
+   "source": "week.json",
+   "match": [
+    "Tracer",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\""
+   ]
+  },
+  {
+   "text": "Genji entry 1600",
+   "source": "week.json",
+   "match": [
+    "Genji",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\""
+   ]
+  },
+  {
+   "text": "D.Va entry 1600",
+   "source": "week.json",
+   "match": [
+    "D.Va",
+    "\"final\": 1600, \"regular\": 1600, \"in\": \"2026-11-22\", \"out\": \"2026-12-04\""
+   ]
+  },
+  {
+   "text": "Overwatch Bundle has the highest listed price and most items of the week's new bundles",
+   "source": "week.json",
+   "match": [
+    "Overwatch Bundle"
+   ]
+  },
+  {
+   "text": "Kaiju No. 8 Bundle: 3800 (listed 7700), in 2026-11-17 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Kaiju No. 8 Bundle",
+    "\"final\": 3800, \"regular\": 7700, \"in\": \"2026-11-17\", \"out\": \"2026-11-20\"",
+    "Kafka Hibino",
+    "Kikoru Shinomiya",
+    "Reno Ichikawa"
+   ]
+  },
+  {
+   "text": "Madison Beer Bundle: 3400 (listed 6800), in 2026-11-17 out 2026-11-21",
+   "source": "week.json",
+   "match": [
+    "Madison Beer Bundle",
+    "\"final\": 3400, \"regular\": 6800, \"in\": \"2026-11-17\", \"out\": \"2026-11-21\"",
+    "Make You Mine Madison",
+    "Satin Angel Madison"
+   ]
+  },
+  {
+   "text": "Naruto & Kakashi Bundle: 2100 (listed 3000), in 2026-11-18 out 2026-11-20",
+   "source": "week.json",
+   "match": [
+    "Naruto & Kakashi Bundle",
+    "\"final\": 2100, \"regular\": 3000, \"in\": \"2026-11-18\", \"out\": \"2026-11-20\"",
+    "Naruto Uzumaki",
+    "Kakashi Hatake",
+    "Sasuke Uchiha",
+    "Sakura Haruno"
+   ]
+  },
+  {
+   "text": "Sasuke & Sakura Bundle",
+   "source": "week.json",
+   "match": [
+    "Sasuke & Sakura Bundle",
+    "\"final\": 2200, \"regular\": 3100, \"in\": \"2026-11-18\", \"out\": \"2026-11-20\""
+   ]
+  },
+  {
+   "text": "Gaara & Hinata Bundle",
+   "source": "week.json",
+   "match": [
+    "Gaara & Hinata Bundle",
+    "\"final\": 2400, \"regular\": 3300, \"in\": \"2026-11-18\", \"out\": \"2026-11-20\""
+   ]
+  },
+  {
+   "text": "Itachi & Orochimaru Bundle",
+   "source": "week.json",
+   "match": [
+    "Itachi & Orochimaru Bundle",
+    "\"final\": 2200, \"regular\": 3100, \"in\": \"2026-11-18\", \"out\": \"2026-11-20\""
+   ]
+  },
+  {
+   "text": "Falcon Clan Bundle: 2800 (listed 5800), in 2026-11-18 out 2026-11-19",
+   "source": "week.json",
+   "match": [
+    "Falcon Clan Bundle",
+    "\"final\": 2800, \"regular\": 5800, \"in\": \"2026-11-18\", \"out\": \"2026-11-19\"",
+    "Kuno",
+    "Kenji"
+   ]
+  },
+  {
+   "text": "CouRage Bundle: 3000 (listed 6600), in 2026-11-19 out 2026-11-21",
+   "source": "week.json",
+   "match": [
+    "CouRage Bundle",
+    "\"final\": 3000, \"regular\": 6600, \"in\": \"2026-11-19\", \"out\": \"2026-11-21\"",
+    "CouRage",
+    "Courageous Knight"
+   ]
+  },
+  {
+   "text": "Regular Show Bundle: 3400 (listed 6100), in 2026-11-19 out 2026-11-23",
+   "source": "week.json",
+   "match": [
+    "Regular Show Bundle",
+    "\"final\": 3400, \"regular\": 6100, \"in\": \"2026-11-19\", \"out\": \"2026-11-23\"",
+    "Mordecai",
+    "Skips"
+   ]
+  },
+  {
+   "text": "Cowboy Bebop Bundle: 3400 (listed 6600), in 2026-11-20 out 2026-11-23",
+   "source": "week.json",
+   "match": [
+    "Cowboy Bebop Bundle",
+    "\"final\": 3400, \"regular\": 6600, \"in\": \"2026-11-20\", \"out\": \"2026-11-23\"",
+    "Spike Spiegel",
+    "Faye Valentine"
+   ]
+  },
+  {
+   "text": "Kim Kardashian Bundle: 3000 (listed 5900), in 2026-11-20 out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Kim Kardashian Bundle",
+    "\"final\": 3000, \"regular\": 5900, \"in\": \"2026-11-20\", \"out\": \"2026-11-24\"",
+    "Kim Kardashian",
+    "Iconic Kim Kardashian"
+   ]
+  },
+  {
+   "text": "The Kid LAROI Bundle: 2400 (listed 4000), in 2026-11-20 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "The Kid LAROI Bundle",
+    "\"final\": 2400, \"regular\": 4000, \"in\": \"2026-11-20\", \"out\": \"2026-11-26\"",
+    "The Kid LAROI",
+    "The Rogue LAROI"
+   ]
+  },
+  {
+   "text": "Ice Spice Bundle: 2800 (listed 4800), in 2026-11-21 out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Ice Spice Bundle",
+    "\"final\": 2800, \"regular\": 4800, \"in\": \"2026-11-21\", \"out\": \"2026-11-24\"",
+    "Ice Spice",
+    "Rap Princess Ice Spice"
+   ]
+  },
+  {
+   "text": "Noodle & 2D Bundle: 2600 (listed 7300), in 2026-11-22 out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Noodle & 2D Bundle",
+    "\"final\": 2600, \"regular\": 7300, \"in\": \"2026-11-22\", \"out\": \"2026-11-24\"",
+    "Noodle",
+    "2D"
+   ]
+  },
+  {
+   "text": "Crash Bandicoot & Spyro the Dragon Bundle: 3000 (listed 4900), in 2026-11-22 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "Crash Bandicoot & Spyro the Dragon Bundle",
+    "\"final\": 3000, \"regular\": 4900, \"in\": \"2026-11-22\", \"out\": \"2026-11-26\"",
+    "Crash Bandicoot"
+   ]
+  },
+  {
+   "text": "Lazarbeam Bundle: 1800 (listed 2600), in 2026-11-19 out 2026-11-21",
+   "source": "week.json",
+   "match": [
+    "Lazarbeam Bundle",
+    "\"final\": 1800, \"regular\": 2600, \"in\": \"2026-11-19\", \"out\": \"2026-11-21\"",
+    "Lazarbeam"
+   ]
+  },
+  {
+   "text": "Lachlan Bundle: 2200 (listed 3000), in 2026-11-22 out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Lachlan Bundle",
+    "\"final\": 2200, \"regular\": 3000, \"in\": \"2026-11-22\", \"out\": \"2026-11-24\"",
+    "Lachlan"
+   ]
+  },
+  {
+   "text": "Rubius Bundle",
+   "source": "week.json",
+   "match": [
+    "Rubius Bundle",
+    "\"final\": 2400, \"regular\": 3300, \"in\": \"2026-11-22\", \"out\": \"2026-11-24\"",
+    "Rubius"
+   ]
+  },
+  {
+   "text": "43 bundles with an in date 2026-11-17..2026-11-23",
+   "source": "week.json",
+   "match": [
+    "Autumn Bundle",
+    "Beary Cuddly Bundle",
+    "Comfy Chomps Bundle",
+    "CouRage Bundle",
+    "Cowboy Bebop Bundle",
+    "Crash Bandicoot & Spyro the Dragon Bundle",
+    "Falcon Clan Bundle",
+    "Fatal Fielders Bundle",
+    "Gaara & Hinata Bundle",
+    "Harvest's Bounty Bundle",
+    "Hearts of Stone Bundle",
+    "Heat Waves Bundle",
+    "Hexed & Haunted Bundle",
+    "High Stakes Summer Bundle",
+    "Ice Spice Bundle",
+    "Itachi & Orochimaru Bundle",
+    "Jack Sparrow Bundle",
+    "Kaiju No. 8 Bundle",
+    "Kim Kardashian Bundle",
+    "Lachlan Bundle",
+    "Lazarbeam Bundle",
+    "Lexa Hexbringer Bundle",
+    "M.E.O.W. Protocol Bundle",
+    "Madison Beer Bundle",
+    "Martoz's Locker Bundle",
+    "Naruto & Kakashi Bundle",
+    "Nindo Gear Bundle",
+    "Noodle & 2D Bundle",
+    "Overwatch Bundle",
+    "Phineas and Ferb Bundle",
+    "Pirates of the Caribbean Bundle",
+    "Privateer Oscar Bundle",
+    "Regular Show Bundle",
+    "Rogue Scout Bundle",
+    "Rubius Bundle",
+    "Sasuke & Sakura Bundle",
+    "Serge Bundle",
+    "Sharktooth Racer Bundle",
+    "Shinobi Gear Bundle",
+    "Skatepark Royalty Bundle",
+    "The Kid LAROI Bundle",
+    "The Odyssey Bundle",
+    "Wilson Gear Bundle"
+   ]
+  },
+  {
+   "text": "Pirates of the Caribbean Bundle: 3400 (listed 5200), in 2026-11-23 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "Pirates of the Caribbean Bundle",
+    "\"final\": 3400, \"regular\": 5200, \"in\": \"2026-11-23\", \"out\": \"2026-11-26\"",
+    "Davy Jones",
+    "Elizabeth Swann",
+    "Captain Barbossa"
+   ]
+  },
+  {
+   "text": "Jack Sparrow Bundle: 2000 (listed 3000), in 2026-11-23 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "Jack Sparrow Bundle",
+    "\"final\": 2000, \"regular\": 3000, \"in\": \"2026-11-23\", \"out\": \"2026-11-26\"",
+    "Jack Sparrow",
+    "Cursed Jack Sparrow"
+   ]
+  },
+  {
+   "text": "Phineas and Ferb Bundle: 3200 (listed 6400), in 2026-11-23 out 2026-11-26",
+   "source": "week.json",
+   "match": [
+    "Phineas and Ferb Bundle",
+    "\"final\": 3200, \"regular\": 6400, \"in\": \"2026-11-23\", \"out\": \"2026-11-26\"",
+    "Buff Perry",
+    "Dr. Doofenshmirtz"
+   ]
+  },
+  {
+   "text": "Love Ranger: Chapter 1, Season 2",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Love Ranger\", \"introduction\": \"Introduced in Chapter 1, Season 2.\""
+   ]
+  },
+  {
+   "text": "Bandolier: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Bandolier\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Scoundrel: Chapter 1, Season 4",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Scoundrel\", \"introduction\": \"Introduced in Chapter 1, Season 4.\""
+   ]
+  },
+  {
+   "text": "Moniker: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Moniker\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Grill Sergeant: Chapter 1, Season 5",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Grill Sergeant\", \"introduction\": \"Introduced in Chapter 1, Season 5.\""
+   ]
+  },
+  {
+   "text": "Growler: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Growler\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Ludwig: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Ludwig\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Heidi: Chapter 1, Season 6",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Heidi\", \"introduction\": \"Introduced in Chapter 1, Season 6.\""
+   ]
+  },
+  {
+   "text": "Deep Sea Destroyer: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Deep Sea Destroyer\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Firewalker: Chapter 1, Season 7",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Firewalker\", \"introduction\": \"Introduced in Chapter 1, Season 7.\""
+   ]
+  },
+  {
+   "text": "Kuno: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Kuno\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Kenji: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Kenji\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Sterling: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Sterling\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Guild: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Guild\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Sunflower: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Sunflower\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Hayseed: Chapter 1, Season 8",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Hayseed\", \"introduction\": \"Introduced in Chapter 1, Season 8.\""
+   ]
+  },
+  {
+   "text": "Branded Brigadier: Chapter 1, Season 9",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Branded Brigadier\", \"introduction\": \"Introduced in Chapter 1, Season 9.\""
+   ]
+  },
+  {
+   "text": "B.R.U.T.E. Navigator: Chapter 1, Season X",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"B.R.U.T.E. Navigator\", \"introduction\": \"Introduced in Chapter 1, Season X.\""
+   ]
+  },
+  {
+   "text": "Ruby: Chapter 1, Season X",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Ruby\", \"introduction\": \"Introduced in Chapter 1, Season X.\""
+   ]
+  },
+  {
+   "text": "Stoneheart: Chapter 1, Season X",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Stoneheart\", \"introduction\": \"Introduced in Chapter 1, Season X.\""
+   ]
+  },
+  {
+   "text": "Bronto: Chapter 1, Season X",
+   "source": "week.json",
+   "match": [
+    "\"name\": \"Bronto\", \"introduction\": \"Introduced in Chapter 1, Season X.\""
+   ]
+  },
+  {
+   "text": "Hearts of Stone Bundle has Love Ranger and Stoneheart",
+   "source": "week.json",
+   "match": [
+    "Hearts of Stone Bundle",
+    "\"final\": 2500, \"regular\": 5300, \"in\": \"2026-11-20\", \"out\": \"2026-11-21\"",
+    "Love Ranger",
+    "Stoneheart"
+   ]
+  },
+  {
+   "text": "One Piece Bundle: 4000 (listed 8200), in 2026-11-01 out 2026-12-05",
+   "source": "week.json",
+   "match": [
+    "One Piece Bundle",
+    "\"final\": 4000, \"regular\": 8200, \"in\": \"2026-11-01\", \"out\": \"2026-12-05\"",
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp"
+   ]
+  },
+  {
+   "text": "Straw Hats Bundle",
+   "source": "week.json",
+   "match": [
+    "Straw Hats Bundle",
+    "\"final\": 3200, \"regular\": 4900, \"in\": \"2026-11-08\", \"out\": \"2026-12-05\""
+   ]
+  },
+  {
+   "text": "A$AP Rocky Bundle: 3200 (listed 8800), in 2026-11-06 out 2026-12-06",
+   "source": "week.json",
+   "match": [
+    "A$AP Rocky Bundle",
+    "\"final\": 3200, \"regular\": 8800, \"in\": \"2026-11-06\", \"out\": \"2026-12-06\"",
+    "Helicopter Flacko",
+    "Rocky Rugahand"
+   ]
+  },
+  {
+   "text": "Lil Uzi Vert Bundle: 3200 (listed 7100), in 2026-11-13 out 2026-12-12",
+   "source": "week.json",
+   "match": [
+    "Lil Uzi Vert Bundle",
+    "\"final\": 3200, \"regular\": 7100, \"in\": \"2026-11-13\", \"out\": \"2026-12-12\"",
+    "Lil Uzi Vert",
+    "Pink Star Lil Uzi Vert"
+   ]
+  },
+  {
+   "text": "Kim Kardashian Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Kim Kardashian Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  },
+  {
+   "text": "Ice Spice Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Ice Spice Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  },
+  {
+   "text": "Noodle & 2D Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Noodle & 2D Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  },
+  {
+   "text": "Rubius Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Rubius Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  },
+  {
+   "text": "Lachlan Bundle out 2026-11-24",
+   "source": "week.json",
+   "match": [
+    "Lachlan Bundle",
+    "\"out\": \"2026-11-24\""
+   ]
+  }
+ ],
+ "text": [
+  "NOV 17 - NOV 23 / THIS WEEK'S / ITEM SHOP",
+  "BIGGEST BUNDLE / OVERWATCH",
+  "BIGGEST BUNDLE OF THE WEEK",
+  "OVERWATCH · 4,200 V-BUCKS",
+  "MERCY",
+  "D.VA",
+  "TRACER",
+  "GENJI",
+  "NEW THIS WEEK / FRESH IN / THE SHOP",
+  "NEW THIS WEEK",
+  "KAIJU NO. 8 · 3,800 V-BUCKS",
+  "KAFKA HIBINO",
+  "KIKORU SHINOMIYA",
+  "RENO ICHIKAWA",
+  "MADISON BEER · 3,400 V-BUCKS",
+  "MAKE YOU MINE MADISON",
+  "SATIN ANGEL MADISON",
+  "NARUTO · FOUR BUNDLES",
+  "NARUTO UZUMAKI",
+  "KAKASHI HATAKE",
+  "SASUKE UCHIHA",
+  "SAKURA HARUNO",
+  "FALCON CLAN · 2,800 V-BUCKS",
+  "KUNO",
+  "KENJI",
+  "COURAGE · 3,000 V-BUCKS",
+  "COURAGE",
+  "COURAGEOUS KNIGHT",
+  "REGULAR SHOW · 3,400 V-BUCKS",
+  "MORDECAI",
+  "SKIPS",
+  "COWBOY BEBOP · 3,400 V-BUCKS",
+  "SPIKE SPIEGEL",
+  "FAYE VALENTINE",
+  "KIM KARDASHIAN · 3,000 V-BUCKS",
+  "KIM KARDASHIAN",
+  "ICONIC KIM KARDASHIAN",
+  "THE KID LAROI · 2,400 V-BUCKS",
+  "THE KID LAROI",
+  "THE ROGUE LAROI",
+  "ICE SPICE · 2,800 V-BUCKS",
+  "ICE SPICE",
+  "RAP PRINCESS ICE SPICE",
+  "NOODLE + 2D · 2,600 V-BUCKS",
+  "NOODLE",
+  "2D",
+  "CRASH & SPYRO · 3,000",
+  "CRASH BANDICOOT",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "CREATORS / CREATOR / BUNDLES",
+  "CREATOR BUNDLES",
+  "LAZARBEAM · 1,800 V-BUCKS",
+  "LAZARBEAM",
+  "LACHLAN · 2,200 V-BUCKS",
+  "LACHLAN",
+  "RUBIUS · 2,400",
+  "RUBIUS",
+  "43 / NEW BUNDLES THIS WEEK",
+  "NEW TODAY / FRESH THIS / MORNING",
+  "NEW TODAY",
+  "PIRATES OF THE CARIBBEAN · 3,400",
+  "DAVY JONES",
+  "ELIZABETH SWANN",
+  "CAPTAIN BARBOSSA",
+  "JACK SPARROW · 2,000 V-BUCKS",
+  "JACK SPARROW",
+  "CURSED JACK SPARROW",
+  "PHINEAS AND FERB · 3,200 V-BUCKS",
+  "BUFF PERRY",
+  "DR. DOOFENSHMIRTZ",
+  "OG CHECK / CHAPTER 1 / RETURNS",
+  "OG CHECK",
+  "CHAPTER 1 OGS THIS WEEK",
+  "LOVE RANGER",
+  "BANDOLIER",
+  "SCOUNDREL",
+  "MONIKER",
+  "GRILL SERGEANT",
+  "GROWLER",
+  "LUDWIG",
+  "HEIDI",
+  "DEEP SEA DESTROYER",
+  "FIREWALKER",
+  "STERLING",
+  "GUILD",
+  "SUNFLOWER",
+  "HAYSEED",
+  "BRANDED BRIGADIER",
+  "B.R.U.T.E. NAVIGATOR",
+  "RUBY",
+  "STONEHEART",
+  "BRONTO",
+  "STILL HERE / IN THE SHOP / FOR WEEKS",
+  "STILL IN THE SHOP",
+  "ONE PIECE · 4,000 V-BUCKS",
+  "MONKEY D. LUFFY",
+  "NAMI",
+  "USOPP",
+  "A$AP ROCKY · 3,200 V-BUCKS",
+  "HELICOPTER FLACKO",
+  "ROCKY RUGAHAND",
+  "LIL UZI VERT · 3,200 V-BUCKS",
+  "LIL UZI VERT",
+  "PINK STAR LIL UZI VERT",
+  "LEAVING SOON / IN THE SHOP / UNTIL NOV 24",
+  "LEAVING SOON",
+  "UNTIL NOV 24",
+  "QUICK RECAP / OVERWATCH · KAIJU NO. 8 · NARUTO / PIRATES · PHINEAS AND FERB",
+  "RECAP",
+  "THIS IS THIS WEEK'S FORTNITE ITEM",
+  "SHOP!",
+  "THE BIGGEST BUNDLES,",
+  "EVERY NEW DROP,",
+  "AND EVERY OG THAT CAME BACK.",
+  "SEVEN DAYS OF THE SHOP,",
+  "FROM NOVEMBER 17TH TO NOVEMBER 23RD,",
+  "STRAIGHT FROM EPIC'S OWN ITEM SHOP",
+  "DATA.",
+  "LET'S GET INTO IT!",
+  "FIRST,",
+  "THE BIGGEST NEW BUNDLE OF THE",
+  "WEEK.",
+  "THE OVERWATCH BUNDLE!",
+  "MERCY,",
+  "D.VA,",
+  "TRACER AND GENJI,",
+  "ALL IN ONE.",
+  "18 ITEMS,",
+  "THE MOST IN ANY NEW BUNDLE",
+  "THIS WEEK.",
+  "LISTED AT 8,800 V-BUCKS,",
+  "IT'S 4,200.",
+  "THAT'S THE HIGHEST LISTED PRICE OF",
+  "THE WEEK,",
+  "TOO.",
+  "EACH HERO IS ALSO SOLD ON",
+  "THEIR OWN FOR 1,600 V-BUCKS.",
+  "IT WENT LIVE ON NOVEMBER 22ND,",
+  "AND IT'S IN THE SHOP UNTIL",
+  "DECEMBER 4TH,",
+  "SO YOU'VE GOT TIME.",
+  "NOW,",
+  "THE NEW STUFF.",
+  "THESE ALL WENT LIVE THIS WEEK.",
+  "ON NOVEMBER 17TH,",
+  "THE KAIJU NO.",
+  "8 BUNDLE.",
+  "KAFKA HIBINO,",
+  "KIKORU SHINOMIYA AND RENO ICHIKAWA,",
+  "11 ITEMS FOR 3,800 V-BUCKS,",
+  "LISTED AT 7,700.",
+  "THAT ONE WAS IN THE SHOP",
+  "UNTIL NOVEMBER 20TH.",
+  "ALSO ON NOVEMBER 17TH,",
+  "THE MADISON BEER BUNDLE,",
+  "WITH MAKE YOU MINE MADISON AND",
+  "SATIN ANGEL MADISON,",
+  "FOR 3,400,",
+  "UNTIL NOVEMBER 21ST.",
+  "ON NOVEMBER 18TH,",
+  "NARUTO!",
+  "FOUR BUNDLES AT ONCE.",
+  "NARUTO AND KAKASHI FOR 2,100,",
+  "SASUKE AND SAKURA,",
+  "GAARA AND HINATA,",
+  "AND ITACHI AND OROCHIMARU.",
+  "THE PRICIEST OF THE FOUR WAS",
+  "AT 2,400.",
+  "ALL FOUR WERE IN UNTIL NOVEMBER",
+  "20TH.",
+  "SAME DAY,",
+  "THE FALCON CLAN BUNDLE,",
+  "WITH KUNO AND KENJI,",
+  "FOR 2,800 V-BUCKS,",
+  "LISTED AT 5,800.",
+  "IT WAS ONLY AROUND UNTIL NOVEMBER",
+  "19TH.",
+  "ON NOVEMBER 19TH,",
+  "THE COURAGE BUNDLE,",
+  "3,000 V-BUCKS,",
+  "LISTED AT 6,600.",
+  "AND THE REGULAR SHOW BUNDLE,",
+  "WITH MORDECAI AND SKIPS,",
+  "FOR 3,400.",
+  "THAT ONE IS IN THE SHOP",
+  "UNTIL NOVEMBER 23RD,",
+  "TODAY.",
+  "ON NOVEMBER 20TH,",
+  "THE COWBOY BEBOP BUNDLE,",
+  "WITH SPIKE SPIEGEL AND FAYE VALENTINE,",
+  "FOR 3,400 V-BUCKS,",
+  "ALSO UNTIL NOVEMBER 23RD.",
+  "THE KIM KARDASHIAN BUNDLE,",
+  "FOR 3,000,",
+  "LISTED AT 5,900.",
+  "AND THE KID LAROI BUNDLE,",
+  "FOR 2,400,",
+  "IN THE SHOP UNTIL NOVEMBER 26TH.",
+  "ON NOVEMBER 21ST,",
+  "THE ICE SPICE BUNDLE,",
+  "WITH ICE SPICE AND RAP PRINCESS",
+  "ICE SPICE,",
+  "FOR 2,800 V-BUCKS.",
+  "ON NOVEMBER 22ND,",
+  "NOODLE AND 2D,",
+  "FOR 2,600.",
+  "LISTED AT 7,300,",
+  "SO THAT'S 4,700 UNDER THE LISTED",
+  "PRICE.",
+  "AND THE CRASH BANDICOOT AND SPYRO",
+  "THE DRAGON BUNDLE,",
+  "FOR 3,000 V-BUCKS,",
+  "UNTIL NOVEMBER 26TH.",
+  "IF YOU'RE GRABBING ANY OF THESE,",
+  "USE CODE BAD IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS THE CHANNEL.",
+  "IT WAS A BIG WEEK FOR",
+  "CREATORS TOO.",
+  "THE LAZARBEAM BUNDLE,",
+  "FOR 1,800 V-BUCKS.",
+  "THE LACHLAN BUNDLE,",
+  "FOR 2,200,",
+  "AND THE RUBIUS BUNDLE,",
+  "FOR 2,400.",
+  "ADD IT ALL UP,",
+  "AND 43 NEW BUNDLES WENT LIVE",
+  "AND A BIG BATCH LANDED IN",
+  "TODAY'S SHOP.",
+  "THE PIRATES OF THE CARIBBEAN BUNDLE,",
+  "WITH DAVY JONES,",
+  "ELIZABETH SWANN AND CAPTAIN BARBOSSA.",
+  "3,400 V-BUCKS,",
+  "LISTED AT 5,200.",
+  "JACK SPARROW GETS HIS OWN BUNDLE,",
+  "WITH CURSED JACK SPARROW,",
+  "FOR 2,000.",
+  "AND THE PHINEAS AND FERB BUNDLE,",
+  "WITH BUFF PERRY AND DR.",
+  "DOOFENSHMIRTZ,",
+  "FOR 3,200 V-BUCKS,",
+  "LISTED AT 6,400.",
+  "ALL THREE ARE IN THE SHOP",
+  "THE OG CHECK.",
+  "THESE CHAPTER 1 OUTFITS WERE ALL",
+  "IN THE SHOP THIS WEEK.",
+  "LOVE RANGER,",
+  "FROM CHAPTER 1,",
+  "SEASON 2.",
+  "THAT'S THE OLDEST ONE THIS WEEK,",
+  "AND IT CAME BACK WITH STONEHEART",
+  "IN THE HEARTS OF STONE BUNDLE.",
+  "BANDOLIER AND SCOUNDREL,",
+  "FROM SEASON 4,",
+  "AND MONIKER AND GRILL SERGEANT,",
+  "FROM SEASON 5.",
+  "GROWLER,",
+  "LUDWIG AND HEIDI,",
+  "FROM SEASON 6.",
+  "DEEP SEA DESTROYER AND FIREWALKER,",
+  "FROM SEASON 7.",
+  "FROM SEASON 8,",
+  "KUNO AND KENJI FROM THE FALCON",
+  "CLAN BUNDLE,",
+  "PLUS STERLING,",
+  "GUILD,",
+  "SUNFLOWER AND HAYSEED.",
+  "AND BRANDED BRIGADIER,",
+  "FROM SEASON 9.",
+  "AND FROM SEASON X,",
+  "B.R.U.T.E.",
+  "NAVIGATOR,",
+  "RUBY,",
+  "STONEHEART AND BRONTO.",
+  "SCOUNDREL,",
+  "BRANDED BRIGADIER,",
+  "NAVIGATOR AND RUBY WERE IN THE",
+  "SHOP ALL SEVEN DAYS.",
+  "AND SOME BUNDLES ARE STICKING AROUND",
+  "FOR WEEKS.",
+  "THE ONE PIECE BUNDLE,",
+  "4,000 V-BUCKS,",
+  "AND THE STRAW HATS BUNDLE,",
+  "3,200,",
+  "ARE BOTH IN THE SHOP UNTIL",
+  "DECEMBER 5TH.",
+  "THE A$AP ROCKY BUNDLE IS STILL",
+  "3,200 V-BUCKS,",
+  "UNTIL DECEMBER 6TH.",
+  "AND THE LIL UZI VERT BUNDLE,",
+  "IS IN UNTIL DECEMBER 12TH.",
+  "AND A FEW ARE LEAVING FAST.",
+  "KIM KARDASHIAN,",
+  "RUBIUS AND LACHLAN ARE ALL IN",
+  "THE SHOP UNTIL TOMORROW,",
+  "NOVEMBER 24TH.",
+  "QUICK RECAP.",
+  "BIGGEST BUNDLE:",
+  "OVERWATCH,",
+  "IN THE SHOP UNTIL DECEMBER 4TH.",
+  "NEW TODAY:",
+  "PIRATES OF THE CARIBBEAN,",
+  "JACK SPARROW,",
+  "AND PHINEAS AND FERB.",
+  "43 NEW BUNDLES IN SEVEN DAYS,",
+  "AND 21 CHAPTER 1 OGS IN",
+  "THE SHOP.",
+  "WHICH BUNDLE DID YOU GRAB THIS",
+  "WEEK?",
+  "TELL ME IN THE COMMENTS!",
+  "THANK YOU FOR WATCHING!",
+  "FOLLOW FOR MORE DAILY CONTENT.",
+  "CODE BAD · ROYALE",
+  "#EPICPARTNER"
+ ]
+}

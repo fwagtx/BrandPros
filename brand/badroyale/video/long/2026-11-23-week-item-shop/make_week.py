@@ -126,6 +126,20 @@ def show(name, outfits, title=None, extra=None):
     return e
 
 
+
+
+def featured(name):
+    """transparent featured art for the thumbnail (house style)"""
+    cid = FN[name][:-4]
+    fn = f"featured-{cid}.png"
+    if not os.path.exists(f"{D}/img/{fn}"):
+        url = f"https://fortnite-api.com/images/cosmetics/br/{cid}/featured.png"
+        open(f"{D}/img/{fn}", "wb").write(urllib.request.urlopen(url, timeout=60).read())
+        from PIL import Image
+        Image.open(f"{D}/img/{fn}").convert("RGBA").save(f"{D}/img/{fn}")  # palette PNGs render blank
+    return f"img/{fn}"
+
+
 # ---------------- script ----------------
 p = say("This is this week's Fortnite Item Shop! The biggest bundles, every new drop, and every OG that came back.")
 say(f"Seven days of the shop, from {day(FIRST)} to {day(LAST)}, straight from Epic's own Item Shop data.")
@@ -290,5 +304,5 @@ json.dump({"youtubeTitle": yt,
                       f"and {len(OG)} Chapter 1 OGs.\n\nWhich bundle did you grab this week? Tell me in the comments 👇\n\nUse code BAD in the Item Shop 💛\n\n{{chapters}}\n\n#Fortnite #FortniteItemShop #Overwatch",
            "tags": ["fortnite", "fortnite item shop", "item shop this week", "overwatch fortnite", "kaiju no 8 fortnite", "naruto fortnite", "fortnite og skins"],
            "thumb": {"lines": ["THIS WEEK"], "big": "OVERWATCH", "chip": "NOV 17 - NOV 23",
-                     "chars": [f"img/{FN['D.Va']}", f"img/{FN['Tracer']}"]}}, open(D + "/post.json", "w"), indent=1, ensure_ascii=False)
+                     "chars": [featured("D.Va"), featured("Tracer")]}}, open(D + "/post.json", "w"), indent=1, ensure_ascii=False)
 print(len(P), "phrases,", len(S), "segments,", len(C), "claims,", sum(len(x["text"].split()) for x in P), "words")

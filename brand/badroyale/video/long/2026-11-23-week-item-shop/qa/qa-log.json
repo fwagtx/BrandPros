@@ -1,0 +1,352 @@
+{
+  "video": "badroyale-2026-11-23-week-item-shop.mp4",
+  "checked_utc": "2026-11-23T11:48:50Z",
+  "verdict": "READY TO POST",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "59/59 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "Overwatch Bundle: 4200 (listed 8800), in 2026-11-22 out 2026-12-04",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Mercy entry 1600",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Tracer entry 1600",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Genji entry 1600",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "D.Va entry 1600",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Overwatch Bundle has the highest listed price and most items of the week's new bundles",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Kaiju No. 8 Bundle: 3800 (listed 7700), in 2026-11-17 out 2026-11-20",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Madison Beer Bundle: 3400 (listed 6800), in 2026-11-17 out 2026-11-21",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Naruto & Kakashi Bundle: 2100 (listed 3000), in 2026-11-18 out 2026-11-20",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Sasuke & Sakura Bundle",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Gaara & Hinata Bundle",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Itachi & Orochimaru Bundle",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Falcon Clan Bundle: 2800 (listed 5800), in 2026-11-18 out 2026-11-19",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "CouRage Bundle: 3000 (listed 6600), in 2026-11-19 out 2026-11-21",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Regular Show Bundle: 3400 (listed 6100), in 2026-11-19 out 2026-11-23",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Cowboy Bebop Bundle: 3400 (listed 6600), in 2026-11-20 out 2026-11-23",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Kim Kardashian Bundle: 3000 (listed 5900), in 2026-11-20 out 2026-11-24",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "The Kid LAROI Bundle: 2400 (listed 4000), in 2026-11-20 out 2026-11-26",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Ice Spice Bundle: 2800 (listed 4800), in 2026-11-21 out 2026-11-24",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Noodle & 2D Bundle: 2600 (listed 7300), in 2026-11-22 out 2026-11-24",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Crash Bandicoot & Spyro the Dragon Bundle: 3000 (listed 4900), in 2026-11-22 out 2026-11-26",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Lazarbeam Bundle: 1800 (listed 2600), in 2026-11-19 out 2026-11-21",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Lachlan Bundle: 2200 (listed 3000), in 2026-11-22 out 2026-11-24",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Rubius Bundle",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "43 bundles with an in date 2026-11-17..2026-11-23",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Pirates of the Caribbean Bundle: 3400 (listed 5200), in 2026-11-23 out 2026-11-26",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Jack Sparrow Bundle: 2000 (listed 3000), in 2026-11-23 out 2026-11-26",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Phineas and Ferb Bundle: 3200 (listed 6400), in 2026-11-23 out 2026-11-26",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Love Ranger: Chapter 1, Season 2",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Bandolier: Chapter 1, Season 4",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Scoundrel: Chapter 1, Season 4",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Moniker: Chapter 1, Season 5",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Grill Sergeant: Chapter 1, Season 5",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Growler: Chapter 1, Season 6",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Ludwig: Chapter 1, Season 6",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Heidi: Chapter 1, Season 6",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Deep Sea Destroyer: Chapter 1, Season 7",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Firewalker: Chapter 1, Season 7",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Kuno: Chapter 1, Season 8",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Kenji: Chapter 1, Season 8",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Sterling: Chapter 1, Season 8",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Guild: Chapter 1, Season 8",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Sunflower: Chapter 1, Season 8",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Hayseed: Chapter 1, Season 8",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Branded Brigadier: Chapter 1, Season 9",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "B.R.U.T.E. Navigator: Chapter 1, Season X",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Ruby: Chapter 1, Season X",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Stoneheart: Chapter 1, Season X",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Bronto: Chapter 1, Season X",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Hearts of Stone Bundle has Love Ranger and Stoneheart",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "One Piece Bundle: 4000 (listed 8200), in 2026-11-01 out 2026-12-05",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Straw Hats Bundle",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "A$AP Rocky Bundle: 3200 (listed 8800), in 2026-11-06 out 2026-12-06",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Lil Uzi Vert Bundle: 3200 (listed 7100), in 2026-11-13 out 2026-12-12",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Kim Kardashian Bundle out 2026-11-24",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Ice Spice Bundle out 2026-11-24",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Noodle & 2D Bundle out 2026-11-24",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Rubius Bundle out 2026-11-24",
+          "result": "PASS",
+          "why": "matched in week.json"
+        },
+        {
+          "claim": "Lachlan Bundle out 2026-11-24",
+          "result": "PASS",
+          "why": "matched in week.json"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "55 distinct words checked; code written as BAD in all 3 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -13.8 LUFS, true peak -1.7 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1920x1080 h264 30 fps, aac 48000 Hz, 267.0s. Long YouTube video; every on-screen text box sampled 4x/s stays inside the title-safe area.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "4:27. Title card, Overwatch biggest bundle with all four heroes, one items card per new bundle with outfit names readable, Naruto four-bundle card, creator bundles, new today, four OG cards (21 Chapter 1 OGs), still here, leaving Nov 24, recap, code card mid and end. Captions in safe area, nothing overlapping. Thumbnail: THIS WEEK / OVERWATCH readable at phone size, D.Va and Tracer full-body featured art with faces clear, chip NOV 17 - NOV 23, CODE BAD, nothing cut off (first render used icon art with hard edges; switched to featured.png).",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner Everything in the Fortnite Item Shop this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteItemShop"
+}

@@ -1,0 +1,18 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's Item Shop and cosmetics data)",
+ "files": [
+  {
+   "file": "week.json",
+   "source": "Item Shop archive 2026-11-17..2026-11-23 (one snapshot per reset) + 'Introduced in' lines",
+   "url": "https://fortnite-api.com/v2/shop",
+   "fetched_utc": "2026-11-23T00:07:17Z",
+   "note": "fetched_utc is the newest snapshot in the file (today's reset); older days are the saved snapshots of their own resets"
+  },
+  {
+   "file": "shop-2026-11-23.json",
+   "source": "Item Shop for 2026-11-23",
+   "url": "https://fortnite-api.com/v2/shop",
+   "fetched_utc": "2026-11-23T00:07:17Z"
+  }
+ ]
+}
