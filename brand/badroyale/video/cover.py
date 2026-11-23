@@ -76,6 +76,11 @@ def spec_for(d):
 def shop_spec(day):
     D = os.path.join(BR, "shop", day)
     p = json.load(open(os.path.join(D, "plan.json")))
+    if "picks" in p:                       # reel plan (reel_pick.py, 2026-11-23): the lead card's art and price
+        lead = p["picks"][0]
+        local = os.path.join(D, "img", lead["key"] + ".png")
+        return {"kind": "shop", "lines": ["Today's"], "big": "Shop", "chip": p["dateLabel"].upper(), "chars": ["file://" + local],
+                "price": [lead["final"], lead["regular"] if lead["regular"] > lead["final"] else None]}
     deal = p["deal"]
     chars = []
     for o in deal.get("outfits", [])[:2]:
@@ -120,8 +125,9 @@ def html(s):
         xs = {1: [475], 2: [200, 750], 3: [70, 475, 880]}[len(chars)]
         body += "".join(f'<div class="a q" style="left:{x}px;top:1240px">?</div>' for x in xs)
     lines = "<br>".join(esc(l) for l in s.get("lines") or [])
+    wrap = "normal" if kind == "map" else "nowrap"          # (kept out of the f-string so Python 3.11 can run this too)
     body += (f'<div class="a t" style="top:250px"><div class="fit" data-max="130" data-h="240" style="font-size:130px">{lines}</div>'
-             f'<div class="fit" data-max="230" data-h="420" style="color:{Y};font-size:230px;white-space:{'normal' if kind == 'map' else 'nowrap'}">{esc(s["big"])}</div></div>')
+             f'<div class="fit" data-max="230" data-h="420" style="color:{Y};font-size:230px;white-space:{wrap}">{esc(s["big"])}</div></div>')
     chip_top = 1390 if kind in ("now", "other") and chars else 1450 if kind == "map" else 1430 if kind == "guess" else None  # guess: under the ? marks, off the faces
     if s.get("chip"):
         body += (f'<div class=a id=chip style="left:0;right:0;top:{chip_top or 0}px;text-align:center;z-index:7">'

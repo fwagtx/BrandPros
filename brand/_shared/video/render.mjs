@@ -72,8 +72,9 @@ for (let i = 0; i < total; i++) {
 ff.stdin.end();
 await new Promise((r) => ff.on("close", r));
 const cues = await page.evaluate(() => window.cues);
+const music = await page.evaluate(() => window.SCENE.music || null);   // reels: original beat-synced track (music.py)
 await browser.close();
-const mix = spawnSync("python3", [path.join(here, "mix.py"), silent, out, String(dur), JSON.stringify(cues), ...(args.voice ? [path.resolve(args.voice)] : [])], { stdio: "inherit", env: { ...process.env, FFMPEG } });
+const mix = spawnSync("python3", [path.join(here, "mix.py"), silent, out, String(dur), JSON.stringify(cues), ...(args.voice ? [path.resolve(args.voice)] : [])], { stdio: "inherit", env: { ...process.env, FFMPEG, ...(music ? { MUSIC: JSON.stringify(music) } : {}) } });
 if (mix.status !== 0) process.exit(mix.status);
 fs.unlinkSync(silent);
 console.log("done", out, errors.length ? `(${errors.length} page errors)` : "");

@@ -128,12 +128,14 @@ def pick_shop(folder, day, kind, used):
     if shop["date"][:10] != day:
         raise SystemExit(f"STOP: the live shop is {shop['date'][:10]}, not {day}")
     plan = os.path.join(BR, "shop", day, "plan.json")
-    deal = json.load(open(plan))["deal"]["name"] if os.path.exists(plan) else None
+    # skip what last night's shop video led with (old plan: its deal; reel plan since 2026-11-24: its first card)
+    p = json.load(open(plan)) if os.path.exists(plan) else {}
+    deal = p["deal"]["name"] if p.get("deal") else (p["picks"][0]["name"] if p.get("picks") else None)
     entries = [e for e in shop["entries"] if outfits(e)]
     prefix = "New in shop" if kind == "new" else "Leaving tonight"
     fresh = lambda e: not any(t.startswith(prefix) and label(e) in t for t in used)
     if kind == "new":
-        pool = sorted((e for e in entries if e["inDate"][:10] == day and label(e) != deal and fresh(e)), key=lambda e: (not brand_new(e, day), -len(outfits(e)), -e["regularPrice"]))
+        pool = sorted((e for e in entries if e["inDate"][:10] == day and label(e).lower() != (deal or "").lower() and fresh(e)), key=lambda e: (not brand_new(e, day), -len(outfits(e)), -e["regularPrice"]))
     else:
         pool = sorted((e for e in entries if e["outDate"][:10] == day and fresh(e)), key=lambda e: (-e["finalPrice"], label(e)))
     if not pool:

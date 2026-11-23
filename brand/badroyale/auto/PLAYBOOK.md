@@ -41,8 +41,13 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
    `Use code BAD in the Item Shop 💛`, then 3 hashtags. `#EpicPartner` at the very start is the only disclosure:
    no "from official data", "positions from the map" or any other disclaimer lines.
 11. **The first 3 seconds decide everything.** Frame 1 already shows the subject and big text; the first voice
-   line is the hook. Every Item Shop video opens with "This is today's Item Shop for <Month> <day>." (shop_pick.py
-   writes it). A short whose first second is empty, slow or confusing fails review.
+   line is the hook. A short whose first second is empty, slow or confusing fails review.
+   The daily Item Shop video is a reel in the owner's new look (2026-11-23, from the owner's reference video): no voice,
+   an original beat-synced track with sound effects (brand/_shared/video/music.py, a new key, tempo and melody each
+   day), the lime USE CODE: BAD sticker with #EpicPartner top-left the whole time, a rolling price counter top-right,
+   the date and "today's item shop 🛒" with three cards in the first second, one card per offer with rotating fact
+   stickers (new today first, so it changes every day), a grid with "what are you buying? 👇", then the code typed
+   into a creator code box and "thank you for watching! 💛 follow for more daily content" (reel_pick.py + reel.js).
 
 ## Schedule (all times America/Chicago)
 
@@ -57,8 +62,8 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
 
 **Pirate Shop Access series (owner, 2026-11-09 and 2026-11-11):** `TPL.guide` shorts (facts over the real map) from
 `video/auto/pirate-shop-sources/`. Hand-made first week: Nov 9 11:00 AM and 8:30 PM, Nov 10-13 8:30 PM, Nov 14 10:30 AM;
-from Nov 11 the DAY run adds three a day (step 3b) until the season ends. They sit beside the normal three; the 12:30
-and 4:30 checks ignore them. If the in-game news or fetch_sources shows the Treasure Hours schedule or the Pirate Shop
+from Nov 11 the DAY run makes three a day itself (step 3b, every run) until the season ends. They sit beside the
+normal three; the 12:30 and 4:30 checks ignore them. If the in-game news or fetch_sources shows the Treasure Hours schedule or the Pirate Shop
 rules changed, set the affected queued posts to draft (Facts change, below).
 
 ## SHOP run
@@ -67,14 +72,15 @@ rules changed, set the affected queued posts to draft (Facts change, below).
 2. `bash brand/badroyale/auto/setup.sh`
 3. `date -u +%F` gives D, the shop day. **Already posted?** `getScheduledPosts` (brandId 7408112, timezone
    America/Chicago, D-1 17:00 to D 23:59): if TikTok, Instagram, Facebook and YouTube each have a post whose text
-   starts `#EpicPartner This is today's Item Shop for <Month day of D>`, stop here and log "shop already posted" (this
+   starts `#EpicPartner Today's Item Shop for <Month day of D>` or `#EpicPartner Today's Fortnite Item Shop for <Month day of D>`
+   (or, before 2026-11-24, `#EpicPartner This is today's Item Shop for`), stop here and log "shop already posted" (this
    is how the 01:47 UTC safety run ends on a normal day). If only some networks have it, post just the missing ones
    in step 6. Otherwise `python3 brand/badroyale/auto/shop_daily.py build D` (it waits up to 25 min for the live shop
    to turn over).
-4. Open `brand/badroyale/shop/D/qa/review-sheet.png` with Read and look hard: the first frame grabs you (date
-   and items visible at once), real items on every tile, prices and names readable, nothing cut off or
-   overlapping, the code card at the end. Read the voice lines it printed: the first is "This is today's Item Shop
-   for <date>.", and they all make sense as spoken English. Write `brand/badroyale/shop/D/review.json`:
+4. Open `brand/badroyale/shop/D/qa/review-sheet.png` with Read and look hard: the hook still shows the date,
+   "today's item shop 🛒" and three real item cards; every card has real art, a readable price, name and sticker;
+   nothing cut off or overlapping; the grid and the creator code / thank-you end card are there. Read the cards
+   build printed: names, prices and stickers make sense as English. Write `brand/badroyale/shop/D/review.json`:
    `{"status": "PASS", "notes": "<what you checked>"}`, or `"FAIL"` with the reason (then skip to step 9).
 5. `python3 brand/badroyale/auto/shop_daily.py ship D`. If it prints STOP, post nothing; go to step 9.
 6. Read `brand/badroyale/shop/D/posts.json`. Call `getScheduledPosts` (brandId 7408112, timezone America/Chicago,
@@ -96,6 +102,10 @@ rules changed, set the affected queued posts to draft (Facts change, below).
 
 The scheduled message says "keep 7 days of shorts queued": that means the 4:30 PM evergreen slot (step 3). The 12:30 PM
 slot is never filled ahead; it is today's current-game short, made each morning (step 2).
+**Step 3b runs every day until December 5, 2026: three Pirate Shop Access shorts (2:30 PM, 7:30 PM, 9:30 PM).** They do
+not count toward the scheduled message's "at most 3 new per run", and "the owner's series" does not mean leave it
+alone: the owner asked for three a day (2026-11-11), and the runs from Nov 12 to Nov 23 wrongly skipped them. Log
+which three angles went out, or why one couldn't.
 
 1. `git pull origin claude/eloquent-lovelace-vu2quk`, then `bash brand/badroyale/auto/setup.sh`
 1b. **Backlog first:** run `python3 brand/badroyale/auto/backlog.py links` (writes backlog.live.json with fresh hosted

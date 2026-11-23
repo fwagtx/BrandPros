@@ -54,6 +54,12 @@ def main():
     silent, out, dur, cues = sys.argv[1], sys.argv[2], float(sys.argv[3]), json.loads(sys.argv[4])
     voice = sys.argv[5] if len(sys.argv) > 5 else None
     tmp = tempfile.mkdtemp()
+    if os.environ.get("MUSIC"):
+        # reels: an original beat-synced track with its effects, from music.py (no voice)
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import music
+        mixed = music.render(json.loads(os.environ["MUSIC"]), cues, dur, os.path.join(tmp, "mixed.wav"))
+        return normalize(silent, mixed, out)
     used = sorted({c[1] for c in cues})
     for n in used:
         expr, d = SFX[n]
@@ -89,6 +95,10 @@ def main():
     parts.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0:duration=first,atrim=0:{dur}[pre]")
     mixed = os.path.join(tmp, "mixed.wav")
     run([*inputs, "-filter_complex", ";".join(parts), "-map", "[pre]", "-ac", "2", mixed])
+    normalize(silent, mixed, out)
+
+
+def normalize(silent, mixed, out):
     # two-pass loudness normalization to -14 LUFS integrated, -2.6 dBTP; linear mode can still overshoot the ceiling,
     # so a limiter at -3.1 dBFS catches what is left before AAC encoding adds its own overshoot
     p = subprocess.run([FF, "-hide_banner", "-i", mixed, "-af", "loudnorm=I=-14:TP=-2.6:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True)
