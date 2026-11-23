@@ -1,0 +1,49 @@
+{
+ "phrases": [
+  {
+   "text": "Guess the season! Only true OGs get all three.",
+   "pause": 0.25
+  },
+  {
+   "text": "Ludwig.",
+   "pause": 1.7
+  },
+  {
+   "text": "Chapter 1, Season 6.",
+   "pause": 0.4
+  },
+  {
+   "text": "Hayseed.",
+   "pause": 1.7
+  },
+  {
+   "text": "Chapter 1, Season 8.",
+   "pause": 0.4
+  },
+  {
+   "text": "Growler.",
+   "pause": 1.7
+  },
+  {
+   "text": "Chapter 1, Season 6.",
+   "pause": 0.4
+  },
+  {
+   "text": "How many did you get right? Tell me in the comments.",
+   "pause": 0.2
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

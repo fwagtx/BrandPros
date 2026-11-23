@@ -122,7 +122,7 @@ def html(s):
     lines = "<br>".join(esc(l) for l in s.get("lines") or [])
     body += (f'<div class="a t" style="top:250px"><div class="fit" data-max="130" data-h="240" style="font-size:130px">{lines}</div>'
              f'<div class="fit" data-max="230" data-h="420" style="color:{Y};font-size:230px;white-space:{'normal' if kind == 'map' else 'nowrap'}">{esc(s["big"])}</div></div>')
-    chip_top = 1390 if kind in ("now", "other") and chars else 1450 if kind == "map" else None
+    chip_top = 1390 if kind in ("now", "other") and chars else 1450 if kind == "map" else 1430 if kind == "guess" else None  # guess: under the ? marks, off the faces
     if s.get("chip"):
         body += (f'<div class=a id=chip style="left:0;right:0;top:{chip_top or 0}px;text-align:center;z-index:7">'
                  f'<span class=chip style="display:inline-block;transform:rotate(-3deg)">{esc(s["chip"])}</span></div>')

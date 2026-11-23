@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's cosmetics data)",
+ "files": [
+  {
+   "file": "CID_225_Athena_Commando_M_Octoberfest.json",
+   "source": "Epic cosmetics data for Ludwig",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Ludwig",
+   "fetched_utc": "2026-11-23T15:48:08Z"
+  },
+  {
+   "file": "CID_355_Athena_Commando_M_Farmer.json",
+   "source": "Epic cosmetics data for Hayseed",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Hayseed",
+   "fetched_utc": "2026-11-23T15:48:08Z"
+  },
+  {
+   "file": "CID_264_Athena_Commando_M_AnimalJackets.json",
+   "source": "Epic cosmetics data for Growler",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Growler",
+   "fetched_utc": "2026-11-23T15:48:08Z"
+  }
+ ]
+}
