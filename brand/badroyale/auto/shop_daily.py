@@ -61,10 +61,11 @@ SCENE = os.path.join(SHOP, "reel.js")
 
 
 def beats(plan):
-    """Key moments of the reel, in seconds (same grid as reel.js: intro 8 beats, 8 per card, grid 8, code 12)."""
+    """Key moments of the reel, in seconds (same grid as reel.js: intro 8 beats, 8 per card (12 for fast styles), grid 8, code 12)."""
     B = 60 / plan["music"]["bpm"]
     n = len(plan["picks"])
-    card = lambda i: (8 + 8 * i) * B
+    cb = plan["music"].get("card", 8)
+    card = lambda i: (8 + cb * i) * B
     grid = card(n)
     return {"B": B, "card": card, "grid": grid, "code": grid + 8 * B, "end": grid + 20 * B}
 
@@ -99,7 +100,7 @@ def build(day):
     inputs = sum([["-i", f] for f in files], [])
     graph = "".join(f"[{i}]scale=432:-1[s{i}];" for i in range(len(files))) + "".join(f"[s{i}]" for i in range(len(files))) + f"hstack={len(files)}"
     run([ffmpeg(), "-y", "-loglevel", "error", *inputs, "-filter_complex", graph, os.path.join(D, "qa", "review-sheet.png")], D, quiet=True)
-    print(json.dumps({"day": day, "video": os.path.relpath(mp4, BRAND), "duration": round(b["end"], 1), "bpm": plan["music"]["bpm"],
+    print(json.dumps({"day": day, "video": os.path.relpath(mp4, BRAND), "duration": round(b["end"], 1), "music": plan["music"],
                       "review_sheet": os.path.relpath(os.path.join(D, "qa", "review-sheet.png"), BRAND),
                       "cards": [[c["tag"], c["name"], c["final"], c["facts"]] for c in plan["picks"]]}, indent=1, ensure_ascii=False))
     print("NEXT: look at the review sheet, write review.json in the day's folder, then run ship.")

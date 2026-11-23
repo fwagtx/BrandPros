@@ -11,11 +11,11 @@
   const INK = "#0B0D1A", LIME = "#DFFF3B";
   const B = 60 / D.music.bpm;
   const P = D.picks, N = P.length;
-  const INTRO = 8, CARD = 8, GRID = 8, CODE = 12;
+  const INTRO = 8, CARD = D.music.card || 8, GRID = 8, CODE = 12;      // fast styles (134+ BPM) get 12-beat cards
   const tCard = (i) => (INTRO + CARD * i) * B;
   const tGrid = tCard(N), tCode = tGrid + GRID * B;
   const DUR = Math.round((tCode + CODE * B) * 100) / 100;
-  const FACT_AT = [0.5, 3, 5.5];
+  const FACT_AT = [0.5, 3, 5.5].map((x) => x * CARD / 8);
   const num = (n) => n.toLocaleString("en-US");
   const short = (n) => n.replace(/ Bundle$/i, "");
   const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
@@ -24,7 +24,7 @@
   const font = (w, px) => `font-family:Montserrat;font-weight:${w};font-size:${px}px;`;
 
   function pill(parent, text, o = {}) {
-    const { bg = "#fff", fg = INK, size = 40, top = 0, w = 800, r = -2 } = o;
+    const { bg = "#fff", fg = INK, size = 40, top = 0, w = 720, r = -2 } = o;      // 720 wide max: the pop-in overshoot (~10%) stays clear of the button column
     const fs = Math.min(size, Math.floor((w - 60) / (text.length * 0.58)));
     const el = mk(parent, `left:${540 - w / 2}px;width:${w}px;top:${top}px;text-align:center`,
       `<span style="display:inline-block;padding:${fs * 0.2}px ${fs * 0.55}px ${fs * 0.16}px;background:${bg};border-radius:${fs * 0.35}px;${font(800, fs)}line-height:1.15;color:${fg};box-shadow:0 6px 0 rgba(0,0,0,.28);white-space:nowrap">${esc(text)}</span>`);
@@ -64,11 +64,11 @@
          <img src="${IMG(p.key)}" style="position:absolute;left:0;top:30px;width:700px;height:750px;object-fit:contain;object-position:50% 100%">`);
       const art = card.querySelector("img");
       const emoji = mk(g, `left:774px;top:420px;width:130px;height:130px;font-size:104px;line-height:130px;text-align:center`, p.emoji);
-      const facts = p.facts.map((f, j) => pill(g, f, { bg: j === 1 ? LIME : "#fff", size: 40, top: 1166, w: 760, r: j % 2 ? 2 : -2 }));
+      const facts = p.facts.map((f, j) => pill(g, f, { bg: j === 1 ? LIME : "#fff", size: 40, top: 1166, w: 720, r: j % 2 ? 2 : -2 }));
       const nm = short(p.name);
       const big = nm.length <= 15;
-      const name = mk(g, `left:150px;width:780px;top:1262px;text-align:center`,
-        `<span style="display:inline-block;max-width:760px;padding:6px 30px 4px;background:#fff;border-radius:18px;${font(900, big ? 70 : 54)}line-height:1.08;color:${INK};box-shadow:0 8px 0 rgba(0,0,0,.3);white-space:${big ? "nowrap" : "normal"}">${esc(nm)}</span>`);
+      const name = mk(g, `left:190px;width:700px;top:1262px;text-align:center`,
+        `<span style="display:inline-block;max-width:700px;padding:6px 30px 4px;background:#fff;border-radius:18px;${font(900, big ? 70 : 54)}line-height:1.08;color:${INK};box-shadow:0 8px 0 rgba(0,0,0,.3);white-space:${big ? "nowrap" : "normal"}">${esc(nm)}</span>`);
       name.firstChild.dataset.text = nm.toUpperCase();
       return { p, g, card, art, emoji, facts, name };
     });
@@ -146,7 +146,7 @@
         const pin = E.back(k(t, t0, t0 + 0.3));
         T(c.card, { s: lerp(0.86, 1, pin) * (1 + 0.012 * beatPulse(t)), y: lerp(50, 0, E.out(k(t, t0, t0 + 0.3))), r: lerp(-3, 0, pin) });
         c.art.style.transform = `scale(${1 + 0.05 * k(t, t0, t1)})`;
-        const te = t0 + 1.5 * B;
+        const te = t0 + 1.5 * B * CARD / 8;
         T(c.emoji, { a: t >= te ? 1 : 0, s: E.back(k(t, te, te + 0.25)), r: 12 + 6 * Math.sin((t - te) * 6) });
         c.facts.forEach((f, j) => {
           const a = t0 + FACT_AT[j] * B, b = j + 1 < c.facts.length ? t0 + FACT_AT[j + 1] * B : t1;
@@ -193,7 +193,7 @@
         const i = Math.min(N - 1, Math.floor((t - tCard(0)) / (CARD * B))), p = P[i], t0 = tCard(i);
         const prev = i ? P[i - 1].final : 0;
         if (p.regular > p.final) {
-          const td = t0 + 2 * B;
+          const td = t0 + 2 * B * CARD / 8;
           if (t < td) { txt = num(roll(prev, p.regular, t, t0)); lab = "regular price"; }
           else { txt = num(roll(p.regular, p.final, t, td)); lab = "V-Bucks today"; lime = true; }
           pop = t < td ? k(t, t0 + 0.4, t0 + 0.6) : k(t, td + 0.4, td + 0.6);
@@ -219,9 +219,9 @@
   P.forEach((p, i) => {
     const t0 = tCard(i);
     cues.push([t0, "whoosh"], [t0 + 0.02, "pop"]);
-    const rolls = p.regular > p.final ? [t0, t0 + 2 * B] : [t0];
+    const rolls = p.regular > p.final ? [t0, t0 + 2 * B * CARD / 8] : [t0];
     rolls.forEach((r) => { for (let j = 0; j < 8; j++) cues.push([r + 0.03 + j * 0.05, "tick"]); cues.push([r + 0.45, "coin"]); });
-    cues.push([t0 + 1.5 * B, "sparkle"]);
+    cues.push([t0 + 1.5 * B * CARD / 8, "sparkle"]);
     p.facts.forEach((_, j) => { if (j) cues.push([t0 + FACT_AT[j] * B, "pop"]); });
   });
   cues.push([tGrid, "riser"], [tGrid, "impact"], ...P.map((_, i) => [tGrid + (i + 1) * B / 2, "pop"]), [tGrid + 4 * B, "sparkle"]);
@@ -237,7 +237,8 @@
   });
   window.SCENE = {
     duration: DUR, build, cues,
-    music: { bpm: D.music.bpm, seed: D.music.seed, t0: 0, sections: [[0, "intro"], [tCard(0), "main"], [tGrid, "grid"], [tCode, "break"], [tCode + 5 * B, "end"]] },
+    music: { style: D.music.style || "bounce", bpm: D.music.bpm, seed: D.music.seed, hook: D.music.hook || "impact", ...(D.music.lead ? { lead: D.music.lead } : {}),
+      ...(D.music.swing !== undefined ? { swing: D.music.swing } : {}), t0: 0, sections: [[0, "intro"], [tCard(0), "main"], [tGrid, "grid"], [tCode, "break"], [tCode + 5 * B, "end"]] },
     caption: `#EpicPartner Today's Fortnite Item Shop (${D.dateLabel}): ${short(lead.name)} for ${num(lead.final)} V-Bucks and ${N - 1} more picks.\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteItemShop`,
     claims,
   };

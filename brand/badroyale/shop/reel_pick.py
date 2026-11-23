@@ -12,7 +12,7 @@ What gets a card (all straight from Epic's shop data, mirrored by fortnite-api.c
 Anything shown yesterday is skipped unless it leaves at the next reset, so the video changes every day.
 Nothing here is opinion: no "worth it" verdicts, only prices, dates and seasons.
 """
-import datetime, hashlib, io, json, os, re, sys, time, urllib.request
+import datetime, json, os, re, sys, time, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 API = "https://fortnite-api.com"
@@ -191,10 +191,12 @@ def main():
                         "[1]scale=540:540[f];[0][f]overlay=format=auto,gblur=sigma=26", "-frames:v", "1", "-q:v", "3", os.path.join(out, "img", "bg_" + c["key"] + ".jpg")], check=True)
     open(os.path.join(out, "img", "vbuck.png"), "wb").write(get(shop["vbuckIcon"]))
 
-    # the music changes a little every day (tempo, key, melody), seeded by the date
-    h = int(hashlib.sha1(day.encode()).hexdigest(), 16)
+    # the music: the audio lab picks today's style (tempo, opening hook, lead) and the date seeds the key and melody;
+    # a test build (--out) doesn't count as a trial
+    import audio_lab
+    music = audio_lab.pick(day, len(cards), dry="--out" in sys.argv)
     plan = {"date": day, "dateLabel": mon(d0), "offers": sum(1 for e in shop["entries"] if e.get("brItems")), "picks": cards, "hero": [c["key"] for c in cards[:3]],
-            "newCount": sum(1 for o in offers if o["in"] == day), "music": {"bpm": [112, 116, 120, 124][h % 4], "seed": h % 100000}}
+            "newCount": sum(1 for o in offers if o["in"] == day), "music": music}
     json.dump(plan, open(os.path.join(out, "plan.json"), "w"), indent=1, ensure_ascii=False)
     open(os.path.join(out, "plan.js"), "w").write("window.SHOP=" + json.dumps(plan, ensure_ascii=False) + ";\n")
 
@@ -203,7 +205,7 @@ def main():
         {"file": "shop.json", "source": f"Item Shop for {day}", "url": f"{API}/v2/shop", "fetched_utc": now},
         {"file": "plan.json", "source": "Counts computed from shop.json by reel_pick.py", "url": f"{API}/v2/shop", "fetched_utc": now}]},
         open(os.path.join(out, "manifest.json"), "w"), indent=1)
-    print(json.dumps({"date": day, "offers": len(offers), "bpm": plan["music"]["bpm"],
+    print(json.dumps({"date": day, "offers": len(offers), "music": music,
                       "cards": [[c["tag"], c["name"], c["final"], c["facts"]] for c in cards]}, indent=1, ensure_ascii=False))
 
 

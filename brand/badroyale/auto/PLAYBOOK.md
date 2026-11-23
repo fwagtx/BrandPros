@@ -48,6 +48,10 @@ never post something that didn't pass.** A skipped slot costs nothing; a wrong p
    the date and "today's item shop 🛒" with three cards in the first second, one card per offer with rotating fact
    stickers (new today first, so it changes every day), a grid with "what are you buying? 👇", then the code typed
    into a creator code box and "thank you for watching! 💛 follow for more daily content" (reel_pick.py + reel.js).
+   The music is an experiment that never stops: audio_lab.py rotates original styles (bounce, house, trap, phonk,
+   chiptune; each with its own tempo, opening hook and lead sound), scores each video from Metricool three days later
+   (Instagram skip rate and watch time, views everywhere; DAY step 9b), plays the winners more and swaps the weakest
+   for a mutation of the best or a fresh style. The SHOP log line names the variant used.
 
 ## Schedule (all times America/Chicago)
 
@@ -208,7 +212,17 @@ which three angles went out, or why one couldn't.
 8. Add each posted topic to `brand/badroyale/auto/ledger.json` (`{"topics": [{"date", "format", "topic"}]}`).
 9. Check yesterday: `getScheduledPosts` for D-1; any network whose status is not PUBLISHED goes in the summary
    with its detailedStatus.
-10. Log line, `git add brand/badroyale/video/auto brand/badroyale/auto brand/badroyale/sources`, commit, push.
+9b. **Audio lab (owner, 2026-11-23: "keep changing those attention grabbing audios around to find the best ones").**
+   Each shop reel's music is one variant picked by `brand/badroyale/shop/audio_lab.py`; here the shop videos that are
+   3+ days old get scored. Call `getAnalyticsDataByMetrics` three times, brandId 7408112, from D-10 00:00 to D-2
+   23:59 (-06:00), and save each response exactly as returned (the JSON with "rows") to a file in the scratchpad:
+   Instagram `["IGRE02","IGRE03","IGRE23","IGRE24","IGRE28","IGRE30"]` → ig.json, TikTok
+   `["TKPO02","TKPO05","TKPO06","TKPO07"]` → tt.json, YouTube `["YTVP02","YTVP17","YTVP06","YTVP08"]` → yt.json (keep
+   the metric order). Then `python3 brand/badroyale/shop/audio_lab.py score ig.json tt.json yt.json`. It records
+   what's new, retires the weakest variant and breeds a new one when the scores are clear, and prints the table.
+   Never edit audio_lab.json by hand. Put the top line of the table (best variant and its score, and the old-voice
+   baseline's) in the log line, and any EVOLVED line in the summary.
+10. Log line, `git add brand/badroyale/video/auto brand/badroyale/auto brand/badroyale/sources brand/badroyale/shop/audio_lab.json`, commit, push.
 11. Summary: each slot's format, topic, time and networks, or why it was skipped; yesterday's failures.
 
 ## Facts change: pull outdated posts

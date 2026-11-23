@@ -1,0 +1,272 @@
+{
+ "variants": {
+  "bounce-a": {
+   "style": "bounce",
+   "bpm": 116,
+   "hook": "impact",
+   "born": "2026-11-24",
+   "active": true,
+   "parent": null
+  },
+  "house-a": {
+   "style": "house",
+   "bpm": 124,
+   "hook": "stutter",
+   "born": "2026-11-24",
+   "active": true,
+   "parent": null
+  },
+  "trap-a": {
+   "style": "trap",
+   "bpm": 140,
+   "hook": "arp",
+   "born": "2026-11-24",
+   "active": true,
+   "parent": null
+  },
+  "phonk-a": {
+   "style": "phonk",
+   "bpm": 126,
+   "hook": "impact",
+   "born": "2026-11-24",
+   "active": true,
+   "parent": null
+  },
+  "chip-a": {
+   "style": "chip",
+   "bpm": 128,
+   "hook": "arp",
+   "born": "2026-11-24",
+   "active": true,
+   "parent": null
+  },
+  "old-voice": {
+   "style": "voice",
+   "bpm": null,
+   "hook": "voice",
+   "born": "2026-10-28",
+   "active": false,
+   "parent": null,
+   "note": "the voiced shop video before 2026-11-24 (baseline)"
+  }
+ },
+ "trials": [
+  {
+   "day": "2026-11-09",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 295.0,
+    "ig_avg": 7.215,
+    "ig_skip": 49.2,
+    "tt_views": 576.0,
+    "duration_tt": 22.0,
+    "yt_views": 5.0,
+    "yt_avg": 7.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-10",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 1068.0,
+    "ig_avg": 10.874,
+    "ig_skip": 31.4,
+    "tt_views": 918.0,
+    "duration_tt": 22.0,
+    "yt_views": 15.0,
+    "yt_avg": 13.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-11",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 23.0,
+   "metrics": {
+    "ig_views": 1428.0,
+    "ig_avg": 16.247,
+    "ig_skip": 36.8,
+    "tt_views": 538.0,
+    "duration_tt": 23.0,
+    "yt_views": 8.0,
+    "yt_avg": 6.0,
+    "duration": 23.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-12",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 23.0,
+   "metrics": {
+    "ig_views": 806.0,
+    "ig_avg": 11.788,
+    "ig_skip": 34.5,
+    "tt_views": 507.0,
+    "duration_tt": 23.0,
+    "yt_views": 10.0,
+    "yt_avg": 9.0,
+    "duration": 23.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 284.0,
+    "ig_avg": 7.68,
+    "ig_skip": 40.9,
+    "tt_views": 460.0,
+    "duration_tt": 22.0,
+    "yt_views": 51.0,
+    "yt_avg": 8.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-14",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 656.0,
+    "ig_avg": 9.599,
+    "ig_skip": 33.6,
+    "tt_views": 665.0,
+    "duration_tt": 22.0,
+    "yt_views": 6.0,
+    "yt_avg": 3.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-15",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 1437.0,
+    "ig_avg": 9.38,
+    "ig_skip": 40.4,
+    "tt_views": 1832.0,
+    "duration_tt": 22.0,
+    "yt_views": 10.0,
+    "yt_avg": 9.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-16",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 408.0,
+    "ig_avg": 8.625,
+    "ig_skip": 38.1,
+    "tt_views": 1113.0,
+    "duration_tt": 22.0,
+    "yt_views": 6.0,
+    "yt_avg": 13.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-17",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 620.0,
+    "ig_avg": 9.861,
+    "ig_skip": 33.3,
+    "tt_views": 1407.0,
+    "duration_tt": 22.0,
+    "yt_views": 16.0,
+    "yt_avg": 12.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-18",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 209.0,
+    "ig_avg": 9.526,
+    "ig_skip": 32.2,
+    "tt_views": 1502.0,
+    "duration_tt": 22.0,
+    "yt_views": 17.0,
+    "yt_avg": 11.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-19",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 156.0,
+    "ig_avg": 8.529,
+    "ig_skip": 48.2,
+    "tt_views": 1332.0,
+    "duration_tt": 22.0,
+    "yt_views": 3.0,
+    "yt_avg": 7.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  },
+  {
+   "day": "2026-11-20",
+   "variant": "old-voice",
+   "seed": null,
+   "duration": 22.0,
+   "metrics": {
+    "ig_views": 298.0,
+    "ig_avg": 8.318,
+    "ig_skip": 41.0,
+    "tt_views": 726.0,
+    "duration_tt": 22.0,
+    "yt_views": 1.0,
+    "yt_avg": 0.0,
+    "duration": 22.0,
+    "final": true,
+    "saved": "2026-11-23"
+   }
+  }
+ ],
+ "evolutions": []
+}
