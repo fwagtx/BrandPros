@@ -38,3 +38,15 @@ __pycache__/
 # long-video thumbnail art and renders (media, not committed)
 brand/badroyale/long/thumbs/art/
 brand/badroyale/long/thumbs/out/
+
+# Bad Tienda de Hoy: models and heavy per-day files stay out of git (Metricool keeps the posted copies)
+brand/badtiendadehoy/voice/models/
+brand/badtiendadehoy/shop/20*-*/api/
+brand/badtiendadehoy/shop/20*-*/img/
+brand/badtiendadehoy/shop/20*-*/bg/
+brand/badtiendadehoy/shop/20*-*/vo/*.wav
+brand/badtiendadehoy/shop/20*-*/*.mp4
+brand/badtiendadehoy/shop/20*-*/*.jpg
+brand/badtiendadehoy/shop/20*-*/video.html
+brand/badtiendadehoy/shop/20*-*/still_*
+brand/badtiendadehoy/shop/20*-*/qa/t*.jpg

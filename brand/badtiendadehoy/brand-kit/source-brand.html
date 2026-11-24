@@ -1,0 +1,101 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Figtree;src:url(../fonts/figtree.woff2);font-weight:300 900}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#111;font-family:Figtree,'Noto Color Emoji',sans-serif}
+:root{--lime:#e6ff3a;--ink:#111}
+.asset{position:relative;overflow:hidden;display:none;background:radial-gradient(ellipse 75% 75% at 50% 45%,#7ee83a 0%,#2f9a1c 100%)}
+.asset.on{display:block}
+.center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+/* logo block (designed at 1080 scale, scaled with --s) */
+.logo{display:flex;flex-direction:column;align-items:center;transform:scale(var(--s,1));transform-origin:center}
+.stack{position:relative;font-weight:900;font-size:360px;letter-spacing:-10px;line-height:1}
+.stack span{display:block}
+.stack .back{-webkit-text-stroke:52px #000;color:#000}
+.stack .front{position:absolute;left:0;top:0;color:#fff}
+.pill{margin-top:20px;background:#fff;color:var(--ink);font-weight:900;font-size:72px;padding:14px 38px 20px;border-radius:24px;transform:rotate(-3deg);box-shadow:0 12px 0 rgba(0,0,0,.35);white-space:nowrap}
+/* decorative shop cards */
+.card{position:absolute;border-radius:28px;border:4px solid rgba(255,255,255,.35);box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.card .p{position:absolute;left:50%;bottom:8%;transform:translateX(-50%);background:#fff;color:#111;font-weight:900;border-radius:12px;padding:2px 14px 6px;white-space:nowrap}
+.blue{background:radial-gradient(ellipse 80% 75% at 50% 45%,#2fb3f0,#1d5fd6)}
+.purple{background:radial-gradient(ellipse 80% 75% at 50% 45%,#c45cff,#6a1fc4)}
+.teal{background:radial-gradient(ellipse 80% 75% at 50% 45%,#56dde3,#13868f)}
+.orange{background:radial-gradient(ellipse 80% 75% at 50% 45%,#ffb347,#c2571a)}
+.lime{background:radial-gradient(ellipse 80% 75% at 50% 45%,#f3ff8a,#c9e000)}
+/* banner text */
+.tag{color:#fff;font-weight:900;text-shadow:0 6px 0 rgba(0,0,0,.35);line-height:1.05}
+.sub{display:inline-block;background:rgba(10,30,10,.55);color:#fff;font-weight:800;border-radius:16px}
+.sticker{display:inline-block;background:var(--lime);color:var(--ink);border-radius:22px;transform:rotate(-3deg);box-shadow:0 10px 0 rgba(0,0,0,.3)}
+.sticker .a{font-weight:800;letter-spacing:1px}
+.sticker .b{font-weight:900;line-height:.9;letter-spacing:-3px}
+.ep{color:#fff;font-weight:800;text-shadow:0 2px 4px rgba(0,0,0,.5)}
+.guide{position:absolute;border:6px dashed rgba(255,0,80,.9);pointer-events:none;display:none}
+body.guides .guide{display:block}
+</style></head><body>
+
+<!-- square profile picture (rendered at any size via --size) -->
+<div class="asset" id="profile" style="width:1080px;height:1080px">
+  <div class="center"><div class="logo"><div class="stack"><span class="back">BAD</span><span class="front">BAD</span></div><div class="pill">TIENDA DE HOY 🛒</div></div></div>
+</div>
+
+<!-- YouTube banner 2560x1440, safe area 1546x423 centred -->
+<div class="asset" id="yt" style="width:2560px;height:1440px">
+  <div class="card blue"   style="left:120px; top:140px; width:330px;height:420px;transform:rotate(-8deg)"><div class="p" style="font-size:44px">1,200</div></div>
+  <div class="card purple" style="left:520px; top:60px;  width:300px;height:380px;transform:rotate(5deg)"><div class="p" style="font-size:40px">1,500</div></div>
+  <div class="card teal"   style="left:1780px;top:70px;  width:300px;height:380px;transform:rotate(-6deg)"><div class="p" style="font-size:40px">800</div></div>
+  <div class="card orange" style="left:2140px;top:160px; width:330px;height:420px;transform:rotate(7deg)"><div class="p" style="font-size:44px">2,000</div></div>
+  <div class="card lime"   style="left:180px; top:950px; width:330px;height:420px;transform:rotate(6deg)"><div class="p" style="font-size:44px">500</div></div>
+  <div class="card teal"   style="left:560px; top:1030px;width:300px;height:380px;transform:rotate(-5deg)"><div class="p" style="font-size:40px">1,200</div></div>
+  <div class="card purple" style="left:1720px;top:1020px;width:300px;height:380px;transform:rotate(6deg)"><div class="p" style="font-size:40px">3,200</div></div>
+  <div class="card blue"   style="left:2110px;top:940px; width:330px;height:420px;transform:rotate(-7deg)"><div class="p" style="font-size:44px">800</div></div>
+  <!-- safe area content -->
+  <div style="position:absolute;left:507px;top:508px;width:1546px;height:423px;display:flex;align-items:center;justify-content:space-between;padding:0 30px">
+    <div class="logo" style="--s:.56;margin:-240px -150px -240px -150px"><div class="stack"><span class="back">BAD</span><span class="front">BAD</span></div><div class="pill">TIENDA DE HOY 🛒</div></div>
+    <div style="display:flex;flex-direction:column;align-items:flex-start;gap:24px;width:930px">
+      <div class="tag" style="font-size:72px;white-space:nowrap">LA TIENDA DE FORTNITE,<br>TODOS LOS DÍAS</div>
+      <div style="display:flex;align-items:center;gap:24px">
+        <div class="sticker" style="padding:10px 24px 12px;white-space:nowrap"><div class="a" style="font-size:24px">USA EL CÓDIGO:</div><div class="b" style="font-size:72px">BAD</div></div>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div class="sub" style="font-size:34px;padding:8px 18px 10px;white-space:nowrap">Precios, ofertas y lo que se va hoy ⏰</div>
+          <div class="ep" style="font-size:26px">#EpicPartner</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="guide" style="left:507px;top:508px;width:1546px;height:423px"></div>
+</div>
+
+<!-- Facebook cover 1640x624 (desktop shows all; phones show the middle ~1110px) -->
+<div class="asset" id="fb" style="width:1640px;height:624px">
+  <div class="card blue"   style="left:40px;  top:70px;  width:200px;height:260px;transform:rotate(-8deg)"><div class="p" style="font-size:30px">1,200</div></div>
+  <div class="card purple" style="left:70px;  top:360px; width:180px;height:230px;transform:rotate(6deg)"><div class="p" style="font-size:28px">1,500</div></div>
+  <div class="card orange" style="left:1400px;top:60px;  width:200px;height:260px;transform:rotate(7deg)"><div class="p" style="font-size:30px">2,000</div></div>
+  <div class="card teal"   style="left:1390px;top:360px; width:180px;height:230px;transform:rotate(-6deg)"><div class="p" style="font-size:28px">800</div></div>
+  <div style="position:absolute;left:265px;top:0;width:1110px;height:624px;display:flex;align-items:center;justify-content:center;gap:40px">
+    <div class="logo" style="--s:.5;margin:-250px -150px"><div class="stack"><span class="back">BAD</span><span class="front">BAD</span></div><div class="pill">TIENDA DE HOY 🛒</div></div>
+    <div style="display:flex;flex-direction:column;align-items:flex-start;gap:16px">
+      <div class="tag" style="font-size:58px">LA TIENDA DE FORTNITE,<br>TODOS LOS DÍAS</div>
+      <div style="display:flex;align-items:center;gap:18px">
+        <div class="sticker" style="padding:8px 18px 10px"><div class="a" style="font-size:19px">USA EL CÓDIGO:</div><div class="b" style="font-size:56px">BAD</div></div>
+        <div class="ep" style="font-size:22px">#EpicPartner</div>
+      </div>
+    </div>
+  </div>
+  <div class="guide" style="left:265px;top:0;width:1110px;height:624px"></div>
+</div>
+
+<!-- YouTube video watermark 150x150, transparent -->
+<div class="asset" id="wm" style="width:150px;height:150px;background:transparent">
+  <div style="position:absolute;inset:6px;border-radius:50%;background:radial-gradient(ellipse 75% 75% at 50% 45%,#7ee83a 0%,#2f9a1c 100%);border:5px solid #fff"></div>
+  <div class="center"><div class="stack" style="font-size:54px;letter-spacing:-2px"><span class="back" style="-webkit-text-stroke:9px #000">BAD</span><span class="front">BAD</span></div></div>
+</div>
+
+<script>
+window.show = (id, guides) => {
+  document.querySelectorAll('.asset').forEach(e => e.classList.toggle('on', e.id === id));
+  document.body.classList.toggle('guides', !!guides);
+  document.body.style.background = id === 'wm' ? 'transparent' : '#111';
+};
+</script>
+</body></html>

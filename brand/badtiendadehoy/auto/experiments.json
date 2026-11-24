@@ -1,0 +1,14 @@
+{
+ "note": "One variable per week (controlled test). The WEEKLY run reads the results, moves the winner into defaults, and adds the next test. History and conclusions live in auto/learnings.md.",
+ "defaults": {"slot": "evening", "hook": "greet", "music": {"style": "bounce", "bpm": 116, "hook": "impact"}},
+ "schedule": [
+  {"id": "E1-hook", "from": "2026-11-25", "to": "2026-12-01",
+   "question": "Does opening on the bundle saving ('¡Ojo! Hoy te puedes ahorrar…') hold viewers better than the greeting ('¡Qué onda, banda!…')?",
+   "measure": "Instagram skip rate (IGRE30, lower is better) and avg watch time (IGRE24); TikTok full-watch rate (TKPO13) and avg time watched (TKPO15); views at 72 h on all networks.",
+   "variants": [{"name": "greet", "hook": "greet"}, {"name": "stat", "hook": "stat"}]},
+  {"id": "E2-time", "from": "2026-12-02", "to": "2026-12-08",
+   "question": "Right after the reset (6:40 PM CST) or later in the evening (8:15 PM CST)?",
+   "measure": "Views and reach at 72 h per network; follows gained.",
+   "variants": [{"name": "evening", "slot": "evening"}, {"name": "late", "slot": "late"}]}
+ ]
+}
