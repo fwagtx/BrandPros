@@ -53,6 +53,10 @@ const clamp = (x,a=0,b=1)=>Math.max(a,Math.min(b,x));
 const ease = (x)=>1-Math.pow(1-clamp(x),3);
 function pop(dt, d=0.25){ if(dt<0) return 0; const x=clamp(dt/d); if(x>=1) return 1; return x<0.7? (x/0.7)*1.08 : 1.08-(x-0.7)/0.3*0.08; }
 const stack = (txt, size, stroke, cls='') => `<div class="stack ${cls}" style="font-size:${size}px"><span class="back" style="-webkit-text-stroke:${stroke}px #000">${txt}</span><span class="front">${txt}</span></div>`;
+// long names go on two lines, split at the space nearest the middle
+const wrapName = n => { if (n.length <= 22) return n; const mid = n.length/2; let best=-1;
+  for (let i=0;i<n.length;i++) if (n[i]===' ' && (best<0 || Math.abs(i-mid)<Math.abs(best-mid))) best=i;
+  return best<0 ? n : n.slice(0,best)+'<br>'+n.slice(best+1); };
 const RAR = r => ['common','uncommon','rare','epic','legendary','icon'].includes(r) ? 'r-'+r : 'r-other';
 const B = D.bundles;
 
@@ -98,8 +102,8 @@ if (MODE === 'thumb') {
     el.innerHTML = `
       <div class="abs card c" style="left:110px;top:170px;width:820px;height:820px"><img src="${b.img}"></div>
       <div class="abs num n" style="left:850px;top:130px">${i+1}</div>
-      <div class="abs nm" style="left:1010px;top:200px;max-width:860px">${stack(b.name, b.name.length>18?78:100, 18)}</div>
-      <div class="abs pill pwhite cnt" style="left:1014px;top:${b.name.length>18?300:330}px;font-size:40px;padding:8px 20px 12px;transform:rotate(-2deg)">${b.count} objetos${b.new?' · 🆕 llegó hoy':''}</div>
+      <div class="abs nm" style="left:1010px;top:${b.name.length>22?150:200}px;max-width:860px">${stack(wrapName(b.name), b.name.length>22?70:(b.name.length>18?78:100), 16)}</div>
+      <div class="abs pill pwhite cnt" style="left:1014px;top:${b.name.length>22?330:(b.name.length>18?300:330)}px;font-size:40px;padding:8px 20px 12px;transform:rotate(-2deg)">${b.count} objetos${b.new?' · 🆕 llegó hoy':''}</div>
       <div class="abs reg" style="left:1010px;top:430px"><div class="stack" style="font-size:96px"><span class="back" style="-webkit-text-stroke:16px #000">${fmt(b.regular)}</span><span class="front">${fmt(b.regular)}</span><div class="strike"></div></div><div class="pill pdark" style="font-size:28px;padding:4px 12px 6px;margin-left:8px;vertical-align:30px">precio normal</div></div>
       <div class="abs fin" style="left:1010px;top:560px">${stack(fmt(b.price), 150, 24, 'lime')}<div class="pill pdark" style="font-size:32px;padding:4px 14px 8px;margin-left:10px;vertical-align:50px">monedas V</div></div>
       <div class="abs pill plime sv" style="left:1014px;top:740px;font-size:46px;padding:10px 24px 14px;transform:rotate(-2deg);box-shadow:0 8px 0 rgba(0,0,0,.3)">Te ahorras ${fmt(b.save)} (${b.pct}%) 🔥</div>

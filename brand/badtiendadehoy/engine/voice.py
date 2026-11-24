@@ -69,7 +69,7 @@ def auto_lines(ep, seed, hook="greet"):
     segs = ep["segments"]
     bundle = segs[0]
     if hook == "stat" and bundle["kind"] == "bundle":
-        first = f"¡Ojo! Hoy te puedes ahorrar {words_f(bundle['regular'] - bundle['price'])} monedas V… mira esto."
+        first = f"¡Ojo! Hoy te puedes ahorrar {words_f(bundle['regular'] - bundle['price'])} monedas… mira esto."
     else:
         first = pick(["¡Qué onda, banda! Ya cambió la tienda… y hoy viene con todo.",
                       "¡Qué onda, banda! Ya está la tienda nueva… vamos a ver qué hay.",

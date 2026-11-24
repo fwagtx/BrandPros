@@ -81,7 +81,7 @@ for k, b in enumerate(picks, 1):
     who = (", ".join(say(o) for o in b["outfits"][:2]) if b["outfits"] else "")
     t = [f"Número {words(k)}: el lote de {n}."]
     t.append(f"Trae {words(b['count'])} objetos" + (f", con {who}" if who else "") + ("… y más." if b["count"] > 2 else "."))
-    t.append(f"Por separado costaría {words_f(b['regular'])} monedas V… y el lote está en {words_f(b['price'])}.")
+    t.append(f"Por separado costaría {words_f(b['regular'])} monedas… y el lote está en {words_f(b['price'])}.")
     t.append(f"¡Te ahorras {words_f(b['save'])}! O sea, el {words(b['pct'])} por ciento.")
     if b["new"]:
         t.append("Y ojo: llegó hoy a la tienda.")
