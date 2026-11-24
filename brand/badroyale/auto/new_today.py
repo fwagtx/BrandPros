@@ -52,8 +52,27 @@ def manifest(folder, files):
 
 def write(folder, tpl, cfg, phrases, post, comment):
     open(os.path.join(folder, "scene.js"), "w").write(f"/* BAD ROYALE · {comment}. Facts: sources/. */\nwindow.SCENE = TPL.{tpl}(" + json.dumps(cfg, indent=1, ensure_ascii=False) + ");\n")
-    json.dump({"phrases": [{"text": t, "pause": p} for t, p in phrases]}, open(os.path.join(folder, "vo.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump({"phrases": [spoken(t, p) for t, p in phrases]}, open(os.path.join(folder, "vo.json"), "w"), indent=1, ensure_ascii=False)
     json.dump(post, open(os.path.join(folder, "post.json"), "w"), indent=1, ensure_ascii=False)
+
+
+MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+
+def spoken(text, pause):
+    """vo phrase; adds "say" when the written form reads badly aloud (11/28 -> November 28th, + -> and, 2X -> double)"""
+    def md(m):
+        mo, d = int(m.group(1)), int(m.group(2))
+        if not (1 <= mo <= 12 and 1 <= d <= 31):
+            return m.group(0)
+        return f"{MONTHS[mo - 1]} {d}{'th' if 10 <= d % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(d % 10, 'th')}"
+    s = re.sub(r"\b(\d{1,2})/(\d{1,2})\b", md, text)
+    s = re.sub(r"\s\+\s", " and ", s)
+    s = re.sub(r"\b2X\b", "double", s)
+    d = {"text": text, "pause": pause}
+    if s != text:
+        d["say"] = s
+    return d
 
 
 def captions(body, fb_title, tt_title, yt_title, tags, tag3):
@@ -78,14 +97,14 @@ def pick_news(folder, today, used):
     # Epic also rotates evergreen gameplay tips through the feed ("Open Chests for the Best Loot"); only a tile that talks
     # about something current counts as news
     current = re.compile(r"\b(new|now|event|limited|update|available|returns?|until|this week|today|collab\w*|quests?|fortnitemares|winterfest|"
-                         r"reload|season|chapter|battle pass|tournament|cup|ranked|live)\b", re.I)
+                         r"reload|season|chapter|battle pass|tournament|cup|ranked|live|starting|starts?|community day|[12]X)\b", re.I)
     fresh = [m for m in motds if m["id"] not in seen and not any(m["title"] in t for t in used) and current.search(f"{m['title']} {m.get('body') or ''}")]
     if not fresh:
         return None
     m = fresh[0]
     title = m["title"].strip()
     sents = [s.strip() for s in re.split(r"(?<=[.!?…])\s+", (m.get("body") or "").strip()) if s.strip()]
-    sents = [s for s in sents if len(s) <= 160][:2]
+    sents = [s for s in sents if len(s) <= 180][:2]
     if not sents:
         return None
     os.makedirs(os.path.join(folder, "sources"), exist_ok=True)
@@ -102,6 +121,7 @@ def pick_news(folder, today, used):
     body = f"New in Fortnite's in-game news 📰 {title}\n{sents[0]}\nWhat do you think? 👇"
     post = captions(body, f"New in Fortnite: {title}", f"New in Fortnite: {title} 📰", f"New in Fortnite: {title} 📰 #Shorts",
                     ["fortnite", "fortnite news", "fortnite update", f"{title.lower()} fortnite", "fortnite today"], "#fortnite #fortnitenews #fortniteupdate")
+    post["cover"] = {"lines": ["New in"], "big": "Fortnite", "chip": title, "map": [1024, 1024]}   # cover.py has no auto spec for news
     write(folder, "news", cfg, phrases, post, f"In-game news: {title}")
     return {"pick": "news", "name": title, "topic": f"News tile: {title}"}
 

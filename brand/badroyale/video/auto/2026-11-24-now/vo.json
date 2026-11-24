@@ -1,0 +1,40 @@
+{
+ "phrases": [
+  {
+   "text": "Fortnite just put this in the in-game news!",
+   "pause": 0.2
+  },
+  {
+   "text": "Golden Week + Community Day.",
+   "pause": 0.25,
+   "say": "Golden Week and Community Day."
+  },
+  {
+   "text": "Starting 11/28, refreshed loot meets unvaulted Treasure during Golden Week, where each Captain’s golden goods are back in Chests alongside 2X Sprite Dust and XP!",
+   "pause": 0.2,
+   "say": "Starting November 28th, refreshed loot meets unvaulted Treasure during Golden Week, where each Captain’s golden goods are back in Chests alongside double Sprite Dust and XP!"
+  },
+  {
+   "text": "Then, hop aboard for Community Day on 12/5.",
+   "pause": 0.2,
+   "say": "Then, hop aboard for Community Day on December 5th."
+  },
+  {
+   "text": "What do you think? Tell me in the comments.",
+   "pause": 0.2
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

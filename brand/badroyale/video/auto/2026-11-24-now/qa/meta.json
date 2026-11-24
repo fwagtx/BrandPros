@@ -1,0 +1,67 @@
+{
+ "duration": 23.9,
+ "caption": "#EpicPartner New in Fortnite's in-game news 📰 Golden Week + Community Day",
+ "claims": [
+  {
+   "text": "In-game news tile: Golden Week + Community Day",
+   "source": "news.json",
+   "match": [
+    "Golden Week + Community Day"
+   ]
+  },
+  {
+   "text": "The tile says: Starting 11/28, refreshed loot meets unvaulted Treasure during Golden Week, where each Captain’s golden goods are back in Chests alongside 2X Sprite Dust and XP!",
+   "source": "news.json",
+   "match": [
+    "Starting 11/28, refreshed loot meets unvaulted Treasure during Golden Week, where each Captain’s golden goods are back in Chests alongside 2X Sprite Dust and XP!"
+   ]
+  },
+  {
+   "text": "The tile says: Then, hop aboard for Community Day on 12/5.",
+   "source": "news.json",
+   "match": [
+    "Then, hop aboard for Community Day on 12/5."
+   ]
+  }
+ ],
+ "text": [
+  "NEW IN FORTNITE / GOLDEN WEEK + COMMUNITY DAY",
+  "STARTING 11/28, REFRESHED LOOT MEETS UNVAULTED TREASURE DURING GOLDEN WEEK, WHERE EACH CAPTAIN’S GOLDEN GOODS ARE BACK IN CHESTS ALONGSIDE 2X SPRITE DUST AND XP!",
+  "THEN, HOP ABOARD FOR COMMUNITY DAY ON 12/5.",
+  "JUST ADDED / IN FORTNITE",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "FORTNITE JUST PUT",
+  "THIS IN THE",
+  "IN-GAME NEWS!",
+  "GOLDEN WEEK +",
+  "COMMUNITY DAY.",
+  "STARTING 11/28,",
+  "REFRESHED LOOT MEETS",
+  "UNVAULTED TREASURE DURING",
+  "GOLDEN WEEK,",
+  "WHERE EACH CAPTAIN’S",
+  "GOLDEN GOODS ARE",
+  "BACK IN CHESTS",
+  "ALONGSIDE 2X SPRITE",
+  "DUST AND XP!",
+  "THEN,",
+  "HOP ABOARD FOR",
+  "COMMUNITY DAY ON",
+  "12/5.",
+  "WHAT DO YOU",
+  "THINK?",
+  "TELL ME IN",
+  "THE COMMENTS.",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}
