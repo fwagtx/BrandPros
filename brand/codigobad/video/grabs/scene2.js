@@ -51,7 +51,7 @@
     const items = ITEMS.map((it, i) => {
       const g = mk(stage, `inset:0`);
       const numEl = mk(g, `right:60px;top:245px;${INTER(150)};color:${WHITE};-webkit-text-stroke:12px ${INK};paint-order:stroke fill;line-height:1`, `#${it.n}`);
-      const name = pill(g, `right:60px;top:410px`, it.name, it.name.length > 34 ? 30 : it.name.length > 18 ? 40 : 46);
+      const name = pill(g, `right:60px;top:410px`, it.name, it.name.length > 34 ? 30 : it.name.length > 26 ? 34 : it.name.length > 18 ? 40 : 46);
       const card = tile(g, it, 640, 900, `left:220px;top:520px`);
       const fact = ITEMS[i].facts.map((f) => pill(g, `left:0;right:0;top:1222px;margin:0 auto;width:max-content`, f, 30, "rgba(10,10,15,.88)", WHITE));
       const worth = pill(g, `left:0;right:0;top:1296px;margin:0 auto;width:max-content`, G.worth || "vale", 26, "rgba(10,10,15,.88)", WHITE);

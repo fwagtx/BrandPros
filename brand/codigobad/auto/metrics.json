@@ -176,7 +176,7 @@
    "date": "2026-11-21",
    "series": "long og25",
    "network": "youtube",
-   "views": null,
+   "views": 463,
    "reach": null,
    "retention": null,
    "avg_watch_s": null,
@@ -197,38 +197,37 @@
    "date": "2026-11-22",
    "series": "s1 voltou pra loja",
    "network": "instagram",
-   "views": 33,
-   "reach": 25,
-   "retention": 64.0,
-   "avg_watch_s": 4.5,
+   "views": 54,
+   "reach": 45,
+   "retention": 71.1,
+   "avg_watch_s": 3.4,
    "interactions": 0
   },
   {
    "date": "2026-11-22",
    "series": "sai hoje",
    "network": "instagram",
-   "views": 156,
-   "reach": 145,
-   "retention": 71.4,
-   "avg_watch_s": 6.8,
+   "views": 171,
+   "reach": 159,
+   "retention": 70.4,
+   "avg_watch_s": 7.5,
    "interactions": 3
   },
   {
    "date": "2026-11-22",
    "series": "chegou hoje",
    "network": "tiktok",
-   "views": 118,
+   "views": 124,
    "reach": null,
    "retention": null,
    "avg_watch_s": null,
-   "interactions": null,
-   "note": "first TikTok per-video rows; date mapping assumed from order"
+   "interactions": null
   },
   {
    "date": "2026-11-22",
    "series": "s1 voltou pra loja",
    "network": "tiktok",
-   "views": 211,
+   "views": 226,
    "reach": null,
    "retention": null,
    "avg_watch_s": null,
@@ -238,7 +237,7 @@
    "date": "2026-11-22",
    "series": "sai hoje",
    "network": "tiktok",
-   "views": 137,
+   "views": 176,
    "reach": null,
    "retention": null,
    "avg_watch_s": null,
@@ -254,6 +253,66 @@
    "avg_watch_s": null,
    "interactions": null,
    "voice": "A"
+  },
+  {
+   "date": "2026-11-23",
+   "series": "chegou hoje",
+   "network": "instagram",
+   "views": 33,
+   "reach": 32,
+   "retention": 60.6,
+   "avg_watch_s": 5.4,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-23",
+   "series": "s1 voltou pra loja",
+   "network": "instagram",
+   "views": 70,
+   "reach": 63,
+   "retention": 67.7,
+   "avg_watch_s": 5.7,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-23",
+   "series": "sai hoje",
+   "network": "instagram",
+   "views": 115,
+   "reach": 100,
+   "retention": 52.0,
+   "avg_watch_s": 9.9,
+   "interactions": 1
+  },
+  {
+   "date": "2026-11-23",
+   "series": "chegou hoje",
+   "network": "tiktok",
+   "views": 84,
+   "reach": null,
+   "retention": null,
+   "avg_watch_s": null,
+   "interactions": null
+  },
+  {
+   "date": "2026-11-23",
+   "series": "s1 voltou pra loja",
+   "network": "tiktok",
+   "views": 200,
+   "reach": null,
+   "retention": null,
+   "avg_watch_s": null,
+   "interactions": null
+  },
+  {
+   "date": "2026-11-23",
+   "series": "sai hoje",
+   "network": "tiktok",
+   "views": 86,
+   "reach": null,
+   "retention": null,
+   "avg_watch_s": null,
+   "interactions": null
   }
  ],
  "notes": [
@@ -276,6 +335,10 @@
   {
    "date": "2026-11-23",
    "review": "Instagram 18 reels, channel median retention 60.9%; series {'chegou hoje': (6, 61.0), 's1': (6, 61.0), 'sai hoje': (6, 60.0)}; no series at 7 videos. 22 Nov sai hoje best yet (156 views, 71% retention, 3 interactions); 22 Nov first short only 33 views (still climbing at review time). TikTok returned per-video views for the first time (118/211/137 for 22 Nov, handle now @codigobad); full-watch rate still empty. YouTube 20 Nov 494 views and a 2nd subscriber; 21-22 Nov not synced, voice B still unmeasured. Keep all. Change none. Test: voice A on today's long video. Watch: the daily 25-oldest long video repeats many outfits between runs (today's #1 Pilantra was also #1 on 18 Nov); candidate topic rotation next week, one variable at a time."
+  },
+  {
+   "date": "2026-11-24",
+   "review": "Instagram 21 reels, channel median retention 60.6%; series {'chegou hoje': (7, 60.6), 's1': (7, 62.5), 'sai hoje': (7, 58.7)}; all series now have 7 videos (17-23 Nov) and every series median is within 5% of the channel median, so no angle change. TikTok views per video (no full-watch rate yet): 22 Nov 124/226/176, 23 Nov 84/200/86; the 14:30 'voltou pra loja' short led TikTok both days. YouTube: 21 Nov 463 views and 2 subscribers (the voice B long day), 22 Nov 472 published-video views; 17 Nov 235 and 18 Nov 202 (voice A days). Channel daily views, not per video, so the voice comparison waits for 4 videos each. Keep all. Change none to format; builder fix: the Tue/Thu/Sat priciest-outfits short now also checks the 7-day memory (4 of today's 5 repeated Saturday) and falls back to returning OGs. Test: voice B on Wednesday's long video."
   }
  ]
 }
