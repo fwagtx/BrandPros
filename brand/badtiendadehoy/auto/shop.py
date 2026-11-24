@@ -131,8 +131,7 @@ def build(D):
     spec = dict(v["music"]); spec["seed"] = int(D.replace("-", "")); spec["sections"] = __import__("timeline").SECTIONS
     sh("python3", os.path.join(ENGINE, "mix_av.py"), os.path.join(shop, "silent.mp4"), os.path.join(shop, "vo", "voice.wav"),
        os.path.join(shop, "video.mp4"), json.dumps(spec))
-    sh("ffmpeg", "-v", "error", "-y", "-ss", "0.6", "-i", os.path.join(shop, "video.mp4"), "-frames:v", "1", "-q:v", "2",
-       os.path.join(shop, "cover.jpg"))
+    sh("node", os.path.join(ENGINE, "cover.js"), shop, os.path.join(shop, "cover.jpg"))   # designed thumbnail
     check(D)
 
 
@@ -164,6 +163,7 @@ def check(D):
         print(f"  {s['i']:2} {s['match']:.2f} said: {s['said']}\n          heard: {s['heard']}")
     print("CHECKS", json.dumps({k: v for k, v in checks.items() if k != "weakest_line"}))
     print("REVIEW SHEET:", os.path.join(shop, "qa", "review-sheet.png"))
+    print("COVER:", os.path.join(shop, "cover.jpg"))
     auto_ok = checks["loudness_ok"] and checks["duration_ok"] and checks["voice_fits"] and checks["speech_ok"]
     print("AUTO CHECKS", "PASS" if auto_ok else "FAIL")
 

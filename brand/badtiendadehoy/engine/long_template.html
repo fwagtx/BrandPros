@@ -1,0 +1,175 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Figtree;src:url(FONTDIR/figtree.woff2);font-weight:300 900}
+@font-face{font-family:Anton;src:url(FONTDIR/anton.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#000;font-family:Figtree,'Noto Color Emoji',sans-serif}
+.abs{position:absolute}
+.bg{position:absolute;inset:-60px;background-size:cover;background-position:center;filter:blur(38px) brightness(.55) saturate(1.2);opacity:0}
+#shade{position:absolute;inset:0;background:radial-gradient(ellipse 70% 80% at 30% 50%,rgba(60,170,40,.28) 0%,rgba(0,0,0,.5) 100%)}
+.stack{position:relative;display:inline-block;font-weight:900;line-height:1}
+.stack span{display:block;white-space:nowrap}
+.stack .back{color:#000}
+.stack .front{position:absolute;left:0;top:0;color:#fff}
+.lime .front{color:#e6ff3a}
+#sticker{left:44px;top:36px;transform:rotate(-3deg);transform-origin:left top;background:#e6ff3a;border-radius:16px;padding:10px 18px 4px;box-shadow:0 7px 0 rgba(0,0,0,.3);z-index:30}
+#sticker .a{font-weight:800;font-size:22px;color:#111}
+#sticker .b{font-weight:900;font-size:72px;line-height:.95;color:#111;letter-spacing:-1px}
+#ep{left:50px;top:160px;color:#fff;font-weight:800;font-size:20px;text-shadow:0 2px 4px rgba(0,0,0,.7);z-index:30}
+#datechip{right:44px;top:44px;background:rgba(10,14,20,.8);color:#fff;font-weight:800;font-size:28px;padding:10px 20px 12px;border-radius:14px;z-index:30}
+.pill{display:inline-block;font-weight:800;border-radius:14px;white-space:nowrap}
+.pdark{background:rgba(12,16,22,.85);color:#fff}
+.plime{background:#e6ff3a;color:#111}
+.pwhite{background:#fff;color:#111}
+.card{border-radius:34px;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.5);border:3px solid rgba(255,255,255,.22);background:radial-gradient(ellipse 80% 75% at 50% 42%,#4fd9e3,#167f8c)}
+.card img{position:absolute;left:50%;top:50%;width:96%;transform:translate(-50%,-50%)}
+.num{width:120px;height:120px;border-radius:50%;background:#e6ff3a;color:#111;font-weight:900;font-size:64px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 0 rgba(0,0,0,.35);z-index:12}
+.icon{width:118px;height:118px;border-radius:18px;overflow:hidden;border:2px solid rgba(255,255,255,.25);box-shadow:0 8px 16px rgba(0,0,0,.35)}
+.icon img{width:100%;height:100%}
+.r-common{background:radial-gradient(circle at 50% 40%,#b9c3cc,#6b7883)}.r-uncommon{background:radial-gradient(circle at 50% 40%,#7ee83a,#2f9a1c)}
+.r-rare{background:radial-gradient(circle at 50% 40%,#2fb3f0,#1d5fd6)}.r-epic{background:radial-gradient(circle at 50% 40%,#c45cff,#6a1fc4)}
+.r-legendary{background:radial-gradient(circle at 50% 40%,#ffb347,#c2571a)}.r-icon{background:radial-gradient(circle at 50% 40%,#56dde3,#13868f)}
+.r-other{background:radial-gradient(circle at 50% 40%,#ff7ad9,#8b2bb5)}
+.strike{position:absolute;left:-10px;top:47%;height:14px;background:#ff2b2b;border-radius:7px;box-shadow:0 0 0 4px #000;transform:rotate(-4deg);transform-origin:left center}
+#prog{left:0;bottom:0;height:10px;background:#e6ff3a;z-index:40}
+#dialog{width:900px;background:rgba(14,14,22,.95);border-radius:6px;padding:28px 32px 32px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#dialog .hd{font-family:Anton;font-size:66px;color:#fff;letter-spacing:1px;line-height:1.1;padding-bottom:10px;border-bottom:5px solid #e6ff3a;transform:skewX(-6deg);transform-origin:left}
+#dialog .inp{margin-top:22px;height:68px;background:#f4f4f6;border-radius:3px;font-weight:800;font-size:42px;color:#111;padding:6px 14px;white-space:pre}
+#dialog .row{display:flex;justify-content:space-between;align-items:center;margin-top:20px;height:74px}
+#dialog .epx{color:#fff;font-weight:800;font-size:34px}
+#dialog .btn{background:#e6ff3a;color:#111;font-weight:900;font-size:36px;padding:12px 34px;border-radius:6px}
+#caret{display:inline-block;width:4px;height:42px;background:#111;vertical-align:-6px;margin-left:2px}
+.sac{display:inline-flex;align-items:center;gap:16px;background:#e6ff3a;color:#111;font-weight:900;font-size:46px;padding:14px 30px 16px 16px;border-radius:44px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.sac .ck{width:54px;height:54px;border-radius:50%;background:#111;display:flex;align-items:center;justify-content:center}
+</style></head>
+<body><div id="stage"></div>
+<script>
+const D = __DATA__, TL = __TIMELINE__, MODE = '__MODE__';
+const stage = document.getElementById('stage');
+const add = (html) => { const d = document.createElement('div'); d.innerHTML = html.trim(); const n = d.firstChild; stage.appendChild(n); return n; };
+const fmt = (n) => Math.round(n).toLocaleString('en-US');
+const clamp = (x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease = (x)=>1-Math.pow(1-clamp(x),3);
+function pop(dt, d=0.25){ if(dt<0) return 0; const x=clamp(dt/d); if(x>=1) return 1; return x<0.7? (x/0.7)*1.08 : 1.08-(x-0.7)/0.3*0.08; }
+const stack = (txt, size, stroke, cls='') => `<div class="stack ${cls}" style="font-size:${size}px"><span class="back" style="-webkit-text-stroke:${stroke}px #000">${txt}</span><span class="front">${txt}</span></div>`;
+const RAR = r => ['common','uncommon','rare','epic','legendary','icon'].includes(r) ? 'r-'+r : 'r-other';
+const B = D.bundles;
+
+// ---------- backgrounds
+const bgs = {};
+bgs.intro = add(`<div class="bg" style="background-image:url(${B[0].img})"></div>`);
+B.forEach((b,i)=> bgs['b'+i] = add(`<div class="bg" style="background-image:url(${b.img})"></div>`));
+bgs.top = add(`<div class="bg" style="background-image:url(${B[1] ? B[1].img : B[0].img})"></div>`);
+bgs.outro = add(`<div class="bg" style="background-image:url(${B[0].img})"></div>`);
+add(`<div id="shade"></div>`);
+
+if (MODE === 'thumb') {
+  // 1280x720 thumbnail, drawn at 1920x1080 and scaled by the screenshot
+  document.body.style.background = '#2f9a1c';
+  bgs.intro.style.opacity = 1; bgs.intro.style.filter = 'blur(30px) brightness(.5)';
+  add(`<div class="abs" style="inset:0;background:radial-gradient(ellipse 70% 80% at 30% 50%,rgba(126,232,58,.55),rgba(20,80,15,.75))"></div>`);
+  [2,1,0].forEach((k,j)=>{ if(!B[k]) return; const x=[1180,980,1260][j], y=[140,300,420][j], s=[560,620,560][j];
+    add(`<div class="abs card" style="left:${x}px;top:${y}px;width:${s}px;height:${s}px;transform:rotate(${[8,-4,10][j]}deg)"><img src="${B[k].img}"></div>`); });
+  add(`<div class="abs" style="left:70px;top:210px">${stack('TOP '+B.length, 150, 30)}</div>`);
+  add(`<div class="abs" style="left:70px;top:370px">${stack('LOTES', 230, 40, 'lime')}</div>`);
+  add(`<div class="abs pill plime" style="left:80px;top:650px;font-size:64px;padding:14px 28px 18px;transform:rotate(-3deg);box-shadow:0 10px 0 rgba(0,0,0,.35)">AHORRA HASTA ${fmt(B[0].save)} 🔥</div>`);
+  add(`<div class="abs pill pdark" style="left:84px;top:820px;font-size:44px;padding:10px 22px 14px">${D.publish_es} · código BAD</div>`);
+  add(`<div class="abs" style="left:70px;top:50px;transform:rotate(-4deg);background:#e6ff3a;border-radius:18px;padding:10px 22px 4px;box-shadow:0 8px 0 rgba(0,0,0,.35)"><div style="font-weight:800;font-size:26px;color:#111">USA EL CÓDIGO:</div><div style="font-weight:900;font-size:96px;line-height:.95;color:#111">BAD</div></div>`);
+  window.render = () => {};
+} else {
+  add(`<div id="sticker" class="abs"><div class="a">USA EL CÓDIGO:</div><div class="b">BAD</div></div>`);
+  add(`<div id="ep" class="abs">#EpicPartner</div>`);
+  add(`<div id="datechip" class="abs">Lotes de la tienda · ${D.publish_es}</div>`);
+  const prog = add(`<div id="prog" class="abs"></div>`);
+
+  // ---------- intro
+  const intro = add(`<div class="abs" style="inset:0"></div>`);
+  intro.innerHTML = `
+    <div class="abs" id="i_t1" style="left:120px;top:250px">${stack('TOP '+B.length, 140, 26)}</div>
+    <div class="abs" id="i_t2" style="left:120px;top:400px">${stack('LOTES', 230, 38, 'lime')}</div>
+    <div class="abs pill pwhite" id="i_p" style="left:126px;top:680px;font-size:52px;padding:14px 26px 18px;transform:rotate(-2deg)">con más ahorro de la tienda 🛒</div>
+    <div class="abs pill pdark" id="i_q" style="left:130px;top:800px;font-size:40px;padding:10px 22px 14px">qué traen · cuánto ahorras · hasta cuándo</div>`;
+  const fan = B.slice(0,5).map((b,i)=>add(`<div class="abs card" style="left:${1040+i*150}px;top:${230+(i%2)*90}px;width:520px;height:520px"><img src="${b.img}"></div>`));
+
+  // ---------- bundle scenes
+  const scenes = B.map((b,i)=>{
+    const el = add(`<div class="abs" style="inset:0"></div>`);
+    el.innerHTML = `
+      <div class="abs card c" style="left:110px;top:170px;width:820px;height:820px"><img src="${b.img}"></div>
+      <div class="abs num n" style="left:850px;top:130px">${i+1}</div>
+      <div class="abs nm" style="left:1010px;top:200px;max-width:860px">${stack(b.name, b.name.length>18?78:100, 18)}</div>
+      <div class="abs pill pwhite cnt" style="left:1014px;top:${b.name.length>18?300:330}px;font-size:40px;padding:8px 20px 12px;transform:rotate(-2deg)">${b.count} objetos${b.new?' · 🆕 llegó hoy':''}</div>
+      <div class="abs reg" style="left:1010px;top:430px"><div class="stack" style="font-size:96px"><span class="back" style="-webkit-text-stroke:16px #000">${fmt(b.regular)}</span><span class="front">${fmt(b.regular)}</span><div class="strike"></div></div><div class="pill pdark" style="font-size:28px;padding:4px 12px 6px;margin-left:8px;vertical-align:30px">precio normal</div></div>
+      <div class="abs fin" style="left:1010px;top:560px">${stack(fmt(b.price), 150, 24, 'lime')}<div class="pill pdark" style="font-size:32px;padding:4px 14px 8px;margin-left:10px;vertical-align:50px">monedas V</div></div>
+      <div class="abs pill plime sv" style="left:1014px;top:740px;font-size:46px;padding:10px 24px 14px;transform:rotate(-2deg);box-shadow:0 8px 0 rgba(0,0,0,.3)">Te ahorras ${fmt(b.save)} (${b.pct}%) 🔥</div>
+      <div class="abs pill pdark dt" style="left:1014px;top:840px;font-size:40px;padding:10px 22px 14px">⏰ Hasta el ${b.out_es}</div>
+      <div class="abs ic" style="left:1010px;top:930px;display:flex;gap:14px">${b.icons.slice(0,6).map(c=>`<div class="icon ${RAR(c.rarity)}"><img src="${c.img}"></div>`).join('')}</div>`;
+    return el;
+  });
+
+  // ---------- top 3
+  const order = [...B].map((b,i)=>({b,i})).sort((x,y)=>y.b.pct-x.b.pct).slice(0,3);
+  const top = add(`<div class="abs" style="inset:0"></div>`);
+  top.innerHTML = `<div class="abs" style="left:0;width:1920px;top:170px;text-align:center">${stack('MAYOR AHORRO', 110, 22, 'lime')}</div>` +
+    [1,0,2].map((r,j)=>{ const o=order[r]; if(!o) return ''; const w=[460,540,460][j], x=[180,690,1280][j], y=[400,340,440][j];
+      return `<div class="abs pod" data-r="${r}" style="left:${x}px;top:${y}px;width:${w}px">
+        <div class="card" style="position:relative;width:${w}px;height:${w}px"><img src="${o.b.img}"></div>
+        <div class="num" style="position:absolute;left:-30px;top:-30px">${r+1}</div>
+        <div style="margin-top:18px;text-align:center"><div class="pill plime" style="font-size:42px;padding:8px 20px 12px">${o.b.pct}% · ${o.b.name}</div></div></div>`; }).join('');
+
+  // ---------- outro
+  const outro = add(`<div class="abs" style="inset:0"></div>`);
+  outro.innerHTML = `
+    <div class="abs pill pwhite oq" style="left:0;right:0;margin:auto;top:200px;width:max-content;font-size:64px;padding:16px 30px 20px;transform:rotate(-2deg)">¿Tú cuál vas a comprar? 👇</div>
+    <div class="abs og" style="left:0;right:0;margin:auto;top:360px;width:max-content;display:flex;gap:22px">${B.slice(0,6).map(b=>`<div class="card" style="position:relative;width:240px;height:240px"><img src="${b.img}"></div>`).join('')}</div>
+    <div class="abs pill plime os" style="left:0;right:0;margin:auto;top:680px;width:max-content;font-size:48px;padding:12px 26px 16px">Suscríbete para la próxima guía 🔔</div>
+    <div class="abs od" style="left:510px;top:300px"><div id="dialog"><div class="hd">CÓDIGO DE CREADOR</div><div class="inp"><span id="typed"></span><span id="caret"></span></div><div class="row"><div class="epx">#EpicPartner</div><div class="btn">Aceptar</div></div></div></div>
+    <div class="abs osac" style="left:0;right:0;margin:auto;top:470px;width:max-content;text-align:center"><div class="sac"><div class="ck"><svg width="32" height="32" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="#e6ff3a" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>APOYA A UN CREADOR: BAD</div><div style="margin-top:16px;color:#fff;font-weight:800;font-size:32px;text-shadow:0 2px 4px #000">#EpicPartner · ¡gracias por ver! 💚</div></div>`;
+
+  const sc = Object.fromEntries(TL.scenes.map(s=>[s.id,s]));
+  const all = [intro, ...fan, ...scenes, top, outro];
+  window.render = function(t){
+    all.forEach(e=>e.style.display='none'); Object.values(bgs).forEach(b=>b.style.opacity=0);
+    prog.style.width = (1920*clamp(t/TL.total))+'px';
+    const cur = TL.scenes.find(s=> t>=s.start && t<s.start+s.dur) || TL.scenes[TL.scenes.length-1];
+    const r = t - cur.start, z = 1 + 0.05*clamp(r/cur.dur);
+    const bg = bgs[cur.id] || bgs.intro; bg.style.opacity = 1; bg.style.transform = `scale(${z})`;
+    const fadeOut = clamp((cur.start+cur.dur - t)/0.25);
+    if (cur.id === 'intro') {
+      intro.style.display=''; intro.style.opacity=fadeOut;
+      ['i_t1','i_t2','i_p','i_q'].forEach((id,k)=>{ const e=document.getElementById(id); e.style.transform=`scale(${pop(r-0.15-k*0.25)}) rotate(${k==2?-2:0}deg)`; e.style.transformOrigin='left center'; });
+      fan.forEach((f,k)=>{ f.style.display=''; f.style.opacity=fadeOut; const p=ease((r-0.3-k*0.18)/0.5); f.style.transform=`translateX(${(1-p)*700}px) rotate(${(k-2)*6}deg) scale(${1+0.03*Math.sin(r*1.5+k)})`; });
+    } else if (cur.id.startsWith('b')) {
+      const i = +cur.id.slice(1), el = scenes[i], b = B[i]; el.style.display=''; el.style.opacity=fadeOut;
+      const q = s => el.querySelector(s), L = cur.voice_len, V = cur.voice_at - cur.start;
+      q('.c').style.transform = `translateX(${(1-ease(r/0.4))*-900}px) scale(${1+0.04*clamp(r/cur.dur)})`;
+      q('.n').style.transform = `scale(${pop(r-0.35)})`;
+      q('.nm').style.transform = `scale(${pop(r-0.3)})`; q('.nm').style.transformOrigin='left center';
+      q('.cnt').style.transform = `rotate(-2deg) scale(${pop(r-V-0.18*L)})`;
+      q('.reg').style.opacity = r > V+0.28*L ? 1 : 0;
+      const sw = clamp((r-V-0.42*L)/0.3); q('.strike').style.width = (q('.reg .front').offsetWidth+20)*ease(sw)+'px';
+      q('.fin').style.transform = `scale(${pop(r-V-0.45*L)})`; q('.fin').style.transformOrigin='left center';
+      q('.sv').style.transform = `rotate(-2deg) scale(${pop(r-V-0.6*L)})`; q('.sv').style.transformOrigin='left center';
+      q('.dt').style.transform = `scale(${pop(r-V-0.82*L)})`; q('.dt').style.transformOrigin='left center';
+      [...q('.ic').children].forEach((c,k)=> c.style.transform = `scale(${pop(r-0.8-k*0.12)})`);
+    } else if (cur.id === 'top') {
+      top.style.display=''; top.style.opacity=fadeOut; const L = cur.voice_len, V = cur.voice_at-cur.start;
+      top.querySelectorAll('.pod').forEach(p=>{ const rank=+p.dataset.r; const at=V+[0.62,0.36,0.12][rank]*L; p.style.transform=`scale(${pop(r-at,0.35)})`; });
+    } else {
+      outro.style.display=''; const L = cur.voice_len, V = cur.voice_at-cur.start, c = r - (V + 0.55*L);
+      const q = s => outro.querySelector(s);
+      q('.oq').style.transform = `rotate(-2deg) scale(${pop(r-0.1)})`;
+      q('.og').style.display = c < 0 ? 'flex' : 'none'; q('.os').style.display = c < 0 ? '' : 'none';
+      q('.os').style.transform = `scale(${pop(r-V-0.35*L)})`;
+      q('.oq').style.display = c < 0 ? '' : 'none';
+      const od = q('.od'), sac = q('.osac');
+      od.style.display = (c >= 0 && c < 3.4) ? '' : 'none'; od.style.transform = `scale(${pop(c,0.3)})`;
+      const code='BAD', n = c<0.8?0:Math.min(3, 1+Math.floor((c-0.8)/0.18));
+      q('#typed').textContent = code.slice(0,n); q('#caret').style.visibility = (Math.floor(c*2.2)%2===0)?'visible':'hidden';
+      q('.btn').style.transform = (c>=2.6 && c<2.8)? 'scale(.92)':'scale(1)';
+      sac.style.display = c >= 3.4 ? '' : 'none'; sac.style.transform = `scale(${pop(c-3.4,0.3)})`;
+    }
+  };
+}
+</script></body></html>

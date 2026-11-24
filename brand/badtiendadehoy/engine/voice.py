@@ -40,6 +40,12 @@ def words(n):
     return ("mil" if m == 1 else words(m) + " mil") + ("" if n % 1000 == 0 else " " + words(n % 1000))
 
 
+def words_f(n):
+    """Amounts of monedas V (feminine): doscientas, quinientas, veintiuna."""
+    w = words(n).replace("ientos", "ientas")
+    return w[:-3] + "una" if w.endswith("uno") else w
+
+
 SAY = [("A$AP", "Asap"), ("PWR", "Power"), ("RX1", "R X uno"), ("-", " ")]
 LEET = str.maketrans("0134578", "OIEASTB")
 
@@ -63,7 +69,7 @@ def auto_lines(ep, seed, hook="greet"):
     segs = ep["segments"]
     bundle = segs[0]
     if hook == "stat" and bundle["kind"] == "bundle":
-        first = f"¡Ojo! Hoy te puedes ahorrar {words(bundle['regular'] - bundle['price'])} monedas V… mira esto."
+        first = f"¡Ojo! Hoy te puedes ahorrar {words_f(bundle['regular'] - bundle['price'])} monedas V… mira esto."
     else:
         first = pick(["¡Qué onda, banda! Ya cambió la tienda… y hoy viene con todo.",
                       "¡Qué onda, banda! Ya está la tienda nueva… vamos a ver qué hay.",
@@ -72,9 +78,9 @@ def auto_lines(ep, seed, hook="greet"):
     for s in segs:
         n = say(s["name"])
         caps = " ".join(c["text"] for c in s["captions"])
-        p = words(s["price"])
+        p = words_f(s["price"])
         if s["kind"] == "bundle":
-            lines.append(dict(text=f"El lote de {n}… ¡de {words(s['regular'])} a {p}! Una locura."))
+            lines.append(dict(text=f"El lote de {n}… ¡de {words_f(s['regular'])} a {p}! Una locura."))
         elif "og ·" in caps:
             lines.append(dict(text=pick([f"¡{n}! Un clásico del capítulo uno… ¡a {p} nomás!",
                                          f"Ojo con {n}: es un clásico del capítulo uno… y se va hoy."])))

@@ -16,7 +16,7 @@ tonight, which bundle is actually worth it. It's one daily habit, timed to the r
 |---|---|---|---|
 | TikTok | Discovery + code conversions | Daily shop video, 6:40 PM CST, question in the caption | Trends/sounds that fit, a "Se va hoy" short at 11:30 AM |
 | Instagram | Reels + brand recognition | Same video as a Reel; full caption + 5 hashtags | Stories ("se va hoy" countdown), carousels for big bundles |
-| YouTube | Shorts for discovery | Same video as a Short with a searchable title | Weekly long video (Sunday recap) once Shorts pass ~1k views/day |
+| YouTube | Shorts for discovery + long-form for watch time | Daily Short + **long video Wed & Sat 4:00 PM**: "TOP 10 lotes con más ahorro" (5-6 min, chapters, custom thumbnail) | Weekly recap long video (needs a week of saved shop data) |
 | Facebook | Reels + community | Same video as a Reel, shorter caption | Shareable "¿qué comprarías?" posts |
 | Threads | Conversation | One question post a day (12:15 PM; 12:45 PM weekends) + the shop video at 6:40 PM | Reply to comments; polls |
 
@@ -25,7 +25,9 @@ Captions differ per platform (shop.py `captions()`); the video is the same becau
 ## Cadence (Central time)
 - **Daily 6:40 PM CST** (7:40 PM CDT): shop video on TikTok, IG Reels, FB Reels, YT Shorts, Threads.
 - **Daily 12:15 PM** (12:45 PM Sat/Sun): Threads conversation post.
-- Weekly review Monday morning. A second daily video only after the first one runs reliably for a week.
+- **Wednesday & Saturday 4:00 PM**: long YouTube video (the YouTube peak in the proxy data is 2-5 PM).
+- Every video has a designed thumbnail/cover (the channel has custom thumbnails).
+- Weekly review Monday morning. A second daily short only after the first one runs reliably for a week.
 
 ## Code conversion (without being an ad)
 - The code shows up in three places: the sticker (always), the last voice line ("…y si compras algo, usa el código BAD")

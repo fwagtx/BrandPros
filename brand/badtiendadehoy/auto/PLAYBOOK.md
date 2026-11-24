@@ -38,6 +38,10 @@ English, La Tiendita Bad in Spanish, CodigoBad in Portuguese) are run by other s
 10. **One variable per week** (auto/experiments.json). Never change two things at once; the WEEKLY run decides.
 11. **The first second decides everything:** frame 1 already shows the date, "la tienda de hoy 🛒" and three cards, and the
    first voice line is the hook.
+12. **Thumbnails on everything** (owner, 2026-11-24: the channel has custom thumbnails). Shorts carry the designed cover
+   (engine/cover.js, 1080x1920, key text inside the 4:5 middle) as `videoThumbnailUrl` on TikTok, Instagram, Facebook and
+   YouTube; long videos carry the designed 1280x720 thumbnail. Look at the cover/thumbnail in every review. Only if Metricool
+   answers VIDEO_THUMBNAIL_NOT_APPLICABLE may a call go without it (say so in the summary).
 
 ## Setup (every run)
 
@@ -53,6 +57,7 @@ English, La Tiendita Bad in Spanish, CodigoBad in Portuguese) are run by other s
 | **SHOP** | 00:07 UTC (6:07 PM CST / 7:07 PM CDT), right after the reset | Today's shop video, 40 min after the reset (6:40 PM CST), on TikTok, Instagram Reels, Facebook Reels, YouTube Shorts and Threads |
 | **SHOP safety** | 02:19 UTC | Same run; stops at step 1 when the shop video is already scheduled everywhere |
 | **DAY** | 10:33 AM | Check yesterday's posts, save metrics, keep 7 days of Threads conversation posts queued |
+| **LONG** | Wednesday and Saturday 6:43 AM | One long YouTube video ("TOP 10 lotes con más ahorro"), published at **4:00 PM** |
 | **WEEKLY** | Monday 9:27 AM | Weekly review, experiment decision, next week's plan |
 
 ## SHOP run
@@ -65,7 +70,8 @@ D = `date -u +%F` (the shop day).
    cards, every voice line with what Whisper heard, the automatic checks and the review sheet path.
 3. **Review.** Read `brand/badtiendadehoy/shop/D/qa/review-sheet.png` and look hard: the intro shows the date, "la tienda de
    hoy 🛒" and three real item cards; each card has real art, a readable price, name and sticker; nothing cut off or
-   overlapping; the grid and the creator-code / "APOYA A UN CREADOR: BAD" end are there. Read the printed cards and lines:
+   overlapping; the grid and the creator-code / "APOYA A UN CREADOR: BAD" end are there. Read the printed COVER too:
+   date, "LA TIENDA DE HOY", real art, sticker, nothing cut off. Read the printed cards and lines:
    names, prices and captions make sense in Spanish; every line's match ≥ 0.5. AUTO CHECKS must say PASS. Write
    `brand/badtiendadehoy/shop/D/review.json`: `{"status": "PASS", "notes": "<what you checked>"}` or `"FAIL"` with the reason
    (then skip to step 7). One rebuild is allowed for a fixable problem (a bad line: rerun build).
@@ -77,6 +83,24 @@ D = `date -u +%F` (the shop day).
 7. Append one line to auto/log.md (date, run, variant, what posted or why not), `git add brand/badtiendadehoy/shop/D
    brand/badtiendadehoy/auto`, commit "Shop D", push (rule 8).
 8. Summary: D, post time, the networks, the experiment variant, or exactly what stopped it.
+
+## LONG run (Wednesday and Saturday)
+
+P = `TZ=America/Chicago date +%F` (the publish day; the video goes out at 4:00 PM Central, YouTube only).
+1. **Already scheduled?** `getScheduledPosts` (blogId 8343092, P 00:00 to P 23:59): a YouTube post whose text starts
+   `#EpicPartner Los` and contains `lotes con más ahorro` → stop and log "long already scheduled".
+2. `python3 brand/badtiendadehoy/auto/long.py build P` (≈60-75 min: the voice is ~30-40 min on CPU, the render ~15 min).
+   It fetches the live shop, keeps the 10 bundles with the biggest savings that are still in the shop after P, writes the
+   script from the data only, records it, renders 1920x1080 with chapters, mixes original music under the voice and makes
+   the thumbnail. It prints every bundle, what Whisper heard per scene, the checks, the review sheet and the thumbnail.
+3. **Review.** Read `long/P/qa/review-sheet.jpg` (one still per scene + the thumbnail) and the printed lists: every bundle
+   card has real art, the right name, regular price struck through, the bundle price, the saving and the date; nothing
+   overlaps or is cut off; the top-3 podium and the creator-code ending are there; the thumbnail reads at a glance.
+   AUTO CHECKS must say PASS. Write `long/P/review.json` (`PASS` + notes, or `FAIL` + reason, then skip to step 6).
+4. `python3 brand/badtiendadehoy/auto/long.py ship P`, then `createScheduledPost` with posts.json's call (info as a JSON
+   string; it carries the chapters in the description and the thumbnail). Verify with `getScheduledPosts`, then `long.py done P`.
+5. If the build fails or runs past 3:20 PM, post nothing (a late long video beats a broken one); say why.
+6. Log one line, `git add brand/badtiendadehoy/long/P brand/badtiendadehoy/auto`, commit "Long P", push.
 
 ## DAY run
 
