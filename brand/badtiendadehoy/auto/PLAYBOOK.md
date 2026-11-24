@@ -12,6 +12,10 @@ English, La Tiendita Bad in Spanish, CodigoBad in Portuguese) are run by other s
 
 ## Hard rules (every run, no exceptions)
 
+0. **Short-form goes out every single day** (owner, 2026-11-24: "make sure you're posting every day … on the short form for
+   sure"). The shop short is posted on TikTok, Instagram, Facebook, YouTube Shorts and Threads every day. If the full video
+   can't be made or fails its review, post the fallback short (SHOP step 3b); a day is never skipped. Long-form is not daily.
+
 1. **Metricool brand: blogId `8343092` (Bad Tienda De Hoy) only.** Verify the id before every Metricool call. Never read,
    write or mention another brand's posts.
 2. **Disclosure:** every caption that mentions the code starts with `#EpicPartner`, and `#EpicPartner` is on screen in every
@@ -74,7 +78,12 @@ D = `date -u +%F` (the shop day).
    date, "LA TIENDA DE HOY", real art, sticker, nothing cut off. Read the printed cards and lines:
    names, prices and captions make sense in Spanish; every line's match ≥ 0.5. AUTO CHECKS must say PASS. Write
    `brand/badtiendadehoy/shop/D/review.json`: `{"status": "PASS", "notes": "<what you checked>"}` or `"FAIL"` with the reason
-   (then skip to step 7). One rebuild is allowed for a fixable problem (a bad line: rerun build).
+   (then go to step 3b). One rebuild is allowed for a fixable problem (a bad line: rerun build).
+3b. **Never skip a day.** If the build errors, or the review FAILs and one rebuild doesn't fix it, run
+   `python3 brand/badtiendadehoy/auto/shop.py fallback D` (a 14 s short from the day's designed cover, real shop data,
+   original music). Read `shop/D/cover.jpg`; if it is right, write review.json `{"status": "PASS", "notes": "fallback: <why>"}`
+   and continue at step 4. If even the shop data can't be fetched, post one Threads conversation post now (if today has
+   none yet) and say so; the safety runs try again.
 4. `python3 brand/badtiendadehoy/auto/shop.py ship D` (hosts the files, writes shop/D/posts.json). If it prints STOP, post nothing.
 5. For each entry in posts.json `calls` whose network does not already have a post starting with its `match` text,
    `createScheduledPost` with the entry's blogId, date and info (as a JSON string). If one network fails, the others still
@@ -104,6 +113,9 @@ P = `TZ=America/Chicago date +%F` (the publish day; the video goes out at 4:00 P
 
 ## DAY run
 
+0. **Today's short is out?** D = `date -u +%F` (in the morning this is still the shop that opened last night). If TikTok,
+   Instagram, Facebook, YouTube or Threads has no post starting `#EpicPartner La tienda de Fortnite de hoy, <día> de <mes>`
+   for D (scheduled or published), do the SHOP run now for the missing networks (fallback if needed), posting 20 min out.
 1. Setup, then `getScheduledPosts` for yesterday and today (blogId 8343092): list any provider not PUBLISHED with its
    detailedStatus. A failed shop post is re-tried once (same posts.json; re-host with ghmedia if the media link is gone).
 2. **Metrics.** `getAnalyticsDataByMetrics` for brand 8343092, last 10 days: TikTok posts (TKPO07 views, TKPO13 full-watch

@@ -3,6 +3,7 @@
     python3 brand/badtiendadehoy/auto/shop.py build D    fetch shop D, pick, render, voice, mix, cover, QA sheet + checks
     python3 brand/badtiendadehoy/auto/shop.py check D    re-run only the QA sheet and checks (after a fix)
     python3 brand/badtiendadehoy/auto/shop.py ship D     needs shop/D/review.json PASS: upload to R2, write posts.json
+    python3 brand/badtiendadehoy/auto/shop.py fallback D   when the full video fails: a 14 s short from the day's cover (never skip a day)
     python3 brand/badtiendadehoy/auto/shop.py done D     record the run in ledger.json (call after the posts are verified)
 
 D is the shop day (UTC date; the shop resets at 00:00 UTC = 6:00 PM Central). Heavy files stay out of git;
@@ -247,6 +248,41 @@ def ship(D):
     print(f"SHIP {D}: {len(calls)} posts at {date} ({v['experiment']} · {v['variant']}); posts.json written")
 
 
+def fallback(D):
+    """A day is never skipped (owner, 2026-11-24: post short-form every day). When the full video can't be made or fails
+    its review, this makes a 14-second short from the day's designed cover (real shop data only) with original music,
+    and the normal ship step posts it with the normal captions."""
+    shop = os.path.join(BRAND, "shop", D); os.makedirs(os.path.join(shop, "qa"), exist_ok=True)
+    api = os.path.join(shop, "api")
+    if not os.path.exists(os.path.join(api, "shop_es.json")):
+        fetch(D, api)
+    if not os.path.exists(os.path.join(shop, "episode.json")):
+        sh("python3", "-I", os.path.join(ENGINE, "prep.py"), api, shop)
+    if not os.path.exists(os.path.join(shop, "bg", "intro.jpg")):
+        sh("python3", "-I", os.path.join(ENGINE, "bg.py"), shop)
+    sh("node", os.path.join(ENGINE, "cover.js"), shop, os.path.join(shop, "cover.jpg"))
+    dur = 14
+    silent = os.path.join(shop, "fallback_silent.mp4")
+    sh("ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", os.path.join(shop, "cover.jpg"), "-vf",
+       f"scale=1080:1920,zoompan=z='min(1+0.0009*on,1.12)':d={dur*30}:s=1080x1920:fps=30,format=yuv420p",
+       "-t", str(dur), "-c:v", "libx264", "-preset", "medium", "-crf", "20", silent)
+    sys.path.insert(0, os.path.join(BRAND, "..", "_shared", "video"))
+    import music, tempfile
+    tmp = tempfile.mkdtemp()
+    spec = dict(experiment(D)["music"]); spec["seed"] = int(D.replace("-", "")); spec["sections"] = [[0, "intro"], [1.5, "main"], [12, "end"]]
+    bed = music.render(spec, [[0.02, "impact"], [1.5, "whoosh"], [6.0, "pop"], [10.0, "sparkle"]], dur, os.path.join(tmp, "m.wav"))
+    p = subprocess.run(["ffmpeg", "-hide_banner", "-i", bed, "-af", "loudnorm=I=-14:TP=-2.6:LRA=11:print_format=json", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    m = json.loads(re.findall(r"\{[^{}]+\}", p.stderr)[-1])
+    ln = (f"loudnorm=I=-14:TP=-2.6:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
+          f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+    sh("ffmpeg", "-v", "error", "-y", "-i", silent, "-i", bed, "-filter_complex", f"[1]{ln},alimiter=limit=0.7:level=false[a]",
+       "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart",
+       os.path.join(shop, "video.mp4"))
+    json.dump(dict(D=D, fallback=True), open(os.path.join(shop, "qa", "checks.json"), "w"))
+    print("FALLBACK READY: read", os.path.join(shop, "cover.jpg"), "then write review.json PASS (notes: fallback + why) and ship")
+
+
 def done(D):
     shop = os.path.join(BRAND, "shop", D)
     p = json.load(open(os.path.join(shop, "posts.json")))
@@ -263,4 +299,4 @@ def done(D):
 
 if __name__ == "__main__":
     cmd, D = sys.argv[1], sys.argv[2]
-    {"build": build, "check": check, "ship": ship, "done": done}[cmd](D)
+    {"build": build, "check": check, "ship": ship, "done": done, "fallback": fallback}[cmd](D)

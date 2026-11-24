@@ -54,5 +54,33 @@
   "match": "Ya es diciembre 🎄",
   "topic": "diciembre",
   "mentions_code": false
+ },
+ {
+  "kind": "welcome",
+  "at": "2026-11-24T16:10:00-06:00",
+  "network": "instagram",
+  "post_id": "440946294",
+  "match": "#EpicPartner ¡Bienvenidos a Bad Tienda de Hoy!"
+ },
+ {
+  "kind": "welcome",
+  "at": "2026-11-24T16:10:00-06:00",
+  "network": "facebook",
+  "post_id": "440946341",
+  "match": "#EpicPartner ¡Bienvenidos a Bad Tienda de Hoy!"
+ },
+ {
+  "kind": "welcome",
+  "at": "2026-11-24T16:10:00-06:00",
+  "network": "threads",
+  "post_id": "440946411",
+  "match": "#EpicPartner ¡Arrancamos!"
+ },
+ {
+  "kind": "welcome",
+  "at": "2026-11-24T16:10:00-06:00",
+  "network": "tiktok",
+  "post_id": "440946458",
+  "match": "#EpicPartner ¡Bienvenidos a Bad Tienda de Hoy!"
  }
 ]
