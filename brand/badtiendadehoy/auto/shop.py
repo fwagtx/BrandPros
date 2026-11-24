@@ -4,7 +4,8 @@
     python3 brand/badtiendadehoy/auto/shop.py ship D     needs shop/D/review.json PASS: upload to R2, write posts.json
     python3 brand/badtiendadehoy/auto/shop.py done D     record the run in ledger.json (call after the posts are verified)
 
-D is the shop day (UTC date; the shop resets at 00:00 UTC = 6:00 PM Central). Heavy files stay out of git.
+D is the shop day (UTC date; the shop resets at 00:00 UTC = 6:00 PM Central). Heavy files stay out of git;
+ship hosts the video and cover on the media branch (auto/ghmedia.py) for Metricool to import.
 """
 import datetime, json, os, re, subprocess, sys, time, urllib.request, zoneinfo
 
@@ -201,9 +202,9 @@ def ship(D):
     if not ok:
         print("STOP: too close to the next reset to post shop", D); return
     sys.path.insert(0, HERE)
-    import bstore as store
-    vurl = store.put(os.path.join(shop, "video.mp4"), f"shop-{D}/video.mp4")
-    curl = store.put(os.path.join(shop, "cover.jpg"), f"shop-{D}/cover.jpg")
+    import ghmedia
+    urls = ghmedia.publish({f"shop-{D}.mp4": os.path.join(shop, "video.mp4"), f"shop-{D}-cover.jpg": os.path.join(shop, "cover.jpg")})
+    vurl, curl = urls[f"shop-{D}.mp4"], urls[f"shop-{D}-cover.jpg"]
     ep = json.load(open(os.path.join(shop, "episode.json")))
     cap = captions(ep, D)
     date = when.isoformat(timespec="seconds")
@@ -232,7 +233,7 @@ def ship(D):
     i = base(cap["threads"], "threads")
     i["threadsData"] = {}
     add("threads", i, thumb=False)
-    json.dump(dict(D=D, at=date, variant=v, video=f"shop-{D}/video.mp4", cover=f"shop-{D}/cover.jpg", calls=calls),
+    json.dump(dict(D=D, at=date, variant=v, video=vurl, cover=curl, calls=calls),
               open(os.path.join(shop, "posts.json"), "w"), ensure_ascii=False, indent=1)
     print(f"SHIP {D}: {len(calls)} posts at {date} ({v['experiment']} · {v['variant']}); posts.json written")
 

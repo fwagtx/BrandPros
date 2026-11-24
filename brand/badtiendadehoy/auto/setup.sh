@@ -12,6 +12,5 @@ python3 -c "import qwen_tts, faster_whisper, boto3" 2>&1 | grep -vE "flash-attn|
 [ -f $M/Base/model.safetensors ] || python3 -c "from huggingface_hub import snapshot_download as s; s('Qwen/Qwen3-TTS-12Hz-1.7B-Base', local_dir='$M/Base')"
 [ -f $M/whisper-small/model.bin ] || python3 -c "from huggingface_hub import snapshot_download as s; s('Systran/faster-whisper-small', local_dir='$M/whisper-small')"
 node -e "try{require('playwright')}catch(e){require(require('child_process').execSync('npm root -g').toString().trim()+'/playwright')}"
-python3 brand/badtiendadehoy/auto/bstore.py ls >/dev/null
-python3 brand/badtiendadehoy/auto/bstore.py sweep 48
+git ls-remote --exit-code --heads https://github.com/fwagtx/BrandPros claude/badtiendadehoy >/dev/null
 echo "setup ok"

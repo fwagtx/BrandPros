@@ -1,0 +1,109 @@
+# Bad Tienda de Hoy · autopilot playbook
+
+The owner (2026-11-24): *"take an active role in managing and growing all five platforms … do not constantly ask me … just do
+whatever you think is best."* Every run decides and continues on its own. Nobody approves posts, so the checks below are
+the only safety net: **when anything is off, skip that post and say why in the summary. Never guess, never substitute,
+never post something that didn't pass.** A skipped slot costs nothing; a wrong post costs the channel.
+
+Brand: Spanish (Latin American, Mexican tone) Fortnite Item Shop channel that grows supporters of the creator code **BAD**.
+Identity: the green "BAD / TIENDA DE HOY" logo (brand-kit/), lime #e6ff3a + black, Figtree, and the **voz-3 host**
+(a young, hyped Mexican gamer voice, Qwen3-TTS cloned from voice/voz-3-mujer-hype.wav). Its sister channels (BAD ROYALE in
+English, La Tiendita Bad in Spanish, CodigoBad in Portuguese) are run by other sessions: this brand is the one with a voice.
+
+## Hard rules (every run, no exceptions)
+
+1. **Metricool brand: blogId `8343092` (Bad Tienda De Hoy) only.** Verify the id before every Metricool call. Never read,
+   write or mention another brand's posts.
+2. **Disclosure:** every caption that mentions the code starts with `#EpicPartner`, and `#EpicPartner` is on screen in every
+   frame of the shop video (the sticker). The code ask is "Usa el código BAD en la tienda" or "apoya al canal con el código
+   BAD". Never call the code a discount or a saving, never promise rewards or giveaways for using it, never imply Epic
+   endorses or sponsors the channel.
+3. **Facts only from the day's official shop data** (fortnite-api.com, saved in shop/D/api). No leaks, rumors, "coming soon",
+   invented dates or prices. Threads posts are questions and opinions, never news.
+4. **Voice:** always voz-3 (voice/voice.json), never edited. Lines are written the way they are said: `?` for questions,
+   `!` for excitement, `…` for a beat. Numbers in words, names as they are said (engine/voice.py SAY map).
+5. **Art:** item art only inside videos and covers about that item (Epic's fan content policy). Never in logos, profile
+   pictures or banners.
+6. **Labels:** the host is a realistic synthetic voice, so TikTok `isAigc` and Instagram `isAiGenerated` are **true**
+   (both platforms ask for realistic AI audio to be labeled); YouTube `isAiGeneratedContent` stays false (no real person or
+   real event is depicted). TikTok `commercialContentThirdParty` is true (the code earns a commission). YouTube
+   `madeForKids` false, category GAMING.
+7. **No drafts:** posts go in with `"draft": false` and `"autoPublish": true`.
+8. **Git:** repository fwagtx/BrandPros, branch `claude/badtiendadehoy` only (push with
+   `git -c push.negotiate=true push origin HEAD:claude/badtiendadehoy`). Videos never go in git; auto/ghmedia.py hosts them
+   on the branch `claude/badtiendadehoy-media`, which it replaces on every upload. Never touch any other branch.
+9. **Captions** are written by shop.py: line 1 the hook (`#EpicPartner La tienda de Fortnite de hoy, <fecha> 🛒`), then the
+   best facts with a few emojis, one question that gets comments, the code line, 1-5 hashtags. Platform by platform:
+   TikTok and Instagram full; Facebook shorter; YouTube a title ≤100 characters plus the description; Threads conversational.
+10. **One variable per week** (auto/experiments.json). Never change two things at once; the WEEKLY run decides.
+11. **The first second decides everything:** frame 1 already shows the date, "la tienda de hoy 🛒" and three cards, and the
+   first voice line is the hook.
+
+## Setup (every run)
+
+1. If `/home/user/brandpros` is missing: `git clone --depth 1 -b claude/badtiendadehoy https://github.com/fwagtx/BrandPros /home/user/brandpros`
+   (attach the repo with push access first if the session asks for it). Otherwise `git -C /home/user/brandpros pull origin claude/badtiendadehoy`.
+2. `bash brand/badtiendadehoy/auto/setup.sh` from the repository root (first run in a fresh container downloads ~5 GB of
+   voice models; that is expected).
+
+## Schedule (America/Chicago)
+
+| Run | When | What |
+|---|---|---|
+| **SHOP** | 00:07 UTC (6:07 PM CST / 7:07 PM CDT), right after the reset | Today's shop video, 40 min after the reset (6:40 PM CST), on TikTok, Instagram Reels, Facebook Reels, YouTube Shorts and Threads |
+| **SHOP safety** | 02:19 UTC | Same run; stops at step 1 when the shop video is already scheduled everywhere |
+| **DAY** | 10:33 AM | Check yesterday's posts, save metrics, keep 7 days of Threads conversation posts queued |
+| **WEEKLY** | Monday 9:27 AM | Weekly review, experiment decision, next week's plan |
+
+## SHOP run
+
+D = `date -u +%F` (the shop day).
+1. **Already posted?** `getScheduledPosts` (blogId 8343092, America/Chicago, D-1 00:00 to D 23:59). If TikTok, Instagram,
+   Facebook, YouTube and Threads each have a post whose text starts `#EpicPartner La tienda de Fortnite de hoy, <día> de <mes>`
+   for D, stop and log "shop already posted". If only some do, post just the missing ones at step 5.
+2. `python3 brand/badtiendadehoy/auto/shop.py build D` (≈15 min; it waits for the live shop to turn over). It prints the
+   cards, every voice line with what Whisper heard, the automatic checks and the review sheet path.
+3. **Review.** Read `brand/badtiendadehoy/shop/D/qa/review-sheet.png` and look hard: the intro shows the date, "la tienda de
+   hoy 🛒" and three real item cards; each card has real art, a readable price, name and sticker; nothing cut off or
+   overlapping; the grid and the creator-code / "APOYA A UN CREADOR: BAD" end are there. Read the printed cards and lines:
+   names, prices and captions make sense in Spanish; every line's match ≥ 0.5. AUTO CHECKS must say PASS. Write
+   `brand/badtiendadehoy/shop/D/review.json`: `{"status": "PASS", "notes": "<what you checked>"}` or `"FAIL"` with the reason
+   (then skip to step 7). One rebuild is allowed for a fixable problem (a bad line: rerun build).
+4. `python3 brand/badtiendadehoy/auto/shop.py ship D` (hosts the files, writes shop/D/posts.json). If it prints STOP, post nothing.
+5. For each entry in posts.json `calls` whose network does not already have a post starting with its `match` text,
+   `createScheduledPost` with the entry's blogId, date and info (as a JSON string). If one network fails, the others still
+   go; name the error. Only if Metricool answers VIDEO_THUMBNAIL_NOT_APPLICABLE, retry that call without `videoThumbnailUrl`.
+6. `getScheduledPosts` again: confirm the five posts, draft false, at the printed time. Then `python3 brand/badtiendadehoy/auto/shop.py done D`.
+7. Append one line to auto/log.md (date, run, variant, what posted or why not), `git add brand/badtiendadehoy/shop/D
+   brand/badtiendadehoy/auto`, commit "Shop D", push (rule 8).
+8. Summary: D, post time, the networks, the experiment variant, or exactly what stopped it.
+
+## DAY run
+
+1. Setup, then `getScheduledPosts` for yesterday and today (blogId 8343092): list any provider not PUBLISHED with its
+   detailedStatus. A failed shop post is re-tried once (same posts.json; re-host with ghmedia if the media link is gone).
+2. **Metrics.** `getAnalyticsDataByMetrics` for brand 8343092, last 10 days: TikTok posts (TKPO07 views, TKPO13 full-watch
+   rate, TKPO15 avg time watched, TKPO08 likes, TKPO09 comments, TKPO10 shares), Instagram reels (IGRE23 views, IGRE30 skip
+   rate, IGRE24 avg watch time, IGRE09 interactions, IGRE11 reach), YouTube (YTEV02 views, YTEV05 subscribers gained,
+   YTEV13 published-video views), Facebook reels (FBEV22 views), Threads posts (THPO08 views, THPO10 replies, THPO09 likes),
+   followers (TKEV07, IGEV01, YTEV01, FBEV17, THEV01). Match posts to the ledger by caption start and date; write the numbers
+   into auto/metrics.json (one row per post per network, updated in place). Never invent a number: a metric Metricool
+   doesn't return stays empty.
+3. **Threads queue.** Keep a conversation post at 12:15 PM (12:45 PM Sat/Sun) for each of the next 7 days. Write new ones in
+   the brand's voice: one question that's easy to answer, about buying habits, favorite skins, OG items, the code (at most
+   one in four posts, with `#EpicPartner`); never news, never a fact that isn't in today's shop data. Record each in
+   auto/ledger.json (kind "threads").
+4. Log one line, commit, push. Summary: failures, yesterday's best post by views, queue status.
+
+## WEEKLY run (Monday)
+
+1. Setup and DAY step 2 for the last 14 days.
+2. From metrics.json: best and worst posts per network (views at 72 h, IG skip rate and watch time, TikTok full-watch rate),
+   follower growth per network, which Threads questions got the most replies.
+3. **Experiment decision** (experiments.json): compare the variants of the week's test only. A variant wins when it is ≥10%
+   better on the test's main measure across at least 3 videos each and not worse on views; then move it into `defaults`.
+   Otherwise keep the default and say "no winner". Make sure the next test is scheduled (one variable per week; queue in
+   learnings.md under "Next tests").
+4. Append the week to auto/learnings.md: what won, what didn't, why we think so, what we test next. Commit, push.
+5. Summary for the owner: followers per network and their change, best and worst posts with why, the experiment result, the
+   next test, and anything broken.

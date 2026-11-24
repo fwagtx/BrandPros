@@ -1,0 +1,272 @@
+{
+ "date": "24 nov",
+ "offers": 340,
+ "strings": {
+  "use_code": "USA EL CÓDIGO:",
+  "code": "BAD",
+  "partner": "#EpicPartner",
+  "intro_title": "la tienda de hoy 🛒",
+  "offers": "340 ofertas en la tienda hoy",
+  "worth": "esto es lo que vale la pena 👀",
+  "vbucks": "monedas V",
+  "regular": "precio normal",
+  "vbucks_today": "monedas V hoy",
+  "buying": "¿qué vas a comprar? 👇",
+  "use_code_cta": "usa el código BAD en la tienda 💚",
+  "creator_code": "CÓDIGO DE CREADOR",
+  "accept": "Aceptar",
+  "sac": "APOYA A UN CREADOR: BAD"
+ },
+ "intro_cards": [
+  {
+   "img": "img/01.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800
+  },
+  {
+   "img": "img/03.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800
+  },
+  {
+   "img": "img/05.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 800
+  }
+ ],
+ "segments": [
+  {
+   "kind": "bundle",
+   "name": "One Punch Man",
+   "img": "img/00.png",
+   "color": [
+    "#4fd9e3",
+    "#167f8c"
+   ],
+   "regular": 11900,
+   "price": 3800,
+   "captions": [
+    {
+     "text": "el lote con más ahorro hoy 🔥",
+     "style": "dark",
+     "at": 1.33
+    },
+    {
+     "text": "ahorra 8,100 monedas V 🔥",
+     "style": "yellow",
+     "at": 4.33
+    },
+    {
+     "text": "18 objetos: Saitama, Genos y más",
+     "style": "dark",
+     "at": 6.0
+    }
+   ],
+   "badge": {
+    "emoji": "🔥",
+    "at": 4.33
+   }
+  },
+  {
+   "kind": "item",
+   "name": "Nido de víboras",
+   "img": "img/01.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Hacha en llamas",
+   "img": "img/02.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "og · capítulo 1, temporada 8 🔥",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "pickaxe"
+  },
+  {
+   "kind": "item",
+   "name": "Soldado de asalto",
+   "img": "img/03.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Kabuto",
+   "img": "img/04.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "og · capítulo 1, temporada 6 🔥",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "rare",
+   "type": "glider"
+  },
+  {
+   "kind": "item",
+   "name": "T1BUR0N",
+   "img": "img/05.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "llegó el 23 nov 🆕",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Águila",
+   "img": "img/06.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 500,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "og · capítulo 1, temporada 4 🔥",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "rare",
+   "type": "emote"
+  },
+  {
+   "kind": "item",
+   "name": "Mirasol",
+   "img": "img/07.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "llegó el 23 nov 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Gremio",
+   "img": "img/08.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "llegó el 23 nov 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "outfit"
+  }
+ ]
+}
