@@ -266,6 +266,13 @@
     "final": true,
     "saved": "2026-11-23"
    }
+  },
+  {
+   "day": "2026-11-24",
+   "variant": "chip-a",
+   "seed": 73077,
+   "duration": 35.62,
+   "metrics": null
   }
  ],
  "evolutions": []

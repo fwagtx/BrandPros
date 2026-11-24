@@ -1,0 +1,242 @@
+{
+ "duration": 35.63,
+ "caption": "#EpicPartner Today's Fortnite Item Shop (nov 24): One-Punch Man for 3,800 V-Bucks and 5 more picks.\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "340 offers in today's shop",
+   "source": "plan.json",
+   "match": [
+    "\"offers\": 340"
+   ],
+   "visual": "entries with cosmetics in shop.json, counted by reel_pick.py"
+  },
+  {
+   "text": "One-Punch Man Bundle: 3800 V-Bucks, regular 11900",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 11900"
+   ]
+  },
+  {
+   "text": "One-Punch Man Bundle: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"inDate\": \"2026-11-24T"
+   ]
+  },
+  {
+   "text": "One-Punch Man Bundle: biggest bundle saving today 🔥",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"regularPrice\": 11900",
+    "\"finalPrice\": 3800"
+   ],
+   "visual": "largest regularPrice - finalPrice among today's bundles (reel_pick.py)"
+  },
+  {
+   "text": "One-Punch Man Bundle: 8,100 V-Bucks below regular 🔥",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"regularPrice\": 11900",
+    "\"finalPrice\": 3800"
+   ]
+  },
+  {
+   "text": "Bao Bros: 1500 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Bao Bros",
+    "\"finalPrice\": 1500"
+   ]
+  },
+  {
+   "text": "Bao Bros: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Bao Bros",
+    "\"inDate\": \"2026-11-24T"
+   ]
+  },
+  {
+   "text": "Bao Bros: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Bao Bros",
+    "\"outDate\": \"2026-11-24T23:59:59"
+   ]
+  },
+  {
+   "text": "Bao Bros: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-24T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  },
+  {
+   "text": "Saitama: 1500 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Saitama",
+    "\"finalPrice\": 1500"
+   ]
+  },
+  {
+   "text": "Saitama: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Saitama",
+    "\"inDate\": \"2026-11-24T"
+   ]
+  },
+  {
+   "text": "Saitama: in the shop until nov 27 ⏰",
+   "source": "shop.json",
+   "match": [
+    "Saitama",
+    "\"outDate\": \"2026-11-27T"
+   ]
+  },
+  {
+   "text": "Saitama: from chapter 6, season 5",
+   "source": "shop.json",
+   "match": [
+    "Saitama",
+    "Introduced in Chapter 6, Season 5."
+   ]
+  },
+  {
+   "text": "Get Flocked Bundle: 2800 V-Bucks, regular 6500",
+   "source": "shop.json",
+   "match": [
+    "Get Flocked Bundle",
+    "\"finalPrice\": 2800",
+    "\"regularPrice\": 6500"
+   ]
+  },
+  {
+   "text": "Get Flocked Bundle: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Get Flocked Bundle",
+    "\"inDate\": \"2026-11-24T"
+   ]
+  },
+  {
+   "text": "Get Flocked Bundle: 3,700 V-Bucks below regular 🔥",
+   "source": "shop.json",
+   "match": [
+    "Get Flocked Bundle",
+    "\"regularPrice\": 6500",
+    "\"finalPrice\": 2800"
+   ]
+  },
+  {
+   "text": "Get Flocked Bundle: in the shop until nov 26 ⏰",
+   "source": "shop.json",
+   "match": [
+    "Get Flocked Bundle",
+    "\"outDate\": \"2026-11-26T"
+   ]
+  },
+  {
+   "text": "Assault Trooper: 800 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Assault Trooper",
+    "\"finalPrice\": 800"
+   ]
+  },
+  {
+   "text": "Assault Trooper: og · chapter 1, season 1 🔥",
+   "source": "shop.json",
+   "match": [
+    "Assault Trooper",
+    "Introduced in Chapter 1, Season 1."
+   ]
+  },
+  {
+   "text": "Assault Trooper: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Assault Trooper",
+    "\"inDate\": \"2026-11-24T"
+   ]
+  },
+  {
+   "text": "Hush: 1200 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Hush",
+    "\"finalPrice\": 1200"
+   ]
+  },
+  {
+   "text": "Hush: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Hush",
+    "\"outDate\": \"2026-11-24T23:59:59"
+   ]
+  },
+  {
+   "text": "Hush: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-24T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  },
+  {
+   "text": "Hush: from chapter 2, season 1",
+   "source": "shop.json",
+   "match": [
+    "Hush",
+    "Introduced in Chapter 2, Season 1."
+   ]
+  }
+ ],
+ "text": [
+  "TODAY'S ITEM SHOP 🛒",
+  "3,800",
+  "1,500",
+  "340 OFFERS IN TODAY'S SHOP",
+  "HERE'S WHAT'S NEW TODAY 👀",
+  "NEW IN TODAY'S SHOP 🆕",
+  "BIGGEST BUNDLE SAVING TODAY 🔥",
+  "8,100 V-BUCKS BELOW REGULAR 🔥",
+  "ONE-PUNCH MAN",
+  "LEAVES AT THE NEXT RESET ⏰",
+  "THE RESET IS 7 PM ET · 6 PM CT 👀",
+  "BAO BROS",
+  "IN THE SHOP UNTIL NOV 27 ⏰",
+  "FROM CHAPTER 6, SEASON 5",
+  "SAITAMA",
+  "3,700 V-BUCKS BELOW REGULAR 🔥",
+  "IN THE SHOP UNTIL NOV 26 ⏰",
+  "GET FLOCKED",
+  "OG · CHAPTER 1, SEASON 1 🔥",
+  "ASSAULT TROOPER",
+  "FROM CHAPTER 2, SEASON 1",
+  "HUSH",
+  "WHAT ARE YOU BUYING? 👇",
+  "2,800",
+  "800",
+  "1,200",
+  "USE CODE BAD IN THE ITEM SHOP 💛",
+  "CREATOR CODE",
+  "#EPICPARTNER",
+  "ACCEPT",
+  "SUPPORT-A-CREATOR: BAD",
+  "THANK YOU FOR WATCHING! 💛",
+  "FOLLOW FOR MORE DAILY CONTENT",
+  "USE CODE: BAD",
+  "nov 24",
+  " "
+ ]
+}

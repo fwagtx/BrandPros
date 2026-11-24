@@ -1,0 +1,177 @@
+{
+  "video": "badroyale-shop-2026-11-24.mp4",
+  "checked_utc": "2026-11-24T00:10:33Z",
+  "verdict": "READY TO POST",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "24/24 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "340 offers in today's shop",
+          "result": "PASS",
+          "why": "matched in plan.json; entries with cosmetics in shop.json, counted by reel_pick.py"
+        },
+        {
+          "claim": "One-Punch Man Bundle: 3800 V-Bucks, regular 11900",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "One-Punch Man Bundle: new in today's shop 🆕",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "One-Punch Man Bundle: biggest bundle saving today 🔥",
+          "result": "PASS",
+          "why": "matched in shop.json; largest regularPrice - finalPrice among today's bundles (reel_pick.py)"
+        },
+        {
+          "claim": "One-Punch Man Bundle: 8,100 V-Bucks below regular 🔥",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Bao Bros: 1500 V-Bucks",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Bao Bros: new in today's shop 🆕",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Bao Bros: leaves at the next reset ⏰",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Bao Bros: the reset is 7 PM ET · 6 PM CT 👀",
+          "result": "PASS",
+          "why": "matched in shop.json; 00:00 UTC = 7 PM ET = 6 PM CT"
+        },
+        {
+          "claim": "Saitama: 1500 V-Bucks",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Saitama: new in today's shop 🆕",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Saitama: in the shop until nov 27 ⏰",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Saitama: from chapter 6, season 5",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Get Flocked Bundle: 2800 V-Bucks, regular 6500",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Get Flocked Bundle: new in today's shop 🆕",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Get Flocked Bundle: 3,700 V-Bucks below regular 🔥",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Get Flocked Bundle: in the shop until nov 26 ⏰",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Assault Trooper: 800 V-Bucks",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Assault Trooper: og · chapter 1, season 1 🔥",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Assault Trooper: new in today's shop 🆕",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Hush: 1200 V-Bucks",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Hush: leaves at the next reset ⏰",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Hush: the reset is 7 PM ET · 6 PM CT 👀",
+          "result": "PASS",
+          "why": "matched in shop.json; 00:00 UTC = 7 PM ET = 6 PM CT"
+        },
+        {
+          "claim": "Hush: from chapter 2, season 1",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "10 distinct words checked; code written as BAD in all 2 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -13.9 LUFS, true peak -3.6 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 35.6s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Hook: nov 24, today's item shop, three real cards (One-Punch Man 3,800, Bao Bros 1,500, Saitama 1,500). Cards: One-Punch Man Bundle 3,800 biggest bundle saving, Bao Bros 1,500 new, Hush 1,200 leaves at next reset, Get Flocked 2,800, OG Assault Trooper 800 (C1S1). Art, prices, names and stickers readable, nothing cut off. Grid with code line and support-a-creator / thank-you end card present.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner Today's Fortnite Item Shop (nov 24): One-Punch Man for 3,800 V-Bucks and 5 more picks.\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteItemShop"
+}
