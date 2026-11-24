@@ -1,6 +1,7 @@
 """Bad Tienda de Hoy · daily shop video (Spanish, voz-3 host, original music), brand 8343092.
 
     python3 brand/badtiendadehoy/auto/shop.py build D    fetch shop D, pick, render, voice, mix, cover, QA sheet + checks
+    python3 brand/badtiendadehoy/auto/shop.py check D    re-run only the QA sheet and checks (after a fix)
     python3 brand/badtiendadehoy/auto/shop.py ship D     needs shop/D/review.json PASS: upload to R2, write posts.json
     python3 brand/badtiendadehoy/auto/shop.py done D     record the run in ledger.json (call after the posts are verified)
 
@@ -106,11 +107,13 @@ def speech_check(shop):
     from faster_whisper import WhisperModel
     import librosa
     m = WhisperModel(os.path.join(MODELS, "whisper-small"), device="cpu", compute_type="int8")
+    wav = os.path.join(shop, "qa", "audio16k.wav")
+    sh("ffmpeg", "-v", "error", "-y", "-i", os.path.join(shop, "video.mp4"), "-vn", "-ac", "1", "-ar", "16000", wav)
     norm = lambda s: re.sub(r"[^a-záéíóúñü0-9 ]", " ", s.lower())
     out = []
     for ln in lines:
         i = ln["i"]; a = STARTS[i]; b = STARTS[i + 1] if i + 1 < len(STARTS) else END
-        y, _ = librosa.load(os.path.join(shop, "video.mp4"), sr=16000, offset=a, duration=b - a)
+        y, _ = librosa.load(wav, sr=16000, offset=a, duration=b - a)
         heard = " ".join(s.text for s in m.transcribe(y, language="es", beam_size=5)[0])
         r = difflib.SequenceMatcher(None, norm(ln["text"]).split(), norm(heard).split()).ratio()
         out.append(dict(i=i, said=ln["text"], heard=heard.strip(), match=round(r, 2)))
@@ -130,6 +133,12 @@ def build(D):
        os.path.join(shop, "video.mp4"), json.dumps(spec))
     sh("ffmpeg", "-v", "error", "-y", "-ss", "0.6", "-i", os.path.join(shop, "video.mp4"), "-frames:v", "1", "-q:v", "2",
        os.path.join(shop, "cover.jpg"))
+    check(D)
+
+
+def check(D):
+    shop = os.path.join(BRAND, "shop", D)
+    v = experiment(D)
     qa_sheet(shop)
     # automatic checks
     p = subprocess.run(["ffmpeg", "-hide_banner", "-i", os.path.join(shop, "video.mp4"), "-af", "ebur128=peak=true", "-f", "null", "-"],
@@ -254,4 +263,4 @@ def done(D):
 
 if __name__ == "__main__":
     cmd, D = sys.argv[1], sys.argv[2]
-    {"build": build, "ship": ship, "done": done}[cmd](D)
+    {"build": build, "check": check, "ship": ship, "done": done}[cmd](D)

@@ -74,7 +74,7 @@ def auto_pick():
             continue
         it = items[0]
         typ = it["type"]["value"]
-        if typ not in ("outfit", "glider", "pickaxe", "sidekick", "backpack", "emote") or it["name"] in seen:
+        if typ not in ("outfit", "glider", "pickaxe", "sidekick", "backpack") or it["name"] in seen:
             continue
         seen.add(it["name"])
         indate, outdate = parse_day(x["inDate"]), parse_day(x["outDate"])

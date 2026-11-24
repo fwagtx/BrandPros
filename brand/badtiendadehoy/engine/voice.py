@@ -40,13 +40,20 @@ def words(n):
     return ("mil" if m == 1 else words(m) + " mil") + ("" if n % 1000 == 0 else " " + words(n % 1000))
 
 
-SAY = [("A$AP", "Asap"), ("PWR", "Power"), ("RX1", "R X uno"), (" OG", " ou yi"), ("OG ", "ou yi "), ("-", " ")]
+SAY = [("A$AP", "Asap"), ("PWR", "Power"), ("RX1", "R X uno"), ("-", " ")]
+LEET = str.maketrans("0134578", "OIEASTB")
 
 
 def say(text):
+    """Names as they are said: known spellings, and leetspeak names (T1BUR0N -> Tiburon) read as words."""
     for a, b in SAY:
         text = text.replace(a, b)
-    return text
+    words_ = []
+    for w in text.split(" "):
+        if sum(c.isdigit() for c in w) >= 2 and any(c.isalpha() for c in w):
+            w = w.translate(LEET).capitalize()
+        words_.append(w)
+    return " ".join(words_)
 
 
 # ------------------------------------------------------------------ the script, written from today's data
@@ -69,8 +76,8 @@ def auto_lines(ep, seed, hook="greet"):
         if s["kind"] == "bundle":
             lines.append(dict(text=f"El lote de {n}… ¡de {words(s['regular'])} a {p}! Una locura."))
         elif "og ·" in caps:
-            lines.append(dict(text=pick([f"¡{n}! Es ou yi del capítulo uno… ¡a {p} nomás!",
-                                         f"Ojo con {n}: es ou yi del capítulo uno… y se va hoy."])))
+            lines.append(dict(text=pick([f"¡{n}! Un clásico del capítulo uno… ¡a {p} nomás!",
+                                         f"Ojo con {n}: es un clásico del capítulo uno… y se va hoy."])))
         elif "llegó el" in caps and "se va" in caps:
             lines.append(dict(text=f"{n}: llegó ayer… y ya se va hoy."))
         elif "del capítulo" in caps:
