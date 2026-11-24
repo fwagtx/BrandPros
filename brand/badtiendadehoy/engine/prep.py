@@ -62,11 +62,17 @@ RESET = "6 PM 🇲🇽"
 CURRENT_CH = max((int((b.get("introduction") or {}).get("chapter") or 0)
                   for x in en for b in (x.get("brItems") or [])), default=0)
 CURRENT_CH = str(CURRENT_CH)
+_bundles = [x for x in en if x.get("bundle") and x.get("brItems")]
+BIGGEST = max(_bundles, key=lambda x: x["regularPrice"] - x["finalPrice"])["offerId"] if _bundles else None
 
 def auto_pick():
     """Biggest-saving bundle + 8 items scored like the English video's picks."""
     bundles = [x for x in en if x.get("bundle") and x.get("brItems")]
-    bundle = max(bundles, key=lambda x: x["regularPrice"] - x["finalPrice"])
+    save = lambda x: x["regularPrice"] - x["finalPrice"]
+    biggest = max(bundles, key=save)
+    # big bundles stay for weeks: feature a bundle that is new today (with a real saving) so the hero changes daily
+    fresh = [x for x in bundles if parse_day(x["inDate"]) == shop_date and save(x) >= 1000]
+    bundle = max(fresh, key=save) if fresh else biggest
     seen, scored = set(), []
     for x in en:
         items = x.get("brItems") or []
@@ -112,12 +118,12 @@ for i, x in enumerate(picks):
         for pre in ("Lote de ", "Lote "):
             if es_name.startswith(pre): es_name = es_name[len(pre):]
         n_items = len(x["brItems"])
-        names = [b["name"] for b in s["brItems"] if b["type"]["value"] != "shoe"][:3]
+        names = [b["name"] for b in sorted(s["brItems"], key=lambda b: b["type"]["value"] != "outfit") if b["type"]["value"] != "shoe"][:3]
         save = x["regularPrice"] - x["finalPrice"]
         seg = dict(kind="bundle", name=es_name, img=img, color=RARITY["bundle"],
                    regular=x["regularPrice"], price=x["finalPrice"],
                    captions=[
-                       dict(text="el lote con más ahorro hoy 🔥", style="dark", at=1.33),
+                       dict(text=("el lote con más ahorro hoy 🔥" if x["offerId"] == BIGGEST else "lote nuevo hoy 🆕"), style="dark", at=1.33),
                        dict(text=f"ahorra {num(save)} monedas V 🔥", style="yellow", at=4.33),
                        dict(text=f"{n_items} objetos: {', '.join(names[:2])} y más", style="dark", at=6.0),
                    ], badge=dict(emoji="🔥", at=4.33))
