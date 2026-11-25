@@ -1,0 +1,67 @@
+[
+ {
+  "scene": "intro",
+  "text": "¡Qué onda, banda! Hoy te enseño los diez lotes con más ahorro de la tienda de Fortnite: qué traen, cuánto te ahorras… y hasta cuándo están. Al final, el top tres por porcentaje. ¡Vamos!",
+  "seconds": 12.51
+ },
+ {
+  "scene": "b0",
+  "text": "Número uno: el lote de One Punch Man. Trae dieciocho objetos, con Saitama, Genos… y más. Por separado costaría once mil novecientas monedas… y el lote está en tres mil ochocientas. ¡Te ahorras ocho mil cien! O sea, el sesenta y ocho por ciento. Está disponible hasta el veintisiete de noviembre.",
+  "seconds": 19.8
+ },
+ {
+  "scene": "b1",
+  "text": "Número dos: el lote de Persona 5 Royal. Trae quince objetos, con Joker, Panther… y más. Por separado costaría nueve mil seiscientas monedas… y el lote está en tres mil ochocientas. ¡Te ahorras cinco mil ochocientas! O sea, el sesenta por ciento. Y ojo: llegó hoy a la tienda. Está disponible hasta el veintinueve de noviembre.",
+  "seconds": 22.85
+ },
+ {
+  "scene": "b2",
+  "text": "Número tres: el lote de Asap Rocky. Trae trece objetos, con Flacko Helicopter, Rocky Rugahand… y más. Por separado costaría ocho mil ochocientas monedas… y el lote está en tres mil doscientas. ¡Te ahorras cinco mil seiscientas! O sea, el sesenta y cuatro por ciento. Está disponible hasta el seis de diciembre.",
+  "seconds": 20.79
+ },
+ {
+  "scene": "b3",
+  "text": "Número cuatro: el lote de Overwatch. Trae dieciocho objetos, con Mercy, D.Va… y más. Por separado costaría ocho mil ochocientas monedas… y el lote está en cuatro mil doscientas. ¡Te ahorras cuatro mil seiscientas! O sea, el cincuenta y dos por ciento. Está disponible hasta el cuatro de diciembre.",
+  "seconds": 19.98
+ },
+ {
+  "scene": "b4",
+  "text": "Número cinco: el lote de One Piece. Trae quince objetos, con Monkey D. Luffy, Nami… y más. Por separado costaría ocho mil doscientas monedas… y el lote está en cuatro mil. ¡Te ahorras cuatro mil doscientas! O sea, el cincuenta y uno por ciento. Está disponible hasta el cinco de diciembre.",
+  "seconds": 19.55
+ },
+ {
+  "scene": "b5",
+  "text": "Número seis: el lote de Lil' Uzi Vert. Trae doce objetos, con Lil Uzi Vert, Lil Uzi Vert de gira… y más. Por separado costaría siete mil cien monedas… y el lote está en tres mil doscientas. ¡Te ahorras tres mil novecientas! O sea, el cincuenta y cinco por ciento. Está disponible hasta el doce de diciembre.",
+  "seconds": 20.64
+ },
+ {
+  "scene": "b6",
+  "text": "Número siete: el lote de Bandada. Trae diez objetos, con Cacareador cafetero, Héctor Halcón… y más. Por separado costaría seis mil quinientas monedas… y el lote está en dos mil ochocientas. ¡Te ahorras tres mil setecientas! O sea, el cincuenta y siete por ciento. Está disponible hasta el veintiséis de noviembre.",
+  "seconds": 20.92
+ },
+ {
+  "scene": "b7",
+  "text": "Número ocho: el lote de El asombroso circo digital. Trae doce objetos, con Pomni, Jax… y más. Por separado costaría siete mil cien monedas… y el lote está en tres mil cuatrocientas. ¡Te ahorras tres mil setecientas! O sea, el cincuenta y dos por ciento. Y ojo: llegó hoy a la tienda. Está disponible hasta el veintiocho de noviembre.",
+  "seconds": 22.49
+ },
+ {
+  "scene": "b8",
+  "text": "Número nueve: el lote de Phineas y Ferb. Trae nueve objetos, con Perry musculoso, Dr. Doofenshmirtz… y más. Por separado costaría seis mil cuatrocientas monedas… y el lote está en tres mil doscientas. ¡Te ahorras tres mil doscientas! O sea, el cincuenta por ciento. Está disponible hasta el veintiséis de noviembre.",
+  "seconds": 21.64
+ },
+ {
+  "scene": "b9",
+  "text": "Número diez: el lote de MrSavage. Trae nueve objetos, con MrSavage, Sirena Savage… y más. Por separado costaría cinco mil cuatrocientas monedas… y el lote está en dos mil ochocientas. ¡Te ahorras dos mil seiscientas! O sea, el cuarenta y ocho por ciento. Y ojo: llegó hoy a la tienda. Está disponible hasta el veintisiete de noviembre.",
+  "seconds": 24.05
+ },
+ {
+  "scene": "top",
+  "text": "¿Y cuáles tienen el mayor porcentaje de ahorro? En tercer lugar, Persona 5 Royal. En segundo, Asap Rocky. ¡Y en primer lugar, One Punch Man, con el sesenta y ocho por ciento!",
+  "seconds": 11.73
+ },
+ {
+  "scene": "outro",
+  "text": "¿Tú cuál vas a comprar? Déjamelo en los comentarios. Si te sirvió, suscríbete para la próxima guía… y si compras algo, usa el código BAD en la tienda. ¡Nos vemos!",
+  "seconds": 11.39
+ }
+]

@@ -1,0 +1,727 @@
+{
+ "shop_date": "2026-11-25",
+ "publish": "2026-11-25",
+ "publish_es": "25 de noviembre",
+ "bundles": [
+  {
+   "name": "One Punch Man",
+   "regular": 11900,
+   "price": 3800,
+   "save": 8100,
+   "pct": 68,
+   "count": 18,
+   "out": "2026-11-27",
+   "out_es": "27 de noviembre",
+   "new": false,
+   "img": "img/b00.png",
+   "outfits": [
+    "Saitama",
+    "Genos",
+    "Tornado del Terror"
+   ],
+   "types": [
+    "envoltorio",
+    "gesto",
+    "mochila",
+    "pico",
+    "planeador",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b00_0.png",
+     "name": "Saitama",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b00_1.png",
+     "name": "Genos",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b00_2.png",
+     "name": "Tornado del Terror",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b00_3.png",
+     "name": "Centichoro",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b00_4.png",
+     "name": "Puño martillo mecánico",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b00_5.png",
+     "name": "Bolsa de supermercado",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b00_6.png",
+     "name": "Filo telequinético",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b00_7.png",
+     "name": "Rutina de Saitama",
+     "rarity": "uncommon"
+    }
+   ]
+  },
+  {
+   "name": "Persona 5 Royal",
+   "regular": 9600,
+   "price": 3800,
+   "save": 5800,
+   "pct": 60,
+   "count": 15,
+   "out": "2026-11-29",
+   "out_es": "29 de noviembre",
+   "new": true,
+   "img": "img/b01.png",
+   "outfits": [
+    "Joker (P5R)",
+    "Panther (P5R)"
+   ],
+   "types": [
+    "calzado",
+    "compañero",
+    "envoltorio",
+    "gesto",
+    "mochila",
+    "pico",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b01_0.png",
+     "name": "Joker (P5R)",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b01_1.png",
+     "name": "Panther (P5R)",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b01_2.png",
+     "name": "Bolso del Instituto Shujin",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b01_3.png",
+     "name": "Daga de plata",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b01_4.png",
+     "name": "Corazón de Carmen",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b01_5.png",
+     "name": "Mangual del corazón de Carmen",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b01_6.png",
+     "name": "Morgana (P5R)",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b01_7.png",
+     "name": "Pantuflas de Morgana",
+     "rarity": "gaminglegends"
+    }
+   ]
+  },
+  {
+   "name": "A$AP Rocky",
+   "regular": 8800,
+   "price": 3200,
+   "save": 5600,
+   "pct": 64,
+   "count": 13,
+   "out": "2026-12-06",
+   "out_es": "6 de diciembre",
+   "new": false,
+   "img": "img/b02.png",
+   "outfits": [
+    "Flacko Helicopter",
+    "Rocky Rugahand"
+   ],
+   "types": [
+    "calzado",
+    "envoltorio",
+    "gesto",
+    "mochila",
+    "pico",
+    "planeador",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b02_0.png",
+     "name": "Flacko Helicopter",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b02_1.png",
+     "name": "Rocky Rugahand",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b02_2.png",
+     "name": "Propulsores de alta fidelidad",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b02_3.png",
+     "name": "A$AP ROCKY X PUMA Suede 94 \"Black/White\"",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "img/b02_4.png",
+     "name": "Helicóptero de Flacko",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b02_5.png",
+     "name": "Guanteletes de A$AP",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b02_6.png",
+     "name": "Cohetes de A$AP",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b02_7.png",
+     "name": "Helicopter",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "name": "Overwatch",
+   "regular": 8800,
+   "price": 4200,
+   "save": 4600,
+   "pct": 52,
+   "count": 18,
+   "out": "2026-12-04",
+   "out_es": "4 de diciembre",
+   "new": false,
+   "img": "img/b03.png",
+   "outfits": [
+    "Mercy",
+    "D.Va",
+    "Tracer"
+   ],
+   "types": [
+    "envoltorio",
+    "gesto",
+    "mochila",
+    "pantalla de carga",
+    "pico",
+    "planeador",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b03_0.png",
+     "name": "Mercy",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b03_1.png",
+     "name": "D.Va",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b03_2.png",
+     "name": "Tracer",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b03_3.png",
+     "name": "Genji",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b03_4.png",
+     "name": "Alas de valquiria de Mercy",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b03_5.png",
+     "name": "Alas de valquiria de Mercy",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b03_6.png",
+     "name": "Bastón caduceo",
+     "rarity": "gaminglegends"
+    },
+    {
+     "img": "img/b03_7.png",
+     "name": "Cercenador de Tokki",
+     "rarity": "gaminglegends"
+    }
+   ]
+  },
+  {
+   "name": "One Piece",
+   "regular": 8200,
+   "price": 4000,
+   "save": 4200,
+   "pct": 51,
+   "count": 15,
+   "out": "2026-12-05",
+   "out_es": "5 de diciembre",
+   "new": false,
+   "img": "img/b04.png",
+   "outfits": [
+    "Monkey D. Luffy",
+    "Nami",
+    "Usopp"
+   ],
+   "types": [
+    "gesto",
+    "mochila",
+    "pico",
+    "planeador",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b04_0.png",
+     "name": "Monkey D. Luffy",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b04_1.png",
+     "name": "Nami",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b04_2.png",
+     "name": "Usopp",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b04_3.png",
+     "name": "Sombrero de paja de Luffy",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b04_4.png",
+     "name": "Pistola goma goma",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b04_5.png",
+     "name": "Ráfaga de puñetazos",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "img/b04_6.png",
+     "name": "Mandarinas de Nami",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b04_7.png",
+     "name": "Bastón del clima",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "name": "Lil' Uzi Vert",
+   "regular": 7100,
+   "price": 3200,
+   "save": 3900,
+   "pct": 55,
+   "count": 12,
+   "out": "2026-12-12",
+   "out_es": "12 de diciembre",
+   "new": false,
+   "img": "img/b05.png",
+   "outfits": [
+    "Lil Uzi Vert",
+    "Lil Uzi Vert de gira"
+   ],
+   "types": [
+    "calzado",
+    "envoltorio",
+    "gesto",
+    "mochila",
+    "pantalla de carga",
+    "pico",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b05_0.png",
+     "name": "Lil Uzi Vert",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b05_1.png",
+     "name": "Lil Uzi Vert de gira",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b05_2.png",
+     "name": "Alas de Uzi",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b05_3.png",
+     "name": "Estrella de Lil Uzi",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b05_4.png",
+     "name": "Hacha de Picco",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b05_5.png",
+     "name": "XO Tour Llif3",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b05_6.png",
+     "name": "What You Saying",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b05_7.png",
+     "name": "Cuerdas de gira de Uzi",
+     "rarity": "icon"
+    }
+   ]
+  },
+  {
+   "name": "Bandada",
+   "regular": 6500,
+   "price": 2800,
+   "save": 3700,
+   "pct": 57,
+   "count": 10,
+   "out": "2026-11-26",
+   "out_es": "26 de noviembre",
+   "new": false,
+   "img": "img/b06.png",
+   "outfits": [
+    "Cacareador cafetero",
+    "Héctor Halcón",
+    "Ululato el Sabio"
+   ],
+   "types": [
+    "envoltorio",
+    "mochila",
+    "pico",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b06_0.png",
+     "name": "Cacareador cafetero",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b06_1.png",
+     "name": "Héctor Halcón",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b06_2.png",
+     "name": "Ululato el Sabio",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b06_3.png",
+     "name": "Desplumador 3000",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b06_4.png",
+     "name": "Café para llevar",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b06_5.png",
+     "name": "Funda rapaz",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b06_6.png",
+     "name": "Hacha táctica de la Patrulla Halcón",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b06_7.png",
+     "name": "Bola de cristal profética",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "name": "El asombroso circo digital",
+   "regular": 7100,
+   "price": 3400,
+   "save": 3700,
+   "pct": 52,
+   "count": 12,
+   "out": "2026-11-28",
+   "out_es": "28 de noviembre",
+   "new": true,
+   "img": "img/b07.png",
+   "outfits": [
+    "Pomni",
+    "Jax"
+   ],
+   "types": [
+    "envoltorio",
+    "gesto",
+    "mochila",
+    "pico",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b07_0.png",
+     "name": "Pomni",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b07_1.png",
+     "name": "Jax",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b07_2.png",
+     "name": "Gummigoo, tu mejor amigo",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b07_3.png",
+     "name": "Peluche de Ribbit",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b07_4.png",
+     "name": "Abstracción",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "img/b07_5.png",
+     "name": "Bubble de combate",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b07_6.png",
+     "name": "Zooble-Ke-Bab",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b07_7.png",
+     "name": "Bufonada musical",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "name": "Phineas y Ferb",
+   "regular": 6400,
+   "price": 3200,
+   "save": 3200,
+   "pct": 50,
+   "count": 9,
+   "out": "2026-11-26",
+   "out_es": "26 de noviembre",
+   "new": false,
+   "img": "img/b08.png",
+   "outfits": [
+    "Perry musculoso",
+    "Dr. Doofenshmirtz"
+   ],
+   "types": [
+    "gesto",
+    "mochila",
+    "pico",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b08_0.png",
+     "name": "Perry musculoso",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b08_1.png",
+     "name": "Dr. Doofenshmirtz",
+     "rarity": "epic"
+    },
+    {
+     "img": "img/b08_2.png",
+     "name": "Peluche Patito Momo",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b08_3.png",
+     "name": "Perry la figura de inacción",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b08_4.png",
+     "name": "Globito",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b08_5.png",
+     "name": "Gnomoexterminador",
+     "rarity": "rare"
+    },
+    {
+     "img": "img/b08_6.png",
+     "name": "Pasos de jazz de Doof",
+     "rarity": "uncommon"
+    },
+    {
+     "img": "img/b08_7.png",
+     "name": "Agente P camuflado",
+     "rarity": "rare"
+    }
+   ]
+  },
+  {
+   "name": "MrSavage",
+   "regular": 5400,
+   "price": 2800,
+   "save": 2600,
+   "pct": 48,
+   "count": 9,
+   "out": "2026-11-27",
+   "out_es": "27 de noviembre",
+   "new": true,
+   "img": "img/b09.png",
+   "outfits": [
+    "MrSavage",
+    "Sirena Savage"
+   ],
+   "types": [
+    "envoltorio",
+    "gesto",
+    "mochila",
+    "pico",
+    "skin"
+   ],
+   "icons": [
+    {
+     "img": "img/b09_0.png",
+     "name": "MrSavage",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b09_1.png",
+     "name": "Sirena Savage",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b09_2.png",
+     "name": "200 de CI",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b09_3.png",
+     "name": "Legado de sirena",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b09_4.png",
+     "name": "Alabarda de Savage",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b09_5.png",
+     "name": "Dagas de Sirena",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b09_6.png",
+     "name": "Escáner de habilidad",
+     "rarity": "icon"
+    },
+    {
+     "img": "img/b09_7.png",
+     "name": "A cocinar",
+     "rarity": "icon"
+    }
+   ]
+  }
+ ],
+ "top3": [
+  "One Punch Man",
+  "A$AP Rocky",
+  "Persona 5 Royal"
+ ],
+ "lines": [
+  {
+   "scene": "intro",
+   "text": "¡Qué onda, banda! Hoy te enseño los diez lotes con más ahorro de la tienda de Fortnite: qué traen, cuánto te ahorras… y hasta cuándo están. Al final, el top tres por porcentaje. ¡Vamos!"
+  },
+  {
+   "scene": "b0",
+   "text": "Número uno: el lote de One Punch Man. Trae dieciocho objetos, con Saitama, Genos… y más. Por separado costaría once mil novecientas monedas… y el lote está en tres mil ochocientas. ¡Te ahorras ocho mil cien! O sea, el sesenta y ocho por ciento. Está disponible hasta el veintisiete de noviembre."
+  },
+  {
+   "scene": "b1",
+   "text": "Número dos: el lote de Persona 5 Royal. Trae quince objetos, con Joker, Panther… y más. Por separado costaría nueve mil seiscientas monedas… y el lote está en tres mil ochocientas. ¡Te ahorras cinco mil ochocientas! O sea, el sesenta por ciento. Y ojo: llegó hoy a la tienda. Está disponible hasta el veintinueve de noviembre."
+  },
+  {
+   "scene": "b2",
+   "text": "Número tres: el lote de Asap Rocky. Trae trece objetos, con Flacko Helicopter, Rocky Rugahand… y más. Por separado costaría ocho mil ochocientas monedas… y el lote está en tres mil doscientas. ¡Te ahorras cinco mil seiscientas! O sea, el sesenta y cuatro por ciento. Está disponible hasta el seis de diciembre."
+  },
+  {
+   "scene": "b3",
+   "text": "Número cuatro: el lote de Overwatch. Trae dieciocho objetos, con Mercy, D.Va… y más. Por separado costaría ocho mil ochocientas monedas… y el lote está en cuatro mil doscientas. ¡Te ahorras cuatro mil seiscientas! O sea, el cincuenta y dos por ciento. Está disponible hasta el cuatro de diciembre."
+  },
+  {
+   "scene": "b4",
+   "text": "Número cinco: el lote de One Piece. Trae quince objetos, con Monkey D. Luffy, Nami… y más. Por separado costaría ocho mil doscientas monedas… y el lote está en cuatro mil. ¡Te ahorras cuatro mil doscientas! O sea, el cincuenta y uno por ciento. Está disponible hasta el cinco de diciembre."
+  },
+  {
+   "scene": "b5",
+   "text": "Número seis: el lote de Lil' Uzi Vert. Trae doce objetos, con Lil Uzi Vert, Lil Uzi Vert de gira… y más. Por separado costaría siete mil cien monedas… y el lote está en tres mil doscientas. ¡Te ahorras tres mil novecientas! O sea, el cincuenta y cinco por ciento. Está disponible hasta el doce de diciembre."
+  },
+  {
+   "scene": "b6",
+   "text": "Número siete: el lote de Bandada. Trae diez objetos, con Cacareador cafetero, Héctor Halcón… y más. Por separado costaría seis mil quinientas monedas… y el lote está en dos mil ochocientas. ¡Te ahorras tres mil setecientas! O sea, el cincuenta y siete por ciento. Está disponible hasta el veintiséis de noviembre."
+  },
+  {
+   "scene": "b7",
+   "text": "Número ocho: el lote de El asombroso circo digital. Trae doce objetos, con Pomni, Jax… y más. Por separado costaría siete mil cien monedas… y el lote está en tres mil cuatrocientas. ¡Te ahorras tres mil setecientas! O sea, el cincuenta y dos por ciento. Y ojo: llegó hoy a la tienda. Está disponible hasta el veintiocho de noviembre."
+  },
+  {
+   "scene": "b8",
+   "text": "Número nueve: el lote de Phineas y Ferb. Trae nueve objetos, con Perry musculoso, Dr. Doofenshmirtz… y más. Por separado costaría seis mil cuatrocientas monedas… y el lote está en tres mil doscientas. ¡Te ahorras tres mil doscientas! O sea, el cincuenta por ciento. Está disponible hasta el veintiséis de noviembre."
+  },
+  {
+   "scene": "b9",
+   "text": "Número diez: el lote de MrSavage. Trae nueve objetos, con MrSavage, Sirena Savage… y más. Por separado costaría cinco mil cuatrocientas monedas… y el lote está en dos mil ochocientas. ¡Te ahorras dos mil seiscientas! O sea, el cuarenta y ocho por ciento. Y ojo: llegó hoy a la tienda. Está disponible hasta el veintisiete de noviembre."
+  },
+  {
+   "scene": "top",
+   "text": "¿Y cuáles tienen el mayor porcentaje de ahorro? En tercer lugar, Persona 5 Royal. En segundo, Asap Rocky. ¡Y en primer lugar, One Punch Man, con el sesenta y ocho por ciento!"
+  },
+  {
+   "scene": "outro",
+   "text": "¿Tú cuál vas a comprar? Déjamelo en los comentarios. Si te sirvió, suscríbete para la próxima guía… y si compras algo, usa el código BAD en la tienda. ¡Nos vemos!"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "total": 274.143,
+ "scenes": [
+  {
+   "id": "intro",
+   "start": 0.0,
+   "dur": 14.11,
+   "voice_at": 0.6,
+   "voice_len": 12.51
+  },
+  {
+   "id": "b0",
+   "start": 14.11,
+   "dur": 21.404,
+   "voice_at": 14.61,
+   "voice_len": 19.804
+  },
+  {
+   "id": "b1",
+   "start": 35.514,
+   "dur": 24.447,
+   "voice_at": 36.014,
+   "voice_len": 22.847
+  },
+  {
+   "id": "b2",
+   "start": 59.961,
+   "dur": 22.386,
+   "voice_at": 60.461,
+   "voice_len": 20.786
+  },
+  {
+   "id": "b3",
+   "start": 82.348,
+   "dur": 21.577,
+   "voice_at": 82.848,
+   "voice_len": 19.977
+  },
+  {
+   "id": "b4",
+   "start": 103.924,
+   "dur": 21.146,
+   "voice_at": 104.424,
+   "voice_len": 19.546
+  },
+  {
+   "id": "b5",
+   "start": 125.07,
+   "dur": 22.243,
+   "voice_at": 125.57,
+   "voice_len": 20.643
+  },
+  {
+   "id": "b6",
+   "start": 147.314,
+   "dur": 22.524,
+   "voice_at": 147.814,
+   "voice_len": 20.924
+  },
+  {
+   "id": "b7",
+   "start": 169.837,
+   "dur": 24.093,
+   "voice_at": 170.337,
+   "voice_len": 22.493
+  },
+  {
+   "id": "b8",
+   "start": 193.931,
+   "dur": 23.243,
+   "voice_at": 194.431,
+   "voice_len": 21.643
+  },
+  {
+   "id": "b9",
+   "start": 217.174,
+   "dur": 25.653,
+   "voice_at": 217.674,
+   "voice_len": 24.053
+  },
+  {
+   "id": "top",
+   "start": 242.826,
+   "dur": 13.526,
+   "voice_at": 243.226,
+   "voice_len": 11.726
+  },
+  {
+   "id": "outro",
+   "start": 256.353,
+   "dur": 17.791,
+   "voice_at": 256.753,
+   "voice_len": 11.39
+  }
+ ]
+}
