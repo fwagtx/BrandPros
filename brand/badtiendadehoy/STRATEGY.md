@@ -24,6 +24,7 @@ Captions differ per platform (shop.py `captions()`); the video is the same becau
 
 ## Cadence (Central time)
 - **Daily 6:40 PM CST** (7:40 PM CDT): shop video on TikTok, IG Reels, FB Reels, YT Shorts, Threads.
+- **Daily 11:30 AM**: "Lote del día" short (one bundle spotlight) on all five networks, queued 7 days ahead.
 - **Daily 12:15 PM** (12:45 PM Sat/Sun): Threads conversation post.
 - **Wednesday & Saturday 4:00 PM**: long YouTube video (the YouTube peak in the proxy data is 2-5 PM).
 - Every video has a designed thumbnail/cover (the channel has custom thumbnails).

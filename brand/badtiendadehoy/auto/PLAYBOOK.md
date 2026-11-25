@@ -59,6 +59,7 @@ English, La Tiendita Bad in Spanish, CodigoBad in Portuguese) are run by other s
 | Run | When | What |
 |---|---|---|
 | **SHOP** | 00:07 UTC (6:07 PM CST / 7:07 PM CDT), right after the reset | Today's shop video, 40 min after the reset (6:40 PM CST), on TikTok, Instagram Reels, Facebook Reels, YouTube Shorts and Threads |
+| (queued) | every day **11:30 AM** | **"Lote del día"** short (one bundle spotlight, ~30 s) on all five networks, kept **7 days ahead** by the DAY run |
 | **SHOP safety** | 02:19 UTC | Same run; stops at step 1 when the shop video is already scheduled everywhere |
 | **DAY** | 10:33 AM | Check yesterday's posts, save metrics, keep 7 days of Threads conversation posts queued |
 | **LONG** | Wednesday and Saturday 6:43 AM | One long YouTube video ("TOP 10 lotes con más ahorro"), published at **4:00 PM** |
@@ -125,6 +126,14 @@ P = `TZ=America/Chicago date +%F` (the publish day; the video goes out at 4:00 P
    followers (TKEV07, IGEV01, YTEV01, FBEV17, THEV01). Match posts to the ledger by caption start and date; write the numbers
    into auto/metrics.json (one row per post per network, updated in place). Never invent a number: a metric Metricool
    doesn't return stays empty.
+2b. **Lote del día: keep 7 days of videos queued on every network** (owner, 2026-11-25: "make sure you are scheduling
+   videos for all platforms"). Check `getScheduledPosts` for the 11:30 AM slots of today+1 … today+7 (posts starting
+   `#EpicPartner Lote del día:`). For the missing days: `python3 brand/badtiendadehoy/auto/spot.py plan <first missing day> <days>`
+   (it fetches the live shop and only plans a bundle that is still in the shop the day after it posts), then for each planned
+   day `spot.py build DAY` (~8 min), Read `spot/DAY/qa/review-sheet.jpg` (hook, detail with icons, strike → bundle price,
+   saving, date, creator-code end, cover), write `spot/DAY/review.json` PASS/FAIL, `spot.py ship DAY`, `createScheduledPost`
+   for each call in `spot/DAY/posts.json` (TikTok carries its caption in tiktokData.title), verify, `spot.py done DAY`.
+   At most 3 new per run. If a queued bundle's leave date moves earlier (fetch shows it gone), set that post to draft and say so.
 3. **Threads queue.** Keep a conversation post at 12:15 PM (12:45 PM Sat/Sun) for each of the next 7 days. Write new ones in
    the brand's voice: one question that's easy to answer, about buying habits, favorite skins, OG items, the code (at most
    one in four posts, with `#EpicPartner`); never news, never a fact that isn't in today's shop data. Record each in

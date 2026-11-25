@@ -1,7 +1,7 @@
 """Voice + timeline for the long video. Each scene's narration is generated sentence by sentence with the locked voz-3
 voice (steadier than one long take), and each scene lasts as long as its narration plus a short breath, so nothing is cut.
 
-    python3 long_voice.py <model_dir> <long_dir>
+    python3 long_voice.py <model_dir> <dir> [data.json (default long.json)] [min scene seconds (default 10.5)]
 
 Writes <long_dir>/vo/voice.wav, <long_dir>/vo/lines.json and <long_dir>/timeline.json.
 """
@@ -11,7 +11,8 @@ import numpy as np, soundfile as sf
 HERE = os.path.dirname(os.path.abspath(__file__))
 BRAND = os.path.dirname(HERE)
 SR = 48000
-PAD = {"intro": (0.6, 1.0), "top": (0.4, 1.4), "outro": (0.4, 6.0)}   # (before, after) seconds; outro keeps the code screen
+PAD = {"intro": (0.6, 1.0), "top": (0.4, 1.4), "outro": (0.4, 6.0),   # (before, after) seconds; outro keeps the code screen
+       "hook": (0.25, 0.35), "detail": (0.2, 0.8), "cta": (0.2, 5.2)}      # "Lote del día" shorts
 DEFAULT_PAD = (0.5, 1.1)
 MIN_SCENE = 10.5   # YouTube chapters need 10 s or more
 
@@ -23,7 +24,8 @@ def sentences(text):
 
 def main():
     model_dir, ld = sys.argv[1], sys.argv[2]
-    data = json.load(open(os.path.join(ld, "long.json")))
+    data = json.load(open(os.path.join(ld, sys.argv[3] if len(sys.argv) > 3 else "long.json")))
+    min_scene = float(sys.argv[4]) if len(sys.argv) > 4 else MIN_SCENE
     voice = json.load(open(os.path.join(BRAND, "voice", "voice.json")))
     import torch, librosa
     from qwen_tts import Qwen3TTSModel
@@ -60,7 +62,7 @@ def main():
     t, scenes = 0.0, []
     for ln, clip in zip(data["lines"], clips):
         before, after = PAD.get(ln["scene"], DEFAULT_PAD)
-        dur = max(MIN_SCENE, before + len(clip) / SR + after)
+        dur = max(min_scene, before + len(clip) / SR + after)
         scenes.append(dict(id=ln["scene"], start=round(t, 3), dur=round(dur, 3), voice_at=round(t + before, 3),
                            voice_len=round(len(clip) / SR, 3)))
         t += dur

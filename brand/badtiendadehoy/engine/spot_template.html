@@ -1,0 +1,107 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Figtree;src:url(FONTDIR/figtree.woff2);font-weight:300 900}
+@font-face{font-family:Anton;src:url(FONTDIR/anton.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;font-family:Figtree,'Noto Color Emoji',sans-serif;background:radial-gradient(ellipse 75% 75% at 50% 42%,#7ee83a 0%,#2f9a1c 100%)}
+.abs{position:absolute}
+#bg{position:absolute;inset:-80px;background-size:cover;background-position:center;filter:blur(40px);opacity:.38}
+.stack{position:relative;display:inline-block;font-weight:900;line-height:1}
+.stack span{display:block;white-space:nowrap}
+.stack .back{color:#000}.stack .front{position:absolute;left:0;top:0;color:#fff}.lime .front{color:#e6ff3a}
+.pill{display:inline-block;font-weight:800;border-radius:16px;white-space:nowrap}
+.pdark{background:rgba(10,22,10,.85);color:#fff}.plime{background:#e6ff3a;color:#111}.pwhite{background:#fff;color:#111}
+#sticker{left:64px;top:268px;transform:rotate(-3deg);transform-origin:left top;background:#e6ff3a;border-radius:20px;padding:14px 24px 6px;box-shadow:0 10px 0 rgba(0,0,0,.28);z-index:20}
+#sticker .a{font-weight:800;font-size:33px;color:#111}#sticker .b{font-weight:900;font-size:128px;line-height:.98;color:#111;letter-spacing:-1px}
+#ep{left:70px;top:478px;color:#fff;font-weight:800;font-size:26px;text-shadow:0 2px 4px rgba(0,0,0,.6);z-index:20}
+#tag{right:72px;top:290px;text-align:right;z-index:20}
+.card{position:absolute;border-radius:34px;overflow:hidden;background:radial-gradient(ellipse 80% 75% at 50% 42%,#4fd9e3,#167f8c);border:3px solid rgba(255,255,255,.25);box-shadow:0 26px 60px rgba(0,0,0,.4)}
+.card img{position:absolute;left:50%;top:50%;width:96%;transform:translate(-50%,-50%)}
+.icon{width:128px;height:128px;border-radius:18px;overflow:hidden;border:2px solid rgba(255,255,255,.3);box-shadow:0 8px 16px rgba(0,0,0,.3)}
+.icon img{width:100%;height:100%}
+.r-common{background:radial-gradient(circle at 50% 40%,#b9c3cc,#6b7883)}.r-uncommon{background:radial-gradient(circle at 50% 40%,#7ee83a,#2f9a1c)}
+.r-rare{background:radial-gradient(circle at 50% 40%,#2fb3f0,#1d5fd6)}.r-epic{background:radial-gradient(circle at 50% 40%,#c45cff,#6a1fc4)}
+.r-legendary{background:radial-gradient(circle at 50% 40%,#ffb347,#c2571a)}.r-icon{background:radial-gradient(circle at 50% 40%,#56dde3,#13868f)}.r-other{background:radial-gradient(circle at 50% 40%,#ff7ad9,#8b2bb5)}
+.strike{position:absolute;left:-10px;top:47%;height:16px;background:#ff2b2b;border-radius:8px;box-shadow:0 0 0 5px #000;transform:rotate(-4deg);transform-origin:left center}
+#dialog{width:900px;background:rgba(14,14,22,.95);border-radius:6px;padding:26px 30px 30px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#dialog .hd{font-family:Anton;font-size:66px;color:#fff;line-height:1.1;padding-bottom:10px;border-bottom:5px solid #e6ff3a;transform:skewX(-6deg);transform-origin:left}
+#dialog .inp{margin-top:22px;height:68px;background:#f4f4f6;border-radius:3px;font-weight:800;font-size:42px;color:#111;padding:6px 14px;white-space:pre}
+#dialog .row{display:flex;justify-content:space-between;align-items:center;margin-top:20px;height:74px}
+#dialog .epx{color:#fff;font-weight:800;font-size:34px}#dialog .btn{background:#e6ff3a;color:#111;font-weight:900;font-size:36px;padding:12px 34px;border-radius:6px}
+#caret{display:inline-block;width:4px;height:42px;background:#111;vertical-align:-6px;margin-left:2px}
+.sac{display:inline-flex;align-items:center;gap:16px;background:#e6ff3a;color:#111;font-weight:900;font-size:44px;padding:14px 30px 16px 16px;border-radius:44px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.sac .ck{width:54px;height:54px;border-radius:50%;background:#111;display:flex;align-items:center;justify-content:center}
+</style></head><body>
+<div id="bg"></div><div id="stage"></div>
+<script>
+const D = __DATA__, TL = __TIMELINE__, MODE = '__MODE__';
+document.getElementById('bg').style.backgroundImage = `url(${D.img})`;
+const stage = document.getElementById('stage');
+const add = h => { const d = document.createElement('div'); d.innerHTML = h.trim(); const n = d.firstChild; stage.appendChild(n); return n; };
+const fmt = n => Math.round(n).toLocaleString('en-US');
+const clamp = (x,a=0,b=1)=>Math.max(a,Math.min(b,x)); const ease = x=>1-Math.pow(1-clamp(x),3);
+function pop(dt,d=0.25){ if(dt<0) return 0; const x=clamp(dt/d); if(x>=1) return 1; return x<0.7?(x/0.7)*1.08:1.08-(x-0.7)/0.3*0.08; }
+const stack = (t,size,stroke,cls='') => `<div class="stack ${cls}" style="font-size:${size}px"><span class="back" style="-webkit-text-stroke:${stroke}px #000">${t}</span><span class="front">${t}</span></div>`;
+const RAR = r => ['common','uncommon','rare','epic','legendary','icon'].includes(r) ? 'r-'+r : 'r-other';
+const nameSize = D.name.length > 20 ? 64 : (D.name.length > 14 ? 80 : 96);
+
+add(`<div id="sticker" class="abs"><div class="a">USA EL CÓDIGO:</div><div class="b">BAD</div></div>`);
+add(`<div id="ep" class="abs">#EpicPartner</div>`);
+add(`<div id="tag" class="abs"><div class="pill plime" style="font-size:44px;padding:10px 22px 14px;transform:rotate(3deg);box-shadow:0 8px 0 rgba(0,0,0,.3)">LOTE DEL DÍA</div><div class="pill pdark" style="font-size:28px;padding:6px 14px 8px;margin-top:14px">${D.day_es}</div></div>`);
+
+if (MODE === 'cover') {
+  add(`<div class="abs" style="left:0;right:0;top:560px;text-align:center">${stack('¿VALE LA PENA?', 112, 22)}</div>`);
+  add(`<div class="card" style="left:120px;top:720px;width:840px;height:640px;transform:rotate(-3deg)"><img src="${D.img}"></div>`);
+  add(`<div class="abs" style="left:0;right:0;top:1390px;text-align:center"><div class="pill pwhite" style="font-size:60px;padding:10px 26px 16px;transform:rotate(-2deg)">${D.name}</div></div>`);
+  add(`<div class="abs" style="left:0;right:0;top:1510px;text-align:center"><div class="pill plime" style="font-size:56px;padding:10px 26px 14px;transform:rotate(-3deg);box-shadow:0 8px 0 rgba(0,0,0,.3)">AHORRA ${D.pct}% 🔥</div></div>`);
+  window.render = () => {};
+} else {
+  const S = Object.fromEntries(TL.scenes.map(s=>[s.id,s]));
+  const q = add(`<div class="abs" style="left:0;right:0;top:560px;text-align:center">${stack('¿VALE LA PENA?', 112, 22)}</div>`);
+  const card = add(`<div class="card" style="left:120px;top:720px;width:840px;height:640px"><img src="${D.img}"></div>`);
+  const nm = add(`<div class="abs" style="left:0;right:0;top:1390px;text-align:center"><div class="pill pwhite" style="font-size:${nameSize}px;padding:10px 26px 16px;transform:rotate(-2deg)">${D.name}</div></div>`);
+  const nm2 = add(`<div class="abs" style="left:640px;top:560px;width:400px"><div style="font-weight:900;font-size:${D.name.length>16?54:66}px;line-height:1.05;color:#fff;text-shadow:0 4px 0 #000,0 -2px 0 #000,3px 0 0 #000,-3px 0 0 #000">${D.name}</div></div>`);
+  const cnt = add(`<div class="abs pill pdark" style="left:640px;top:880px;font-size:40px;padding:8px 20px 12px">${D.count} objetos</div>`);
+  const icons = add(`<div class="abs" style="left:80px;top:1000px;display:flex;gap:16px">${D.icons.map(c=>`<div class="icon ${RAR(c.rarity)}"><img src="${c.img}"></div>`).join('')}</div>`);
+  const reg = add(`<div class="abs" style="left:80px;top:1160px"><div class="stack" style="font-size:110px"><span class="back" style="-webkit-text-stroke:18px #000">${fmt(D.regular)}</span><span class="front">${fmt(D.regular)}</span><div class="strike"></div></div><div class="pill pdark" style="font-size:30px;padding:4px 12px 6px;margin-left:10px;vertical-align:36px">precio normal</div></div>`);
+  const fin = add(`<div class="abs" style="left:80px;top:1290px">${stack(fmt(D.price), 160, 26, 'lime')}<div class="pill pdark" style="font-size:34px;padding:4px 14px 8px;margin-left:12px;vertical-align:56px">monedas V</div></div>`);
+  const sv = add(`<div class="abs pill plime" style="left:84px;top:1480px;font-size:52px;padding:10px 24px 14px;transform:rotate(-2deg);box-shadow:0 8px 0 rgba(0,0,0,.3)">Te ahorras ${fmt(D.save)} (${D.pct}%) 🔥</div>`);
+  const dt = add(`<div class="abs pill pdark" style="left:84px;top:1590px;font-size:42px;padding:10px 22px 14px">⏰ Hasta el ${D.out_es}</div>`);
+  const ask = add(`<div class="abs" style="left:0;right:0;top:620px;text-align:center"><div class="pill pwhite" style="font-size:64px;padding:14px 30px 20px;transform:rotate(-2deg)">¿Lo vas a comprar? 👇</div></div>`);
+  const dlg = add(`<div class="abs" style="left:90px;top:860px"><div id="dialog"><div class="hd">CÓDIGO DE CREADOR</div><div class="inp"><span id="typed"></span><span id="caret"></span></div><div class="row"><div class="epx">#EpicPartner</div><div class="btn">Aceptar</div></div></div></div>`);
+  const sac = add(`<div class="abs" style="left:0;right:0;top:1000px;text-align:center"><div class="sac"><div class="ck"><svg width="32" height="32" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="#e6ff3a" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>APOYA A UN CREADOR: BAD</div><div style="margin-top:16px;color:#fff;font-weight:800;font-size:32px;text-shadow:0 2px 4px #000">#EpicPartner · ¡gracias! 💚</div></div>`);
+  const detailEls = [nm2, cnt, icons, reg, fin, sv, dt];
+  window.render = function(t){
+    const hk = S.hook, de = S.detail, ct = S.cta;
+    [q,card,nm,ask,dlg,sac,...detailEls].forEach(e=>e.style.display='none');
+    if (t < de.start) {                                    // hook: big question, card pops in, name
+      q.style.display=''; q.style.transform=`scale(${pop(t-0.05)})`;
+      card.style.display=''; card.style.top='720px'; card.style.left='120px'; card.style.width='840px'; card.style.height='640px';
+      card.style.transform=`translateY(${(1-ease(t/0.45))*900}px) rotate(-3deg)`;
+      nm.style.display=''; nm.style.top='1390px'; nm.style.transform=`scale(${pop(t-0.35)})`;
+    } else if (t < ct.start) {                             // detail: card moves up, facts appear as they are said
+      const r = t - de.start, L = de.voice_len, V = de.voice_at - de.start, m = ease(r/0.4);
+      card.style.display=''; card.style.left=(120-60*m)+'px'; card.style.top=(720-180*m)+'px';
+      card.style.width=(840-280*m)+'px'; card.style.height=(640-210*m)+'px'; card.style.transform=`rotate(${-3+3*m}deg)`;
+      nm2.style.display=''; nm2.style.opacity = m;
+      cnt.style.display=''; cnt.style.transform=`scale(${pop(r-V-0.02*L)})`;
+      icons.style.display='flex'; [...icons.children].forEach((c,k)=>c.style.transform=`scale(${pop(r-V-0.05*L-k*0.1)})`);
+      reg.style.display = r > V+0.25*L ? '' : 'none';
+      const sw = clamp((r-V-0.42*L)/0.3); reg.querySelector('.strike').style.width = (reg.querySelector('.front').offsetWidth+20)*ease(sw)+'px';
+      fin.style.display=''; fin.style.transform=`scale(${pop(r-V-0.46*L)})`; fin.style.transformOrigin='left center';
+      sv.style.display=''; sv.style.transform=`rotate(-2deg) scale(${pop(r-V-0.66*L)})`; sv.style.transformOrigin='left center';
+      dt.style.display=''; dt.style.transform=`scale(${pop(r-V-0.82*L)})`; dt.style.transformOrigin='left center';
+    } else {                                               // cta: ask, then the code typed in
+      const r = t - ct.start, L = ct.voice_len, c = r - (ct.voice_at - ct.start) - 0.45*L;
+      ask.style.display=''; ask.style.transform=`scale(${pop(r)})`;
+      dlg.style.display = (c >= 0 && c < 3.4) ? '' : 'none'; dlg.style.transform=`scale(${pop(c,0.3)})`;
+      const n = c<0.8?0:Math.min(3,1+Math.floor((c-0.8)/0.18));
+      document.getElementById('typed').textContent='BAD'.slice(0,n); document.getElementById('caret').style.visibility=(Math.floor(c*2.2)%2===0)?'visible':'hidden';
+      dlg.querySelector('.btn').style.transform=(c>=2.6&&c<2.8)?'scale(.92)':'scale(1)';
+      sac.style.display = c >= 3.4 ? '' : 'none'; sac.style.transform=`scale(${pop(c-3.4,0.3)})`;
+      if (c < 0) { card.style.display=''; card.style.left='60px'; card.style.top='860px'; card.style.width='960px'; card.style.height='700px'; card.style.transform=`scale(${pop(r,0.3)})`; }
+    }
+  };
+}
+</script></body></html>
