@@ -1,0 +1,270 @@
+{
+ "date": "25 nov",
+ "offers": 345,
+ "strings": {
+  "use_code": "USA EL CÓDIGO:",
+  "code": "BAD",
+  "partner": "#EpicPartner",
+  "intro_title": "la tienda de hoy 🛒",
+  "offers": "345 ofertas en la tienda hoy",
+  "worth": "esto es lo que vale la pena 👀",
+  "vbucks": "monedas V",
+  "regular": "precio normal",
+  "vbucks_today": "monedas V hoy",
+  "buying": "¿qué vas a comprar? 👇",
+  "use_code_cta": "usa el código BAD en la tienda 💚",
+  "creator_code": "CÓDIGO DE CREADOR",
+  "accept": "Aceptar",
+  "sac": "APOYA A UN CREADOR: BAD"
+ },
+ "intro_cards": [
+  {
+   "img": "img/01.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200
+  },
+  {
+   "img": "img/03.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200
+  },
+  {
+   "img": "img/05.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 800
+  }
+ ],
+ "segments": [
+  {
+   "kind": "bundle",
+   "name": "Persona 5 Royal",
+   "img": "img/00.png",
+   "color": [
+    "#4fd9e3",
+    "#167f8c"
+   ],
+   "regular": 9600,
+   "price": 3800,
+   "captions": [
+    {
+     "text": "lote nuevo hoy 🆕",
+     "style": "dark",
+     "at": 1.33
+    },
+    {
+     "text": "ahorra 5,800 monedas V 🔥",
+     "style": "yellow",
+     "at": 4.33
+    },
+    {
+     "text": "15 objetos: Joker (P5R), Panther (P5R) y más",
+     "style": "dark",
+     "at": 6.0
+    }
+   ],
+   "badge": {
+    "emoji": "🔥",
+    "at": 4.33
+   }
+  },
+  {
+   "kind": "item",
+   "name": "Reverberación",
+   "img": "img/01.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "del capítulo 2, temporada 7",
+     "style": "dark",
+     "at": 1.9
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "rare",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Transmisión biónica",
+   "img": "img/02.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 200,
+   "captions": [
+    {
+     "text": "del capítulo 2, temporada 2",
+     "style": "dark",
+     "at": 1.9
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "rare",
+   "type": "backpack"
+  },
+  {
+   "kind": "item",
+   "name": "Pía",
+   "img": "img/03.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "llegó el 24 nov 🆕",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Minichihuahua",
+   "img": "img/04.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "llegó el 24 nov 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "sidekick"
+  },
+  {
+   "kind": "item",
+   "name": "Bola 2",
+   "img": "img/05.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "llegó el 24 nov 🆕",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Alabarda de Savage",
+   "img": "img/06.png",
+   "color": [
+    "#56dde3",
+    "#13868f"
+   ],
+   "price": 500,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "icon",
+   "type": "pickaxe"
+  },
+  {
+   "kind": "item",
+   "name": "Bola 7",
+   "img": "img/07.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "llegó el 24 nov 🆕",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Nido de víboras",
+   "img": "img/08.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "llegó el 24 nov 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "outfit"
+  }
+ ]
+}
