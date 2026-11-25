@@ -1,0 +1,58 @@
+{
+ "day": "2026-12-01",
+ "day_es": "1 de diciembre",
+ "name": "One Piece",
+ "regular": 8200,
+ "price": 4000,
+ "save": 4200,
+ "pct": 51,
+ "count": 15,
+ "out": "2026-12-05",
+ "out_es": "5 de diciembre",
+ "img": "img/bundle.png",
+ "outfits": [
+  "Monkey D. Luffy",
+  "Nami"
+ ],
+ "icons": [
+  {
+   "img": "img/i0.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i1.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i2.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i3.png",
+   "rarity": "rare"
+  },
+  {
+   "img": "img/i4.png",
+   "rarity": "rare"
+  },
+  {
+   "img": "img/i5.png",
+   "rarity": "uncommon"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "¿Vale la pena el lote de One Piece? ¡Mira!"
+  },
+  {
+   "scene": "detail",
+   "text": "Trae quince objetos, con Monkey D. Luffy, Nami… y más. Por separado costaría ocho mil doscientas monedas… y el lote está en cuatro mil. ¡Te ahorras el cincuenta y uno por ciento! Está en la tienda hasta el cinco de diciembre."
+  },
+  {
+   "scene": "cta",
+   "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!"
+  }
+ ],
+ "shop_date": "2026-11-25"
+}

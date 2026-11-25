@@ -1,0 +1,58 @@
+{
+ "day": "2026-11-27",
+ "day_es": "27 de noviembre",
+ "name": "El asombroso circo digital",
+ "regular": 7100,
+ "price": 3400,
+ "save": 3700,
+ "pct": 52,
+ "count": 12,
+ "out": "2026-11-28",
+ "out_es": "28 de noviembre",
+ "img": "img/bundle.png",
+ "outfits": [
+  "Pomni",
+  "Jax"
+ ],
+ "icons": [
+  {
+   "img": "img/i0.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i1.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i2.png",
+   "rarity": "rare"
+  },
+  {
+   "img": "img/i3.png",
+   "rarity": "rare"
+  },
+  {
+   "img": "img/i4.png",
+   "rarity": "uncommon"
+  },
+  {
+   "img": "img/i5.png",
+   "rarity": "rare"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "¿Vale la pena el lote de El asombroso circo digital? ¡Mira!"
+  },
+  {
+   "scene": "detail",
+   "text": "Trae doce objetos, con Pomni, Jax… y más. Por separado costaría siete mil cien monedas… y el lote está en tres mil cuatrocientas. ¡Te ahorras el cincuenta y dos por ciento! Está en la tienda hasta el veintiocho de noviembre."
+  },
+  {
+   "scene": "cta",
+   "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!"
+  }
+ ],
+ "shop_date": "2026-11-25"
+}

@@ -1,0 +1,58 @@
+{
+ "day": "2026-11-30",
+ "day_es": "30 de noviembre",
+ "name": "Overwatch",
+ "regular": 8800,
+ "price": 4200,
+ "save": 4600,
+ "pct": 52,
+ "count": 18,
+ "out": "2026-12-04",
+ "out_es": "4 de diciembre",
+ "img": "img/bundle.png",
+ "outfits": [
+  "Mercy",
+  "D.Va"
+ ],
+ "icons": [
+  {
+   "img": "img/i0.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i1.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i2.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i3.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i4.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i5.png",
+   "rarity": "gaminglegends"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "¿Vale la pena el lote de Overwatch? ¡Mira!"
+  },
+  {
+   "scene": "detail",
+   "text": "Trae dieciocho objetos, con Mercy, D.Va… y más. Por separado costaría ocho mil ochocientas monedas… y el lote está en cuatro mil doscientas. ¡Te ahorras el cincuenta y dos por ciento! Está en la tienda hasta el cuatro de diciembre."
+  },
+  {
+   "scene": "cta",
+   "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!"
+  }
+ ],
+ "shop_date": "2026-11-25"
+}

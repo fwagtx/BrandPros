@@ -1,0 +1,17 @@
+[
+ {
+  "scene": "hook",
+  "text": "¿Vale la pena el lote de Bandada? ¡Mira!",
+  "seconds": 2.91
+ },
+ {
+  "scene": "detail",
+  "text": "Trae diez objetos, con Cacareador cafetero, Héctor Halcón… y más. Por separado costaría seis mil quinientas monedas… y el lote está en dos mil ochocientas. ¡Te ahorras el cincuenta y siete por ciento! Está en la tienda hasta el veintiseis de noviembre.",
+  "seconds": 15.72
+ },
+ {
+  "scene": "cta",
+  "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!",
+  "seconds": 6.99
+ }
+]

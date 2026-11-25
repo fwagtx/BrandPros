@@ -1,0 +1,58 @@
+{
+ "day": "2026-11-25",
+ "day_es": "25 de noviembre",
+ "name": "Bandada",
+ "regular": 6500,
+ "price": 2800,
+ "save": 3700,
+ "pct": 57,
+ "count": 10,
+ "out": "2026-11-26",
+ "out_es": "26 de noviembre",
+ "img": "img/bundle.png",
+ "outfits": [
+  "Cacareador cafetero",
+  "Héctor Halcón"
+ ],
+ "icons": [
+  {
+   "img": "img/i0.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i1.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i2.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i3.png",
+   "rarity": "rare"
+  },
+  {
+   "img": "img/i4.png",
+   "rarity": "rare"
+  },
+  {
+   "img": "img/i5.png",
+   "rarity": "rare"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "¿Vale la pena el lote de Bandada? ¡Mira!"
+  },
+  {
+   "scene": "detail",
+   "text": "Trae diez objetos, con Cacareador cafetero, Héctor Halcón… y más. Por separado costaría seis mil quinientas monedas… y el lote está en dos mil ochocientas. ¡Te ahorras el cincuenta y siete por ciento! Está en la tienda hasta el veintiseis de noviembre."
+  },
+  {
+   "scene": "cta",
+   "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!"
+  }
+ ],
+ "shop_date": "2026-11-25"
+}

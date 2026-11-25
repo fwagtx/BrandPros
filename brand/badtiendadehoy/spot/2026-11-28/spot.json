@@ -1,0 +1,58 @@
+{
+ "day": "2026-11-28",
+ "day_es": "28 de noviembre",
+ "name": "Persona 5 Royal",
+ "regular": 9600,
+ "price": 3800,
+ "save": 5800,
+ "pct": 60,
+ "count": 15,
+ "out": "2026-11-29",
+ "out_es": "29 de noviembre",
+ "img": "img/bundle.png",
+ "outfits": [
+  "Joker (P5R)",
+  "Panther (P5R)"
+ ],
+ "icons": [
+  {
+   "img": "img/i0.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i1.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i2.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i3.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i4.png",
+   "rarity": "gaminglegends"
+  },
+  {
+   "img": "img/i5.png",
+   "rarity": "gaminglegends"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "¿Vale la pena el lote de Persona 5 Royal? ¡Mira!"
+  },
+  {
+   "scene": "detail",
+   "text": "Trae quince objetos, con Joker (P5R), Panther (P5R)… y más. Por separado costaría nueve mil seiscientas monedas… y el lote está en tres mil ochocientas. ¡Te ahorras el sesenta por ciento! Está en la tienda hasta el veintinueve de noviembre."
+  },
+  {
+   "scene": "cta",
+   "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!"
+  }
+ ],
+ "shop_date": "2026-11-25"
+}

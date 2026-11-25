@@ -1,0 +1,58 @@
+{
+ "day": "2026-11-26",
+ "day_es": "26 de noviembre",
+ "name": "One Punch Man",
+ "regular": 11900,
+ "price": 3800,
+ "save": 8100,
+ "pct": 68,
+ "count": 18,
+ "out": "2026-11-27",
+ "out_es": "27 de noviembre",
+ "img": "img/bundle.png",
+ "outfits": [
+  "Saitama",
+  "Genos"
+ ],
+ "icons": [
+  {
+   "img": "img/i0.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i1.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i2.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i3.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i4.png",
+   "rarity": "rare"
+  },
+  {
+   "img": "img/i5.png",
+   "rarity": "epic"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "¿Vale la pena el lote de One Punch Man? ¡Mira!"
+  },
+  {
+   "scene": "detail",
+   "text": "Trae dieciocho objetos, con Saitama, Genos… y más. Por separado costaría once mil novecientas monedas… y el lote está en tres mil ochocientas. ¡Te ahorras el sesenta y ocho por ciento! Está en la tienda hasta el veintisiete de noviembre."
+  },
+  {
+   "scene": "cta",
+   "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!"
+  }
+ ],
+ "shop_date": "2026-11-25"
+}
