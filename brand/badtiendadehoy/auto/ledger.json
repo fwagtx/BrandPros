@@ -158,21 +158,6 @@
  },
  {
   "kind": "spot",
-  "day": "2026-11-28",
-  "at": "2026-11-28T11:30:00-06:00",
-  "match": "#EpicPartner Lote del día: Persona 5 Royal",
-  "bundle": "Persona 5 Royal",
-  "out": "2026-11-29",
-  "networks": [
-   "tiktok",
-   "instagram",
-   "facebook",
-   "youtube",
-   "threads"
-  ]
- },
- {
-  "kind": "spot",
   "day": "2026-11-29",
   "at": "2026-11-29T11:30:00-06:00",
   "match": "#EpicPartner Lote del día: Botín de la cosecha",
@@ -235,5 +220,20 @@
    "MrSavage"
   ],
   "minutes": 4.6
+ },
+ {
+  "kind": "spot",
+  "day": "2026-11-28",
+  "at": "2026-11-28T11:30:00-06:00",
+  "match": "#EpicPartner Lote del día: Persona 5 Royal",
+  "bundle": "Persona 5 Royal",
+  "out": "2026-11-29",
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
  }
 ]
