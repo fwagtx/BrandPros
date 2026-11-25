@@ -1,0 +1,554 @@
+{
+ "duration": 288.3,
+ "caption": "#EpicPartner Can you name every place on the Fortnite map after v43.10? Use code BAD in the Item Shop.\n#Fortnite #FortniteMap",
+ "claims": [
+  {
+   "text": "16 places on the map: 11 named locations, 5 landmarks",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "Baratie",
+    "Rubber Resort",
+    "Plunder Port",
+    "The Chest",
+    "Arlong Park",
+    "Windmill Village",
+    "Nami's Tangerine Grove",
+    "Henry",
+    "The $.$. Rocky",
+    "Busy Bay",
+    "Cursed Cavern",
+    "Giant's Battlefield",
+    "Buggy's Beachhead",
+    "The Salty Skull",
+    "Loguetown"
+   ],
+   "visual": "11 ids with .POI., 5 UnNamedPOI ids"
+  },
+  {
+   "text": "Game build is v43.10",
+   "source": "build.json",
+   "match": [
+    "Release-43.10"
+   ]
+  },
+  {
+   "text": "New since Nov 11: [\"Buggy's Beachhead\", \"Nami's Tangerine Grove\"]; gone: ['Boogie Boat', \"Fortune's Fort\", 'Loot Lagoon']",
+   "source": "map-changes.json",
+   "match": [
+    "Boogie Boat",
+    "Fortune's Fort",
+    "Loot Lagoon"
+   ],
+   "visual": "set difference of POI names, Nov 11 snapshot vs today"
+  },
+  {
+   "text": "In today's map: [\"Buggy's Beachhead\", \"Nami's Tangerine Grove\"]",
+   "source": "map.json",
+   "match": [
+    "Buggy's Beachhead",
+    "Nami's Tangerine Grove"
+   ]
+  },
+  {
+   "text": "Buggy's Beachhead: named location, in the north of the map, closest named Lantern Landing ~360 m",
+   "source": "map.json",
+   "match": [
+    "Buggy's Beachhead",
+    "Lantern Landing"
+   ],
+   "visual": "map pixel (1031.1, 850.9); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Plunder Port: named location, in the south of the map, closest named Busy Bay ~410 m",
+   "source": "map.json",
+   "match": [
+    "Plunder Port",
+    "Busy Bay"
+   ],
+   "visual": "map pixel (1150.3, 1606.1); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Lantern Landing ~360 m from Buggy's Beachhead",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "Buggy's Beachhead"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Lantern Landing: named location, near the center of the map, closest named The Chest ~340 m",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing",
+    "The Chest"
+   ],
+   "visual": "map pixel (898.7, 1049.7); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Cursed Cavern ~460 m from Lantern Landing",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern",
+    "Lantern Landing"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Cursed Cavern: named location, in the east of the map, closest named The $.$. Rocky ~370 m",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern",
+    "The $.$. Rocky"
+   ],
+   "visual": "map pixel (1184.2, 1147.6); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Loguetown ~420 m from Plunder Port",
+   "source": "map.json",
+   "match": [
+    "Loguetown",
+    "Plunder Port"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Loguetown: named location, in the south of the map, closest named Windmill Village ~360 m",
+   "source": "map.json",
+   "match": [
+    "Loguetown",
+    "Windmill Village"
+   ],
+   "visual": "map pixel (988.7, 1382.2); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "The Chest ~340 m from Lantern Landing",
+   "source": "map.json",
+   "match": [
+    "The Chest",
+    "Lantern Landing"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "The Chest: named location, in the north-west of the map, closest named Rubber Resort ~250 m",
+   "source": "map.json",
+   "match": [
+    "The Chest",
+    "Rubber Resort"
+   ],
+   "visual": "map pixel (762.1, 875.4); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "The $.$. Rocky ~370 m from Cursed Cavern",
+   "source": "map.json",
+   "match": [
+    "The $.$. Rocky",
+    "Cursed Cavern"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "The $.$. Rocky: named location, in the east of the map, second closest named Busy Bay ~400 m",
+   "source": "map.json",
+   "match": [
+    "The $.$. Rocky",
+    "Busy Bay"
+   ],
+   "visual": "map pixel (1415.7, 1216.9); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Windmill Village ~360 m from Loguetown",
+   "source": "map.json",
+   "match": [
+    "Windmill Village",
+    "Loguetown"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Windmill Village: named location, in the south-west of the map, second closest named Arlong Park ~510 m",
+   "source": "map.json",
+   "match": [
+    "Windmill Village",
+    "Arlong Park"
+   ],
+   "visual": "map pixel (754.5, 1437.6); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Rubber Resort ~250 m from The Chest",
+   "source": "map.json",
+   "match": [
+    "Rubber Resort",
+    "The Chest"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Rubber Resort: named location, in the north of the map, second closest named Buggy's Beachhead ~380 m",
+   "source": "map.json",
+   "match": [
+    "Rubber Resort",
+    "Buggy's Beachhead"
+   ],
+   "visual": "map pixel (817.7, 718.0); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Busy Bay ~400 m from The $.$. Rocky",
+   "source": "map.json",
+   "match": [
+    "Busy Bay",
+    "The $.$. Rocky"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Busy Bay: named location, in the south-east of the map, second closest named Plunder Port ~410 m",
+   "source": "map.json",
+   "match": [
+    "Busy Bay",
+    "Plunder Port"
+   ],
+   "visual": "map pixel (1387.9, 1481.5); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Arlong Park ~410 m from Lantern Landing",
+   "source": "map.json",
+   "match": [
+    "Arlong Park",
+    "Lantern Landing"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Arlong Park: named location, in the west of the map, second closest named The Chest ~420 m",
+   "source": "map.json",
+   "match": [
+    "Arlong Park",
+    "The Chest"
+   ],
+   "visual": "map pixel (634.8, 1123.2); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Nami's Tangerine Grove ~200 m from Windmill Village",
+   "source": "map.json",
+   "match": [
+    "Nami's Tangerine Grove",
+    "Windmill Village"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Nami's Tangerine Grove: landmark, in the south-west of the map, second closest named Loguetown ~500 m",
+   "source": "map.json",
+   "match": [
+    "Nami's Tangerine Grove",
+    "Loguetown"
+   ],
+   "visual": "map pixel (710.1, 1560.9); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Giant's Battlefield ~220 m from Loguetown",
+   "source": "map.json",
+   "match": [
+    "Giant's Battlefield",
+    "Loguetown"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Giant's Battlefield: landmark, near the center of the map, second closest named Lantern Landing ~300 m",
+   "source": "map.json",
+   "match": [
+    "Giant's Battlefield",
+    "Lantern Landing"
+   ],
+   "visual": "map pixel (952.6, 1243.0); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Henry ~180 m from Plunder Port",
+   "source": "map.json",
+   "match": [
+    "Henry",
+    "Plunder Port"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Henry: landmark, in the south-east of the map, second closest named Busy Bay ~280 m",
+   "source": "map.json",
+   "match": [
+    "Henry",
+    "Busy Bay"
+   ],
+   "visual": "map pixel (1203.2, 1500.4); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Baratie ~40 m from Busy Bay",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Busy Bay"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "Baratie: landmark, in the south-east of the map, second closest named The $.$. Rocky ~390 m",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "The $.$. Rocky"
+   ],
+   "visual": "map pixel (1411.1, 1476.8); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "The Salty Skull ~120 m from Cursed Cavern",
+   "source": "map.json",
+   "match": [
+    "The Salty Skull",
+    "Cursed Cavern"
+   ],
+   "visual": "distance between official POI coordinates"
+  },
+  {
+   "text": "The Salty Skull: landmark, in the east of the map, second closest named The $.$. Rocky ~320 m",
+   "source": "map.json",
+   "match": [
+    "The Salty Skull",
+    "The $.$. Rocky"
+   ],
+   "visual": "map pixel (1206.1, 1224.3); unlabeled official map; distances between official POI coordinates"
+  },
+  {
+   "text": "Closest pair Baratie / Busy Bay ~40 m; farthest Baratie / Rubber Resort ~1460 m",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Busy Bay",
+    "Baratie",
+    "Rubber Resort"
+   ],
+   "visual": "all pairwise distances between official POI coordinates"
+  }
+ ],
+ "text": [
+  "MAP QUIZ / CAN YOU NAME EVERY / PLACE ON THE MAP?",
+  "16 / PLACES ON THE OFFICIAL MAP",
+  "SINCE THE LAST QUIZ / 2 NEW, 3 GONE",
+  "ROUND 1 / THE 11 NAMED / LOCATIONS",
+  "ROUND 1: NAMED LOCATIONS",
+  "?",
+  "PLACE 1 OF 16 / NAMED LOCATION · IN THE NORTH OF THE MAP",
+  "BUGGY'S BEACHHEAD / NAMED LOCATION",
+  "PLACE 2 OF 16 / NAMED LOCATION · IN THE SOUTH OF THE MAP",
+  "PLUNDER PORT / NAMED LOCATION",
+  "PLACE 3 OF 16 / NAMED LOCATION · NEAR THE CENTER OF THE MAP",
+  "LANTERN LANDING / NAMED LOCATION",
+  "PLACE 4 OF 16 / NAMED LOCATION · IN THE EAST OF THE MAP",
+  "CURSED CAVERN / NAMED LOCATION",
+  "PLACE 5 OF 16 / NAMED LOCATION · IN THE SOUTH OF THE MAP",
+  "LOGUETOWN / NAMED LOCATION",
+  "PLACE 6 OF 16 / NAMED LOCATION · IN THE NORTH-WEST OF THE MAP",
+  "THE CHEST / NAMED LOCATION",
+  "PLACE 7 OF 16 / NAMED LOCATION · IN THE EAST OF THE MAP",
+  "THE $.$. ROCKY / NAMED LOCATION",
+  "PLACE 8 OF 16 / NAMED LOCATION · IN THE SOUTH-WEST OF THE MAP",
+  "WINDMILL VILLAGE / NAMED LOCATION",
+  "PLACE 9 OF 16 / NAMED LOCATION · IN THE NORTH OF THE MAP",
+  "RUBBER RESORT / NAMED LOCATION",
+  "PLACE 10 OF 16 / NAMED LOCATION · IN THE SOUTH-EAST OF THE MAP",
+  "BUSY BAY / NAMED LOCATION",
+  "PLACE 11 OF 16 / NAMED LOCATION · IN THE WEST OF THE MAP",
+  "ARLONG PARK / NAMED LOCATION",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "ROUND 2 / THE 5 LANDMARKS",
+  "ROUND 2: LANDMARKS",
+  "PLACE 12 OF 16 / LANDMARK · IN THE SOUTH-WEST OF THE MAP",
+  "NAMI'S TANGERINE GROVE / LANDMARK",
+  "PLACE 13 OF 16 / LANDMARK · NEAR THE CENTER OF THE MAP",
+  "GIANT'S BATTLEFIELD / LANDMARK",
+  "PLACE 14 OF 16 / LANDMARK · IN THE SOUTH-EAST OF THE MAP",
+  "HENRY / LANDMARK",
+  "PLACE 15 OF 16 / LANDMARK · IN THE SOUTH-EAST OF THE MAP",
+  "BARATIE / LANDMARK",
+  "PLACE 16 OF 16 / LANDMARK · IN THE EAST OF THE MAP",
+  "THE SALTY SKULL / LANDMARK",
+  "BONUS ROUND / CLOSEST AND / FARTHEST",
+  "BONUS ROUND",
+  "BARATIE + BUSY BAY / ABOUT 40 M APART",
+  "BARATIE + RUBBER RESORT / ABOUT 1460 M APART",
+  "YOUR SCORE / HOW MANY OUT / OF 16?",
+  "YOUR SCORE",
+  "CAN YOU NAME EVERY PLACE ON",
+  "THE FORTNITE MAP AFTER THE V43.10",
+  "UPDATE?",
+  "HERE ARE ALL 16 OF THEM,",
+  "WITH NO LABELS.",
+  "THE OFFICIAL MAP HAS 11 NAMED",
+  "LOCATIONS AND 5 LANDMARKS.",
+  "I'LL PIN A SPOT,",
+  "GIVE YOU A MOMENT,",
+  "THEN REVEAL IT.",
+  "KEEP SCORE,",
+  "AND TELL ME HOW YOU DID",
+  "AT THE END!",
+  "IF YOU TOOK MY LAST MAP",
+  "QUIZ,",
+  "HEADS UP:",
+  "THE MAP CHANGED SINCE THEN.",
+  "TWO PLACES ARE NEW:",
+  "BUGGY'S BEACHHEAD AND NAMI'S TANGERINE GROVE.",
+  "AND THREE ARE GONE:",
+  "BOOGIE BOAT,",
+  "FORTUNE'S FORT AND LOOT LAGOON.",
+  "SO YOU CAN'T JUST REMEMBER THE",
+  "OLD ANSWERS.",
+  "ROUND ONE:",
+  "THE 11 NAMED LOCATIONS.",
+  "THESE ARE THE BIG ONES,",
+  "SO LET'S SEE HOW YOU DO.",
+  "NUMBER ONE.",
+  "A NAMED LOCATION,",
+  "IN THE NORTH OF THE MAP.",
+  "THREE,",
+  "TWO,",
+  "ONE.",
+  "IT'S BUGGY'S BEACHHEAD!",
+  "ITS CLOSEST NAMED NEIGHBOR IS LANTERN",
+  "LANDING,",
+  "ABOUT 360 METERS AWAY.",
+  "NUMBER TWO.",
+  "IN THE SOUTH OF THE MAP.",
+  "IT'S PLUNDER PORT!",
+  "ITS CLOSEST NAMED NEIGHBOR IS BUSY",
+  "BAY,",
+  "ABOUT 410 METERS AWAY.",
+  "NUMBER THREE.",
+  "NEAR THE CENTER OF THE MAP.",
+  "HINT:",
+  "IT'S ABOUT 360 METERS FROM BUGGY'S",
+  "BEACHHEAD,",
+  "WHICH YOU ALREADY GOT.",
+  "IT'S LANTERN LANDING!",
+  "ITS CLOSEST NAMED NEIGHBOR IS THE",
+  "CHEST,",
+  "ABOUT 340 METERS AWAY.",
+  "NUMBER FOUR.",
+  "IN THE EAST OF THE MAP.",
+  "IT'S ABOUT 460 METERS FROM LANTERN",
+  "IT'S CURSED CAVERN!",
+  "$.$.",
+  "ROCKY,",
+  "ABOUT 370 METERS AWAY.",
+  "NUMBER FIVE.",
+  "IT'S ABOUT 420 METERS FROM PLUNDER",
+  "PORT,",
+  "IT'S LOGUETOWN!",
+  "ITS CLOSEST NAMED NEIGHBOR IS WINDMILL",
+  "VILLAGE,",
+  "NUMBER SIX.",
+  "IN THE NORTH-WEST OF THE MAP.",
+  "IT'S ABOUT 340 METERS FROM LANTERN",
+  "IT'S THE CHEST!",
+  "ITS CLOSEST NAMED NEIGHBOR IS RUBBER",
+  "RESORT,",
+  "ABOUT 250 METERS AWAY.",
+  "NUMBER SEVEN.",
+  "IT'S ABOUT 370 METERS FROM CURSED",
+  "CAVERN,",
+  "IT'S THE $.$.",
+  "ROCKY!",
+  "ITS SECOND CLOSEST NAMED NEIGHBOR IS",
+  "BUSY BAY,",
+  "ABOUT 400 METERS AWAY.",
+  "NUMBER EIGHT.",
+  "IN THE SOUTH-WEST OF THE MAP.",
+  "IT'S ABOUT 360 METERS FROM LOGUETOWN,",
+  "IT'S WINDMILL VILLAGE!",
+  "ARLONG PARK,",
+  "ABOUT 510 METERS AWAY.",
+  "NUMBER NINE.",
+  "IT'S ABOUT 250 METERS FROM THE",
+  "IT'S RUBBER RESORT!",
+  "BUGGY'S BEACHHEAD,",
+  "ABOUT 380 METERS AWAY.",
+  "NUMBER TEN.",
+  "IN THE SOUTH-EAST OF THE MAP.",
+  "IT'S ABOUT 400 METERS FROM THE",
+  "IT'S BUSY BAY!",
+  "PLUNDER PORT,",
+  "NUMBER ELEVEN.",
+  "IN THE WEST OF THE MAP.",
+  "IT'S ABOUT 410 METERS FROM LANTERN",
+  "IT'S ARLONG PARK!",
+  "THE CHEST,",
+  "ABOUT 420 METERS AWAY.",
+  "HALFWAY CHECK:",
+  "IF YOU'RE GRABBING ANYTHING FROM THE",
+  "ITEM SHOP,",
+  "USE CODE BAD.",
+  "IT REALLY HELPS THE CHANNEL.",
+  "ROUND TWO:",
+  "THE 5 LANDMARKS.",
+  "THESE ARE SMALLER,",
+  "SO THEY'RE HARDER.",
+  "NUMBER TWELVE.",
+  "A LANDMARK,",
+  "IT'S ABOUT 200 METERS FROM WINDMILL",
+  "IT'S NAMI'S TANGERINE GROVE!",
+  "ITS SECOND CLOSEST NAMED LOCATION IS",
+  "LOGUETOWN,",
+  "ABOUT 500 METERS AWAY.",
+  "NUMBER THIRTEEN.",
+  "IT'S ABOUT 220 METERS FROM LOGUETOWN,",
+  "IT'S GIANT'S BATTLEFIELD!",
+  "LANTERN LANDING,",
+  "ABOUT 300 METERS AWAY.",
+  "NUMBER FOURTEEN.",
+  "IT'S ABOUT 180 METERS FROM PLUNDER",
+  "IT'S HENRY!",
+  "ABOUT 280 METERS AWAY.",
+  "NUMBER FIFTEEN.",
+  "IT'S ABOUT 40 METERS FROM BUSY",
+  "IT'S BARATIE!",
+  "THE $.$.",
+  "ABOUT 390 METERS AWAY.",
+  "NUMBER SIXTEEN.",
+  "IT'S ABOUT 120 METERS FROM CURSED",
+  "IT'S THE SALTY SKULL!",
+  "ABOUT 320 METERS AWAY.",
+  "BONUS ROUND,",
+  "TWO QUICK ONES.",
+  "WHICH TWO PLACES ARE THE CLOSEST",
+  "TOGETHER ON THE WHOLE MAP?",
+  "IT'S BARATIE AND BUSY BAY,",
+  "ONLY ABOUT 40 METERS APART.",
+  "AND WHICH TWO ARE THE FARTHEST",
+  "APART?",
+  "BARATIE AND RUBBER RESORT,",
+  "ABOUT 1,460 METERS APART,",
+  "CORNER TO CORNER.",
+  "THAT'S ALL 16.",
+  "SO,",
+  "HOW MANY DID YOU GET?",
+  "ALL 16?",
+  "YOU KNOW THIS MAP BETTER THAN",
+  "MOST.",
+  "TEN OR MORE IS A SOLID",
+  "SCORE,",
+  "AND BONUS POINTS IF YOU GOT",
+  "THE BONUS ROUND.",
+  "UNDER TEN?",
+  "TIME TO DROP IN AND EXPLORE.",
+  "TELL ME YOUR SCORE IN THE",
+  "COMMENTS!",
+  "USE CODE BAD IN THE ITEM",
+  "SHOP.",
+  "THANK YOU FOR WATCHING!",
+  "FOLLOW FOR MORE DAILY CONTENT.",
+  "CODE BAD · ROYALE",
+  "#EPICPARTNER"
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "note": "Map POI names in the snapshot saved by fetch_sources.py on 2026-11-11 (v43.00) and in today's map.json, with the names added and gone in between.",
+ "snapshot_2026_11_11": [
+  "Arlong Park",
+  "Baratie",
+  "Boogie Boat",
+  "Busy Bay",
+  "Cursed Cavern",
+  "Fortune's Fort",
+  "Giant's Battlefield",
+  "Henry",
+  "Lantern Landing",
+  "Loguetown",
+  "Loot Lagoon",
+  "Plunder Port",
+  "Rubber Resort",
+  "The $.$. Rocky",
+  "The Chest",
+  "The Salty Skull",
+  "Windmill Village"
+ ],
+ "today": [
+  "Arlong Park",
+  "Baratie",
+  "Buggy's Beachhead",
+  "Busy Bay",
+  "Cursed Cavern",
+  "Giant's Battlefield",
+  "Henry",
+  "Lantern Landing",
+  "Loguetown",
+  "Nami's Tangerine Grove",
+  "Plunder Port",
+  "Rubber Resort",
+  "The $.$. Rocky",
+  "The Chest",
+  "The Salty Skull",
+  "Windmill Village"
+ ],
+ "added": [
+  "Buggy's Beachhead",
+  "Nami's Tangerine Grove"
+ ],
+ "gone": [
+  "Boogie Boat",
+  "Fortune's Fort",
+  "Loot Lagoon"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "via": "fortnite-api.com (mirror of Epic in-game data). Epic CDN and fortnite.com are blocked from cloud sessions.",
+ "files": [
+  {
+   "file": "map.json",
+   "source": "Battle Royale map POI data",
+   "url": "https://fortnite-api.com/v1/map",
+   "fetched_utc": "2026-11-25T11:14:25Z"
+  },
+  {
+   "file": "build.json",
+   "source": "Current game build (version)",
+   "url": "https://fortnite-api.com/v2/aes",
+   "fetched_utc": "2026-11-25T11:14:25Z"
+  },
+  {
+   "file": "map-changes.json",
+   "source": "Map POI names: saved 2026-11-11 snapshot (brand/badroyale/sources/history/2026-11-11-map.json) vs today",
+   "url": "https://fortnite-api.com/v1/map",
+   "fetched_utc": "2026-11-25T11:14:25Z",
+   "note": "fetched_utc is today's map fetch; the Nov 11 names are the saved snapshot of that day"
+  }
+ ]
+}

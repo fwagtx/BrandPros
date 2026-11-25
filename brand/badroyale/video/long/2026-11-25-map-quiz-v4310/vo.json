@@ -1,0 +1,418 @@
+{
+ "phrases": [
+  {
+   "text": "Can you name every place on the Fortnite map after the v43.10 update? Here are all 16 of them, with no labels.",
+   "pause": 0.25
+  },
+  {
+   "text": "The official map has 11 named locations and 5 landmarks.",
+   "pause": 0.25
+  },
+  {
+   "text": "I'll pin a spot, give you a moment, then reveal it. Keep score, and tell me how you did at the end!",
+   "pause": 0.4
+  },
+  {
+   "text": "If you took my last map quiz, heads up: the map changed since then.",
+   "pause": 0.2
+  },
+  {
+   "text": "Two places are new: Buggy's Beachhead and Nami's Tangerine Grove.",
+   "pause": 0.2
+  },
+  {
+   "text": "And three are gone: Boogie Boat, Fortune's Fort and Loot Lagoon. So you can't just remember the old answers.",
+   "pause": 0.35
+  },
+  {
+   "text": "Round one: the 11 named locations. These are the big ones, so let's see how you do.",
+   "pause": 0.3
+  },
+  {
+   "text": "Number one. A named location, in the north of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Buggy's Beachhead!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its closest named neighbor is Lantern Landing, about 360 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number two. A named location, in the south of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Plunder Port!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its closest named neighbor is Busy Bay, about 410 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number three. A named location, near the center of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 360 meters from Buggy's Beachhead, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Lantern Landing!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its closest named neighbor is The Chest, about 340 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number four. A named location, in the east of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 460 meters from Lantern Landing, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Cursed Cavern!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its closest named neighbor is The $.$. Rocky, about 370 meters away.",
+   "pause": 0.35,
+   "say": "Its closest named neighbor is The S S Rocky, about 370 meters away."
+  },
+  {
+   "text": "Number five. A named location, in the south of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 420 meters from Plunder Port, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Loguetown!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its closest named neighbor is Windmill Village, about 360 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number six. A named location, in the north-west of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 340 meters from Lantern Landing, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's The Chest!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its closest named neighbor is Rubber Resort, about 250 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number seven. A named location, in the east of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 370 meters from Cursed Cavern, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's The $.$. Rocky!",
+   "pause": 0.25,
+   "say": "It's The S S Rocky!"
+  },
+  {
+   "text": "Its second closest named neighbor is Busy Bay, about 400 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number eight. A named location, in the south-west of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 360 meters from Loguetown, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Windmill Village!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its second closest named neighbor is Arlong Park, about 510 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number nine. A named location, in the north of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 250 meters from The Chest, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Rubber Resort!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its second closest named neighbor is Buggy's Beachhead, about 380 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number ten. A named location, in the south-east of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 400 meters from The $.$. Rocky, which you already got.",
+   "pause": 0.2,
+   "say": "Hint: it's about 400 meters from The S S Rocky, which you already got."
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Busy Bay!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its second closest named neighbor is Plunder Port, about 410 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number eleven. A named location, in the west of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 410 meters from Lantern Landing, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Arlong Park!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its second closest named neighbor is The Chest, about 420 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Halfway check: if you're grabbing anything from the Item Shop, use code BAD. It really helps the channel.",
+   "pause": 0.4
+  },
+  {
+   "text": "Round two: the 5 landmarks. These are smaller, so they're harder.",
+   "pause": 0.3
+  },
+  {
+   "text": "Number twelve. A landmark, in the south-west of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 200 meters from Windmill Village, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Nami's Tangerine Grove!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its second closest named location is Loguetown, about 500 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number thirteen. A landmark, near the center of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 220 meters from Loguetown, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Giant's Battlefield!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its second closest named location is Lantern Landing, about 300 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number fourteen. A landmark, in the south-east of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 180 meters from Plunder Port, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Henry!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its second closest named location is Busy Bay, about 280 meters away.",
+   "pause": 0.35
+  },
+  {
+   "text": "Number fifteen. A landmark, in the south-east of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 40 meters from Busy Bay, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Baratie!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its second closest named location is The $.$. Rocky, about 390 meters away.",
+   "pause": 0.35,
+   "say": "Its second closest named location is The S S Rocky, about 390 meters away."
+  },
+  {
+   "text": "Number sixteen. A landmark, in the east of the map.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hint: it's about 120 meters from Cursed Cavern, which you already got.",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's The Salty Skull!",
+   "pause": 0.25
+  },
+  {
+   "text": "Its second closest named location is The $.$. Rocky, about 320 meters away.",
+   "pause": 0.35,
+   "say": "Its second closest named location is The S S Rocky, about 320 meters away."
+  },
+  {
+   "text": "Bonus round, two quick ones.",
+   "pause": 0.2
+  },
+  {
+   "text": "Which two places are the closest together on the whole map?",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "It's Baratie and Busy Bay, only about 40 meters apart.",
+   "pause": 0.3
+  },
+  {
+   "text": "And which two are the farthest apart?",
+   "pause": 0.2
+  },
+  {
+   "text": "Three, two, one.",
+   "pause": 1.0
+  },
+  {
+   "text": "Baratie and Rubber Resort, about 1,460 meters apart, corner to corner.",
+   "pause": 0.35
+  },
+  {
+   "text": "That's all 16. So, how many did you get?",
+   "pause": 0.25
+  },
+  {
+   "text": "All 16? You know this map better than most.",
+   "pause": 0.2
+  },
+  {
+   "text": "Ten or more is a solid score, and bonus points if you got the bonus round.",
+   "pause": 0.2
+  },
+  {
+   "text": "Under ten? Time to drop in and explore.",
+   "pause": 0.3
+  },
+  {
+   "text": "Tell me your score in the comments!",
+   "pause": 0.4
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.6
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

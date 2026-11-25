@@ -108,12 +108,12 @@ old = json.load(open(os.path.join(SRC, "history", "2026-11-11-map.json")))["data
 on, nn_ = {p["name"] for p in old}, {p["name"] for p in pois}
 added, gone = sorted(nn_ - on), sorted(on - nn_)
 assert added and gone, (added, gone)
-segs.append({"type": "title", "p": len(phrases), "chapter": "What changed since the last quiz", "kicker": "SINCE THE LAST QUIZ",
+segs.append({"type": "title", "p": len(phrases), "kicker": "SINCE THE LAST QUIZ",  # too short (<12 s) for its own chapter
              "lines": [f"{len(added)} new, {len(gone)} gone"]})
 ph(f"If you took my last map quiz, heads up: the map changed since then.", 0.2)
 ph(f"{NUM[len(added) - 1].capitalize()} places are new: {', '.join(added[:-1])} and {added[-1]}.", 0.2)
 ph(f"And {NUM[len(gone) - 1]} are gone: {', '.join(gone[:-1])} and {gone[-1]}. So you can't just remember the old answers.", 0.35)
-claims.append({"text": f"New since Nov 11: {added}; gone: {gone}", "source": "history/2026-11-11-map.json",
+claims.append({"text": f"New since Nov 11: {added}; gone: {gone}", "source": "map-changes.json",
                "match": gone, "visual": "set difference of POI names, Nov 11 snapshot vs today"})
 claims.append({"text": f"In today's map: {added}", "source": "map.json", "match": added})
 
@@ -186,10 +186,15 @@ os.makedirs(os.path.join(HERE, "sources"), exist_ok=True)
 man = json.load(open(os.path.join(SRC, "manifest.json")))
 for f in ("map.json", "build.json"):
     shutil.copy(os.path.join(SRC, f), os.path.join(HERE, "sources", f))
-os.makedirs(os.path.join(HERE, "sources", "history"), exist_ok=True)
-shutil.copy(os.path.join(SRC, "history", "2026-11-11-map.json"), os.path.join(HERE, "sources", "history", "2026-11-11-map.json"))
 mf = next(f for f in man["files"] if f["file"] == "map.json")
-man["files"] = [f for f in man["files"] if f["file"] in ("map.json", "build.json")] + [
-    dict(mf, file="history/2026-11-11-map.json", fetched_utc="2026-11-11", note="snapshot saved by fetch_sources.py on 2026-11-11 (v43.00 map)")]
+man["files"] = [f for f in man["files"] if f["file"] in ("map.json", "build.json")]
+# the Nov 11 snapshot is folded into a file dated with today's fetch (same pattern as the week videos' week.json)
+json.dump({"note": "Map POI names in the snapshot saved by fetch_sources.py on 2026-11-11 (v43.00) and in today's map.json, "
+                   "with the names added and gone in between.",
+           "snapshot_2026_11_11": sorted(on), "today": sorted(nn_), "added": added, "gone": gone},
+          open(os.path.join(HERE, "sources", "map-changes.json"), "w"), indent=1, ensure_ascii=False)
+man["files"].append({"file": "map-changes.json", "source": "Map POI names: saved 2026-11-11 snapshot (brand/badroyale/sources/history/2026-11-11-map.json) vs today",
+                     "url": mf["url"], "fetched_utc": mf["fetched_utc"],
+                     "note": "fetched_utc is today's map fetch; the Nov 11 names are the saved snapshot of that day"})
 json.dump(man, open(os.path.join(HERE, "sources", "manifest.json"), "w"), indent=1)
 print(len(phrases), "phrases,", len(segs), "segments,", len(claims), "claims")
