@@ -1,0 +1,102 @@
+{
+ "hook": "greet",
+ "voice": "voz-3-mujer-hype",
+ "lines": [
+  {
+   "i": 0,
+   "text": "¡Qué onda, banda! Ya está la tienda nueva… vamos a ver qué hay.",
+   "seconds": 4.09,
+   "slot": 4.5,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 1,
+   "text": "El lote de Persona 5 Royal… ¡de nueve mil seiscientas a tres mil ochocientas! Una locura.",
+   "seconds": 6.55,
+   "slot": 6.83,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 2,
+   "text": "Reverberación, del capítulo dos… y se va hoy.",
+   "seconds": 3.1,
+   "slot": 4.53,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 3,
+   "text": "Transmisión biónica, del capítulo dos… y se va hoy.",
+   "seconds": 3.57,
+   "slot": 4.43,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 4,
+   "text": "Pía: llegó ayer… y ya se va hoy.",
+   "seconds": 2.65,
+   "slot": 4.56,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 5,
+   "text": "Desde ayer en la tienda: Minichihuahua… mil doscientas.",
+   "seconds": 3.96,
+   "slot": 4.53,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 6,
+   "text": "Bola 2: llegó ayer… y ya se va hoy.",
+   "seconds": 3.05,
+   "slot": 4.46,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 7,
+   "text": "Y acaba de llegar Alabarda de Savage… quinientas.",
+   "seconds": 3.35,
+   "slot": 4.43,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 8,
+   "text": "Bola 7: llegó ayer… y ya se va hoy.",
+   "seconds": 2.65,
+   "slot": 4.46,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 9,
+   "text": "Desde ayer en la tienda: Nido de víboras… ochocientas.",
+   "seconds": 4.15,
+   "slot": 4.53,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 10,
+   "text": "¿Y tú qué vas a comprar? Déjamelo en los comentarios… y si compras algo, usa el código BAD.",
+   "seconds": 6.0,
+   "slot": 6.73,
+   "speed": 1.0,
+   "status": "OK"
+  },
+  {
+   "i": 11,
+   "text": "Pones be, a, de… aceptar… ¡y listo! ¡Nos vemos mañana!",
+   "seconds": 4.48,
+   "slot": 4.93,
+   "speed": 1.0,
+   "status": "OK"
+  }
+ ]
+}

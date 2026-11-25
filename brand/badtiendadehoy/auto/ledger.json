@@ -82,5 +82,33 @@
   "network": "tiktok",
   "post_id": "440946458",
   "match": "#EpicPartner ¡Bienvenidos a Bad Tienda de Hoy!"
+ },
+ {
+  "kind": "shop",
+  "D": "2026-11-25",
+  "at": "2026-11-24T18:40:00-06:00",
+  "match": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒",
+  "experiment": "E1-hook",
+  "variant": "greet",
+  "hook": "greet",
+  "music": "bounce",
+  "items": [
+   "Persona 5 Royal",
+   "Reverberación",
+   "Transmisión biónica",
+   "Pía",
+   "Minichihuahua",
+   "Bola 2",
+   "Alabarda de Savage",
+   "Bola 7",
+   "Nido de víboras"
+  ],
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
  }
 ]

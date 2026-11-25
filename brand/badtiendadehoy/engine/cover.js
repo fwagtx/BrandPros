@@ -10,7 +10,8 @@ const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto'
 const [d, m] = ep.date.split(' ');            // "25 nov"
 const mes = MESES.find(x => x.startsWith(m)) || m;
 const bundle = ep.segments.find(s => s.kind === 'bundle');
-const leaving = ep.segments.filter(s => s.kind === 'item' && s.captions.some(c => c.text.includes('se va'))).length;
+// leaving tonight = every item with the ⏰ badge (some show their chapter instead of "se va" in the caption)
+const leaving = ep.segments.filter(s => s.kind === 'item' && s.badge && s.badge.emoji === '⏰').length;
 const grad = c => `radial-gradient(ellipse 80% 75% at 50% 45%, ${c[0]} 0%, ${c[1]} 100%)`;
 const stack = (t, size, stroke, color) => `<div style="position:relative;display:inline-block;font-weight:900;font-size:${size}px;line-height:1;letter-spacing:-3px"><span style="display:block;-webkit-text-stroke:${stroke}px #000;color:#000">${t}</span><span style="position:absolute;left:0;top:0;color:${color}">${t}</span></div>`;
 const cards = ep.intro_cards.slice(0, 3).map((c, i) => `<div style="position:absolute;left:${120 + i * 290}px;top:${1080 + (i % 2) * 40}px;width:300px;height:420px;border-radius:26px;overflow:hidden;background:${grad(c.color)};border:3px solid rgba(255,255,255,.25);box-shadow:0 20px 40px rgba(0,0,0,.45);transform:rotate(${[-6, 0, 6][i]}deg)"><img src="${c.img}" style="position:absolute;bottom:0;left:50%;height:96%;transform:translateX(-50%)"></div>`).join('');

@@ -181,7 +181,7 @@ def captions(ep, D):
     head = f"#EpicPartner La tienda de Fortnite de hoy, {fecha_larga(d)} 🛒"
     segs = ep["segments"]
     b = segs[0] if segs[0]["kind"] == "bundle" else None
-    leaving = [s["name"] for s in segs[1:] if any("se va" in c["text"] for c in s["captions"])]
+    leaving = [s["name"] for s in segs[1:] if (s.get("badge") or {}).get("emoji") == "⏰"]
     new = [s["name"] for s in segs[1:] if any("nuevo" in c["text"] for c in s["captions"])]
     og = [s["name"] for s in segs[1:] if any("og ·" in c["text"] for c in s["captions"])]
     facts = []
@@ -228,7 +228,8 @@ def ship(D):
         calls.append(dict(network=net, blogId=BLOG, date=date, match=cap["match"], info=info))
     i = base(cap["tiktok"], "tiktok")
     i["tiktokData"] = dict(disableComment=False, disableDuet=False, disableStitch=False, privacyOption="PUBLIC_TO_EVERYONE",
-                           commercialContentThirdParty=True, commercialContentOwnBrand=False, title="", autoAddMusic=False, isAigc=True)
+                           commercialContentThirdParty=True, commercialContentOwnBrand=False, title=cap["tiktok"], autoAddMusic=False, isAigc=True)
+    # Metricool requires the TikTok title; it is the caption TikTok shows, so it carries the full TikTok caption
     add("tiktok", i)
     i = base(cap["instagram"], "instagram")
     i["instagramData"] = dict(type="REEL", showReelOnFeed=True, isAiGenerated=True, collaborators=[], carouselTags={})

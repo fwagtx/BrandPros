@@ -1,0 +1,216 @@
+{
+ "D": "2026-11-25",
+ "at": "2026-11-24T18:40:00-06:00",
+ "variant": {
+  "slot": "evening",
+  "hook": "greet",
+  "music": {
+   "style": "bounce",
+   "bpm": 116,
+   "hook": "impact"
+  },
+  "name": "greet",
+  "experiment": "E1-hook",
+  "variant": "greet"
+ },
+ "video": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25.mp4",
+ "cover": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25-cover.jpg",
+ "calls": [
+  {
+   "network": "tiktok",
+   "blogId": "8343092",
+   "date": "2026-11-24T18:40:00-06:00",
+   "match": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "text": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒\n🔥 Lote de Persona 5 Royal: de 9,600 a 3,800 monedas V\n🆕 Nuevo hoy: Alabarda de Savage\n⏰ Se va hoy: Reverberación, Transmisión biónica, Pía\n¿Qué vas a comprar? 👇\nUsa el código BAD en la tienda 💚\n#fortnite #tiendafortnite #fortnitemexico #fortnitelatam",
+    "providers": [
+     {
+      "network": "tiktok"
+     }
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-24T18:40:00",
+     "timezone": "America/Chicago"
+    },
+    "tiktokData": {
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "title": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒\n🔥 Lote de Persona 5 Royal: de 9,600 a 3,800 monedas V\n🆕 Nuevo hoy: Alabarda de Savage\n⏰ Se va hoy: Reverberación, Transmisión biónica, Pía\n¿Qué vas a comprar? 👇\nUsa el código BAD en la tienda 💚\n#fortnite #tiendafortnite #fortnitemexico #fortnitelatam",
+     "autoAddMusic": false,
+     "isAigc": true
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25-cover.jpg"
+   }
+  },
+  {
+   "network": "instagram",
+   "blogId": "8343092",
+   "date": "2026-11-24T18:40:00-06:00",
+   "match": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "text": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒\n🔥 Lote de Persona 5 Royal: de 9,600 a 3,800 monedas V\n🆕 Nuevo hoy: Alabarda de Savage\n⏰ Se va hoy: Reverberación, Transmisión biónica, Pía\n¿Qué vas a comprar? 👇\nUsa el código BAD en la tienda 💚\n.\n#fortnite #tiendadefortnite #fortnitemexico #fortnitelatam #skinsfortnite",
+    "providers": [
+     {
+      "network": "instagram"
+     }
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-24T18:40:00",
+     "timezone": "America/Chicago"
+    },
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": true,
+     "collaborators": [],
+     "carouselTags": {}
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25-cover.jpg"
+   }
+  },
+  {
+   "network": "facebook",
+   "blogId": "8343092",
+   "date": "2026-11-24T18:40:00-06:00",
+   "match": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "text": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒\n🔥 Lote de Persona 5 Royal: de 9,600 a 3,800 monedas V\n🆕 Nuevo hoy: Alabarda de Savage\n¿Qué vas a comprar? 👇\nUsa el código BAD en la tienda 💚\n#fortnite #tiendadefortnite",
+    "providers": [
+     {
+      "network": "facebook"
+     }
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-24T18:40:00",
+     "timezone": "America/Chicago"
+    },
+    "facebookData": {
+     "type": "REEL",
+     "title": ""
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25-cover.jpg"
+   }
+  },
+  {
+   "network": "youtube",
+   "blogId": "8343092",
+   "date": "2026-11-24T18:40:00-06:00",
+   "match": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "text": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒\n🔥 Lote de Persona 5 Royal: de 9,600 a 3,800 monedas V\n🆕 Nuevo hoy: Alabarda de Savage\n⏰ Se va hoy: Reverberación, Transmisión biónica, Pía\n¿Qué vas a comprar? 👇\nUsa el código BAD en la tienda 💚\n#fortnite #tiendadefortnite #shorts",
+    "providers": [
+     {
+      "network": "youtube"
+     }
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-24T18:40:00",
+     "timezone": "America/Chicago"
+    },
+    "youtubeData": {
+     "title": "La tienda de Fortnite de hoy 🛒 25 de noviembre | código BAD #shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "tienda de fortnite",
+      "fortnite mexico",
+      "codigo BAD"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    },
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25-cover.jpg"
+   }
+  },
+  {
+   "network": "threads",
+   "blogId": "8343092",
+   "date": "2026-11-24T18:40:00-06:00",
+   "match": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-25.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "text": "#EpicPartner La tienda de Fortnite de hoy, 25 de noviembre 🛒\n🔥 Lote de Persona 5 Royal: de 9,600 a 3,800 monedas V\n¿Ustedes qué van a comprar? Los leo 👇\nUsa el código BAD en la tienda 💚",
+    "providers": [
+     {
+      "network": "threads"
+     }
+    ],
+    "publicationDate": {
+     "dateTime": "2026-11-24T18:40:00",
+     "timezone": "America/Chicago"
+    },
+    "threadsData": {}
+   }
+  }
+ ]
+}
