@@ -7,7 +7,7 @@ Lines are written from episode.json unless --lines gives them (one per segment: 
 Each line must fit its segment so the cuts and the music stay in sync: a take that is too long is retried (3 takes),
 then sped up by at most 12%; anything still too long is reported as TOO_LONG and the build fails its check.
 """
-import argparse, json, os, random, subprocess, sys, time
+import argparse, json, os, random, re, subprocess, sys, time
 import numpy as np, soundfile as sf
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -30,7 +30,7 @@ CEN = {200: "doscientos", 300: "trescientos", 400: "cuatrocientos", 500: "quinie
 def words(n):
     n = int(n)
     if n <= 20: return UNI[n]
-    if n < 30: return "veinti" + UNI[n - 20]
+    if n < 30: return "veinti" + {2: "dós", 3: "trés", 6: "séis"}.get(n - 20, UNI[n - 20])
     if n < 100: return DEC[n // 10 * 10] + ("" if n % 10 == 0 else " y " + UNI[n % 10])
     if n < 1000:
         if n == 100: return "cien"
@@ -51,7 +51,9 @@ LEET = str.maketrans("0134578", "OIEASTB")
 
 
 def say(text):
-    """Names as they are said: known spellings, and leetspeak names (T1BUR0N -> Tiburon) read as words."""
+    """Names as they are said: known spellings, and leetspeak names (T1BUR0N -> Tiburon) read as words.
+    Tags in parentheses, like "Joker (P5R)", are left out: they're on screen and sound like noise."""
+    text = re.sub(r"\s*\([^)]*\)", "", text).strip()
     for a, b in SAY:
         text = text.replace(a, b)
     words_ = []
