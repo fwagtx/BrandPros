@@ -94,7 +94,7 @@ def auto_pick():
     scored.sort(key=lambda r: (-r[0], -r[1]))
     picks, per_type = [], {}
     for score, _, x, typ in scored:
-        if score < 4 or price < 500 or per_type.get(typ, 0) >= (5 if typ == "outfit" else 2):
+        if score < 4 or x["finalPrice"] < 500 or per_type.get(typ, 0) >= (5 if typ == "outfit" else 2):
             continue
         picks.append((x, typ)); per_type[typ] = per_type.get(typ, 0) + 1
         if len(picks) == 8: break
