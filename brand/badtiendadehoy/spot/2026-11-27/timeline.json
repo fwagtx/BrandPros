@@ -1,0 +1,26 @@
+{
+ "total": 31.79,
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "dur": 4.663,
+   "voice_at": 0.25,
+   "voice_len": 4.063
+  },
+  {
+   "id": "detail",
+   "start": 4.663,
+   "dur": 14.74,
+   "voice_at": 4.863,
+   "voice_len": 13.74
+  },
+  {
+   "id": "cta",
+   "start": 19.402,
+   "dur": 12.388,
+   "voice_at": 19.602,
+   "voice_len": 6.988
+  }
+ ]
+}

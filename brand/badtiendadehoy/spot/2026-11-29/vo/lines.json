@@ -1,0 +1,17 @@
+[
+ {
+  "scene": "hook",
+  "text": "¿Vale la pena el lote de Botín de la cosecha? ¡Mira!",
+  "seconds": 3.49
+ },
+ {
+  "scene": "detail",
+  "text": "Trae cinco objetos, con Hojaldre hendido, Mazorquín… y más. Por separado costaría cuatro mil monedas… y el lote está en dos mil. ¡Te ahorras el cincuenta por ciento! Está en la tienda hasta el treinta de noviembre.",
+  "seconds": 12.88
+ },
+ {
+  "scene": "cta",
+  "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!",
+  "seconds": 6.99
+ }
+]

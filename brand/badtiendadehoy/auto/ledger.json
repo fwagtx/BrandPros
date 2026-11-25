@@ -110,5 +110,110 @@
    "youtube",
    "threads"
   ]
+ },
+ {
+  "kind": "spot",
+  "day": "2026-11-25",
+  "at": "2026-11-25T11:30:00-06:00",
+  "match": "#EpicPartner Lote del día: Bandada",
+  "bundle": "Bandada",
+  "out": "2026-11-26",
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
+ },
+ {
+  "kind": "spot",
+  "day": "2026-11-26",
+  "at": "2026-11-26T11:30:00-06:00",
+  "match": "#EpicPartner Lote del día: One Punch Man",
+  "bundle": "One Punch Man",
+  "out": "2026-11-27",
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
+ },
+ {
+  "kind": "spot",
+  "day": "2026-11-27",
+  "at": "2026-11-27T11:30:00-06:00",
+  "match": "#EpicPartner Lote del día: El asombroso circo digital",
+  "bundle": "El asombroso circo digital",
+  "out": "2026-11-28",
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
+ },
+ {
+  "kind": "spot",
+  "day": "2026-11-28",
+  "at": "2026-11-28T11:30:00-06:00",
+  "match": "#EpicPartner Lote del día: Persona 5 Royal",
+  "bundle": "Persona 5 Royal",
+  "out": "2026-11-29",
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
+ },
+ {
+  "kind": "spot",
+  "day": "2026-11-29",
+  "at": "2026-11-29T11:30:00-06:00",
+  "match": "#EpicPartner Lote del día: Botín de la cosecha",
+  "bundle": "Botín de la cosecha",
+  "out": "2026-11-30",
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
+ },
+ {
+  "kind": "spot",
+  "day": "2026-11-30",
+  "at": "2026-11-30T11:30:00-06:00",
+  "match": "#EpicPartner Lote del día: Overwatch",
+  "bundle": "Overwatch",
+  "out": "2026-12-04",
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
+ },
+ {
+  "kind": "spot",
+  "day": "2026-12-01",
+  "at": "2026-12-01T11:30:00-06:00",
+  "match": "#EpicPartner Lote del día: One Piece",
+  "bundle": "One Piece",
+  "out": "2026-12-05",
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
  }
 ]
