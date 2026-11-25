@@ -273,6 +273,13 @@
    "seed": 73077,
    "duration": 35.62,
    "metrics": null
+  },
+  {
+   "day": "2026-11-25",
+   "variant": "house-a",
+   "seed": 45219,
+   "duration": 36.77,
+   "metrics": null
   }
  ],
  "evolutions": []

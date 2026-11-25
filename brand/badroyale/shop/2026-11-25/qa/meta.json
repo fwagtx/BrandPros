@@ -1,0 +1,248 @@
+{
+ "duration": 36.77,
+ "caption": "#EpicPartner Today's Fortnite Item Shop (nov 25): Persona 5 Royal for 3,800 V-Bucks and 5 more picks.\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "345 offers in today's shop",
+   "source": "plan.json",
+   "match": [
+    "\"offers\": 345"
+   ],
+   "visual": "entries with cosmetics in shop.json, counted by reel_pick.py"
+  },
+  {
+   "text": "Persona 5 Royal Bundle: 3800 V-Bucks, regular 9600",
+   "source": "shop.json",
+   "match": [
+    "Persona 5 Royal Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 9600"
+   ]
+  },
+  {
+   "text": "Persona 5 Royal Bundle: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Persona 5 Royal Bundle",
+    "\"inDate\": \"2026-11-25T"
+   ]
+  },
+  {
+   "text": "Persona 5 Royal Bundle: 5,800 V-Bucks below regular 🔥",
+   "source": "shop.json",
+   "match": [
+    "Persona 5 Royal Bundle",
+    "\"regularPrice\": 9600",
+    "\"finalPrice\": 3800"
+   ]
+  },
+  {
+   "text": "Persona 5 Royal Bundle: from chapter 7, season 4",
+   "source": "shop.json",
+   "match": [
+    "Persona 5 Royal Bundle",
+    "Introduced in Chapter 7, Season 4."
+   ]
+  },
+  {
+   "text": "Famous Addison Rae: 1800 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Famous Addison Rae",
+    "\"finalPrice\": 1800"
+   ]
+  },
+  {
+   "text": "Famous Addison Rae: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Famous Addison Rae",
+    "\"inDate\": \"2026-11-25T"
+   ]
+  },
+  {
+   "text": "Famous Addison Rae: in the shop until nov 28 ⏰",
+   "source": "shop.json",
+   "match": [
+    "Famous Addison Rae",
+    "\"outDate\": \"2026-11-28T"
+   ]
+  },
+  {
+   "text": "Famous Addison Rae: from chapter 7, season 3",
+   "source": "shop.json",
+   "match": [
+    "Famous Addison Rae",
+    "Introduced in Chapter 7, Season 3."
+   ]
+  },
+  {
+   "text": "Joker (P5R): 1800 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Joker (P5R)",
+    "\"finalPrice\": 1800"
+   ]
+  },
+  {
+   "text": "Joker (P5R): new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Joker (P5R)",
+    "\"inDate\": \"2026-11-25T"
+   ]
+  },
+  {
+   "text": "Joker (P5R): from chapter 7, season 4",
+   "source": "shop.json",
+   "match": [
+    "Joker (P5R)",
+    "Introduced in Chapter 7, Season 4."
+   ]
+  },
+  {
+   "text": "Joker (P5R): persona 5 royal set",
+   "source": "shop.json",
+   "match": [
+    "Joker (P5R)",
+    "Persona 5 Royal"
+   ]
+  },
+  {
+   "text": "One-Punch Man Bundle: 3800 V-Bucks, regular 11900",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 11900"
+   ]
+  },
+  {
+   "text": "One-Punch Man Bundle: biggest bundle saving today 🔥",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"regularPrice\": 11900",
+    "\"finalPrice\": 3800"
+   ],
+   "visual": "largest regularPrice - finalPrice among today's bundles (reel_pick.py)"
+  },
+  {
+   "text": "One-Punch Man Bundle: 8,100 V-Bucks below regular 🔥",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"regularPrice\": 11900",
+    "\"finalPrice\": 3800"
+   ]
+  },
+  {
+   "text": "One-Punch Man Bundle: added nov 24 🆕",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"inDate\": \"2026-11-24T"
+   ]
+  },
+  {
+   "text": "Redux: 1200 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Redux",
+    "\"finalPrice\": 1200"
+   ]
+  },
+  {
+   "text": "Redux: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Redux",
+    "\"outDate\": \"2026-11-25T23:59:59"
+   ]
+  },
+  {
+   "text": "Redux: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Redux",
+    "\"inDate\": \"2026-11-25T"
+   ]
+  },
+  {
+   "text": "Redux: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-25T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  },
+  {
+   "text": "Reverb: 1200 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Reverb",
+    "\"finalPrice\": 1200"
+   ]
+  },
+  {
+   "text": "Reverb: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Reverb",
+    "\"outDate\": \"2026-11-25T23:59:59"
+   ]
+  },
+  {
+   "text": "Reverb: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Reverb",
+    "\"inDate\": \"2026-11-25T"
+   ]
+  },
+  {
+   "text": "Reverb: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-25T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  }
+ ],
+ "text": [
+  "TODAY'S ITEM SHOP 🛒",
+  "3,800",
+  "1,800",
+  "345 OFFERS IN TODAY'S SHOP",
+  "HERE'S WHAT'S NEW TODAY 👀",
+  "NEW IN TODAY'S SHOP 🆕",
+  "5,800 V-BUCKS BELOW REGULAR 🔥",
+  "FROM CHAPTER 7, SEASON 4",
+  "PERSONA 5 ROYAL",
+  "IN THE SHOP UNTIL NOV 28 ⏰",
+  "FROM CHAPTER 7, SEASON 3",
+  "FAMOUS ADDISON RAE",
+  "PERSONA 5 ROYAL SET",
+  "JOKER (P5R)",
+  "BIGGEST BUNDLE SAVING TODAY 🔥",
+  "8,100 V-BUCKS BELOW REGULAR 🔥",
+  "ADDED NOV 24 🆕",
+  "ONE-PUNCH MAN",
+  "LEAVES AT THE NEXT RESET ⏰",
+  "THE RESET IS 7 PM ET · 6 PM CT 👀",
+  "REDUX",
+  "REVERB",
+  "WHAT ARE YOU BUYING? 👇",
+  "1,200",
+  "USE CODE BAD IN THE ITEM SHOP 💛",
+  "CREATOR CODE",
+  "#EPICPARTNER",
+  "ACCEPT",
+  "SUPPORT-A-CREATOR: BAD",
+  "THANK YOU FOR WATCHING! 💛",
+  "FOLLOW FOR MORE DAILY CONTENT",
+  "USE CODE: BAD",
+  "nov 25",
+  " "
+ ]
+}

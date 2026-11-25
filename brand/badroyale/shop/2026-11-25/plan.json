@@ -1,0 +1,301 @@
+{
+ "date": "2026-11-25",
+ "dateLabel": "nov 25",
+ "offers": 345,
+ "picks": [
+  {
+   "key": "Persona_5_Royal_Bundle",
+   "name": "Persona 5 Royal Bundle",
+   "kind": "bundle",
+   "final": 3800,
+   "regular": 9600,
+   "in": "2026-11-25",
+   "out": "2026-11-29",
+   "c1": "ff5d5d",
+   "c2": "f8afcf",
+   "count": 15,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "5,800 V-Bucks below regular 🔥",
+    "from chapter 7, season 4"
+   ],
+   "claims": [
+    {
+     "text": "Persona 5 Royal Bundle: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Persona 5 Royal Bundle",
+      "\"inDate\": \"2026-11-25T"
+     ]
+    },
+    {
+     "text": "Persona 5 Royal Bundle: 5,800 V-Bucks below regular 🔥",
+     "source": "shop.json",
+     "match": [
+      "Persona 5 Royal Bundle",
+      "\"regularPrice\": 9600",
+      "\"finalPrice\": 3800"
+     ]
+    },
+    {
+     "text": "Persona 5 Royal Bundle: from chapter 7, season 4",
+     "source": "shop.json",
+     "match": [
+      "Persona 5 Royal Bundle",
+      "Introduced in Chapter 7, Season 4."
+     ]
+    }
+   ],
+   "kindLabel": "bundle"
+  },
+  {
+   "key": "Character_SprintLuckSlaw",
+   "name": "Famous Addison Rae",
+   "kind": "outfit",
+   "final": 1800,
+   "regular": 1800,
+   "in": "2026-11-25",
+   "out": "2026-11-28",
+   "c1": "c8803e",
+   "c2": "e9c088",
+   "count": 2,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "in the shop until nov 28 ⏰",
+    "from chapter 7, season 3"
+   ],
+   "claims": [
+    {
+     "text": "Famous Addison Rae: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Famous Addison Rae",
+      "\"inDate\": \"2026-11-25T"
+     ]
+    },
+    {
+     "text": "Famous Addison Rae: in the shop until nov 28 ⏰",
+     "source": "shop.json",
+     "match": [
+      "Famous Addison Rae",
+      "\"outDate\": \"2026-11-28T"
+     ]
+    },
+    {
+     "text": "Famous Addison Rae: from chapter 7, season 3",
+     "source": "shop.json",
+     "match": [
+      "Famous Addison Rae",
+      "Introduced in Chapter 7, Season 3."
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "Character_CosmicTrellis",
+   "name": "Joker (P5R)",
+   "kind": "outfit",
+   "final": 1800,
+   "regular": 1800,
+   "in": "2026-11-25",
+   "out": "2026-11-29",
+   "c1": "ff5d5d",
+   "c2": "f8afcf",
+   "count": 3,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "from chapter 7, season 4",
+    "persona 5 royal set"
+   ],
+   "claims": [
+    {
+     "text": "Joker (P5R): new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Joker (P5R)",
+      "\"inDate\": \"2026-11-25T"
+     ]
+    },
+    {
+     "text": "Joker (P5R): from chapter 7, season 4",
+     "source": "shop.json",
+     "match": [
+      "Joker (P5R)",
+      "Introduced in Chapter 7, Season 4."
+     ]
+    },
+    {
+     "text": "Joker (P5R): persona 5 royal set",
+     "source": "shop.json",
+     "match": [
+      "Joker (P5R)",
+      "Persona 5 Royal"
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "OnePunch_Man_Bundle",
+   "name": "One-Punch Man Bundle",
+   "kind": "bundle",
+   "final": 3800,
+   "regular": 11900,
+   "in": "2026-11-24",
+   "out": "2026-11-27",
+   "c1": "aeccdf",
+   "c2": "566370",
+   "count": 18,
+   "tag": "deal",
+   "emoji": "🔥",
+   "facts": [
+    "biggest bundle saving today 🔥",
+    "8,100 V-Bucks below regular 🔥",
+    "added nov 24 🆕"
+   ],
+   "claims": [
+    {
+     "text": "One-Punch Man Bundle: biggest bundle saving today 🔥",
+     "source": "shop.json",
+     "match": [
+      "One-Punch Man Bundle",
+      "\"regularPrice\": 11900",
+      "\"finalPrice\": 3800"
+     ],
+     "visual": "largest regularPrice - finalPrice among today's bundles (reel_pick.py)"
+    },
+    {
+     "text": "One-Punch Man Bundle: 8,100 V-Bucks below regular 🔥",
+     "source": "shop.json",
+     "match": [
+      "One-Punch Man Bundle",
+      "\"regularPrice\": 11900",
+      "\"finalPrice\": 3800"
+     ]
+    },
+    {
+     "text": "One-Punch Man Bundle: added nov 24 🆕",
+     "source": "shop.json",
+     "match": [
+      "One-Punch Man Bundle",
+      "\"inDate\": \"2026-11-24T"
+     ]
+    }
+   ],
+   "kindLabel": "bundle"
+  },
+  {
+   "key": "CID_743_Athena_Commando_M_Handyman",
+   "name": "Redux",
+   "kind": "outfit",
+   "final": 1200,
+   "regular": 1200,
+   "in": "2026-11-25",
+   "out": "2026-11-25",
+   "c1": "290f07",
+   "c2": "824100",
+   "count": 2,
+   "tag": "last",
+   "emoji": "⏰",
+   "facts": [
+    "leaves at the next reset ⏰",
+    "new in today's shop 🆕",
+    "the reset is 7 PM ET · 6 PM CT 👀"
+   ],
+   "claims": [
+    {
+     "text": "Redux: leaves at the next reset ⏰",
+     "source": "shop.json",
+     "match": [
+      "Redux",
+      "\"outDate\": \"2026-11-25T23:59:59"
+     ]
+    },
+    {
+     "text": "Redux: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Redux",
+      "\"inDate\": \"2026-11-25T"
+     ]
+    },
+    {
+     "text": "Redux: the reset is 7 PM ET · 6 PM CT 👀",
+     "source": "shop.json",
+     "match": [
+      "\"outDate\": \"2026-11-25T23:59:59"
+     ],
+     "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "CID_A_165_Athena_Commando_M_Stands_C",
+   "name": "Reverb",
+   "kind": "outfit",
+   "final": 1200,
+   "regular": 1200,
+   "in": "2026-11-25",
+   "out": "2026-11-25",
+   "c1": "290f07",
+   "c2": "824100",
+   "count": 1,
+   "tag": "last",
+   "emoji": "⏰",
+   "facts": [
+    "leaves at the next reset ⏰",
+    "new in today's shop 🆕",
+    "the reset is 7 PM ET · 6 PM CT 👀"
+   ],
+   "claims": [
+    {
+     "text": "Reverb: leaves at the next reset ⏰",
+     "source": "shop.json",
+     "match": [
+      "Reverb",
+      "\"outDate\": \"2026-11-25T23:59:59"
+     ]
+    },
+    {
+     "text": "Reverb: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Reverb",
+      "\"inDate\": \"2026-11-25T"
+     ]
+    },
+    {
+     "text": "Reverb: the reset is 7 PM ET · 6 PM CT 👀",
+     "source": "shop.json",
+     "match": [
+      "\"outDate\": \"2026-11-25T23:59:59"
+     ],
+     "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+    }
+   ],
+   "kindLabel": "outfit"
+  }
+ ],
+ "hero": [
+  "Persona_5_Royal_Bundle",
+  "Character_SprintLuckSlaw",
+  "Character_CosmicTrellis"
+ ],
+ "newCount": 78,
+ "music": {
+  "style": "house",
+  "bpm": 124,
+  "hook": "stutter",
+  "seed": 45219,
+  "card": 8,
+  "variant": "house-a"
+ }
+}
