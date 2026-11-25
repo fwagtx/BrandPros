@@ -1,0 +1,165 @@
+{
+ "duration": 30.4,
+ "caption": "#EpicPartner Every named location on the Fortnite map 📍 all 11 of them\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations",
+ "claims": [
+  {
+   "text": "11 landmarks on the map",
+   "source": "map.json",
+   "match": [
+    "Baratie",
+    "Nami's Tangerine Grove",
+    "Henry",
+    "Giant's Battlefield",
+    "The Salty Skull"
+   ],
+   "visual": "11 UnNamedPOI ids"
+  },
+  {
+   "text": "Buggy's Beachhead: named location, in the north",
+   "source": "map.json",
+   "match": [
+    "Buggy's Beachhead"
+   ],
+   "visual": "map pixel (1031, 851)"
+  },
+  {
+   "text": "Cursed Cavern: named location, in the east",
+   "source": "map.json",
+   "match": [
+    "Cursed Cavern"
+   ],
+   "visual": "map pixel (1184, 1148)"
+  },
+  {
+   "text": "The $.$. Rocky: named location, in the east",
+   "source": "map.json",
+   "match": [
+    "The $.$. Rocky"
+   ],
+   "visual": "map pixel (1416, 1217)"
+  },
+  {
+   "text": "Busy Bay: named location, in the south-east",
+   "source": "map.json",
+   "match": [
+    "Busy Bay"
+   ],
+   "visual": "map pixel (1388, 1482)"
+  },
+  {
+   "text": "Plunder Port: named location, in the south",
+   "source": "map.json",
+   "match": [
+    "Plunder Port"
+   ],
+   "visual": "map pixel (1150, 1606)"
+  },
+  {
+   "text": "Loguetown: named location, in the south",
+   "source": "map.json",
+   "match": [
+    "Loguetown"
+   ],
+   "visual": "map pixel (989, 1382)"
+  },
+  {
+   "text": "Windmill Village: named location, in the south-west",
+   "source": "map.json",
+   "match": [
+    "Windmill Village"
+   ],
+   "visual": "map pixel (754, 1438)"
+  },
+  {
+   "text": "Arlong Park: named location, in the west",
+   "source": "map.json",
+   "match": [
+    "Arlong Park"
+   ],
+   "visual": "map pixel (635, 1123)"
+  },
+  {
+   "text": "Lantern Landing: named location, near the center",
+   "source": "map.json",
+   "match": [
+    "Lantern Landing"
+   ],
+   "visual": "map pixel (899, 1050)"
+  },
+  {
+   "text": "The Chest: named location, in the north-west",
+   "source": "map.json",
+   "match": [
+    "The Chest"
+   ],
+   "visual": "map pixel (762, 875)"
+  },
+  {
+   "text": "Rubber Resort: named location, in the north",
+   "source": "map.json",
+   "match": [
+    "Rubber Resort"
+   ],
+   "visual": "map pixel (818, 718)"
+  }
+ ],
+ "text": [
+  "BUGGY'S BEACHHEAD",
+  "CURSED CAVERN",
+  "THE $.$. ROCKY",
+  "BUSY BAY",
+  "PLUNDER PORT",
+  "LOGUETOWN",
+  "WINDMILL VILLAGE",
+  "ARLONG PARK",
+  "LANTERN LANDING",
+  "THE CHEST",
+  "RUBBER RESORT",
+  "EVERY NAMED LOCATION / ON THE FORTNITE MAP",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT",
+  "THERE ARE ELEVEN",
+  "NAMED LOCATIONS ON",
+  "THE FORTNITE MAP.",
+  "HERE'S EVERY SINGLE",
+  "ONE,",
+  "IN UNDER A",
+  "MINUTE.",
+  "STARTING WITH BUGGY'S",
+  "BEACHHEAD,",
+  "IN THE NORTH.",
+  "CURSED CAVERN,",
+  "IN THE EAST.",
+  "THE $.$.",
+  "ROCKY,",
+  "BUSY BAY,",
+  "IN THE SOUTH-EAST.",
+  "PLUNDER PORT,",
+  "IN THE SOUTH.",
+  "LOGUETOWN,",
+  "WINDMILL VILLAGE,",
+  "IN THE SOUTH-WEST.",
+  "ARLONG PARK,",
+  "IN THE WEST.",
+  "LANTERN LANDING,",
+  "NEAR THE CENTER.",
+  "THE CHEST,",
+  "IN THE NORTH-WEST.",
+  "AND LAST,",
+  "RUBBER RESORT,",
+  "WHICH ONE IS",
+  "YOUR FAVORITE DROP?",
+  "TELL ME IN",
+  "THE COMMENTS!",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER"
+ ]
+}

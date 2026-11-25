@@ -1,0 +1,117 @@
+{
+  "video": "badroyale-2026-12-01-every-named-location.mp4",
+  "checked_utc": "2026-11-25T16:08:11Z",
+  "verdict": "READY TO POST",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "12/12 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "11 landmarks on the map",
+          "result": "PASS",
+          "why": "matched in map.json; 11 UnNamedPOI ids"
+        },
+        {
+          "claim": "Buggy's Beachhead: named location, in the north",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1031, 851)"
+        },
+        {
+          "claim": "Cursed Cavern: named location, in the east",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1184, 1148)"
+        },
+        {
+          "claim": "The $.$. Rocky: named location, in the east",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1416, 1217)"
+        },
+        {
+          "claim": "Busy Bay: named location, in the south-east",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1388, 1482)"
+        },
+        {
+          "claim": "Plunder Port: named location, in the south",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (1150, 1606)"
+        },
+        {
+          "claim": "Loguetown: named location, in the south",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (989, 1382)"
+        },
+        {
+          "claim": "Windmill Village: named location, in the south-west",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (754, 1438)"
+        },
+        {
+          "claim": "Arlong Park: named location, in the west",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (635, 1123)"
+        },
+        {
+          "claim": "Lantern Landing: named location, near the center",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (899, 1050)"
+        },
+        {
+          "claim": "The Chest: named location, in the north-west",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (762, 875)"
+        },
+        {
+          "claim": "Rubber Resort: named location, in the north",
+          "result": "PASS",
+          "why": "matched in map.json; map pixel (818, 718)"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "40 distinct words checked; code written as BAD in all 2 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -14.2 LUFS, true peak -2.3 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 29.9s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Every X on the map: all 11 named locations from map.json, pinned clockwise from Buggy's Beachhead, each with its direction; one name label at a time (templates.js labUntil) so old labels never pile under the title; camera z 1.25. Comments ask, code card. Cover: EVERY NAMED / LOCATION over the map, chip ALL 11 ON THE MAP.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner Every named location on the Fortnite map 📍 all 11 of them\nUse code BAD in the Item Shop 💛\n#fortnite #fortnitemap #fortnitelocations"
+}

@@ -1,0 +1,70 @@
+{
+ "phrases": [
+  {
+   "text": "There are eleven named locations on the Fortnite map. Here's every single one, in under a minute.",
+   "pause": 0.2
+  },
+  {
+   "text": "Starting with Buggy's Beachhead, in the north.",
+   "pause": 0.15
+  },
+  {
+   "text": "Cursed Cavern, in the east.",
+   "pause": 0.15
+  },
+  {
+   "text": "The $.$. Rocky, in the east.",
+   "pause": 0.15,
+   "say": "The S S Rocky, in the east."
+  },
+  {
+   "text": "Busy Bay, in the south-east.",
+   "pause": 0.15
+  },
+  {
+   "text": "Plunder Port, in the south.",
+   "pause": 0.15
+  },
+  {
+   "text": "Loguetown, in the south.",
+   "pause": 0.15
+  },
+  {
+   "text": "Windmill Village, in the south-west.",
+   "pause": 0.15
+  },
+  {
+   "text": "Arlong Park, in the west.",
+   "pause": 0.15
+  },
+  {
+   "text": "Lantern Landing, near the center.",
+   "pause": 0.15
+  },
+  {
+   "text": "The Chest, in the north-west.",
+   "pause": 0.15
+  },
+  {
+   "text": "And last, Rubber Resort, in the north.",
+   "pause": 0.15
+  },
+  {
+   "text": "Which one is your favorite drop? Tell me in the comments!",
+   "pause": 0.25
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

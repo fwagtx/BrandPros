@@ -103,7 +103,7 @@
   }
 
   // ---------------- a spot on the map ----------------
-  // shots: [{p, dt?, x, y, z, ease?}] camera keyframes (map pixels); pins: [{x, y, p, label, color?}]; toasts: [{p, label, text}]
+  // shots: [{p, dt?, x, y, z, ease?}] camera keyframes (map pixels); pins: [{x, y, p, label, color?, labUntil?}]; toasts: [{p, label, text}]
   function map(cfg) {
     const { VO, P, DUR, codeP, thanksP } = timing();
     const at = (s) => (s.p === "end" ? DUR : P[s.p].t0 + (s.dt || 0));
@@ -130,7 +130,7 @@
           const f = toScreen(p), t0 = P[p.p].t0 + (p.dt || 0.2), pr = (t % 1.1) / 1.1;
           T(p.pulse, { x: f.x - 100, y: f.y - 100, s: 0.4 + pr * 0.9, a: t < t0 && t >= P[p.p].t0 - 0.6 ? 1 - pr : 0 });
           p.ring.place(f.x, f.y, t, t0, t >= t0 ? 1 : 0, 1);
-          if (p.lab) p.lab.place(f.x + (p.lx ?? 40), f.y + (p.ly ?? 80), t, t0 + 0.15, t >= t0 + 0.15 ? 1 : 0);
+          if (p.lab) p.lab.place(f.x + (p.lx ?? 40), f.y + (p.ly ?? 80), t, t0 + 0.15, t >= t0 + 0.15 && (p.labUntil == null || t < P[p.labUntil].t0 + 0.45) ? 1 : 0);   // labUntil: phrase index whose label replaces this one
         });
         const tOn = toasts.length ? win(t, P[toasts[0].p].t0 - 0.05, codeP.t0, 0.08, 0.12) : 0;
         const codeOn = win(t, codeP.t0 - 0.05, DUR + 1, 0.12, 0.1);

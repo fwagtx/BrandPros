@@ -1,0 +1,41 @@
+{
+ "phrases": [
+  {
+   "text": "Last chance! This leaves the Fortnite Item Shop tonight.",
+   "pause": 0.25
+  },
+  {
+   "text": "The Free Range Bundle.",
+   "pause": 0.2
+  },
+  {
+   "text": "Hensey and Chicken Chonkers.",
+   "pause": 0.2
+  },
+  {
+   "text": "1,600 V-Bucks, instead of 1,800.",
+   "pause": 0.25
+  },
+  {
+   "text": "It leaves the shop tonight at 6 PM Central.",
+   "pause": 0.25
+  },
+  {
+   "text": "Getting it before it's gone?",
+   "pause": 0.2
+  },
+  {
+   "text": "Use code BAD in the Item Shop. It really helps the channel.",
+   "pause": 0.25
+  },
+  {
+   "text": "Thank you for watching! Follow for more daily content.",
+   "pause": 0.3
+  }
+ ],
+ "voice": "af_aoede",
+ "speed": 1.25,
+ "lang": "en-us",
+ "lead": 0.2,
+ "mode": "flow"
+}

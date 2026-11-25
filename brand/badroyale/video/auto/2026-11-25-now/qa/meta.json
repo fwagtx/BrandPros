@@ -1,0 +1,79 @@
+{
+ "duration": 19.4,
+ "caption": "#EpicPartner Last chance leaving tonight: Free Range Bundle",
+ "claims": [
+  {
+   "text": "Free Range Bundle is in the Item Shop for 2026-11-25",
+   "source": "shop.json",
+   "match": [
+    "Free Range Bundle",
+    "\"date\": \"2026-11-25"
+   ]
+  },
+  {
+   "text": "Price 1,600 V-Bucks (listed regular price 1,800)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 1800, \"finalPrice\": 1600"
+   ]
+  },
+  {
+   "text": "Listing ends 2026-11-25",
+   "source": "shop.json",
+   "match": [
+    "2026-11-25T23:59:59.999Z"
+   ]
+  },
+  {
+   "text": "Hensey is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Hensey"
+   ]
+  },
+  {
+   "text": "Chicken Chonkers is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Chicken Chonkers"
+   ]
+  }
+ ],
+ "text": [
+  "LAST CHANCE / LEAVING TONIGHT",
+  "HENSEY",
+  "CHICKEN CHONKERS",
+  "FREE RANGE BUNDLE",
+  "HENSEY AND CHICKEN CHONKERS",
+  "1,600 V-BUCKS",
+  "LEAVES TONIGHT · 6 PM CT",
+  "LAST CHANCE!",
+  "THIS LEAVES THE",
+  "FORTNITE ITEM SHOP",
+  "TONIGHT.",
+  "THE FREE RANGE",
+  "BUNDLE.",
+  "HENSEY AND CHICKEN",
+  "CHONKERS.",
+  "1,600 V-BUCKS,",
+  "INSTEAD OF 1,800.",
+  "IT LEAVES THE",
+  "SHOP TONIGHT AT",
+  "6 PM CENTRAL.",
+  "GETTING IT BEFORE",
+  "IT'S GONE?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "GETTING IT / BEFORE IT'S GONE?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
