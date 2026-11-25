@@ -1,4 +1,5 @@
-"""Bad Tienda de Hoy · "Lote del día": a ~30 s vertical bundle spotlight queued days ahead on all five networks (11:30 AM Central).
+"""Bad Tienda de Hoy · "Lote del día": a ~30 s vertical bundle spotlight queued days ahead on all five networks (11:30 AM Central),
+one Metricool post per day carrying all five networks (auto/onepost.py).
 
     python3 brand/badtiendadehoy/auto/spot.py plan FIRST DAYS   fetch the live shop, plan bundles for the days without a spot
     python3 brand/badtiendadehoy/auto/spot.py build DAY         voice, render, mix, cover, QA sheet + checks
@@ -132,34 +133,28 @@ def ship(day):
                       f"🎁 {data['count']} objetos: {who}",
                       f"⏰ En la tienda hasta el {data['out_es']}",
                       "¿Lo vas a comprar? 👇", "Usa el código BAD en la tienda 💚"])
-    tags = {"tiktok": "#fortnite #tiendafortnite #lotesfortnite #fortnitemexico", "instagram": ".\n#fortnite #tiendadefortnite #lotesfortnite #fortnitemexico #skinsfortnite",
-            "facebook": "#fortnite #tiendadefortnite", "youtube": "#fortnite #lotesfortnite #shorts"}
-    base = lambda text, prov: dict(autoPublish=True, draft=False, descendants=[], firstCommentText="", hasNotReadNotes=False, media=[vurl],
-                                   mediaAltText=[], shortener=False, smartLinkData={"ids": []}, text=text, providers=[{"network": prov}],
-                                   publicationDate={"dateTime": when.strftime("%Y-%m-%dT%H:%M:%S"), "timezone": "America/Chicago"})
-    calls = []
-    t = f"{long}\n{tags['tiktok']}"
-    i = base(t, "tiktok"); i["videoThumbnailUrl"] = curl
-    i["tiktokData"] = dict(disableComment=False, disableDuet=False, disableStitch=False, privacyOption="PUBLIC_TO_EVERYONE", commercialContentThirdParty=True,
-                           commercialContentOwnBrand=False, title=t, autoAddMusic=False, isAigc=True)
-    calls.append(i)
-    i = base(f"{long}\n{tags['instagram']}", "instagram"); i["videoThumbnailUrl"] = curl
-    i["instagramData"] = dict(type="REEL", showReelOnFeed=True, isAiGenerated=True, collaborators=[], carouselTags={}); calls.append(i)
-    i = base("\n".join([f"{match} 🛒", f"🔥 De {data['regular']:,} a {data['price']:,} monedas V ({data['pct']}% de ahorro)", f"⏰ Hasta el {data['out_es']}",
-                        "¿Lo vas a comprar? 👇", "Usa el código BAD en la tienda 💚", tags["facebook"]]), "facebook")
-    i["videoThumbnailUrl"] = curl; i["facebookData"] = dict(type="REEL", title=""); calls.append(i)
-    i = base(f"{long}\n{tags['youtube']}", "youtube"); i["videoThumbnailUrl"] = curl
-    i["youtubeData"] = dict(title=f"¿Vale la pena el lote de {data['name']}? 🛒 Fortnite | código BAD #shorts"[:100], type="short", privacy="public",
-                            tags=["fortnite", "lotes fortnite", "tienda de fortnite", data["name"], "codigo BAD"], category="GAMING", madeForKids=False,
-                            isAiGeneratedContent=False); calls.append(i)
-    i = base("\n".join([f"{match} 🛒", f"De {data['regular']:,} a {data['price']:,} monedas V, el {data['pct']}% de ahorro. Está hasta el {data['out_es']}.",
-                        "¿Ustedes lo comprarían? 👇", "Usa el código BAD en la tienda 💚"]), "threads")
-    i["threadsData"] = {}; calls.append(i)
+    import onepost
+    tt = f"{long}\n#fortnite #tiendafortnite #lotesfortnite #fortnitemexico"
+    shared = onepost.fit(long.split("\n"), ["#fortnite #tiendadefortnite #lotesfortnite #fortnitemexico #skinsfortnite"])
+    base = dict(autoPublish=True, draft=False, descendants=[], firstCommentText="", hasNotReadNotes=False, media=[vurl], mediaAltText=[],
+                shortener=False, smartLinkData={"ids": []},
+                publicationDate={"dateTime": when.strftime("%Y-%m-%dT%H:%M:%S"), "timezone": "America/Chicago"})
+    # One Metricool post for all five networks (owner's preference): TikTok's caption is tiktokData.title, YouTube has its own title,
+    # Instagram, Facebook, YouTube (description) and Threads share one caption.
+    info = onepost.combine(base, shared, dict(
+        tiktok=dict(disableComment=False, disableDuet=False, disableStitch=False, privacyOption="PUBLIC_TO_EVERYONE", commercialContentThirdParty=True,
+                    commercialContentOwnBrand=False, title=tt, autoAddMusic=False, isAigc=True),
+        instagram=dict(type="REEL", showReelOnFeed=True, isAiGenerated=True, collaborators=[], carouselTags={}),
+        facebook=dict(type="REEL", title=""),
+        youtube=dict(title=f"¿Vale la pena el lote de {data['name']}? 🛒 Fortnite | código BAD #shorts"[:100], type="short", privacy="public",
+                     tags=["fortnite", "lotes fortnite", "tienda de fortnite", data["name"], "codigo BAD"], category="GAMING", madeForKids=False,
+                     isAiGeneratedContent=False),
+        threads={}), thumb=curl)
     date = when.isoformat(timespec="seconds")
     json.dump(dict(day=day, at=date, match=match, video=vurl, cover=curl,
-                   calls=[dict(network=c["providers"][0]["network"], blogId=BLOG, date=date, match=match, info=c) for c in calls]),
+                   calls=[dict(network="all", networks=list(onepost.NETS), blogId=BLOG, date=date, match=match, info=info)]),
               open(os.path.join(d, "posts.json"), "w"), ensure_ascii=False, indent=1)
-    print(f"SHIP spot {day}: {len(calls)} posts at {date} · {data['name']}")
+    print(f"SHIP spot {day}: one post for {', '.join(onepost.NETS)} at {date} · {data['name']}")
 
 
 def done(day):
@@ -167,7 +162,7 @@ def done(day):
     p = json.load(open(os.path.join(d, "posts.json"))); data = json.load(open(os.path.join(d, "spot.json")))
     led_path = os.path.join(HERE, "ledger.json"); led = json.load(open(led_path)) if os.path.exists(led_path) else []
     led = [r for r in led if not (r.get("kind") == "spot" and r.get("day") == day)]
-    led.append(dict(kind="spot", day=day, at=p["at"], match=p["match"], bundle=data["name"], out=data["out"], networks=[c["network"] for c in p["calls"]]))
+    led.append(dict(kind="spot", day=day, at=p["at"], match=p["match"], bundle=data["name"], out=data["out"], networks=[n for c in p["calls"] for n in c.get("networks", [c["network"]])]))
     json.dump(led, open(led_path, "w"), ensure_ascii=False, indent=1)
     print("ledger updated: spot", day)
 

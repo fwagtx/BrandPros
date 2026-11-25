@@ -37,15 +37,21 @@ English, La Tiendita Bad in Spanish, CodigoBad in Portuguese) are run by other s
    `git -c push.negotiate=true push origin HEAD:claude/badtiendadehoy`). Videos never go in git; auto/ghmedia.py hosts them
    on the branch `claude/badtiendadehoy-media`, which it replaces on every upload. Never touch any other branch.
 9. **Captions** are written by shop.py: line 1 the hook (`#EpicPartner La tienda de Fortnite de hoy, <fecha> 🛒`), then the
-   best facts with a few emojis, one question that gets comments, the code line, 1-5 hashtags. Platform by platform:
-   TikTok and Instagram full; Facebook shorter; YouTube a title ≤100 characters plus the description; Threads conversational.
+   best facts with a few emojis, one question that gets comments, the code line, 1-5 hashtags. **One post, all networks**
+   (owner, 2026-11-25: "connect them under one scheduled post for all"): each shop short and each Lote del día is ONE
+   Metricool post whose providers are TikTok, Instagram, Facebook, YouTube and Threads (auto/onepost.py). Instagram,
+   Facebook, YouTube (description) and Threads share one caption (≤500 characters for Threads); TikTok's caption is
+   `tiktokData.title`; YouTube has its own title ≤100 characters. Never split it into one post per network unless only
+   some networks are missing (then one post with just those networks, from `onepost.py only`). Long videos (YouTube only)
+   and Threads conversation posts stay single-network.
 10. **One variable per week** (auto/experiments.json). Never change two things at once; the WEEKLY run decides.
 11. **The first second decides everything:** frame 1 already shows the date, "la tienda de hoy 🛒" and three cards, and the
    first voice line is the hook.
 12. **Thumbnails on everything** (owner, 2026-11-24: the channel has custom thumbnails). Shorts carry the designed cover
    (engine/cover.js, 1080x1920, key text inside the 4:5 middle) as `videoThumbnailUrl` on TikTok, Instagram, Facebook and
-   YouTube; long videos carry the designed 1280x720 thumbnail. Look at the cover/thumbnail in every review. Only if Metricool
-   answers VIDEO_THUMBNAIL_NOT_APPLICABLE may a call go without it (say so in the summary).
+   YouTube; long videos carry the designed 1280x720 thumbnail. Look at the cover/thumbnail in every review. If Metricool
+   answers VIDEO_THUMBNAIL_NOT_APPLICABLE on the combined post, send `onepost.py only <posts.json> tiktok,instagram,facebook,youtube`
+   (with the cover), then `onepost.py only <posts.json> threads` (Threads has no cover); say so in the summary.
 
 ## Setup (every run)
 
@@ -86,10 +92,13 @@ D = `date -u +%F` (the shop day).
    and continue at step 4. If even the shop data can't be fetched, post one Threads conversation post now (if today has
    none yet) and say so; the safety runs try again.
 4. `python3 brand/badtiendadehoy/auto/shop.py ship D` (hosts the files, writes shop/D/posts.json). If it prints STOP, post nothing.
-5. For each entry in posts.json `calls` whose network does not already have a post starting with its `match` text,
-   `createScheduledPost` with the entry's blogId, date and info (as a JSON string). If one network fails, the others still
-   go; name the error. Only if Metricool answers VIDEO_THUMBNAIL_NOT_APPLICABLE, retry that call without `videoThumbnailUrl`.
-6. `getScheduledPosts` again: confirm the five posts, draft false, at the printed time. Then `python3 brand/badtiendadehoy/auto/shop.py done D`.
+5. posts.json has ONE call carrying all five networks (rule 9). If no network has the post yet, `createScheduledPost` with
+   the call's blogId, date and info (as a JSON string). If some networks already have it (a post whose `providers` include
+   that network and whose text starts with `match`), send instead the info printed by
+   `python3 brand/badtiendadehoy/auto/onepost.py only brand/badtiendadehoy/shop/D/posts.json <missing networks, comma-separated>`.
+   If Metricool refuses the call, name the error; for VIDEO_THUMBNAIL_NOT_APPLICABLE follow rule 12.
+6. `getScheduledPosts` again: confirm the post carries all five providers (TikTok, Instagram, Facebook, YouTube, Threads),
+   draft false, at the printed time. Then `python3 brand/badtiendadehoy/auto/shop.py done D`.
 7. Append one line to auto/log.md (date, run, variant, what posted or why not), `git add brand/badtiendadehoy/shop/D
    brand/badtiendadehoy/auto`, commit "Shop D", push (rule 8).
 8. Summary: D, post time, the networks, the experiment variant, or exactly what stopped it.
@@ -118,7 +127,8 @@ P = `TZ=America/Chicago date +%F` (the publish day; the video goes out at 4:00 P
    Instagram, Facebook, YouTube or Threads has no post starting `#EpicPartner La tienda de Fortnite de hoy, <día> de <mes>`
    for D (scheduled or published), do the SHOP run now for the missing networks (fallback if needed), posting 20 min out.
 1. Setup, then `getScheduledPosts` for yesterday and today (blogId 8343092): list any provider not PUBLISHED with its
-   detailedStatus. A failed shop post is re-tried once (same posts.json; re-host with ghmedia if the media link is gone).
+   detailedStatus. A failed network is re-tried once with a post for just that network (`onepost.py only <posts.json> <network>`;
+   re-host with ghmedia if the media link is gone).
 2. **Metrics.** `getAnalyticsDataByMetrics` for brand 8343092, last 10 days: TikTok posts (TKPO07 views, TKPO13 full-watch
    rate, TKPO15 avg time watched, TKPO08 likes, TKPO09 comments, TKPO10 shares), Instagram reels (IGRE23 views, IGRE30 skip
    rate, IGRE24 avg watch time, IGRE09 interactions, IGRE11 reach), YouTube (YTEV02 views, YTEV05 subscribers gained,
@@ -132,7 +142,8 @@ P = `TZ=America/Chicago date +%F` (the publish day; the video goes out at 4:00 P
    (it fetches the live shop and only plans a bundle that is still in the shop the day after it posts), then for each planned
    day `spot.py build DAY` (~8 min), Read `spot/DAY/qa/review-sheet.jpg` (hook, detail with icons, strike → bundle price,
    saving, date, creator-code end, cover), write `spot/DAY/review.json` PASS/FAIL, `spot.py ship DAY`, `createScheduledPost`
-   for each call in `spot/DAY/posts.json` (TikTok carries its caption in tiktokData.title), verify, `spot.py done DAY`.
+   with the one call in `spot/DAY/posts.json` (all five networks in one post, rule 9), verify the five providers, `spot.py done DAY`.
+   Days queued before 2026-11-25 noon are five separate posts (one per network); leave them as they are.
    At most 3 new per run. If a queued bundle's leave date moves earlier (fetch shows it gone), set that post to draft and say so.
 3. **Threads queue.** Keep a conversation post at 12:15 PM (12:45 PM Sat/Sun) for each of the next 7 days. Write new ones in
    the brand's voice: one question that's easy to answer, about buying habits, favorite skins, OG items, the code (at most

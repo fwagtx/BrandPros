@@ -1,0 +1,58 @@
+{
+ "day": "2026-12-02",
+ "day_es": "2 de diciembre",
+ "name": "Sombrero de paja",
+ "regular": 4900,
+ "price": 3200,
+ "save": 1700,
+ "pct": 35,
+ "count": 8,
+ "out": "2026-12-05",
+ "out_es": "5 de diciembre",
+ "img": "img/bundle.png",
+ "outfits": [
+  "Roronoa Zoro",
+  "Sanji"
+ ],
+ "icons": [
+  {
+   "img": "img/i0.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i1.png",
+   "rarity": "epic"
+  },
+  {
+   "img": "img/i2.png",
+   "rarity": "rare"
+  },
+  {
+   "img": "img/i3.png",
+   "rarity": "rare"
+  },
+  {
+   "img": "img/i4.png",
+   "rarity": "uncommon"
+  },
+  {
+   "img": "img/i5.png",
+   "rarity": "rare"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "¿Vale la pena el lote de Sombrero de paja? ¡Mira!"
+  },
+  {
+   "scene": "detail",
+   "text": "Trae ocho objetos, con Roronoa Zoro, Sanji… y más. Por separado costaría cuatro mil novecientas monedas… y el lote está en tres mil doscientas. ¡Te ahorras el treinta y cinco por ciento! Está en la tienda hasta el cinco de diciembre."
+  },
+  {
+   "scene": "cta",
+   "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!"
+  }
+ ],
+ "shop_date": "2026-11-25"
+}

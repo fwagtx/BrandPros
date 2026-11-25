@@ -1,0 +1,98 @@
+{
+ "day": "2026-12-02",
+ "at": "2026-12-02T11:30:00-06:00",
+ "match": "#EpicPartner Lote del día: Sombrero de paja",
+ "video": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-02.mp4",
+ "cover": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-02-cover.jpg",
+ "calls": [
+  {
+   "network": "all",
+   "networks": [
+    "tiktok",
+    "instagram",
+    "facebook",
+    "youtube",
+    "threads"
+   ],
+   "blogId": "8343092",
+   "date": "2026-12-02T11:30:00-06:00",
+   "match": "#EpicPartner Lote del día: Sombrero de paja",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-02.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "publicationDate": {
+     "dateTime": "2026-12-02T11:30:00",
+     "timezone": "America/Chicago"
+    },
+    "text": "#EpicPartner Lote del día: Sombrero de paja 🛒 ¿Vale la pena?\n🔥 De 4,900 a 3,200 monedas V: te ahorras el 35%\n🎁 8 objetos: Roronoa Zoro, Sanji y más\n⏰ En la tienda hasta el 5 de diciembre\n¿Lo vas a comprar? 👇\nUsa el código BAD en la tienda 💚\n#fortnite #tiendadefortnite #lotesfortnite #fortnitemexico #skinsfortnite",
+    "providers": [
+     {
+      "network": "tiktok"
+     },
+     {
+      "network": "instagram"
+     },
+     {
+      "network": "facebook"
+     },
+     {
+      "network": "youtube"
+     },
+     {
+      "network": "threads"
+     }
+    ],
+    "tiktokData": {
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "title": "#EpicPartner Lote del día: Sombrero de paja 🛒 ¿Vale la pena?\n🔥 De 4,900 a 3,200 monedas V: te ahorras el 35%\n🎁 8 objetos: Roronoa Zoro, Sanji y más\n⏰ En la tienda hasta el 5 de diciembre\n¿Lo vas a comprar? 👇\nUsa el código BAD en la tienda 💚\n#fortnite #tiendafortnite #lotesfortnite #fortnitemexico",
+     "autoAddMusic": false,
+     "isAigc": true
+    },
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": true,
+     "collaborators": [],
+     "carouselTags": {}
+    },
+    "facebookData": {
+     "type": "REEL",
+     "title": ""
+    },
+    "youtubeData": {
+     "title": "¿Vale la pena el lote de Sombrero de paja? 🛒 Fortnite | código BAD #shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "lotes fortnite",
+      "tienda de fortnite",
+      "Sombrero de paja",
+      "codigo BAD"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    },
+    "threadsData": {},
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-02-cover.jpg"
+   }
+  }
+ ]
+}

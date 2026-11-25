@@ -20,6 +20,8 @@ BLOG = "8343092"
 TZ = zoneinfo.ZoneInfo("America/Chicago")
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 sys.path.insert(0, ENGINE)
+sys.path.insert(0, HERE)
+import onepost  # noqa: E402
 
 
 def sh(*cmd, **kw):
@@ -199,6 +201,8 @@ def captions(ep, D):
         youtube_title=f"La tienda de Fortnite de hoy 🛒 {fecha_larga(d)} | código BAD #shorts"[:100],
         youtube="\n".join([head, *facts[:3], q, code, "#fortnite #tiendadefortnite #shorts"]),
         threads="\n".join([head, (facts[0] if facts else ""), "¿Ustedes qué van a comprar? Los leo 👇", code]),
+        # one post for all networks: this caption goes to Instagram, Facebook, YouTube and Threads (≤ 500 characters)
+        shared=onepost.fit([head, *facts[:3], q, code], [HASHTAGS["instagram"]]),
         match=head)
 
 
@@ -218,35 +222,23 @@ def ship(D):
     ep = json.load(open(os.path.join(shop, "episode.json")))
     cap = captions(ep, D)
     date = when.isoformat(timespec="seconds")
-    base = lambda text, prov: dict(autoPublish=True, draft=False, descendants=[], firstCommentText="", hasNotReadNotes=False,
-                                   media=[vurl], mediaAltText=[], shortener=False, smartLinkData={"ids": []}, text=text,
-                                   providers=[{"network": prov}],
-                                   publicationDate={"dateTime": when.strftime("%Y-%m-%dT%H:%M:%S"), "timezone": "America/Chicago"})
-    calls = []
-    def add(net, info, thumb=True):
-        if thumb: info["videoThumbnailUrl"] = curl
-        calls.append(dict(network=net, blogId=BLOG, date=date, match=cap["match"], info=info))
-    i = base(cap["tiktok"], "tiktok")
-    i["tiktokData"] = dict(disableComment=False, disableDuet=False, disableStitch=False, privacyOption="PUBLIC_TO_EVERYONE",
-                           commercialContentThirdParty=True, commercialContentOwnBrand=False, title=cap["tiktok"], autoAddMusic=False, isAigc=True)
-    # Metricool requires the TikTok title; it is the caption TikTok shows, so it carries the full TikTok caption
-    add("tiktok", i)
-    i = base(cap["instagram"], "instagram")
-    i["instagramData"] = dict(type="REEL", showReelOnFeed=True, isAiGenerated=True, collaborators=[], carouselTags={})
-    add("instagram", i)
-    i = base(cap["facebook"], "facebook")
-    i["facebookData"] = dict(type="REEL", title="")
-    add("facebook", i)
-    i = base(cap["youtube"], "youtube")
-    i["youtubeData"] = dict(title=cap["youtube_title"], type="short", privacy="public", tags=["fortnite", "tienda de fortnite", "fortnite mexico", "codigo BAD"],
-                            category="GAMING", madeForKids=False, isAiGeneratedContent=False)
-    add("youtube", i)
-    i = base(cap["threads"], "threads")
-    i["threadsData"] = {}
-    add("threads", i, thumb=False)
+    base = dict(autoPublish=True, draft=False, descendants=[], firstCommentText="", hasNotReadNotes=False, media=[vurl], mediaAltText=[],
+                shortener=False, smartLinkData={"ids": []},
+                publicationDate={"dateTime": when.strftime("%Y-%m-%dT%H:%M:%S"), "timezone": "America/Chicago"})
+    # One Metricool post for all five networks (owner's preference). TikTok shows tiktokData.title as its caption
+    # (Metricool requires it); YouTube gets its own title; the rest share cap["shared"].
+    info = onepost.combine(base, cap["shared"], dict(
+        tiktok=dict(disableComment=False, disableDuet=False, disableStitch=False, privacyOption="PUBLIC_TO_EVERYONE",
+                    commercialContentThirdParty=True, commercialContentOwnBrand=False, title=cap["tiktok"], autoAddMusic=False, isAigc=True),
+        instagram=dict(type="REEL", showReelOnFeed=True, isAiGenerated=True, collaborators=[], carouselTags={}),
+        facebook=dict(type="REEL", title=""),
+        youtube=dict(title=cap["youtube_title"], type="short", privacy="public", tags=["fortnite", "tienda de fortnite", "fortnite mexico", "codigo BAD"],
+                     category="GAMING", madeForKids=False, isAiGeneratedContent=False),
+        threads={}), thumb=curl)
+    calls = [dict(network="all", networks=list(onepost.NETS), blogId=BLOG, date=date, match=cap["match"], info=info)]
     json.dump(dict(D=D, at=date, variant=v, video=vurl, cover=curl, calls=calls),
               open(os.path.join(shop, "posts.json"), "w"), ensure_ascii=False, indent=1)
-    print(f"SHIP {D}: {len(calls)} posts at {date} ({v['experiment']} · {v['variant']}); posts.json written")
+    print(f"SHIP {D}: one post for {', '.join(onepost.NETS)} at {date} ({v['experiment']} · {v['variant']}); posts.json written")
 
 
 def fallback(D):
@@ -293,7 +285,7 @@ def done(D):
     led = [r for r in led if not (r.get("kind") == "shop" and r.get("D") == D)]
     led.append(dict(kind="shop", D=D, at=p["at"], match=p["calls"][0]["match"], experiment=p["variant"]["experiment"],
                     variant=p["variant"]["variant"], hook=p["variant"]["hook"], music=p["variant"]["music"]["style"],
-                    items=[s["name"] for s in ep["segments"]], networks=[c["network"] for c in p["calls"]]))
+                    items=[s["name"] for s in ep["segments"]], networks=[n for c in p["calls"] for n in c.get("networks", [c["network"]])]))
     json.dump(led, open(led_path, "w"), ensure_ascii=False, indent=1)
     print("ledger updated:", D)
 

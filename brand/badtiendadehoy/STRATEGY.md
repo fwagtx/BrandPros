@@ -20,7 +20,8 @@ tonight, which bundle is actually worth it. It's one daily habit, timed to the r
 | Facebook | Reels + community | Same video as a Reel, shorter caption | Shareable "¿qué comprarías?" posts |
 | Threads | Conversation | One question post a day (12:15 PM; 12:45 PM weekends) + the shop video at 6:40 PM | Reply to comments; polls |
 
-Captions differ per platform (shop.py `captions()`); the video is the same because it's the brand's daily anchor.
+Each video goes out as **one Metricool post for all five networks** (owner's preference, Nov 25; auto/onepost.py):
+Instagram, Facebook, YouTube and Threads share one caption, TikTok has its own caption and YouTube its own title.
 
 ## Cadence (Central time)
 - **Daily 6:40 PM CST** (7:40 PM CDT): shop video on TikTok, IG Reels, FB Reels, YT Shorts, Threads.
