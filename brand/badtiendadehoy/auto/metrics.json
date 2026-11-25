@@ -1,1 +1,92 @@
-[]
+[
+ {
+  "key": "welcome|tiktok",
+  "kind": "welcome",
+  "day": "2026-11-24",
+  "network": "tiktok",
+  "url": "https://www.tiktok.com/@codigo.bad/video/7711863755369450766",
+  "views": 31,
+  "likes": 1,
+  "comments": 0,
+  "shares": 0,
+  "full_watch_rate": null,
+  "avg_time_watched": null,
+  "as_of": "2026-11-25T10:40-06:00"
+ },
+ {
+  "key": "shop:2026-11-25|tiktok",
+  "kind": "shop",
+  "day": "2026-11-25",
+  "network": "tiktok",
+  "url": "https://www.tiktok.com/@codigo.bad/video/7711902505306721550",
+  "views": 0,
+  "likes": 0,
+  "comments": 0,
+  "shares": 0,
+  "full_watch_rate": null,
+  "avg_time_watched": null,
+  "as_of": "2026-11-25T10:40-06:00"
+ },
+ {
+  "key": "shop:2026-11-25|instagram",
+  "kind": "shop",
+  "day": "2026-11-25",
+  "network": "instagram",
+  "url": "https://www.instagram.com/reel/DgJQ-cECPYX/",
+  "views": 7,
+  "skip_rate": 57.1,
+  "avg_watch_time": 3.095,
+  "interactions": 0,
+  "reach": 6,
+  "shares": 0,
+  "saves": 0,
+  "retention": null,
+  "as_of": "2026-11-25T10:40-06:00"
+ },
+ {
+  "key": "shop:2026-11-25|facebook",
+  "kind": "shop",
+  "day": "2026-11-25",
+  "network": "facebook",
+  "url": "https://www.facebook.com/reel/3084388121897097/",
+  "views": 16,
+  "reach": 0,
+  "avg_time_watched": 1,
+  "likes": 0,
+  "as_of": "2026-11-25T10:40-06:00"
+ },
+ {
+  "key": "shop:2026-11-25|youtube",
+  "kind": "shop",
+  "day": "2026-11-25",
+  "network": "youtube",
+  "url": "https://www.youtube.com/watch?v=x9JZql3WBT4",
+  "views": null,
+  "avg_view_duration": null,
+  "likes": null,
+  "comments": null,
+  "as_of": "2026-11-25T10:40-06:00"
+ },
+ {
+  "key": "shop:2026-11-25|threads",
+  "kind": "shop",
+  "day": "2026-11-25",
+  "network": "threads",
+  "url": "https://www.threads.com/@usacodigobad/post/DgJQ7fyh84Q",
+  "views": null,
+  "replies": null,
+  "likes": null,
+  "as_of": "2026-11-25T10:40-06:00"
+ },
+ {
+  "key": "welcome|threads",
+  "kind": "welcome",
+  "day": "2026-11-24",
+  "network": "threads",
+  "url": "https://www.threads.com/@usacodigobad/post/DgI_wcdiKc0",
+  "views": 1,
+  "replies": null,
+  "likes": null,
+  "as_of": "2026-11-25T10:40-06:00"
+ }
+]
