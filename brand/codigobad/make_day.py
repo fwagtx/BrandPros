@@ -20,8 +20,8 @@ for e in s["entries"]:
     items = e.get("brItems") or []; b = e.get("bundle")
     if not items and not b: continue
     m = items[0] if items else None
-    rows.append(dict(id=(bid(b["name"]) if b and b.get("image") else (m["id"] if m else e.get("offerId"))), name=(b["name"] if b else m["name"]), bundle=bool(b), n=len(items),
-        type=(m["type"]["value"] if m else "bundle"), typeLabel=(("Traje" if m["type"]["value"] == "outfit" else m["type"]["displayValue"]) if m else "Pacote"), rarity=("bundle" if b else m["rarity"]["value"]), rarityLabel=(m["rarity"]["displayValue"] if m else ""),
+    rows.append(dict(id=(bid(b["name"]) if b and b.get("image") else (m["id"] if m else e.get("offerId"))), name=(b["name"] if b else m["name"]), bundle=bool(b) or len(items) >= 3, n=len(items),
+        type=(m["type"]["value"] if m else "bundle"), typeLabel=(("Traje" if m["type"]["value"] == "outfit" else m["type"]["displayValue"]) if m else "Pacote"), rarity=("bundle" if (b or len(items) >= 3) else m["rarity"]["value"]), rarityLabel=(m["rarity"]["displayValue"] if m else ""),
         final=e["finalPrice"], regular=e["regularPrice"], inDate=e.get("inDate", "")[:10], outDate=e.get("outDate", "")[:10], intro=intro(m) if m else None,
         img=(b["image"] if b and b.get("image") else (img(m) if m else None)), setName=((m.get("set") or {}).get("value") if m else None)))
 new = [r for r in rows if r["inDate"] == day]; leaving = [r for r in rows if r["outDate"] == day]
@@ -49,7 +49,10 @@ for f in glob.glob("video/dia-*/s1-pacotoes.js") + glob.glob("video/dia-*/s2-che
     if d0 < day and (datetime.date.fromisoformat(day) - datetime.date.fromisoformat(d0)).days <= 7:
         try: used |= {i["name"] for i in json.loads(open(f).read().split("=", 1)[1].rstrip(";\n"))["items"]}
         except Exception: pass
-back = sorted([r for r in new if r["type"] == "outfit" and r["intro"] and not r["bundle"] and r["outDate"] != day], key=lambda r: r["intro"])
+top_new = {r["name"] for r in sorted(new, key=lambda r: -r["final"])[:5]}
+back = sorted([r for r in new if r["type"] == "outfit" and r["intro"] and not r["bundle"] and r["outDate"] != day and r["name"] not in top_new], key=lambda r: r["intro"])
+strict = [r for r in back if not any((r.get("setName") or "\x00").lower() in t.lower() for t in top_new)]
+back = strict if len(strict) >= 5 else back
 c5 = list(reversed(sorted(outfits, key=lambda r: (-r["final"], r["name"]))[:5]))
 stale = sum(1 for r in (oldest[:5] if wd in (2, 6) else c5) if r["name"] in used or r["outDate"] == day)
 if wd in (1, 2, 3, 5, 6) and stale >= 3 and len(back) >= 5:
