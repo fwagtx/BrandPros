@@ -280,6 +280,13 @@
    "seed": 45219,
    "duration": 36.77,
    "metrics": null
+  },
+  {
+   "day": "2026-11-26",
+   "variant": "trap-a",
+   "seed": 5797,
+   "duration": 42.86,
+   "metrics": null
   }
  ],
  "evolutions": []

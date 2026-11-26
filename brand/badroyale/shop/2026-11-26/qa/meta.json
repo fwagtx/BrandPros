@@ -1,0 +1,227 @@
+{
+ "duration": 42.86,
+ "caption": "#EpicPartner Today's Fortnite Item Shop (nov 26): KizunaAI for 3,200 V-Bucks and 5 more picks.\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "396 offers in today's shop",
+   "source": "plan.json",
+   "match": [
+    "\"offers\": 396"
+   ],
+   "visual": "entries with cosmetics in shop.json, counted by reel_pick.py"
+  },
+  {
+   "text": "KizunaAI Bundle: 3200 V-Bucks, regular 6100",
+   "source": "shop.json",
+   "match": [
+    "KizunaAI Bundle",
+    "\"finalPrice\": 3200",
+    "\"regularPrice\": 6100"
+   ]
+  },
+  {
+   "text": "KizunaAI Bundle: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "KizunaAI Bundle",
+    "\"inDate\": \"2026-11-26T"
+   ]
+  },
+  {
+   "text": "KizunaAI Bundle: 2,900 V-Bucks below regular 🔥",
+   "source": "shop.json",
+   "match": [
+    "KizunaAI Bundle",
+    "\"regularPrice\": 6100",
+    "\"finalPrice\": 3200"
+   ]
+  },
+  {
+   "text": "KizunaAI Bundle: in the shop until nov 29 ⏰",
+   "source": "shop.json",
+   "match": [
+    "KizunaAI Bundle",
+    "\"outDate\": \"2026-11-29T"
+   ]
+  },
+  {
+   "text": "Becky Lynch: 1600 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Becky Lynch",
+    "\"finalPrice\": 1600"
+   ]
+  },
+  {
+   "text": "Becky Lynch: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Becky Lynch",
+    "\"inDate\": \"2026-11-26T"
+   ]
+  },
+  {
+   "text": "Becky Lynch: in the shop until nov 28 ⏰",
+   "source": "shop.json",
+   "match": [
+    "Becky Lynch",
+    "\"outDate\": \"2026-11-28T"
+   ]
+  },
+  {
+   "text": "Becky Lynch: from chapter 4, season 3",
+   "source": "shop.json",
+   "match": [
+    "Becky Lynch",
+    "Introduced in Chapter 4, Season 3."
+   ]
+  },
+  {
+   "text": "Bianca Belair: 1500 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Bianca Belair",
+    "\"finalPrice\": 1500"
+   ]
+  },
+  {
+   "text": "Bianca Belair: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Bianca Belair",
+    "\"inDate\": \"2026-11-26T"
+   ]
+  },
+  {
+   "text": "Bianca Belair: in the shop until nov 28 ⏰",
+   "source": "shop.json",
+   "match": [
+    "Bianca Belair",
+    "\"outDate\": \"2026-11-28T"
+   ]
+  },
+  {
+   "text": "Bianca Belair: from chapter 4, season 3",
+   "source": "shop.json",
+   "match": [
+    "Bianca Belair",
+    "Introduced in Chapter 4, Season 3."
+   ]
+  },
+  {
+   "text": "Assault Trooper: 800 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Assault Trooper",
+    "\"finalPrice\": 800"
+   ]
+  },
+  {
+   "text": "Assault Trooper: og · chapter 1, season 1 🔥",
+   "source": "shop.json",
+   "match": [
+    "Assault Trooper",
+    "Introduced in Chapter 1, Season 1."
+   ]
+  },
+  {
+   "text": "Guild: 800 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Guild",
+    "\"finalPrice\": 800"
+   ]
+  },
+  {
+   "text": "Guild: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Guild",
+    "\"outDate\": \"2026-11-26T23:59:59"
+   ]
+  },
+  {
+   "text": "Guild: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-26T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  },
+  {
+   "text": "Guild: og · chapter 1, season 8 🔥",
+   "source": "shop.json",
+   "match": [
+    "Guild",
+    "Introduced in Chapter 1, Season 8."
+   ]
+  },
+  {
+   "text": "Smoke Dragon: 1500 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Smoke Dragon",
+    "\"finalPrice\": 1500"
+   ]
+  },
+  {
+   "text": "Smoke Dragon: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Smoke Dragon",
+    "\"outDate\": \"2026-11-26T23:59:59"
+   ]
+  },
+  {
+   "text": "Smoke Dragon: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Smoke Dragon",
+    "\"inDate\": \"2026-11-26T"
+   ]
+  },
+  {
+   "text": "Smoke Dragon: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-26T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  }
+ ],
+ "text": [
+  "TODAY'S ITEM SHOP 🛒",
+  "3,200",
+  "1,600",
+  "1,500",
+  "396 OFFERS IN TODAY'S SHOP",
+  "HERE'S WHAT'S NEW TODAY 👀",
+  "NEW IN TODAY'S SHOP 🆕",
+  "2,900 V-BUCKS BELOW REGULAR 🔥",
+  "IN THE SHOP UNTIL NOV 29 ⏰",
+  "KIZUNAAI",
+  "IN THE SHOP UNTIL NOV 28 ⏰",
+  "FROM CHAPTER 4, SEASON 3",
+  "BECKY LYNCH",
+  "BIANCA BELAIR",
+  "OG · CHAPTER 1, SEASON 1 🔥",
+  "ASSAULT TROOPER",
+  "LEAVES AT THE NEXT RESET ⏰",
+  "THE RESET IS 7 PM ET · 6 PM CT 👀",
+  "OG · CHAPTER 1, SEASON 8 🔥",
+  "GUILD",
+  "SMOKE DRAGON",
+  "WHAT ARE YOU BUYING? 👇",
+  "800",
+  "USE CODE BAD IN THE ITEM SHOP 💛",
+  "CREATOR CODE",
+  "#EPICPARTNER",
+  "ACCEPT",
+  "SUPPORT-A-CREATOR: BAD",
+  "THANK YOU FOR WATCHING! 💛",
+  "FOLLOW FOR MORE DAILY CONTENT",
+  "USE CODE: BAD",
+  "nov 26",
+  " "
+ ]
+}

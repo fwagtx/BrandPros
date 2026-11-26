@@ -1,0 +1,280 @@
+{
+ "date": "2026-11-26",
+ "dateLabel": "nov 26",
+ "offers": 396,
+ "picks": [
+  {
+   "key": "KizunaAI_Bundle",
+   "name": "KizunaAI Bundle",
+   "kind": "bundle",
+   "final": 3200,
+   "regular": 6100,
+   "in": "2026-11-26",
+   "out": "2026-11-29",
+   "c1": "aeccdf",
+   "c2": "566370",
+   "count": 11,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "2,900 V-Bucks below regular 🔥",
+    "in the shop until nov 29 ⏰"
+   ],
+   "claims": [
+    {
+     "text": "KizunaAI Bundle: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "KizunaAI Bundle",
+      "\"inDate\": \"2026-11-26T"
+     ]
+    },
+    {
+     "text": "KizunaAI Bundle: 2,900 V-Bucks below regular 🔥",
+     "source": "shop.json",
+     "match": [
+      "KizunaAI Bundle",
+      "\"regularPrice\": 6100",
+      "\"finalPrice\": 3200"
+     ]
+    },
+    {
+     "text": "KizunaAI Bundle: in the shop until nov 29 ⏰",
+     "source": "shop.json",
+     "match": [
+      "KizunaAI Bundle",
+      "\"outDate\": \"2026-11-29T"
+     ]
+    }
+   ],
+   "kindLabel": "bundle"
+  },
+  {
+   "key": "Character_RollerBlade",
+   "name": "Becky Lynch",
+   "kind": "outfit",
+   "final": 1600,
+   "regular": 1600,
+   "in": "2026-11-26",
+   "out": "2026-11-28",
+   "c1": "51e5ff",
+   "c2": "2eb3d9",
+   "count": 3,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "in the shop until nov 28 ⏰",
+    "from chapter 4, season 3"
+   ],
+   "claims": [
+    {
+     "text": "Becky Lynch: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Becky Lynch",
+      "\"inDate\": \"2026-11-26T"
+     ]
+    },
+    {
+     "text": "Becky Lynch: in the shop until nov 28 ⏰",
+     "source": "shop.json",
+     "match": [
+      "Becky Lynch",
+      "\"outDate\": \"2026-11-28T"
+     ]
+    },
+    {
+     "text": "Becky Lynch: from chapter 4, season 3",
+     "source": "shop.json",
+     "match": [
+      "Becky Lynch",
+      "Introduced in Chapter 4, Season 3."
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "Character_BrainMatter",
+   "name": "Bianca Belair",
+   "kind": "outfit",
+   "final": 1500,
+   "regular": 1500,
+   "in": "2026-11-26",
+   "out": "2026-11-28",
+   "c1": "51e5ff",
+   "c2": "2eb3d9",
+   "count": 2,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "in the shop until nov 28 ⏰",
+    "from chapter 4, season 3"
+   ],
+   "claims": [
+    {
+     "text": "Bianca Belair: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Bianca Belair",
+      "\"inDate\": \"2026-11-26T"
+     ]
+    },
+    {
+     "text": "Bianca Belair: in the shop until nov 28 ⏰",
+     "source": "shop.json",
+     "match": [
+      "Bianca Belair",
+      "\"outDate\": \"2026-11-28T"
+     ]
+    },
+    {
+     "text": "Bianca Belair: from chapter 4, season 3",
+     "source": "shop.json",
+     "match": [
+      "Bianca Belair",
+      "Introduced in Chapter 4, Season 3."
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "CID_015_Athena_Commando_F",
+   "name": "Assault Trooper",
+   "kind": "outfit",
+   "final": 800,
+   "regular": 800,
+   "in": "2026-11-24",
+   "out": "2026-11-30",
+   "c1": "ca531d",
+   "c2": "c22d1a",
+   "count": 1,
+   "tag": "og",
+   "emoji": "👑",
+   "facts": [
+    "og · chapter 1, season 1 🔥"
+   ],
+   "claims": [
+    {
+     "text": "Assault Trooper: og · chapter 1, season 1 🔥",
+     "source": "shop.json",
+     "match": [
+      "Assault Trooper",
+      "Introduced in Chapter 1, Season 1."
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "CID_398_Athena_Commando_M_TreasureHunterFashion",
+   "name": "Guild",
+   "kind": "outfit",
+   "final": 800,
+   "regular": 800,
+   "in": "2026-11-23",
+   "out": "2026-11-26",
+   "c1": "290f07",
+   "c2": "824100",
+   "count": 1,
+   "tag": "last",
+   "emoji": "⏰",
+   "facts": [
+    "leaves at the next reset ⏰",
+    "the reset is 7 PM ET · 6 PM CT 👀",
+    "og · chapter 1, season 8 🔥"
+   ],
+   "claims": [
+    {
+     "text": "Guild: leaves at the next reset ⏰",
+     "source": "shop.json",
+     "match": [
+      "Guild",
+      "\"outDate\": \"2026-11-26T23:59:59"
+     ]
+    },
+    {
+     "text": "Guild: the reset is 7 PM ET · 6 PM CT 👀",
+     "source": "shop.json",
+     "match": [
+      "\"outDate\": \"2026-11-26T23:59:59"
+     ],
+     "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+    },
+    {
+     "text": "Guild: og · chapter 1, season 8 🔥",
+     "source": "shop.json",
+     "match": [
+      "Guild",
+      "Introduced in Chapter 1, Season 8."
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "CID_682_Athena_Commando_M_VirtualShadow",
+   "name": "Smoke Dragon",
+   "kind": "outfit",
+   "final": 1500,
+   "regular": 1500,
+   "in": "2026-11-26",
+   "out": "2026-11-26",
+   "c1": "290f07",
+   "c2": "824100",
+   "count": 2,
+   "tag": "last",
+   "emoji": "⏰",
+   "facts": [
+    "leaves at the next reset ⏰",
+    "new in today's shop 🆕",
+    "the reset is 7 PM ET · 6 PM CT 👀"
+   ],
+   "claims": [
+    {
+     "text": "Smoke Dragon: leaves at the next reset ⏰",
+     "source": "shop.json",
+     "match": [
+      "Smoke Dragon",
+      "\"outDate\": \"2026-11-26T23:59:59"
+     ]
+    },
+    {
+     "text": "Smoke Dragon: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Smoke Dragon",
+      "\"inDate\": \"2026-11-26T"
+     ]
+    },
+    {
+     "text": "Smoke Dragon: the reset is 7 PM ET · 6 PM CT 👀",
+     "source": "shop.json",
+     "match": [
+      "\"outDate\": \"2026-11-26T23:59:59"
+     ],
+     "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+    }
+   ],
+   "kindLabel": "outfit"
+  }
+ ],
+ "hero": [
+  "KizunaAI_Bundle",
+  "Character_RollerBlade",
+  "Character_BrainMatter"
+ ],
+ "newCount": 58,
+ "music": {
+  "style": "trap",
+  "bpm": 140,
+  "hook": "arp",
+  "seed": 5797,
+  "card": 12,
+  "variant": "trap-a"
+ }
+}
