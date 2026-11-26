@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's cosmetics data)",
+ "files": [
+  {
+   "file": "CID_134_Athena_Commando_M_Jailbird.json",
+   "source": "Epic cosmetics data for Scoundrel",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Scoundrel",
+   "fetched_utc": "2026-11-26T15:58:03Z"
+  },
+  {
+   "file": "CID_320_Athena_Commando_M_Nautilus.json",
+   "source": "Epic cosmetics data for Deep Sea Destroyer",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Deep%20Sea%20Destroyer",
+   "fetched_utc": "2026-11-26T15:58:03Z"
+  },
+  {
+   "file": "CID_393_Athena_Commando_M_Shiny.json",
+   "source": "Epic cosmetics data for Sterling",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Sterling",
+   "fetched_utc": "2026-11-26T15:58:03Z"
+  }
+ ]
+}

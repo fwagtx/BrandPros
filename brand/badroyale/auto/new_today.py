@@ -131,8 +131,12 @@ def outfits(e):
     return [i for i in e.get("brItems") or [] if i["type"]["value"] == "outfit"]
 
 
+def raw_label(e):
+    return (e["bundle"]["name"] if e.get("bundle") else outfits(e)[0]["name"]).strip()
+
+
 def label(e):
-    n = (e["bundle"]["name"] if e.get("bundle") else outfits(e)[0]["name"]).strip()
+    n = raw_label(e)
     return n.title() if n.isupper() else n            # Epic writes some bundle names in capitals ("HIT SQUAD BUNDLE")
 
 
@@ -207,7 +211,7 @@ def pick_shop(folder, day, kind, used):
     cfg = {"title": title, "tone": kind, "cards": cards, "name": name, "contents": contents, "price": {"final": final, "regular": regular},
            "when": when_show, "ask": ask_show,
            "caption": f"#EpicPartner {title[0]} {title[1]}: {name}",
-           "claims": [{"text": f"{name} is in the Item Shop for {day}", "source": "shop.json", "match": [name, f'"date": "{day}']},
+           "claims": [{"text": f"{name} is in the Item Shop for {day}", "source": "shop.json", "match": [raw_label(e), f'"date": "{day}']},   # the source's own spelling (may be all capitals)
                       {"text": f"Price {final:,} V-Bucks (listed regular price {regular:,})", "source": "shop.json", "match": [f'"regularPrice": {regular}, "finalPrice": {final}']},
                       {"text": f"Listing {'started' if kind == 'new' else 'ends'} {e['inDate'][:10] if kind == 'new' else e['outDate'][:10]}", "source": "shop.json",
                        "match": [e["inDate"] if kind == "new" else e["outDate"]]}] +

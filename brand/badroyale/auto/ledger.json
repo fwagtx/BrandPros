@@ -514,6 +514,16 @@
    "date": "2026-12-01",
    "format": "Every X on the map",
    "topic": "Every named location on the map: all 11 (Buggy's Beachhead, Cursed Cavern, The $.$. Rocky, Busy Bay, Plunder Port, Loguetown, Windmill Village, Arlong Park, Lantern Landing, The Chest, Rubber Resort) (video/auto/2026-12-01-every-named-location)"
+  },
+  {
+   "date": "2026-11-26",
+   "format": "Right now",
+   "topic": "New in shop: Extra Point Bundle (video/auto/2026-11-26-now)"
+  },
+  {
+   "date": "2026-12-02",
+   "format": "Guess the Season",
+   "topic": "Guess the Season: Scoundrel (C1S4), Deep Sea Destroyer (C1S7), Sterling (C1S8) (video/auto/2026-12-02-guess-season)"
   }
  ]
 }

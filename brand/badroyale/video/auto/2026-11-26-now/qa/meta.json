@@ -1,0 +1,95 @@
+{
+ "duration": 19.4,
+ "caption": "#EpicPartner Just dropped in the Item Shop: Extra Point Bundle",
+ "claims": [
+  {
+   "text": "Extra Point Bundle is in the Item Shop for 2026-11-26",
+   "source": "shop.json",
+   "match": [
+    "EXTRA POINT BUNDLE",
+    "\"date\": \"2026-11-26"
+   ]
+  },
+  {
+   "text": "Price 3,500 V-Bucks (listed regular price 7,500)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 7500, \"finalPrice\": 3500"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-26",
+   "source": "shop.json",
+   "match": [
+    "2026-11-26T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Crossbar Crusher is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Crossbar Crusher"
+   ]
+  },
+  {
+   "text": "Trench Runner is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Trench Runner"
+   ]
+  },
+  {
+   "text": "Formation Fighter is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Formation Fighter"
+   ]
+  },
+  {
+   "text": "Snap Squad is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Snap Squad"
+   ]
+  }
+ ],
+ "text": [
+  "JUST DROPPED / IN THE ITEM SHOP",
+  "CROSSBAR CRUSHER",
+  "TRENCH RUNNER",
+  "FORMATION FIGHTER",
+  "EXTRA POINT BUNDLE",
+  "CROSSBAR CRUSHER, TRENCH RUNNER, FORMATION FIGHTER AND 2 MORE ITEMS",
+  "3,500 V-BUCKS",
+  "IN THE SHOP UNTIL NOV 29",
+  "JUST DROPPED IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE EXTRA POINT",
+  "BUNDLE.",
+  "CROSSBAR CRUSHER,",
+  "TRENCH RUNNER,",
+  "FORMATION FIGHTER AND",
+  "2 MORE ITEMS.",
+  "3,500 V-BUCKS,",
+  "INSTEAD OF 7,500.",
+  "IT'S IN THE",
+  "SHOP UNTIL NOVEMBER",
+  "29TH.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
