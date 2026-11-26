@@ -180,7 +180,7 @@ HASHTAGS = {"tiktok": "#fortnite #tiendafortnite #fortnitemexico #fortnitelatam"
 
 def captions(ep, D):
     d = datetime.date.fromisoformat(D)
-    head = f"#EpicPartner La tienda de Fortnite de hoy, {fecha_larga(d)} 🛒"
+    head = f"La tienda de Fortnite de hoy, {fecha_larga(d)} 🛒"
     segs = ep["segments"]
     b = segs[0] if segs[0]["kind"] == "bundle" else None
     leaving = [s["name"] for s in segs[1:] if (s.get("badge") or {}).get("emoji") == "⏰"]
@@ -192,7 +192,7 @@ def captions(ep, D):
     if leaving: facts.append("⏰ Se va hoy: " + ", ".join(leaving[:3]))
     elif og: facts.append("🕹️ OG de regreso: " + ", ".join(og[:2]))
     q = "¿Qué vas a comprar? 👇"
-    code = "Usa el código BAD en la tienda 💚"
+    code = "Usa el código BAD en la tienda 💚 #EpicPartner"   # disclosure on the code line, never first (owner, Nov 26)
     long = "\n".join([head, *facts[:3], q, code])
     return dict(
         tiktok=f"{long}\n{HASHTAGS['tiktok']}",

@@ -18,7 +18,8 @@ English, La Tiendita Bad in Spanish, CodigoBad in Portuguese) are run by other s
 
 1. **Metricool brand: blogId `8343092` (Bad Tienda De Hoy) only.** Verify the id before every Metricool call. Never read,
    write or mention another brand's posts.
-2. **Disclosure:** every caption that mentions the code starts with `#EpicPartner`, and `#EpicPartner` is on screen in every
+2. **Disclosure:** every caption that mentions the code carries `#EpicPartner` at the end of the code line ("Usa el código
+   BAD en la tienda 💚 #EpicPartner"); never as the first word (owner, 2026-11-26). `#EpicPartner` is on screen in every
    frame of the shop video (the sticker). The code ask is "Usa el código BAD en la tienda" or "apoya al canal con el código
    BAD". Never call the code a discount or a saving, never promise rewards or giveaways for using it, never imply Epic
    endorses or sponsors the channel.
@@ -36,7 +37,7 @@ English, La Tiendita Bad in Spanish, CodigoBad in Portuguese) are run by other s
 8. **Git:** repository fwagtx/BrandPros, branch `claude/badtiendadehoy` only (push with
    `git -c push.negotiate=true push origin HEAD:claude/badtiendadehoy`). Videos never go in git; auto/ghmedia.py hosts them
    on the branch `claude/badtiendadehoy-media`, which it replaces on every upload. Never touch any other branch.
-9. **Captions** are written by shop.py: line 1 the hook (`#EpicPartner La tienda de Fortnite de hoy, <fecha> 🛒`), then the
+9. **Captions** are written by shop.py: line 1 the hook (`La tienda de Fortnite de hoy, <fecha> 🛒`), then the
    best facts with a few emojis, one question that gets comments, the code line, 1-5 hashtags. **One post, all networks**
    (owner, 2026-11-25: "connect them under one scheduled post for all"): each shop short and each Lote del día is ONE
    Metricool post whose providers are TikTok, Instagram, Facebook, YouTube and Threads (auto/onepost.py). Instagram,
@@ -75,7 +76,7 @@ English, La Tiendita Bad in Spanish, CodigoBad in Portuguese) are run by other s
 
 D = `date -u +%F` (the shop day).
 1. **Already posted?** `getScheduledPosts` (blogId 8343092, America/Chicago, D-1 00:00 to D 23:59). If TikTok, Instagram,
-   Facebook, YouTube and Threads each have a post whose text starts `#EpicPartner La tienda de Fortnite de hoy, <día> de <mes>`
+   Facebook, YouTube and Threads each have a post whose text contains `La tienda de Fortnite de hoy, <día> de <mes>`
    for D, stop and log "shop already posted". If only some do, post just the missing ones at step 5.
 2. `python3 brand/badtiendadehoy/auto/shop.py build D` (≈15 min; it waits for the live shop to turn over). It prints the
    cards, every voice line with what Whisper heard, the automatic checks and the review sheet path.
@@ -94,7 +95,7 @@ D = `date -u +%F` (the shop day).
 4. `python3 brand/badtiendadehoy/auto/shop.py ship D` (hosts the files, writes shop/D/posts.json). If it prints STOP, post nothing.
 5. posts.json has ONE call carrying all five networks (rule 9). If no network has the post yet, `createScheduledPost` with
    the call's blogId, date and info (as a JSON string). If some networks already have it (a post whose `providers` include
-   that network and whose text starts with `match`), send instead the info printed by
+   that network and whose text contains `match`), send instead the info printed by
    `python3 brand/badtiendadehoy/auto/onepost.py only brand/badtiendadehoy/shop/D/posts.json <missing networks, comma-separated>`.
    If Metricool refuses the call, name the error; for VIDEO_THUMBNAIL_NOT_APPLICABLE follow rule 12.
 6. `getScheduledPosts` again: confirm the post carries all five providers (TikTok, Instagram, Facebook, YouTube, Threads),
@@ -106,8 +107,8 @@ D = `date -u +%F` (the shop day).
 ## LONG run (Wednesday and Saturday)
 
 P = `TZ=America/Chicago date +%F` (the publish day; the video goes out at 4:00 PM Central, YouTube only).
-1. **Already scheduled?** `getScheduledPosts` (blogId 8343092, P 00:00 to P 23:59): a YouTube post whose text starts
-   `#EpicPartner Los` and contains `lotes con más ahorro` → stop and log "long already scheduled".
+1. **Already scheduled?** `getScheduledPosts` (blogId 8343092, P 00:00 to P 23:59): a YouTube post whose text contains
+   `lotes con más ahorro de la tienda de Fortnite` → stop and log "long already scheduled".
 2. `python3 brand/badtiendadehoy/auto/long.py build P` (≈60-75 min: the voice is ~30-40 min on CPU, the render ~15 min).
    It fetches the live shop, keeps the 10 bundles with the biggest savings that are still in the shop after P, writes the
    script from the data only, records it, renders 1920x1080 with chapters, mixes original music under the voice and makes
@@ -124,7 +125,7 @@ P = `TZ=America/Chicago date +%F` (the publish day; the video goes out at 4:00 P
 ## DAY run
 
 0. **Today's short is out?** D = `date -u +%F` (in the morning this is still the shop that opened last night). If TikTok,
-   Instagram, Facebook, YouTube or Threads has no post starting `#EpicPartner La tienda de Fortnite de hoy, <día> de <mes>`
+   Instagram, Facebook, YouTube or Threads has no post containing `La tienda de Fortnite de hoy, <día> de <mes>`
    for D (scheduled or published), do the SHOP run now for the missing networks (fallback if needed), posting 20 min out.
 1. Setup, then `getScheduledPosts` for yesterday and today (blogId 8343092): list any provider not PUBLISHED with its
    detailedStatus. A failed network is re-tried once with a post for just that network (`onepost.py only <posts.json> <network>`;
@@ -137,8 +138,8 @@ P = `TZ=America/Chicago date +%F` (the publish day; the video goes out at 4:00 P
    into auto/metrics.json (one row per post per network, updated in place). Never invent a number: a metric Metricool
    doesn't return stays empty.
 2b. **Lote del día: keep 7 days of videos queued on every network** (owner, 2026-11-25: "make sure you are scheduling
-   videos for all platforms"). Check `getScheduledPosts` for the 11:30 AM slots of today+1 … today+7 (posts starting
-   `#EpicPartner Lote del día:`). For the missing days: `python3 brand/badtiendadehoy/auto/spot.py plan <first missing day> <days>`
+   videos for all platforms"). Check `getScheduledPosts` for the 11:30 AM slots of today+1 … today+7 (posts containing
+   `Lote del día:`). For the missing days: `python3 brand/badtiendadehoy/auto/spot.py plan <first missing day> <days>`
    (it fetches the live shop and only plans a bundle that is still in the shop the day after it posts), then for each planned
    day `spot.py build DAY` (~8 min), Read `spot/DAY/qa/review-sheet.jpg` (hook, detail with icons, strike → bundle price,
    saving, date, creator-code end, cover), write `spot/DAY/review.json` PASS/FAIL, `spot.py ship DAY`, `createScheduledPost`
@@ -147,7 +148,7 @@ P = `TZ=America/Chicago date +%F` (the publish day; the video goes out at 4:00 P
    At most 3 new per run. If a queued bundle's leave date moves earlier (fetch shows it gone), set that post to draft and say so.
 3. **Threads queue.** Keep a conversation post at 12:15 PM (12:45 PM Sat/Sun) for each of the next 7 days. Write new ones in
    the brand's voice: one question that's easy to answer, about buying habits, favorite skins, OG items, the code (at most
-   one in four posts, with `#EpicPartner`); never news, never a fact that isn't in today's shop data. Record each in
+   one in four posts, with `#EpicPartner` at the end, never first); never news, never a fact that isn't in today's shop data. Record each in
    auto/ledger.json (kind "threads").
 4. Log one line, commit, push. Summary: failures, yesterday's best post by views, queue status.
 

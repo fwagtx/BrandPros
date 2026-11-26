@@ -164,7 +164,7 @@ def ship(P):
     data = json.load(open(os.path.join(d, "long.json")))
     n, top = len(data["bundles"]), data["bundles"][0]
     title = f"TOP {n} lotes con MÁS AHORRO de la tienda de Fortnite 🛒 ({data['publish_es']})"[:100]
-    match = f"#EpicPartner Los {n} lotes con más ahorro de la tienda de Fortnite"
+    match = f"Los {n} lotes con más ahorro de la tienda de Fortnite"
     text = "\n".join([
         f"{match} ({data['publish_es']}): qué traen, cuánto te ahorras y hasta cuándo están 🛒",
         f"🔥 El mayor ahorro: {top['name']}, de {top['regular']:,} a {top['price']:,} monedas V.",

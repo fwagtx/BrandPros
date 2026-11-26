@@ -54,5 +54,5 @@ there's a reason to compare.
 | Fri 11/27 | "Es Black Friday y yo nomás pienso en la tienda…" | Shop of Nov 28 | saving stat |
 | Sat 11/28 (12:45) | "¿Una skin que compraste y NUNCA usaste?" | Shop of Nov 29 | greeting |
 | Sun 11/29 (12:45) | "Cuando regresa una skin OG…" | Shop of Nov 30 | saving stat |
-| Mon 11/30 | "#EpicPartner usar un código no te cuesta nada extra…" | Shop of Dec 1 · weekly review 9:27 AM | greeting |
+| Mon 11/30 | "Usar un código no te cuesta nada extra… #EpicPartner" | Shop of Dec 1 · weekly review 9:27 AM | greeting |
 | Tue 12/1 | "Ya es diciembre 🎄 ¿qué te gustaría ver…?" | Shop of Dec 2 | E2 starts (post time) |

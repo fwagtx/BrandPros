@@ -42,8 +42,8 @@
  {
   "kind": "threads",
   "at": "2026-11-30T12:15:00-06:00",
-  "post_id": "440879745",
-  "match": "#EpicPartner Dato que poca gente sabe",
+  "post_id": "443427018",
+  "match": "Dato que poca gente sabe",
   "topic": "codigo",
   "mentions_code": true
  },
@@ -130,7 +130,7 @@
   "kind": "spot",
   "day": "2026-11-26",
   "at": "2026-11-26T11:30:00-06:00",
-  "match": "#EpicPartner Lote del día: One Punch Man",
+  "match": "Lote del día: One Punch Man",
   "bundle": "One Punch Man",
   "out": "2026-11-27",
   "networks": [
@@ -145,7 +145,7 @@
   "kind": "spot",
   "day": "2026-11-27",
   "at": "2026-11-27T11:30:00-06:00",
-  "match": "#EpicPartner Lote del día: El asombroso circo digital",
+  "match": "Lote del día: El asombroso circo digital",
   "bundle": "El asombroso circo digital",
   "out": "2026-11-28",
   "networks": [
@@ -160,7 +160,7 @@
   "kind": "spot",
   "day": "2026-11-29",
   "at": "2026-11-29T11:30:00-06:00",
-  "match": "#EpicPartner Lote del día: Botín de la cosecha",
+  "match": "Lote del día: Botín de la cosecha",
   "bundle": "Botín de la cosecha",
   "out": "2026-11-30",
   "networks": [
@@ -175,7 +175,7 @@
   "kind": "spot",
   "day": "2026-11-30",
   "at": "2026-11-30T11:30:00-06:00",
-  "match": "#EpicPartner Lote del día: Overwatch",
+  "match": "Lote del día: Overwatch",
   "bundle": "Overwatch",
   "out": "2026-12-04",
   "networks": [
@@ -190,7 +190,7 @@
   "kind": "spot",
   "day": "2026-12-01",
   "at": "2026-12-01T11:30:00-06:00",
-  "match": "#EpicPartner Lote del día: One Piece",
+  "match": "Lote del día: One Piece",
   "bundle": "One Piece",
   "out": "2026-12-05",
   "networks": [
@@ -225,7 +225,7 @@
   "kind": "spot",
   "day": "2026-11-28",
   "at": "2026-11-28T11:30:00-06:00",
-  "match": "#EpicPartner Lote del día: Persona 5 Royal",
+  "match": "Lote del día: Persona 5 Royal",
   "bundle": "Persona 5 Royal",
   "out": "2026-11-29",
   "networks": [
@@ -240,7 +240,7 @@
   "kind": "spot",
   "day": "2026-12-02",
   "at": "2026-12-02T11:30:00-06:00",
-  "match": "#EpicPartner Lote del día: Sombrero de paja",
+  "match": "Lote del día: Sombrero de paja",
   "bundle": "Sombrero de paja",
   "out": "2026-12-05",
   "networks": [
@@ -291,7 +291,7 @@
   "kind": "spot",
   "day": "2026-12-03",
   "at": "2026-12-03T11:30:00-06:00",
-  "match": "#EpicPartner Lote del día: A$AP Rocky",
+  "match": "Lote del día: A$AP Rocky",
   "bundle": "A$AP Rocky",
   "out": "2026-12-06",
   "networks": [

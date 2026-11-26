@@ -126,13 +126,13 @@ def ship(day):
     import ghmedia
     urls = ghmedia.publish({f"spot-{day}.mp4": os.path.join(d, "video.mp4"), f"spot-{day}-cover.jpg": os.path.join(d, "cover.jpg")})
     vurl, curl = urls[f"spot-{day}.mp4"], urls[f"spot-{day}-cover.jpg"]
-    match = f"#EpicPartner Lote del día: {data['name']}"
+    match = f"Lote del día: {data['name']}"
     who = (", ".join(data["outfits"]) + " y más") if data["outfits"] else f"{data['count']} objetos"
     long = "\n".join([f"{match} 🛒 ¿Vale la pena?",
                       f"🔥 De {data['regular']:,} a {data['price']:,} monedas V: te ahorras el {data['pct']}%",
                       f"🎁 {data['count']} objetos: {who}",
                       f"⏰ En la tienda hasta el {data['out_es']}",
-                      "¿Lo vas a comprar? 👇", "Usa el código BAD en la tienda 💚"])
+                      "¿Lo vas a comprar? 👇", "Usa el código BAD en la tienda 💚 #EpicPartner"])
     import onepost
     tt = f"{long}\n#fortnite #tiendafortnite #lotesfortnite #fortnitemexico"
     shared = onepost.fit(long.split("\n"), ["#fortnite #tiendadefortnite #lotesfortnite #fortnitemexico #skinsfortnite"])
