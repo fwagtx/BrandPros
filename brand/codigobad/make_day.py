@@ -14,13 +14,18 @@ assert s["date"][:10] == day, f"live shop is {s['date'][:10]}, not {day}: wait f
 def intro(it):
     t = (it.get("introduction") or {}).get("text", "") or ""; m = re.search(r"(\d+).*?(\d+)", t); return (int(m.group(1)), int(m.group(2))) if m else None
 def img(it): im = it.get("images") or {}; return im.get("featured") or im.get("icon")
+SMALL = {"e", "de", "da", "do", "das", "dos", "o", "a", "os", "as", "em", "no", "na", "com", "por"}
+def fixcase(n):
+    if not n or n != n.upper() or not any(c.isalpha() for c in n): return n
+    w = n.lower().split(" ")
+    return " ".join(x if (i and x in SMALL) else x[:1].upper() + x[1:] for i, x in enumerate(w))
 bid = lambda name: "bundle_" + re.sub(r"\W", "_", name)
 rows = []
 for e in s["entries"]:
     items = e.get("brItems") or []; b = e.get("bundle")
     if not items and not b: continue
     m = items[0] if items else None
-    rows.append(dict(id=(bid(b["name"]) if b and b.get("image") else (m["id"] if m else e.get("offerId"))), name=(b["name"] if b else m["name"]), bundle=bool(b) or len(items) >= 3, n=len(items),
+    rows.append(dict(id=(bid(b["name"]) if b and b.get("image") else (m["id"] if m else e.get("offerId"))), name=fixcase(b["name"] if b else m["name"]), bundle=bool(b) or len(items) >= 3, n=len(items),
         type=(m["type"]["value"] if m else "bundle"), typeLabel=(("Traje" if m["type"]["value"] == "outfit" else m["type"]["displayValue"]) if m else "Pacote"), rarity=("bundle" if (b or len(items) >= 3) else m["rarity"]["value"]), rarityLabel=(m["rarity"]["displayValue"] if m else ""),
         final=e["finalPrice"], regular=e["regularPrice"], inDate=e.get("inDate", "")[:10], outDate=e.get("outDate", "")[:10], intro=intro(m) if m else None,
         img=(b["image"] if b and b.get("image") else (img(m) if m else None)), setName=((m.get("set") or {}).get("value") if m else None)))

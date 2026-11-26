@@ -84,19 +84,19 @@
    "date": "2026-11-19",
    "series": "sai hoje",
    "network": "instagram",
-   "views": 120,
-   "reach": 108,
-   "retention": 66.1,
-   "avg_watch_s": 5.2,
+   "views": 125,
+   "reach": 109,
+   "retention": 65.5,
+   "avg_watch_s": 5.3,
    "interactions": 0
   },
   {
    "date": "2026-11-20",
    "series": "chegou hoje",
    "network": "instagram",
-   "views": 147,
+   "views": 148,
    "reach": 126,
-   "retention": 62.0,
+   "retention": 62.3,
    "avg_watch_s": 9.4,
    "interactions": 5
   },
@@ -114,10 +114,10 @@
    "date": "2026-11-20",
    "series": "sai hoje",
    "network": "instagram",
-   "views": 131,
-   "reach": 114,
-   "retention": 58.2,
-   "avg_watch_s": 8.2,
+   "views": 132,
+   "reach": 115,
+   "retention": 58.5,
+   "avg_watch_s": 8.1,
    "interactions": 2
   },
   {
@@ -188,7 +188,7 @@
    "series": "chegou hoje",
    "network": "instagram",
    "views": 114,
-   "reach": 109,
+   "reach": 110,
    "retention": 78.2,
    "avg_watch_s": 3.0,
    "interactions": 0
@@ -197,10 +197,10 @@
    "date": "2026-11-22",
    "series": "s1 voltou pra loja",
    "network": "instagram",
-   "views": 55,
-   "reach": 46,
-   "retention": 71.7,
-   "avg_watch_s": 3.4,
+   "views": 60,
+   "reach": 47,
+   "retention": 70.2,
+   "avg_watch_s": 5.1,
    "interactions": 0
   },
   {
@@ -227,7 +227,7 @@
    "date": "2026-11-22",
    "series": "s1 voltou pra loja",
    "network": "tiktok",
-   "views": 227,
+   "views": 228,
    "reach": null,
    "retention": null,
    "avg_watch_s": null,
@@ -278,17 +278,17 @@
    "date": "2026-11-23",
    "series": "sai hoje",
    "network": "instagram",
-   "views": 123,
-   "reach": 107,
-   "retention": 49.5,
-   "avg_watch_s": 9.8,
+   "views": 128,
+   "reach": 108,
+   "retention": 49.1,
+   "avg_watch_s": 10.1,
    "interactions": 1
   },
   {
    "date": "2026-11-23",
    "series": "chegou hoje",
    "network": "tiktok",
-   "views": 110,
+   "views": 111,
    "reach": null,
    "retention": null,
    "avg_watch_s": null,
@@ -308,7 +308,7 @@
    "date": "2026-11-23",
    "series": "sai hoje",
    "network": "tiktok",
-   "views": 98,
+   "views": 99,
    "reach": null,
    "retention": null,
    "avg_watch_s": null,
@@ -318,49 +318,49 @@
    "date": "2026-11-24",
    "series": "chegou hoje",
    "network": "instagram",
-   "views": 144,
-   "reach": 125,
-   "retention": 59.5,
-   "avg_watch_s": 8.7,
+   "views": 158,
+   "reach": 138,
+   "retention": 59.3,
+   "avg_watch_s": 8.8,
    "interactions": 1
   },
   {
    "date": "2026-11-24",
    "series": "s1 voltou pra loja",
    "network": "instagram",
-   "views": 10,
-   "reach": 10,
-   "retention": 70.0,
-   "avg_watch_s": 7.2,
+   "views": 22,
+   "reach": 22,
+   "retention": 63.6,
+   "avg_watch_s": 9.6,
    "interactions": 0
   },
   {
    "date": "2026-11-24",
    "series": "sai hoje",
    "network": "instagram",
-   "views": 144,
-   "reach": 118,
-   "retention": 47.2,
-   "avg_watch_s": 11.5,
+   "views": 167,
+   "reach": 137,
+   "retention": 48.3,
+   "avg_watch_s": 10.9,
    "interactions": 2
   },
   {
    "date": "2026-11-24",
    "series": "chegou hoje",
    "network": "tiktok",
-   "views": 114
+   "views": 145
   },
   {
    "date": "2026-11-24",
    "series": "s1 voltou pra loja",
    "network": "tiktok",
-   "views": 208
+   "views": 215
   },
   {
    "date": "2026-11-24",
    "series": "sai hoje",
    "network": "tiktok",
-   "views": 144
+   "views": 178
   },
   {
    "date": "2026-11-24",
@@ -375,6 +375,54 @@
    "network": "youtube",
    "views": null,
    "voice": "B"
+  },
+  {
+   "date": "2026-11-25",
+   "series": "chegou hoje",
+   "network": "instagram",
+   "views": 10,
+   "reach": 9,
+   "retention": 77.8,
+   "avg_watch_s": 2.2,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-25",
+   "series": "s1 voltou pra loja",
+   "network": "instagram",
+   "views": 16,
+   "reach": 12,
+   "retention": 58.3,
+   "avg_watch_s": 16.2,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-25",
+   "series": "sai hoje",
+   "network": "instagram",
+   "views": 86,
+   "reach": 81,
+   "retention": 65.4,
+   "avg_watch_s": 6.4,
+   "interactions": 0
+  },
+  {
+   "date": "2026-11-25",
+   "series": "chegou hoje",
+   "network": "tiktok",
+   "views": 100
+  },
+  {
+   "date": "2026-11-25",
+   "series": "s1 voltou pra loja",
+   "network": "tiktok",
+   "views": 105
+  },
+  {
+   "date": "2026-11-25",
+   "series": "sai hoje",
+   "network": "tiktok",
+   "views": 105
   }
  ],
  "notes": [
@@ -405,6 +453,10 @@
   {
    "date": "2026-11-25",
    "review": "Instagram 24 reels, channel median retention 60.1%; series {'chegou hoje': (8, 60.1), 's1': (8, 66.5), 'sai hoje': (8, 55.5)}; no series 30% below. TikTok median views per series {'chegou hoje': 114, 's1': 227, 'sai hoje': 144}: the 14:30 'voltou pra loja' short leads TikTok every day (227/253/208) and hit 509 views with 91% retention on Instagram on 23 Nov. FAILED: 24 Nov 14:30 YouTube short not published, title over YouTube's 100-character limit; titles are now capped and the helper rejects any over 100. Builder QC fixes: offers of 3+ items without a bundle name are packs (Addison Rae Famosa 3.600 was shown as an outfit); the returning-OG list skips today's top arrivals. Keep all. Change none to format. Test: voice B on today's long video; candidate for next week's single variable: run the 'voltou pra loja' angle on more weekdays."
+  },
+  {
+   "date": "2026-11-26",
+   "review": "Instagram 27 reels, channel median retention 60.7%; series {'chegou hoje': (9, 60.7), 's1': (9, 62.9), 'sai hoje': (9, 58.5)}; median views {'chegou hoje': 110, 's1': 92, 'sai hoje': 128}. Nothing 30% under the median. 25 Nov reels low on Instagram so far (10/16/86 views) and TikTok flat at 100-105 each: first soft day across both networks. The 'voltou pra loja' short leads TikTok on 22-24 Nov (228/253/215) but its Instagram views are uneven (60, 509, 22, 16). YouTube channel views: 21 Nov 463 (voice B), 23 Nov 323 (voice A); 2 of 4 per voice done. Shop API (fortnite-api.com) returned 503 'booting up' from 13:42Z; build waits on it. Keep all. Change none. Test: next long video Saturday on voice A."
   }
  ]
 }
