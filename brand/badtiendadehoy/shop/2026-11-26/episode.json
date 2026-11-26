@@ -1,0 +1,265 @@
+{
+ "date": "26 nov",
+ "offers": 396,
+ "strings": {
+  "use_code": "USA EL CÓDIGO:",
+  "code": "BAD",
+  "partner": "#EpicPartner",
+  "intro_title": "la tienda de hoy 🛒",
+  "offers": "396 ofertas en la tienda hoy",
+  "worth": "esto es lo que vale la pena 👀",
+  "vbucks": "monedas V",
+  "regular": "precio normal",
+  "vbucks_today": "monedas V hoy",
+  "buying": "¿qué vas a comprar? 👇",
+  "use_code_cta": "usa el código BAD en la tienda 💚",
+  "creator_code": "CÓDIGO DE CREADOR",
+  "accept": "Aceptar",
+  "sac": "APOYA A UN CREADOR: BAD"
+ },
+ "intro_cards": [
+  {
+   "img": "img/01.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800
+  },
+  {
+   "img": "img/03.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800
+  },
+  {
+   "img": "img/05.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800
+  }
+ ],
+ "segments": [
+  {
+   "kind": "bundle",
+   "name": "KizunaAI",
+   "img": "img/00.png",
+   "color": [
+    "#4fd9e3",
+    "#167f8c"
+   ],
+   "regular": 6100,
+   "price": 3200,
+   "captions": [
+    {
+     "text": "lote nuevo hoy 🆕",
+     "style": "dark",
+     "at": 1.33
+    },
+    {
+     "text": "ahorra 2,900 monedas V 🔥",
+     "style": "yellow",
+     "at": 4.33
+    },
+    {
+     "text": "11 objetos: KizunaAI, KizunaAI casual y más",
+     "style": "dark",
+     "at": 6.0
+    }
+   ],
+   "badge": {
+    "emoji": "🔥",
+    "at": 4.33
+   }
+  },
+  {
+   "kind": "item",
+   "name": "Soldado del silbato",
+   "img": "img/01.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Hachas emisarias",
+   "img": "img/02.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 500,
+   "captions": [
+    {
+     "text": "del capítulo 4, temporada 4",
+     "style": "dark",
+     "at": 1.9
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "uncommon",
+   "type": "pickaxe"
+  },
+  {
+   "kind": "item",
+   "name": "Recluta rayado",
+   "img": "img/03.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Barco de Jack",
+   "img": "img/04.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "del capítulo 5, temporada 3",
+     "style": "dark",
+     "at": 1.9
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "glider"
+  },
+  {
+   "kind": "item",
+   "name": "Gremio",
+   "img": "img/05.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "og · capítulo 1, temporada 8 🔥",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "uncommon",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Garras dentadas",
+   "img": "img/06.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 500,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "llegó el 25 nov 🆕",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "rare",
+   "type": "pickaxe"
+  },
+  {
+   "kind": "item",
+   "name": "Roemente",
+   "img": "img/07.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "epic",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Jack Sparrow",
+   "img": "img/08.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1500,
+   "captions": [
+    {
+     "text": "del capítulo 5, temporada 3",
+     "style": "dark",
+     "at": 1.9
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "outfit"
+  }
+ ]
+}

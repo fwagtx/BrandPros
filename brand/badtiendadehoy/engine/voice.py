@@ -81,16 +81,18 @@ def auto_lines(ep, seed, hook="greet"):
         n = say(s["name"])
         caps = " ".join(c["text"] for c in s["captions"])
         p = words_f(s["price"])
+        leaving = (s.get("badge") or {}).get("emoji") == "⏰"   # only the shop data's leave date may make her say "se va hoy"
         if s["kind"] == "bundle":
             lines.append(dict(text=f"El lote de {n}… ¡de {words_f(s['regular'])} a {p}! Una locura."))
         elif "og ·" in caps:
-            lines.append(dict(text=pick([f"¡{n}! Un clásico del capítulo uno… ¡a {p} nomás!",
-                                         f"Ojo con {n}: es un clásico del capítulo uno… y se va hoy."])))
+            lines.append(dict(text=pick([f"¡{n}! Un clásico del capítulo uno… ¡a {p} nomás!"]
+                                        + ([f"Ojo con {n}: es un clásico del capítulo uno… y se va hoy."] if leaving else []))))
         elif "llegó el" in caps and "se va" in caps:
             lines.append(dict(text=f"{n}: llegó ayer… y ya se va hoy."))
         elif "del capítulo" in caps:
             ch = caps.split("capítulo ")[1].split(",")[0]
-            lines.append(dict(text=f"{n}, del capítulo {words(ch) if ch.isdigit() else ch}… y se va hoy."))
+            ch = words(ch) if ch.isdigit() else ch
+            lines.append(dict(text=f"{n}, del capítulo {ch}… y se va hoy." if leaving else f"{n}, del capítulo {ch}… a {p}."))
         elif "se va" in caps:
             lines.append(dict(text=pick([f"{n}: se despide hoy… último chance.",
                                          f"{n}: se va hoy a las seis. ¡Apúrate!"])))

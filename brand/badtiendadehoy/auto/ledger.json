@@ -258,5 +258,33 @@
   "match": "Pregunta rápida ⛏️",
   "topic": "combo skin+pico+mochila",
   "mentions_code": false
+ },
+ {
+  "kind": "shop",
+  "D": "2026-11-26",
+  "at": "2026-11-25T18:52:00-06:00",
+  "match": "#EpicPartner La tienda de Fortnite de hoy, 26 de noviembre 🛒",
+  "experiment": "E1-hook",
+  "variant": "stat",
+  "hook": "stat",
+  "music": "bounce",
+  "items": [
+   "KizunaAI",
+   "Soldado del silbato",
+   "Hachas emisarias",
+   "Recluta rayado",
+   "Barco de Jack",
+   "Gremio",
+   "Garras dentadas",
+   "Roemente",
+   "Jack Sparrow"
+  ],
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
  }
 ]

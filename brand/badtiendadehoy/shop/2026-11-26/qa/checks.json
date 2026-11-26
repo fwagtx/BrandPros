@@ -1,0 +1,104 @@
+{
+ "D": "2026-11-26",
+ "variant": {
+  "slot": "evening",
+  "hook": "stat",
+  "music": {
+   "style": "bounce",
+   "bpm": 116,
+   "hook": "impact"
+  },
+  "name": "stat",
+  "experiment": "E1-hook",
+  "variant": "stat"
+ },
+ "checks": {
+  "loudness_ok": true,
+  "lufs": -14.0,
+  "duration_ok": true,
+  "duration": 62.166667,
+  "voice_fits": true,
+  "speech_ok": true,
+  "weakest_line": {
+   "i": 3,
+   "said": "Hachas emisarias, del capítulo cuatro… y se va hoy.",
+   "heard": "Hace mis áreas del capítulo 4 y se va hoy!",
+   "match": 0.63
+  },
+  "size_mb": 13.7
+ },
+ "speech": [
+  {
+   "i": 0,
+   "said": "¡Ojo! Hoy te puedes ahorrar dos mil novecientas monedas… mira esto.",
+   "heard": "¡Ojo! ¡Hoy te puedes ahorrar 2.900 monedas! ¡Mira esto!",
+   "match": 0.76
+  },
+  {
+   "i": 1,
+   "said": "Y el lote de Kizuna AI… ¡de seis mil cien a tres mil doscientas! Una locura.",
+   "heard": "Y el lote de Kizuna AI de 6.100 a 3.200, ¡Una locura!",
+   "match": 0.67
+  },
+  {
+   "i": 2,
+   "said": "Y acaba de llegar Soldado del silbato… ochocientas.",
+   "heard": "¡Y acaba de llegar soldado del silbato!  ¡Ochocientas!",
+   "match": 1.0
+  },
+  {
+   "i": 3,
+   "said": "Hachas emisarias, del capítulo cuatro… y se va hoy.",
+   "heard": "Hace mis áreas del capítulo 4 y se va hoy!",
+   "match": 0.63
+  },
+  {
+   "i": 4,
+   "said": "Nuevo en la tienda: Recluta rayado… por ochocientas.",
+   "heard": "Nuevo en la tienda, recluta rallado por ochocientas.",
+   "match": 0.88
+  },
+  {
+   "i": 5,
+   "said": "Barco de Jack, del capítulo cinco… y se va hoy.",
+   "heard": "¡Parco de Jack del capítulo 5 y se va hoy!",
+   "match": 0.8
+  },
+  {
+   "i": 6,
+   "said": "¡Gremio! Un clásico del capítulo uno… ¡a ochocientas nomás!",
+   "heard": "¡Gremio! ¡Un clásico del capítulo uno! ¡A ochocientas nomás!",
+   "match": 1.0
+  },
+  {
+   "i": 7,
+   "said": "Garras dentadas: llegó ayer… y ya se va hoy.",
+   "heard": "¡Garras dentadas! ¡Llegó ayer! ¡Y ya se va hoy!",
+   "match": 1.0
+  },
+  {
+   "i": 8,
+   "said": "Y acaba de llegar Roemente… mil doscientas.",
+   "heard": "¡Y acaba de llegar roemente!  ¡1200!",
+   "match": 0.77
+  },
+  {
+   "i": 9,
+   "said": "Jack Sparrow, del capítulo cinco… y se va hoy.",
+   "heard": "Jacksparrow del capítulo 5 y se va hoy!",
+   "match": 0.71
+  },
+  {
+   "i": 10,
+   "said": "¿Y tú qué vas a comprar? Déjamelo en los comentarios… y si compras algo, usa el código BAD.",
+   "heard": "¿Y tú qué vas a comprar?  Déjamelo en los comentarios.  Y si compras algo, usa el código BAD.",
+   "match": 1.0
+  },
+  {
+   "i": 11,
+   "said": "Pones be, a, de… aceptar… ¡y listo! ¡Nos vemos mañana!",
+   "heard": "¡Pones vea de aceptar y listo! ¡Nos vemos mañana!",
+   "match": 0.84
+  }
+ ]
+}
