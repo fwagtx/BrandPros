@@ -1,0 +1,98 @@
+{
+ "day": "2026-12-03",
+ "at": "2026-12-03T11:30:00-06:00",
+ "match": "#EpicPartner Lote del día: A$AP Rocky",
+ "video": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-03.mp4",
+ "cover": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-03-cover.jpg",
+ "calls": [
+  {
+   "network": "all",
+   "networks": [
+    "tiktok",
+    "instagram",
+    "facebook",
+    "youtube",
+    "threads"
+   ],
+   "blogId": "8343092",
+   "date": "2026-12-03T11:30:00-06:00",
+   "match": "#EpicPartner Lote del día: A$AP Rocky",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-03.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "publicationDate": {
+     "dateTime": "2026-12-03T11:30:00",
+     "timezone": "America/Chicago"
+    },
+    "text": "#EpicPartner Lote del día: A$AP Rocky 🛒 ¿Vale la pena?\n🔥 De 8,800 a 3,200 monedas V: te ahorras el 64%\n🎁 13 objetos: Flacko Helicopter, Rocky Rugahand y más\n⏰ En la tienda hasta el 6 de diciembre\n¿Lo vas a comprar? 👇\nUsa el código BAD en la tienda 💚\n#fortnite #tiendadefortnite #lotesfortnite #fortnitemexico #skinsfortnite",
+    "providers": [
+     {
+      "network": "tiktok"
+     },
+     {
+      "network": "instagram"
+     },
+     {
+      "network": "facebook"
+     },
+     {
+      "network": "youtube"
+     },
+     {
+      "network": "threads"
+     }
+    ],
+    "tiktokData": {
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "title": "#EpicPartner Lote del día: A$AP Rocky 🛒 ¿Vale la pena?\n🔥 De 8,800 a 3,200 monedas V: te ahorras el 64%\n🎁 13 objetos: Flacko Helicopter, Rocky Rugahand y más\n⏰ En la tienda hasta el 6 de diciembre\n¿Lo vas a comprar? 👇\nUsa el código BAD en la tienda 💚\n#fortnite #tiendafortnite #lotesfortnite #fortnitemexico",
+     "autoAddMusic": false,
+     "isAigc": true
+    },
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": true,
+     "collaborators": [],
+     "carouselTags": {}
+    },
+    "facebookData": {
+     "type": "REEL",
+     "title": ""
+    },
+    "youtubeData": {
+     "title": "¿Vale la pena el lote de A$AP Rocky? 🛒 Fortnite | código BAD #shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "lotes fortnite",
+      "tienda de fortnite",
+      "A$AP Rocky",
+      "codigo BAD"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    },
+    "threadsData": {},
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-03-cover.jpg"
+   }
+  }
+ ]
+}

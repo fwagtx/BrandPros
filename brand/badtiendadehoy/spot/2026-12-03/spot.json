@@ -1,0 +1,58 @@
+{
+ "day": "2026-12-03",
+ "day_es": "3 de diciembre",
+ "name": "A$AP Rocky",
+ "regular": 8800,
+ "price": 3200,
+ "save": 5600,
+ "pct": 64,
+ "count": 13,
+ "out": "2026-12-06",
+ "out_es": "6 de diciembre",
+ "img": "img/bundle.png",
+ "outfits": [
+  "Flacko Helicopter",
+  "Rocky Rugahand"
+ ],
+ "icons": [
+  {
+   "img": "img/i0.png",
+   "rarity": "icon"
+  },
+  {
+   "img": "img/i1.png",
+   "rarity": "icon"
+  },
+  {
+   "img": "img/i2.png",
+   "rarity": "icon"
+  },
+  {
+   "img": "img/i3.png",
+   "rarity": "uncommon"
+  },
+  {
+   "img": "img/i4.png",
+   "rarity": "icon"
+  },
+  {
+   "img": "img/i5.png",
+   "rarity": "icon"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "¿Vale la pena el lote de Asap Rocky? ¡Mira!"
+  },
+  {
+   "scene": "detail",
+   "text": "Trae trece objetos, con Flacko Helicopter, Rocky Rugahand… y más. Por separado costaría ocho mil ochocientas monedas… y el lote está en tres mil doscientas. ¡Te ahorras el sesenta y cuatro por ciento! Está en la tienda hasta el seis de diciembre."
+  },
+  {
+   "scene": "cta",
+   "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!"
+  }
+ ],
+ "shop_date": "2026-11-26"
+}

@@ -286,5 +286,28 @@
    "youtube",
    "threads"
   ]
+ },
+ {
+  "kind": "spot",
+  "day": "2026-12-03",
+  "at": "2026-12-03T11:30:00-06:00",
+  "match": "#EpicPartner Lote del día: A$AP Rocky",
+  "bundle": "A$AP Rocky",
+  "out": "2026-12-06",
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
+ },
+ {
+  "kind": "threads",
+  "at": "2026-12-03T12:15:00-06:00",
+  "post_id": "443381048",
+  "match": "Elige solo uno 👀",
+  "topic": "pico vs mochila vs gesto",
+  "mentions_code": false
  }
 ]

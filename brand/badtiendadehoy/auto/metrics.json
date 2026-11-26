@@ -5,13 +5,13 @@
   "day": "2026-11-24",
   "network": "tiktok",
   "url": "https://www.tiktok.com/@codigo.bad/video/7711863755369450766",
-  "views": 31,
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 33,
   "likes": 1,
   "comments": 0,
   "shares": 0,
   "full_watch_rate": null,
-  "avg_time_watched": null,
-  "as_of": "2026-11-25T10:40-06:00"
+  "avg_time_watched": null
  },
  {
   "key": "shop:2026-11-25|tiktok",
@@ -19,13 +19,13 @@
   "day": "2026-11-25",
   "network": "tiktok",
   "url": "https://www.tiktok.com/@codigo.bad/video/7711902505306721550",
+  "as_of": "2026-11-26T10:35-06:00",
   "views": 0,
   "likes": 0,
   "comments": 0,
   "shares": 0,
   "full_watch_rate": null,
-  "avg_time_watched": null,
-  "as_of": "2026-11-25T10:40-06:00"
+  "avg_time_watched": null
  },
  {
   "key": "shop:2026-11-25|instagram",
@@ -33,15 +33,14 @@
   "day": "2026-11-25",
   "network": "instagram",
   "url": "https://www.instagram.com/reel/DgJQ-cECPYX/",
-  "views": 7,
-  "skip_rate": 57.1,
-  "avg_watch_time": 3.095,
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 13,
+  "skip_rate": 69.2,
+  "avg_watch_time": 2.361,
   "interactions": 0,
-  "reach": 6,
+  "reach": 12,
   "shares": 0,
-  "saves": 0,
-  "retention": null,
-  "as_of": "2026-11-25T10:40-06:00"
+  "saves": 0
  },
  {
   "key": "shop:2026-11-25|facebook",
@@ -49,11 +48,11 @@
   "day": "2026-11-25",
   "network": "facebook",
   "url": "https://www.facebook.com/reel/3084388121897097/",
-  "views": 16,
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 24,
   "reach": 0,
-  "avg_time_watched": 1,
-  "likes": 0,
-  "as_of": "2026-11-25T10:40-06:00"
+  "avg_time_watched": 7,
+  "likes": 0
  },
  {
   "key": "shop:2026-11-25|youtube",
@@ -61,11 +60,11 @@
   "day": "2026-11-25",
   "network": "youtube",
   "url": "https://www.youtube.com/watch?v=x9JZql3WBT4",
-  "views": null,
-  "avg_view_duration": null,
-  "likes": null,
-  "comments": null,
-  "as_of": "2026-11-25T10:40-06:00"
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 470,
+  "avg_view_duration": 9,
+  "likes": 5,
+  "comments": 0
  },
  {
   "key": "shop:2026-11-25|threads",
@@ -73,10 +72,10 @@
   "day": "2026-11-25",
   "network": "threads",
   "url": "https://www.threads.com/@usacodigobad/post/DgJQ7fyh84Q",
+  "as_of": "2026-11-26T10:35-06:00",
   "views": null,
   "replies": null,
-  "likes": null,
-  "as_of": "2026-11-25T10:40-06:00"
+  "likes": null
  },
  {
   "key": "welcome|threads",
@@ -84,9 +83,174 @@
   "day": "2026-11-24",
   "network": "threads",
   "url": "https://www.threads.com/@usacodigobad/post/DgI_wcdiKc0",
-  "views": 1,
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 2,
   "replies": null,
+  "likes": null
+ },
+ {
+  "key": "spot:2026-11-25|tiktok",
+  "kind": "spot",
+  "day": "2026-11-25",
+  "network": "tiktok",
+  "url": "https://www.tiktok.com/@codigo.bad/video/7712163403187506446",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 0,
+  "likes": 0,
+  "comments": 0,
+  "shares": 0,
+  "full_watch_rate": null,
+  "avg_time_watched": null
+ },
+ {
+  "key": "shop:2026-11-26|tiktok",
+  "kind": "shop",
+  "day": "2026-11-26",
+  "network": "tiktok",
+  "url": "https://www.tiktok.com/@codigo.bad/video/7712276737073106189",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 0,
+  "likes": 0,
+  "comments": 0,
+  "shares": 0,
+  "full_watch_rate": null,
+  "avg_time_watched": null
+ },
+ {
+  "key": "spot:2026-11-25|instagram",
+  "kind": "spot",
+  "day": "2026-11-25",
+  "network": "instagram",
+  "url": "https://www.instagram.com/reel/DgLE4f6z1-3/",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 107,
+  "skip_rate": 52.5,
+  "avg_watch_time": 6.467,
+  "interactions": 0,
+  "reach": 100,
+  "shares": 0,
+  "saves": 0
+ },
+ {
+  "key": "shop:2026-11-26|instagram",
+  "kind": "shop",
+  "day": "2026-11-26",
+  "network": "instagram",
+  "url": "https://www.instagram.com/reel/DgL3QEsvfyS/",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 12,
+  "skip_rate": 63.6,
+  "avg_watch_time": 3.69,
+  "interactions": 0,
+  "reach": 11,
+  "shares": 0,
+  "saves": 0
+ },
+ {
+  "key": "spot:2026-11-25|facebook",
+  "kind": "spot",
+  "day": "2026-11-25",
+  "network": "facebook",
+  "url": "https://www.facebook.com/reel/1467909391364508/",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 25,
+  "reach": 0,
+  "avg_time_watched": 1,
+  "likes": 0
+ },
+ {
+  "key": "shop:2026-11-26|facebook",
+  "kind": "shop",
+  "day": "2026-11-26",
+  "network": "facebook",
+  "url": "https://www.facebook.com/reel/2044803436207564/",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 1,
+  "reach": 0,
+  "avg_time_watched": 0,
+  "likes": 0
+ },
+ {
+  "key": "spot:2026-11-25|youtube",
+  "kind": "spot",
+  "day": "2026-11-25",
+  "network": "youtube",
+  "url": "https://www.youtube.com/watch?v=l0jf194skT0",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": null,
+  "avg_view_duration": null,
   "likes": null,
-  "as_of": "2026-11-25T10:40-06:00"
+  "comments": null
+ },
+ {
+  "key": "long:2026-11-25|youtube",
+  "kind": "long",
+  "day": "2026-11-25",
+  "network": "youtube",
+  "url": "https://www.youtube.com/watch?v=FORATrxWJxw",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": null,
+  "avg_view_duration": null,
+  "likes": null,
+  "comments": null
+ },
+ {
+  "key": "shop:2026-11-26|youtube",
+  "kind": "shop",
+  "day": "2026-11-26",
+  "network": "youtube",
+  "url": "https://www.youtube.com/watch?v=phEGkgbzFjE",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": null,
+  "avg_view_duration": null,
+  "likes": null,
+  "comments": null
+ },
+ {
+  "key": "spot:2026-11-25|threads",
+  "kind": "spot",
+  "day": "2026-11-25",
+  "network": "threads",
+  "url": "https://www.threads.com/@usacodigobad/post/DgLEpSZBfmP",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": null,
+  "replies": null,
+  "likes": null
+ },
+ {
+  "key": "threads:2026-11-25|threads",
+  "kind": "threads",
+  "day": "2026-11-25",
+  "network": "threads",
+  "url": "https://www.threads.com/@usacodigobad/post/DgLJrasCCEx",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": null,
+  "replies": null,
+  "likes": null
+ },
+ {
+  "key": "shop:2026-11-26|threads",
+  "kind": "shop",
+  "day": "2026-11-26",
+  "network": "threads",
+  "url": "https://www.threads.com/@usacodigobad/post/DgL3KwChrAl",
+  "as_of": "2026-11-26T10:35-06:00",
+  "views": 2,
+  "replies": null,
+  "likes": null
+ },
+ {
+  "key": "followers:2026-11-26",
+  "kind": "followers",
+  "day": "2026-11-26",
+  "network": "all",
+  "url": null,
+  "as_of": "2026-11-26T10:35-06:00",
+  "tiktok": null,
+  "instagram": null,
+  "youtube": 4.0,
+  "facebook": 0.0,
+  "threads": null,
+  "note": "raw evolution values as Metricool returned them (TKEV07, IGEV01, YTEV01, FBEV17, THEV01)"
  }
 ]
