@@ -1,0 +1,23 @@
+{
+ "via": "fortnite-api.com (mirror of Epic's cosmetics data)",
+ "files": [
+  {
+   "file": "CID_131_Athena_Commando_M_Warpaint.json",
+   "source": "Epic cosmetics data for Bandolier",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Bandolier",
+   "fetched_utc": "2026-11-27T15:50:24Z"
+  },
+  {
+   "file": "CID_171_Athena_Commando_M_SharpDresser.json",
+   "source": "Epic cosmetics data for Moniker",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Moniker",
+   "fetched_utc": "2026-11-27T15:50:24Z"
+  },
+  {
+   "file": "CID_336_Athena_Commando_M_DragonMask.json",
+   "source": "Epic cosmetics data for Firewalker",
+   "url": "https://fortnite-api.com/v2/cosmetics/br/search?type=outfit&name=Firewalker",
+   "fetched_utc": "2026-11-27T15:50:24Z"
+  }
+ ]
+}

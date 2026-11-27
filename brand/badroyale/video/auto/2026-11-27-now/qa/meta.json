@@ -1,0 +1,102 @@
+{
+ "duration": 19,
+ "caption": "#EpicPartner Brand new in the Item Shop: Puss in Boots Bundle",
+ "claims": [
+  {
+   "text": "Puss in Boots Bundle is in the Item Shop for 2026-11-27",
+   "source": "shop.json",
+   "match": [
+    "Puss in Boots Bundle",
+    "\"date\": \"2026-11-27"
+   ]
+  },
+  {
+   "text": "Price 2,400 V-Bucks (listed regular price 4,700)",
+   "source": "shop.json",
+   "match": [
+    "\"regularPrice\": 4700, \"finalPrice\": 2400"
+   ]
+  },
+  {
+   "text": "Listing started 2026-11-27",
+   "source": "shop.json",
+   "match": [
+    "2026-11-27T00:00:00Z"
+   ]
+  },
+  {
+   "text": "Death (Puss in Boots) is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Death (Puss in Boots)"
+   ]
+  },
+  {
+   "text": "Bounty in Boots is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Bounty in Boots"
+   ]
+  },
+  {
+   "text": "Death's Sickles is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Death's Sickles"
+   ]
+  },
+  {
+   "text": "Puss in Boots is part of the listing",
+   "source": "shop.json",
+   "match": [
+    "Puss in Boots"
+   ]
+  },
+  {
+   "text": "Brand new: first added to the game in the last 14 days",
+   "source": "shop.json",
+   "match": [
+    "\"added\": \"2026-11-25T14:00:36Z\""
+   ]
+  }
+ ],
+ "text": [
+  "BRAND NEW / IN THE ITEM SHOP",
+  "DEATH (PUSS IN BOOTS)",
+  "BOUNTY IN BOOTS",
+  "DEATH'S SICKLES",
+  "PUSS IN BOOTS BUNDLE",
+  "DEATH (PUSS IN BOOTS), BOUNTY IN BOOTS, DEATH'S SICKLES AND 3 MORE ITEMS",
+  "2,400 V-BUCKS",
+  "IN THE SHOP UNTIL DEC 3",
+  "BRAND NEW IN",
+  "THE FORTNITE ITEM",
+  "SHOP!",
+  "THE PUSS IN",
+  "BOOTS BUNDLE.",
+  "DEATH,",
+  "BOUNTY IN BOOTS,",
+  "DEATH'S SICKLES AND",
+  "3 MORE ITEMS.",
+  "2,400 V-BUCKS,",
+  "INSTEAD OF 4,700.",
+  "IT'S IN THE",
+  "SHOP UNTIL DECEMBER",
+  "3RD.",
+  "ARE YOU GETTING",
+  "IT?",
+  "USE CODE BAD",
+  "IN THE ITEM",
+  "SHOP.",
+  "IT REALLY HELPS",
+  "THE CHANNEL.",
+  "THANK YOU FOR",
+  "WATCHING!",
+  "FOLLOW FOR MORE",
+  "DAILY CONTENT.",
+  "#EPICPARTNER",
+  "ARE YOU / GETTING IT?",
+  "CODE / BAD / ITEM SHOP → SUPPORT-A-CREATOR / #EPICPARTNER",
+  "THANK YOU FOR WATCHING! / FOLLOW FOR MORE DAILY CONTENT"
+ ]
+}
