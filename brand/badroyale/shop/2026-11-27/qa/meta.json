@@ -1,0 +1,248 @@
+{
+ "duration": 36.19,
+ "caption": "#EpicPartner Today's Fortnite Item Shop (nov 27): Black Ice Legends Pack for 2,500 V-Bucks and 5 more picks.\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "393 offers in today's shop",
+   "source": "plan.json",
+   "match": [
+    "\"offers\": 393"
+   ],
+   "visual": "entries with cosmetics in shop.json, counted by reel_pick.py"
+  },
+  {
+   "text": "Black Ice Legends Pack: 2500 V-Bucks, regular 7400",
+   "source": "shop.json",
+   "match": [
+    "Black Ice Legends Pack",
+    "\"finalPrice\": 2500",
+    "\"regularPrice\": 7400"
+   ]
+  },
+  {
+   "text": "Black Ice Legends Pack: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Black Ice Legends Pack",
+    "\"inDate\": \"2026-11-27T"
+   ]
+  },
+  {
+   "text": "Black Ice Legends Pack: 4,900 V-Bucks below regular 🔥",
+   "source": "shop.json",
+   "match": [
+    "Black Ice Legends Pack",
+    "\"regularPrice\": 7400",
+    "\"finalPrice\": 2500"
+   ]
+  },
+  {
+   "text": "Black Ice Legends Pack: in the shop until nov 29 ⏰",
+   "source": "shop.json",
+   "match": [
+    "Black Ice Legends Pack",
+    "\"outDate\": \"2026-11-29T"
+   ]
+  },
+  {
+   "text": "The Ice Queen: 2000 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "The Ice Queen",
+    "\"finalPrice\": 2000"
+   ]
+  },
+  {
+   "text": "The Ice Queen: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "The Ice Queen",
+    "\"inDate\": \"2026-11-27T"
+   ]
+  },
+  {
+   "text": "The Ice Queen: in the shop until nov 29 ⏰",
+   "source": "shop.json",
+   "match": [
+    "The Ice Queen",
+    "\"outDate\": \"2026-11-29T"
+   ]
+  },
+  {
+   "text": "The Ice Queen: og · chapter 1, season 7 🔥",
+   "source": "shop.json",
+   "match": [
+    "The Ice Queen",
+    "Introduced in Chapter 1, Season 7."
+   ]
+  },
+  {
+   "text": "Velocity: 2000 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Velocity",
+    "\"finalPrice\": 2000"
+   ]
+  },
+  {
+   "text": "Velocity: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Velocity",
+    "\"inDate\": \"2026-11-27T"
+   ]
+  },
+  {
+   "text": "Velocity: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Velocity",
+    "\"outDate\": \"2026-11-27T23:59:59"
+   ]
+  },
+  {
+   "text": "Velocity: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-27T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  },
+  {
+   "text": "One-Punch Man Bundle: 3800 V-Bucks, regular 11900",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 11900"
+   ]
+  },
+  {
+   "text": "One-Punch Man Bundle: biggest bundle saving today 🔥",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"regularPrice\": 11900",
+    "\"finalPrice\": 3800"
+   ],
+   "visual": "largest regularPrice - finalPrice among today's bundles (reel_pick.py)"
+  },
+  {
+   "text": "One-Punch Man Bundle: 8,100 V-Bucks below regular 🔥",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"regularPrice\": 11900",
+    "\"finalPrice\": 3800"
+   ]
+  },
+  {
+   "text": "One-Punch Man Bundle: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"outDate\": \"2026-11-27T23:59:59"
+   ]
+  },
+  {
+   "text": "Absolute Zero: 1200 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Absolute Zero",
+    "\"finalPrice\": 1200"
+   ]
+  },
+  {
+   "text": "Absolute Zero: og · chapter 1, season 1 🔥",
+   "source": "shop.json",
+   "match": [
+    "Absolute Zero",
+    "Introduced in Chapter 1, Season 1."
+   ]
+  },
+  {
+   "text": "Absolute Zero: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Absolute Zero",
+    "\"inDate\": \"2026-11-27T"
+   ]
+  },
+  {
+   "text": "Absolute Zero: in the shop until nov 29 ⏰",
+   "source": "shop.json",
+   "match": [
+    "Absolute Zero",
+    "\"outDate\": \"2026-11-29T"
+   ]
+  },
+  {
+   "text": "Doggo: 1500 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Doggo",
+    "\"finalPrice\": 1500"
+   ]
+  },
+  {
+   "text": "Doggo: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Doggo",
+    "\"outDate\": \"2026-11-27T23:59:59"
+   ]
+  },
+  {
+   "text": "Doggo: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Doggo",
+    "\"inDate\": \"2026-11-27T"
+   ]
+  },
+  {
+   "text": "Doggo: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-27T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  }
+ ],
+ "text": [
+  "TODAY'S ITEM SHOP 🛒",
+  "2,500",
+  "2,000",
+  "393 OFFERS IN TODAY'S SHOP",
+  "HERE'S WHAT'S NEW TODAY 👀",
+  "NEW IN TODAY'S SHOP 🆕",
+  "4,900 V-BUCKS BELOW REGULAR 🔥",
+  "IN THE SHOP UNTIL NOV 29 ⏰",
+  "BLACK ICE LEGENDS PACK",
+  "OG · CHAPTER 1, SEASON 7 🔥",
+  "THE ICE QUEEN",
+  "LEAVES AT THE NEXT RESET ⏰",
+  "THE RESET IS 7 PM ET · 6 PM CT 👀",
+  "VELOCITY",
+  "BIGGEST BUNDLE SAVING TODAY 🔥",
+  "8,100 V-BUCKS BELOW REGULAR 🔥",
+  "ONE-PUNCH MAN",
+  "OG · CHAPTER 1, SEASON 1 🔥",
+  "ABSOLUTE ZERO",
+  "DOGGO",
+  "WHAT ARE YOU BUYING? 👇",
+  "3,800",
+  "1,200",
+  "1,500",
+  "USE CODE BAD IN THE ITEM SHOP 💛",
+  "CREATOR CODE",
+  "#EPICPARTNER",
+  "ACCEPT",
+  "SUPPORT-A-CREATOR: BAD",
+  "THANK YOU FOR WATCHING! 💛",
+  "FOLLOW FOR MORE DAILY CONTENT",
+  "USE CODE: BAD",
+  "nov 27",
+  " "
+ ]
+}

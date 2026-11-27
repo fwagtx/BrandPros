@@ -287,6 +287,13 @@
    "seed": 5797,
    "duration": 42.86,
    "metrics": null
+  },
+  {
+   "day": "2026-11-27",
+   "variant": "phonk-a",
+   "seed": 83811,
+   "duration": 36.19,
+   "metrics": null
   }
  ],
  "evolutions": []

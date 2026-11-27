@@ -1,0 +1,301 @@
+{
+ "date": "2026-11-27",
+ "dateLabel": "nov 27",
+ "offers": 393,
+ "picks": [
+  {
+   "key": "Black_Ice_Legends_Pack",
+   "name": "Black Ice Legends Pack",
+   "kind": "bundle",
+   "final": 2500,
+   "regular": 7400,
+   "in": "2026-11-27",
+   "out": "2026-11-29",
+   "c1": "5bd6e6",
+   "c2": "2987a7",
+   "count": 10,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "4,900 V-Bucks below regular 🔥",
+    "in the shop until nov 29 ⏰"
+   ],
+   "claims": [
+    {
+     "text": "Black Ice Legends Pack: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Black Ice Legends Pack",
+      "\"inDate\": \"2026-11-27T"
+     ]
+    },
+    {
+     "text": "Black Ice Legends Pack: 4,900 V-Bucks below regular 🔥",
+     "source": "shop.json",
+     "match": [
+      "Black Ice Legends Pack",
+      "\"regularPrice\": 7400",
+      "\"finalPrice\": 2500"
+     ]
+    },
+    {
+     "text": "Black Ice Legends Pack: in the shop until nov 29 ⏰",
+     "source": "shop.json",
+     "match": [
+      "Black Ice Legends Pack",
+      "\"outDate\": \"2026-11-29T"
+     ]
+    }
+   ],
+   "kindLabel": "bundle"
+  },
+  {
+   "key": "CID_330_Athena_Commando_F_IceQueen",
+   "name": "The Ice Queen",
+   "kind": "outfit",
+   "final": 2000,
+   "regular": 2000,
+   "in": "2026-11-27",
+   "out": "2026-11-29",
+   "c1": "5bd6e6",
+   "c2": "2987a7",
+   "count": 2,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "in the shop until nov 29 ⏰",
+    "og · chapter 1, season 7 🔥"
+   ],
+   "claims": [
+    {
+     "text": "The Ice Queen: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "The Ice Queen",
+      "\"inDate\": \"2026-11-27T"
+     ]
+    },
+    {
+     "text": "The Ice Queen: in the shop until nov 29 ⏰",
+     "source": "shop.json",
+     "match": [
+      "The Ice Queen",
+      "\"outDate\": \"2026-11-29T"
+     ]
+    },
+    {
+     "text": "The Ice Queen: og · chapter 1, season 7 🔥",
+     "source": "shop.json",
+     "match": [
+      "The Ice Queen",
+      "Introduced in Chapter 1, Season 7."
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "CID_412_Athena_Commando_F_Raptor",
+   "name": "Velocity",
+   "kind": "outfit",
+   "final": 2000,
+   "regular": 2000,
+   "in": "2026-11-27",
+   "out": "2026-11-27",
+   "c1": "290f07",
+   "c2": "824100",
+   "count": 2,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "leaves at the next reset ⏰",
+    "the reset is 7 PM ET · 6 PM CT 👀"
+   ],
+   "claims": [
+    {
+     "text": "Velocity: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Velocity",
+      "\"inDate\": \"2026-11-27T"
+     ]
+    },
+    {
+     "text": "Velocity: leaves at the next reset ⏰",
+     "source": "shop.json",
+     "match": [
+      "Velocity",
+      "\"outDate\": \"2026-11-27T23:59:59"
+     ]
+    },
+    {
+     "text": "Velocity: the reset is 7 PM ET · 6 PM CT 👀",
+     "source": "shop.json",
+     "match": [
+      "\"outDate\": \"2026-11-27T23:59:59"
+     ],
+     "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "OnePunch_Man_Bundle",
+   "name": "One-Punch Man Bundle",
+   "kind": "bundle",
+   "final": 3800,
+   "regular": 11900,
+   "in": "2026-11-24",
+   "out": "2026-11-27",
+   "c1": "aeccdf",
+   "c2": "566370",
+   "count": 18,
+   "tag": "deal",
+   "emoji": "🔥",
+   "facts": [
+    "biggest bundle saving today 🔥",
+    "8,100 V-Bucks below regular 🔥",
+    "leaves at the next reset ⏰"
+   ],
+   "claims": [
+    {
+     "text": "One-Punch Man Bundle: biggest bundle saving today 🔥",
+     "source": "shop.json",
+     "match": [
+      "One-Punch Man Bundle",
+      "\"regularPrice\": 11900",
+      "\"finalPrice\": 3800"
+     ],
+     "visual": "largest regularPrice - finalPrice among today's bundles (reel_pick.py)"
+    },
+    {
+     "text": "One-Punch Man Bundle: 8,100 V-Bucks below regular 🔥",
+     "source": "shop.json",
+     "match": [
+      "One-Punch Man Bundle",
+      "\"regularPrice\": 11900",
+      "\"finalPrice\": 3800"
+     ]
+    },
+    {
+     "text": "One-Punch Man Bundle: leaves at the next reset ⏰",
+     "source": "shop.json",
+     "match": [
+      "One-Punch Man Bundle",
+      "\"outDate\": \"2026-11-27T23:59:59"
+     ]
+    }
+   ],
+   "kindLabel": "bundle"
+  },
+  {
+   "key": "CID_036_Athena_Commando_M_WinterCamo",
+   "name": "Absolute Zero",
+   "kind": "outfit",
+   "final": 1200,
+   "regular": 1200,
+   "in": "2026-11-27",
+   "out": "2026-11-29",
+   "c1": "5bd6e6",
+   "c2": "2987a7",
+   "count": 1,
+   "tag": "og",
+   "emoji": "👑",
+   "facts": [
+    "og · chapter 1, season 1 🔥",
+    "new in today's shop 🆕",
+    "in the shop until nov 29 ⏰"
+   ],
+   "claims": [
+    {
+     "text": "Absolute Zero: og · chapter 1, season 1 🔥",
+     "source": "shop.json",
+     "match": [
+      "Absolute Zero",
+      "Introduced in Chapter 1, Season 1."
+     ]
+    },
+    {
+     "text": "Absolute Zero: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Absolute Zero",
+      "\"inDate\": \"2026-11-27T"
+     ]
+    },
+    {
+     "text": "Absolute Zero: in the shop until nov 29 ⏰",
+     "source": "shop.json",
+     "match": [
+      "Absolute Zero",
+      "\"outDate\": \"2026-11-29T"
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "CID_419_Athena_Commando_M_Pug",
+   "name": "Doggo",
+   "kind": "outfit",
+   "final": 1500,
+   "regular": 1500,
+   "in": "2026-11-27",
+   "out": "2026-11-27",
+   "c1": "290f07",
+   "c2": "824100",
+   "count": 2,
+   "tag": "last",
+   "emoji": "⏰",
+   "facts": [
+    "leaves at the next reset ⏰",
+    "new in today's shop 🆕",
+    "the reset is 7 PM ET · 6 PM CT 👀"
+   ],
+   "claims": [
+    {
+     "text": "Doggo: leaves at the next reset ⏰",
+     "source": "shop.json",
+     "match": [
+      "Doggo",
+      "\"outDate\": \"2026-11-27T23:59:59"
+     ]
+    },
+    {
+     "text": "Doggo: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Doggo",
+      "\"inDate\": \"2026-11-27T"
+     ]
+    },
+    {
+     "text": "Doggo: the reset is 7 PM ET · 6 PM CT 👀",
+     "source": "shop.json",
+     "match": [
+      "\"outDate\": \"2026-11-27T23:59:59"
+     ],
+     "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+    }
+   ],
+   "kindLabel": "outfit"
+  }
+ ],
+ "hero": [
+  "Black_Ice_Legends_Pack",
+  "CID_330_Athena_Commando_F_IceQueen",
+  "CID_412_Athena_Commando_F_Raptor"
+ ],
+ "newCount": 96,
+ "music": {
+  "style": "phonk",
+  "bpm": 126,
+  "hook": "impact",
+  "seed": 83811,
+  "card": 8,
+  "variant": "phonk-a"
+ }
+}
