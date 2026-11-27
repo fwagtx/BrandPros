@@ -29,3 +29,8 @@ something without a reason.
 4. Music style: bounce vs. house vs. trap (the same rotation idea as BAD ROYALE's audio lab).
 5. Second daily format at the 11:30 AM peak ("Se va hoy": the 3 priciest items leaving tonight), once the shop video is stable.
 6. Video length: 62 s vs. a 35 s cut (6 items).
+
+## 2026-11-27 (DAY run, early signals, not a decision)
+- YouTube Shorts carry the brand so far: shop Nov 25 1,021 views, Lote del día Bandada 932, shop Nov 26 391 (avg view 8-11 s); subscribers 7.
+- Instagram: Lote del día reels ~110 views and ~52% skip vs shop reels 13-33 views and 62-69% skip. The single-bundle opening holds better on IG.
+- TikTok: every VIDEO shows playCount 0 on TikTok's own public page (public, not private) with penaltyContext status 102 / tns 102 ("reviewed": "0"); the welcome PHOTO post (no penalty, auto-added music) has 40 plays. Account has 0 followers. Cause not visible from outside; owner to check TikTok app > Settings > Account > Account status and a video's analytics. Not changing the branded-content (commercialContentThirdParty) or AI label settings without the owner, since they are disclosure choices.

@@ -1,0 +1,98 @@
+{
+ "day": "2026-12-04",
+ "at": "2026-12-04T11:30:00-06:00",
+ "match": "Lote del día: Lil' Uzi Vert",
+ "video": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-04.mp4",
+ "cover": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-04-cover.jpg",
+ "calls": [
+  {
+   "network": "all",
+   "networks": [
+    "tiktok",
+    "instagram",
+    "facebook",
+    "youtube",
+    "threads"
+   ],
+   "blogId": "8343092",
+   "date": "2026-12-04T11:30:00-06:00",
+   "match": "Lote del día: Lil' Uzi Vert",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-04.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "publicationDate": {
+     "dateTime": "2026-12-04T11:30:00",
+     "timezone": "America/Chicago"
+    },
+    "text": "Lote del día: Lil' Uzi Vert 🛒 ¿Vale la pena?\n🔥 De 7,100 a 3,200 monedas V: te ahorras el 55%\n🎁 12 objetos: Lil Uzi Vert, Lil Uzi Vert de gira y más\n⏰ En la tienda hasta el 12 de diciembre\n¿Lo vas a comprar? 👇\nUsa el código BAD en la tienda 💚 #EpicPartner\n#fortnite #tiendadefortnite #lotesfortnite #fortnitemexico #skinsfortnite",
+    "providers": [
+     {
+      "network": "tiktok"
+     },
+     {
+      "network": "instagram"
+     },
+     {
+      "network": "facebook"
+     },
+     {
+      "network": "youtube"
+     },
+     {
+      "network": "threads"
+     }
+    ],
+    "tiktokData": {
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "title": "Lote del día: Lil' Uzi Vert 🛒 ¿Vale la pena?\n🔥 De 7,100 a 3,200 monedas V: te ahorras el 55%\n🎁 12 objetos: Lil Uzi Vert, Lil Uzi Vert de gira y más\n⏰ En la tienda hasta el 12 de diciembre\n¿Lo vas a comprar? 👇\nUsa el código BAD en la tienda 💚 #EpicPartner\n#fortnite #tiendafortnite #lotesfortnite #fortnitemexico",
+     "autoAddMusic": false,
+     "isAigc": true
+    },
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": true,
+     "collaborators": [],
+     "carouselTags": {}
+    },
+    "facebookData": {
+     "type": "REEL",
+     "title": ""
+    },
+    "youtubeData": {
+     "title": "¿Vale la pena el lote de Lil' Uzi Vert? 🛒 Fortnite | código BAD #shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "lotes fortnite",
+      "tienda de fortnite",
+      "Lil' Uzi Vert",
+      "codigo BAD"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    },
+    "threadsData": {},
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/spot-2026-12-04-cover.jpg"
+   }
+  }
+ ]
+}

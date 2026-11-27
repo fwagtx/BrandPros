@@ -1,0 +1,58 @@
+{
+ "day": "2026-12-04",
+ "day_es": "4 de diciembre",
+ "name": "Lil' Uzi Vert",
+ "regular": 7100,
+ "price": 3200,
+ "save": 3900,
+ "pct": 55,
+ "count": 12,
+ "out": "2026-12-12",
+ "out_es": "12 de diciembre",
+ "img": "img/bundle.png",
+ "outfits": [
+  "Lil Uzi Vert",
+  "Lil Uzi Vert de gira"
+ ],
+ "icons": [
+  {
+   "img": "img/i0.png",
+   "rarity": "icon"
+  },
+  {
+   "img": "img/i1.png",
+   "rarity": "icon"
+  },
+  {
+   "img": "img/i2.png",
+   "rarity": "icon"
+  },
+  {
+   "img": "img/i3.png",
+   "rarity": "icon"
+  },
+  {
+   "img": "img/i4.png",
+   "rarity": "icon"
+  },
+  {
+   "img": "img/i5.png",
+   "rarity": "icon"
+  }
+ ],
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "¿Vale la pena el lote de Lil' Uzi Vert? ¡Mira!"
+  },
+  {
+   "scene": "detail",
+   "text": "Trae doce objetos, con Lil Uzi Vert, Lil Uzi Vert de gira… y más. Por separado costaría siete mil cien monedas… y el lote está en tres mil doscientas. ¡Te ahorras el cincuenta y cinco por ciento! Está en la tienda hasta el doce de diciembre."
+  },
+  {
+   "scene": "cta",
+   "text": "¿Lo vas a comprar? Dímelo en los comentarios… y si lo compras, usa el código BAD. ¡Gracias!"
+  }
+ ],
+ "shop_date": "2026-11-27"
+}
