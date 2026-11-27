@@ -1,0 +1,256 @@
+{
+ "date": "27 nov",
+ "offers": 393,
+ "strings": {
+  "use_code": "USA EL CÓDIGO:",
+  "code": "BAD",
+  "partner": "#EpicPartner",
+  "intro_title": "la tienda de hoy 🛒",
+  "offers": "393 ofertas en la tienda hoy",
+  "worth": "esto es lo que vale la pena 👀",
+  "vbucks": "monedas V",
+  "regular": "precio normal",
+  "vbucks_today": "monedas V hoy",
+  "buying": "¿qué vas a comprar? 👇",
+  "use_code_cta": "usa el código BAD en la tienda 💚",
+  "creator_code": "CÓDIGO DE CREADOR",
+  "accept": "Aceptar",
+  "sac": "APOYA A UN CREADOR: BAD"
+ },
+ "intro_cards": [
+  {
+   "img": "img/01.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200
+  },
+  {
+   "img": "img/03.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200
+  },
+  {
+   "img": "img/05.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200
+  }
+ ],
+ "segments": [
+  {
+   "kind": "bundle",
+   "name": "Apocalipsis del amanecer",
+   "img": "img/00.png",
+   "color": [
+    "#4fd9e3",
+    "#167f8c"
+   ],
+   "regular": 7300,
+   "price": 2400,
+   "captions": [
+    {
+     "text": "lote nuevo hoy 🆕",
+     "style": "dark",
+     "at": 1.33
+    },
+    {
+     "text": "ahorra 4,900 monedas V 🔥",
+     "style": "yellow",
+     "at": 4.33
+    },
+    {
+     "text": "14 objetos: Thana la Espectral, Areta la Vengativa y más",
+     "style": "dark",
+     "at": 6.0
+    }
+   ],
+   "badge": {
+    "emoji": "🔥",
+    "at": 4.33
+   }
+  },
+  {
+   "kind": "item",
+   "name": "Asesina ártica",
+   "img": "img/01.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "rare",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Mochila bombardera",
+   "img": "img/02.png",
+   "color": [
+    "#ffb347",
+    "#c2571a"
+   ],
+   "price": 500,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "og · capítulo 1, temporada 9 🔥",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "legendary",
+   "type": "backpack"
+  },
+  {
+   "kind": "item",
+   "name": "Cero absoluto",
+   "img": "img/03.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "rare",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Tormenta de nieve",
+   "img": "img/04.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 500,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "glider"
+  },
+  {
+   "kind": "item",
+   "name": "Roemente",
+   "img": "img/05.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "llegó el 26 nov 🆕",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Portahielo",
+   "img": "img/06.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "rare",
+   "type": "pickaxe"
+  },
+  {
+   "kind": "item",
+   "name": "Soldado del silbato",
+   "img": "img/07.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "llegó el 26 nov 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Recluta rayado",
+   "img": "img/08.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "llegó el 26 nov 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "outfit"
+  }
+ ]
+}

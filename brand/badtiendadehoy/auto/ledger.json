@@ -309,5 +309,33 @@
   "match": "Elige solo uno 👀",
   "topic": "pico vs mochila vs gesto",
   "mentions_code": false
+ },
+ {
+  "kind": "shop",
+  "D": "2026-11-27",
+  "at": "2026-11-26T18:43:00-06:00",
+  "match": "La tienda de Fortnite de hoy, 27 de noviembre 🛒",
+  "experiment": "E1-hook",
+  "variant": "greet",
+  "hook": "greet",
+  "music": "bounce",
+  "items": [
+   "Apocalipsis del amanecer",
+   "Asesina ártica",
+   "Mochila bombardera",
+   "Cero absoluto",
+   "Tormenta de nieve",
+   "Roemente",
+   "Portahielo",
+   "Soldado del silbato",
+   "Recluta rayado"
+  ],
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
  }
 ]

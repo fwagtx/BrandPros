@@ -1,0 +1,108 @@
+{
+ "D": "2026-11-27",
+ "at": "2026-11-26T18:43:00-06:00",
+ "variant": {
+  "slot": "evening",
+  "hook": "greet",
+  "music": {
+   "style": "bounce",
+   "bpm": 116,
+   "hook": "impact"
+  },
+  "name": "greet",
+  "experiment": "E1-hook",
+  "variant": "greet"
+ },
+ "video": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-27.mp4",
+ "cover": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-27-cover.jpg",
+ "calls": [
+  {
+   "network": "all",
+   "networks": [
+    "tiktok",
+    "instagram",
+    "facebook",
+    "youtube",
+    "threads"
+   ],
+   "blogId": "8343092",
+   "date": "2026-11-26T18:43:00-06:00",
+   "match": "La tienda de Fortnite de hoy, 27 de noviembre 🛒",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-27.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "publicationDate": {
+     "dateTime": "2026-11-26T18:43:00",
+     "timezone": "America/Chicago"
+    },
+    "text": "La tienda de Fortnite de hoy, 27 de noviembre 🛒\n🔥 Lote de Apocalipsis del amanecer: de 7,300 a 2,400 monedas V\n🆕 Nuevo hoy: Asesina ártica, Cero absoluto, Tormenta de nieve\n⏰ Se va hoy: Mochila bombardera, Roemente\n¿Qué vas a comprar? 👇\nUsa el código BAD en la tienda 💚 #EpicPartner\n#fortnite #tiendadefortnite #fortnitemexico #fortnitelatam #skinsfortnite",
+    "providers": [
+     {
+      "network": "tiktok"
+     },
+     {
+      "network": "instagram"
+     },
+     {
+      "network": "facebook"
+     },
+     {
+      "network": "youtube"
+     },
+     {
+      "network": "threads"
+     }
+    ],
+    "tiktokData": {
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "title": "La tienda de Fortnite de hoy, 27 de noviembre 🛒\n🔥 Lote de Apocalipsis del amanecer: de 7,300 a 2,400 monedas V\n🆕 Nuevo hoy: Asesina ártica, Cero absoluto, Tormenta de nieve\n⏰ Se va hoy: Mochila bombardera, Roemente\n¿Qué vas a comprar? 👇\nUsa el código BAD en la tienda 💚 #EpicPartner\n#fortnite #tiendafortnite #fortnitemexico #fortnitelatam",
+     "autoAddMusic": false,
+     "isAigc": true
+    },
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": true,
+     "collaborators": [],
+     "carouselTags": {}
+    },
+    "facebookData": {
+     "type": "REEL",
+     "title": ""
+    },
+    "youtubeData": {
+     "title": "La tienda de Fortnite de hoy 🛒 27 de noviembre | código BAD #shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "tienda de fortnite",
+      "fortnite mexico",
+      "codigo BAD"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    },
+    "threadsData": {},
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-27-cover.jpg"
+   }
+  }
+ ]
+}
