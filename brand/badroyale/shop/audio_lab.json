@@ -294,6 +294,13 @@
    "seed": 83811,
    "duration": 36.19,
    "metrics": null
+  },
+  {
+   "day": "2026-11-28",
+   "variant": "bounce-a",
+   "seed": 10119,
+   "duration": 39.31,
+   "metrics": null
   }
  ],
  "evolutions": []

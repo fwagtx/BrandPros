@@ -1,0 +1,182 @@
+{
+  "video": "badroyale-shop-2026-11-28.mp4",
+  "checked_utc": "2026-11-28T00:10:34Z",
+  "verdict": "READY TO POST",
+  "results": [
+    {
+      "check": "1. Facts",
+      "status": "PASS",
+      "detail": "25/25 claims verified against saved official data",
+      "items": [
+        {
+          "claim": "411 offers in today's shop",
+          "result": "PASS",
+          "why": "matched in plan.json; entries with cosmetics in shop.json, counted by reel_pick.py"
+        },
+        {
+          "claim": "Solo Leveling:ARISE Bundle: 4500 V-Bucks, regular 9500",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Solo Leveling:ARISE Bundle: new in today's shop 🆕",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Solo Leveling:ARISE Bundle: 5,000 V-Bucks below regular 🔥",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Solo Leveling:ARISE Bundle: from chapter 7, season 1",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Oro: 2000 V-Bucks",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Oro: new in today's shop 🆕",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Oro: in the shop until nov 29 ⏰",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Oro: from chapter 2, season 2",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Blood-Red Commander Igris: 1800 V-Bucks",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Blood-Red Commander Igris: new in today's shop 🆕",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Blood-Red Commander Igris: from chapter 7, season 1",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Blood-Red Commander Igris: solo leveling:arise set",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Persona 5 Royal Bundle: 3800 V-Bucks, regular 9600",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Persona 5 Royal Bundle: biggest bundle saving today 🔥",
+          "result": "PASS",
+          "why": "matched in shop.json; largest regularPrice - finalPrice among today's bundles (reel_pick.py)"
+        },
+        {
+          "claim": "Persona 5 Royal Bundle: 5,800 V-Bucks below regular 🔥",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Persona 5 Royal Bundle: in the shop until nov 29 ⏰",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Safari: 1200 V-Bucks",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Safari: leaves at the next reset ⏰",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Safari: added nov 27 🆕",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Safari: the reset is 7 PM ET · 6 PM CT 👀",
+          "result": "PASS",
+          "why": "matched in shop.json; 00:00 UTC = 7 PM ET = 6 PM CT"
+        },
+        {
+          "claim": "Maranello Racer: 800 V-Bucks",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Maranello Racer: leaves at the next reset ⏰",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        },
+        {
+          "claim": "Maranello Racer: the reset is 7 PM ET · 6 PM CT 👀",
+          "result": "PASS",
+          "why": "matched in shop.json; 00:00 UTC = 7 PM ET = 6 PM CT"
+        },
+        {
+          "claim": "Maranello Racer: from chapter 2, season 7",
+          "result": "PASS",
+          "why": "matched in shop.json"
+        }
+      ]
+    },
+    {
+      "check": "2. Spelling and grammar",
+      "status": "PASS",
+      "detail": "9 distinct words checked; code written as BAD in all 2 mentions",
+      "items": []
+    },
+    {
+      "check": "3. Frames",
+      "status": "PASS",
+      "detail": "No black frames, no frozen stretches over 1.5 s. Contact sheet (1 frame/s) reviewed by eye: contact-sheet.png",
+      "items": []
+    },
+    {
+      "check": "4. Audio",
+      "status": "PASS",
+      "detail": "Integrated -13.9 LUFS, true peak -3.7 dBTP, no clipping, no silence gaps. All sound is original synthesis (no game rips, no copyrighted music). No voiceover in this cut.",
+      "items": []
+    },
+    {
+      "check": "5. Specs and safe zones",
+      "status": "PASS",
+      "detail": "1080x1920 h264 60 fps, aac 48000 Hz, 39.3s. Fits TikTok, Reels, Shorts, X, Facebook, Threads. Every on-screen text box sampled 4x/s stays out of the top bar, bottom caption area and button column.",
+      "items": []
+    },
+    {
+      "check": "6. Disclosure and wording",
+      "status": "PASS",
+      "detail": "#EpicPartner is the first hashtag in caption line 1 and on screen in every sampled frame from 0.0s. No discount, giveaway, endorsement or filler-CTA wording.",
+      "items": []
+    },
+    {
+      "check": "7. Would a fan stop scrolling? Made by a person?",
+      "status": "PASS",
+      "detail": "Hook: nov 28, today's item shop, three real cards (Solo Leveling:ARISE 4,500, Oro 2,000, Blood-Red Commander Igris 1,800). Cards: Solo Leveling:ARISE Bundle 4,500 (5,000 below regular), Oro 2,000 new, Maranello Racer 800 leaves at next reset; grid adds Persona 5 Royal 3,800 and Safari 1,200. Art, prices, names and stickers readable, nothing cut off. Grid with code line and end card present.",
+      "items": []
+    },
+    {
+      "check": "8. Owner approval",
+      "status": "PASS",
+      "detail": "Standing approval for autopilot (owner, 2026-10-28): posts when checks 1-7 all PASS.",
+      "items": []
+    }
+  ],
+  "caption": "#EpicPartner Today's Fortnite Item Shop (nov 28): Solo Leveling:ARISE for 4,500 V-Bucks and 5 more picks.\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteItemShop"
+}

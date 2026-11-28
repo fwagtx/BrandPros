@@ -1,0 +1,301 @@
+{
+ "date": "2026-11-28",
+ "dateLabel": "nov 28",
+ "offers": 411,
+ "picks": [
+  {
+   "key": "Solo_LevelingARISE_Bundle",
+   "name": "Solo Leveling:ARISE Bundle",
+   "kind": "bundle",
+   "final": 4500,
+   "regular": 9500,
+   "in": "2026-11-28",
+   "out": "2026-12-02",
+   "c1": "04872f",
+   "c2": "96da78",
+   "count": 13,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "5,000 V-Bucks below regular 🔥",
+    "from chapter 7, season 1"
+   ],
+   "claims": [
+    {
+     "text": "Solo Leveling:ARISE Bundle: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Solo Leveling:ARISE Bundle",
+      "\"inDate\": \"2026-11-28T"
+     ]
+    },
+    {
+     "text": "Solo Leveling:ARISE Bundle: 5,000 V-Bucks below regular 🔥",
+     "source": "shop.json",
+     "match": [
+      "Solo Leveling:ARISE Bundle",
+      "\"regularPrice\": 9500",
+      "\"finalPrice\": 4500"
+     ]
+    },
+    {
+     "text": "Solo Leveling:ARISE Bundle: from chapter 7, season 1",
+     "source": "shop.json",
+     "match": [
+      "Solo Leveling:ARISE Bundle",
+      "Introduced in Chapter 7, Season 1."
+     ]
+    }
+   ],
+   "kindLabel": "bundle"
+  },
+  {
+   "key": "CID_675_Athena_Commando_M_TheGoldenSkeleton",
+   "name": "Oro",
+   "kind": "outfit",
+   "final": 2000,
+   "regular": 2000,
+   "in": "2026-11-28",
+   "out": "2026-11-29",
+   "c1": "290f07",
+   "c2": "824100",
+   "count": 2,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "in the shop until nov 29 ⏰",
+    "from chapter 2, season 2"
+   ],
+   "claims": [
+    {
+     "text": "Oro: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Oro",
+      "\"inDate\": \"2026-11-28T"
+     ]
+    },
+    {
+     "text": "Oro: in the shop until nov 29 ⏰",
+     "source": "shop.json",
+     "match": [
+      "Oro",
+      "\"outDate\": \"2026-11-29T"
+     ]
+    },
+    {
+     "text": "Oro: from chapter 2, season 2",
+     "source": "shop.json",
+     "match": [
+      "Oro",
+      "Introduced in Chapter 2, Season 2."
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "Character_BirchPalace",
+   "name": "Blood-Red Commander Igris",
+   "kind": "outfit",
+   "final": 1800,
+   "regular": 1800,
+   "in": "2026-11-28",
+   "out": "2026-12-02",
+   "c1": "04872f",
+   "c2": "96da78",
+   "count": 2,
+   "tag": "new",
+   "emoji": "🔥",
+   "facts": [
+    "new in today's shop 🆕",
+    "from chapter 7, season 1",
+    "solo leveling:arise set"
+   ],
+   "claims": [
+    {
+     "text": "Blood-Red Commander Igris: new in today's shop 🆕",
+     "source": "shop.json",
+     "match": [
+      "Blood-Red Commander Igris",
+      "\"inDate\": \"2026-11-28T"
+     ]
+    },
+    {
+     "text": "Blood-Red Commander Igris: from chapter 7, season 1",
+     "source": "shop.json",
+     "match": [
+      "Blood-Red Commander Igris",
+      "Introduced in Chapter 7, Season 1."
+     ]
+    },
+    {
+     "text": "Blood-Red Commander Igris: solo leveling:arise set",
+     "source": "shop.json",
+     "match": [
+      "Blood-Red Commander Igris",
+      "Solo Leveling:ARISE"
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "Persona_5_Royal_Bundle",
+   "name": "Persona 5 Royal Bundle",
+   "kind": "bundle",
+   "final": 3800,
+   "regular": 9600,
+   "in": "2026-11-25",
+   "out": "2026-11-29",
+   "c1": "ff5d5d",
+   "c2": "f8afcf",
+   "count": 15,
+   "tag": "deal",
+   "emoji": "🔥",
+   "facts": [
+    "biggest bundle saving today 🔥",
+    "5,800 V-Bucks below regular 🔥",
+    "in the shop until nov 29 ⏰"
+   ],
+   "claims": [
+    {
+     "text": "Persona 5 Royal Bundle: biggest bundle saving today 🔥",
+     "source": "shop.json",
+     "match": [
+      "Persona 5 Royal Bundle",
+      "\"regularPrice\": 9600",
+      "\"finalPrice\": 3800"
+     ],
+     "visual": "largest regularPrice - finalPrice among today's bundles (reel_pick.py)"
+    },
+    {
+     "text": "Persona 5 Royal Bundle: 5,800 V-Bucks below regular 🔥",
+     "source": "shop.json",
+     "match": [
+      "Persona 5 Royal Bundle",
+      "\"regularPrice\": 9600",
+      "\"finalPrice\": 3800"
+     ]
+    },
+    {
+     "text": "Persona 5 Royal Bundle: in the shop until nov 29 ⏰",
+     "source": "shop.json",
+     "match": [
+      "Persona 5 Royal Bundle",
+      "\"outDate\": \"2026-11-29T"
+     ]
+    }
+   ],
+   "kindLabel": "bundle"
+  },
+  {
+   "key": "CID_802_Athena_Commando_F_HeartBreaker",
+   "name": "Safari",
+   "kind": "outfit",
+   "final": 1200,
+   "regular": 1200,
+   "in": "2026-11-27",
+   "out": "2026-11-28",
+   "c1": "290f07",
+   "c2": "824100",
+   "count": 2,
+   "tag": "last",
+   "emoji": "⏰",
+   "facts": [
+    "leaves at the next reset ⏰",
+    "added nov 27 🆕",
+    "the reset is 7 PM ET · 6 PM CT 👀"
+   ],
+   "claims": [
+    {
+     "text": "Safari: leaves at the next reset ⏰",
+     "source": "shop.json",
+     "match": [
+      "Safari",
+      "\"outDate\": \"2026-11-28T23:59:59"
+     ]
+    },
+    {
+     "text": "Safari: added nov 27 🆕",
+     "source": "shop.json",
+     "match": [
+      "Safari",
+      "\"inDate\": \"2026-11-27T"
+     ]
+    },
+    {
+     "text": "Safari: the reset is 7 PM ET · 6 PM CT 👀",
+     "source": "shop.json",
+     "match": [
+      "\"outDate\": \"2026-11-28T23:59:59"
+     ],
+     "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+    }
+   ],
+   "kindLabel": "outfit"
+  },
+  {
+   "key": "CID_A_139_Athena_Commando_M_Foray_SD8AA",
+   "name": "Maranello Racer",
+   "kind": "outfit",
+   "final": 800,
+   "regular": 800,
+   "in": "2026-11-24",
+   "out": "2026-11-28",
+   "c1": "81858d",
+   "c2": "52555a",
+   "count": 1,
+   "tag": "last",
+   "emoji": "⏰",
+   "facts": [
+    "leaves at the next reset ⏰",
+    "the reset is 7 PM ET · 6 PM CT 👀",
+    "from chapter 2, season 7"
+   ],
+   "claims": [
+    {
+     "text": "Maranello Racer: leaves at the next reset ⏰",
+     "source": "shop.json",
+     "match": [
+      "Maranello Racer",
+      "\"outDate\": \"2026-11-28T23:59:59"
+     ]
+    },
+    {
+     "text": "Maranello Racer: the reset is 7 PM ET · 6 PM CT 👀",
+     "source": "shop.json",
+     "match": [
+      "\"outDate\": \"2026-11-28T23:59:59"
+     ],
+     "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+    },
+    {
+     "text": "Maranello Racer: from chapter 2, season 7",
+     "source": "shop.json",
+     "match": [
+      "Maranello Racer",
+      "Introduced in Chapter 2, Season 7."
+     ]
+    }
+   ],
+   "kindLabel": "outfit"
+  }
+ ],
+ "hero": [
+  "Solo_LevelingARISE_Bundle",
+  "CID_675_Athena_Commando_M_TheGoldenSkeleton",
+  "Character_BirchPalace"
+ ],
+ "newCount": 64,
+ "music": {
+  "style": "bounce",
+  "bpm": 116,
+  "hook": "impact",
+  "seed": 10119,
+  "card": 8,
+  "variant": "bounce-a"
+ }
+}

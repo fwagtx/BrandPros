@@ -1,0 +1,252 @@
+{
+ "duration": 39.31,
+ "caption": "#EpicPartner Today's Fortnite Item Shop (nov 28): Solo Leveling:ARISE for 4,500 V-Bucks and 5 more picks.\nUse code BAD in the Item Shop 💛\n#Fortnite #FortniteItemShop",
+ "claims": [
+  {
+   "text": "411 offers in today's shop",
+   "source": "plan.json",
+   "match": [
+    "\"offers\": 411"
+   ],
+   "visual": "entries with cosmetics in shop.json, counted by reel_pick.py"
+  },
+  {
+   "text": "Solo Leveling:ARISE Bundle: 4500 V-Bucks, regular 9500",
+   "source": "shop.json",
+   "match": [
+    "Solo Leveling:ARISE Bundle",
+    "\"finalPrice\": 4500",
+    "\"regularPrice\": 9500"
+   ]
+  },
+  {
+   "text": "Solo Leveling:ARISE Bundle: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Solo Leveling:ARISE Bundle",
+    "\"inDate\": \"2026-11-28T"
+   ]
+  },
+  {
+   "text": "Solo Leveling:ARISE Bundle: 5,000 V-Bucks below regular 🔥",
+   "source": "shop.json",
+   "match": [
+    "Solo Leveling:ARISE Bundle",
+    "\"regularPrice\": 9500",
+    "\"finalPrice\": 4500"
+   ]
+  },
+  {
+   "text": "Solo Leveling:ARISE Bundle: from chapter 7, season 1",
+   "source": "shop.json",
+   "match": [
+    "Solo Leveling:ARISE Bundle",
+    "Introduced in Chapter 7, Season 1."
+   ]
+  },
+  {
+   "text": "Oro: 2000 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Oro",
+    "\"finalPrice\": 2000"
+   ]
+  },
+  {
+   "text": "Oro: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Oro",
+    "\"inDate\": \"2026-11-28T"
+   ]
+  },
+  {
+   "text": "Oro: in the shop until nov 29 ⏰",
+   "source": "shop.json",
+   "match": [
+    "Oro",
+    "\"outDate\": \"2026-11-29T"
+   ]
+  },
+  {
+   "text": "Oro: from chapter 2, season 2",
+   "source": "shop.json",
+   "match": [
+    "Oro",
+    "Introduced in Chapter 2, Season 2."
+   ]
+  },
+  {
+   "text": "Blood-Red Commander Igris: 1800 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Blood-Red Commander Igris",
+    "\"finalPrice\": 1800"
+   ]
+  },
+  {
+   "text": "Blood-Red Commander Igris: new in today's shop 🆕",
+   "source": "shop.json",
+   "match": [
+    "Blood-Red Commander Igris",
+    "\"inDate\": \"2026-11-28T"
+   ]
+  },
+  {
+   "text": "Blood-Red Commander Igris: from chapter 7, season 1",
+   "source": "shop.json",
+   "match": [
+    "Blood-Red Commander Igris",
+    "Introduced in Chapter 7, Season 1."
+   ]
+  },
+  {
+   "text": "Blood-Red Commander Igris: solo leveling:arise set",
+   "source": "shop.json",
+   "match": [
+    "Blood-Red Commander Igris",
+    "Solo Leveling:ARISE"
+   ]
+  },
+  {
+   "text": "Persona 5 Royal Bundle: 3800 V-Bucks, regular 9600",
+   "source": "shop.json",
+   "match": [
+    "Persona 5 Royal Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 9600"
+   ]
+  },
+  {
+   "text": "Persona 5 Royal Bundle: biggest bundle saving today 🔥",
+   "source": "shop.json",
+   "match": [
+    "Persona 5 Royal Bundle",
+    "\"regularPrice\": 9600",
+    "\"finalPrice\": 3800"
+   ],
+   "visual": "largest regularPrice - finalPrice among today's bundles (reel_pick.py)"
+  },
+  {
+   "text": "Persona 5 Royal Bundle: 5,800 V-Bucks below regular 🔥",
+   "source": "shop.json",
+   "match": [
+    "Persona 5 Royal Bundle",
+    "\"regularPrice\": 9600",
+    "\"finalPrice\": 3800"
+   ]
+  },
+  {
+   "text": "Persona 5 Royal Bundle: in the shop until nov 29 ⏰",
+   "source": "shop.json",
+   "match": [
+    "Persona 5 Royal Bundle",
+    "\"outDate\": \"2026-11-29T"
+   ]
+  },
+  {
+   "text": "Safari: 1200 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Safari",
+    "\"finalPrice\": 1200"
+   ]
+  },
+  {
+   "text": "Safari: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Safari",
+    "\"outDate\": \"2026-11-28T23:59:59"
+   ]
+  },
+  {
+   "text": "Safari: added nov 27 🆕",
+   "source": "shop.json",
+   "match": [
+    "Safari",
+    "\"inDate\": \"2026-11-27T"
+   ]
+  },
+  {
+   "text": "Safari: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-28T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  },
+  {
+   "text": "Maranello Racer: 800 V-Bucks",
+   "source": "shop.json",
+   "match": [
+    "Maranello Racer",
+    "\"finalPrice\": 800"
+   ]
+  },
+  {
+   "text": "Maranello Racer: leaves at the next reset ⏰",
+   "source": "shop.json",
+   "match": [
+    "Maranello Racer",
+    "\"outDate\": \"2026-11-28T23:59:59"
+   ]
+  },
+  {
+   "text": "Maranello Racer: the reset is 7 PM ET · 6 PM CT 👀",
+   "source": "shop.json",
+   "match": [
+    "\"outDate\": \"2026-11-28T23:59:59"
+   ],
+   "visual": "00:00 UTC = 7 PM ET = 6 PM CT"
+  },
+  {
+   "text": "Maranello Racer: from chapter 2, season 7",
+   "source": "shop.json",
+   "match": [
+    "Maranello Racer",
+    "Introduced in Chapter 2, Season 7."
+   ]
+  }
+ ],
+ "text": [
+  "TODAY'S ITEM SHOP 🛒",
+  "4,500",
+  "2,000",
+  "1,800",
+  "411 OFFERS IN TODAY'S SHOP",
+  "HERE'S WHAT'S NEW TODAY 👀",
+  "NEW IN TODAY'S SHOP 🆕",
+  "5,000 V-BUCKS BELOW REGULAR 🔥",
+  "FROM CHAPTER 7, SEASON 1",
+  "SOLO LEVELING:ARISE",
+  "IN THE SHOP UNTIL NOV 29 ⏰",
+  "FROM CHAPTER 2, SEASON 2",
+  "ORO",
+  "SOLO LEVELING:ARISE SET",
+  "BLOOD-RED COMMANDER IGRIS",
+  "BIGGEST BUNDLE SAVING TODAY 🔥",
+  "5,800 V-BUCKS BELOW REGULAR 🔥",
+  "PERSONA 5 ROYAL",
+  "LEAVES AT THE NEXT RESET ⏰",
+  "ADDED NOV 27 🆕",
+  "THE RESET IS 7 PM ET · 6 PM CT 👀",
+  "SAFARI",
+  "FROM CHAPTER 2, SEASON 7",
+  "MARANELLO RACER",
+  "WHAT ARE YOU BUYING? 👇",
+  "3,800",
+  "1,200",
+  "800",
+  "USE CODE BAD IN THE ITEM SHOP 💛",
+  "CREATOR CODE",
+  "#EPICPARTNER",
+  "ACCEPT",
+  "SUPPORT-A-CREATOR: BAD",
+  "THANK YOU FOR WATCHING! 💛",
+  "FOLLOW FOR MORE DAILY CONTENT",
+  "USE CODE: BAD",
+  "nov 28",
+  " "
+ ]
+}
