@@ -83,7 +83,7 @@ def auto_lines(ep, seed, hook="greet"):
         p = words_f(s["price"])
         leaving = (s.get("badge") or {}).get("emoji") == "⏰"   # only the shop data's leave date may make her say "se va hoy"
         if s["kind"] == "bundle":
-            lines.append(dict(text=f"El lote de {n}… ¡de {words_f(s['regular'])} a {p}! Una locura."))
+            lines.append(dict(text=f"Y el lote de {n}… ¡de {words_f(s['regular'])} a {p}! Una locura."))   # "El lote" at the start is often said "loto"
         elif "og ·" in caps:
             lines.append(dict(text=pick([f"¡{n}! Un clásico del capítulo uno… ¡a {p} nomás!"]
                                         + ([f"Ojo con {n}: es un clásico del capítulo uno… y se va hoy."] if leaving else []))))

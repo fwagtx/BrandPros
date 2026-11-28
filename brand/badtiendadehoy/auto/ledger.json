@@ -360,5 +360,33 @@
   "match": "Viernes de confesiones",
   "topic": "primera skin",
   "mentions_code": false
+ },
+ {
+  "kind": "shop",
+  "D": "2026-11-28",
+  "at": "2026-11-27T18:52:00-06:00",
+  "match": "La tienda de Fortnite de hoy, 28 de noviembre 🛒",
+  "experiment": "E1-hook",
+  "variant": "stat",
+  "hook": "stat",
+  "music": "bounce",
+  "items": [
+   "Solo Leveling: ARISE",
+   "Torin cazarrecompensas",
+   "Rayo de tormenta",
+   "Asesina ártica",
+   "Turbina eco",
+   "Cero absoluto",
+   "Tormenta de nieve",
+   "Nalia",
+   "Clix"
+  ],
+  "networks": [
+   "tiktok",
+   "instagram",
+   "facebook",
+   "youtube",
+   "threads"
+  ]
  }
 ]

@@ -1,0 +1,254 @@
+{
+ "date": "28 nov",
+ "offers": 411,
+ "strings": {
+  "use_code": "USA EL CÓDIGO:",
+  "code": "BAD",
+  "partner": "#EpicPartner",
+  "intro_title": "la tienda de hoy 🛒",
+  "offers": "411 ofertas en la tienda hoy",
+  "worth": "esto es lo que vale la pena 👀",
+  "vbucks": "monedas V",
+  "regular": "precio normal",
+  "vbucks_today": "monedas V hoy",
+  "buying": "¿qué vas a comprar? 👇",
+  "use_code_cta": "usa el código BAD en la tienda 💚",
+  "creator_code": "CÓDIGO DE CREADOR",
+  "accept": "Aceptar",
+  "sac": "APOYA A UN CREADOR: BAD"
+ },
+ "intro_cards": [
+  {
+   "img": "img/01.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200
+  },
+  {
+   "img": "img/03.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200
+  },
+  {
+   "img": "img/05.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200
+  }
+ ],
+ "segments": [
+  {
+   "kind": "bundle",
+   "name": "Solo Leveling: ARISE",
+   "img": "img/00.png",
+   "color": [
+    "#4fd9e3",
+    "#167f8c"
+   ],
+   "regular": 9500,
+   "price": 4500,
+   "captions": [
+    {
+     "text": "lote nuevo hoy 🆕",
+     "style": "dark",
+     "at": 1.33
+    },
+    {
+     "text": "ahorra 5,000 monedas V 🔥",
+     "style": "yellow",
+     "at": 4.33
+    },
+    {
+     "text": "13 objetos: Sung Jinwoo, Igris Comandante Escarlata y más",
+     "style": "dark",
+     "at": 6.0
+    }
+   ],
+   "badge": {
+    "emoji": "🔥",
+    "at": 4.33
+   }
+  },
+  {
+   "kind": "item",
+   "name": "Torin cazarrecompensas",
+   "img": "img/01.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "del capítulo 6, temporada 3",
+     "style": "dark",
+     "at": 1.9
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Rayo de tormenta",
+   "img": "img/02.png",
+   "color": [
+    "#c45cff",
+    "#6a1fc4"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "se va en el próximo\nreinicio (6 PM 🇲🇽) ⏰",
+     "style": "yellow",
+     "at": 1.9
+    },
+    {
+     "text": "og · capítulo 1, temporada 9 🔥",
+     "style": "yellow",
+     "at": 3.0
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "epic",
+   "type": "pickaxe"
+  },
+  {
+   "kind": "item",
+   "name": "Asesina ártica",
+   "img": "img/03.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "llegó el 27 nov 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "rare",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Turbina eco",
+   "img": "img/04.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 800,
+   "captions": [
+    {
+     "text": "del capítulo 2, temporada 2",
+     "style": "dark",
+     "at": 1.9
+    }
+   ],
+   "badge": {
+    "emoji": "⏰",
+    "at": 1.9
+   },
+   "rarity": "rare",
+   "type": "glider"
+  },
+  {
+   "kind": "item",
+   "name": "Cero absoluto",
+   "img": "img/05.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "llegó el 27 nov 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "rare",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Tormenta de nieve",
+   "img": "img/06.png",
+   "color": [
+    "#7ee83a",
+    "#2f9a1c"
+   ],
+   "price": 500,
+   "captions": [
+    {
+     "text": "llegó el 27 nov 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "uncommon",
+   "type": "glider"
+  },
+  {
+   "kind": "item",
+   "name": "Nalia",
+   "img": "img/07.png",
+   "color": [
+    "#2fb3f0",
+    "#1d5fd6"
+   ],
+   "price": 1200,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "rare",
+   "type": "outfit"
+  },
+  {
+   "kind": "item",
+   "name": "Clix",
+   "img": "img/08.png",
+   "color": [
+    "#56dde3",
+    "#13868f"
+   ],
+   "price": 1500,
+   "captions": [
+    {
+     "text": "nuevo en la tienda de hoy 🆕",
+     "style": "yellow",
+     "at": 1.9
+    }
+   ],
+   "badge": null,
+   "rarity": "icon",
+   "type": "outfit"
+  }
+ ]
+}

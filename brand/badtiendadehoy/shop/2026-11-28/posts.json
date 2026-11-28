@@ -1,0 +1,108 @@
+{
+ "D": "2026-11-28",
+ "at": "2026-11-27T18:52:00-06:00",
+ "variant": {
+  "slot": "evening",
+  "hook": "stat",
+  "music": {
+   "style": "bounce",
+   "bpm": 116,
+   "hook": "impact"
+  },
+  "name": "stat",
+  "experiment": "E1-hook",
+  "variant": "stat"
+ },
+ "video": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-28.mp4",
+ "cover": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-28-cover.jpg",
+ "calls": [
+  {
+   "network": "all",
+   "networks": [
+    "tiktok",
+    "instagram",
+    "facebook",
+    "youtube",
+    "threads"
+   ],
+   "blogId": "8343092",
+   "date": "2026-11-27T18:52:00-06:00",
+   "match": "La tienda de Fortnite de hoy, 28 de noviembre 🛒",
+   "info": {
+    "autoPublish": true,
+    "draft": false,
+    "descendants": [],
+    "firstCommentText": "",
+    "hasNotReadNotes": false,
+    "media": [
+     "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-28.mp4"
+    ],
+    "mediaAltText": [],
+    "shortener": false,
+    "smartLinkData": {
+     "ids": []
+    },
+    "publicationDate": {
+     "dateTime": "2026-11-27T18:52:00",
+     "timezone": "America/Chicago"
+    },
+    "text": "La tienda de Fortnite de hoy, 28 de noviembre 🛒\n🔥 Lote de Solo Leveling: ARISE: de 9,500 a 4,500 monedas V\n🆕 Nuevo hoy: Nalia, Clix\n⏰ Se va hoy: Torin cazarrecompensas, Rayo de tormenta, Turbina eco\n¿Qué vas a comprar? 👇\nUsa el código BAD en la tienda 💚 #EpicPartner\n#fortnite #tiendadefortnite #fortnitemexico #fortnitelatam #skinsfortnite",
+    "providers": [
+     {
+      "network": "tiktok"
+     },
+     {
+      "network": "instagram"
+     },
+     {
+      "network": "facebook"
+     },
+     {
+      "network": "youtube"
+     },
+     {
+      "network": "threads"
+     }
+    ],
+    "tiktokData": {
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "commercialContentThirdParty": true,
+     "commercialContentOwnBrand": false,
+     "title": "La tienda de Fortnite de hoy, 28 de noviembre 🛒\n🔥 Lote de Solo Leveling: ARISE: de 9,500 a 4,500 monedas V\n🆕 Nuevo hoy: Nalia, Clix\n⏰ Se va hoy: Torin cazarrecompensas, Rayo de tormenta, Turbina eco\n¿Qué vas a comprar? 👇\nUsa el código BAD en la tienda 💚 #EpicPartner\n#fortnite #tiendafortnite #fortnitemexico #fortnitelatam",
+     "autoAddMusic": false,
+     "isAigc": true
+    },
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": true,
+     "collaborators": [],
+     "carouselTags": {}
+    },
+    "facebookData": {
+     "type": "REEL",
+     "title": ""
+    },
+    "youtubeData": {
+     "title": "La tienda de Fortnite de hoy 🛒 28 de noviembre | código BAD #shorts",
+     "type": "short",
+     "privacy": "public",
+     "tags": [
+      "fortnite",
+      "tienda de fortnite",
+      "fortnite mexico",
+      "codigo BAD"
+     ],
+     "category": "GAMING",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    },
+    "threadsData": {},
+    "videoThumbnailUrl": "https://raw.githubusercontent.com/fwagtx/BrandPros/refs/heads/claude/badtiendadehoy-media/shop-2026-11-28-cover.jpg"
+   }
+  }
+ ]
+}
