@@ -1,0 +1,1089 @@
+{
+ "note": "Daily snapshots 2026-11-22..2026-11-28: Epic's Battle Royale news tiles, build and map places (sources/history/), and the Item Shop bundles from the saved reset snapshots (shop/archive/). in/out = Epic's in-date and out-date for the listing.",
+ "tiles": [
+  {
+   "title": "Devil Fruits Across the Island",
+   "body": "Rare Devil Fruits have dropped in across the map! Eat the Gum-Gum Fruit to stretch your skills as Luffy, or the Flame-Flame Fruit to come in hot as Ace... just stay away from water.",
+   "days": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  {
+   "title": "TWINDRILL DIVA Music Pass",
+   "body": "Virtual Diva Kasane Teto takes the stage! TWINDRILL DIVA Music Pass holders get access to the Kasane Teto Outfit, Back Bling, Emote, and more. Dive into Festival to start unlocking rewards!",
+   "days": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  {
+   "title": "Monkey D. Luffy, Nami, and Usopp Outfits",
+   "body": "When adventure calls, the Straw Hats answer! Set sail with Monkey D. Luffy, Nami, and Usopp Outfits and chart a course to uncharted waters.",
+   "days": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  {
+   "title": "Multi-Punches Flex",
+   "body": "GUM-GUM GATLING!",
+   "days": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  },
+  {
+   "title": "Adventure Awaits!",
+   "body": "Explore One Piece's Arlong Park, sail past Baratie Bay, or storm The $.$. Rocky on this mysterious skull-shaped island.",
+   "days": [
+    "2026-11-22",
+    "2026-11-23"
+   ]
+  },
+  {
+   "title": "Golden Week + Community Day",
+   "body": "Starting 11/28, refreshed loot meets unvaulted Treasure during Golden Week, where each Captain’s golden goods are back in Chests alongside 2X Sprite Dust and XP! Then, hop aboard for Community Day on 12/5.",
+   "days": [
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+   ]
+  }
+ ],
+ "builds": {
+  "2026-11-22": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-23": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-24": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-25": "++Fortnite+Release-43.10-CL-60118918",
+  "2026-11-26": "++Fortnite+Release-43.11-CL-60803671",
+  "2026-11-27": "++Fortnite+Release-43.11-CL-60803671",
+  "2026-11-28": "++Fortnite+Release-43.11-CL-60803671"
+ },
+ "place_counts": {
+  "2026-11-22": 16,
+  "2026-11-23": 16,
+  "2026-11-24": 16,
+  "2026-11-25": 16,
+  "2026-11-26": 16,
+  "2026-11-27": 16,
+  "2026-11-28": 16
+ },
+ "bundles": {
+  "Overwatch Bundle": {
+   "in": "2026-11-22",
+   "out": "2026-12-04",
+   "finalPrice": 4200,
+   "regularPrice": 8800,
+   "items": [
+    [
+     "Mercy",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Mercy's Valkyrie Wings",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Mercy's Valkyrie Wings",
+     "glider",
+     "gaminglegends"
+    ],
+    [
+     "Caduceus Pickaxe",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "D.Va",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Tokki's Slicer",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Travel Tokki Model",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Tracer",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Tracer's Pulse Knives",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Tracer's Pulse Bomb",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Genji",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Ryū Ichimonji",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Ryū Ichimonji",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Mercy's Reach",
+     "emote",
+     "gaminglegends"
+    ],
+    [
+     "Lil' Tokki",
+     "emote",
+     "gaminglegends"
+    ],
+    [
+     "Blinkin' Amazing",
+     "emote",
+     "gaminglegends"
+    ],
+    [
+     "Mark of Mercy",
+     "wrap",
+     "gaminglegends"
+    ],
+    [
+     "Mercy's Medkit",
+     "loadingscreen",
+     "gaminglegends"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "Noodle & 2D Bundle": {
+   "in": "2026-11-22",
+   "out": "2026-11-24",
+   "finalPrice": 2600,
+   "regularPrice": 7300,
+   "items": [
+    [
+     "Noodle",
+     "outfit",
+     "icon"
+    ],
+    [
+     "2D",
+     "outfit",
+     "icon"
+    ],
+    [
+     "DARE",
+     "emote",
+     "icon"
+    ],
+    [
+     "Noodle's Case",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Noodle's Axe",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Noodle's Axe",
+     "pickaxe",
+     "icon"
+    ],
+    [
+     "2D's Megaphone",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Bonesy Balloons",
+     "contrail",
+     "icon"
+    ],
+    [
+     "2D's Mic",
+     "backpack",
+     "icon"
+    ],
+    [
+     "2D's Mic",
+     "pickaxe",
+     "icon"
+    ],
+    [
+     "Gorillaz Camo",
+     "wrap",
+     "icon"
+    ]
+   ],
+   "in_todays_shop": false
+  },
+  "Crash Bandicoot & Spyro the Dragon Bundle": {
+   "in": "2026-11-22",
+   "out": "2026-11-26",
+   "finalPrice": 3000,
+   "regularPrice": 4900,
+   "items": [
+    [
+     "Crash Bandicoot",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Bandicoot",
+     "wrap",
+     "gaminglegends"
+    ],
+    [
+     "Spyro the Dragon",
+     "sidekick",
+     "gaminglegends"
+    ],
+    [
+     "Aku Aku",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Crash's Victory",
+     "emote",
+     "gaminglegends"
+    ],
+    [
+     "Crash's Wumpa Mace",
+     "pickaxe",
+     "gaminglegends"
+    ]
+   ],
+   "in_todays_shop": false
+  },
+  "Pirates of the Caribbean Bundle": {
+   "in": "2026-11-23",
+   "out": "2026-11-26",
+   "finalPrice": 3400,
+   "regularPrice": 5200,
+   "items": [
+    [
+     "Davy Jones",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Lil Kraken",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Norrington's Sacrifice",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Elizabeth Swann",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Dead Man's Chest",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Elizabeth's Favor",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Captain Barbossa",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Barbossa's Sword",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Davy's Pipe Organ",
+     "emote",
+     "uncommon"
+    ]
+   ],
+   "in_todays_shop": false
+  },
+  "Jack Sparrow Bundle": {
+   "in": "2026-11-23",
+   "out": "2026-11-26",
+   "finalPrice": 2000,
+   "regularPrice": 3000,
+   "items": [
+    [
+     "Jack Sparrow",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Cursed Jack Sparrow",
+     "outfit",
+     "epic"
+    ]
+   ],
+   "in_todays_shop": false
+  },
+  "Phineas and Ferb Bundle": {
+   "in": "2026-11-23",
+   "out": "2026-11-26",
+   "finalPrice": 3200,
+   "regularPrice": 6400,
+   "items": [
+    [
+     "Buff Perry",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Ducky Momo Plushie",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Perry the Inaction Figure",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Dr. Doofenshmirtz",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Balloony",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Gnome-Clamp-inator",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Doof's High Kicks",
+     "emote",
+     "uncommon"
+    ],
+    [
+     "Agent G Sharp",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Agent G Sharp",
+     "pickaxe",
+     "rare"
+    ]
+   ],
+   "in_todays_shop": false
+  },
+  "One-Punch Man Bundle": {
+   "in": "2026-11-24",
+   "out": "2026-11-27",
+   "finalPrice": 3800,
+   "regularPrice": 11900,
+   "items": [
+    [
+     "Saitama",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Genos",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Terrible Tornado",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Centichoro",
+     "glider",
+     "epic"
+    ],
+    [
+     "Mechanical Fist Hammer",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Supermarket's Shopping Bag",
+     "pickaxe",
+     "epic"
+    ],
+    [
+     "Telekinetic Edge",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Saitama's Routine",
+     "emote",
+     "uncommon"
+    ],
+    [
+     "Ok",
+     "emote",
+     "uncommon"
+    ],
+    [
+     "Psychokinesis",
+     "emote",
+     "uncommon"
+    ],
+    [
+     "Genos' Core",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Saitama's Alarm Clock",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Tiny Terrible Tornado",
+     "backpack",
+     "rare"
+    ],
+    [
+     "One-Punch Man",
+     "wrap",
+     "uncommon"
+    ],
+    [
+     "One Punch Kit",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Psychokinesis Mic",
+     "backpack",
+     "rare"
+    ],
+    [
+     "One Punch Kit",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Psychokinesis Mic",
+     "pickaxe",
+     "rare"
+    ]
+   ],
+   "in_todays_shop": false
+  },
+  "Persona 5 Royal Bundle": {
+   "in": "2026-11-25",
+   "out": "2026-11-29",
+   "finalPrice": 3800,
+   "regularPrice": 9600,
+   "items": [
+    [
+     "Joker (P5R)",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Shujin Academy Backpack",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Silver Dagger",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Panther (P5R)",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Carmen's Heart",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Carmen's Heart Flail",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Morgana (P5R)",
+     "sidekick",
+     "gaminglegends"
+    ],
+    [
+     "Morgana Slippers",
+     "shoe",
+     "gaminglegends"
+    ],
+    [
+     "Panther's Showtime",
+     "emote",
+     "gaminglegends"
+    ],
+    [
+     "Carmen's Microphone",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Carmen's Microphone",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Phantom Thieves Guitar",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Phantom Thieves Guitar",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Panther's Eyes",
+     "wrap",
+     "gaminglegends"
+    ],
+    [
+     "Joker's Eyes",
+     "wrap",
+     "gaminglegends"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "Amazing Digital Circus Bundle": {
+   "in": "2026-11-25",
+   "out": "2026-11-28",
+   "finalPrice": 3400,
+   "regularPrice": 7100,
+   "items": [
+    [
+     "Pomni",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Your Best Friend Gummigoo",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Jax",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Ribbit Plush",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Abstraction",
+     "emote",
+     "uncommon"
+    ],
+    [
+     "Bubble's Smackin' Wackin",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Zooble-Ke-Bab",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "The Jester Jammer",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "The Jester Jammer",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Jax-Maxxing",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Jax-Maxxing",
+     "backpack",
+     "rare"
+    ],
+    [
+     "Abstracted",
+     "wrap",
+     "rare"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "KizunaAI Bundle": {
+   "in": "2026-11-26",
+   "out": "2026-11-29",
+   "finalPrice": 3200,
+   "regularPrice": 6100,
+   "items": [
+    [
+     "KizunaAI",
+     "outfit",
+     "icon"
+    ],
+    [
+     "KizunaAI's Wings",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Jersey KizunaAI",
+     "outfit",
+     "icon"
+    ],
+    [
+     "Chibi AI-Chan",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Hello, Morning",
+     "emote",
+     "icon"
+    ],
+    [
+     "Lovely Kizuna",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Lovely Kizuna",
+     "pickaxe",
+     "icon"
+    ],
+    [
+     "Voice of Love",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Voice of Love",
+     "pickaxe",
+     "icon"
+    ],
+    [
+     "Wrapped in AI",
+     "wrap",
+     "rare"
+    ],
+    [
+     "It's KizunaAI!",
+     "loadingscreen",
+     "icon"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "Puss in Boots Bundle": {
+   "in": "2026-11-27",
+   "out": "2026-12-03",
+   "finalPrice": 2400,
+   "regularPrice": 4700,
+   "items": [
+    [
+     "Puss in Boots",
+     "sidekick",
+     "uncommon"
+    ],
+    [
+     "Death (Puss in Boots)",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Death's Sickles",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Puss in Slippers",
+     "shoe",
+     "uncommon"
+    ],
+    [
+     "Stalking Death",
+     "emote",
+     "uncommon"
+    ],
+    [
+     "Bounty in Boots",
+     "backpack",
+     "rare"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "Addison Rae Bundle": {
+   "in": "2026-11-25",
+   "out": "2026-11-28",
+   "finalPrice": 3600,
+   "regularPrice": 7600,
+   "items": [
+    [
+     "Famous Addison Rae",
+     "outfit",
+     "icon"
+    ],
+    [
+     "Fame Scepter",
+     "pickaxe",
+     "icon"
+    ],
+    [
+     "Addison Rae",
+     "outfit",
+     "icon"
+    ],
+    [
+     "Aquamarine the Turtle",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Addison's Sundae",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Addison's Mic",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Addison's Mic",
+     "pickaxe",
+     "icon"
+    ],
+    [
+     "Diet Pepsi",
+     "emote",
+     "icon"
+    ],
+    [
+     "Fame is a Gun",
+     "emote",
+     "icon"
+    ],
+    [
+     "Addison's Biggest Fan",
+     "pickaxe",
+     "icon"
+    ],
+    [
+     "Addison",
+     "wrap",
+     "icon"
+    ],
+    [
+     "It's Addison",
+     "loadingscreen",
+     "icon"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "Becky Lynch & Bianca Belair Bundle": {
+   "in": "2026-11-26",
+   "out": "2026-11-28",
+   "finalPrice": 2400,
+   "regularPrice": 4200,
+   "items": [
+    [
+     "Becky Lynch",
+     "outfit",
+     "epic"
+    ],
+    [
+     "Disarm-Her Shield",
+     "backpack",
+     "epic"
+    ],
+    [
+     "Disarm-Her Blade",
+     "pickaxe",
+     "epic"
+    ],
+    [
+     "Bianca Belair",
+     "outfit",
+     "epic"
+    ],
+    [
+     "ToughEST Shield",
+     "backpack",
+     "epic"
+    ],
+    [
+     "K.O.D. Hammer",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "Superstar Celebration",
+     "emote",
+     "uncommon"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "John Cena Bundle": {
+   "in": "2026-11-26",
+   "out": "2026-11-28",
+   "finalPrice": 2000,
+   "regularPrice": 2700,
+   "items": [
+    [
+     "John Cena",
+     "outfit",
+     "epic"
+    ],
+    [
+     "WWE Championship Title",
+     "backpack",
+     "epic"
+    ],
+    [
+     "Five Digit Slapper",
+     "pickaxe",
+     "rare"
+    ],
+    [
+     "U Can't C Me",
+     "emote",
+     "epic"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "Solo Leveling:ARISE Bundle": {
+   "in": "2026-11-28",
+   "out": "2026-12-02",
+   "finalPrice": 4500,
+   "regularPrice": 9500,
+   "items": [
+    [
+     "Sung Jinwoo",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Godly Statuette",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Venom Fang & Knight Killer",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Blood-Red Commander Igris",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Igris' Cloak",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Demon King's Longsword",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Cha Hae-In",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Wings of Light",
+     "backpack",
+     "gaminglegends"
+    ],
+    [
+     "Sword of Light",
+     "pickaxe",
+     "gaminglegends"
+    ],
+    [
+     "Shadow Summoner",
+     "emote",
+     "gaminglegends"
+    ],
+    [
+     "S-Rank Scent",
+     "emote",
+     "gaminglegends"
+    ],
+    [
+     "Kaisel",
+     "glider",
+     "gaminglegends"
+    ],
+    [
+     "Kamish's Wrath",
+     "wrap",
+     "gaminglegends"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "Daft Punk Bundle": {
+   "in": "2026-11-28",
+   "out": "2026-12-01",
+   "finalPrice": 3200,
+   "regularPrice": 7700,
+   "items": [
+    [
+     "GM08",
+     "outfit",
+     "icon"
+    ],
+    [
+     "TB3",
+     "outfit",
+     "icon"
+    ],
+    [
+     "Get Lucky",
+     "emote",
+     "icon"
+    ],
+    [
+     "Around the World",
+     "emote",
+     "icon"
+    ],
+    [
+     "Take Five Bass",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Daft Punk Double-Neck",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Take Five Bass",
+     "pickaxe",
+     "icon"
+    ],
+    [
+     "Daft Punk Double-Neck",
+     "pickaxe",
+     "icon"
+    ],
+    [
+     "Gold Battery",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Silver Battery",
+     "backpack",
+     "icon"
+    ],
+    [
+     "Daft Punk",
+     "wrap",
+     "icon"
+    ],
+    [
+     "Daft Punk Future",
+     "wrap",
+     "icon"
+    ]
+   ],
+   "in_todays_shop": true
+  },
+  "Doki Doki Literature Club! Bundle": {
+   "in": "2026-11-28",
+   "out": "2026-12-04",
+   "finalPrice": 1800,
+   "regularPrice": 3600,
+   "items": [
+    [
+     "Yuri",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Sayori",
+     "outfit",
+     "gaminglegends"
+    ],
+    [
+     "Natsuki",
+     "outfit",
+     "gaminglegends"
+    ]
+   ],
+   "in_todays_shop": true
+  }
+ }
+}

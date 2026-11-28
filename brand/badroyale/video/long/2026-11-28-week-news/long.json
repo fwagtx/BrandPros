@@ -1,0 +1,735 @@
+{
+ "title": "Fortnite This Week: v43.11, Golden Week and 17 Collabs",
+ "map": "blank",
+ "caption": "#EpicPartner Everything that happened in Fortnite this week. Use code BAD in the Item Shop.\n#Fortnite #FortniteNews",
+ "claims": [
+  {
+   "text": "Hook collabs are all picked bundles that went live this week",
+   "source": "week-news.json",
+   "match": [
+    "Overwatch Bundle",
+    "One-Punch Man Bundle",
+    "Daft Punk Bundle",
+    "Solo Leveling:ARISE Bundle"
+   ]
+  },
+  {
+   "text": "Build 43.10 until 2026-11-26, then 43.11; 16 places unchanged",
+   "source": "week-news.json",
+   "match": [
+    "Release-43.10",
+    "Release-43.11",
+    "\"2026-11-28\": 16"
+   ]
+  },
+  {
+   "text": "Golden Week + Community Day tile, live 2026-11-24..2026-11-28",
+   "source": "week-news.json",
+   "match": [
+    "Golden Week + Community Day",
+    "Starting 11/28, refreshed loot meets unvaulted Treasure during Golden Week",
+    "where each Captain’s golden goods are back in Chests alongside 2X Sprite Dust and XP",
+    "Then, hop aboard for Community Day on 12/5"
+   ]
+  },
+  {
+   "text": "Adventure Awaits! tile, live 2026-11-22..2026-11-23",
+   "source": "week-news.json",
+   "match": [
+    "Adventure Awaits!",
+    "Explore One Piece's Arlong Park, sail past Baratie Bay, or storm The $.$. Rocky"
+   ]
+  },
+  {
+   "text": "Four tiles up every day of the week",
+   "source": "week-news.json",
+   "match": [
+    "Devil Fruits Across the Island",
+    "TWINDRILL DIVA Music Pass",
+    "Monkey D. Luffy, Nami, and Usopp Outfits",
+    "Multi-Punches Flex"
+   ]
+  },
+  {
+   "text": "17 picked collab bundles with an in-date 2026-11-22..2026-11-28",
+   "source": "week-news.json",
+   "match": [
+    "Overwatch Bundle",
+    "Noodle & 2D Bundle",
+    "Crash Bandicoot & Spyro the Dragon Bundle",
+    "Pirates of the Caribbean Bundle",
+    "Jack Sparrow Bundle",
+    "Phineas and Ferb Bundle",
+    "One-Punch Man Bundle",
+    "Persona 5 Royal Bundle",
+    "Amazing Digital Circus Bundle",
+    "KizunaAI Bundle",
+    "Puss in Boots Bundle",
+    "Addison Rae Bundle",
+    "Becky Lynch & Bianca Belair Bundle",
+    "John Cena Bundle",
+    "Solo Leveling:ARISE Bundle",
+    "Daft Punk Bundle",
+    "Doki Doki Literature Club! Bundle"
+   ]
+  },
+  {
+   "text": "Overwatch Bundle: in 2026-11-22, 4200 (listed 8800), 18 items, out 2026-12-04, in today's shop True; outfits ['Mercy', 'D.Va', 'Tracer']",
+   "source": "week-news.json",
+   "match": [
+    "Overwatch Bundle",
+    "\"finalPrice\": 4200",
+    "\"regularPrice\": 8800",
+    "2026-12-04",
+    "Mercy",
+    "D.Va",
+    "Tracer"
+   ]
+  },
+  {
+   "text": "Noodle & 2D Bundle: in 2026-11-22, 2600 (listed 7300), 11 items, out 2026-11-24, in today's shop False; outfits ['Noodle', '2D']",
+   "source": "week-news.json",
+   "match": [
+    "Noodle & 2D Bundle",
+    "\"finalPrice\": 2600",
+    "\"regularPrice\": 7300",
+    "2026-11-24",
+    "Noodle",
+    "2D"
+   ]
+  },
+  {
+   "text": "Crash Bandicoot & Spyro the Dragon Bundle: in 2026-11-22, 3000 (listed 4900), 6 items, out 2026-11-26, in today's shop False; outfits ['Crash Bandicoot']",
+   "source": "week-news.json",
+   "match": [
+    "Crash Bandicoot & Spyro the Dragon Bundle",
+    "\"finalPrice\": 3000",
+    "\"regularPrice\": 4900",
+    "2026-11-26",
+    "Crash Bandicoot"
+   ]
+  },
+  {
+   "text": "Pirates of the Caribbean Bundle: in 2026-11-23, 3400 (listed 5200), 9 items, out 2026-11-26, in today's shop False; outfits ['Davy Jones', 'Elizabeth Swann', 'Captain Barbossa']",
+   "source": "week-news.json",
+   "match": [
+    "Pirates of the Caribbean Bundle",
+    "\"finalPrice\": 3400",
+    "\"regularPrice\": 5200",
+    "2026-11-26",
+    "Davy Jones",
+    "Elizabeth Swann",
+    "Captain Barbossa"
+   ]
+  },
+  {
+   "text": "Jack Sparrow Bundle: in 2026-11-23, 2000 (listed 3000), 2 items, out 2026-11-26, in today's shop False; outfits ['Jack Sparrow', 'Cursed Jack Sparrow']",
+   "source": "week-news.json",
+   "match": [
+    "Jack Sparrow Bundle",
+    "\"finalPrice\": 2000",
+    "\"regularPrice\": 3000",
+    "2026-11-26",
+    "Jack Sparrow",
+    "Cursed Jack Sparrow"
+   ]
+  },
+  {
+   "text": "Phineas and Ferb Bundle: in 2026-11-23, 3200 (listed 6400), 9 items, out 2026-11-26, in today's shop False; outfits ['Buff Perry', 'Dr. Doofenshmirtz']",
+   "source": "week-news.json",
+   "match": [
+    "Phineas and Ferb Bundle",
+    "\"finalPrice\": 3200",
+    "\"regularPrice\": 6400",
+    "2026-11-26",
+    "Buff Perry",
+    "Dr. Doofenshmirtz"
+   ]
+  },
+  {
+   "text": "One-Punch Man Bundle: in 2026-11-24, 3800 (listed 11900), 18 items, out 2026-11-27, in today's shop False; outfits ['Saitama', 'Genos', 'Terrible Tornado']",
+   "source": "week-news.json",
+   "match": [
+    "One-Punch Man Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 11900",
+    "2026-11-27",
+    "Saitama",
+    "Genos",
+    "Terrible Tornado"
+   ]
+  },
+  {
+   "text": "Persona 5 Royal Bundle: in 2026-11-25, 3800 (listed 9600), 15 items, out 2026-11-29, in today's shop True; outfits ['Joker (P5R)', 'Panther (P5R)']",
+   "source": "week-news.json",
+   "match": [
+    "Persona 5 Royal Bundle",
+    "\"finalPrice\": 3800",
+    "\"regularPrice\": 9600",
+    "2026-11-29",
+    "Joker (P5R)",
+    "Panther (P5R)"
+   ]
+  },
+  {
+   "text": "Amazing Digital Circus Bundle: in 2026-11-25, 3400 (listed 7100), 12 items, out 2026-11-28, in today's shop True; outfits ['Pomni', 'Jax']",
+   "source": "week-news.json",
+   "match": [
+    "Amazing Digital Circus Bundle",
+    "\"finalPrice\": 3400",
+    "\"regularPrice\": 7100",
+    "2026-11-28",
+    "Pomni",
+    "Jax"
+   ]
+  },
+  {
+   "text": "Addison Rae Bundle: in 2026-11-25, 3600 (listed 7600), 12 items, out 2026-11-28, in today's shop True; outfits ['Famous Addison Rae', 'Addison Rae']",
+   "source": "week-news.json",
+   "match": [
+    "Addison Rae Bundle",
+    "\"finalPrice\": 3600",
+    "\"regularPrice\": 7600",
+    "2026-11-28",
+    "Famous Addison Rae",
+    "Addison Rae"
+   ]
+  },
+  {
+   "text": "KizunaAI Bundle: in 2026-11-26, 3200 (listed 6100), 11 items, out 2026-11-29, in today's shop True; outfits ['KizunaAI', 'Jersey KizunaAI']",
+   "source": "week-news.json",
+   "match": [
+    "KizunaAI Bundle",
+    "\"finalPrice\": 3200",
+    "\"regularPrice\": 6100",
+    "2026-11-29",
+    "KizunaAI",
+    "Jersey KizunaAI"
+   ]
+  },
+  {
+   "text": "Becky Lynch & Bianca Belair Bundle: in 2026-11-26, 2400 (listed 4200), 7 items, out 2026-11-28, in today's shop True; outfits ['Becky Lynch', 'Bianca Belair']",
+   "source": "week-news.json",
+   "match": [
+    "Becky Lynch & Bianca Belair Bundle",
+    "\"finalPrice\": 2400",
+    "\"regularPrice\": 4200",
+    "2026-11-28",
+    "Becky Lynch",
+    "Bianca Belair"
+   ]
+  },
+  {
+   "text": "John Cena Bundle: in 2026-11-26, 2000 (listed 2700), 4 items, out 2026-11-28, in today's shop True; outfits ['John Cena']",
+   "source": "week-news.json",
+   "match": [
+    "John Cena Bundle",
+    "\"finalPrice\": 2000",
+    "\"regularPrice\": 2700",
+    "2026-11-28",
+    "John Cena"
+   ]
+  },
+  {
+   "text": "Puss in Boots Bundle: in 2026-11-27, 2400 (listed 4700), 6 items, out 2026-12-03, in today's shop True; outfits ['Death (Puss in Boots)']",
+   "source": "week-news.json",
+   "match": [
+    "Puss in Boots Bundle",
+    "\"finalPrice\": 2400",
+    "\"regularPrice\": 4700",
+    "2026-12-03",
+    "Death (Puss in Boots)"
+   ]
+  },
+  {
+   "text": "Solo Leveling:ARISE Bundle: in 2026-11-28, 4500 (listed 9500), 13 items, out 2026-12-02, in today's shop True; outfits ['Sung Jinwoo', 'Blood-Red Commander Igris', 'Cha Hae-In']",
+   "source": "week-news.json",
+   "match": [
+    "Solo Leveling:ARISE Bundle",
+    "\"finalPrice\": 4500",
+    "\"regularPrice\": 9500",
+    "2026-12-02",
+    "Sung Jinwoo",
+    "Blood-Red Commander Igris",
+    "Cha Hae-In"
+   ]
+  },
+  {
+   "text": "Daft Punk Bundle: in 2026-11-28, 3200 (listed 7700), 12 items, out 2026-12-01, in today's shop True; outfits ['GM08', 'TB3']",
+   "source": "week-news.json",
+   "match": [
+    "Daft Punk Bundle",
+    "\"finalPrice\": 3200",
+    "\"regularPrice\": 7700",
+    "2026-12-01",
+    "GM08",
+    "TB3"
+   ]
+  },
+  {
+   "text": "Doki Doki Literature Club! Bundle: in 2026-11-28, 1800 (listed 3600), 3 items, out 2026-12-04, in today's shop True; outfits ['Yuri', 'Sayori', 'Natsuki']",
+   "source": "week-news.json",
+   "match": [
+    "Doki Doki Literature Club! Bundle",
+    "\"finalPrice\": 1800",
+    "\"regularPrice\": 3600",
+    "2026-12-04",
+    "Yuri",
+    "Sayori",
+    "Natsuki"
+   ]
+  },
+  {
+   "text": "Priciest ['Solo Leveling:ARISE Bundle'], lowest ['Doki Doki Literature Club! Bundle'], biggest gap ['One-Punch Man Bundle'] (8100), most items 18 in ['Overwatch Bundle', 'One-Punch Man Bundle']",
+   "source": "week-news.json",
+   "match": [
+    "Solo Leveling:ARISE Bundle",
+    "Doki Doki Literature Club! Bundle",
+    "One-Punch Man Bundle",
+    "Overwatch Bundle",
+    "One-Punch Man Bundle"
+   ]
+  },
+  {
+   "text": "Out after 2026-11-28: ['Overwatch Bundle', 'Persona 5 Royal Bundle', 'KizunaAI Bundle', 'Puss in Boots Bundle', 'Solo Leveling:ARISE Bundle', 'Daft Punk Bundle', 'Doki Doki Literature Club! Bundle']",
+   "source": "week-news.json",
+   "match": [
+    "Overwatch Bundle",
+    "Persona 5 Royal Bundle",
+    "KizunaAI Bundle",
+    "Puss in Boots Bundle",
+    "Solo Leveling:ARISE Bundle",
+    "Daft Punk Bundle",
+    "Doki Doki Literature Club! Bundle"
+   ]
+  }
+ ],
+ "segments": [
+  {
+   "type": "title",
+   "p": 0,
+   "kicker": "FORTNITE THIS WEEK",
+   "lines": [
+    "v43.11, Golden Week",
+    "and 17 collabs"
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 3,
+   "chapter": "The update",
+   "big": "v43.11",
+   "label": "live from Nov 26th"
+  },
+  {
+   "type": "quote",
+   "p": 5,
+   "kicker": "IN-GAME NEWS",
+   "title": "Golden Week + Community Day",
+   "lines": [
+    {
+     "p": 6,
+     "text": "Starting 11/28, refreshed loot meets unvaulted Treasure during Golden Week,"
+    },
+    {
+     "p": 7,
+     "text": "where each Captain’s golden goods are back in Chests alongside 2X Sprite Dust and XP!"
+    },
+    {
+     "p": 8,
+     "text": "Then, hop aboard for Community Day on 12/5."
+    }
+   ],
+   "chapter": "The news"
+  },
+  {
+   "type": "quote",
+   "p": 10,
+   "kicker": "IN-GAME NEWS",
+   "title": "Adventure Awaits!",
+   "lines": [
+    {
+     "p": 11,
+     "text": "Explore One Piece's Arlong Park, sail past Baratie Bay, or storm The $.$. Rocky,"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "p": 14,
+   "chapter": "The shop",
+   "big": "17",
+   "label": "collab bundles this week"
+  },
+  {
+   "type": "items",
+   "p": 15,
+   "title": "Overwatch",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_trackwaver.png",
+     "name": "Mercy",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_skiffgrind.png",
+     "name": "D.Va",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_loosecreep.png",
+     "name": "Tracer",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 22nd"
+  },
+  {
+   "type": "items",
+   "p": 17,
+   "title": "Noodle & 2D",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_degreeproper.png",
+     "name": "Noodle",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_pajamasoar.png",
+     "name": "2D",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 19,
+   "title": "Crash Bandicoot & Spyro the Dragon",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_sprucebark.png",
+     "name": "Crash Bandicoot",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 21,
+   "title": "Pirates of the Caribbean",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_accentwall.png",
+     "name": "Davy Jones",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_stonelion.png",
+     "name": "Elizabeth Swann",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_domeroof.png",
+     "name": "Captain Barbossa",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 23rd"
+  },
+  {
+   "type": "items",
+   "p": 23,
+   "title": "Jack Sparrow",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_springbreak.png",
+     "name": "Jack Sparrow",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_springbreaktrip.png",
+     "name": "Cursed Jack Sparrow",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 25,
+   "title": "Phineas and Ferb",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_brawngraze.png",
+     "name": "Buff Perry",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_peacescarf.png",
+     "name": "Dr. Doofenshmirtz",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 27,
+   "title": "One-Punch Man",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_igniteegg.png",
+     "name": "Saitama",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_armyflour.png",
+     "name": "Genos",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_ivystub.png",
+     "name": "Terrible Tornado",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 24th"
+  },
+  {
+   "type": "code",
+   "p": 29
+  },
+  {
+   "type": "items",
+   "p": 30,
+   "title": "Persona 5 Royal",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_cosmictrellis.png",
+     "name": "Joker (P5R)",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_debitscent.png",
+     "name": "Panther (P5R)",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 25th"
+  },
+  {
+   "type": "items",
+   "p": 32,
+   "title": "Amazing Digital Circus",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_agarbelly.png",
+     "name": "Pomni",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_recipewhole.png",
+     "name": "Jax",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 34,
+   "title": "Addison Rae",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_sprintluckslaw.png",
+     "name": "Famous Addison Rae",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_sprintlucksweat.png",
+     "name": "Addison Rae",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 36,
+   "title": "KizunaAI",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_marchtreatcup.png",
+     "name": "KizunaAI",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_marchtreatbay.png",
+     "name": "Jersey KizunaAI",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 26th"
+  },
+  {
+   "type": "items",
+   "p": 38,
+   "title": "Becky Lynch & Bianca Belair",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_rollerblade.png",
+     "name": "Becky Lynch",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_brainmatter.png",
+     "name": "Bianca Belair",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 40,
+   "title": "John Cena",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/cid_a_454_athena_commando_m_ohana.png",
+     "name": "John Cena",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 42,
+   "title": "Puss in Boots",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_toteyurt.png",
+     "name": "Death (Puss in Boots)",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 27th"
+  },
+  {
+   "type": "items",
+   "p": 44,
+   "title": "Solo Leveling:ARISE",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_rampcanal.png",
+     "name": "Sung Jinwoo",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_birchpalace.png",
+     "name": "Blood-Red Commander Igris",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_quirkluster.png",
+     "name": "Cha Hae-In",
+     "rarity": "epic",
+     "price": null
+    }
+   ],
+   "chapter": "November 28th"
+  },
+  {
+   "type": "items",
+   "p": 46,
+   "title": "Daft Punk",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_stridemicedeep.png",
+     "name": "GM08",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_stridemicegiant.png",
+     "name": "TB3",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "items",
+   "p": 48,
+   "title": "Doki Doki Literature Club!",
+   "items": [
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_beepprime.png",
+     "name": "Yuri",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_mileahoy.png",
+     "name": "Sayori",
+     "rarity": "epic",
+     "price": null
+    },
+    {
+     "img": "../../badroyale/video/long/2026-11-28-week-news/img/character_solvebade.png",
+     "name": "Natsuki",
+     "rarity": "epic",
+     "price": null
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "p": 50,
+   "chapter": "By the numbers",
+   "kicker": "BY THE NUMBERS",
+   "lines": [
+    "The week's collabs",
+    "by the numbers"
+   ]
+  },
+  {
+   "type": "title",
+   "p": 55,
+   "chapter": "Recap",
+   "kicker": "QUICK RECAP",
+   "lines": [
+    "v43.11 · Golden Week",
+    "17 collabs"
+   ]
+  },
+  {
+   "type": "code",
+   "p": 58
+  }
+ ]
+}
